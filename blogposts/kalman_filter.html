@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Understanding the Kalman Filter for Beginners</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the Kalman Filter, its applications in engineering and robotics, and how it works.">
+    <meta name="keywords" content="Kalman Filter, estimation, robotics, signal processing, control systems, engineering">
+    <meta name="author" content="Santosh Rajkumar">
+    <link rel="shortcut icon" href="favicon.ico"> 
+
+    <!-- Prism.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-3.css">
+
+    <style>
+        pre {
+            background: #f0f0f0;
+            border: 1px solid #444;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        .highlyt {
+            background: #f0f0f0;
+            border: 1px solid #444;
+        }
+        .collapsible {
+            background-color: #f1f1f1;
+            color: #444444;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #ccc;
+        }
+
+        .content {
+            display: none;
+            overflow: hidden;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head> 
+
+<body>
+
+    <header class="header text-center">	    
+        <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Santosh Rajkumar -  সন্তোষ ৰাজকুমাৰ</a></h1>
+    </header>
+    
+    <div class="main-wrapper">
+        <article class="blog-post px-3 py-5 p-md-5">
+            <div class="container">
+                <header class="blog-post-header">
+                    <h2 class="title mb-2">Understanding the Kalman Filter</h2>
+                    <div class="meta mb-3"><span class="date">09/29/2023</span></div>
+                </header>
+                
+                <div class="blog-post-body">
+                    <p>The Kalman Filter is a powerful mathematical tool used in various fields, particularly in engineering, robotics, and signal processing. It provides estimates of unknown variables based on noisy observations, making it invaluable for systems that require accurate tracking and prediction.</p>
+
+                    <h3>Some Preliminaries</h3>
+                    <button class="collapsible">Expand Section</button>
+                    <div class="content">
+                        <p>
+                            <b>Sample Space:</b> A sample space is the set of all possible outcomes of a random experiment or process.
+                            A sample space can be:
+                            <ul>
+                                <li>
+                                    <b>A Discrete Sample Space:</b> Contains a finite or countable number of outcomes. 
+                                    For example, when flipping a coin, the sample space is \( S=\{ H, T\} \).
+                                </li>
+                                <li>
+                                    <b>Continuous Sample Space:</b> Contains an uncountable number of outcomes, often represented by intervals of real numbers.
+                                    For example, measuring the height of individuals results in a sample space \( S=[0,\infty) \).
+                                </li>
+                            </ul>
+                        </p>
+                        <p>     
+                            <b>Random Variable:</b> A random variable is a function that assigns a numerical value to each outcome in a sample space of a random experiment.
+                            For example, \( X(t) \) can be a random variable giving the location of a moving car at any time  \( t \). They can be discrete or continuous
+                            based on the nature of the sample space.
+                        </p>
+                        <p>
+                            <b>Cumulative Distribution Function (CDF):</b>  is a function that describes the probability that a random variable \( X \)
+                            takes on a value less than or equal to a specific value \( x \). It represents the cumulative probability of \( X \) for all
+                            events up to and including \( x \). The CDF \( F_X (x) \) for a random variable \( X \) is defined as,
+                            \[ F_X (x) = \mathbb{P} (X \leq x) \]
+
+                            Some important properties of CDF are,
+                            <ul>
+                                <li> \( F_x(x) \to 0 \) as \( x \to -\infty \)</li>
+                                <li> \( F_x(x) \to 1 \) as \( x \to +\infty \)</li>
+                                <li> \( F_x(x) \) is a non-decreasing function of \( x \)</li>
+                            </ul>
+                        </p>
+                        <p>
+                            <b>Probability Density Function (PDF):</b> A PDF \( f_X (x) \) of a random variable \( X \) provides the likelihood of \( X \) taking
+                            on the value \( x \). The PDF doesn't give the exact probability for a particular value (since the probability of any single point in 
+                            a continuous distribution is zero), but rather indicates the relative likelihood of the variable being near a given value.
+                            The key properties of a PDF are:
+                            <ul>
+                                <li>Relation to CDF:
+                                    \[  f_X (x) = \frac{d}{dx} F_X(x), \]
+                                    \[ F_X(x) = \int_{-\infty}^x f_X(x)dx. \]
+                                </li>
+                                <li> \( f_X(x) \geq 0\) for all \( x \).</li>
+                                <li>The area under a PDF curve is 1, i.e., \( \int_{-\infty}^{\infty} f_X(x)dx = 1 \)</li>
+                                <li>The probability of \( X \) taking on values in an interval \( [a,b] \) is \( \mathbb{P}(a \leq X \leq b) = \int_a^b f_X(x)dx \).</li>
+                            </ul>
+                            In a discrete probability distribution, the equivalent concept to the PDF in continuous distributions is the
+                            <b>Probability Mass Function (PMF)</b> denoted as \( P_X (x) \). Consider the example of rolling a fair 6-sided die,
+                            where the sample space is \( S =  \{ 1,2,3,4,5,6 \} \). Here, \( P_X (x) = \frac{1}{6} \) for all 
+                            \( x \in S \).
+                        </p>
+                        <p>
+                            <b>Expectation / Expected Value of a Random Variable:</b> The expected value (or expectation) of a random variable represents
+                            the average or central value one would expect if an experiment is repeated many times. For a discrete random  variable \( X \), 
+                            the expected value is defined as,
+                            \[ \mathbb{E}(X) = \sum_i x_i P_X(x_i). \]
+                            Similarly, for a continuous random variable \( X \), 
+                            the expected value is defined as,
+                            \[  \mathbb{E}(X) = \int_{-\infty}^{\infty} x f_X(x)dx. \]
+                            We can follow the same procedure for any function \( g (X) \) of the random variable as,
+                            \[ \mathbb{E}(g(X)) = \sum_i g(x_i) P_X(x_i) \text{ , or  } \mathbb{E}(g(X)) = \int_{-\infty}^{\infty} g(x) f_X(x)dx. \]
+
+                            Some properties of expectation:
+                            \[ \text{ Linearily: }\mathbb{E} (aX+bY) = a\mathbb{E}(X) +b \mathbb{E}(Y) \]
+                            \[ \text{ For independent random variables: }\mathbb{E} (XY) = \mathbb{E}(X) \mathbb{E}(Y) \]
+                        </p>
+                        <p>
+                            <b>Variance:</b> The variance of a random variable is defined as the expected value of the squared deviations from the central value or mean. 
+                            Mathematically,
+                            \[ \operatorname{Var}(X) = \mathbb{E}\bigg(\big ( X - \mathbb{E}(X) \big)^2 \bigg) = \mathbb{E}(X^2)- \big( \mathbb{E}(X) \big)^2.\]
+                            The standard deviation is simply, \( \sigma = \sqrt{ \operatorname{Var}(X)}.\)
+                        </p>
+                        <p>
+                            <b>Covariance:</b> The covariance of two random variables measures how much the two variables change together. 
+                            It indicates the direction of the linear relationship between them. The covariance of two random variables \( X \) and \(Y\)
+                            is defined as,
+                            \[
+                                \text{Cov}(X, Y) = \mathbb{E}\left[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])\right] = 
+                                \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]
+                            \]
+                            We can interpret covariance as:
+                            <ul>
+                                <li>Positive covariance: Indicates that as one variable increases, the other tends to increase as well.</li>
+                                <li>Negative covariance: Indicates that as one variable increases, the other tends to decrease.</li>
+                                <li>Zero covariance: Indicates that the variables do not exhibit any linear relationship or they are independent.</li>
+                            </ul>
+
+                        </p>
+                        <p>
+                            <b>Gaussian Random Variable:</b> A Gaussian random variable, also known as a normal random variable, is a random variable that follows a Gaussian (normal) distribution.
+                             This distribution is characterized by its symmetric, bell-shaped curve, which is defined by two parameters: the mean \( \mu \) and variance \( \sigma^2 \) 
+                             or standard deviation \( \sigma \). Mathematically, a Gaussian random variable \( X \) is denoted as \( X \sim \mathcal{N}(\mu,\sigma^2)\).
+                        </p>
+
+                        <p>
+                            <b>Gaussian Random Variable with Covariance: </b> When discussing a Gaussian random variable in the context of covariance, we're typically referring 
+                            to multivariate Gaussian distributions, where multiple random variables are considered simultaneously. These random variables can be correlated, 
+                            and their relationship is captured using a covariance matrix. Consider a vector of Gaussian random variables 
+                            \( \mathbf{X} = [X_1,X_2,\dots,X_n]^T \). The mean vector is defined as,
+                            \[ 
+                            \boldsymbol{\mu} = \begin{bmatrix}
+                            \mathbb{E}[X_1] &
+                            \mathbb{E}[X_2] &
+                            \vdots &
+                            \mathbb{E}[X_n]
+                            \end{bmatrix}^T.
+                            \]
+                            
+                            The covariance matrix \( \boldsymbol{\Sigma} \) is defined as,
+                            \[
+                            \boldsymbol{\Sigma} = \begin{bmatrix}
+                                \text{Var}(X_1) & \text{Cov}(X_1, X_2) & \cdots & \text{Cov}(X_1, X_n) \\
+                                \text{Cov}(X_2, X_1) & \text{Var}(X_2) & \cdots & \text{Cov}(X_2, X_n) \\
+                                \vdots & \vdots & \ddots & \vdots \\
+                                \text{Cov}(X_n, X_1) & \text{Cov}(X_n, X_2) & \cdots & \text{Var}(X_n)
+                                \end{bmatrix}.
+                            \]
+
+                        </p>
+                    </div> <!-- End of content -->
+                    
+                    <h3>The Mathematical Problem Addressed by the Kalman Filter</h3>
+                    <p>
+                        Consider a dicrete-time LTI system
+                   
+                       \[ \mathbf{x}_{k+1} = \mathbf{A} \mathbf{x}_{k} + \mathbf{B} \mathbf{u}_{k} + \mathbf{w}_{k} \]
+                       \[
+                            \mathbf{y}_{k} = \mathbf{C} \mathbf{x}_{k} + \mathbf{v}_{k}
+                        \]
+                        Where:
+                        <ul>
+                            <li> \( \mathbf{x}_{k} \in \mathbb{R}^n\) is the state at time step \( k \).</li>
+                            <li> \( \mathbf{A} \in \mathbb{R}^{n\times n}\) is the system matrix.</li>
+                            <li> \( \mathbf{B} \in \mathbb{R}^{n\times m} \) is the control input matrix.</li>
+                            <li> \( \mathbf{u}_{k} \in \mathbb{R}^m\) is the control input.</li>
+                            <li> \( \mathbf{y}_{k} \in \mathbb{R}^p\) is the measured output.</li>
+                            <li> \( \mathbf{w}_{k} \in \mathbb{R}^n\) is the process noise.</li>
+                            <li> \( \mathbf{v}_{k} \in \mathbb{R}^p\)  is the measurement noise.</li>
+                        </ul>
+                        The Kalman filter uses the noisy output \( \mathbf{y}_{k} \) of the dynamical system with the input info \(\mathbf{u}_{k}\)
+                        to estimate the state \( \mathbf{x}_{k+1} \) at atime instant \( k \). It keeps on doing so without increasing the complexity
+                        as time progresses. 
+                    </p>
+
+                    <h3>Assumptions</h3>
+
+                    Following are the assumptions:
+
+                    <ul>
+                        <li>The initial state \( \mathbf{x}_0 \) is a Guassian random variable with known distribution \( 
+                            \mathcal{N}(\boldsymbol{\mu}_0,\boldsymbol{\Sigma}_0)\).</li>
+                        <li>The process and measurement noise are also Gaussian random variables with zero mean and known covariances, 
+                            i.e., \( \mathbf{w}_{k} \sim \mathcal{N}(\mathbf{0},\boldsymbol{\Sigma}_{w_k}), 
+                            \mathbf{v}_{k} \sim \mathcal{N}(\mathbf{0},\boldsymbol{\Sigma}_{v_k}) \).</li>
+                        <li>Intial state, process noise, and measurement noise are all mutually independent, i.e.,
+                            \( x_{1_0}, \dots, x_{n_0}, w_1,\dots,w_n, v_1,\dots, v_p \) are all mutually independent. This gives  the following results,
+                            \[ 
+                            \boldsymbol{\Sigma}_{w_k}  = \mathbb{E}\big( \mathbf{w}_{k_i} \mathbf{w}_{k_j}^T  \big)
+                              = \begin{cases} 
+                             \sigma^2_{w_{k_i}} & \text{for } i=j \\ 
+                             0 & \text{for } i \neq j 
+                            \end{cases} 
+                             \]
+
+                             \[ 
+                             \boldsymbol{\Sigma}_{v_k} = \mathbb{E}\big( \mathbf{v}_{k_i} \mathbf{v}_{k_j}^T  \big)
+                              = \begin{cases} 
+                            \sigma^2_{v_{k_i}} & \text{for } i=j \\ 
+                            \mathbf{0} & \text{for } i \neq j 
+                            \end{cases} 
+                             \]
+
+                             \[ \boldsymbol{\Sigma}_{wv_k}  = \mathbb{E}\big( \mathbf{w}_{k_i} \mathbf{v}_{k_j}^T  \big) = \mathbf{0} \text{  for all } i,j \]
+                        
+                             If we assume the same variance for the process and measurement noise at all time steps, the covariances will be
+                             constant matrices for them given as,
+
+                             \[ \mathbf{Q} = \boldsymbol{\Sigma}_{w}, \mathbf{R} = \boldsymbol{\Sigma}_{v} .\]
+
+                        
+                        </li>
+                        <li>At any time step \( k \), the state is a Gaussian random variable, i.e., 
+                            \( \mathbf{x}_k  \sim \mathcal{N}(\boldsymbol{\mu}_k,\boldsymbol{\Sigma}_k)\). Therefore, the estimated state
+                            \( \hat{\mathbf{x}}_k=\mathbb{E}(\mathbf{x}_k) \approx \boldsymbol{\mu}_k \).
+                        </li>
+                    </ul>
+
+                    <h3>The Kalman Filter Algorithm</h3>
+                    <p>
+                        The Kalman filter estimates the states using a two step process:
+                        <ol>
+                            <li>
+                                <b>The Prediction or Time-Update Step: </b> This step is responsible for projecting the current state and error
+                                covariance forward in time, as <i>a priori</i> estimates for the next time step.
+                            
+                            </li>
+                            <li>
+                                <b>The Correction or Measurement-Update Step: </b> This step adjusts the predicted estimate of the current time step using
+                                the measurement at that time. This step is like a feedback for the <i>a priori</i> estimate to obtain an improved 
+                                <i>a posteriori</i> estimate.
+                            </li>
+                        </ol>
+                        Consider \( \hat{\mathbf{x}}_k^- \) and \( \boldsymbol{\Sigma}_k^- \) be <i>a priori</i> estimates of the state and the error covariance,
+                        respectively, based on <i>a posteriori</i> estimates \( \hat{\mathbf{x}}_{k-1} \) and \( \boldsymbol{\Sigma}_k \) for the previous time step.
+                        From now on, the hat will denote an estimate and the super minus will denote the estimate prior to the incorporation of measurement or the 
+                        measurement update.
+                    </p>
+                    <h4>The Prediction or Time-Update Step</h4>
+                    <p>
+                        The equations for the prediction step are given as,
+                        <div class="highlyt">
+                            \[   \begin{align}
+                            \hat{\mathbf{x}}_k^- &= \mathbf{A}\hat{\mathbf{x}}_{k-1} + \mathbf{Bu}_k\\
+                            \boldsymbol{\Sigma}_k^- &= \mathbf{A}\boldsymbol{\Sigma}_{k-1}\mathbf{A}^T + \mathbf{Q}_k.
+                            \end{align} \tag{1}
+                             \]
+                        </div>
+                    </p>
+
+                    <h4>The Prediction or Time-Update Step</h4>
+                    <p>
+                        With a prior estimates \( \hat{\mathbf{x}}_k^- \) and \( \boldsymbol{\Sigma}_k^- \), we seek to improve the estimated state
+                        using the measured output \( \mathbf{y}_k \). The difference between the measured output and the estimated output using the a priori estimate is
+                        referred to as the residual or the <i>measurement innovation</i>, given as,
+                        \[  \mathcal{E}_k = \mathbf{y}_k - \hat{\mathbf{y}}_k^- = \mathbf{y}_k - \mathbf{C}\hat{\mathbf{x}}_k^- =
+                         \mathbf{C}(\mathbf{x}_k-\hat{\mathbf{x}}_k^-)+ \mathbf{v}_k. \tag{2}\]
+                        
+                        The innovation term \( \mathcal{E}_k \) is the discrepency between the predicted measurement and the actual measurement. We use a linear blending
+                        of \( \mathcal{E}_k \) to the prior state estimate using a gain called <b>Kalman Gain</b> denoted as, \( \mathbf{L}_k \in \mathbb{R}^{n \times p} \).
+                        The equations for the prediction step are given as,
+                        <div class="highlyt">
+                            \[ 
+                            \begin{align}
+                                \hat{\mathbf{x}}_k &= \hat{\mathbf{x}}_k^- + \mathbf{L}_k \mathcal{E}_k \\
+                                \boldsymbol{\Sigma}_k &= (\mathbf{I}-\mathbf{L}_k \mathbf{C})\boldsymbol{\Sigma}_k^-.
+                            \end{align}\ \tag{3} \]
+                           
+                        </div>
+                        <br>
+                        
+                        The Kalman gain is computed as,
+                        
+                        <br>
+
+                        <div class="highlyt">
+                            \[ 
+                            \mathbf{L}_k = \boldsymbol{\Sigma}_k^- \mathbf{C}^T \big( \mathbf{C}\boldsymbol{\Sigma}_k^- \mathbf{C}^T + \mathbf{R}_k \big)^{-1}
+                            \tag{4}\]
+                        </div>
+                    </p>
+
+                
+                <h3>MATLAB Implementation</h3>
+
+                Consider an LTI system as written below,
+
+                    <pre><code class="language-matlab">
+%% The Discrete time System - A Mass Spring Damper Model
+
+% system parameters
+m = 1;
+k = 10;
+b = 0.2;
+
+% State-space model matrices 
+A = [0 1; -k/m -b/m];
+B = [0 1/m]';
+C = [1 0];
+D = [0];
+
+% Continuous time state-space model
+sys_cont=ss(A,B,C,D);
+
+% Time step for discretization
+dt = 0.001;                  
+
+
+% Discrete time State Space Model
+sys = c2d(sys_cont, dt);  % State-space system (discrete-time)
+[Ad,Bd,Cd,~]=ssdata(sys); % extract the discrete time matrices
+% # of states
+n=length(Ad);
+% # of inputs
+m=size(Bd,2);
+% # of outputs
+p = length(Cd*ones(n,1));
+                    </code></pre>
+                    <p>The predicted state and uncertainty are given by:</p>
+                    <div class="math">
+                        $$ \hat{x}_k = A \hat{x}_{k-1} + B u_k $$
+                    </div>
+                    <div class="math">
+                        $$ P_k = A P_{k-1} A^T + Q $$
+                    </div>
+
+                    <h3>Update Step</h3>
+                    <pre><code class="language-matlab">
+% Update Step
+K = P_pred * H' * inv(H * P_pred * H' + R); % Kalman Gain
+x_updated = x_pred + K * (z - H * x_pred); % State update
+P_updated = (I - K * H) * P_pred; % Uncertainty update
+                    </code></pre>
+                    <p>In the update step, the Kalman Gain \( K \) is calculated as:</p>
+                    <div class="math">
+                        $$ K = P_{k|k-1} H^T (H P_{k|k-1} H^T + R)^{-1} $$
+                    </div>
+                    <p>And the updated state and uncertainty are:</p>
+                    <div class="math">
+                        $$ \hat{x}_k = \hat{x}_{k|k-1} + K (z_k - H \hat{x}_{k|k-1}) $$
+                    </div>
+                    <div class="math">
+                        $$ P_k = (I - K H) P_{k|k-1} $$
+                    </div>
+
+                    <h3>Applications of the Kalman Filter</h3>
+                    <ul>
+                        <li>Robotics: For position and velocity estimation</li>
+                        <li>Navigation: In GPS and inertial navigation systems</li>
+                        <li>Signal Processing: For noise reduction in signals</li>
+                    </ul>
+
+                    <h3>Conclusion</h3>
+                    <p>Understanding the Kalman Filter is essential for anyone involved in engineering, robotics, or any field that relies on data estimation and prediction. Its ability to provide accurate results in the presence of uncertainty makes it a critical tool in modern technology.</p>
+                </div>
+            </div><!--//container-->
+        </article>
+        
+        <footer class="footer text-center py-2 theme-bg-dark">
+            <small class="copyright">&copy; Santosh Rajkumar 2023</small>
+        </footer>
+    </div><!--//main-wrapper-->
+
+    <!-- Prism.js JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-matlab.min.js"></script>
+    
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script>
+        // JavaScript to handle collapsible functionality
+        var coll = document.getElementsByClassName("collapsible");
+        for (let i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
