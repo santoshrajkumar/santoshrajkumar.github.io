@@ -1,0 +1,8 @@
+@article{liu2021hercules,
+  title     = {The role of the hercules autonomous vehicle during the {COVID-19} pandemic: An autonomous logistic vehicle for contactless goods transportation},
+  author    = {Liu, Tianyu and Liao, Qinghai and Gan, Lu and Ma, Fulong and Cheng, Jie and Xie, Xupeng and Wang, Zhe and Chen, Yingbing and Zhu, Yilong and Zhang, Shuyang and Chen, Zhengyong and Liu, Yang and Xie, Meng and Yu, Yang and Guo, Zitong and Li, Guang and Yuan, Peidong and Han, Dong and Chen, Yuying and Ye, Haoyang and Jiao, Jianhao and Yun, Peng and Xu, Zhenhua and Wang, Hengli and Huang, Huaiyang and Wang, Sukai and Cai, Peide and Sun, Yuxiang and Liu, Yandong and Wang, Lujia and Liu, Ming},
+  journal   = {IEEE Robotics and Automation Magazine},
+  year      = {2021},
+  publisher = {IEEE},
+  doi       = {10.1109/MRA.2020.3045040}
+}

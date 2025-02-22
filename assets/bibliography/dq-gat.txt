@@ -1,0 +1,6 @@
+@article{ai2021dqgat,
+  title={DQ-GAT: Towards Safe and Efficient Autonomous Driving with Deep Q-Learning and Graph Attention Networks},
+  author={Cai, Peide and Wang, Hengli and Sun, Yuxiang and Liu, Ming},
+  journal={arXiv preprint arXiv:2108.05030},
+  year={2021}
+}

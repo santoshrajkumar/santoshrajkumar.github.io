@@ -1,0 +1,8 @@
+@article{wang2021pvstereo,
+  title     = {{PVStereo}: Pyramid voting module for end-to-end self-supervised stereo matching},
+  author    = {Wang, Hengli and Fan, Rui and Cai, Peide and Liu, Ming},
+  journal   = {IEEE Robotics and Automation Letters},
+  year      = {2021},
+  publisher = {IEEE},
+  doi       = {10.1109/LRA.2021.3068108}
+}

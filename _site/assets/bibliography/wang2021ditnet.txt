@@ -1,0 +1,8 @@
+@article{Wang2021DiTNetE3,
+  title={DiTNet: End-to-End 3D Object Detection and Track ID Assignment in Spatio-Temporal World},
+  author={Sukai Wang and Peide Cai and Lujia Wang and Meilin Liu},
+  journal={IEEE Robotics and Automation Letters},
+  year={2021},
+  volume={6},
+  pages={3397-3404}
+}

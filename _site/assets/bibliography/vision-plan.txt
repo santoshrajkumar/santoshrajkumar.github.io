@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Cai2019Vision,
+  author={Cai, Peide and Sun, Yuxiang and Chen, Yuying and Liu, Ming},
+  booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, 
+  title={Vision-Based Trajectory Planning via Imitation Learning for Autonomous Vehicles}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={2736-2742},
+  doi={10.1109/ITSC.2019.8917149}}

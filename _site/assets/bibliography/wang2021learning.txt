@@ -1,0 +1,7 @@
+@inproceedings{wang2021learning,
+  title        = {Learning interpretable end-to-end vision-based motion planning for autonomous driving with optical flow distillation},
+  author       = {Wang, Hengli and Cai, Peide and Sun, Yuxiang and Wang, Lujia and Liu, Ming},
+  booktitle    = {IEEE International Conference on Robotics and Automation},
+  year         = {2021},
+  organization = {IEEE}
+}

@@ -1,0 +1,7 @@
+@inproceedings{wang2021end,
+  title     = {End-to-end interactive prediction and planning with optical flow distillation for autonomous driving},
+  author    = {Wang, Hengli and Cai, Peide and Fan, Rui and Sun, Yuxiang and Liu, Ming},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages     = {2229--2238},
+  year      = {2021}
+}

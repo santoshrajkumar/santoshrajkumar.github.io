@@ -1,0 +1,8 @@
+@inproceedings{fan2020sne,
+  title        = {{SNE-RoadSeg}: Incorporating surface normal information into semantic segmentation for accurate freespace detection},
+  author       = {Fan, Rui and Wang, Hengli and Cai, Peide and Liu, Ming},
+  booktitle    = {European Conference on Computer Vision},
+  pages        = {340--356},
+  year         = {2020},
+  organization = {Springer}
+}

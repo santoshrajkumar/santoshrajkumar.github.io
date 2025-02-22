@@ -1,0 +1,8 @@
+@article{Cai2020ProbabilisticEV,
+  title={Probabilistic End-to-End Vehicle Navigation in Complex Dynamic Environments With Multimodal Sensor Fusion},
+  author={Peide Cai and Sukai Wang and Yuxiang Sun and M. Liu},
+  journal={IEEE Robotics and Automation Letters},
+  year={2020},
+  volume={5},
+  pages={4218-4224}
+}

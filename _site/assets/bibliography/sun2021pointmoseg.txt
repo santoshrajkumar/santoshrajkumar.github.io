@@ -1,0 +1,9 @@
+@ARTICLE{sun2021pointmoseg,  
+  author={Yuxiang Sun and Weixun Zuo and Huaiyang Huang and Peide Cai and Ming Liu}, 
+  journal={IEEE Robotics and Automation Letters}, 
+  title={PointMoSeg: Sparse Tensor-Based End-to-End Moving-Obstacle Segmentation in 3-D Lidar Point Clouds for Autonomous Driving}, 
+  year={2021},
+  volume={6},
+  number={2},
+  pages={510-517},
+  doi={10.1109/LRA.2020.3047783}}

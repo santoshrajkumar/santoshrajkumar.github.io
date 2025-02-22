@@ -1,0 +1,9 @@
+@inproceedings{wang2021sne,
+  title        = {{SNE-RoadSeg+}: Rethinking depth-normal translation and deep supervision for freespace detection},
+  author       = {Wang, Hengli and Fan, Rui and Cai, Peide and Liu, Ming},
+  booktitle    = {2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages        = {},
+  year         = {2021},
+  organization = {IEEE},
+  doi          = {}
+}
