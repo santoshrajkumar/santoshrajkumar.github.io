@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh M. Rajkumar - Curriculum Vitae</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="cv-stylesheet.css" rel="stylesheet">
+    <style>
+        .cv-awards {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 10px;
+        }
+
+        .cv-awards li {
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .exp-ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .exp-ul li {
+            margin-bottom: 6px;
+        }
+
+        .exp-sub-ul {
+            padding-left: 20px;
+            margin-top: 5px;
+            list-style-type: circle;
+        }
+
+        .cv-capsule-link {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin-left: 5px;
+        }
+
+        .cv-capsule-link:hover {
+            opacity: 0.8;
+            color: white;
+        }
+
+        .cv-capsule-paper {
+            background-color: #4CAF50;
+        }
+
+        .cv-capsule-preprint {
+            background-color: #2196F3;
+        }
+
+        .cv-capsule-code {
+            background-color: #f44336;
+        }
+
+        .cv-capsule-cite {
+            background-color: #ff9800;
+            /* Orange for Cite */
+        }
+
+        .cv-collapse-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin-top: 10px;
+            padding: 0 16px;
+            text-align: left;
+            font-size: 0.85em;
+        }
+
+        .cv-collapse-content.visible {
+            max-height: 500px;
+            padding: 16px;
+            border: 1px solid #eee;
+            margin-bottom: 20px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="max-width: 900px; margin: 0 auto;">
+        <a href="../../index.html" class="back-link"><i class="fa fa-arrow-left"></i> Back to Home</a>
+    </div>
+
+    <div class="cv-container">
+        <div class="header">
+            <h1>Santosh M. Rajkumar</h1>
+            <h2>Ph.D. Student in Mechanical Engineering, The Ohio State University</h2>
+            <div class="contact-info">
+                <a href="mailto:rajkumar.36@osu.edu"><i class="fa fa-envelope"></i> rajkumar.36@osu.edu</a>
+                <a href="https://santoshrajkumar.github.io"><i class="fa fa-globe"></i> santoshrajkumar.github.io</a>
+                <a href="https://scholar.google.com/citations?user=DdHzxE4AAAAJ&hl=en"><i
+                        class="fa fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://github.com/santoshrajkumar"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="../../Data/CV_2026.pdf"><i class="fa fa-file-pdf"></i> PDF</a>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-graduation-cap"></i> Education</div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">The Ohio State University, Columbus, OH</div>
+                        <div class="item-date">Aug 2023 &ndash; Present</div>
+                    </div>
+                    <div class="item-subtitle">Ph.D. in Mechanical Engineering (GPA: 4.0/4.0)</div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Miami University, Oxford, OH</div>
+                        <div class="item-date">Jan 2021 &ndash; Jun 2023</div>
+                    </div>
+                    <div class="item-subtitle">Master of Science in Mechanical Engineering (GPA: 4.0/4.0)</div>
+                    <div class="item-body">
+                        <p>Thesis: Haptic Rendering in Touch Surfaces Using Multifrequency Electrostatic Actuation.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">National Institute of Technology Silchar, India</div>
+                        <div class="item-date">Aug 2013 &ndash; May 2017</div>
+                    </div>
+                    <div class="item-subtitle">Bachelor of Technology in Electrical Engineering</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-book"></i> Publications</div>
+                <div class="item-body">
+                    <ul class="cv-awards">
+                        <li> [ <strong>IEEE RA-L</strong> ]: Real-Time Linear MPC for Quadrotors on SE (3): An
+                            Analytical Koopman-Based Realization <br>
+                            <strong>S. M. Rajkumar</strong>, C. Yang, Y. Gu, S. Cheng, N. Hovakimyan, D. Goswami (2025)
+                            <a href="https://ieeexplore.ieee.org/abstract/document/11218816"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-ral25')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-ral25" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+@article{rajkumar2025real,
+  title={Real-Time Linear MPC for Quadrotors on SE (3): An Analytical Koopman-Based Realization},
+  author={Rajkumar, Santosh Mohan and Yang, Chengyu and Gu, Yuliang and Cheng, Sheng and Hovakimyan, Naira and Goswami, Debdipta},
+  journal={IEEE Robotics and Automation Letters},
+  volume={10},
+  number={12},
+  pages={13018--13025},
+  year={2025},
+  publisher={Institute of Electrical and Electronics Engineers Inc.}
+}
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>IEEE Access</strong> ]: Modeling and Experimental Evaluation of Haptic
+                            Localization Using Electrostatic Vibration Actuators <br>
+                            <strong>S. M. Rajkumar</strong>, K. V. Singh, T. H. Yang, J. H. Koo (2023) <a
+                                href="https://ieeexplore.ieee.org/abstract/document/10049531"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-access23')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-access23" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- access23.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>IJCAS</strong> ]: Online Delay Estimation and Adaptive Compensation in Wireless
+                            Networked Systems: An Embedded Control Design <br>
+                            <strong>S. M. Rajkumar</strong>, S. Chakraborty, R. Dey, D. Deb (2020) <a
+                                href="https://link.springer.com/article/10.1007/s12555-018-0612-x"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-ijcas20')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-ijcas20" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- ijcas20.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>AIAA SCITECH</strong> ]: Data-Driven Output Regulation From Partial Noisy
+                            Measurements: An Adaptive Dynamic Programming Approach <br>
+                            <strong>S. M. Rajkumar</strong>, D. Goswami (2026) <a
+                                href="https://arc.aiaa.org/doi/abs/10.2514/6.2026-0994"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-scitech26')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-scitech26" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- scitech26.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>ASME IDETC-CIE</strong> ]: Modeling and Analysis of a Thin Plate with Multiple
+                            Harmonic Excitations for Vibrotactile Touch Display Applications <br>
+                            <strong>S. M. Rajkumar</strong>, K. V. Singh, J. H. Koo, T. H. Yang (2023) <a
+                                href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2023/87400/1170861"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-idetc23')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-idetc23" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- idetc23.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>ASME IMECE</strong> ]: Modeling and Analysis of Multiple Electrostatic Actuators
+                            on a Vibrotactile Haptic Device <br>
+                            <strong>S. M. Rajkumar</strong>, K. V. Singh, J. H. Koo (2022) <a
+                                href="https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2022/V001T01A004/1156727"
+                                class="cv-capsule-link cv-capsule-paper">Paper</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-imece22')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-imece22" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- imece22.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                        <li> [ <strong>Under Review</strong> ]: Geometry-Preserving Analytical Koopman Linearization of
+                            Mobile Robots on SE(2) <br>
+                            <strong>S. M. Rajkumar</strong>, D. Goswami (2026)
+                        </li>
+                        <li> [ <strong>arXiv Preprint</strong> ]: Effect of Infill Pattern and Build Orientation on
+                            Mechanical Properties of FDM Printed Parts: An Experimental Modal Analysis Approach <br>
+                            <strong>S. Rajkumar</strong> (2022) <a href="https://arxiv.org/abs/2202.05692"
+                                class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                            <a href="javascript:void(0)" onclick="toggleBib('bib-arxiv22')"
+                                class="cv-capsule-link cv-capsule-cite">Cite</a>
+                            <div id="bib-arxiv22" class="cv-collapse-content">
+                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
+<!-- arxiv22.bib not yet found in Data/bib/ -->
+</pre>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-briefcase"></i> Experience</div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">SOAR Lab, The Ohio State University</div>
+                        <div class="item-date">Aug 2023 &ndash; Present</div>
+                    </div>
+                    <div class="item-subtitle">Graduate Research Associate</div>
+                    <div class="item-body">
+                        <ul class="exp-ul">
+                            <li><strong>Koopman-based Data-Free Real-Time Model Predictive Control (MPC) for
+                                    Quadrotors</strong>
+                                <ul class="exp-sub-ul">
+                                    <li>Developed an analytical Koopman-lifted model for quadrotor dynamics that
+                                        preserves control input dimension.</li>
+                                    <li>Achieved over 100% improvement in translational motion prediction accuracy with
+                                        a 26% reduction in lifted state dimension compared to state-of-the-art methods.
+                                    </li>
+                                    <li>Introduced KQ-LMPC, the first analytically derived Koopman-based linear MPC
+                                        framework for quadrotor control.</li>
+                                    <li>Demonstrated tracking performance comparable to nonlinear MPC with ~ 2&ndash;4x
+                                        reduction in computation time.</li>
+                                    <li>Experimentally validated on a quadrotor platform (Jetson NX + PX4 + Vicon) <a
+                                            href="https://soarpapers.github.io/"
+                                            class="cv-capsule-link cv-capsule-paper">Video Demo</a>.</li>
+                                    <li>Developed open source Python Package for KQ-LPMC: <a
+                                            href="https://github.com/santoshrajkumar/kq-lmpc-quadrotor"
+                                            class="cv-capsule-link cv-capsule-code">GitHub Repo</a> <a
+                                            href="https://pypi.org/project/kq-lmpc-quadrotor/"
+                                            class="cv-capsule-link cv-capsule-code">PyPi Python Package</a>.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data-Driven Dynamics Learning from Noisy Partial Measurements for Output
+                                    Regulation</strong>
+                                <ul class="exp-sub-ul">
+                                    <li>Developed a Koopman bilinear model with a neural decoder (KBM-NL), formulated as
+                                        a Hidden Markov Model for robustness to noise and partial observability.</li>
+                                    <li>Designed a customized neural Expectation&ndash;Maximization (EM) algorithm to
+                                        jointly identify the KBM-NL dynamics and latent inference distribution from
+                                        noisy, actuated trajectories.</li>
+                                    <li>Achieved output regulation via MPC constructed on the learned KBM-NL surrogate
+                                        model.</li>
+                                    <li>Demonstrated superior prediction accuracy and stability on Duffing oscillator
+                                        benchmarks, with strong generalization to unseen trajectories.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Output Regulation under Noisy Partial Observations using Adaptive Dynamic
+                                    Programming (ADP)</strong>
+                                <ul class="exp-sub-ul">
+                                    <li>Eliminated need for belief, observer, or model knowledge, enabling model-free
+                                        output-feedback control for non-linear systems.</li>
+                                    <li>Designed a critic-only ADP algorithm using a Lyapunov&ndash;based Q-function for
+                                        optimal control learning.</li>
+                                    <li>Introduced a persistence-of-excitation mechanism via learned derivative
+                                        feedback, without an initial stabilizing controller.</li>
+                                    <li>Enforced closed-loop stability during learning using Lyapunov-constrained
+                                        temporal-difference (TD) learning.</li>
+                                    <li>Developed a stable on-policy value iteration scheme with no replay memory or
+                                        large basis functions.</li>
+                                    <li>Demonstrated output regulation on a cart-pole system.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Singh Research Group, Miami University</div>
+                        <div class="item-date">Aug 2021 &ndash; May 2023</div>
+                    </div>
+                    <div class="item-subtitle">Graduate Research Assistant</div>
+                    <div class="item-body">
+                        <ul class="exp-ul">
+                            <li>Developed in-house finite element (FE) models for large-area touch displays (1D bar
+                                &amp; 2D plate) with spring&ndash;damper boundaries to study vibrotactile response and
+                                mode shaping.</li>
+                            <li>Designed a multifrequency excitation strategy using Electrostatic Resonant Actuators
+                                (ERAs) to achieve localized haptic rendering with minimal actuator hardware.</li>
+                            <li>Fabricated working prototypes and validated FE predictions experimentally using
+                                vibration analysis with &gt; 90% agreement.</li>
+                            <li>Proposed an energy-based control strategy to position and steer localized haptic
+                                feedback across arbitrary surface locations.</li>
+                            <li>Optimized actuator placement and boundary compliance to enhance elimination of haptic
+                                &ldquo;dead zones.&rdquo;</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Indian Oil Corporation Limited</div>
+                        <div class="item-date">Jun 2017 &ndash; Dec 2020</div>
+                    </div>
+                    <div class="item-subtitle">Senior Engineer</div>
+                    <div class="item-body">
+                        <ul class="exp-ul">
+                            <li>Maintained automation and electrical systems in critical petroleum installations.</li>
+                            <li>Applied vibration-based monitoring on rotating machinery.</li>
+                            <li>Led vision-based robotic inspections of storage facilities.</li>
+                            <li>Developed web applications (JS, Python, AWS) and managed vendor negotiations and
+                                SAP-based acquisitions.</li>
+                            <li>Trained large industrial workforces in safety procedures.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-trophy"></i> Selected Awards</div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Summer Research Fellowship, Miami University</div>
+                        <div class="item-date">2022, 2023</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">GSSA Award, Miami University</div>
+                        <div class="item-date">2021 &ndash; 2023</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Best Departmental Undergraduate Thesis Award</div>
+                        <div class="item-date">2017</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-code"></i> Skills &amp; Expertise</div>
+                <div class="skills-container">
+                    <span class="skill-tag">MATLAB</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">R</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Simulink</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">CasADi</span>
+                    <span class="skill-tag">acados</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">HTML5 / CSS3</span>
+                    <span class="skill-tag">VueJS</span>
+                    <span class="skill-tag">ROS2</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleBib(id) {
+            var bibDiv = document.getElementById(id);
+            bibDiv.classList.toggle("visible");
+        }
+    </script>
+</body>
+
+</html>
