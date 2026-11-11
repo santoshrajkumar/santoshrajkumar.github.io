@@ -193,7 +193,9 @@
  },
  "1126": {
   "arxiv": "2607.20822",
-  "code": []
+  "code": [
+   "https://github.com/sreejeetm1729/Robust-Asynchronous-Q-Learning-under-Reward-and-State-Corruption-via-Batching"
+  ]
  },
  "1129": {
   "arxiv": "2607.18965",
@@ -1661,7 +1663,9 @@
  },
  "2237": {
   "arxiv": "2603.18333",
-  "code": []
+  "code": [
+   "https://github.com/emcramer/tmelandscape"
+  ]
  },
  "2238": {
   "arxiv": "2603.14942",
@@ -1943,7 +1947,9 @@
  },
  "2404": {
   "arxiv": "2603.20455",
-  "code": []
+  "code": [
+   "https://github.com/YuhangMeiUW/BSDE-Gradient"
+  ]
  },
  "2408": {
   "arxiv": "2603.17401",
@@ -2474,6 +2480,12 @@
  "369": {
   "arxiv": "2606.05840",
   "code": []
+ },
+ "38": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/syedapasha/GC-BHE"
+  ]
  },
  "382": {
   "arxiv": "2604.19014",
