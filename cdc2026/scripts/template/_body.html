@@ -105,6 +105,7 @@
       <select id="tk" aria-label="Number of closest papers"><option value="50">50</option><option value="100" selected>100</option><option value="200">200</option></select>
       <span>closest papers</span>
       <label><input type="checkbox" id="tonly"> technical papers only</label>
+      <label><input type="checkbox" id="tlinks"> with arXiv or code only</label>
     </div>
     <div class="status" id="tstatus" role="status"></div>
     <div class="results" id="tres"></div>
@@ -143,6 +144,7 @@
       <li><b>Names</b> are normalized with a hand-checked table of about 560 institutions plus rules for typos and abbreviations ("Georgia Inst. of Tech" → Georgia Institute of Technology). Joint affiliations such as "Université Paris-Saclay, CNRS, CentraleSupélec" count for each institution named. Tokyo Tech is merged into Institute of Science Tokyo, NREL is listed under its new name. "Northeastern University" is almost entirely the Boston university, but a few authors may be from Northeastern University in Shenyang.</li>
       <li><b>Research areas</b> come from the official CDC keywords chosen by the authors (167 keywords, grouped by hand into 16 areas). A paper goes to the area its keywords point to most, with the first keyword weighted highest. The few entries without keywords (plenaries, workshops, some tutorials) are placed by their 15 nearest papers in meaning.</li>
       <li><b>Topic search</b> runs entirely in your browser: your text is embedded with bge-small-en-v1.5 (downloaded once, about 33 MB) and compared with every paper's title and abstract. Nothing you type is sent anywhere. If the model can't load, the page falls back to keyword matching on titles.</li>
+      <li><b>arXiv and code links</b> (<span class="nax"></span> technical papers on arXiv, <span class="ncode"></span> with code) were found automatically. A paper is linked to arXiv only when an arXiv entry has a near-identical title and at least one shared author surname. Code links come from GitHub or GitLab URLs in the arXiv abstract or comments, and from GitHub repositories whose README names the paper's title or arXiv ID. Papers that are not on arXiv have no preprint link; ResearchGate could not be searched automatically.</li>
       <li><b>Industry vs academia:</b> companies and corporate labs (MERL, Amazon, Bosch, …) are industry. Universities, government and national labs (AFRL, Los Alamos, NASA) and public institutes (CNRS, Inria, CNR) are academia.</li>
       <li><b>Authors</b> are grouped by their PaperPlaza author ID, as in the official author index. Two IDs with the same name and a shared institution are treated as one person. Names and affiliations are as printed in the public program. <a href="cdc2026_institutions.csv" download>Download the institution table (CSV)</a>.</li>
       <li id="fix">Spotted a wrong mapping? Corrections are welcome.</li>
@@ -202,6 +204,8 @@
   /* ---------- static text ---------- */
   document.querySelectorAll('.snap').forEach(s => s.textContent = M.snapshot);
   document.querySelectorAll('.ntech').forEach(s => s.textContent = fmt(N));
+  document.querySelectorAll('.nax').forEach(s => s.textContent = fmt(M.with_arxiv || 0));
+  document.querySelectorAll('.ncode').forEach(s => s.textContent = fmt(M.with_code || 0));
   $('#instSub').textContent = `${fmt(N)} papers in technical sessions · ${fmt(M.institutions)} institutions from ${M.countries.length} countries · rank, paper count and research-area mix for each.`;
   $('#stats').replaceChildren(
     el('div', {}, [el('b', { text: fmt(N) }), el('span', { text: 'technical papers' })]),
@@ -257,7 +261,7 @@
     });
     return papersReady;
   }
-  // row: [title, insts, area, anchor, session, code, keywords, technical, authors, time]
+  // row: [title, insts, area, anchor, session, code, keywords, technical, authors, time, arXiv id, [code urls]]
   // session: [code, title, day, time, room, type, dayNumber, [[author, role]], anchor]
   // author: [name 'Last, First', PaperPlaza id, affiliation as printed, [institution idx]]
   const showName = (n) => { const i = n.indexOf(', '); return i < 0 ? n : n.slice(i + 2) + ' ' + n.slice(0, i); };
@@ -273,6 +277,8 @@
         sim != null ? el('span', { className: 'sim', text: `match ${(sim * 100).toFixed(0)}` }) : null,
         showArea ? el('span', { className: 'ar' }, [el('i', { style: `background:${A[r[2]].color}` }), document.createTextNode(A[r[2]].short)]) : null,
         TYPE_LABEL[s[5]] ? el('span', { className: 'tagt', text: TYPE_LABEL[s[5]] }) : null,
+        r[10] ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${r[10]}`, target: '_blank', rel: 'noopener', title: `arXiv:${r[10]}`, text: 'arXiv' }) : null,
+        ...(r[11] || []).map(u => el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u, text: /gitlab/i.test(u) ? 'GitLab' : 'GitHub' })),
         el('span', { className: 'ses', title: s[1], text: `📍 ${r[5]} · ${s[2]} ${s[3]} · ${s[4]}` }),
         ...others.slice(0, 6).map(k => instChip(k)),
         others.length > 6 ? el('span', { className: 'sim', text: `+${others.length - 6} more` }) : null,
@@ -629,7 +635,8 @@
   }
   function renderTopic(text, sims, mode) {
     const K = +$('#tk').value, only = $('#tonly').checked;
-    const pool = Array.from(sims.keys()).filter(i => !only || P[i][7]);
+    const withLinks = $('#tlinks').checked;
+    const pool = Array.from(sims.keys()).filter(i => (!only || P[i][7]) && (!withLinks || P[i][10] || (P[i][11] || []).length));
     const idx = pool.sort((a, b) => sims[b] - sims[a]).slice(0, K).filter(i => mode === 'semantic' || sims[i] > 0);
     const cnt = new Map(), wsum = new Map(), ccnt = new Map();
     let withInd = 0; const areaCnt = new Array(A.length).fill(0);
@@ -662,7 +669,7 @@
     $('#tres').replaceChildren(
       el('div', { className: 'summary' }, [
         el('div', { className: 'big' }, [document.createTextNode('Who works on '), el('span', { className: 'q', text: `“${shortQ}”` })]),
-        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} ${only ? 'technical papers' : 'papers and talks'} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common area: ${A[topArea].name}` }),
+        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} ${only ? 'technical papers' : 'papers and talks'}${withLinks ? ' with arXiv or code' : ''} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common area: ${A[topArea].name}` }),
         ...areaBar(areaCnt, A.map((_, i) => i), `Research areas of these ${idx.length} papers`),
         comps.length ? el('div', { className: 'complist' }, [el('span', { text: 'Companies among them:' }), ...comps.slice(0, 10).map(k => { const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b; })]) : null,
         el('div', { className: 'share' }, [
@@ -689,6 +696,7 @@
   $('#tq').addEventListener('focus', () => { ensurePapers(); warmModel(); }, { once: true });
   $('#tk').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
   $('#tonly').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  $('#tlinks').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
   document.querySelectorAll('#tex button').forEach(b => b.addEventListener('click', () => { $('#tq').value = b.dataset.t; runTopic(b.dataset.t); }));
   const PLENARY = "__PLENARY__";
   $('#texPaper').addEventListener('click', () => { $('#tq').value = PLENARY; runTopic(PLENARY); });

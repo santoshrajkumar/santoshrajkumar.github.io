@@ -37,5 +37,12 @@ span.chip.ia { cursor: default; color: var(--muted); }
 .credit a { color: var(--faint); }
 .ghlink { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
 .ghlink .gh { width: 15px; height: 15px; }
+.paper .lnk { font-size: 12px; font-weight: 700; border-radius: 6px; padding: 2px 7px; text-decoration: none; }
+.paper .lnk::after { content: ' ↗'; }
+.paper .lnk.ax { color: #b31b1b; background: #fde8e8; }
+.paper .lnk.code { color: #24292f; background: #eaeef2; }
+:root[data-theme="dark"] .paper .lnk.ax { background: #3b1414; color: #fca5a5; }
+:root[data-theme="dark"] .paper .lnk.code { background: #1f2937; color: #e5e7eb; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .paper .lnk.ax { background: #3b1414; color: #fca5a5; } :root:not([data-theme="light"]) .paper .lnk.code { background: #1f2937; color: #e5e7eb; } }
 </style>
 </head>

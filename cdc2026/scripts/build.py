@@ -15,6 +15,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from institutions import resolve, RULES  # noqa: E402
 
 src, site = Path(sys.argv[1]), Path(sys.argv[2])
+# optional: {paper id: {"arxiv": "2604.03086", "code": [urls]}} from scripts/links/
+LINKS = json.loads(Path(sys.argv[3]).read_text()) if len(sys.argv) > 3 else {}
 site.mkdir(parents=True, exist_ok=True)
 D = json.loads(src.read_text())
 SES, PAP = D['sessions'], D['papers']
@@ -193,6 +195,8 @@ meta = {
     'where': 'Honolulu, HI, USA', 'when': 'December 15–18, 2026', 'track': 'Technical sessions',
     'papers': len(tech), 'all': len(PAP), 'institutions': len(ranked), 'sessions': sum(1 for s in SES if s['type'] in TECH),
     'authors': len({a[2] for p in tech for a in p['authors']}), 'snapshot': SNAPSHOT, 'program': PROGRAM,
+    'with_arxiv': sum(1 for p in tech if LINKS.get(p['id'], {}).get('arxiv')),
+    'with_code': sum(1 for p in tech if LINKS.get(p['id'], {}).get('code')),
     'industry_share': round(sum(1 for p in tech if any(info[n][1] == 'I' for n in p['insts'])) / len(tech), 4),
     'countries': [[c, COUNTRY.get(c, c), n] for c, n in countries.most_common()],
     'areas': [{'name': a[0], 'short': a[1], 'color': a[2], 'total': area_tot[i], 'keywords': a[3]} for i, a in enumerate(AREAS)],
@@ -258,7 +262,8 @@ rows = []
 for p in PAP:
     s = SES[p['session']]
     rows.append([p['title'], [IDX[n] for n in p['insts']], p['area'], p['anchor'], SI[p['session']], p['code'],
-                 [KI[k] for k in p['keywords']], 1 if s['type'] in TECH else 0, [AI[a[2]] for a in p['authors']], p['time']])
+                 [KI[k] for k in p['keywords']], 1 if s['type'] in TECH else 0, [AI[a[2]] for a in p['authors']], p['time'],
+                 LINKS.get(p['id'], {}).get('arxiv') or '', LINKS.get(p['id'], {}).get('code') or []])
 (site / 'papers.js').write_text('window.PAPERS=' + json.dumps({
     'n': len(rows), 'dim': int(E.shape[1]), 'model': 'Xenova/bge-small-en-v1.5', 'types': TYPES,
     'keywords': KWS, 'sessions': ses_rows, 'authors': AUTH, 'rows': rows}, ensure_ascii=False, separators=(',', ':')) + ';\n')
