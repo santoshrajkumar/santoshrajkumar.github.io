@@ -10,7 +10,7 @@ css = css.replace('--accent: #4f46e5;', '--accent: #0f766e;').replace('--accent:
 body = (T / '_body.html').read_text()
 h = lambda f: hashlib.sha1((site / f).read_bytes()).hexdigest()[:10]
 d = json.loads(src.read_text())
-pl = next(p for p in d['papers'] if p['code'] == 'TuPL.1')
+pl = next(p for p in d['papers'] if p['code'] == 'TuAT1.3')  # example paper on the Topics page
 body = body.replace('__IMGVER__', h('assets/poster.png')).replace('__DVER__', h('data.js')).replace('__PVER__', hashlib.sha1((site / 'papers.js').read_bytes() + (site / 'papers.bin').read_bytes()).hexdigest()[:10])
 body = body.replace('"__PLENARY__"', json.dumps(pl['title'] + '. ' + pl['abstract'], ensure_ascii=False).replace('</', '<\\/'))
 (site / 'index.html').write_text((T / '_head.html').read_text() + css + (T / '_extra.css').read_text() + body)

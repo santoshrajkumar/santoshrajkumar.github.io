@@ -52,7 +52,7 @@
     "name": "Santosh Rajkumar",
     "givenName": "Santosh Mohan",
     "familyName": "Rajkumar",
-    "jobTitle": "Ph.D. Student",
+    "jobTitle": "Ph.D. Candidate",
     "workLocation": {
       "@type": "Place",
       "name": "Columbus, Ohio"
@@ -93,10 +93,11 @@
                     Santosh Rajkumar
                   </p>
                   <p>
-                    I am a PhD student in <a href="https://mae.osu.edu/">Mechanical Engineering</a> at
+                    I am a PhD candidate in <a href="https://mae.osu.edu/">Mechanical Engineering</a> at
                     <a href="https://www.osu.edu/">The Ohio State University</a>, working at the intersection of
                     control theory, robotics, and machine learning.
-                    I am advised by <a href="https://mae.osu.edu/people/goswami.78">Dr. Debdipta Goswami</a>.
+                    I am advised by <a href="https://people.engineering.osu.edu/people/stockar.1">Dr. Stephanie Stockar</a>.
+                    Previously, I was advised by <a href="https://mae.osu.edu/people/goswami.78">Dr. Debdipta Goswami</a>.
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:rajkumar.36@osu.edu">Email</a> &nbsp;/&nbsp;
@@ -109,7 +110,7 @@
                     <a href="https://github.com/santoshrajkumar">Github</a>
                   </p>
                   <div id="bio-content" class="collapse-content">
-                    Santosh Rajkumar is a PhD student in
+                    Santosh Rajkumar is a PhD candidate in
                     <a href="https://mae.osu.edu/">Mechanical Engineering</a> at
                     <a href="https://www.osu.edu/">The Ohio State University</a>.
                     He received his MS in Mechanical Engineering from
@@ -152,7 +153,13 @@
                     <div id="news-list" class="news-collapse">
                       <ul style="margin-top: 10px;">
 
-                        <li><strong>Sep 2026:</strong> 1-paper got accepeted in NeurIPS 2026 on World Models.
+                        <li><strong>Nov 2026:</strong> <a href="https://santoshrajkumar.github.io/cdc2026">IEEE CDC 2026
+                            Explorer</a> is live: search the 1,573 CDC papers by institution, topic, or author, with each
+                          paper's session, time, and room in Honolulu.
+                        </li>
+
+                        <li><strong>Sep 2026:</strong> <em>K-PWM: Probabilistic Bilinear World Model</em> got accepted to the NeurIPS 2026 main track.
+                          <a href="https://www.researchgate.net/publication/417607372_K-PWM_Control-Oriented_Structured_Bilinear_World_Models_under_Partial_Observation">Preprint</a>.
                         </li>
 
                         <li><strong>Jul 2026:</strong> 2-papers got accepeted in IEEE CDC 2026.
@@ -216,10 +223,13 @@
                 <td style="padding:16px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
                   <p>
-                    I am interested in robotics, control theory, and machine learning for dynamical systems. My work
-                    develops explainable, structured,
-                    and learning-based models of complex nonlinear systems to enable reliable prediction,
-                    estimation, and real-time model predictive control in robotic systems.
+                    <strong>Physical AI:</strong> Data-efficient, physics-structured world models; learning and state
+                    estimation under partial observation; uncertainty-aware robot planning.
+                  </p>
+                  <p>
+                    <strong>Robotics and Control:</strong> Real-time model predictive control, robot learning,
+                    safety-critical control, Koopman representations, geometry-aware modeling, GPU-accelerated
+                    optimization, and low-latency solvers for robotic systems.
                   </p>
                 </td>
               </tr>
@@ -229,24 +239,131 @@
             style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()"
+              <tr onmouseout="hoverImage('kpwm_image', false)" onmouseover="hoverImage('kpwm_image', true)"
                 style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='radmesh_image'>
+                    <div class="two" id='kpwm_image'>
+                      <img src='Data/PartialObs/kpwm_panda.gif' width=100% alt="K-PWM uncertainty-aware MPPI tracking a circle with the Franka Panda in MuJoCo">
+                    </div>
+                    <img src='Data/PartialObs/kpwm_mujoco.png' width=100% alt="MuJoCo Menagerie robots: Franka Panda, TIAGo++, ALOHA 2, Allegro Hand">
+                  </div>
+                  <script type="text/javascript">
+                    function hoverImage(id, on) {
+                      document.getElementById(id).style.opacity = on ? "1" : "0";
+                    }
+                    hoverImage('kpwm_image', false)
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2611.11521">
+                    <span class="papertitle">K-PWM: Control-Oriented Structured Bilinear World Models under Partial
+                      Observation</span>
+                  </a>
+                  <br>
+                  <strong>Santosh M. Rajkumar</strong>,
+                  <a href="https://piyushmehta.faculty.wvu.edu/group/sriram-narayanan">Sriram Narayanan</a>,
+                  <a href="https://www.duffield.cornell.edu/people/sam-otto/">Samuel E. Otto</a>,
+                  <a href="https://mae.osu.edu/people/goswami.78">Debdipta Goswami</a>
+                  <br>
+                  <em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2026
+                  <br>
+                  <a href="https://github.com/santoshrajkumar/k-pwm-world-model-control"
+                    class="cv-capsule-link cv-capsule-code"><i class="fab fa-github"></i> Code*</a>
+                  <a href="https://arxiv.org/abs/2611.11521"
+                    class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                  <a href="javascript:void(0)" onclick="toggleBib('bib-neurips26')"
+                    class="cv-capsule-link cv-capsule-cite">Cite</a>
+                  <div id="bib-neurips26" class="cv-collapse-content">
+                    <pre style="margin: 0; font-family: monospace; white-space: pre-wrap; font-size: 13px;">
+@misc{rajkumar2026kpwm,
+  title={K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation},
+  author={Rajkumar, Santosh Mohan and Narayanan, Sriram and Otto, Samuel E. and Goswami, Debdipta},
+  year={2026},
+  eprint={2611.11521},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2611.11521}
+}
+</pre>
+                  </div>
+                  <p></p>
+                  <p>
+                    Probabilistic world model coupling Koopman-bilinear latent dynamics with a nonlinear decoder and
+                    model-induced inference, without a separately trained inference network. Trained by GECM with
+                    closed-form updates and a Koopman-consistent initialization that selects the latent dimension from
+                    data; integrated with uncertainty-aware MPPI control on MuJoCo systems and robots.
+                  </p>
+                  <p style="font-size: 13px; color: #666;">* Code will be available very soon.</p>
+                </td>
+              </tr>
+
+              <tr onmouseout="hoverImage('fameqp_image', false)" onmouseover="hoverImage('fameqp_image', true)"
+                style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='fameqp_image'>
+                      <img src='Data/FAMEQP/fameqp_robots.gif' width=100% alt="FAME-QP in the MPC loop: Unitree G1 humanoid recovering from a push, and Skydio X2 quadrotor tracking a lemniscate, in MuJoCo">
+                    </div>
+                    <img src='Data/FAMEQP/fameqp_benchmark.png' width=100% alt="Median solve time of FAME-QP versus GPU and CPU QP solvers">
+                  </div>
+                  <script type="text/javascript">
+                    hoverImage('fameqp_image', false)
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2611.13766">
+                    <span class="papertitle">FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model
+                      Predictive Control</span>
+                  </a>
+                  <br>
+                  <strong>Santosh M. Rajkumar</strong>,
+                  <a href="https://mae.osu.edu/people/goswami.78">Debdipta Goswami</a>,
+                  <a href="https://people.engineering.osu.edu/people/stockar.1">Stephanie Stockar</a>
+                  <br>
+                  <em>Under Review</em>
+                  <br>
+                  <a href="https://github.com/santoshrajkumar/fame-qp"
+                    class="cv-capsule-link cv-capsule-code"><i class="fab fa-github"></i> Code*</a>
+                  <a href="https://arxiv.org/abs/2611.13766"
+                    class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                  <a href="javascript:void(0)" onclick="toggleBib('bib-fameqp26')"
+                    class="cv-capsule-link cv-capsule-cite">Cite</a>
+                  <div id="bib-fameqp26" class="cv-collapse-content">
+                    <pre style="margin: 0; font-family: monospace; white-space: pre-wrap; font-size: 13px;">
+@misc{rajkumar2026fameqp,
+  title={FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control},
+  author={Rajkumar, Santosh Mohan and Goswami, Debdipta and Stockar, Stephanie},
+  year={2026},
+  eprint={2611.13766},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2611.13766}
+}
+</pre>
+                  </div>
+                  <p></p>
+                  <p>
+                    GPU solver for dense quadratic programs in linear MPC, combining constraint-dependent operators with
+                    fused kernels replayed through CUDA graphs and lazy operator updates when problem matrices change.
+                    Lower latency than competing GPU solvers at matched accuracy, demonstrated on humanoid and quadrotor
+                    control.
+                  </p>
+                  <p style="font-size: 13px; color: #666;">* Code to be released very soon.</p>
+                </td>
+              </tr>
+
+              <tr onmouseout="hoverImage('quad_image', false)" onmouseover="hoverImage('quad_image', true)"
+                style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='quad_image'>
                       <img src='Data/QuadKoop/media/dg2.gif' width=100%>
                     </div>
                     <img src='Data/QuadKoop/media/drop.png' width=100%>
                   </div>
                   <script type="text/javascript">
-                    function radmesh_start() {
-                      document.getElementById('radmesh_image').style.opacity = "1";
-                    }
-
-                    function radmesh_stop() {
-                      document.getElementById('radmesh_image').style.opacity = "0";
-                    }
-                    radmesh_stop()
+                    hoverImage('quad_image', false)
                   </script>
                 </td>
                 <td style="padding:8px;width:80%;vertical-align:middle">
@@ -296,24 +413,74 @@
                 </td>
               </tr>
 
-              <tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()"
+              <tr onmouseout="hoverImage('dde_image', false)" onmouseover="hoverImage('dde_image', true)"
                 style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='radmesh_image'>
+                    <div class="two" id='dde_image'>
+                      <img src='Data/DDE-EDMD/dde.png' width=100%>
+                    </div>
+                    <img src='Data/DDE-EDMD/dde.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    hoverImage('dde_image', false)
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2604.03086">
+                    <span class="papertitle">On Data-Driven Koopman Representations of Nonlinear Delay Differential
+                      Equations</span>
+                  </a>
+                  <br>
+                  <strong>Santosh M. Rajkumar</strong>,
+                  Dibyasri Barman,
+                  Kumar Vikram Singh,
+                  <a href="https://mae.osu.edu/people/goswami.78">Debdipta Goswami</a>
+                  <br>
+                  <em>IEEE Conference on Decision and Control (CDC)</em>, 2026
+                  <br>
+                  <a href="https://github.com/santoshrajkumar/koopman-dde-kEDMD"
+                    class="cv-capsule-link cv-capsule-code"><i class="fab fa-github"></i> Code</a>
+                  <a href="https://arxiv.org/abs/2604.03086"
+                    class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                  <a href="javascript:void(0)" onclick="toggleBib('bib-cdc26')"
+                    class="cv-capsule-link cv-capsule-cite">Cite</a>
+                  <div id="bib-cdc26" class="cv-collapse-content">
+                    <pre style="margin: 0; font-family: monospace; white-space: pre-wrap; font-size: 13px;">
+@misc{rajkumar2026datadriven,
+  title={On Data-Driven Koopman Representations of Nonlinear Delay Differential Equations},
+  author={Rajkumar, Santosh Mohan and Barman, Dibyasri and Singh, Kumar Vikram and Goswami, Debdipta},
+  year={2026},
+  eprint={2604.03086},
+  archivePrefix={arXiv},
+  primaryClass={eess.SY},
+  url={https://arxiv.org/abs/2604.03086}
+}
+</pre>
+                  </div>
+                  <p></p>
+                  <p>
+                    Finite-dimensional Koopman representation of infinite-dimensional nonlinear delay differential
+                    equations, built from history discretization and kernel-based extended dynamic mode decomposition
+                    (kEDMD).
+                    Deterministic error bounds separate the contributions of history discretization, kernel
+                    interpolation, and data-driven regression, and a kernel-based reconstruction recovers the
+                    discretized states from the lifted Koopman coordinates with provable guarantees.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="hoverImage('wmr_image', false)" onmouseover="hoverImage('wmr_image', true)"
+                style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='wmr_image'>
                       <img src='Data/WMRKoop/wmr.png' width=100%>
                     </div>
                     <img src='Data/WMRKoop/wmr.png' width=100%>
                   </div>
                   <script type="text/javascript">
-                    function radmesh_start() {
-                      document.getElementById('radmesh_image').style.opacity = "1";
-                    }
-
-                    function radmesh_stop() {
-                      document.getElementById('radmesh_image').style.opacity = "0";
-                    }
-                    radmesh_stop()
+                    hoverImage('wmr_image', false)
                   </script>
                 </td>
                 <td style="padding:8px;width:80%;vertical-align:middle">
@@ -335,86 +502,8 @@
               </tr>
 
 
-              <tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()"
-                style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
-                <td style="padding:16px;width:20%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='radmesh_image'>
-                      <img src='Data/PartialObs/KBm.png' width=100%>
-                    </div>
-                    <img src='Data/PartialObs/KBm.png' width=100%>
-                  </div>
-                  <script type="text/javascript">
-                    function radmesh_start() {
-                      document.getElementById('radmesh_image').style.opacity = "1";
-                    }
-
-                    function radmesh_stop() {
-                      document.getElementById('radmesh_image').style.opacity = "0";
-                    }
-                    radmesh_stop()
-                  </script>
-                </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
-                  <a href="#">
-                    <span class="papertitle">Learning Nonlinear Dynamics with Partial
-                      Observations: Koopman Bilinear Approach with Neural Expectation Maximization</span>
-                  </a>
-                  <br>
-                  <strong>Santosh Sajkumar</strong>,
-                  <a href="https://piyushmehta.faculty.wvu.edu/group/sriram-narayanan">Sriram Narayanan</a>,
-                  <a href="https://www.duffield.cornell.edu/people/sam-otto/">Sameul E. Otto</a>,
-                  <a href="https://mae.osu.edu/people/goswami.78">Debdipta Goswami</a>
-                  <br>
-                  <em>ACC 2025 late-breaking news poster</em> (Manuscript Under preparation)
-                  <p></p>
-                  <p>
-                    Learning Koopman Bilinear Surrogate of unknown nonlinear systems from actuated partially observed
-                    trajectories using Neural Expectation-Maximization for reliable prediction and Model
-                    Predictive Control (MPC)
-                    for output regulation.
-                  </p>
-                </td>
-              </tr>
 
 
-              <tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()"
-                style="border-radius: 12px; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); display: table-row;">
-                <td style="padding:16px;width:20%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='radmesh_image'>
-                      <img src='Data/DDE-EDMD/dde.png' width=100%>
-                    </div>
-                    <img src='Data/DDE-EDMD/dde.png' width=100%>
-                  </div>
-                  <script type="text/javascript">
-                    function radmesh_start() {
-                      document.getElementById('radmesh_image').style.opacity = "1";
-                    }
-
-                    function radmesh_stop() {
-                      document.getElementById('radmesh_image').style.opacity = "0";
-                    }
-                    radmesh_stop()
-                  </script>
-                </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
-                  <a href="#">
-                    <span class="papertitle">Data-Driven Koopman Learning for Nonlinear Time-Delayed Systems</span>
-                  </a>
-                  <br>
-                  <strong>Santosh Sajkumar</strong>,
-                  <a href="https://mae.osu.edu/people/goswami.78">Debdipta Goswami</a>
-                  <br>
-                  <!-- <em>Under Review</em> -->
-                  <p></p>
-                  <p>
-                    Data-driven Koopman approach for infinite dimensional time-delayed systems governed by nonlinear
-                    retarded
-                    delay differential euqations with provable error bounds.
-                  </p>
-                </td>
-              </tr>
             </tbody>
           </table>
 
@@ -464,9 +553,8 @@
                   </div>
                 </td>
                 <td style="padding:8px;width:80%;vertical-align:center">
-                  <strong>Article Reviewer:</strong> American Control Conference, IFAC World Congress, IEEE ICRA, IEEE
-                  IROS,
-                  IEEE RA-L.
+                  <strong>Article Reviewer:</strong> ICLR, WACV, IEEE ICRA, IEEE RA-L, IEEE CDC, American Control
+                  Conference (ACC), IFAC World Congress, Indian Control Conference.
                 </td>
               </tr>
 
