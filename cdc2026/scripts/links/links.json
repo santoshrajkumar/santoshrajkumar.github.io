@@ -199,7 +199,9 @@
  },
  "1129": {
   "arxiv": "2607.18965",
-  "code": []
+  "code": [
+   "https://github.com/mattrufolo/VAE-sysid-neural-manifold"
+  ]
  },
  "1135": {
   "arxiv": "2511.08992",
@@ -223,7 +225,9 @@
  },
  "1147": {
   "arxiv": "2604.01539",
-  "code": []
+  "code": [
+   "https://github.com/mlab-upenn/Step-MPPI"
+  ]
  },
  "1149": {
   "arxiv": "2604.00564",
@@ -273,7 +277,9 @@
  },
  "1202": {
   "arxiv": "2603.24748",
-  "code": []
+  "code": [
+   "https://github.com/amanucha/rotorpy_coordination"
+  ]
  },
  "1203": {
   "arxiv": "2604.05140",
@@ -285,7 +291,9 @@
  },
  "1214": {
   "arxiv": "2604.02939",
-  "code": []
+  "code": [
+   "https://github.com/eadietri/ISViableSets_CDC"
+  ]
  },
  "1215": {
   "arxiv": "2609.28082",
@@ -611,7 +619,10 @@
  },
  "1437": {
   "arxiv": "2604.01373",
-  "code": []
+  "code": [
+   "https://github.com/XiuzhenYe/Dissipativity-Learning-of-Nonlinear-Systems-A-Linear--Radial-Kernel-based-Approach",
+   "https://github.com/XiuzhenYe/Koopman-Modeling-and-Controller-Synthesis-for-Bilinear-Systems-on-Reproducing-Kernel-Hilbert-Space"
+  ]
  },
  "1439": {
   "arxiv": "2611.03346",
@@ -897,7 +908,9 @@
  },
  "1630": {
   "arxiv": "2609.36712",
-  "code": []
+  "code": [
+   "https://github.com/jarbelaiz/active-learning-dynamics"
+  ]
  },
  "1642": {
   "arxiv": "2609.14778",
@@ -1179,7 +1192,9 @@
  },
  "1861": {
   "arxiv": "2604.17213",
-  "code": []
+  "code": [
+   "https://github.com/JeanLew01/Nonparameric_Hamiltonian_Systems"
+  ]
  },
  "1863": {
   "arxiv": "2609.23878",
@@ -1269,7 +1284,9 @@
  },
  "1926": {
   "arxiv": "2604.03405",
-  "code": []
+  "code": [
+   "https://github.com/kosmicplane/Safety-Contingency-Certificates"
+  ]
  },
  "1928": {
   "arxiv": "2608.07908",
@@ -1305,11 +1322,15 @@
  },
  "1958": {
   "arxiv": "2607.01203",
-  "code": []
+  "code": [
+   "https://github.com/trustworthyrobotics/linearization_error"
+  ]
  },
  "1959": {
   "arxiv": "2609.12679",
-  "code": []
+  "code": [
+   "https://github.com/atefeh-mobr/personalized-trust-aware-health-recommender"
+  ]
  },
  "1960": {
   "arxiv": "2604.02260",
@@ -1321,7 +1342,9 @@
  },
  "1964": {
   "arxiv": "2609.08436",
-  "code": []
+  "code": [
+   "https://github.com/AayushmanSharma96/Active-Flow-Control"
+  ]
  },
  "1965": {
   "arxiv": "2608.00327",
@@ -1341,7 +1364,9 @@
  },
  "1971": {
   "arxiv": "2609.27244",
-  "code": []
+  "code": [
+   "https://github.com/omwright/bnn-smoother"
+  ]
  },
  "1976": {
   "arxiv": "2605.06630",
@@ -1449,7 +1474,9 @@
  },
  "2057": {
   "arxiv": "2608.14925",
-  "code": []
+  "code": [
+   "https://github.com/afleck18/NonlinearObserverAnalysis"
+  ]
  },
  "2067": {
   "arxiv": "2609.21966",
@@ -1519,6 +1546,12 @@
   "arxiv": "2605.04917",
   "code": [
    "https://github.com/NEAR-the-future/RC-Koopman"
+  ]
+ },
+ "2122": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/nicola-bastianello/open-admm"
   ]
  },
  "2131": {
@@ -1749,7 +1782,8 @@
  "2263": {
   "arxiv": "2603.29658",
   "code": [
-   "https://github.com/SOLARIS-JHU/SCORE"
+   "https://github.com/SOLARIS-JHU/SCORE",
+   "https://github.com/SOLARIS-JHU/score-website"
   ]
  },
  "2265": {
@@ -1811,7 +1845,9 @@
  },
  "2319": {
   "arxiv": "2603.29119",
-  "code": []
+  "code": [
+   "https://github.com/lukebhan/NeuralOperatorPredictorsForSampledMeasurements"
+  ]
  },
  "2324": {
   "arxiv": "2608.07108",
@@ -2050,7 +2086,9 @@
  },
  "2505": {
   "arxiv": "2603.17134",
-  "code": []
+  "code": [
+   "https://github.com/cal-research/Neural-NPV-Control"
+  ]
  },
  "2507": {
   "arxiv": "2603.18364",
@@ -2200,6 +2238,12 @@
   "arxiv": "2603.20819",
   "code": []
  },
+ "2581": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/mirceasusca/lcss-2026-quantization"
+  ]
+ },
  "2583": {
   "arxiv": "2608.24019",
   "code": [
@@ -2245,7 +2289,9 @@
  },
  "2600": {
   "arxiv": "2505.09067",
-  "code": []
+  "code": [
+   "https://github.com/UCSD-SASLab/Infinite-Horizon-Reach-and-Stabilize-Avoid"
+  ]
  },
  "2601": {
   "arxiv": "2603.17225",
@@ -2261,7 +2307,9 @@
  },
  "2606": {
   "arxiv": "2505.19517",
-  "code": []
+  "code": [
+   "https://github.com/pvangoor/synchronous_VAA"
+  ]
  },
  "2607": {
   "arxiv": "2408.16899",
@@ -2327,7 +2375,9 @@
  },
  "2630": {
   "arxiv": "2505.18008",
-  "code": []
+  "code": [
+   "https://github.com/todejong/Deep-Operator-Neural-Network-Model-Predictive-Control"
+  ]
  },
  "2631": {
   "arxiv": "2408.11937",
@@ -2964,7 +3014,9 @@
  },
  "767": {
   "arxiv": "2607.14469",
-  "code": []
+  "code": [
+   "https://github.com/tobias-weiss-ai-xr/quantum-computing-research"
+  ]
  },
  "770": {
   "arxiv": "2602.13353",
@@ -3125,7 +3177,10 @@
  },
  "907": {
   "arxiv": "2604.13297",
-  "code": []
+  "code": [
+   "https://github.com/EasternBoy/Stability-Preserving-PHS",
+   "https://github.com/NamNguyenee2/NamNguyenee2.github.io"
+  ]
  },
  "909": {
   "arxiv": "2604.02249",
