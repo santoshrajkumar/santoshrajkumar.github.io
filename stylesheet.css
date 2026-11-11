@@ -354,3 +354,26 @@ span.highlight {
   margin-bottom: 20px;
   overflow-x: auto;
 }
+/* Mobile layout: let long BibTeX lines wrap, and stack each project's image above its text */
+pre {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  tr[onmouseover] > td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .one {
+    margin: 0 auto;
+  }
+}
