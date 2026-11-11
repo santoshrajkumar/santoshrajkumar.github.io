@@ -69,7 +69,8 @@ for p in D['papers']:
         needles = [norm(title)] + ([aid.replace('.', ' ')] if aid else [])
         if norm(title) in norm(it.get('description') or '') or readme_has(it['full_name'], needles):
             repos.append(it['html_url'])
-    cache[key] = {'repos': repos, 'aid': aid}
+    prev = (cache.get(key) or {}).get('repos') or []            # keep earlier finds when re-searching by arXiv ID
+    cache[key] = {'repos': list(dict.fromkeys(prev + repos)), 'aid': aid}
     done += 1
     if done % 20 == 0:
         json.dump(cache, open(cache_path, 'w'))

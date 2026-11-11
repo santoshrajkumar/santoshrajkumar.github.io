@@ -371,7 +371,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
         <span class="go">Search authors →</span>
       </a>
     </div>
-    <img class="poster" src="assets/poster.png?v=26d65f7821" alt="CDC 2026 poster: top 10 institutions by number of papers, each with its leading research area" loading="lazy">
+    <img class="poster" src="assets/poster.png?v=c7210afcea" alt="CDC 2026 poster: top 10 institutions by number of papers, each with its leading research area" loading="lazy">
     <p class="homefoot">Data from the public <a href="https://css.paperplaza.net/conferences/conferences/CDC26/program/" rel="noopener">CDC 2026 program</a> on PaperPlaza · snapshot <span class="snap"></span><br><span class="unoff">Unofficial project, not affiliated with or endorsed by IEEE, the IEEE Control Systems Society or CDC.</span></p>
   </section>
 
@@ -492,13 +492,13 @@ span.chip.ia { cursor: default; color: var(--muted); }
 </div>
 <div class="toast" id="toast" role="status"></div>
 
-<script src="data.js?v=c42aada49b"></script>
+<script src="data.js?v=98fa4115cb"></script>
 <script>
 (() => {
   'use strict';
   const D = window.CDC, M = D.meta, A = M.areas, INST = D.inst, N = M.papers;
   const REPO_URL = '{{REPO_URL}}';
-  const PVER = '1cfe2af71f';
+  const PVER = '1f7822c9c2';
   const PROGRAM = M.program;
   const $ = (s) => document.querySelector(s);
   const el = (tag, props = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(props)) { if (v == null) continue; if (k === 'style') e.style.cssText = v; else if (k === 'text') e.textContent = v; else if (k.startsWith('data-') || k.startsWith('aria-') || k === 'role') e.setAttribute(k, v); else e[k] = v; } for (const c of [].concat(kids)) if (c != null) e.append(c); return e; };

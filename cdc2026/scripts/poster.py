@@ -37,7 +37,7 @@ def abbr(n):
 
 ranked = [x for x in INST if x['p']]
 top10 = [x for x in ranked if x['r'] <= 10]
-fig = plt.figure(figsize=(9, 12.6), dpi=130, facecolor='white')
+fig = plt.figure(figsize=(9, 12.6), dpi=300, facecolor='white')
 fig.text(0.06, 0.955, 'CDC 2026', fontsize=40, fontweight='bold', color='#0d9488')
 fig.text(0.42, 0.955, 'who presents what', fontsize=22, color=INK, va='baseline')
 fig.text(0.06, 0.928, f"65th IEEE Conference on Decision and Control · Honolulu · {M['when']}", fontsize=11.5, color=MUTED)
