@@ -1,0 +1,814 @@
+<body>
+<nav class="topbar" aria-label="Main">
+  <div class="in">
+    <a class="brand" href="#/" aria-label="Home"><span class="n">RA-L</span><span class="x">Explorer</span></a>
+    <div class="tabs">
+      <a href="#/institutions" data-tab="institutions">Institutions</a>
+      <a href="#/topics" data-tab="topics">Topics &amp; papers</a>
+      <a href="#/authors" data-tab="authors">Authors</a>
+      <a href="#/cited" data-tab="cited">Most cited</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <!-- ======================= HOME ======================= -->
+  <section class="view" id="v-home" aria-label="Home">
+    <div class="hero">
+      <p class="title"><span class="n">RA-L</span><br><span class="e">Explorer</span></p>
+      <p class="kick">An unofficial guide to IEEE Robotics and Automation Letters</p>
+      <p>Every RA-L paper since the journal began in 2016, early access included: who publishes, on what, and with whom. Three&nbsp;ways&nbsp;in:</p>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="doors">
+      <a class="door inst" href="#/institutions">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10 12 5l9 5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8"/><path d="M3 20h18"/></svg></span>
+        <h2>Find your institution</h2>
+        <p>Rank, paper count, research-area mix and papers per year for every university, lab and company in RA-L.</p>
+        <span class="eg">e.g. The Ohio State University · ETH Zurich</span>
+        <span class="go">Search institutions →</span>
+      </a>
+      <a class="door topic" href="#/topics">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><circle cx="11" cy="14" r="2.6"/><path d="m13 16 2 2"/></svg></span>
+        <h2>Search by topic or paper</h2>
+        <p>Type a topic or paste your abstract. See the closest RA-L papers, when they appeared, and who wrote them.</p>
+        <span class="eg">e.g. legged locomotion · visual-inertial odometry</span>
+        <span class="go">Search topics →</span>
+      </a>
+      <a class="door author" href="#/authors">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></span>
+        <h2>Search by author</h2>
+        <p>Find anyone's RA-L papers, newest first, with their research areas and co-authors.</p>
+        <span class="eg">e.g. __AUTHOR_EG__</span>
+        <span class="go">Search authors →</span>
+      </a>
+    </div>
+    <img class="poster" src="assets/poster.png?v=__IMGVER__" alt="RA-L poster: top 10 institutions by number of papers, each with its leading research area" loading="lazy">
+    <p class="citedgo"><a class="btn primary" href="#/cited">🏆 Look for the most cited papers →</a><br><span>Rank every RA-L paper by citations, by year, institution or research area</span></p>
+    <section class="topcited" aria-labelledby="tcH">
+      <h2 id="tcH">Most cited RA-L papers of all time</h2>
+      <p class="tcs">Citation counts from <a href="https://openalex.org/" rel="noopener">OpenAlex</a>, snapshot <span class="snap"></span>. Google Scholar counts are usually higher, IEEE Xplore's lower.</p>
+      <ol id="topCited"></ol>
+    </section>
+    <p class="homefoot">Data: paper metadata from <a href="https://www.crossref.org/" rel="noopener">Crossref</a> and <a href="https://openalex.org/" rel="noopener">OpenAlex</a> for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369" rel="noopener">IEEE Robotics and Automation Letters</a> · snapshot <span class="snap"></span><br><span class="unoff">Unofficial project, not affiliated with or endorsed by IEEE or the IEEE Robotics and Automation Society.</span></p>
+  </section>
+
+  <!-- ======================= INSTITUTIONS ======================= -->
+  <section class="view" id="v-institutions" aria-label="Institutions">
+    <h1 class="vt">Find your institution</h1>
+    <p class="vs" id="instSub"></p>
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="suggest" aria-expanded="false" id="combo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search a university, lab or company…" aria-label="Search institutions" aria-controls="suggest" aria-autocomplete="list">
+      <div class="suggest" id="suggest" role="listbox"></div>
+    </div>
+    <p class="hint">Try __INST_HINTS__</p>
+    <article class="card" id="card" aria-live="polite"></article>
+    <section class="table">
+      <h2>All institutions</h2>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Sector" id="instSeg">
+          <button data-sector="" aria-pressed="true">All</button>
+          <button data-sector="A" aria-pressed="false">Academia</button>
+          <button data-sector="I" aria-pressed="false">Industry</button>
+        </div>
+        <select id="year" aria-label="Filter by year"><option value="">All years</option></select>
+        <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
+        <select id="sortArea" aria-label="Rank by research area"><option value="">Rank by all papers</option></select>
+        <span class="count" id="count"></span>
+      </div>
+      <table>
+        <thead><tr><th class="r">#</th><th>Institution</th><th class="p">Papers</th><th class="pct">Share</th><th class="mix">Research-area mix</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <button class="btn more" id="more">Show 50 more</button>
+      <div class="areas-legend" id="areasLegend"></div>
+    </section>
+  </section>
+
+  <!-- ======================= TOPICS ======================= -->
+  <section class="view" id="v-topics" aria-label="Topics and papers">
+    <h1 class="vt">Who works on your topic?</h1>
+    <p class="vs">Type a topic or paste a title and abstract. We find the RA-L papers closest in meaning, then count which institutions and countries wrote them.</p>
+    <div class="qrow">
+      <div class="search">
+        <textarea id="tq" rows="2" spellcheck="false" placeholder="e.g. learning quadruped locomotion over rough terrain — or paste your abstract" aria-label="Topic or abstract"></textarea>
+      </div>
+      <button class="btn primary" id="tgo" type="button">Search</button>
+    </div>
+    <div class="hint" id="tex">Try
+      <button class="chipbtn" data-t="reinforcement learning for legged locomotion">legged locomotion</button>
+      <button class="chipbtn" data-t="visual-inertial odometry and SLAM">visual SLAM</button>
+      <button class="chipbtn" data-t="dexterous in-hand manipulation">dexterous manipulation</button>
+      <button class="chipbtn" data-t="soft robotic grippers and actuators">soft robotics</button>
+      <button class="chipbtn" data-t="multi-robot exploration and coordination">multi-robot</button>
+      <button class="chipbtn" data-t="large language models for robot task planning">LLMs &amp; robots</button>
+      <button class="chipbtn" data-t="control barrier functions for safe robot control">safe control</button>
+      <button class="chipbtn" data-t="robot-assisted surgery">surgical robotics</button>
+    </div>
+    <div class="hint" style="margin-top:8px">Or try a whole abstract:
+      <button class="chipbtn paperchip" id="texPaper" type="button" title="Fills in the title and abstract of an RA-L paper">📄 __EXAMPLE_TITLE__ <span style="color:var(--faint)">(__EXAMPLE_NOTE__)</span></button>
+    </div>
+    <div class="opts">
+      <span>Look at the</span>
+      <select id="tk" aria-label="Number of closest papers"><option value="50">50</option><option value="100" selected>100</option><option value="200">200</option><option value="500">500</option></select>
+      <span>closest papers from</span>
+      <select id="tsince" aria-label="Years"><option value="0">all years</option></select>
+      <label><input type="checkbox" id="tlinks"> with arXiv or code only</label>
+    </div>
+    <div class="status" id="tstatus" role="status"></div>
+    <div class="results" id="tres"></div>
+  </section>
+
+  <!-- ======================= MOST CITED ======================= -->
+  <section class="view" id="v-cited" aria-label="Most cited papers">
+    <h1 class="vt">Most cited papers</h1>
+    <p class="vs">Every RA-L paper ranked by citations (<a href="https://openalex.org/" rel="noopener">OpenAlex</a> counts, snapshot <span class="snap"></span>). Narrow it down by year, institution or research area.</p>
+    <div class="controls cctl">
+      <label>From <select id="cy0" aria-label="From year"></select></label>
+      <label>to <select id="cy1" aria-label="To year"></select></label>
+      <select id="carea" aria-label="Research area"><option value="">All research areas</option></select>
+      <input id="cinst" type="search" list="cinstList" autocomplete="off" spellcheck="false" placeholder="Any institution…" aria-label="Institution">
+      <datalist id="cinstList"></datalist>
+      <button class="btn" id="creset" type="button">Reset</button>
+    </div>
+    <div class="status" id="cstatus" role="status"></div>
+    <div class="results show" id="cres"></div>
+    <button class="btn more" id="cmore" type="button" style="display:none">Show 100 more</button>
+  </section>
+
+  <!-- ======================= AUTHORS ======================= -->
+  <section class="view" id="v-authors" aria-label="Authors">
+    <h1 class="vt">Search by author</h1>
+    <p class="vs" id="authSub">Every RA-L author, with their papers, research areas and co-authors.</p>
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="asuggest" aria-expanded="false" id="acombo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="aq" type="search" autocomplete="off" spellcheck="false" placeholder="Type a name, e.g. Siegwart or Davide Scaramuzza…" aria-label="Search authors" aria-controls="asuggest" aria-autocomplete="list">
+      <div class="suggest" id="asuggest" role="listbox"></div>
+    </div>
+    <p class="hint">Try __AUTHOR_HINTS__</p>
+    <div class="status" id="astatus" role="status"></div>
+    <article class="card" id="acard" aria-live="polite"></article>
+    <section class="table" id="atable">
+      <h2>Most papers in RA-L</h2>
+      <p class="vs" style="font-size:14px">Authors ranked by RA-L papers (early access included). Click a name for their papers.</p>
+      <table>
+        <thead><tr><th class="r">#</th><th>Author</th><th>Affiliation</th><th class="p">Papers</th></tr></thead>
+        <tbody id="atbody"></tbody>
+      </table>
+      <button class="btn more" id="amore">Show 50 more</button>
+    </section>
+  </section>
+
+  <section class="about" id="about">
+    <details>
+    <summary><h2>How this was made</h2><span class="more">data, method and caveats</span></summary>
+    <ul>
+      <li><b>Papers</b> are every research article <a href="https://www.crossref.org/" rel="noopener">Crossref</a> lists for IEEE Robotics and Automation Letters (ISSN 2377-3766), from volume 1 (2016) to today, including <span class="nea"></span> early-access articles not yet in an issue (snapshot <span class="snap"></span>). Journal front matter, editorials and errata are left out. The year is the volume year (volume 1 = 2016); early-access papers use their online date.</li>
+      <li><b>Abstracts, institutions, author identities and keywords</b> come from <a href="https://openalex.org/" rel="noopener">OpenAlex</a>, which links each author's printed affiliation to a registered institution (ROR) with its country and type. Authors with an affiliation OpenAlex could not link are matched by institution name where possible; the rest are not counted for any institution.</li>
+      <li><b>Counting:</b> a paper counts once for every institution with at least one author on it, so shares add up to more than 100%. The <i>fractional</i> count splits each paper equally across its authors, then across each author's institutions.</li>
+      <li><b>Research areas</b> use the IEEE RAS keywords that authors pick for RA-L, ICRA and IROS. All 305 keywords in the <a href="https://ras.papercept.net/conferences/conferences/ICRA26/program/" rel="noopener">ICRA 2026 program</a> are grouped by hand into 16 broad areas, following the themes of the <a href="https://2026.ieee-iros.org/program/" rel="noopener">IROS 2026</a> sessions (IROS 2026 publishes no per-paper keywords). Each of the 2,700+ ICRA 2026 papers gets the area its own keywords point to most (first keyword weighted highest). An RA-L paper then gets the area most common among the 15 ICRA 2026 papers closest to it in meaning (title and abstract). Per-paper RA-L keywords are not public, so areas are an estimate; the keywords shown under each paper are OpenAlex's.</li>
+      <li><b>Topic search</b> runs entirely in your browser: your text is embedded with bge-small-en-v1.5 (downloaded once, about 33 MB) and compared with every paper's title and abstract. Nothing you type is sent anywhere. If the model can't load, the page falls back to keyword matching on titles.</li>
+      <li><b>arXiv and code links</b> (<span class="nax"></span> papers on arXiv, <span class="ncode"></span> with code) were found automatically: from OpenAlex, and by matching titles against every arXiv paper in cs.RO or mentioning RA-L (near-identical title plus at least one shared author surname). Code links are GitHub or GitLab URLs in the paper's abstract or its arXiv abstract and comments.</li>
+      <li><b>Industry vs academia:</b> institutions OpenAlex types as companies are industry; universities, government labs, hospitals, nonprofits and research facilities are academia.</li>
+      <li><b>Authors</b> are grouped by OpenAlex author ID. Two IDs with the same name and a shared institution are treated as one person. <a href="ral_institutions.csv" download>Download the institution table (CSV)</a>.</li>
+      <li id="fix">Spotted a wrong mapping? Corrections are welcome.</li>
+    </ul>
+    </details>
+    <footer>
+      <span></span>
+      <span>Unofficial, not affiliated with IEEE or RAS · data snapshot <span class="snap"></span></span>
+    </footer>
+  </section>
+  <footer class="sitefoot">
+    <p class="sisters">More explorers: <a href="../lcss/">IEEE L-CSS Explorer</a> · <a href="../tac/">IEEE T-AC Explorer</a> · <a href="../tro/">IEEE T-RO Explorer</a> · <a href="../../../cdc2026/">CDC 2026 Explorer</a></p>
+    <p>My RA-L paper: <a href="https://doi.org/10.1109/lra.2025.3626234" rel="noopener"><b>Real-Time Linear MPC for Quadrotors on SE(3): An Analytical Koopman-Based Realization</b></a><br>RA-L vol. 10, no. 12, pp. 13018–13025, 2025</p>
+    <p>Built by: <a href="https://santoshrajkumar.github.io/" rel="noopener"><b>Santosh Rajkumar</b></a>, PhD Candidate, The Ohio State University</p>
+    <p class="buckeyes">A little support for THE world-famous Ohio State Buckeyes ahead of <a href="https://ohiostatebuckeyes.com/game-center/22225" rel="noopener">THE GAME</a> ! Go Bucks, Beat TTUN! 🌰🏈</p>
+  </footer>
+  <p class="credit">format adapted from <a href="https://github.com/juevn/neurips2026" rel="noopener">source</a></p>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="data.js?v=__DVER__"></script>
+<script>
+(() => {
+  'use strict';
+  const D = window.RAL, M = D.meta, A = M.areas, INST = D.inst, N = M.papers, YEARS = M.years;
+  const REPO_URL = '{{REPO_URL}}';
+  const PVER = '__PVER__';
+  const DOI = 'https://doi.org/';
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, props = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(props)) { if (v == null) continue; if (k === 'style') e.style.cssText = v; else if (k === 'text') e.textContent = v; else if (k.startsWith('data-') || k.startsWith('aria-') || k === 'role') e.setAttribute(k, v); else e[k] = v; } for (const c of [].concat(kids)) if (c != null) e.append(c); return e; };
+  const fmt = (x) => x.toLocaleString('en-US');
+  const pct = (x, d = 1) => (x * 100).toFixed(d) + '%';
+  const tip = el('div', { id: 'tip', role: 'tooltip' }); document.body.append(tip);
+  const showTip = (e) => { const t = e.target.closest('[data-tip]'); if (!t) { tip.classList.remove('on'); return; } tip.textContent = t.dataset.tip; tip.classList.add('on');
+    const x = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8); tip.style.left = Math.max(8, x) + 'px'; tip.style.top = (e.clientY + 16) + 'px'; };
+  document.addEventListener('mousemove', showTip); document.addEventListener('click', showTip);
+  const hideTip = () => tip.classList.remove('on'); addEventListener('hashchange', hideTip); addEventListener('scroll', hideTip, { passive: true }); document.addEventListener('mouseleave', hideTip);
+  const areaBar = (counts, order, caption) => {
+    const tot = counts.reduce((a, b) => a + b, 0) || 1;
+    const ids = order.filter(i => counts[i]);
+    const byN = [...ids].sort((a, b) => counts[b] - counts[a]);
+    return [
+      caption ? el('div', { className: 'stackcap', text: caption }) : null,
+      el('div', { className: 'stack' }, ids.map(i => el('div', { 'data-tip': `${A[i].name}: ${counts[i]} (${pct(counts[i] / tot, 0)})`, 'aria-label': `${A[i].name}: ${counts[i]}`, style: `flex:${counts[i]};background:${A[i].color}` }))),
+      el('div', { className: 'legend' }, byN.slice(0, 8).map(i => el('span', { 'data-tip': `${A[i].name}: ${counts[i]} (${pct(counts[i] / tot, 0)})` }, [el('i', { style: `background:${A[i].color}` }), el('b', { text: A[i].short }), document.createTextNode(pct(counts[i] / tot, 0))]))
+        .concat(byN.length > 8 ? [el('span', { text: `+${byN.length - 8} more` })] : [])),
+    ];
+  };
+  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9぀-鿿]+/g, ' ').trim();
+  const slug = (s) => norm(s).replace(/ /g, '-');
+  const flag = (cc) => cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUpperCase()].map(c => 127397 + c.charCodeAt(0))) : '';
+  const isDark = () => document.documentElement.dataset.theme === 'dark' || (document.documentElement.dataset.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+  if (isDark()) A.forEach(a => { if (a.color.toLowerCase() === '#2b2d42') a.color = '#8d99c4'; });
+  const confShare = A.map(a => a.total / N);
+  INST.forEach((x, i) => { x.i = i; x.slug = slug(x.n); x.keys = [x.n, ...(x.k || [])].map(norm); });
+  const RANKED = INST.filter(x => x.p > 0);
+  const bySlug = new Map(RANKED.map(x => [x.slug, x]));
+  const CNAME = new Map(M.countries.map(([c, g]) => [c, g]));
+  let tt; const toast = (m) => { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('show'), 1800); };
+  const copy = (t) => (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast('Link copied'), () => toast(t));
+  const baseUrl = () => location.origin + location.pathname;
+
+  /* ---------- static text ---------- */
+  document.querySelectorAll('.snap').forEach(s => s.textContent = M.snapshot);
+  document.querySelectorAll('.ntech').forEach(s => s.textContent = fmt(N));
+  document.querySelectorAll('.nax').forEach(s => s.textContent = fmt(M.with_arxiv || 0));
+  document.querySelectorAll('.ncode').forEach(s => s.textContent = fmt(M.with_code || 0));
+  document.querySelectorAll('.nea').forEach(s => s.textContent = fmt(M.early || 0));
+  const SPAN = `${YEARS[0]}–${YEARS[YEARS.length - 1]}`;
+  $('#instSub').textContent = `${fmt(N)} RA-L papers (${SPAN}, ${fmt(M.early)} in early access) · ${fmt(M.institutions)} institutions from ${M.countries.length} countries · rank, paper count, research-area mix and papers per year for each.`;
+  $('#stats').replaceChildren(
+    el('div', {}, [el('b', { text: fmt(N) }), el('span', { text: `papers, ${SPAN}` })]),
+    el('div', {}, [el('b', { text: fmt(M.institutions) }), el('span', { text: 'institutions' })]),
+    el('div', {}, [el('b', { text: String(M.countries.length) }), el('span', { text: 'countries' })]),
+    el('div', {}, [el('b', { text: fmt(M.authors) }), el('span', { text: 'authors' })]),
+  );
+  $('#topCited').replaceChildren(...(M.top_cited || []).map(p => el('li', {}, [
+    el('div', { className: 'tc' }, [el('b', { text: fmt(p.c) }), el('span', { text: 'citations' })]),
+    el('div', { className: 'tb' }, [
+      el('a', { className: 'tt', href: DOI + p.d, target: '_blank', rel: 'noopener', title: 'Open on IEEE Xplore (via DOI)', text: p.t }),
+      el('div', { className: 'ta' }, [...p.au.slice(0, 6).map(([n, k], j) => [j ? document.createTextNode(', ') : null,
+        el('a', { href: '#/authors/' + encodeURIComponent(k), text: n.includes(', ') ? n.split(', ').slice(1).join(', ') + ' ' + n.split(', ')[0] : n })]).flat(),
+        p.au.length > 6 ? document.createTextNode(` +${p.au.length - 6} more`) : null]),
+      el('div', { className: 'tm' }, [el('span', { text: String(p.y) }),
+        ...p.in.filter(k => INST[k].p > 0).map(k => el('a', { className: 'ia ' + (INST[k].s || ''), href: '#/institutions/' + INST[k].slug, text: INST[k].n })),
+        p.ax ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${p.ax}`, target: '_blank', rel: 'noopener', text: 'arXiv' }) : null,
+        ...p.code.map(u => el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u },
+          [el('i', { className: /gitlab/i.test(u) ? 'fa-brands fa-gitlab' : 'fa-brands fa-github', 'aria-hidden': 'true' }), document.createTextNode(/gitlab/i.test(u) ? ' GitLab' : ' GitHub')]))]),
+    ]),
+  ])));
+  if (!REPO_URL.startsWith('{{')) {
+    const li = $('#fix'); li.textContent = 'Spotted a wrong mapping? ';
+    li.append(el('a', { href: `${REPO_URL}/issues/new`, rel: 'noopener', text: 'Open an issue' }), document.createTextNode(' and it will be fixed.'));
+  }
+
+  /* ---------- router ---------- */
+  function route() {
+    let h = location.hash.replace(/^#/, '');
+    if (h && !h.startsWith('/')) { if (bySlug.has(decodeURIComponent(h))) { location.replace('#/institutions/' + h); return; } h = '/'; }
+    const [path, qs] = h.split('?');
+    const parts = (path || '/').split('/').filter(Boolean);
+    const view = ['institutions', 'topics', 'authors', 'cited'].includes(parts[0]) ? parts[0] : 'home';
+    document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === 'v-' + view));
+    document.querySelectorAll('.tabs a').forEach(a => { if (a.dataset.tab === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    $('#about').style.display = view === 'home' ? 'none' : '';
+    document.title = ({ institutions: 'Institutions · ', topics: 'Topics · ', authors: 'Authors · ', cited: 'Most cited · ' }[view] || '') + 'RA-L Explorer';
+    if (view === 'institutions') {
+      const x = parts[1] && bySlug.get(decodeURIComponent(parts[1]));
+      if (x) { q.value = x.n; renderCard(x); } else { $('#card').classList.remove('show'); }
+      if (!tableRendered) renderTable();
+    }
+    if (view === 'topics') {
+      ensurePapers();
+      const qq = new URLSearchParams(qs || '').get('q');
+      if (qq && qq !== lastTopicQuery) { $('#tq').value = qq; runTopic(qq, false); }
+      else if (!qq) warmModel();
+    }
+    if (view === 'cited') routeCited(qs);
+    if (view === 'authors') routeAuthor(parts[1] ? decodeURIComponent(parts[1]) : null);
+    if (!['institutions', 'authors'].includes(view) || !parts[1]) window.scrollTo({ top: 0 });
+  }
+  window.addEventListener('hashchange', route);
+
+  /* =================== PAPERS (shared) =================== */
+  const MODEL = 'Xenova/bge-small-en-v1.5';
+  const TJS = 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.2';
+  let P = null, V = null, S = null, KW = [], AU = [], DIM = 384;
+  let papersReady = null, extractor = null, modelReady = null, lastTopicQuery = null, idf = null;
+  function ensurePapers() {
+    if (papersReady) return papersReady;
+    papersReady = new Promise((resolve, reject) => {
+      const s = document.createElement('script'); s.src = `papers.js?v=${PVER}`; s.onload = resolve; s.onerror = () => reject(new Error('papers.js failed to load')); document.head.append(s);
+    }).then(() => fetch(`papers.bin?v=${PVER}`)).then(r => { if (!r.ok) throw new Error('papers.bin ' + r.status); return r.arrayBuffer(); }).then(buf => {
+      P = window.PAPERS.rows; KW = window.PAPERS.keywords; AU = window.PAPERS.authors; DIM = window.PAPERS.dim; const n = P.length;
+      S = new Float32Array(buf, 0, n); V = new Int8Array(buf, n * 4, n * DIM);
+    });
+    return papersReady;
+  }
+  // rows are newest first: [title, insts, area, DOI, year, early access, keywords, date, authors, volume(issue):pages, arXiv id, [code urls], citations]
+  // author: [name 'Last, First', OpenAlex author id, affiliation, [institution idx]]
+  const showName = (n) => { const i = n.indexOf(', '); return i < 0 ? n : n.slice(i + 2) + ' ' + n.slice(0, i); };
+  const paperUrl = (r) => DOI + r[3];
+  const MON = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const when = (r) => { const [y, m] = r[7].split('-'); return (m ? MON[+m] + ' ' : '') + (y || r[4]); };
+  const instChip = (k, cls = 'ia') => INST[k].p > 0
+    ? el('button', { className: cls + ' ' + (INST[k].s || ''), type: 'button', text: INST[k].n, onclick: () => openInst(INST[k]) })
+    : el('span', { className: cls, text: INST[k].n });
+  function paperEl(i, { me = -1, meA = -1, sim = null, showArea = true } = {}) {
+    const r = P[i], others = r[1].filter(k => k !== me);
+    return el('div', { className: 'paper' }, [
+      el('div', { className: 't' }, el('a', { href: paperUrl(r), target: '_blank', rel: 'noopener', title: 'Open on IEEE Xplore (via DOI)', text: r[0] })),
+      el('div', { className: 'meta' }, [
+        sim != null ? el('span', { className: 'sim', text: `match ${(sim * 100).toFixed(0)}` }) : null,
+        showArea ? el('span', { className: 'ar' }, [el('i', { style: `background:${A[r[2]].color}` }), document.createTextNode(A[r[2]].short)]) : null,
+        r[5] ? el('span', { className: 'tagt ea', text: 'Early access' }) : null,
+        r[10] ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${r[10]}`, target: '_blank', rel: 'noopener', title: `arXiv:${r[10]}`, text: 'arXiv' }) : null,
+        ...(r[11] || []).map(u => { const gl = /gitlab/i.test(u); return el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u },
+          [el('i', { className: gl ? 'fa-brands fa-gitlab' : 'fa-brands fa-github', 'aria-hidden': 'true' }), document.createTextNode(gl ? ' GitLab' : ' GitHub')]); }),
+        r[12] ? el('span', { className: 'sim', title: 'Citations (OpenAlex)', text: `${fmt(r[12])} cit.` }) : null,
+        el('span', { className: 'ses', title: r[9] ? `RA-L ${r[9]}` : 'Early access, not yet in an issue', text: `📅 ${when(r)}${r[9] ? ' · vol. ' + r[9].split('(')[0] : ''}` }),
+        ...others.slice(0, 6).map(k => instChip(k)),
+        others.length > 6 ? el('span', { className: 'sim', text: `+${others.length - 6} more` }) : null,
+      ]),
+      el('div', { className: 'au' }, r[8].map((a, j) => [j ? document.createTextNode(', ') : null,
+        el('button', { type: 'button', className: a === meA ? 'me' : '', text: showName(AU[a][0]), onclick: () => openAuthor(a) })]).flat()),
+      r[6].length ? el('div', { className: 'kw', text: r[6].map(k => KW[k]).join(' · ') }) : null,
+    ]);
+  }
+
+  /* =================== INSTITUTIONS =================== */
+  function search(qstr, limit = 8) {
+    const nq = norm(qstr); if (!nq) return [];
+    const words = nq.split(' '); const out = [];
+    for (const x of RANKED) {
+      let best = 0;
+      for (const k of x.keys) {
+        let s = 0;
+        if (k === nq) s = 100; else if (k.startsWith(nq)) s = 80; else if ((' ' + k).includes(' ' + nq)) s = 60; else if (k.includes(nq)) s = 40;
+        else if (words.length > 1 && words.every(w => (' ' + k).includes(' ' + w))) s = 30;
+        if (s > best) best = s;
+      }
+      if (best) out.push([best + Math.min(x.p, 300) / 1000 + (x.cur || 0) * 5, x]);
+    }
+    out.sort((a, b) => b[0] - a[0]);
+    return out.slice(0, limit).map(o => o[1]);
+  }
+  const q = $('#q'), sug = $('#suggest'), combo = $('#combo');
+  let sel = -1, cur = [];
+  function renderSuggest() {
+    cur = search(q.value); sel = cur.length ? 0 : -1;
+    sug.replaceChildren(...cur.map((x, i) => el('button', { type: 'button', role: 'option', 'aria-selected': String(i === sel), onclick: () => openInst(x) }, [
+      el('span', { className: 'r', text: '#' + x.r }), el('span', { className: 'nm', text: x.n }), el('span', { className: 'pp', text: x.p + (x.p === 1 ? ' paper' : ' papers') })])));
+    const open = cur.length > 0 && document.activeElement === q;
+    sug.classList.toggle('open', open); combo.setAttribute('aria-expanded', String(open));
+  }
+  function moveSel(d) { if (!cur.length) return; sel = (sel + d + cur.length) % cur.length; [...sug.children].forEach((b, i) => b.setAttribute('aria-selected', String(i === sel))); }
+  q.addEventListener('input', () => { renderSuggest(); tableFilter = q.value; page = 1; renderTable(); });
+  q.addEventListener('focus', renderSuggest);
+  q.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); moveSel(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); moveSel(-1); }
+    else if (e.key === 'Enter') { if (sel >= 0) { e.preventDefault(); openInst(cur[sel]); } }
+    else if (e.key === 'Escape') sug.classList.remove('open');
+  });
+  document.addEventListener('click', (e) => { if (!combo.contains(e.target)) sug.classList.remove('open'); });
+  document.querySelectorAll('#v-institutions .hint button').forEach(b => b.addEventListener('click', () => { const r = search(b.dataset.q, 1)[0]; if (r) openInst(r); }));
+
+  function openInst(x) {
+    sug.classList.remove('open'); q.value = x.n; q.blur();
+    tableFilter = ''; page = 1; renderTable();
+    const target = '#/institutions/' + x.slug;
+    if (location.hash !== target) location.hash = target; else renderCard(x);
+    setTimeout(() => $('#card').scrollIntoView({ behavior: 'smooth', block: 'start' }), 30);
+  }
+
+  let byInst = null;
+  const instPapers = (me) => {
+    if (!byInst) { byInst = new Map(); P.forEach((r, j) => r[1].forEach(k => { if (!byInst.has(k)) byInst.set(k, []); byInst.get(k).push(j); })); }
+    return byInst.get(me) || [];
+  };
+  async function toggleAreaPapers(x, ai, row, list) {
+    const open = row.getAttribute('aria-expanded') === 'true';
+    row.setAttribute('aria-expanded', String(!open)); list.classList.toggle('show', !open);
+    if (open || list.childElementCount) return;
+    list.append(el('div', { className: 'empty', text: 'Loading papers…' }));
+    try { await ensurePapers(); } catch (e) { list.replaceChildren(el('div', { className: 'empty', text: 'Could not load papers.' })); return; }
+    const mine = instPapers(x.i).filter(j => P[j][2] === ai);
+    list.replaceChildren(...mine.map(j => paperEl(j, { me: x.i, showArea: false })));
+    if (!mine.length) list.replaceChildren(el('div', { className: 'empty', text: 'No papers found.' }));
+  }
+  async function renderCollaborators(x, box) {
+    try { await ensurePapers(); } catch (e) { return; }
+    const cnt = new Map();
+    for (const j of instPapers(x.i)) for (const k of P[j][1]) if (k !== x.i) cnt.set(k, (cnt.get(k) || 0) + 1);
+    const top = [...cnt.keys()].sort((a, b) => cnt.get(b) - cnt.get(a) || INST[b].p - INST[a].p).slice(0, 12);
+    
+    const people = new Map();
+    for (const j of instPapers(x.i)) for (const a of P[j][8]) if (AU[a][3].includes(x.i)) people.set(a, (people.get(a) || 0) + 1);
+    const ppl = [...people.keys()].sort((a, b) => people.get(b) - people.get(a) || AU[a][0].localeCompare(AU[b][0]));
+    box.replaceChildren(...[
+      ppl.length ? el('h3', { text: `Authors from here (${ppl.length})` }) : null,
+      ppl.length ? el('p', { className: 'note', text: 'People listing this institution, with their number of RA-L papers here. Click a name for their papers.' }) : null,
+      ppl.length ? el('div', { className: 'list', style: 'margin-bottom:18px' }, ppl.slice(0, 40).map(a => el('button', { className: 'ia A', type: 'button', text: `${showName(AU[a][0])} · ${people.get(a)}`, onclick: () => openAuthor(a) }))
+        .concat(ppl.length > 40 ? [el('span', { className: 'sim', text: `+${ppl.length - 40} more` })] : [])) : null,
+      el('h3', { text: 'Most frequent co-author institutions' }),
+      el('p', { className: 'note', text: 'Institutions that appear on the same RA-L papers, with the number of shared papers.' }),
+      el('div', { className: 'list' }, top.map(k => {
+        const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b;
+      })),
+    ].filter(Boolean));
+  }
+
+  function renderCard(x) {
+    const card = $('#card'); const tot = x.a.reduce((s, v) => s + v, 0) || 1;
+    const tied = RANKED.filter(y => y.r === x.r).length > 1;
+    const lifts = x.a.map((v, i) => (v / tot) / confShare[i]);
+    const minN = tot >= 30 ? 5 : 3; let sig = -1; x.a.forEach((v, i) => { if (v >= minN && (sig < 0 || lifts[i] > lifts[sig])) sig = i; });
+    const noisy = x.p < 8;
+    const chips = [];
+    if (x.s) chips.push(el('span', { className: 'chip ' + x.s, text: x.s === 'I' ? 'Industry' : 'Academia' }));
+    if (x.c) chips.push(el('span', { className: 'chip', text: `${flag(x.c)} ${x.g || x.c}` }));
+    if (sig >= 0 && !noisy) chips.push(el('span', { className: 'chip', style: `color:${A[sig].color}`, text: `Signature area: ${A[sig].short}` }));
+    const order = A.map((a, i) => i).sort((i, j) => x.a[j] - x.a[i]);
+    const maxShare = Math.max(...x.a.map(v => v / tot), ...confShare) || 1;
+    const rows = order.filter(i => x.a[i] > 0 || !noisy).map(i => {
+      const share = x.a[i] / tot, lift = lifts[i];
+      const liftTxt = x.a[i] === 0 ? '—' : (lift >= 1.15 || lift <= 0.85 ? `${lift.toFixed(1)}× avg` : '≈ avg');
+      if (!x.a[i]) return el('div', { className: 'arow' + (i === sig && !noisy ? ' sig' : '') }, rowCells(i, share, lift, liftTxt));
+      const list = el('div', { className: 'alist' });
+      const row = el('div', { className: 'arow open-able' + (i === sig && !noisy ? ' sig' : ''), role: 'button', tabindex: '0', 'aria-expanded': 'false',
+        onclick: () => toggleAreaPapers(x, i, row, list), onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleAreaPapers(x, i, row, list); } } }, rowCells(i, share, lift, liftTxt));
+      return el('div', { className: 'agrp' }, [row, list]);
+    });
+    function rowCells(i, share, lift, liftTxt) {
+      return [
+        el('div', { className: 'nm' }, [el('span', { className: 'sw', style: `background:${A[i].color}` }), el('span', { text: A[i].name })]),
+        el('div', { className: 'ct', text: String(x.a[i]) }),
+        el('div', { className: 'bar' }, [el('i', { style: `width:${(100 * share / maxShare).toFixed(1)}%;background:${A[i].color}` }), el('b', { style: `left:${(100 * confShare[i] / maxShare).toFixed(1)}%` })]),
+        el('div', { className: 'lift' + (lift >= 1.15 && x.a[i] >= 3 ? ' up' : ''), text: noisy ? pct(share, 0) : liftTxt }),
+      ];
+    }
+    const url = baseUrl() + '#/institutions/' + x.slug;
+    const tweet = `${x.n}: ${x.p} paper${x.p === 1 ? '' : 's'} in IEEE Robotics and Automation Letters (#${x.r} of ${fmt(M.institutions)} institutions, ${SPAN}). Find yours:`;
+    const focusArea = A[sig >= 0 ? sig : order[0]];
+    const collab = el('div', { className: 'cos' });
+    card.replaceChildren(
+      el('div', { className: 'top' }, [
+        el('div', {}, [el('h2', { text: x.n }), el('div', { className: 'chips' }, chips)]),
+        el('div', { className: 'rankbox' }, [el('div', { className: 'rk', text: '#' + x.r }), el('div', { className: 'of', text: `${tied ? 'tied, ' : ''}of ${fmt(M.institutions)} institutions` })]),
+      ]),
+      el('div', { className: 'metrics' }, [
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: fmt(x.p) }), el('div', { className: 'l', text: 'papers with ≥1 author here' })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: pct(x.p / N, x.p / N < 0.001 ? 2 : 1) }), el('div', { className: 'l', text: `of all ${fmt(N)} RA-L papers` })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: x.f.toFixed(1) }), el('div', { className: 'l', text: 'fractional papers (credit split by author)' })]),
+      ]),
+      yearChart(x),
+      el('div', { className: 'mix' }, [
+        el('h3', { text: 'What they publish' }),
+        el('p', { className: 'note', text: noisy ? 'Share of this institution’s papers by research area. With fewer than 8 papers, this mix is too small to compare. Click an area to see its papers.' : 'Share of this institution’s papers by research area, compared with all of RA-L (black tick). Click an area to see its papers, newest first.' }),
+        ...areaBar(x.a, order, null),
+        el('div', { style: 'margin-top:12px' }, rows),
+        noisy ? null : el('div', { className: 'legendline' }, [el('span', {}, [el('span', { className: 'tick' }), document.createTextNode('RA-L average')]), el('span', { text: '“2.0× avg” = twice the RA-L-wide share' })]),
+      ]),
+      collab,
+      el('div', { className: 'share' }, [
+        el('a', { className: 'btn primary', href: `https://x.com/intent/post?text=${encodeURIComponent(tweet)}&url=${encodeURIComponent(url)}`, target: '_blank', rel: 'noopener', text: 'Share on X' }),
+        el('button', { className: 'btn', type: 'button', text: 'Copy link', onclick: () => copy(url) }),
+        el('a', { className: 'btn', href: '#/topics?q=' + encodeURIComponent(focusArea.name), text: `Who else works on ${focusArea.short}? →` }),
+      ]),
+    );
+    card.classList.add('show');
+    renderCollaborators(x, collab);
+  }
+
+  function yearChart(x) {
+    const mx = Math.max(...x.y, 1), cur = YEARS[YEARS.length - 1];
+    let best = 0; x.y.forEach((v, i) => { if (v > x.y[best]) best = i; });
+    return el('div', { className: 'mix' }, [
+      el('h3', { text: 'Papers per year' }),
+      el('p', { className: 'note', text: `Peak: ${x.y[best]} paper${x.y[best] === 1 ? '' : 's'} in ${YEARS[best]}. ${cur} includes early-access papers.` }),
+      el('div', { className: 'years' }, YEARS.map((y, i) => el('div', { className: 'yc', 'data-tip': `${y}: ${x.y[i]} paper${x.y[i] === 1 ? '' : 's'}` }, [
+        el('b', { text: x.y[i] ? String(x.y[i]) : '' }), el('i', { style: `height:${Math.round(64 * x.y[i] / mx)}px` }), el('span', { text: "'" + String(y).slice(2) })]))),
+    ]);
+  }
+
+  let sector = '', country = '', areaIdx = -1, yearIdx = -1, page = 1, tableFilter = '', tableRendered = false;
+  const sortSel = $('#sortArea'), ctySel = $('#country'), yearSel = $('#year');
+  YEARS.map((y, i) => [y, i]).reverse().forEach(([y, i]) => yearSel.append(el('option', { value: String(i), text: `${y} only (${fmt(M.year_totals[i])} papers)` })));
+  yearSel.addEventListener('change', () => { yearIdx = yearSel.value === '' ? -1 : +yearSel.value; if (yearIdx >= 0) { areaIdx = -1; sortSel.value = ''; } page = 1; renderTable(); });
+  A.forEach((a, i) => sortSel.append(el('option', { value: String(i), text: `Rank by ${a.name}` })));
+  const instCountries = new Map(); RANKED.forEach(x => x.c && instCountries.set(x.c, (instCountries.get(x.c) || 0) + 1));
+  [...instCountries.keys()].sort((a, b) => (CNAME.get(a) || a).localeCompare(CNAME.get(b) || b)).forEach(c => ctySel.append(el('option', { value: c, text: `${flag(c)} ${CNAME.get(c) || c}` })));
+  sortSel.addEventListener('change', () => { areaIdx = sortSel.value === '' ? -1 : +sortSel.value; if (areaIdx >= 0) { yearIdx = -1; yearSel.value = ''; } page = 1; renderTable(); });
+  ctySel.addEventListener('change', () => { country = ctySel.value; page = 1; renderTable(); });
+  document.querySelectorAll('#instSeg button').forEach(b => b.addEventListener('click', () => {
+    sector = b.dataset.sector; document.querySelectorAll('#instSeg button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); page = 1; renderTable();
+  }));
+  $('#more').addEventListener('click', () => { page++; renderTable(); });
+  $('#areasLegend').replaceChildren(...A.map(a => el('span', {}, [el('i', { style: `background:${a.color}` }), document.createTextNode(a.short)])));
+  function denseRank(list, val) { const r = new Map(); let prev = null, rk = 0; list.forEach((x, i) => { const v = val(x); if (v !== prev) { rk = i + 1; prev = v; } r.set(x, rk); }); return (x) => r.get(x); }
+  function renderTable() {
+    tableRendered = true;
+    let list = RANKED.filter(x => (!sector || x.s === sector) && (!country || x.c === country));
+    if (tableFilter.trim()) { const hits = new Set(search(tableFilter, 400)); list = list.filter(x => hits.has(x)); }
+    let rankOf;
+    if (areaIdx >= 0) { list = list.filter(x => x.a[areaIdx] > 0).sort((a, b) => b.a[areaIdx] - a.a[areaIdx] || b.p - a.p); rankOf = denseRank(list, x => x.a[areaIdx]); }
+    else if (yearIdx >= 0) { list = list.filter(x => x.y[yearIdx] > 0).sort((a, b) => b.y[yearIdx] - a.y[yearIdx] || b.p - a.p); rankOf = denseRank(list, x => x.y[yearIdx]); }
+    else if (sector || country) rankOf = denseRank(list, x => x.p);
+    else rankOf = (x) => x.r;
+    const shown = list.slice(0, page * 50);
+    $('#tbody').replaceChildren(...shown.map(x => {
+      const tot = x.a.reduce((s, v) => s + v, 0) || 1;
+      const val = areaIdx >= 0 ? x.a[areaIdx] : yearIdx >= 0 ? x.y[yearIdx] : x.p;
+      return el('tr', { className: 'row', onclick: () => openInst(x), tabIndex: 0, onkeydown: (e) => { if (e.key === 'Enter') openInst(x); } }, [
+        el('td', { className: 'r', text: String(rankOf(x)) }),
+        el('td', {}, [el('span', { className: 'nm', text: (x.c ? flag(x.c) + ' ' : '') + x.n }), x.s === 'I' ? el('span', { className: 'tag I', text: 'industry' }) : null]),
+        el('td', { className: 'p', text: fmt(val) }),
+        el('td', { className: 'pct', text: areaIdx >= 0 ? pct(x.a[areaIdx] / tot, 0) : yearIdx >= 0 ? pct(x.y[yearIdx] / M.year_totals[yearIdx], 2) : pct(x.p / N, 2) }),
+        el('td', { className: 'mix' }, el('div', { className: 'mini' }, x.a.map((v, i) => v ? el('div', { style: `flex:${v};background:${A[i].color}` }) : null))),
+      ]);
+    }));
+    $('#count').textContent = `${fmt(list.length)} institution${list.length === 1 ? '' : 's'}${areaIdx >= 0 ? ` with ${A[areaIdx].short} papers` : yearIdx >= 0 ? ` with papers in ${YEARS[yearIdx]}` : ''}`;
+    $('#more').style.display = shown.length < list.length ? '' : 'none';
+    document.querySelector('th.p').textContent = areaIdx >= 0 ? A[areaIdx].short : yearIdx >= 0 ? String(YEARS[yearIdx]) : 'Papers';
+    document.querySelector('th.pct').textContent = areaIdx >= 0 ? 'Of own' : yearIdx >= 0 ? `Of ${YEARS[yearIdx]}` : 'Share';
+  }
+
+  /* =================== AUTHORS =================== */
+  let authIdx = null, apage = 1, pendingAuthor = null;
+  const aq = $('#aq'), asug = $('#asuggest'), acombo = $('#acombo');
+  function buildAuthors() {
+    if (authIdx) return authIdx;
+    const papers = AU.map(() => []);
+    P.forEach((r, j) => r[8].forEach(a => { if (!papers[a].includes(j)) papers[a].push(j); }));
+    const keys = AU.map(a => { const i = a[0].indexOf(', '); return [norm(a[0]), norm(showName(a[0]))]; });
+    const tech = papers.map(l => l.length);
+    const order = AU.map((_, i) => i).sort((a, b) => tech[b] - tech[a] || papers[b].length - papers[a].length || AU[a][0].localeCompare(AU[b][0]));
+    const slugs = new Map(AU.map((a, i) => [a[1], i]));
+    authIdx = { papers, keys, tech, order, slugs };
+    return authIdx;
+  }
+  async function withAuthors() {
+    $('#astatus').textContent = P ? '' : 'Loading the papers…';
+    try { await ensurePapers(); } catch (e) { $('#astatus').textContent = 'Could not load the paper data. If you opened index.html from disk, serve the folder instead (python3 -m http.server).'; throw e; }
+    $('#astatus').textContent = '';
+    return buildAuthors();
+  }
+  function searchAuthors(qstr, limit = 8) {
+    const nq = norm(qstr); if (!nq || !authIdx) return [];
+    const words = nq.split(' '), out = [];
+    authIdx.keys.forEach((ks, i) => {
+      let best = 0;
+      for (const k of ks) {
+        let s = 0;
+        if (k === nq) s = 100; else if (k.startsWith(nq)) s = 80; else if ((' ' + k).includes(' ' + nq)) s = 60;
+        else if (words.length > 1 && words.every(w => (' ' + k).includes(' ' + w))) s = 50; else if (nq.length > 3 && k.includes(nq)) s = 30;
+        if (s > best) best = s;
+      }
+      if (best) out.push([best + Math.min(authIdx.papers[i].length, 20) / 100, i]);
+    });
+    out.sort((a, b) => b[0] - a[0]);
+    return out.slice(0, limit).map(o => o[1]);
+  }
+  let asel = -1, acur = [];
+  async function renderASuggest() {
+    await withAuthors();
+    acur = searchAuthors(aq.value); asel = acur.length ? 0 : -1;
+    asug.replaceChildren(...acur.map((a, i) => el('button', { type: 'button', role: 'option', 'aria-selected': String(i === asel), onclick: () => openAuthor(a) }, [
+      el('span', { className: 'nm', text: showName(AU[a][0]) }), el('span', { className: 'pp', text: `${AU[a][2] ? AU[a][2] + ' · ' : ''}${authIdx.papers[a].length} paper${authIdx.papers[a].length === 1 ? '' : 's'}` })])));
+    const open = acur.length > 0 && document.activeElement === aq;
+    asug.classList.toggle('open', open); acombo.setAttribute('aria-expanded', String(open));
+  }
+  aq.addEventListener('input', renderASuggest);
+  aq.addEventListener('focus', renderASuggest);
+  aq.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); if (!acur.length) return; asel = (asel + (e.key === 'ArrowDown' ? 1 : -1) + acur.length) % acur.length; [...asug.children].forEach((b, i) => b.setAttribute('aria-selected', String(i === asel))); }
+    else if (e.key === 'Enter') { if (asel >= 0) { e.preventDefault(); openAuthor(acur[asel]); } }
+    else if (e.key === 'Escape') asug.classList.remove('open');
+  });
+  document.addEventListener('click', (e) => { if (!acombo.contains(e.target)) asug.classList.remove('open'); });
+  document.querySelectorAll('#v-authors .hint button').forEach(b => b.addEventListener('click', async () => { await withAuthors(); const r = searchAuthors(b.dataset.a, 1)[0]; if (r != null) openAuthor(r); }));
+  $('#amore').addEventListener('click', () => { apage++; renderAuthorTable(); });
+  function renderAuthorTable() {
+    const shown = authIdx.order.slice(0, apage * 50);
+    let prev = null, rk = 0;
+    $('#atbody').replaceChildren(...shown.map((a, i) => {
+      const v = authIdx.tech[a]; if (v !== prev) { rk = i + 1; prev = v; }
+      return el('tr', { className: 'row', tabIndex: 0, onclick: () => openAuthor(a), onkeydown: (e) => { if (e.key === 'Enter') openAuthor(a); } }, [
+        el('td', { className: 'r', text: String(rk) }), el('td', {}, el('span', { className: 'nm', text: showName(AU[a][0]) })),
+        el('td', { style: 'color:var(--muted);font-size:14px', text: AU[a][2] }), el('td', { className: 'p', text: String(v) })]);
+    }));
+    $('#amore').style.display = shown.length < authIdx.order.length ? '' : 'none';
+  }
+  function openAuthor(a) {
+    asug.classList.remove('open'); aq.blur();
+    const target = '#/authors/' + AU[a][1];
+    if (location.hash !== target) location.hash = target; else renderAuthor(a);
+    setTimeout(() => $('#acard').scrollIntoView({ behavior: 'smooth', block: 'start' }), 30);
+  }
+  async function routeAuthor(id) {
+    try { await withAuthors(); } catch (e) { return; }
+    renderAuthorTable();
+    const a = id != null ? authIdx.slugs.get(id) : undefined;
+    if (a != null) { aq.value = showName(AU[a][0]); renderAuthor(a); } else { $('#acard').classList.remove('show'); }
+  }
+  function renderAuthor(a) {
+    const [name, pid, aff, insts] = AU[a];
+    const mine = authIdx.papers[a];
+    const first = mine.filter(j => P[j][8][0] === a).length;
+    const yrs = mine.map(j => P[j][4]);
+    const co = new Map(); mine.forEach(j => P[j][8].forEach(b => { if (b !== a) co.set(b, (co.get(b) || 0) + 1); }));
+    const cos = [...co.keys()].sort((x, y) => co.get(y) - co.get(x) || AU[x][0].localeCompare(AU[y][0]));
+    const areas = new Array(A.length).fill(0); mine.forEach(j => areas[P[j][2]]++);
+    const chips = insts.map(k => instChip(k, 'chip ia')).concat(insts.map(k => INST[k].c).filter((c, i, l) => c && l.indexOf(c) === i).map(c => el('span', { className: 'chip', text: `${flag(c)} ${CNAME.get(c) || c}` })));
+    const url = baseUrl() + '#/authors/' + pid;
+    $('#acard').replaceChildren(...[
+      el('div', { className: 'top' }, [el('div', {}, [el('h2', { text: showName(name) }), el('p', { className: 'vs', style: 'margin:4px 0 0', text: aff }), el('div', { className: 'chips' }, chips)])]),
+      el('div', { className: 'metrics' }, [
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: String(mine.length) }), el('div', { className: 'l', text: 'RA-L papers' })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: String(first) }), el('div', { className: 'l', text: 'as first author' })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: yrs.length ? (Math.min(...yrs) === Math.max(...yrs) ? String(yrs[0]) : `${Math.min(...yrs)}–${String(Math.max(...yrs)).slice(2)}`) : '—' }), el('div', { className: 'l', text: 'years published' })]),
+      ]),
+      mine.length ? el('div', { className: 'mix' }, [el('h3', { text: 'Papers' }), el('p', { className: 'note', text: 'Newest first. Click a title to open the paper on IEEE Xplore.' }), ...areaBar(areas, A.map((_, i) => i), null),
+        el('div', { style: 'margin-top:6px' }, mine.map(j => paperEl(j, { meA: a })))]) : null,
+      cos.length ? el('div', { className: 'cos' }, [el('h3', { text: `Co-authors (${cos.length})` }), el('div', { className: 'list' }, cos.slice(0, 80).map(b => el('button', { className: 'ia A', type: 'button', text: `${showName(AU[b][0])}${co.get(b) > 1 ? ' · ' + co.get(b) : ''}`, title: AU[b][2], onclick: () => openAuthor(b) }))
+        .concat(cos.length > 80 ? [el('span', { className: 'sim', text: `+${cos.length - 80} more` })] : []))]) : null,
+      el('div', { className: 'share' }, [
+        el('button', { className: 'btn primary', type: 'button', text: 'Copy link', onclick: () => copy(url) }),
+        /^A\d+$/.test(pid) ? el('a', { className: 'btn', href: `https://openalex.org/authors/${pid}`, target: '_blank', rel: 'noopener', text: 'OpenAlex profile ↗' }) : null,
+      ]),
+    ].filter(Boolean));
+    $('#acard').classList.add('show');
+  }
+
+  /* =================== TOPICS =================== */
+  const st = $('#tstatus');
+  function setStatus(msg, frac) {
+    st.replaceChildren(...[msg ? el('span', { text: msg }) : null, frac == null ? null : el('span', { className: 'pbar' }, el('i', { style: `width:${Math.round(frac * 100)}%` }))].filter(Boolean));
+  }
+  function warmModel() {
+    if (modelReady) return modelReady;
+    setStatus('Loading the search model (about 33 MB, first visit only)…', 0.02);
+    modelReady = import(TJS).then(({ pipeline, env }) => {
+      env.allowLocalModels = false;
+      const seen = new Map();
+      return pipeline('feature-extraction', MODEL, { dtype: 'q8', progress_callback: (p) => {
+        if (p.status === 'progress' && p.total) { seen.set(p.file, [p.loaded, p.total]); let a = 0, b = 0; for (const [l, t] of seen.values()) { a += l; b += t; } setStatus('Loading the search model (about 33 MB, first visit only)…', b ? a / b : 0); }
+      } });
+    }).then(ex => { extractor = ex; setStatus('Model ready. Type a topic or paste an abstract.'); return ex; })
+      .catch(err => { console.warn(err); setStatus('Could not load the search model, so results use keyword matching on titles instead.'); extractor = null; return null; });
+    return modelReady;
+  }
+  async function embed(text) {
+    const words = text.trim().split(/\s+/).length;
+    const input = words <= 24 ? 'Represent this sentence for searching relevant passages: ' + text : text;
+    const out = await extractor(input, { pooling: 'cls', normalize: true });
+    return out.data;
+  }
+  function lexicalScores(text) {
+    if (!idf) { idf = new Map(); P.forEach(r => new Set(norm(r[0]).split(' ')).forEach(w => idf.set(w, (idf.get(w) || 0) + 1))); for (const [w, c] of idf) idf.set(w, Math.log(P.length / c)); }
+    const qw = [...new Set(norm(text).split(' ').filter(w => w.length > 2))];
+    return P.map(r => { const tw = new Set(norm(r[0]).split(' ')); let s = 0; for (const w of qw) if (tw.has(w)) s += idf.get(w) || 0; return s; });
+  }
+  let lastSims = null, lastMode = null;
+  async function runTopic(text, pushUrl = true) {
+    text = text.trim(); if (!text) return;
+    lastTopicQuery = text;
+    if (pushUrl) { const h = text.length <= 120 ? '#/topics?q=' + encodeURIComponent(text) : '#/topics'; if (location.hash !== h) history.replaceState(null, '', h); }
+    $('#tgo').disabled = true;
+    try {
+      await ensurePapers();
+      await warmModel();
+      setStatus(`Searching ${fmt(P.length)} papers…`);
+      let sims, mode = 'semantic';
+      if (extractor) {
+        const qv = await embed(text);
+        const n = P.length; sims = new Float32Array(n);
+        for (let i = 0; i < n; i++) { let d = 0; const o = i * DIM; for (let j = 0; j < DIM; j++) d += V[o + j] * qv[j]; sims[i] = d * S[i]; }
+      } else { sims = lexicalScores(text); mode = 'keyword'; }
+      lastSims = sims; lastMode = mode;
+      renderTopic(text, sims, mode);
+      setStatus(mode === 'semantic' ? '' : 'Keyword matching on titles (search model unavailable).');
+    } catch (e) { console.error(e); setStatus('Something went wrong: ' + e.message); }
+    finally { $('#tgo').disabled = false; }
+  }
+  function renderTopic(text, sims, mode) {
+    const K = +$('#tk').value, since = +$('#tsince').value;
+    const withLinks = $('#tlinks').checked;
+    const pool = Array.from(sims.keys()).filter(i => P[i][4] >= since && (!withLinks || P[i][10] || (P[i][11] || []).length));
+    const idx = pool.sort((a, b) => sims[b] - sims[a]).slice(0, K).filter(i => mode === 'semantic' || sims[i] > 0);
+    const cnt = new Map(), wsum = new Map(), ccnt = new Map();
+    let withInd = 0; const areaCnt = new Array(A.length).fill(0);
+    for (const i of idx) {
+      const [, insts, ar] = P[i]; areaCnt[ar]++;
+      if (insts.some(k => INST[k].s === 'I')) withInd++;
+      for (const k of insts) { cnt.set(k, (cnt.get(k) || 0) + 1); wsum.set(k, (wsum.get(k) || 0) + sims[i]); }
+      for (const c of new Set(insts.map(k => INST[k].c).filter(Boolean))) ccnt.set(c, (ccnt.get(c) || 0) + 1);
+    }
+    const ranked = [...cnt.keys()].sort((a, b) => cnt.get(b) - cnt.get(a) || wsum.get(b) - wsum.get(a));
+    const comps = ranked.filter(k => INST[k].s === 'I');
+    const ctys = [...ccnt.keys()].sort((a, b) => ccnt.get(b) - ccnt.get(a));
+    const shortQ = text.length > 70 ? text.slice(0, 67).trimEnd() + '…' : text;
+    const topArea = areaCnt.indexOf(Math.max(...areaCnt));
+    const lead = ranked.length ? INST[ranked[0]] : null;
+
+    const bars = (list, val, label, onclick, extra) => {
+      const top = list.slice(0, 10); const mx = top.length ? val(top[0]) : 1;
+      if (!top.length) return [el('div', { className: 'empty', text: 'Nothing to show.' })];
+      return top.map((k, j) => el('div', { className: 'irow' + (onclick ? '' : ' nolink'), onclick: onclick ? () => onclick(k) : null }, [
+        el('span', { className: 'rk', text: String(j + 1) }),
+        el('span', { className: 'in' }, [document.createTextNode(label(k)), extra ? extra(k) : null]),
+        el('span', { className: 'barwrap' }, [el('span', { className: 'b', style: `width:${Math.max(6, 70 * val(k) / mx)}px` }), el('span', { className: 'v', text: String(val(k)) })]),
+      ]));
+    };
+    const shareQ = text.length > 70 ? '' : text;
+    const shareUrl = baseUrl() + (shareQ ? '#/topics?q=' + encodeURIComponent(shareQ) : '#/topics');
+    const tweet = lead ? `Who works on "${shortQ}" in IEEE RA-L? #1 is ${lead.n} (${cnt.get(ranked[0])} of the ${idx.length} closest papers). Check your topic:` : `Who works on "${shortQ}" in IEEE RA-L?`;
+
+    $('#tres').replaceChildren(
+      el('div', { className: 'summary' }, [
+        el('div', { className: 'big' }, [document.createTextNode('Who works on '), el('span', { className: 'q', text: `“${shortQ}”` })]),
+        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} papers${since ? ` since ${since}` : ''}${withLinks ? ' with arXiv or code' : ''} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common area: ${A[topArea].name}` }),
+        ...areaBar(areaCnt, A.map((_, i) => i), `Research areas of these ${idx.length} papers`),
+        comps.length ? el('div', { className: 'complist' }, [el('span', { text: 'Companies among them:' }), ...comps.slice(0, 10).map(k => { const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b; })]) : null,
+        el('div', { className: 'share' }, [
+          el('a', { className: 'btn primary', href: `https://x.com/intent/post?text=${encodeURIComponent(tweet)}&url=${encodeURIComponent(shareUrl)}`, target: '_blank', rel: 'noopener', text: 'Share on X' }),
+          el('button', { className: 'btn', type: 'button', text: 'Copy link', onclick: () => copy(shareUrl) }),
+        ]),
+      ]),
+      el('div', { className: 'split' }, [
+        el('div', { className: 'side A' }, [el('h3', { text: 'INSTITUTIONS' }),
+          ...bars(ranked, k => cnt.get(k), k => INST[k].n, k => INST[k].p > 0 && openInst(INST[k]), k => INST[k].s === 'I' ? el('span', { className: 'ind', text: 'industry' }) : null)]),
+        el('div', { className: 'side C' }, [el('h3', { text: 'COUNTRIES' }),
+          ...bars(ctys, c => ccnt.get(c), c => `${flag(c)} ${CNAME.get(c) || c}`, null, null)]),
+      ]),
+      el('div', { className: 'blk' }, [
+        el('h3', { text: 'Closest papers' }),
+        el('p', { className: 'note', text: 'The 20 RA-L papers closest to your text. Click a title to open it on IEEE Xplore, or an institution or author to open their page.' }),
+        ...idx.slice(0, 20).map(i => paperEl(i, { sim: mode === 'semantic' ? sims[i] : null })),
+      ]),
+    );
+    $('#tres').classList.add('show');
+  }
+  $('#tgo').addEventListener('click', () => runTopic($('#tq').value));
+  $('#tq').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); runTopic($('#tq').value); } });
+  $('#tq').addEventListener('focus', () => { ensurePapers(); warmModel(); }, { once: true });
+  $('#tk').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  YEARS.slice(0, -1).reverse().forEach(y => { if (y % 2 === 0 || y >= YEARS[YEARS.length - 1] - 3) $('#tsince').append(el('option', { value: String(y), text: `${y} onward` })); });
+  $('#tsince').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  $('#tlinks').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  document.querySelectorAll('#tex button').forEach(b => b.addEventListener('click', () => { $('#tq').value = b.dataset.t; runTopic(b.dataset.t); }));
+  const PLENARY = "__PLENARY__";
+  $('#texPaper').addEventListener('click', () => { $('#tq').value = PLENARY; runTopic(PLENARY); });
+
+  /* =================== MOST CITED =================== */
+  let citedOrder = null, citedShown = 100;
+  YEARS.forEach(y => { $('#cy0').append(el('option', { value: String(y), text: String(y) })); $('#cy1').append(el('option', { value: String(y), text: String(y) })); });
+  A.forEach((a, i) => $('#carea').append(el('option', { value: String(i), text: a.name })));
+  $('#cinstList').append(...[...RANKED].sort((a, b) => b.p - a.p).map(x => el('option', { value: x.n })));
+  const citedInst = () => { const v = $('#cinst').value.trim(); if (!v) return null; return RANKED.find(x => x.n === v) || search(v, 1)[0] || null; };
+  function citedHash() {
+    const p = new URLSearchParams(), y0 = +$('#cy0').value, y1 = +$('#cy1').value, x = citedInst();
+    if (y0 !== YEARS[0]) p.set('from', y0); if (y1 !== YEARS[YEARS.length - 1]) p.set('to', y1);
+    if ($('#carea').value) p.set('area', A[+$('#carea').value].short); if (x) p.set('inst', x.slug);
+    const h = '#/cited' + (p.toString() ? '?' + p : ''); if (location.hash !== h) history.replaceState(null, '', h);
+  }
+  function routeCited(qs) {
+    const p = new URLSearchParams(qs || ''), ai = A.findIndex(a => a.short === p.get('area')), x = p.get('inst') && bySlug.get(p.get('inst'));
+    $('#cy0').value = String(YEARS.includes(+p.get('from')) ? +p.get('from') : YEARS[0]);
+    $('#cy1').value = String(YEARS.includes(+p.get('to')) ? +p.get('to') : YEARS[YEARS.length - 1]);
+    $('#carea').value = ai >= 0 ? String(ai) : ''; $('#cinst').value = x ? x.n : '';
+    citedShown = 100; renderCited();
+  }
+  function renderCited() {
+    $('#cstatus').textContent = P ? '' : 'Loading papers…';
+    ensurePapers().then(() => {
+      if (!citedOrder) citedOrder = P.map((_, i) => i).sort((a, b) => (P[b][12] || 0) - (P[a][12] || 0) || P[a][7].localeCompare(P[b][7]));
+      let y0 = +$('#cy0').value, y1 = +$('#cy1').value; if (y0 > y1) [y0, y1] = [y1, y0];
+      const ar = $('#carea').value === '' ? -1 : +$('#carea').value, x = citedInst();
+      const hit = citedOrder.filter(i => { const r = P[i]; return r[4] >= y0 && r[4] <= y1 && (ar < 0 || r[2] === ar) && (!x || r[1].includes(x.i)); });
+      const tot = hit.reduce((s, i) => s + (P[i][12] || 0), 0);
+      const what = [y0 === y1 ? String(y0) : `${y0}–${y1}`, ar >= 0 ? A[ar].name : null, x ? x.n : null].filter(Boolean).join(' · ');
+      $('#cstatus').textContent = ($('#cinst').value.trim() && !x ? `No institution matches “${$('#cinst').value.trim()}”. ` : '') +
+        `${fmt(hit.length)} paper${hit.length === 1 ? '' : 's'} (${what}) · ${fmt(tot)} citations in total` + (hit.length ? ` · median ${fmt(P[hit[hit.length >> 1]][12] || 0)}` : '');
+      $('#cres').replaceChildren(...hit.slice(0, citedShown).map((i, k) => el('div', { className: 'crow' }, [
+        el('div', { className: 'rk' }, [el('span', { text: `#${k + 1}` }), el('b', { text: fmt(P[i][12] || 0) }), el('small', { text: 'citations' })]),
+        paperEl(i)])));
+      $('#cmore').style.display = hit.length > citedShown ? '' : 'none';
+      citedHash();
+    }).catch(e => { $('#cstatus').textContent = 'Could not load papers: ' + e.message; });
+  }
+  ['#cy0', '#cy1', '#carea'].forEach(id => $(id).addEventListener('change', () => { citedShown = 100; renderCited(); }));
+  $('#cinst').addEventListener('change', () => { citedShown = 100; renderCited(); });
+  $('#cinst').addEventListener('input', () => { if (!$('#cinst').value) { citedShown = 100; renderCited(); } });
+  $('#creset').addEventListener('click', () => { history.replaceState(null, '', '#/cited'); routeCited(''); });
+  $('#cmore').addEventListener('click', () => { citedShown += 100; renderCited(); });
+
+  route();
+})();
+</script>
+</body>
+</html>

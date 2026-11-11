@@ -1,0 +1,213 @@
+"""Write pub_exp/index.html: the landing page for the four journal explorers.
+
+Numbers (papers, institutions, countries, years, top institutions, research-area mix) are read from each
+site's data.js, so run this again after rebuilding any of the sites:  python3 -I build_index.py
+"""
+import html
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+SITES = [  # folder, short name, full name, field, IEEE Xplore page, card gradient
+    ('lcss', 'L-CSS', 'IEEE Control Systems Letters', 'control', 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7782633',
+     ('#4f46e5', '#7c3aed', '#db2777')),
+    ('tac', 'T-AC', 'IEEE Transactions on Automatic Control', 'control', 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9',
+     ('#1e3a8a', '#2563eb', '#dc2626')),
+    ('ral', 'RA-L', 'IEEE Robotics and Automation Letters', 'robotics', 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369',
+     ('#1d4ed8', '#7c3aed', '#db2777')),
+    ('tro', 'T-RO', 'IEEE Transactions on Robotics', 'robotics', 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860',
+     ('#0f766e', '#0284c7', '#4f46e5')),
+]
+esc = html.escape
+
+
+def load(folder):
+    s = (HERE / folder / 'data.js').read_text()
+    return json.loads(s[s.index('=') + 1:].rstrip().rstrip(';'))
+
+
+def fmt(n):
+    return f'{n:,}'
+
+
+cards, tot = {'control': [], 'robotics': []}, {'papers': 0, 'insts': set(), 'snap': ''}
+for folder, short, full, field, xplore, (g1, g2, g3) in SITES:
+    D = load(folder)
+    M, INST = D['meta'], D['inst']
+    y0, y1 = M['years'][0], M['years'][-1]
+    tot['papers'] += M['papers']
+    tot['insts'] |= {x['n'] for x in INST}
+    tot['snap'] = max(tot['snap'], M.get('snapshot', ''))
+    areas = sorted(M['areas'], key=lambda a: -a['total'])
+    atot = sum(a['total'] for a in areas) or 1
+    bar = ''.join(f'<i style="flex:{a["total"]};background:{a["color"]}" title="{esc(a["name"])}: {fmt(a["total"])} papers"></i>'
+                  for a in areas if a['total'])
+    top_areas = ' · '.join(f'{esc(a["short"])} {round(100 * a["total"] / atot)}%' for a in areas[:3])
+    top3 = ''.join(f'<li><span class="rk">{x["r"]}</span><span class="nm">{esc(x["n"])}</span><span class="pc">{fmt(x["p"])}</span></li>'
+                   for x in INST[:3])
+    extra = []
+    if M.get('early'):
+        extra.append(f'{fmt(M["early"])} in early access')
+    if M.get('with_arxiv'):
+        extra.append(f'{fmt(M["with_arxiv"])} on arXiv')
+    if M.get('with_code'):
+        extra.append(f'{fmt(M["with_code"])} with code')
+    cards[field].append(f'''
+      <article class="card" style="--g1:{g1};--g2:{g2};--g3:{g3}">
+        <div class="band">
+          <span class="yrs">{y0}–{y1}</span>
+          <span class="abbr">{short}</span>
+          <span class="full">{esc(full)}</span>
+        </div>
+        <div class="body">
+          <div class="nums">
+            <div><b>{fmt(M["papers"])}</b><span>papers</span></div>
+            <div><b>{fmt(M["institutions"])}</b><span>institutions</span></div>
+            <div><b>{len(M["countries"])}</b><span>countries</span></div>
+            <div><b>{fmt(M["authors"])}</b><span>authors</span></div>
+          </div>
+          <div class="mix" aria-hidden="true">{bar}</div>
+          <p class="areas">Top areas: {top_areas}</p>
+          <p class="lbl">Most papers</p>
+          <ol class="top">{top3}</ol>
+          <p class="extra">{" · ".join(extra)}</p>
+          <div class="foot"><a class="go" href="{folder}/">Explore {short} <span class="arr">→</span></a>
+            <a class="xp" href="{xplore}" rel="noopener" target="_blank" title="Journal page on IEEE Xplore">IEEE Xplore ↗</a></div>
+        </div>
+      </article>''')
+
+page = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publication Explorers · IEEE L-CSS, T-AC, RA-L, T-RO</title>
+<meta name="description" content="Who publishes what in four IEEE control and robotics journals: search every paper in L-CSS, T-AC, RA-L and T-RO by institution, author or topic.">
+<meta property="og:title" content="Publication Explorers: IEEE L-CSS · T-AC · RA-L · T-RO">
+<meta property="og:description" content="{fmt(tot["papers"])} papers from four IEEE control and robotics journals, searchable by institution, author and topic.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="tac/assets/og-card.png">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="tac/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root {{ --bg:#f7f8fb; --panel:#fff; --ink:#0f172a; --muted:#64748b; --faint:#94a3b8; --line:#e5e7eb; --shadow:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06); }}
+@media (prefers-color-scheme: dark) {{ :root {{ --bg:#0b1020; --panel:#121a2e; --ink:#e5e7eb; --muted:#9aa4b8; --faint:#6b7488; --line:#232c42; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35); }} }}
+* {{ box-sizing:border-box; }}
+html {{ -webkit-text-size-adjust:100%; }}
+body {{ margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 "Google Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }}
+a {{ color:inherit; }}
+.wrap {{ max-width:1180px; margin:0 auto; padding:0 24px; }}
+header.hero {{ position:relative; overflow:hidden; padding:84px 0 56px; text-align:center; }}
+header.hero::before {{ content:""; position:absolute; inset:-40% -10% auto; height:520px; background:
+  radial-gradient(closest-side,rgba(79,70,229,.18),transparent 70%) 15% 30%/560px 420px no-repeat,
+  radial-gradient(closest-side,rgba(219,39,119,.14),transparent 70%) 85% 20%/520px 420px no-repeat,
+  radial-gradient(closest-side,rgba(2,132,199,.14),transparent 70%) 55% 70%/620px 380px no-repeat; pointer-events:none; }}
+.kick {{ position:relative; display:inline-block; margin:0 0 18px; padding:6px 14px; border:1px solid var(--line); border-radius:999px;
+  background:var(--panel); color:var(--muted); font-size:13px; letter-spacing:.08em; text-transform:uppercase; }}
+h1 {{ position:relative; margin:0; font:700 clamp(40px,7vw,76px)/1.02 "Google Sans Display","Google Sans",sans-serif; letter-spacing:-.03em; }}
+h1 .g {{ background:linear-gradient(92deg,#1e3a8a,#4f46e5 35%,#db2777 70%,#0284c7); -webkit-background-clip:text; background-clip:text; color:transparent; }}
+.lead {{ position:relative; max-width:720px; margin:20px auto 0; color:var(--muted); font-size:clamp(17px,2.2vw,20px); }}
+.totals {{ position:relative; display:flex; justify-content:center; flex-wrap:wrap; gap:14px 40px; margin:34px 0 0; }}
+.totals div {{ display:flex; flex-direction:column; }}
+.totals b {{ font-size:30px; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }}
+.totals span {{ color:var(--muted); font-size:13px; }}
+.ways {{ position:relative; display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:30px 0 0; padding:0; list-style:none; }}
+.ways li {{ padding:8px 14px; border-radius:12px; background:var(--panel); border:1px solid var(--line); font-size:14px; color:var(--muted); }}
+.ways li b {{ color:var(--ink); font-weight:500; }}
+section.field {{ margin:28px 0 0; }}
+.fh {{ display:flex; align-items:baseline; gap:14px; margin:0 0 16px; }}
+.fh h2 {{ margin:0; font-size:24px; letter-spacing:-.01em; }}
+.fh span {{ color:var(--muted); font-size:14px; }}
+.fh::after {{ content:""; flex:1; height:1px; background:var(--line); align-self:center; }}
+.grid {{ display:grid; grid-template-columns:repeat(2,1fr); gap:24px; }}
+@media (max-width:820px) {{ .grid {{ grid-template-columns:1fr; }} }}
+.card {{ position:relative; display:flex; flex-direction:column; text-decoration:none; background:var(--panel); border:1px solid var(--line); border-radius:22px;
+  overflow:hidden; box-shadow:var(--shadow); transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease; }}
+.card:hover,.card:focus-within {{ transform:translateY(-4px); box-shadow:0 2px 4px rgba(15,23,42,.06),0 18px 40px rgba(15,23,42,.14); border-color:transparent; outline:none; }}
+.band {{ position:relative; display:flex; flex-direction:column; padding:26px 28px 22px; color:#fff;
+  background:linear-gradient(115deg,var(--g1),var(--g2) 55%,var(--g3)); }}
+.band::after {{ content:""; position:absolute; inset:0; background:
+  radial-gradient(circle at 92% -10%,rgba(255,255,255,.28),transparent 45%),
+  repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 2px,transparent 2px 12px); pointer-events:none; }}
+.abbr {{ font:700 52px/1 "Google Sans Display","Google Sans",sans-serif; letter-spacing:-.02em; }}
+.full {{ margin-top:8px; font-size:16px; opacity:.92; }}
+.yrs {{ position:absolute; top:22px; right:24px; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.18);
+  font-size:13px; font-weight:500; backdrop-filter:blur(4px); }}
+.body {{ display:flex; flex-direction:column; flex:1; padding:22px 28px 24px; }}
+.nums {{ display:grid; grid-template-columns:repeat(4,1fr); gap:8px; }}
+.nums div {{ display:flex; flex-direction:column; }}
+.nums b {{ font-size:22px; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }}
+.nums span {{ color:var(--muted); font-size:12.5px; }}
+@media (max-width:420px) {{ .nums {{ grid-template-columns:repeat(2,1fr); row-gap:12px; }} }}
+.mix {{ display:flex; height:10px; margin:20px 0 8px; border-radius:6px; overflow:hidden; gap:2px; }}
+.mix i {{ display:block; min-width:2px; }}
+.areas {{ margin:0; color:var(--muted); font-size:13.5px; }}
+.lbl {{ margin:18px 0 6px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); }}
+.top {{ list-style:none; margin:0; padding:0; }}
+.top li {{ display:flex; align-items:center; gap:12px; padding:7px 0; border-top:1px dashed var(--line); font-size:15px; }}
+.top li:first-child {{ border-top:0; }}
+.top .rk {{ width:24px; height:24px; flex:none; display:grid; place-items:center; border-radius:8px; font-size:12px; font-weight:700;
+  color:#fff; background:linear-gradient(135deg,var(--g1),var(--g3)); }}
+.top .nm {{ flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
+.top .pc {{ color:var(--muted); font-variant-numeric:tabular-nums; font-size:14px; }}
+.extra {{ margin:14px 0 0; color:var(--muted); font-size:13.5px; }}
+.foot {{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:auto; padding-top:20px; }}
+.go::after {{ content:""; position:absolute; inset:0; border-radius:22px; }}
+.go:focus-visible {{ outline:3px solid var(--g2); outline-offset:3px; }}
+.go {{ text-decoration:none; display:inline-flex; align-items:center; gap:6px; padding:10px 16px; border-radius:12px; font-weight:500; font-size:15px; color:#fff;
+  background:linear-gradient(100deg,var(--g1),var(--g2)); }}
+.go .arr {{ transition:transform .18s ease; }}
+.card:hover .go .arr {{ transform:translateX(4px); }}
+.xp {{ position:relative; z-index:1; color:var(--muted); font-size:13.5px; text-decoration:none; }}
+.xp:hover {{ color:var(--ink); text-decoration:underline; }}
+footer {{ margin:56px 0 0; padding:28px 0 40px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; text-align:center; }}
+footer a {{ color:var(--ink); }}
+@media (prefers-reduced-motion: reduce) {{ .card,.go .arr {{ transition:none; }} .card:hover {{ transform:none; }} }}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kick">Publication Explorers</p>
+    <h1>Who publishes what in<br><span class="g">IEEE control &amp; robotics</span></h1>
+    <p class="lead">Every paper in four IEEE journals, early access included. Look up any institution or author, rank papers by citations, or paste an abstract to find the closest papers and the groups behind them.</p>
+    <div class="totals">
+      <div><b>4</b><span>journals</span></div>
+      <div><b>{fmt(tot["papers"])}</b><span>papers</span></div>
+      <div><b>{fmt(len(tot["insts"]))}</b><span>institutions</span></div>
+      <div><b>{min(load(f)["meta"]["years"][0] for f, *_ in SITES)}–{max(load(f)["meta"]["years"][-1] for f, *_ in SITES)}</b><span>years covered</span></div>
+    </div>
+    <ul class="ways">
+      <li><b>Institutions</b> · rank, yearly output, area mix</li>
+      <li><b>Topics</b> · semantic search over titles and abstracts</li>
+      <li><b>Authors</b> · papers, co-authors, affiliations</li>
+      <li><b>Most cited</b> · filter by year, area, institution</li>
+    </ul>
+  </div>
+</header>
+<main class="wrap">
+  <section class="field" aria-labelledby="hc">
+    <div class="fh"><h2 id="hc">Control</h2><span>IEEE Control Systems Society</span></div>
+    <div class="grid">{"".join(cards["control"])}
+    </div>
+  </section>
+  <section class="field" aria-labelledby="hr">
+    <div class="fh"><h2 id="hr">Robotics</h2><span>IEEE Robotics and Automation Society</span></div>
+    <div class="grid">{"".join(cards["robotics"])}
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    Also: the <a href="../../cdc2026/">CDC 2026 Explorer</a> · by <a href="../../">Santosh Rajkumar</a><br>
+    Data from Crossref, OpenAlex and arXiv · snapshot {tot["snap"]}. Unofficial project, not affiliated with or endorsed by IEEE.
+  </div>
+</footer>
+</body>
+</html>
+'''
+(HERE / 'index.html').write_text(page)
+print('wrote', HERE / 'index.html', '|', fmt(tot['papers']), 'papers,', fmt(len(tot['insts'])), 'institutions')

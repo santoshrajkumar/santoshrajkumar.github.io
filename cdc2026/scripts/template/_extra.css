@@ -41,6 +41,8 @@ span.chip.ia { cursor: default; color: var(--muted); }
 .sitefoot p { margin: 0 0 4px; }
 .sitefoot p.buckeyes { margin-top: 48px; font-size: 9px; color: #BB0000; }
 .sitefoot p.buckeyes a { color: #BB0000; text-decoration: underline; }
+.sitefoot p.sisters { margin: 0 0 14px; }
+.sitefoot p.sisters a { white-space: nowrap; }
 .paper .lnk { font-size: 12px; font-weight: 700; border-radius: 6px; padding: 2px 7px; text-decoration: none; }
 .paper .lnk::after { content: ' ↗'; }
 .paper .lnk.ax { color: #b31b1b; background: #fde8e8; }
