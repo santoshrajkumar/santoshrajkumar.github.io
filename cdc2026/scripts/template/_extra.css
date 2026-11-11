@@ -1,0 +1,41 @@
+/* CDC additions */
+.paper .ses a { color: var(--muted); }
+.paper .tagt { font-size: 12px; font-weight: 700; color: #0f766e; background: #ccfbf1; border-radius: 6px; padding: 2px 7px; }
+.paper .kw { font-size: 12px; color: var(--faint); }
+.irow .in .ind { font-size: 11px; font-weight: 700; color: var(--ind); margin-left: 6px; }
+.side.C { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
+.side.C h3 { color: var(--accent); }
+.side.C .b { background: var(--accent); }
+.irow.nolink { cursor: default; }
+.irow.nolink:hover .in { text-decoration: none; }
+.cos { margin-top: 18px; }
+.cos h3 { margin: 0 0 4px; font-size: 18px; }
+.cos .note { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+.cos .list { display: flex; flex-wrap: wrap; gap: 6px; }
+.cos .ia { all: unset; cursor: pointer; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
+.cos .ia.I { color: var(--ind); } .cos .ia.A { color: var(--aca); }
+.cos .ia:hover { border-color: var(--accent); }
+.complist { margin-top: 14px; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.complist .ia { all: unset; cursor: pointer; font-size: 13px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--panel-2); color: var(--ind); }
+.opts label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+:root[data-theme="dark"] .paper .tagt { background: #134e4a; color: #99f6e4; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .paper .tagt { background: #134e4a; color: #99f6e4; } }
+/* authors */
+.doors { grid-template-columns: repeat(3, 1fr); }
+.door.author:hover, .door.author:focus-visible { border-color: var(--accent); }
+.door.author .ic { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); }
+.door.author .go { color: var(--accent); }
+@media (max-width: 860px) { .doors { grid-template-columns: 1fr; } }
+.paper .au { font-size: 13.5px; color: var(--muted); margin-top: 5px; }
+.paper .au button { all: unset; cursor: pointer; color: var(--ink); }
+.paper .au button:hover { text-decoration: underline; }
+.paper .au button.me { font-weight: 700; }
+.chip.ia { all: unset; cursor: pointer; font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--panel-2); color: var(--aca); }
+span.chip.ia { cursor: default; color: var(--muted); }
+#acard .mix .paper:last-child { border-bottom: 0; }
+.credit { text-align: right; font-size: 9px; color: var(--faint); margin: 28px 0 0; opacity: .8; }
+.credit a { color: var(--faint); }
+.ghlink { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+.ghlink .gh { width: 15px; height: 15px; }
+</style>
+</head>

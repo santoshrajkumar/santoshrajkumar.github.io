@@ -1,0 +1,678 @@
+rank,institution,papers,pct_of_papers,fractional_papers,country,sector,Optimal & predictive control,Optimization & algorithms,Learning-based & data-driven control,Reinforcement & multi-agent learning,"Safety, security & privacy","Hybrid, discrete-event & formal methods",Nonlinear systems & stability,"Linear, delay & infinite-dim. systems",Robust & adaptive control,Stochastic systems & estimation,System identification & modeling,Game theory & mean-field,Networked & multi-agent systems,"Robotics, autonomy & aerospace","Energy, transportation & applications","Biology, medicine & quantum"
+1,UC San Diego,49,3.12,31.1,US,academia,4,2,4,1,5,0,4,4,3,3,4,3,8,1,2,1
+2,University of Michigan,46,2.92,29.3,US,academia,3,5,6,1,2,2,3,4,5,4,1,0,5,2,3,0
+3,ETH Zurich,45,2.86,24.9,CH,academia,5,6,11,0,3,1,0,3,3,3,0,5,2,2,0,1
+4,University of Illinois Urbana-Champaign,44,2.8,27.1,US,academia,0,1,7,5,1,0,5,0,2,5,0,12,5,1,0,0
+5,Georgia Institute of Technology,43,2.73,27.1,US,academia,3,2,6,2,4,2,2,1,2,9,0,4,2,1,2,1
+6,KTH Royal Institute of Technology,41,2.61,25.2,SE,academia,0,2,6,2,7,0,1,2,2,1,0,2,12,2,1,1
+6,CNRS,41,2.61,11.6,FR,academia,2,3,2,0,0,3,6,9,2,4,1,0,4,2,2,1
+8,Massachusetts Institute of Technology,38,2.42,26.4,US,academia,3,8,2,3,5,2,0,1,4,2,1,0,0,2,3,2
+9,Purdue University,30,1.91,21.3,US,academia,3,0,4,1,5,0,2,3,0,3,0,3,5,0,1,0
+9,UC Berkeley,30,1.91,20.7,US,academia,3,2,5,1,4,0,0,1,2,5,2,2,0,2,1,0
+11,Eindhoven University of Technology,29,1.84,20.9,NL,academia,1,1,4,0,0,5,3,4,1,3,5,0,1,1,0,0
+11,California Institute of Technology,29,1.84,20.4,US,academia,1,2,1,0,11,0,3,2,2,3,1,1,1,1,0,0
+13,Politecnico di Torino,27,1.72,16.7,IT,academia,1,2,3,1,0,2,3,0,0,2,2,3,5,0,3,0
+14,Cornell University,25,1.59,15.4,US,academia,0,1,3,1,1,0,1,0,0,2,1,5,5,2,3,0
+15,Imperial College London,24,1.53,11.5,GB,academia,2,1,7,0,1,0,2,2,3,1,0,2,1,0,1,1
+16,Shanghai Jiao Tong University,20,1.27,13.2,CN,academia,3,1,3,1,2,5,1,0,0,0,0,0,3,0,0,1
+16,Inria,20,1.27,8.8,FR,academia,3,0,2,0,0,0,3,2,5,4,0,0,0,0,1,0
+18,Johns Hopkins University,19,1.21,12.1,US,academia,5,2,5,1,1,0,1,0,0,0,0,2,0,1,0,1
+18,University of Maryland,19,1.21,11.8,US,academia,2,0,1,0,1,3,0,0,1,2,0,4,2,0,2,1
+18,UT Austin,19,1.21,11.8,US,academia,0,1,2,3,1,0,1,0,0,1,0,4,4,1,1,0
+18,University of Melbourne,19,1.21,11.8,AU,academia,2,1,1,0,0,0,0,1,2,2,2,1,4,0,0,3
+18,University of Groningen,19,1.21,10.7,NL,academia,0,2,6,0,2,0,4,2,0,0,1,0,1,1,0,0
+23,University of Oxford,17,1.08,12.3,GB,academia,1,1,3,3,2,2,0,1,0,0,0,0,0,1,1,2
+23,Northeastern University,17,1.08,12.2,US,academia,2,1,6,0,1,0,1,2,0,2,0,0,0,1,0,1
+23,UCLA,17,1.08,11.3,US,academia,0,0,4,3,4,0,0,0,0,1,0,0,3,0,0,2
+23,Queen's University,17,1.08,10.9,CA,academia,0,0,3,1,0,0,1,0,3,6,0,0,2,1,0,0
+23,University of Colorado Boulder,17,1.08,10.6,US,academia,1,0,6,0,1,2,1,0,1,3,0,1,1,0,0,0
+23,Technical University of Munich,17,1.08,10.2,DE,academia,0,0,8,1,4,0,0,2,0,0,1,0,0,1,0,0
+29,Arizona State University,16,1.02,11.9,US,academia,1,2,0,4,0,1,0,3,0,0,1,1,1,2,0,0
+29,Seoul National University,16,1.02,11.8,KR,academia,1,1,3,0,2,0,1,0,1,1,1,0,5,0,0,0
+29,UC Irvine,16,1.02,10.9,US,academia,1,4,2,1,1,0,0,1,0,1,0,1,1,0,3,0
+29,Southeast University,16,1.02,8.9,CN,academia,1,5,1,1,1,0,1,0,1,0,0,1,3,0,1,0
+29,UC Santa Barbara,16,1.02,8.6,US,academia,1,1,2,0,1,2,2,0,0,2,1,3,0,1,0,0
+34,New York University,15,0.95,9.2,US,academia,1,1,2,4,0,0,0,0,0,0,0,2,1,1,3,0
+34,University of Pennsylvania,15,0.95,9.2,US,academia,4,0,6,0,1,0,0,1,1,0,1,0,0,0,1,0
+34,Boston University,15,0.95,8.9,US,academia,2,1,4,0,3,0,0,0,0,2,0,0,1,0,1,1
+34,University of Sydney,15,0.95,8.3,AU,academia,4,2,3,0,0,0,2,1,0,0,0,0,0,3,0,0
+38,University of Waterloo,14,0.89,9.6,CA,academia,2,1,4,0,0,0,5,0,0,2,0,0,0,0,0,0
+38,University of Manchester,14,0.89,7.6,GB,academia,0,0,1,0,3,0,0,1,5,0,0,0,3,1,0,0
+38,Nanyang Technological University,14,0.89,6.7,SG,academia,0,0,0,0,3,1,1,0,1,3,1,0,3,1,0,0
+41,University of Florida,13,0.83,11.0,US,academia,1,1,2,3,2,0,0,0,0,2,1,0,1,0,0,0
+41,NC State University,13,0.83,9.5,US,academia,1,1,0,1,3,0,3,0,0,1,0,0,3,0,0,0
+41,"The Chinese University of Hong Kong, Shenzhen",13,0.83,8.6,CN,academia,0,3,2,0,1,0,1,1,0,0,2,1,1,0,1,0
+41,Lund University,13,0.83,8.1,SE,academia,2,0,1,0,0,0,0,3,2,2,2,0,1,0,0,0
+41,Université Grenoble Alpes,13,0.83,3.2,FR,academia,1,1,0,1,0,0,2,4,1,0,0,0,0,1,1,1
+46,Australian National University,12,0.76,4.9,AU,academia,1,1,1,0,0,0,1,0,1,4,0,0,2,0,0,1
+46,CentraleSupélec,12,0.76,3.5,FR,academia,0,2,1,0,0,0,0,3,3,0,0,0,1,0,2,0
+46,Université Paris-Saclay,12,0.76,3.5,FR,academia,0,2,2,0,0,1,0,3,1,2,0,0,1,0,0,0
+49,UC Santa Cruz,11,0.7,9.1,US,academia,1,0,1,0,0,6,2,0,0,0,1,0,0,0,0,0
+49,University of Washington,11,0.7,8.0,US,academia,1,1,1,0,1,0,0,1,0,2,1,0,0,1,2,0
+49,Tsinghua University,11,0.7,7.9,CN,academia,2,1,2,1,0,0,0,1,0,0,1,1,0,0,2,0
+49,UCLouvain,11,0.7,7.6,BE,academia,0,3,4,0,1,2,1,0,0,0,0,0,0,0,0,0
+49,Politecnico di Milano,11,0.7,7.0,IT,academia,3,0,2,0,0,1,0,0,2,0,1,0,0,1,1,0
+49,Zhejiang University,11,0.7,6.5,CN,academia,2,1,1,0,0,0,1,2,2,0,0,0,2,0,0,0
+49,National Research Council of Italy (CNR),11,0.7,5.0,IT,academia,0,0,0,0,0,0,0,1,0,2,4,1,1,0,0,2
+49,KAUST,11,0.7,3.5,SA,academia,1,0,1,0,0,0,1,2,2,1,0,1,2,0,0,0
+57,University of Cyprus,10,0.64,8.6,CY,academia,1,0,1,1,0,0,0,0,0,2,0,0,2,1,2,0
+57,Washington University in St. Louis,10,0.64,8.4,US,academia,0,1,1,0,0,0,2,0,1,0,0,1,3,1,0,0
+57,Vanderbilt University,10,0.64,8.2,US,academia,0,0,1,0,1,1,0,2,0,0,1,0,2,0,1,1
+57,Stanford University,10,0.64,7.6,US,academia,1,0,1,1,1,1,0,0,1,0,0,1,1,1,0,1
+57,University of Tokyo,10,0.64,7.5,JP,academia,1,0,4,0,3,0,0,0,0,0,0,0,2,0,0,0
+57,Kyoto University,10,0.64,7.2,JP,academia,1,1,2,0,1,0,1,2,0,1,0,0,1,0,0,0
+57,HKUST (Guangzhou),10,0.64,6.7,CN,academia,1,0,1,0,1,2,1,0,0,0,0,0,4,0,0,0
+57,Delft University of Technology,10,0.64,6.5,NL,academia,2,1,1,0,0,0,1,0,0,1,0,3,0,1,0,0
+57,EPFL,10,0.64,6.3,CH,academia,0,0,3,0,0,0,0,0,2,2,0,1,1,0,1,0
+57,Mitsubishi Electric Research Laboratories,10,0.64,6.1,US,industry,1,2,1,0,1,0,0,0,0,2,0,0,0,0,3,0
+57,Université de Lorraine,10,0.64,4.6,FR,academia,0,0,2,0,0,0,1,2,1,0,0,0,1,2,1,0
+68,KAIST,9,0.57,8.3,KR,academia,0,0,2,2,1,1,0,0,0,1,0,0,2,0,0,0
+68,University of Wisconsin–Madison,9,0.57,6.9,US,academia,0,1,4,0,1,0,0,0,0,0,1,0,0,0,2,0
+68,Texas A&M University,9,0.57,6.3,US,academia,1,1,1,0,0,0,0,0,0,0,0,2,0,2,1,1
+68,Uppsala University,9,0.57,5.8,SE,academia,0,0,1,0,0,1,0,0,2,1,1,0,1,1,1,0
+68,Iowa State University,9,0.57,5.7,US,academia,1,1,0,0,0,1,1,0,0,2,0,0,0,1,1,1
+68,Air Force Research Laboratory,9,0.57,5.2,US,academia,0,1,0,0,0,1,0,0,0,1,0,0,2,3,1,0
+68,Carnegie Mellon University,9,0.57,5.2,US,academia,0,0,2,0,0,0,0,0,0,0,0,1,0,1,2,3
+68,Los Alamos National Laboratory,9,0.57,5.1,US,academia,1,2,0,0,0,0,0,0,1,1,1,0,0,0,3,0
+68,Beijing Institute of Technology,9,0.57,4.5,CN,academia,1,2,0,0,0,0,1,0,0,1,0,0,3,1,0,0
+68,Harvard University,9,0.57,4.3,US,academia,0,1,1,1,0,0,0,0,0,0,0,0,3,0,2,1
+78,University of Rome Tor Vergata,8,0.51,7.6,IT,academia,0,0,2,0,0,1,0,3,1,1,0,0,0,0,0,0
+78,IMT School for Advanced Studies Lucca,8,0.51,6.5,IT,academia,2,0,3,0,0,0,0,0,0,0,0,3,0,0,0,0
+78,University of Virginia,8,0.51,6.5,US,academia,1,1,0,0,0,0,0,0,0,0,0,1,2,2,0,1
+78,Institute of Science Tokyo,8,0.51,6.1,JP,academia,0,2,0,0,0,0,0,0,0,1,0,1,0,0,4,0
+78,Princeton University,8,0.51,5.8,US,academia,0,0,1,0,1,0,0,1,0,1,1,0,2,0,0,1
+78,University of Southern California,8,0.51,5.8,US,academia,0,0,3,0,0,0,0,0,0,3,1,0,0,0,1,0
+78,University of Bergamo,8,0.51,5.5,IT,academia,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,4
+78,University of Bologna,8,0.51,5.5,IT,academia,1,0,0,0,2,0,3,0,1,0,0,0,1,0,0,0
+78,Politecnico di Bari,8,0.51,4.9,IT,academia,0,0,2,1,0,1,0,0,0,0,1,0,1,0,2,0
+78,University of Cagliari,8,0.51,4.7,IT,academia,0,1,0,0,0,1,0,0,1,0,0,0,4,0,1,0
+78,Peking University,8,0.51,4.3,CN,academia,0,3,1,0,0,0,0,1,1,0,0,0,2,0,0,0
+78,University of Padova,8,0.51,4.2,IT,academia,0,0,2,0,0,0,0,0,1,0,1,0,1,1,0,2
+78,University of Minnesota,8,0.51,4.2,US,academia,0,1,1,0,1,0,1,0,0,1,0,0,1,1,1,0
+78,Army Research Laboratory,8,0.51,3.0,US,academia,0,0,0,1,1,0,0,0,1,0,0,3,1,1,0,0
+78,Chinese Academy of Sciences,8,0.51,2.9,CN,academia,0,0,0,0,0,0,0,0,2,1,0,1,1,0,1,2
+78,University of Trieste,8,0.51,2.9,IT,academia,1,1,2,1,0,0,0,0,1,0,0,0,1,0,0,1
+94,POSTECH,7,0.45,6.0,KR,academia,0,0,1,0,0,0,2,3,0,0,0,0,1,0,0,0
+94,The Ohio State University,7,0.45,5.8,US,academia,0,0,1,3,0,0,0,0,0,0,0,0,2,0,1,0
+94,Concordia University,7,0.45,5.5,CA,academia,0,0,0,0,2,0,0,0,0,2,0,0,3,0,0,0
+94,Worcester Polytechnic Institute,7,0.45,5.5,US,academia,0,0,0,0,1,0,0,1,0,0,0,0,5,0,0,0
+94,Rutgers University,7,0.45,5.4,US,academia,0,3,0,0,0,0,0,2,0,0,0,0,1,0,0,1
+94,TU Dortmund University,7,0.45,5.3,DE,academia,0,0,3,1,2,1,0,0,0,0,0,0,0,0,0,0
+94,McGill University,7,0.45,5.0,CA,academia,0,1,0,0,0,0,0,0,0,1,0,2,3,0,0,0
+94,Indian Institute of Technology Bombay,7,0.45,4.8,IN,academia,0,1,0,0,0,1,1,0,0,0,1,2,0,0,0,1
+94,NTNU,7,0.45,4.6,NO,academia,1,0,0,1,1,0,1,0,0,0,0,0,0,2,0,1
+94,New Jersey Institute of Technology,7,0.45,4.3,US,academia,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0
+94,University of South Florida,7,0.45,4.3,US,academia,0,0,0,0,0,0,0,0,1,1,0,0,4,1,0,0
+94,The University of Osaka,7,0.45,4.3,JP,academia,1,0,0,0,1,1,0,0,0,0,0,0,3,1,0,0
+94,Tongji University,7,0.45,4.1,CN,academia,0,1,0,0,0,0,0,0,1,0,0,0,0,3,1,1
+94,UC Merced,7,0.45,3.8,US,academia,0,0,2,0,0,0,1,1,0,0,0,0,0,1,0,2
+94,Chalmers University of Technology,7,0.45,3.8,SE,academia,0,1,1,0,0,0,0,0,0,1,0,0,1,2,1,0
+94,Rensselaer Polytechnic Institute,7,0.45,3.7,US,academia,0,1,0,1,1,0,0,0,0,1,0,1,0,2,0,0
+94,UNC Charlotte,7,0.45,3.6,US,academia,0,0,0,0,0,0,0,0,0,0,0,3,3,1,0,0
+94,University of British Columbia,7,0.45,3.4,CA,academia,0,2,0,0,1,0,1,1,0,0,1,1,0,0,0,0
+94,University of Toronto,7,0.45,3.3,CA,academia,0,0,2,0,0,0,0,1,1,1,0,2,0,0,0,0
+94,Amazon,7,0.45,2.4,US,industry,1,0,0,0,3,0,1,0,0,0,0,1,0,0,1,0
+114,Technion – Israel Institute of Technology,6,0.38,5.2,IL,academia,0,0,0,0,0,0,2,1,0,0,0,0,2,0,1,0
+114,Linköping University,6,0.38,5.1,SE,academia,0,0,1,0,0,0,0,0,0,0,1,0,4,0,0,0
+114,Southern University of Science and Technology,6,0.38,4.9,CN,academia,0,2,0,0,1,0,0,0,1,0,0,0,2,0,0,0
+114,Karlsruhe Institute of Technology,6,0.38,4.7,DE,academia,1,0,0,0,1,0,0,2,0,1,0,0,0,0,1,0
+114,Clemson University,6,0.38,4.6,US,academia,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0,1
+114,Lehigh University,6,0.38,4.3,US,academia,0,0,1,1,0,0,1,0,0,1,0,0,0,1,1,0
+114,University of L'Aquila,6,0.38,4.2,IT,academia,1,0,0,0,0,1,0,2,0,0,0,0,1,0,0,1
+114,Hiroshima University,6,0.38,4.2,JP,academia,0,0,0,0,1,0,1,1,0,0,0,0,3,0,0,0
+114,Florida State University,6,0.38,3.9,US,academia,1,0,0,0,0,0,0,0,0,2,0,2,1,0,0,0
+114,Virginia Tech,6,0.38,3.9,US,academia,1,0,0,0,0,0,1,0,0,1,0,0,0,2,1,0
+114,Beihang University,6,0.38,3.9,CN,academia,1,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0
+114,University of New South Wales,6,0.38,3.8,AU,academia,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,1
+114,University of Stuttgart,6,0.38,3.5,DE,academia,2,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+114,Technical University of Darmstadt,6,0.38,3.4,DE,academia,2,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0
+114,Leibniz University Hannover,6,0.38,3.0,DE,academia,1,0,4,0,0,0,0,0,0,1,0,0,0,0,0,0
+114,Nanjing University,6,0.38,2.9,CN,academia,0,0,1,0,0,0,0,1,2,0,0,0,2,0,0,0
+114,Dartmouth College,6,0.38,2.8,US,academia,0,0,0,0,0,1,0,0,0,0,0,3,0,1,1,0
+114,Tel Aviv University,6,0.38,2.8,IL,academia,0,0,0,0,0,0,1,3,1,0,0,0,1,0,0,0
+114,University of Naples Federico II,6,0.38,2.7,IT,academia,0,0,1,0,0,0,1,0,0,0,0,1,1,1,0,1
+114,Harbin Institute of Technology,6,0.38,2.6,CN,academia,0,1,0,0,2,0,0,0,0,1,0,0,1,0,0,1
+114,National Sun Yat-sen University,6,0.38,2.2,TW,academia,0,0,0,0,0,0,0,1,5,0,0,0,0,0,0,0
+114,University at Buffalo,6,0.38,1.8,US,academia,1,0,0,0,0,0,0,1,0,1,0,2,1,0,0,0
+136,University of Cambridge,5,0.32,4.3,GB,academia,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0
+136,UT Dallas,5,0.32,4.0,US,academia,0,1,0,0,0,0,2,0,0,0,0,0,1,1,0,0
+136,IDSIA (USI-SUPSI),5,0.32,3.6,CH,academia,0,0,0,0,0,0,0,0,0,3,1,0,0,1,0,0
+136,Bilkent University,5,0.32,3.4,TR,academia,0,0,1,0,0,0,0,0,0,0,0,1,2,1,0,0
+136,Indian Institute of Technology Mandi,5,0.32,3.2,IN,academia,0,1,1,0,0,0,1,0,2,0,0,0,0,0,0,0
+136,University of Colorado Colorado Springs,5,0.32,3.1,US,academia,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0
+136,Huazhong University of Science and Technology,5,0.32,2.9,CN,academia,0,0,0,1,1,0,0,0,0,0,0,0,0,2,1,0
+136,Rice University,5,0.32,2.7,US,academia,0,1,2,0,0,0,1,0,0,0,0,0,1,0,0,0
+136,George Mason University,5,0.32,2.6,US,academia,0,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0
+136,George Washington University,5,0.32,2.6,US,academia,0,0,1,1,0,1,0,0,0,1,0,0,0,0,1,0
+136,City University of Hong Kong,5,0.32,2.6,HK,academia,0,1,0,2,0,0,0,1,0,0,0,0,1,0,0,0
+136,University of New Mexico,5,0.32,2.6,US,academia,0,0,0,1,0,1,0,0,0,2,0,0,0,1,0,0
+136,Mohammed VI Polytechnic University,5,0.32,2.6,MA,academia,1,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0
+136,Scuola Superiore Meridionale,5,0.32,2.6,IT,academia,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,0
+136,University of Seville,5,0.32,2.2,ES,academia,0,0,1,0,0,0,1,0,0,0,0,1,1,1,0,0
+136,Michigan State University,5,0.32,2.2,US,academia,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0
+136,Monash University,5,0.32,2.2,AU,academia,0,1,0,0,0,0,0,0,0,2,0,0,1,0,1,0
+136,University of Nottingham,5,0.32,1.8,GB,academia,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,2
+136,Illinois Institute of Technology,5,0.32,1.3,US,academia,1,1,0,0,2,0,0,0,0,0,0,0,0,1,0,0
+136,Grenoble INP,5,0.32,1.0,FR,academia,0,1,0,1,0,0,0,1,1,0,0,0,0,1,0,0
+156,Oak Ridge National Laboratory,4,0.25,3.5,US,academia,0,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0
+156,Indian Institute of Science,4,0.25,3.3,IN,academia,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0,0
+156,Indian Institute of Technology Kanpur,4,0.25,3.3,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2
+156,Johannes Kepler University Linz,4,0.25,3.3,AT,academia,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,0
+156,Indian Institute of Technology Madras,4,0.25,3.3,IN,academia,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0
+156,University of Delaware,4,0.25,3.0,US,academia,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1
+156,Polytechnique Montréal,4,0.25,2.8,CA,academia,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0
+156,Columbia University,4,0.25,2.8,US,academia,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+156,Naval Postgraduate School,4,0.25,2.7,US,academia,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+156,Auburn University,4,0.25,2.7,US,academia,0,0,0,1,0,0,1,0,2,0,0,0,0,0,0,0
+156,Pacific Northwest National Laboratory,4,0.25,2.6,US,academia,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0
+156,Federal University of Minas Gerais,4,0.25,2.6,BR,academia,2,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+156,Technische Universität Ilmenau,4,0.25,2.5,DE,academia,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
+156,University of Sheffield,4,0.25,2.5,GB,academia,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+156,University of Vermont,4,0.25,2.5,US,academia,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0
+156,RWTH Aachen University,4,0.25,2.4,DE,academia,0,1,0,0,0,0,1,0,2,0,0,0,0,0,0,0
+156,KU Leuven,4,0.25,2.3,BE,academia,0,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+156,UC Riverside,4,0.25,2.3,US,academia,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,1
+156,University of Hong Kong,4,0.25,2.2,HK,academia,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0
+156,Brandenburg University of Technology,4,0.25,2.1,DE,academia,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+156,University of Iowa,4,0.25,2.1,US,academia,1,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+156,Stevens Institute of Technology,4,0.25,2.1,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0
+156,University of Central Florida,4,0.25,2.0,US,academia,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0
+156,University of Notre Dame,4,0.25,2.0,US,academia,0,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0
+156,Kyushu University,4,0.25,1.9,JP,academia,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+156,Ulm University,4,0.25,1.8,DE,academia,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0
+156,Brown University,4,0.25,1.6,US,academia,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+156,École Polytechnique,4,0.25,1.5,FR,academia,1,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0
+156,University of Alberta,4,0.25,1.4,CA,academia,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0
+156,Cleveland State University,4,0.25,1.4,US,academia,1,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0
+156,Ludwig Maximilian University of Munich,4,0.25,1.4,DE,academia,0,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0
+156,Spanish National Research Council (CSIC),4,0.25,1.2,ES,academia,0,0,0,0,0,1,2,0,0,0,1,0,0,0,0,0
+156,MIT Lincoln Laboratory,4,0.25,1.1,US,academia,0,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0
+156,HKUST,4,0.25,1.1,HK,academia,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0
+156,University of Chinese Academy of Sciences,4,0.25,1.1,CN,academia,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1
+156,Budapest University of Technology and Economics,4,0.25,1.1,HU,academia,1,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0
+156,University of Patras,4,0.25,1.0,GR,academia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+156,Western Sydney University,4,0.25,0.9,AU,academia,0,1,0,0,0,0,0,0,0,0,0,1,2,0,0,0
+194,Technische Universität Braunschweig,3,0.19,3.0,DE,academia,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+194,Texas Tech University,3,0.19,3.0,US,academia,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+194,UT Arlington,3,0.19,2.6,US,academia,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+194,Ritsumeikan University,3,0.19,2.5,JP,academia,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+194,Brigham Young University,3,0.19,2.4,US,academia,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0
+194,Louisiana State University,3,0.19,2.3,US,academia,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0
+194,"University of Maryland, Baltimore County",3,0.19,2.2,US,academia,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+194,Duke University,3,0.19,2.2,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0
+194,Rochester Institute of Technology,3,0.19,2.2,US,academia,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0
+194,Keio University,3,0.19,2.2,JP,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+194,University of Klagenfurt,3,0.19,2.1,AT,academia,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0
+194,National Laboratory of the Rockies (NREL),3,0.19,2.0,US,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0
+194,University of Guadalajara,3,0.19,2.0,MX,academia,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0
+194,University of Guelph,3,0.19,2.0,CA,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0
+194,Yale University,3,0.19,2.0,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+194,DGIST,3,0.19,1.9,KR,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+194,Aalto University,3,0.19,1.8,FI,academia,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,"Instituto Superior Técnico, University of Lisbon",3,0.19,1.8,PT,academia,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+194,Kyushu Institute of Technology,3,0.19,1.8,JP,academia,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
+194,University of Würzburg,3,0.19,1.8,DE,academia,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0
+194,The Chinese University of Hong Kong,3,0.19,1.8,HK,academia,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+194,CINVESTAV,3,0.19,1.8,MX,academia,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+194,Graz University of Technology,3,0.19,1.8,AT,academia,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0
+194,Hokkaido University,3,0.19,1.8,JP,academia,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0
+194,University of Porto,3,0.19,1.8,PT,academia,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+194,"University of Tennessee, Knoxville",3,0.19,1.8,US,academia,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+194,Hamburg University of Technology,3,0.19,1.7,DE,academia,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+194,Indian Institute of Technology Kharagpur,3,0.19,1.7,IN,academia,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,National University of Singapore,3,0.19,1.7,SG,academia,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+194,The University of Electro-Communications,3,0.19,1.7,JP,academia,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0
+194,Washington State University,3,0.19,1.7,US,academia,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0
+194,Federal University of Rio de Janeiro,3,0.19,1.7,BR,academia,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+194,Instituto Politécnico Nacional,3,0.19,1.7,MX,academia,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+194,Technical University of Denmark,3,0.19,1.6,DK,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0
+194,National University of Science and Technology POLITEHNICA Bucharest,3,0.19,1.6,RO,academia,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0
+194,University of Milano-Bicocca,3,0.19,1.6,IT,academia,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1
+194,University of Alabama,3,0.19,1.6,US,academia,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0
+194,École Centrale de Nantes,3,0.19,1.6,FR,academia,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
+194,Université Polytechnique Hauts-de-France,3,0.19,1.5,FR,academia,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+194,Roma Tre University,3,0.19,1.5,IT,academia,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0
+194,Miami University,3,0.19,1.5,US,academia,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,University of Southampton,3,0.19,1.5,GB,academia,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+194,University of Kansas,3,0.19,1.4,US,academia,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0
+194,Ege University,3,0.19,1.4,TR,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0
+194,INSA Lyon,3,0.19,1.4,FR,academia,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0
+194,Université Claude Bernard Lyon 1,3,0.19,1.3,FR,academia,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0
+194,University of Liverpool,3,0.19,1.3,GB,academia,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0
+194,Bretagne INP / UBO,3,0.19,1.2,FR,academia,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0
+194,NYU Abu Dhabi,3,0.19,1.2,AE,academia,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+194,University of Udine,3,0.19,1.2,IT,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+194,University of Electronic Science and Technology of China,3,0.19,1.2,CN,academia,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0
+194,Ohio University,3,0.19,1.2,US,academia,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0
+194,Qatar University,3,0.19,1.1,QA,academia,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0
+194,Seoul National University of Science and Technology,3,0.19,1.1,KR,academia,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+194,Saarland University,3,0.19,1.0,DE,academia,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+194,VITO / EnergyVille,3,0.19,1.0,BE,academia,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
+194,Slovak University of Technology in Bratislava,3,0.19,0.9,SK,academia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+194,University of Sannio,3,0.19,0.9,IT,academia,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+194,Universitas Mercatorum,3,0.19,0.8,IT,academia,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0
+194,Center for Scientific Innovation and Education (Armenia),3,0.19,0.7,AM,academia,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0
+194,Izmir Katip Celebi University,3,0.19,0.7,TR,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0
+194,Sapienza University of Rome,3,0.19,0.7,IT,academia,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0
+194,American University of Armenia,3,0.19,0.6,AM,academia,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0
+257,"California State University, Bakersfield",2,0.13,2.0,US,academia,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+257,Inha University,2,0.13,2.0,KR,academia,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,Meiji University,2,0.13,2.0,JP,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+257,National Tsing Hua University,2,0.13,2.0,TW,academia,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+257,Syracuse University,2,0.13,2.0,US,academia,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+257,University of Calabria,2,0.13,2.0,IT,academia,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+257,University of Zaragoza,2,0.13,2.0,ES,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+257,Princeton Plasma Physics Laboratory,2,0.13,1.9,US,academia,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,Max Planck Institute for Dynamics of Complex Technical Systems,2,0.13,1.8,DE,academia,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+257,NYU Shanghai,2,0.13,1.8,CN,academia,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+257,Northwestern Polytechnical University,2,0.13,1.8,CN,academia,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+257,Southern Methodist University,2,0.13,1.8,US,academia,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+257,Technical University of Crete,2,0.13,1.8,GR,academia,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+257,Bialystok University of Technology,2,0.13,1.7,PL,academia,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+257,Brno University of Technology,2,0.13,1.7,CZ,academia,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+257,Czech Technical University in Prague,2,0.13,1.7,CZ,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+257,TU Dresden,2,0.13,1.7,DE,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+257,University of Gabès,2,0.13,1.7,TN,academia,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+257,Xiamen University,2,0.13,1.7,CN,academia,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+257,Ganzfried Research,2,0.13,1.5,US,industry,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+257,Otto von Guericke University Magdeburg,2,0.13,1.5,DE,academia,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+257,San Diego State University,2,0.13,1.5,US,academia,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+257,Shanghai University,2,0.13,1.5,CN,academia,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+257,University of South Carolina,2,0.13,1.5,US,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+257,University of São Paulo,2,0.13,1.5,BR,academia,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+257,Waseda University,2,0.13,1.5,JP,academia,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+257,University of Shanghai for Science and Technology,2,0.13,1.5,CN,academia,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+257,National University of Defense Technology,2,0.13,1.4,CN,academia,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+257,University of Bern,2,0.13,1.4,CH,academia,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+257,German Aerospace Center (DLR),2,0.13,1.3,DE,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+257,James Madison University,2,0.13,1.3,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+257,Lakehead University,2,0.13,1.3,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+257,Luleå University of Technology,2,0.13,1.3,SE,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+257,Oakland University,2,0.13,1.3,US,academia,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+257,UT San Antonio,2,0.13,1.3,US,academia,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+257,Zhengzhou University,2,0.13,1.3,CN,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+257,Chongqing University,2,0.13,1.2,CN,academia,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+257,Cigus GmbH,2,0.13,1.2,DE,industry,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+257,Johns Hopkins Applied Physics Laboratory,2,0.13,1.2,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+257,University of Macau,2,0.13,1.2,MO,academia,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+257,Toyota Motor North America,2,0.13,1.2,US,industry,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+257,Sichuan University,2,0.13,1.2,CN,academia,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,University of Arizona,2,0.13,1.2,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+257,Tennessee Technological University,2,0.13,1.2,US,academia,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+257,University of East London,2,0.13,1.2,GB,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+257,University of Trento,2,0.13,1.2,IT,academia,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+257,Google,2,0.13,1.1,US,industry,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+257,Ho Chi Minh City University of Technology,2,0.13,1.1,VN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+257,Sun Yat-sen University,2,0.13,1.1,CN,academia,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+257,Comenius University,2,0.13,1.0,SK,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+257,ENSTA Paris,2,0.13,1.0,FR,academia,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+257,Flatiron Institute,2,0.13,1.0,US,academia,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,State University of Rio de Janeiro,2,0.13,1.0,BR,academia,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+257,Tecnológico Nacional de México / IT La Laguna,2,0.13,1.0,MX,academia,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+257,University of Exeter,2,0.13,1.0,GB,academia,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+257,University of Georgia,2,0.13,1.0,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+257,University of Wuppertal,2,0.13,1.0,DE,academia,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+257,Dalian University of Technology,2,0.13,0.9,CN,academia,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+257,RPTU Kaiserslautern-Landau,2,0.13,0.9,DE,academia,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+257,Case Western Reserve University,2,0.13,0.8,US,academia,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+257,Jiangsu Normal University,2,0.13,0.8,CN,academia,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+257,Khalifa University,2,0.13,0.8,AE,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+257,South China University of Technology,2,0.13,0.8,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+257,University of Alabama in Huntsville,2,0.13,0.8,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+257,University of Siena,2,0.13,0.8,IT,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+257,Argonne National Laboratory,2,0.13,0.8,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+257,Austrian Institute of Technology,2,0.13,0.8,AT,academia,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+257,Nanjing University of Science and Technology,2,0.13,0.8,CN,academia,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+257,ONERA,2,0.13,0.8,FR,academia,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+257,University of Pavia,2,0.13,0.8,IT,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+257,University of Technology Sydney,2,0.13,0.8,AU,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+257,Hanwha Systems,2,0.13,0.7,KR,industry,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+257,University of Birmingham,2,0.13,0.7,GB,academia,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+257,Hangzhou Dianzi University,2,0.13,0.7,CN,academia,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+257,Italian Institute of Artificial Intelligence for Industry,2,0.13,0.7,IT,academia,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+257,Lockheed Martin,2,0.13,0.7,US,industry,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+257,Middle East Technical University,2,0.13,0.7,TR,academia,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+257,Mitsubishi Electric Corporation,2,0.13,0.7,JP,industry,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+257,Newcastle University,2,0.13,0.7,GB,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+257,Oklahoma State University,2,0.13,0.7,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+257,Penn State University,2,0.13,0.7,US,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+257,University of Chile,2,0.13,0.7,CL,academia,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+257,University of North Florida,2,0.13,0.7,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+257,Adelaide University,2,0.13,0.7,AU,academia,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+257,Central South University,2,0.13,0.7,CN,academia,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+257,Old Dominion University,2,0.13,0.7,US,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+257,CONICET,2,0.13,0.6,AR,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+257,"City St George's, University of London",2,0.13,0.6,GB,academia,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+257,Comillas Pontifical University,2,0.13,0.6,ES,academia,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+257,Fraunhofer,2,0.13,0.6,DE,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+257,HUN-REN SZTAKI,2,0.13,0.6,HU,academia,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+257,UNC Chapel Hill,2,0.13,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+257,BITS Pilani,2,0.13,0.5,IN,academia,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+257,Fujitsu,2,0.13,0.5,JP,industry,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,Gebze Technical University,2,0.13,0.5,TR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+257,National Academy of Sciences of Armenia,2,0.13,0.5,AM,academia,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+257,Université Côte d'Azur (I3S),2,0.13,0.5,FR,academia,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+257,Université du Québec en Outaouais,2,0.13,0.5,CA,academia,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+257,Sorbonne University,2,0.13,0.5,FR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+257,De Vinci Research Center,2,0.13,0.5,FR,academia,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+257,Meta,2,0.13,0.5,US,industry,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+257,"MoE Key Lab of Human Factors and Intelligent Vibration, FYUST",2,0.13,0.4,,academia,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+257,Timadie,2,0.13,0.4,CA,industry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,Université du Québec à Trois-Rivières,2,0.13,0.4,CA,academia,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,Max Planck Institute for Software Systems,2,0.13,0.4,DE,academia,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+257,École Centrale de Lille,2,0.13,0.3,FR,academia,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+363,Beijing University of Technology,1,0.06,1.0,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Boston College,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,"California State University, Los Angeles",1,0.06,1.0,US,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,"California State University, Northridge",1,0.06,1.0,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Coventry University Kazakhstan,1,0.06,1.0,KZ,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Embry-Riddle Aeronautical University,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Florida International University,1,0.06,1.0,US,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,Forschungszentrum Jülich,1,0.06,1.0,DE,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Fudan University,1,0.06,1.0,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Gdansk University of Technology,1,0.06,1.0,PL,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Helmholtz-Zentrum Berlin,1,0.06,1.0,DE,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Hongik University,1,0.06,1.0,KR,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Indian Institute of Technology Tirupati,1,0.06,1.0,IN,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,Kindai University,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Kochi University of Technology,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Lebanese American University,1,0.06,1.0,LB,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Marche Polytechnic University,1,0.06,1.0,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Missouri University of Science and Technology,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Nagoya University,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Nankai University,1,0.06,1.0,CN,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Nanzan University,1,0.06,1.0,JP,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,North Carolina A&T State University,1,0.06,1.0,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,OrbitLink Consulting,1,0.06,1.0,US,industry,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Oregon Health and Science University,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Simon Fraser University,1,0.06,1.0,CA,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Sixth Sense Autonomy,1,0.06,1.0,US,industry,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Stockholm University,1,0.06,1.0,SE,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Tokyo Metropolitan University,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,UC Davis,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,UMIT TIROL,1,0.06,1.0,AT,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,University of Connecticut,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,University of Hawaii,1,0.06,1.0,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Idaho,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,University of Kassel,1,0.06,1.0,DE,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,University of Kentucky,1,0.06,1.0,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Luxembourg,1,0.06,1.0,LU,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Massachusetts Lowell,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,University of South Alabama,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of Tsukuba,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,University of Tulsa,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of the Bundeswehr Munich,1,0.06,1.0,DE,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,William & Mary,1,0.06,1.0,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Xi'an Jiaotong University,1,0.06,1.0,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Yamaguchi University,1,0.06,1.0,JP,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Marshall University,1,0.06,0.8,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Robert Bosch GmbH,1,0.06,0.8,DE,industry,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Indian Institute of Technology Delhi,1,0.06,0.8,IN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,ShanghaiTech University,1,0.06,0.8,CN,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of Applied Sciences Kempten,1,0.06,0.8,DE,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Oslo,1,0.06,0.8,NO,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Hainan University,1,0.06,0.7,CN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Aalborg University,1,0.06,0.7,DK,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Arzamas Polytechnic Institute (NNSTU),1,0.06,0.7,RU,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Campus Bio-Medico University of Rome,1,0.06,0.7,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,City College of New York,1,0.06,0.7,US,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Indian Institute of Space Science and Technology,1,0.06,0.7,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Loughborough University,1,0.06,0.7,GB,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Sidi Mohamed Ben Abdellah University,1,0.06,0.7,MA,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Southern Illinois University Edwardsville,1,0.06,0.7,US,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Toyota InfoTech Labs,1,0.06,0.7,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Télécom SudParis,1,0.06,0.7,FR,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,UT Permian Basin,1,0.06,0.7,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,UniDistance Suisse,1,0.06,0.7,CH,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,University of Murcia,1,0.06,0.7,ES,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Xi'an Jiaotong-Liverpool University,1,0.06,0.7,CN,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Zhejiang Normal University,1,0.06,0.7,CN,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Dana-Farber Cancer Institute,1,0.06,0.6,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Korea Institute of Robotics and Technology Convergence,1,0.06,0.6,KR,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,RBC Borealis,1,0.06,0.6,CA,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Ruhr University Bochum,1,0.06,0.6,DE,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Senseau Technologies,1,0.06,0.6,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,University of Bayreuth,1,0.06,0.6,DE,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of Brescia,1,0.06,0.6,IT,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Safran Tech,1,0.06,0.6,FR,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,IBM,1,0.06,0.6,US,industry,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Air University,1,0.06,0.5,PK,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Avignon Université,1,0.06,0.5,FR,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Beta Technologies,1,0.06,0.5,US,industry,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,California Polytechnic State University,1,0.06,0.5,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,ENIB Brest,1,0.06,0.5,FR,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Federal University of Campina Grande,1,0.06,0.5,BR,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Free University of Bolzano,1,0.06,0.5,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,GIST,1,0.06,0.5,KR,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Georgia Southern University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Hebrew University of Jerusalem,1,0.06,0.5,IL,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Huawei,1,0.06,0.5,CN,industry,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Illinois State University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Indian Institute of Technology (BHU) Varanasi,1,0.06,0.5,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Indian Institute of Technology Guwahati,1,0.06,0.5,IN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Korea Aerospace Research Institute,1,0.06,0.5,KR,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Loyola University Chicago,1,0.06,0.5,US,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Marchesini Group,1,0.06,0.5,IT,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Minia University,1,0.06,0.5,EG,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Multi-Modal Multi-Agent Control (M³AC) Lab,1,0.06,0.5,,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,National Institute of Technology Warangal,1,0.06,0.5,IN,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Onyx Robotics,1,0.06,0.5,US,industry,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Orange Research,1,0.06,0.5,FR,industry,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Osaka Metropolitan University,1,0.06,0.5,JP,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,STFC,1,0.06,0.5,GB,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,San José State University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Sandia National Laboratories,1,0.06,0.5,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Santa Clara University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Shenzhen Research Institute of Big Data,1,0.06,0.5,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Sultan Qaboos University,1,0.06,0.5,OM,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,TCG CREST,1,0.06,0.5,IN,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,TMEIC,1,0.06,0.5,JP,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,TU Berlin,1,0.06,0.5,DE,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Taras Shevchenko National University of Kyiv,1,0.06,0.5,UA,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Tata Consultancy Services,1,0.06,0.5,IN,industry,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Technical University of Cluj-Napoca,1,0.06,0.5,RO,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Texas A&M International University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Tokyo Gas,1,0.06,0.5,JP,industry,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,UK Atomic Energy Authority,1,0.06,0.5,GB,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,UNAM,1,0.06,0.5,MX,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,UNIST,1,0.06,0.5,KR,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Universidad de los Andes,1,0.06,0.5,CO,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,University College Dublin,1,0.06,0.5,IE,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,University at Albany,1,0.06,0.5,US,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,University of Chicago,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,University of Duisburg-Essen,1,0.06,0.5,DE,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,University of Illinois Chicago,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,"University of Nevada, Reno",1,0.06,0.5,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of St Andrews,1,0.06,0.5,GB,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,University of Twente,1,0.06,0.5,NL,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,University of Wyoming,1,0.06,0.5,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Yeshiva University,1,0.06,0.5,US,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Zoox,1,0.06,0.5,US,industry,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Ericsson Research,1,0.06,0.4,SE,industry,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Defence Science and Technology Group,1,0.06,0.4,AU,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Mercer University,1,0.06,0.4,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Qingdao University of Science and Technology,1,0.06,0.4,CN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Suzhou University of Science and Technology,1,0.06,0.4,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,USDA Agricultural Research Service,1,0.06,0.4,US,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Aeronautics Institute of Technology (ITA),1,0.06,0.3,BR,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,"Agency for Science, Technology and Research (A*STAR)",1,0.06,0.3,SG,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,American Automatic Control Council,1,0.06,0.3,US,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Bogazici University,1,0.06,0.3,TR,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,CEFET-MG,1,0.06,0.3,BR,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Carleton University,1,0.06,0.3,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Central Research Institute of Electric Power Industry,1,0.06,0.3,JP,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Chung-Ang University,1,0.06,0.3,KR,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Duquesne University,1,0.06,0.3,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,EURECOM,1,0.06,0.3,FR,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Eötvös Loránd University,1,0.06,0.3,HU,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,FHNW,1,0.06,0.3,CH,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Feniix Group,1,0.06,0.3,US,industry,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Furman University,1,0.06,0.3,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Guizhou University,1,0.06,0.3,CN,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Hewlett Packard Enterprise,1,0.06,0.3,US,industry,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,ITAM,1,0.06,0.3,MX,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Indian Institute of Science Education and Research Bhopal,1,0.06,0.3,IN,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,"Institute for Problems in Mechanics, RAS",1,0.06,0.3,RU,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,International University of Rabat,1,0.06,0.3,MA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,JPMorgan Chase,1,0.06,0.3,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Kansas State University,1,0.06,0.3,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,King's College London,1,0.06,0.3,GB,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Kochi University,1,0.06,0.3,JP,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Louisiana Tech University,1,0.06,0.3,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Maastricht University,1,0.06,0.3,NL,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Middlesex University,1,0.06,0.3,GB,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Mines Paris – PSL,1,0.06,0.3,FR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Motilal Nehru National Institute of Technology,1,0.06,0.3,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Nagaoka University of Technology,1,0.06,0.3,JP,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,National Institute of Materials Physics,1,0.06,0.3,RO,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Samsung,1,0.06,0.3,KR,industry,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,Shenzhen University of Information Technology,1,0.06,0.3,CN,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,SimpleRose,1,0.06,0.3,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Singapore University of Technology and Design,1,0.06,0.3,SG,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Sookmyung Women's University,1,0.06,0.3,KR,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Sri Sathya Sai Institute of Higher Learning,1,0.06,0.3,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Stony Brook University,1,0.06,0.3,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Tallinn University of Technology,1,0.06,0.3,EE,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Technical University of Cartagena,1,0.06,0.3,ES,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Uninettuno University,1,0.06,0.3,IT,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Universidad Nacional de Colombia,1,0.06,0.3,CO,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,University Le Havre,1,0.06,0.3,FR,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,University of Hohenheim,1,0.06,0.3,DE,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,University of Malakand,1,0.06,0.3,PK,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,University of New Brunswick,1,0.06,0.3,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,University of Oulu,1,0.06,0.3,FI,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Peradeniya,1,0.06,0.3,LK,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,University of Rennes,1,0.06,0.3,FR,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Université de Sherbrooke,1,0.06,0.3,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Villanova University,1,0.06,0.3,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Virginia Commonwealth University,1,0.06,0.3,US,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Wayne State University,1,0.06,0.3,US,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Western Kentucky University,1,0.06,0.3,US,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,York University,1,0.06,0.3,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Central University (Moscow),1,0.06,0.3,RU,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,Skoltech,1,0.06,0.3,RU,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,INRAE,1,0.06,0.3,FR,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,ABB,1,0.06,0.2,SE,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,AVIC Chengdu Aircraft Design,1,0.06,0.2,CN,industry,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,American International University,1,0.06,0.2,,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,American University of Sharjah,1,0.06,0.2,AE,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Athena Research Center,1,0.06,0.2,GR,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Atmanity,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Brigham and Women's Hospital,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,"California State University, Fullerton",1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Champalimaud Research,1,0.06,0.2,PT,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,China University of Mining and Technology,1,0.06,0.2,CN,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,DNV,1,0.06,0.2,NO,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,ENSEA,1,0.06,0.2,FR,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,ETRI,1,0.06,0.2,KR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,East China University of Science and Technology,1,0.06,0.2,CN,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Eelume,1,0.06,0.2,NO,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Federal University of Paraíba,1,0.06,0.2,BR,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Federal University of Santa Catarina,1,0.06,0.2,BR,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Florida Institute of Technology,1,0.06,0.2,US,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,IE University,1,0.06,0.2,ES,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,IIEST Shibpur,1,0.06,0.2,IN,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,IIIT Delhi,1,0.06,0.2,IN,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Indian Institute of Technology Dharwad,1,0.06,0.2,IN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Inspire AG,1,0.06,0.2,CH,industry,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Istanbul Technical University,1,0.06,0.2,TR,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,JuliaHub,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,LUISS Guido Carli,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,LUT University,1,0.06,0.2,FI,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Macquarie University,1,0.06,0.2,AU,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Matrosov Institute for System Dynamics and Control Theory,1,0.06,0.2,RU,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Mouloud Mammeri University of Tizi-Ouzou,1,0.06,0.2,DZ,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Munich University of Applied Sciences,1,0.06,0.2,DE,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,NASA Jet Propulsion Laboratory,1,0.06,0.2,US,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,National Institute of Informatics,1,0.06,0.2,JP,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,National Technical University of Athens,1,0.06,0.2,GR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Newton Energy Group,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Norfolk State University,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,North China University of Water Resources and Electric Power,1,0.06,0.2,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Polytechnic University of Japan,1,0.06,0.2,JP,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Pusan National University,1,0.06,0.2,KR,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Renault (Ampere),1,0.06,0.2,FR,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,SRM University AP,1,0.06,0.2,IN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Sanford University,1,0.06,0.2,,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,South Dakota School of Mines and Technology,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Southwest University of Science and Technology,1,0.06,0.2,CN,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Strouwen Statistics,1,0.06,0.2,BE,industry,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Thales,1,0.06,0.2,FR,industry,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,The College of New Jersey,1,0.06,0.2,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Tokyo University of Agriculture and Technology,1,0.06,0.2,JP,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Torch Technologies,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Toyota Research Institute,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,United States Military Academy,1,0.06,0.2,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Universita' Di Roma,1,0.06,0.2,,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Bucharest,1,0.06,0.2,RO,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,University of Florence,1,0.06,0.2,IT,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Monastir,1,0.06,0.2,TN,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,University of Salerno,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,University of Thessaly,1,0.06,0.2,GR,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,Vietnam National University HCMC,1,0.06,0.2,VN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Väderstad AB,1,0.06,0.2,SE,industry,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,OTH Regensburg,1,0.06,0.2,DE,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,University of Perugia,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Augusta University,1,0.06,0.2,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,COVE,1,0.06,0.2,GB,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Changshu Institute of Technology,1,0.06,0.2,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Chongqing Normal University,1,0.06,0.2,CN,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Colorado School of Mines,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Delsys,1,0.06,0.2,US,industry,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Durham University,1,0.06,0.2,GB,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Emory University,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Fervo Energy,1,0.06,0.2,US,industry,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Gunma University,1,0.06,0.2,JP,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Kennesaw State University,1,0.06,0.2,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,NASA,1,0.06,0.2,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,NICT,1,0.06,0.2,JP,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,National Institute of Mental Health,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,National University of Rosario,1,0.06,0.2,AR,academia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+363,National University of Trujillo,1,0.06,0.2,PE,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Pontifical Catholic University of Chile,1,0.06,0.2,CL,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,PowerChina Huadong Engineering,1,0.06,0.2,CN,industry,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Royal Military College of Canada,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Sardar Patel Institute of Technology,1,0.06,0.2,IN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Seiko Solutions,1,0.06,0.2,JP,industry,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Shenzhen University of Advanced Technology,1,0.06,0.2,CN,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,Topos Institute,1,0.06,0.2,US,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,UT El Paso,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,University of Applied Sciences Hainan-Bielefeld,1,0.06,0.2,CN,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Pittsburgh,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,University of Science and Technology of China,1,0.06,0.2,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,University of Victoria,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,Vrije Universiteit Amsterdam,1,0.06,0.2,NL,academia,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+363,Zhejiang Development & Planning Institute,1,0.06,0.2,,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,École de technologie supérieure,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+363,AMIAD,1,0.06,0.2,FR,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,China University of Petroleum,1,0.06,0.2,CN,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Collegio Carlo Alberto,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,GERAD,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,General Atomics,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Innopolis University,1,0.06,0.2,RU,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,Korea Institute of Fusion Energy,1,0.06,0.2,KR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Lawrence Berkeley National Laboratory,1,0.06,0.2,US,academia,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Macau University of Science and Technology,1,0.06,0.2,MO,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Microsoft,1,0.06,0.2,US,industry,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Mila,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+363,Mohammed V University in Rabat,1,0.06,0.2,MA,academia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Scuola Superiore Sant'Anna,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Technische Universität Chemnitz,1,0.06,0.2,DE,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,The Aerospace Corporation,1,0.06,0.2,US,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Universidad Adolfo Ibáñez,1,0.06,0.2,CL,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,Universidad Técnica Federico Santa María,1,0.06,0.2,CL,academia,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+363,University College London,1,0.06,0.2,GB,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Bristol,1,0.06,0.2,GB,academia,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+363,University of Montreal,1,0.06,0.2,CA,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of Passau,1,0.06,0.2,DE,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,University of Turin,1,0.06,0.2,IT,academia,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+363,Université Marie et Louis Pasteur,1,0.06,0.2,FR,academia,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+363,Anhui University,1,0.06,0.1,CN,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Applied Dynamics International,1,0.06,0.1,US,industry,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,DEVCOM Ground Vehicle Systems Center,1,0.06,0.1,US,academia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,Cnam,1,0.06,0.1,FR,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+363,Université de Lille,1,0.06,0.1,FR,academia,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+363,Scania,1,0.06,0.1,SE,industry,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,University of Montpellier,1,0.06,0.1,FR,academia,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+363,Nanjing University of Aeronautics and Astronautics,1,0.06,0.1,CN,academia,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+363,Sirius University,1,0.06,0.1,RU,academia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
