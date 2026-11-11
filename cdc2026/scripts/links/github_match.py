@@ -40,10 +40,18 @@ def get(url):
             time.sleep(15)
 
 def readme_has(full_name, needles):
-    j = get(f'https://api.github.com/repos/{full_name}/readme')
-    if not j or 'content' not in j: return False
-    txt = norm(base64.b64decode(j['content']).decode('utf-8', 'ignore'))
-    return any(n and n in txt for n in needles)
+    # raw file server, not the REST API (which allows only 60 requests/hour without a login)
+    for name in ('README.md', 'readme.md', 'README.rst', 'README', 'Readme.md', 'README.txt'):
+        try:
+            r = urllib.request.urlopen(urllib.request.Request(
+                f'https://raw.githubusercontent.com/{full_name}/HEAD/{name}', headers={'User-Agent': H['User-Agent']}), timeout=30)
+            txt = norm(r.read().decode('utf-8', 'ignore'))
+            return any(n and n in txt for n in needles)
+        except urllib.error.HTTPError as e:
+            if e.code != 404: time.sleep(5)
+        except Exception:
+            time.sleep(5)
+    return False
 
 done = 0
 for p in D['papers']:
