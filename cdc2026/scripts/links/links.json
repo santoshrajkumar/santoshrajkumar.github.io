@@ -1647,7 +1647,9 @@
  },
  "2228": {
   "arxiv": "2603.19450",
-  "code": []
+  "code": [
+   "https://github.com/jsuh9/Variational-Encrypted-Model-Predictive-Control"
+  ]
  },
  "223": {
   "arxiv": "2610.42027",
@@ -1659,7 +1661,9 @@
  },
  "2232": {
   "arxiv": "2603.23672",
-  "code": []
+  "code": [
+   "https://github.com/SiamiLab/BioInspiredEBVS"
+  ]
  },
  "2237": {
   "arxiv": "2603.18333",
@@ -2615,7 +2619,9 @@
  },
  "488": {
   "arxiv": "2609.22986",
-  "code": []
+  "code": [
+   "https://github.com/RobertaRaineri/control-coev-cdc2026"
+  ]
  },
  "49": {
   "arxiv": "2608.16431",
@@ -2876,7 +2882,9 @@
  },
  "721": {
   "arxiv": "2604.04305",
-  "code": []
+  "code": [
+   "https://github.com/eikonal-equation/MFG-NID-with-horizon-uncertainty"
+  ]
  },
  "722": {
   "arxiv": "2604.21065",
