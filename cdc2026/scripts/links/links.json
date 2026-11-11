@@ -226,7 +226,8 @@
  "1147": {
   "arxiv": "2604.01539",
   "code": [
-   "https://github.com/mlab-upenn/Step-MPPI"
+   "https://github.com/mlab-upenn/Step-MPPI",
+   "https://github.com/Geonhee-LEE/learning_mppi"
   ]
  },
  "1149": {
@@ -555,7 +556,9 @@
  },
  "1400": {
   "arxiv": "2604.01345",
-  "code": []
+  "code": [
+   "https://github.com/LukeSnow0/Malliavin_IRL"
+  ]
  },
  "1404": {
   "arxiv": "2607.15457",
@@ -583,7 +586,9 @@
  },
  "1418": {
   "arxiv": "2605.19003",
-  "code": []
+  "code": [
+   "https://github.com/SleepyFish-121/gramian_synthesis_picard_iteration"
+  ]
  },
  "1421": {
   "arxiv": "2609.18268",
@@ -674,7 +679,9 @@
  },
  "1461": {
   "arxiv": "2604.11954",
-  "code": []
+  "code": [
+   "https://github.com/sastry-group/Decentralization-Dynamic-Task-Assignment"
+  ]
  },
  "1463": {
   "arxiv": "2604.22784",
@@ -1588,7 +1595,9 @@
  },
  "2161": {
   "arxiv": "2608.05047",
-  "code": []
+  "code": [
+   "https://github.com/Frankie01234/model-free-ltl-policy-iteration"
+  ]
  },
  "2167": {
   "arxiv": "2603.18236",
