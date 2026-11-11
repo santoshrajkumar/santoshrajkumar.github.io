@@ -1,0 +1,955 @@
+{
+ "1001": {
+  "arxiv": "2603.29862",
+  "code": []
+ },
+ "1004": {
+  "arxiv": "2607.03263",
+  "code": []
+ },
+ "1008": {
+  "arxiv": "2503.18607",
+  "code": [
+   "https://github.com/mohsen1amiri/SNS-MDP"
+  ]
+ },
+ "1019": {
+  "arxiv": "2604.13272",
+  "code": []
+ },
+ "1025": {
+  "arxiv": "2508.20675",
+  "code": [
+   "https://github.com/Gaulios/paper-code-bridging-finite-and-infinite-horizon"
+  ]
+ },
+ "1039": {
+  "arxiv": "2606.13421",
+  "code": []
+ },
+ "1041": {
+  "arxiv": "2609.23200",
+  "code": [
+   "https://github.com/afeik/inverse_games"
+  ]
+ },
+ "1049": {
+  "arxiv": "2608.16311",
+  "code": []
+ },
+ "1060": {
+  "arxiv": "2604.17343",
+  "code": [
+   "https://github.com/Shida-Jiang/CAR-EnKF-A-Covariance-Adaptive-and-Recalibrated-Ensemble-Kalman-Filter-Framework"
+  ]
+ },
+ "1068": {
+  "arxiv": "2609.18853",
+  "code": [
+   "https://github.com/Cinzia25/Towards-Interaction-Regulation-from-Human-Feedback-via-Free-Energy-Minimization"
+  ]
+ },
+ "1076": {
+  "arxiv": "2610.18361",
+  "code": []
+ },
+ "1088": {
+  "arxiv": "2604.26932",
+  "code": [
+   "https://github.com/JALin2000/learning_over_relaxation_admm"
+  ]
+ },
+ "1103": {
+  "arxiv": "2604.04245",
+  "code": []
+ },
+ "1119": {
+  "arxiv": "2603.27576",
+  "code": []
+ },
+ "1181": {
+  "arxiv": "2609.03921",
+  "code": []
+ },
+ "1182": {
+  "arxiv": "2604.22244",
+  "code": []
+ },
+ "1195": {
+  "arxiv": "2609.07241",
+  "code": []
+ },
+ "1201": {
+  "arxiv": "2604.03892",
+  "code": [
+   "https://github.com/lukebhan/NeuralOperatorsLoktaSharpePredatoryPrey"
+  ]
+ },
+ "122": {
+  "arxiv": "2604.13312",
+  "code": []
+ },
+ "1237": {
+  "arxiv": "2609.32223",
+  "code": [
+   "https://github.com/anon-research-3125/learning-feedback-linearization"
+  ]
+ },
+ "1240": {
+  "arxiv": "2604.16730",
+  "code": [
+   "https://github.com/jd-anderson/multitask_LQG"
+  ]
+ },
+ "1268": {
+  "arxiv": "2609.03074",
+  "code": []
+ },
+ "1270": {
+  "arxiv": "2604.11715",
+  "code": []
+ },
+ "1272": {
+  "arxiv": "2604.11956",
+  "code": [
+   "https://github.com/charis-stamouli/layered-control-pos"
+  ]
+ },
+ "1287": {
+  "arxiv": "2604.01914",
+  "code": []
+ },
+ "1299": {
+  "arxiv": "2604.02806",
+  "code": []
+ },
+ "1300": {
+  "arxiv": "2609.09439",
+  "code": [
+   "https://github.com/Antoine-Bst/STL-Three-Valued-Clause-Filtering"
+  ]
+ },
+ "1305": {
+  "arxiv": "2607.01386",
+  "code": []
+ },
+ "1307": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/GiacomelliGianluca/Not_Exciting"
+  ]
+ },
+ "1315": {
+  "arxiv": "2603.27548",
+  "code": []
+ },
+ "1332": {
+  "arxiv": "2604.07575",
+  "code": []
+ },
+ "1338": {
+  "arxiv": "2604.02531",
+  "code": [
+   "https://github.com/darnstrom/daqp"
+  ]
+ },
+ "1353": {
+  "arxiv": "2604.24897",
+  "code": []
+ },
+ "1356": {
+  "arxiv": "2604.16670",
+  "code": []
+ },
+ "1359": {
+  "arxiv": "2608.31092",
+  "code": []
+ },
+ "1362": {
+  "arxiv": "2604.06338",
+  "code": []
+ },
+ "1369": {
+  "arxiv": "2609.17701",
+  "code": []
+ },
+ "1385": {
+  "arxiv": "2604.03415",
+  "code": []
+ },
+ "1397": {
+  "arxiv": "2410.02260",
+  "code": []
+ },
+ "1398": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/ZheminHuang/ros2_neuro_adaptive_control"
+  ]
+ },
+ "1414": {
+  "arxiv": "2608.29559",
+  "code": []
+ },
+ "1417": {
+  "arxiv": "2604.01024",
+  "code": []
+ },
+ "1429": {
+  "arxiv": "2604.12885",
+  "code": []
+ },
+ "1440": {
+  "arxiv": "2605.19961",
+  "code": []
+ },
+ "1447": {
+  "arxiv": "2610.06186",
+  "code": []
+ },
+ "1454": {
+  "arxiv": "2604.03450",
+  "code": []
+ },
+ "1459": {
+  "arxiv": "2604.04039",
+  "code": [
+   "https://github.com/ExistentialRobotics/erl_on_the_fly"
+  ]
+ },
+ "1463": {
+  "arxiv": "2604.22784",
+  "code": []
+ },
+ "1468": {
+  "arxiv": "2604.16458",
+  "code": []
+ },
+ "1471": {
+  "arxiv": "2604.10757",
+  "code": []
+ },
+ "1476": {
+  "arxiv": "2604.04801",
+  "code": []
+ },
+ "1482": {
+  "arxiv": "2604.14503",
+  "code": [
+   "https://github.com/alexanderbodard/panoc-lite-experiments"
+  ]
+ },
+ "1504": {
+  "arxiv": "2604.03605",
+  "code": [
+   "https://github.com/mohmerati/Multi-Robot-Multi-Queue-Control-via-Exhaustive-Assignment-Actor-Critic-Learning"
+  ]
+ },
+ "151": {
+  "arxiv": "2610.18808",
+  "code": []
+ },
+ "1517": {
+  "arxiv": "2604.03427",
+  "code": []
+ },
+ "1528": {
+  "arxiv": "2511.06686",
+  "code": []
+ },
+ "1533": {
+  "arxiv": "2604.03791",
+  "code": []
+ },
+ "1546": {
+  "arxiv": "2604.06058",
+  "code": []
+ },
+ "1553": {
+  "arxiv": "2604.02791",
+  "code": []
+ },
+ "1563": {
+  "arxiv": "2604.00428",
+  "code": []
+ },
+ "1573": {
+  "arxiv": "2604.01382",
+  "code": []
+ },
+ "1576": {
+  "arxiv": "2604.03794",
+  "code": []
+ },
+ "1580": {
+  "arxiv": "2509.12390",
+  "code": []
+ },
+ "159": {
+  "arxiv": "2509.09812",
+  "code": []
+ },
+ "1594": {
+  "arxiv": "2604.25909",
+  "code": []
+ },
+ "1596": {
+  "arxiv": "2609.02132",
+  "code": []
+ },
+ "1615": {
+  "arxiv": "2604.01144",
+  "code": []
+ },
+ "1624": {
+  "arxiv": "2609.17347",
+  "code": []
+ },
+ "1662": {
+  "arxiv": "2605.24649",
+  "code": []
+ },
+ "1674": {
+  "arxiv": "2604.22149",
+  "code": []
+ },
+ "1678": {
+  "arxiv": "2604.05108",
+  "code": [
+   "https://github.com/dynamicmobility/Hybrid-Invariant-Sets"
+  ]
+ },
+ "1680": {
+  "arxiv": "2604.02749",
+  "code": []
+ },
+ "1692": {
+  "arxiv": "2609.36539",
+  "code": []
+ },
+ "1701": {
+  "arxiv": "2604.06158",
+  "code": []
+ },
+ "1702": {
+  "arxiv": "2606.15942",
+  "code": []
+ },
+ "1709": {
+  "arxiv": "2604.05255",
+  "code": []
+ },
+ "1717": {
+  "arxiv": "2604.03086",
+  "code": [
+   "https://github.com/santoshrajkumar/koopman-dde-kEDMD"
+  ]
+ },
+ "1719": {
+  "arxiv": "2604.01023",
+  "code": []
+ },
+ "1720": {
+  "arxiv": "2503.22244",
+  "code": []
+ },
+ "1731": {
+  "arxiv": "2604.03200",
+  "code": []
+ },
+ "1734": {
+  "arxiv": "2510.02223",
+  "code": []
+ },
+ "1739": {
+  "arxiv": "2604.00449",
+  "code": []
+ },
+ "1749": {
+  "arxiv": "2609.15915",
+  "code": []
+ },
+ "1751": {
+  "arxiv": "2604.08219",
+  "code": []
+ },
+ "1759": {
+  "arxiv": "2604.01459",
+  "code": []
+ },
+ "1782": {
+  "arxiv": "2607.15867",
+  "code": []
+ },
+ "1787": {
+  "arxiv": "2604.02821",
+  "code": [
+   "https://github.com/acfr/Goal-Conditioned-Safe-ODE"
+  ]
+ },
+ "1807": {
+  "arxiv": "2604.27180",
+  "code": []
+ },
+ "1832": {
+  "arxiv": "2603.28938",
+  "code": []
+ },
+ "1844": {
+  "arxiv": "2604.05964",
+  "code": []
+ },
+ "1856": {
+  "arxiv": "2610.16139",
+  "code": []
+ },
+ "1866": {
+  "arxiv": "2609.07767",
+  "code": []
+ },
+ "1876": {
+  "arxiv": "2605.20566",
+  "code": []
+ },
+ "188": {
+  "arxiv": "2603.27051",
+  "code": []
+ },
+ "1887": {
+  "arxiv": "2604.15470",
+  "code": []
+ },
+ "1921": {
+  "arxiv": "2608.05492",
+  "code": []
+ },
+ "1943": {
+  "arxiv": "2609.19428",
+  "code": []
+ },
+ "1960": {
+  "arxiv": "2604.02260",
+  "code": []
+ },
+ "1970": {
+  "arxiv": "2609.07787",
+  "code": []
+ },
+ "1977": {
+  "arxiv": "2609.22703",
+  "code": []
+ },
+ "1997": {
+  "arxiv": "2609.18827",
+  "code": []
+ },
+ "202": {
+  "arxiv": "2603.28243",
+  "code": []
+ },
+ "2025": {
+  "arxiv": "2604.00573",
+  "code": []
+ },
+ "2030": {
+  "arxiv": "2604.13377",
+  "code": []
+ },
+ "2040": {
+  "arxiv": "2609.22704",
+  "code": []
+ },
+ "2053": {
+  "arxiv": "2604.13673",
+  "code": []
+ },
+ "2073": {
+  "arxiv": "2603.03632",
+  "code": []
+ },
+ "2092": {
+  "arxiv": "2603.28891",
+  "code": []
+ },
+ "2118": {
+  "arxiv": "2603.19454",
+  "code": []
+ },
+ "2121": {
+  "arxiv": "2605.04917",
+  "code": [
+   "https://github.com/NEAR-the-future/RC-Koopman"
+  ]
+ },
+ "2131": {
+  "arxiv": "2604.03419",
+  "code": []
+ },
+ "2132": {
+  "arxiv": "2606.15435",
+  "code": []
+ },
+ "2143": {
+  "arxiv": "2603.20434",
+  "code": []
+ },
+ "2145": {
+  "arxiv": "2603.14141",
+  "code": []
+ },
+ "2168": {
+  "arxiv": "2603.20873",
+  "code": []
+ },
+ "2184": {
+  "arxiv": "2604.02069",
+  "code": [
+   "https://github.com/liangwu2019/fixed_time_stable_Lasso"
+  ]
+ },
+ "2190": {
+  "arxiv": "2606.13087",
+  "code": []
+ },
+ "2191": {
+  "arxiv": "2610.22198",
+  "code": []
+ },
+ "2197": {
+  "arxiv": "2603.13608",
+  "code": []
+ },
+ "2214": {
+  "arxiv": "2605.13103",
+  "code": []
+ },
+ "2218": {
+  "arxiv": "2603.21539",
+  "code": []
+ },
+ "2238": {
+  "arxiv": "2603.14942",
+  "code": []
+ },
+ "2241": {
+  "arxiv": "2604.27460",
+  "code": []
+ },
+ "2286": {
+  "arxiv": "2603.19545",
+  "code": []
+ },
+ "2296": {
+  "arxiv": "2603.14762",
+  "code": []
+ },
+ "2314": {
+  "arxiv": "2511.22034",
+  "code": [
+   "https://github.com/batinkurt1/Performance_of_the_KF_and_KS_for_Benchmark_Studies"
+  ]
+ },
+ "2317": {
+  "arxiv": "2609.26311",
+  "code": []
+ },
+ "2346": {
+  "arxiv": "2606.00317",
+  "code": []
+ },
+ "2350": {
+  "arxiv": "2603.18706",
+  "code": []
+ },
+ "2352": {
+  "arxiv": "2606.22277",
+  "code": []
+ },
+ "2354": {
+  "arxiv": "2603.17003",
+  "code": []
+ },
+ "2376": {
+  "arxiv": "2503.08634",
+  "code": []
+ },
+ "2377": {
+  "arxiv": "2605.26534",
+  "code": []
+ },
+ "2380": {
+  "arxiv": "2603.17335",
+  "code": []
+ },
+ "2382": {
+  "arxiv": "2410.22826",
+  "code": []
+ },
+ "2385": {
+  "arxiv": "2603.14403",
+  "code": []
+ },
+ "2386": {
+  "arxiv": "2607.01215",
+  "code": []
+ },
+ "2399": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/J-mzz/EIV-LQR"
+  ]
+ },
+ "2414": {
+  "arxiv": "2603.17256",
+  "code": []
+ },
+ "2450": {
+  "arxiv": "2603.28747",
+  "code": []
+ },
+ "2480": {
+  "arxiv": "2603.18503",
+  "code": []
+ },
+ "2485": {
+  "arxiv": "2606.24500",
+  "code": []
+ },
+ "2486": {
+  "arxiv": "2604.03399",
+  "code": []
+ },
+ "2501": {
+  "arxiv": "2609.05158",
+  "code": []
+ },
+ "2517": {
+  "arxiv": "2604.25290",
+  "code": []
+ },
+ "2526": {
+  "arxiv": "2603.20935",
+  "code": []
+ },
+ "2528": {
+  "arxiv": "2603.17545",
+  "code": [
+   "https://github.com/mags-ono/Vinnicombe_Metric"
+  ]
+ },
+ "2538": {
+  "arxiv": "2603.15063",
+  "code": [
+   "https://github.com/RenatoQuartullo/Data-Driven-Interval-Matrices-PC"
+  ]
+ },
+ "254": {
+  "arxiv": "2608.10936",
+  "code": []
+ },
+ "2542": {
+  "arxiv": "2603.24990",
+  "code": []
+ },
+ "2543": {
+  "arxiv": "2603.18703",
+  "code": []
+ },
+ "2558": {
+  "arxiv": "2603.28011",
+  "code": [
+   "https://github.com/gtfactslab/neural_contraction"
+  ]
+ },
+ "2575": {
+  "arxiv": "2603.24894",
+  "code": []
+ },
+ "2578": {
+  "arxiv": "2603.20402",
+  "code": []
+ },
+ "2588": {
+  "arxiv": "2603.24566",
+  "code": []
+ },
+ "2594": {
+  "arxiv": "2411.05763",
+  "code": []
+ },
+ "2613": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/liangwu2019/AnalogOptimization"
+  ]
+ },
+ "2615": {
+  "arxiv": "2307.16178",
+  "code": []
+ },
+ "2624": {
+  "arxiv": "2404.12165",
+  "code": []
+ },
+ "2627": {
+  "arxiv": "2507.06441",
+  "code": []
+ },
+ "2634": {
+  "arxiv": "2504.06125",
+  "code": [
+   "https://github.com/StanfordASL/RL4AMOD"
+  ]
+ },
+ "2648": {
+  "arxiv": "2610.29187",
+  "code": []
+ },
+ "29": {
+  "arxiv": "2602.17562",
+  "code": []
+ },
+ "313": {
+  "arxiv": "2603.22460",
+  "code": []
+ },
+ "318": {
+  "arxiv": "2607.25658",
+  "code": []
+ },
+ "35": {
+  "arxiv": "2601.21606",
+  "code": []
+ },
+ "351": {
+  "arxiv": "2603.27062",
+  "code": []
+ },
+ "383": {
+  "arxiv": "2604.12840",
+  "code": []
+ },
+ "392": {
+  "arxiv": "2607.23866",
+  "code": []
+ },
+ "393": {
+  "arxiv": "2609.28883",
+  "code": []
+ },
+ "405": {
+  "arxiv": "2605.06954",
+  "code": []
+ },
+ "41": {
+  "arxiv": "2607.14291",
+  "code": []
+ },
+ "435": {
+  "arxiv": "2402.11877",
+  "code": []
+ },
+ "451": {
+  "arxiv": "2604.12654",
+  "code": []
+ },
+ "468": {
+  "arxiv": "2603.27902",
+  "code": []
+ },
+ "475": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/lukebhan/NeuralApproximatedPredictorHorizons"
+  ]
+ },
+ "487": {
+  "arxiv": "2604.02558",
+  "code": []
+ },
+ "491": {
+  "arxiv": "2603.19524",
+  "code": []
+ },
+ "493": {
+  "arxiv": "2610.33454",
+  "code": []
+ },
+ "508": {
+  "arxiv": "2603.28220",
+  "code": []
+ },
+ "516": {
+  "arxiv": "2606.03862",
+  "code": []
+ },
+ "542": {
+  "arxiv": "2605.21708",
+  "code": []
+ },
+ "547": {
+  "arxiv": "2604.02510",
+  "code": []
+ },
+ "549": {
+  "arxiv": "2608.26917",
+  "code": []
+ },
+ "552": {
+  "arxiv": "2608.13360",
+  "code": []
+ },
+ "618": {
+  "arxiv": "2608.26943",
+  "code": []
+ },
+ "619": {
+  "arxiv": "2603.28917",
+  "code": []
+ },
+ "644": {
+  "arxiv": "2603.28900",
+  "code": []
+ },
+ "648": {
+  "arxiv": "2609.36030",
+  "code": []
+ },
+ "652": {
+  "arxiv": "2604.00364",
+  "code": [
+   "https://github.com/jonarriza96/i2pd.jl"
+  ]
+ },
+ "669": {
+  "arxiv": "2604.07693",
+  "code": []
+ },
+ "678": {
+  "arxiv": "2603.26578",
+  "code": []
+ },
+ "681": {
+  "arxiv": "2604.01173",
+  "code": []
+ },
+ "695": {
+  "arxiv": "2603.29001",
+  "code": []
+ },
+ "731": {
+  "arxiv": "2511.04835",
+  "code": []
+ },
+ "733": {
+  "arxiv": "2611.08426",
+  "code": []
+ },
+ "750": {
+  "arxiv": "2604.04067",
+  "code": []
+ },
+ "774": {
+  "arxiv": "2603.29921",
+  "code": []
+ },
+ "777": {
+  "arxiv": "2604.04165",
+  "code": []
+ },
+ "787": {
+  "arxiv": "2609.22616",
+  "code": [
+   "https://github.com/Justin900308/Demo-code-for-joint-funnel-observer-and-controller-synthesis"
+  ]
+ },
+ "788": {
+  "arxiv": "2604.00309",
+  "code": []
+ },
+ "818": {
+  "arxiv": "2604.04758",
+  "code": []
+ },
+ "828": {
+  "arxiv": "2604.04822",
+  "code": []
+ },
+ "830": {
+  "arxiv": "2607.27742",
+  "code": []
+ },
+ "858": {
+  "arxiv": "2607.21087",
+  "code": []
+ },
+ "866": {
+  "arxiv": "2604.08018",
+  "code": []
+ },
+ "881": {
+  "arxiv": "2603.29532",
+  "code": []
+ },
+ "888": {
+  "arxiv": "2609.22464",
+  "code": []
+ },
+ "899": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/AnasXbouali/FT_Observer",
+   "https://github.com/AnasXbouali/Observer_controlled_SIR"
+  ]
+ },
+ "905": {
+  "arxiv": "2509.21250",
+  "code": []
+ },
+ "922": {
+  "arxiv": "2609.22752",
+  "code": []
+ },
+ "923": {
+  "arxiv": "2609.22919",
+  "code": [
+   "https://github.com/shreeram-murali/CDC-2026"
+  ]
+ },
+ "926": {
+  "arxiv": "2610.16249",
+  "code": []
+ },
+ "943": {
+  "arxiv": "2610.25872",
+  "code": []
+ },
+ "945": {
+  "arxiv": "2609.20501",
+  "code": []
+ },
+ "957": {
+  "arxiv": "2604.00283",
+  "code": []
+ },
+ "960": {
+  "arxiv": "2604.01070",
+  "code": []
+ },
+ "979": {
+  "arxiv": "2603.26956",
+  "code": []
+ },
+ "987": {
+  "arxiv": "2610.05915",
+  "code": []
+ },
+ "996": {
+  "arxiv": "2603.20189",
+  "code": []
+ },
+ "999": {
+  "arxiv": "2605.28403",
+  "code": []
+ }
+}

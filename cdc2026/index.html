@@ -21,6 +21,7 @@
 <meta name="twitter:image" content="assets/og-card.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0d9488">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@700&display=swap" rel="stylesheet">
@@ -317,6 +318,13 @@ span.chip.ia { cursor: default; color: var(--muted); }
 .ghlink .gh { width: 15px; height: 15px; }
 .sitefoot { display: block; margin: 40px 0 0; padding-top: 18px; border-top: 1px solid var(--line, rgba(127,127,127,.25)); text-align: center; color: var(--muted); font-size: 14px; line-height: 1.7; }
 .sitefoot p { margin: 0 0 4px; }
+.paper .lnk { font-size: 12px; font-weight: 700; border-radius: 6px; padding: 2px 7px; text-decoration: none; }
+.paper .lnk::after { content: ' ↗'; }
+.paper .lnk.ax { color: #b31b1b; background: #fde8e8; }
+.paper .lnk.code { color: #24292f; background: #eaeef2; }
+:root[data-theme="dark"] .paper .lnk.ax { background: #3b1414; color: #fca5a5; }
+:root[data-theme="dark"] .paper .lnk.code { background: #1f2937; color: #e5e7eb; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .paper .lnk.ax { background: #3b1414; color: #fca5a5; } :root:not([data-theme="light"]) .paper .lnk.code { background: #1f2937; color: #e5e7eb; } }
 </style>
 </head>
 <body>
@@ -426,6 +434,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
       <select id="tk" aria-label="Number of closest papers"><option value="50">50</option><option value="100" selected>100</option><option value="200">200</option></select>
       <span>closest papers</span>
       <label><input type="checkbox" id="tonly"> technical papers only</label>
+      <label><input type="checkbox" id="tlinks"> with arXiv or code only</label>
     </div>
     <div class="status" id="tstatus" role="status"></div>
     <div class="results" id="tres"></div>
@@ -464,6 +473,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
       <li><b>Names</b> are normalized with a hand-checked table of about 560 institutions plus rules for typos and abbreviations ("Georgia Inst. of Tech" → Georgia Institute of Technology). Joint affiliations such as "Université Paris-Saclay, CNRS, CentraleSupélec" count for each institution named. Tokyo Tech is merged into Institute of Science Tokyo, NREL is listed under its new name. "Northeastern University" is almost entirely the Boston university, but a few authors may be from Northeastern University in Shenyang.</li>
       <li><b>Research areas</b> come from the official CDC keywords chosen by the authors (167 keywords, grouped by hand into 16 areas). A paper goes to the area its keywords point to most, with the first keyword weighted highest. The few entries without keywords (plenaries, workshops, some tutorials) are placed by their 15 nearest papers in meaning.</li>
       <li><b>Topic search</b> runs entirely in your browser: your text is embedded with bge-small-en-v1.5 (downloaded once, about 33 MB) and compared with every paper's title and abstract. Nothing you type is sent anywhere. If the model can't load, the page falls back to keyword matching on titles.</li>
+      <li><b>arXiv and code links</b> (<span class="nax"></span> technical papers on arXiv, <span class="ncode"></span> with code) were found automatically. A paper is linked to arXiv only when an arXiv entry has a near-identical title and at least one shared author surname. Code links come from GitHub or GitLab URLs in the arXiv abstract or comments, and from GitHub repositories whose README names the paper's title or arXiv ID. Papers that are not on arXiv have no preprint link; ResearchGate could not be searched automatically.</li>
       <li><b>Industry vs academia:</b> companies and corporate labs (MERL, Amazon, Bosch, …) are industry. Universities, government and national labs (AFRL, Los Alamos, NASA) and public institutes (CNRS, Inria, CNR) are academia.</li>
       <li><b>Authors</b> are grouped by their PaperPlaza author ID, as in the official author index. Two IDs with the same name and a shared institution are treated as one person. Names and affiliations are as printed in the public program. <a href="cdc2026_institutions.csv" download>Download the institution table (CSV)</a>.</li>
       <li id="fix">Spotted a wrong mapping? Corrections are welcome.</li>
@@ -482,13 +492,13 @@ span.chip.ia { cursor: default; color: var(--muted); }
 </div>
 <div class="toast" id="toast" role="status"></div>
 
-<script src="data.js?v=3aa5295e89"></script>
+<script src="data.js?v=d4a583a131"></script>
 <script>
 (() => {
   'use strict';
   const D = window.CDC, M = D.meta, A = M.areas, INST = D.inst, N = M.papers;
   const REPO_URL = '{{REPO_URL}}';
-  const PVER = '33617bd837';
+  const PVER = '7fd3feb233';
   const PROGRAM = M.program;
   const $ = (s) => document.querySelector(s);
   const el = (tag, props = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(props)) { if (v == null) continue; if (k === 'style') e.style.cssText = v; else if (k === 'text') e.textContent = v; else if (k.startsWith('data-') || k.startsWith('aria-') || k === 'role') e.setAttribute(k, v); else e[k] = v; } for (const c of [].concat(kids)) if (c != null) e.append(c); return e; };
@@ -527,6 +537,8 @@ span.chip.ia { cursor: default; color: var(--muted); }
   /* ---------- static text ---------- */
   document.querySelectorAll('.snap').forEach(s => s.textContent = M.snapshot);
   document.querySelectorAll('.ntech').forEach(s => s.textContent = fmt(N));
+  document.querySelectorAll('.nax').forEach(s => s.textContent = fmt(M.with_arxiv || 0));
+  document.querySelectorAll('.ncode').forEach(s => s.textContent = fmt(M.with_code || 0));
   $('#instSub').textContent = `${fmt(N)} papers in technical sessions · ${fmt(M.institutions)} institutions from ${M.countries.length} countries · rank, paper count and research-area mix for each.`;
   $('#stats').replaceChildren(
     el('div', {}, [el('b', { text: fmt(N) }), el('span', { text: 'technical papers' })]),
@@ -582,7 +594,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
     });
     return papersReady;
   }
-  // row: [title, insts, area, anchor, session, code, keywords, technical, authors, time]
+  // row: [title, insts, area, anchor, session, code, keywords, technical, authors, time, arXiv id, [code urls]]
   // session: [code, title, day, time, room, type, dayNumber, [[author, role]], anchor]
   // author: [name 'Last, First', PaperPlaza id, affiliation as printed, [institution idx]]
   const showName = (n) => { const i = n.indexOf(', '); return i < 0 ? n : n.slice(i + 2) + ' ' + n.slice(0, i); };
@@ -598,6 +610,9 @@ span.chip.ia { cursor: default; color: var(--muted); }
         sim != null ? el('span', { className: 'sim', text: `match ${(sim * 100).toFixed(0)}` }) : null,
         showArea ? el('span', { className: 'ar' }, [el('i', { style: `background:${A[r[2]].color}` }), document.createTextNode(A[r[2]].short)]) : null,
         TYPE_LABEL[s[5]] ? el('span', { className: 'tagt', text: TYPE_LABEL[s[5]] }) : null,
+        r[10] ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${r[10]}`, target: '_blank', rel: 'noopener', title: `arXiv:${r[10]}`, text: 'arXiv' }) : null,
+        ...(r[11] || []).map(u => { const gl = /gitlab/i.test(u); return el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u },
+          [el('i', { className: gl ? 'fa-brands fa-gitlab' : 'fa-brands fa-github', 'aria-hidden': 'true' }), document.createTextNode(gl ? ' GitLab' : ' GitHub')]); }),
         el('span', { className: 'ses', title: s[1], text: `📍 ${r[5]} · ${s[2]} ${s[3]} · ${s[4]}` }),
         ...others.slice(0, 6).map(k => instChip(k)),
         others.length > 6 ? el('span', { className: 'sim', text: `+${others.length - 6} more` }) : null,
@@ -954,7 +969,8 @@ span.chip.ia { cursor: default; color: var(--muted); }
   }
   function renderTopic(text, sims, mode) {
     const K = +$('#tk').value, only = $('#tonly').checked;
-    const pool = Array.from(sims.keys()).filter(i => !only || P[i][7]);
+    const withLinks = $('#tlinks').checked;
+    const pool = Array.from(sims.keys()).filter(i => (!only || P[i][7]) && (!withLinks || P[i][10] || (P[i][11] || []).length));
     const idx = pool.sort((a, b) => sims[b] - sims[a]).slice(0, K).filter(i => mode === 'semantic' || sims[i] > 0);
     const cnt = new Map(), wsum = new Map(), ccnt = new Map();
     let withInd = 0; const areaCnt = new Array(A.length).fill(0);
@@ -987,7 +1003,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
     $('#tres').replaceChildren(
       el('div', { className: 'summary' }, [
         el('div', { className: 'big' }, [document.createTextNode('Who works on '), el('span', { className: 'q', text: `“${shortQ}”` })]),
-        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} ${only ? 'technical papers' : 'papers and talks'} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common area: ${A[topArea].name}` }),
+        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} ${only ? 'technical papers' : 'papers and talks'}${withLinks ? ' with arXiv or code' : ''} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common area: ${A[topArea].name}` }),
         ...areaBar(areaCnt, A.map((_, i) => i), `Research areas of these ${idx.length} papers`),
         comps.length ? el('div', { className: 'complist' }, [el('span', { text: 'Companies among them:' }), ...comps.slice(0, 10).map(k => { const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b; })]) : null,
         el('div', { className: 'share' }, [
@@ -1014,6 +1030,7 @@ span.chip.ia { cursor: default; color: var(--muted); }
   $('#tq').addEventListener('focus', () => { ensurePapers(); warmModel(); }, { once: true });
   $('#tk').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
   $('#tonly').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  $('#tlinks').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
   document.querySelectorAll('#tex button').forEach(b => b.addEventListener('click', () => { $('#tq').value = b.dataset.t; runTopic(b.dataset.t); }));
   const PLENARY = "On Data-Driven Koopman Representations of Nonlinear Delay Differential Equations. This work establishes a rigorous bridge between infinite-dimensional delay dynamics and finite-dimensional Koopman learning, with explicit and interpretable error guarantees. While Koopman analysis is well-developed for ordinary differential equations (ODEs) and partially for partial differential equations (PDEs), its extension to delay differential equations (DDEs) remains limited due to the infinite-dimensional phase space of DDEs. We propose a finite-dimensional Koopman approximation framework based on history discretization and a suitable reconstruction operator, enabling a tractable representation of the Koopman operator via kernel-based extended dynamic mode decomposition (kEDMD). Deterministic error bounds are derived for the learned predictor, decomposing the total error into contributions from history discretization, kernel interpolation, and data-driven regression. Additionally, we develop a kernel-based reconstruction method to recover discretized states from lifted Koopman coordinates, with provable guarantees. Numerical results demonstrate reliable prediction of nonlinear delay systems, with potential relevance to future control applications.";
   $('#texPaper').addEventListener('click', () => { $('#tq').value = PLENARY; runTopic(PLENARY); });
