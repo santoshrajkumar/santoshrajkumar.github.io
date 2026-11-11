@@ -6,9 +6,11 @@
    Slices that ended more than 120 days ago are never downloaded again, so updates only fetch recent ones.
 2. Match: an arXiv entry is the paper's preprint when the titles are near-identical (≥ 0.92) and at least
    one author surname is shared. OpenAlex's own arXiv links (from fetch.py) are kept as well.
-3. Code: GitHub/GitLab URLs in the paper abstract, or in the matched arXiv abstract or comments.
+3. Code: GitHub/GitLab URLs in the paper abstract, or in the matched arXiv abstract or comments, plus repos found by
+   github_match.py (if its cache is given) that look like the paper's own code: not a paper-roundup repo, and the
+   repo name shares a distinctive title word or the owner contains an author's surname.
 
-Usage: python3 -I links.py <ral.json> <cache_dir> <out links.json>
+Usage: python3 -I links.py <ral.json> <cache_dir> <out links.json> [github_cache.json]
 """
 import datetime as dt
 import json
@@ -24,6 +26,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 src, cache, out = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
+GH = json.loads(Path(sys.argv[4]).read_text()) if len(sys.argv) > 4 and Path(sys.argv[4]).exists() else {}
 cache.mkdir(parents=True, exist_ok=True)
 NS = {'a': 'http://www.w3.org/2005/Atom', 'x': 'http://arxiv.org/schemas/atom', 'o': 'http://a9.com/-/spec/opensearch/1.1/'}
 UA = {'User-Agent': 'ral-explorer-link-check/1.0'}
@@ -113,6 +116,31 @@ def codes(text):
     return [u for u in dict.fromkeys(re.sub(r'\.git$', '', u.rstrip('.,);:/')) for u in CODE.findall(text or '')) if not NOTCODE.search(u)]
 
 
+ROUNDUP = re.compile(r'awesome|daily|arxiv|weekly|digest|survey|paper[-_]?list|reading|curated|collection', re.I)
+GENERIC = set('''a an the of for and in on with via to by from under using toward towards is are at as into over robot robots
+robotic robotics control learning data driven systems system model models based optimal robust design approach method methods
+framework network networks dynamic dynamics problem time multi agent new efficient adaptive real code demo paper official'''.split())
+
+
+def title_words(s):
+    s = re.sub(r'([a-z])([A-Z])', r'\1 \2', s)
+    return {w[:6] for w in norm(s).split() if len(w) >= 3 and w not in GENERIC}
+
+
+def own_code(url, p):
+    m = re.match(r'https?://[^/]+/([^/]+)/([^/#?]+)', url)
+    if not m:
+        return False
+    owner, repo = m.group(1), re.sub(r'\.git$', '', m.group(2))
+    if ROUNDUP.search(repo) or ROUNDUP.search(owner) or owner.lower() == repo.lower():
+        return False
+    if title_words(repo) & title_words(p['title']):
+        return True
+    sur = {norm(a['name'].split(',')[0]).replace(' ', '') for a in p['authors']}
+    o = norm(owner).replace(' ', '')
+    return any(len(x) >= 4 and (x in o or (len(x) >= 6 and x[:6] in o)) for x in sur)
+
+
 D = json.loads(src.read_text())
 res, n_oa, n_new = {}, 0, 0
 for p in D['papers']:
@@ -134,6 +162,7 @@ for p in D['papers']:
         n_new += 1
     e = by_id.get(arxiv)
     code = codes(p['abstract']) + (codes(e['text']) if e else [])
+    code += [u for u in (GH.get(p['id']) or {}).get('repos', []) if own_code(u, p)]
     code = list(dict.fromkeys(code))[:3]
     if arxiv or code:
         res[p['id']] = {'arxiv': arxiv, 'code': code}

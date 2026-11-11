@@ -73,7 +73,7 @@ else:
         while n is None or (page - 1) * 200 < n:
             params = {'filter': f'primary_location.source.id:{src},publication_year:{year}', 'per-page': 200, 'page': page,
                       'select': 'id,doi,title,publication_date,abstract_inverted_index,authorships,open_access,'
-                                'locations,biblio,type,primary_topic,keywords'}
+                                'locations,biblio,type,primary_topic,keywords,cited_by_count'}
             if KEY:
                 params['api_key'] = KEY
             j = get('https://api.openalex.org/works?' + urllib.parse.urlencode(params))
@@ -208,6 +208,7 @@ for x in cr:
         'open_access': (w.get('open_access') or {}).get('oa_status') in ('gold', 'hybrid', 'diamond'),
         'arxiv': arxiv,
         'openalex': short(w.get('id')),
+        'cites': w.get('cited_by_count') or 0,
     })
 
 papers.sort(key=lambda p: (p['date'], p['id']))

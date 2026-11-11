@@ -204,11 +204,28 @@ def union(a, b):
     parent[find(a)] = find(b)
 
 
+def compatible(n1, n2):
+    """Same surname, and given names agree word by word (an initial matches a full name)."""
+    f1, _, g1 = n1.partition(','); f2, _, g2 = n2.partition(',')
+    if norm_name(f1) != norm_name(f2):
+        return False
+    return all(x.startswith(y) or y.startswith(x) for x, y in zip(norm_name(g1).split(), norm_name(g2).split()))
+
+
+# IEEE sometimes deposits one author's ORCID on a co-author too, so an ID only counts when the
+# name fits the name most often seen with that ID
+id_names = defaultdict(Counter)
+for p in PAP:
+    for a in p['authors']:
+        for k in (f'orcid:{a["orcid"]}' if a['orcid'] else None, f'oa:{a["oa_id"]}' if a['oa_id'] else None):
+            if k:
+                id_names[k][a['name']] += 1
 slots = []  # (paper idx, author idx, key)
 for pi, p in enumerate(PAP):
     for ai, a in enumerate(p['authors']):
         keys = [f'orcid:{a["orcid"]}' if a['orcid'] else None, f'oa:{a["oa_id"]}' if a['oa_id'] else None]
-        keys = [k for k in keys if k] or [f'name:{norm_name(a["name"])}:{pi}']
+        keys = [k for k in keys if k and compatible(a['name'], id_names[k].most_common(1)[0][0])]
+        keys = keys or [f'name:{norm_name(a["name"])}:{pi}']
         for k in keys[1:]:
             union(keys[0], k)
         slots.append((pi, ai, keys[0]))
@@ -263,6 +280,20 @@ meta = {
     'areas': [{'name': a[0], 'short': a[1], 'color': a[2], 'total': area_tot[i]} for i, a in enumerate(AREAS)],
     'year_totals': [sum(1 for p in PAP if p['year'] == y) for y in YEARS],
 }
+def first_last(n):
+    i = n.find(', ')
+    return n if i < 0 else n[i + 2:] + ' ' + n[:i]
+
+
+def vol(p):
+    s = f"Vol. {p['volume']}" if p['volume'] else ''
+    return s + (f", pp. {p['pages'].replace('-', '–')}" if p['pages'] else '')
+
+
+# most cited papers of all time: [title, doi, year, citations, authors, volume/pages]
+meta['top_cited'] = [[p['title'], p['id'], p['year'], p.get('cites', 0),
+                      ', '.join(first_last(a['name']) for a in p['authors'][:3]) + (' et al.' if len(p['authors']) > 3 else ''), vol(p)]
+                     for p in sorted(PAP, key=lambda p: (-p.get('cites', 0), p['date']))[:10]]
 (site / 'data.js').write_text('window.LCSS=' + json.dumps({'meta': meta, 'inst': INST}, ensure_ascii=False, separators=(',', ':')) + ';\n')
 
 # ---------------- papers.js + papers.bin ----------------
@@ -280,7 +311,7 @@ for pi, p in enumerate(PAP):
     lk = LINKS.get(p['id'], {})
     rows.append([p['title'], [IDX[n] for n in p['insts']], p['area'], p['id'], p['year'], cite(p), 1 if p['early'] else 0,
                  1 if p['open_access'] else 0, [AI[(pi, ai)] for ai in range(len(p['authors']))], p['date'],
-                 p['arxiv'] or lk.get('arxiv') or '', lk.get('code') or []])
+                 p['arxiv'] or lk.get('arxiv') or '', lk.get('code') or [], p.get('cites', 0)])
 (site / 'papers.js').write_text('window.PAPERS=' + json.dumps({
     'n': len(rows), 'dim': int(E.shape[1]), 'model': 'Xenova/bge-small-en-v1.5', 'authors': AUTH, 'rows': rows},
     ensure_ascii=False, separators=(',', ':')) + ';\n')
@@ -301,11 +332,11 @@ with open(site / 'lcss_institutions.csv', 'w', newline='') as f:
 with open(site / 'lcss_papers.csv', 'w', newline='') as f:
     w = csv.writer(f)
     w.writerow(['doi', 'title', 'date', 'year', 'volume', 'pages', 'early_access', 'open_access', 'authors',
-                'institutions', 'area', 'arxiv', 'code', 'url'])
+                'institutions', 'area', 'arxiv', 'code', 'citations', 'url'])
     for p, r in zip(PAP, rows):
         w.writerow([p['id'], p['title'], p['date'], p['year'], p['volume'], p['pages'], int(p['early']), int(p['open_access']),
                     '; '.join(a['name'] for a in p['authors']), '; '.join(p['insts']), AREAS[p['area']][0],
-                    f'https://arxiv.org/abs/{r[10]}' if r[10] else '', ' '.join(r[11]), f"https://doi.org/{p['id']}"])
+                    f'https://arxiv.org/abs/{r[10]}' if r[10] else '', ' '.join(r[11]), r[12], f"https://doi.org/{p['id']}"])
 
 print(f"papers {len(PAP)}, institutions {len(INST)}, countries {len(countries)}, years {YEARS[0]}–{YEARS[-1]}")
 print('areas', [(a[1], area_tot[i]) for i, a in enumerate(AREAS)])

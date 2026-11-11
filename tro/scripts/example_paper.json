@@ -1,0 +1,6 @@
+{
+ "id": "10.1109/lra.2025.3626234",
+ "title": "Real-Time Linear MPC for Quadrotors on SE(3): An Analytical Koopman-Based Realization",
+ "abstract": "This letter presents an analytical linear parameter-varying (LPV) representation of quadrotor dynamics utilizing Koopman theory, facilitating computationally efficient linear model predictive control (LMPC) for real-time trajectory tracking. By leveraging carefully designed Koopman observables, the proposed approach enables a compact lifted-space evolution that mitigates the curse of dimensionality while preserving the nonlinear characteristics of the system. Although model predictive control (MPC) is a powerful strategy for quadrotor control, it faces a trade-off between the high computational cost of nonlinear MPC (NMPC) and the reduced accuracy of LMPC. To address this gap, we introduce KQ-LMPC (Koopman Quasilinear LPV MPC), which leverages the Koopman-lifted LPV formulation to enforce constraints, ensure lower computational burden and real-time feasibility, and deliver tracking performance comparable to NMPC. Experimental validation confirms the effectiveness of the framework in reasonably agile flight. To the best of our knowledge, this is the first experimentally validated LMPC for quadrotors that employs analytically derived Koopman observables without requiring training data.",
+ "year": 2025
+}

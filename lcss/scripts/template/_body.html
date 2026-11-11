@@ -6,6 +6,7 @@
       <a href="#/institutions" data-tab="institutions">Institutions</a>
       <a href="#/topics" data-tab="topics">Topics &amp; papers</a>
       <a href="#/authors" data-tab="authors">Authors</a>
+      <a href="#/cited" data-tab="cited">Most cited</a>
     </div>
   </div>
 </nav>
@@ -43,6 +44,12 @@
       </a>
     </div>
     <img class="poster" src="assets/poster.png?v=__IMGVER__" alt="L-CSS poster: top 10 institutions by number of papers, each with its leading research area" loading="lazy">
+    <p class="citedgo"><a class="btn primary" href="#/cited">🏆 Look for the most cited papers →</a><br><span>Rank every L-CSS paper by citations, by year, institution or research area</span></p>
+    <section class="topcited" aria-labelledby="tcH">
+      <h2 id="tcH">Most cited L-CSS papers</h2>
+      <p class="tcs">All time, by citations counted in Crossref and OpenAlex (snapshot <span class="snap"></span>). Google Scholar counts are higher.</p>
+      <ol id="topCited"></ol>
+    </section>
     <p class="homefoot">Data from <a href="https://www.crossref.org/" rel="noopener">Crossref</a> and <a href="https://openalex.org/" rel="noopener">OpenAlex</a> for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7782633" rel="noopener">IEEE Control Systems Letters</a> · snapshot <span class="snap"></span><br><span class="unoff">Unofficial project, not affiliated with or endorsed by IEEE or the IEEE Control Systems Society.</span></p>
   </section>
 
@@ -110,6 +117,23 @@
     </div>
     <div class="status" id="tstatus" role="status"></div>
     <div class="results" id="tres"></div>
+  </section>
+
+  <!-- ======================= MOST CITED ======================= -->
+  <section class="view" id="v-cited" aria-label="Most cited papers">
+    <h1 class="vt">Most cited papers</h1>
+    <p class="vs">Every L-CSS paper ranked by citations (<a href="https://www.crossref.org/" rel="noopener">Crossref</a>/<a href="https://openalex.org/" rel="noopener">OpenAlex</a> counts, snapshot <span class="snap"></span>). Narrow it down by year, institution or research area.</p>
+    <div class="controls cctl">
+      <label>From <select id="cy0" aria-label="From year"></select></label>
+      <label>to <select id="cy1" aria-label="To year"></select></label>
+      <select id="carea" aria-label="Research area"><option value="">All research areas</option></select>
+      <input id="cinst" type="search" list="cinstList" autocomplete="off" spellcheck="false" placeholder="Any institution…" aria-label="Institution">
+      <datalist id="cinstList"></datalist>
+      <button class="btn" id="creset" type="button">Reset</button>
+    </div>
+    <div class="status" id="cstatus" role="status"></div>
+    <div class="results show" id="cres"></div>
+    <button class="btn more" id="cmore" type="button" style="display:none">Show 100 more</button>
   </section>
 
   <!-- ======================= AUTHORS ======================= -->
@@ -223,6 +247,11 @@
     el('div', {}, [el('b', { text: String(M.countries.length) }), el('span', { text: 'countries' })]),
     el('div', {}, [el('b', { text: fmt(M.authors) }), el('span', { text: 'authors' })]),
   );
+  $('#topCited').replaceChildren(...(M.top_cited || []).map(([t, doi, y, c, au, v]) => el('li', {}, [
+    el('a', { className: 't', href: `https://doi.org/${doi}`, target: '_blank', rel: 'noopener', title: 'Open on IEEE Xplore (via DOI)', text: t }),
+    el('span', { className: 'c', text: fmt(c) + ' citations' }),
+    el('span', { className: 'm', text: `${au} · ${y}${v ? ' · ' + v : ''}` }),
+  ])));
   if (!REPO_URL.startsWith('{{')) {
     const li = $('#fix'); li.textContent = 'Spotted a wrong mapping? ';
     li.append(el('a', { href: `${REPO_URL}/issues/new`, rel: 'noopener', text: 'Open an issue' }), document.createTextNode(' and it will be fixed.'));
@@ -234,11 +263,11 @@
     if (h && !h.startsWith('/')) { if (bySlug.has(decodeURIComponent(h))) { location.replace('#/institutions/' + h); return; } h = '/'; }
     const [path, qs] = h.split('?');
     const parts = (path || '/').split('/').filter(Boolean);
-    const view = ['institutions', 'topics', 'authors'].includes(parts[0]) ? parts[0] : 'home';
+    const view = ['institutions', 'topics', 'authors', 'cited'].includes(parts[0]) ? parts[0] : 'home';
     document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === 'v-' + view));
     document.querySelectorAll('.tabs a').forEach(a => { if (a.dataset.tab === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     $('#about').style.display = view === 'home' ? 'none' : '';
-    document.title = ({ institutions: 'Institutions · ', topics: 'Topics · ', authors: 'Authors · ' }[view] || '') + 'L-CSS Explorer';
+    document.title = ({ institutions: 'Institutions · ', topics: 'Topics · ', authors: 'Authors · ', cited: 'Most cited · ' }[view] || '') + 'L-CSS Explorer';
     if (view === 'institutions') {
       const x = parts[1] && bySlug.get(decodeURIComponent(parts[1]));
       if (x) { q.value = x.n; renderCard(x); } else { $('#card').classList.remove('show'); }
@@ -250,6 +279,7 @@
       if (qq && qq !== lastTopicQuery) { $('#tq').value = qq; runTopic(qq, false); }
       else if (!qq) warmModel();
     }
+    if (view === 'cited') routeCited(qs);
     if (view === 'authors') routeAuthor(parts[1] ? decodeURIComponent(parts[1]) : null);
     if (!['institutions', 'authors'].includes(view) || !parts[1]) window.scrollTo({ top: 0 });
   }
@@ -270,7 +300,7 @@
     });
     return papersReady;
   }
-  // row: [title, insts, area, doi, year, citation, early access, open access, authors, date, arXiv id, [code urls]]
+  // row: [title, insts, area, doi, year, volume/pages, early access, open access, authors, date, arXiv id, [code urls], citations]
   // author: [name 'Last, First', slug, latest institutions, [institution idx], ORCID, OpenAlex id]
   const showName = (n) => { const i = n.indexOf(', '); return i < 0 ? n : n.slice(i + 2) + ' ' + n.slice(0, i); };
   const paperUrl = (r) => `https://doi.org/${r[3]}`;
@@ -291,6 +321,7 @@
         r[10] ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${r[10]}`, target: '_blank', rel: 'noopener', title: `arXiv:${r[10]}`, text: 'arXiv' }) : null,
         ...(r[11] || []).map(u => { const gl = /gitlab/i.test(u); return el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u },
           [el('i', { className: gl ? 'fa-brands fa-gitlab' : 'fa-brands fa-github', 'aria-hidden': 'true' }), document.createTextNode(gl ? ' GitLab' : ' GitHub')]); }),
+        r[12] ? el('span', { className: 'cit', title: 'Citations (Crossref/OpenAlex)', text: `cited ${fmt(r[12])}` }) : null,
         el('span', { className: 'ses', title: r[3], text: `📅 ${showDate(r[9])}${r[5] && !r[6] ? ' · ' + r[5] : ''}` }),
         ...others.slice(0, 6).map(k => instChip(k)),
         others.length > 6 ? el('span', { className: 'sim', text: `+${others.length - 6} more` }) : null,
@@ -725,6 +756,48 @@
   const PLENARY = "__PLENARY__";
   $('#texPaper').addEventListener('click', () => { $('#tq').value = PLENARY; runTopic(PLENARY); });
 
+  /* =================== MOST CITED =================== */
+  let citedOrder = null, citedShown = 100;
+  YEARS.forEach(y => { $('#cy0').append(el('option', { value: String(y), text: String(y) })); $('#cy1').append(el('option', { value: String(y), text: String(y) })); });
+  A.forEach((a, i) => $('#carea').append(el('option', { value: String(i), text: a.name })));
+  $('#cinstList').append(...[...RANKED].sort((a, b) => b.p - a.p).map(x => el('option', { value: x.n })));
+  const citedInst = () => { const v = $('#cinst').value.trim(); if (!v) return null; return RANKED.find(x => x.n === v) || search(v, 1)[0] || null; };
+  function citedHash() {
+    const p = new URLSearchParams(), y0 = +$('#cy0').value, y1 = +$('#cy1').value, x = citedInst();
+    if (y0 !== YEARS[0]) p.set('from', y0); if (y1 !== YEARS[YEARS.length - 1]) p.set('to', y1);
+    if ($('#carea').value) p.set('area', A[+$('#carea').value].short); if (x) p.set('inst', x.slug);
+    const h = '#/cited' + (p.toString() ? '?' + p : ''); if (location.hash !== h) history.replaceState(null, '', h);
+  }
+  function routeCited(qs) {
+    const p = new URLSearchParams(qs || ''), ai = A.findIndex(a => a.short === p.get('area')), x = p.get('inst') && bySlug.get(p.get('inst'));
+    $('#cy0').value = String(YEARS.includes(+p.get('from')) ? +p.get('from') : YEARS[0]);
+    $('#cy1').value = String(YEARS.includes(+p.get('to')) ? +p.get('to') : YEARS[YEARS.length - 1]);
+    $('#carea').value = ai >= 0 ? String(ai) : ''; $('#cinst').value = x ? x.n : '';
+    citedShown = 100; renderCited();
+  }
+  function renderCited() {
+    $('#cstatus').textContent = P ? '' : 'Loading papers…';
+    ensurePapers().then(() => {
+      if (!citedOrder) citedOrder = P.map((_, i) => i).sort((a, b) => (P[b][12] || 0) - (P[a][12] || 0) || (P[a][9] || '').localeCompare(P[b][9] || ''));
+      let y0 = +$('#cy0').value, y1 = +$('#cy1').value; if (y0 > y1) [y0, y1] = [y1, y0];
+      const ar = $('#carea').value === '' ? -1 : +$('#carea').value, x = citedInst();
+      const hit = citedOrder.filter(i => { const r = P[i]; return r[4] >= y0 && r[4] <= y1 && (ar < 0 || r[2] === ar) && (!x || r[1].includes(x.i)); });
+      const tot = hit.reduce((s, i) => s + (P[i][12] || 0), 0);
+      const what = [y0 === y1 ? String(y0) : `${y0}–${y1}`, ar >= 0 ? A[ar].name : null, x ? x.n : null].filter(Boolean).join(' · ');
+      $('#cstatus').textContent = ($('#cinst').value.trim() && !x ? `No institution matches “${$('#cinst').value.trim()}”. ` : '') +
+        `${fmt(hit.length)} paper${hit.length === 1 ? '' : 's'} (${what}) · ${fmt(tot)} citations in total` + (hit.length ? ` · median ${fmt(P[hit[hit.length >> 1]][12] || 0)}` : '');
+      $('#cres').replaceChildren(...hit.slice(0, citedShown).map((i, k) => el('div', { className: 'crow' }, [
+        el('div', { className: 'rk' }, [el('span', { text: `#${k + 1}` }), el('b', { text: fmt(P[i][12] || 0) }), el('small', { text: 'citations' })]),
+        paperEl(i)])));
+      $('#cmore').style.display = hit.length > citedShown ? '' : 'none';
+      citedHash();
+    }).catch(e => { $('#cstatus').textContent = 'Could not load papers: ' + e.message; });
+  }
+  ['#cy0', '#cy1', '#carea'].forEach(id => $(id).addEventListener('change', () => { citedShown = 100; renderCited(); }));
+  $('#cinst').addEventListener('change', () => { citedShown = 100; renderCited(); });
+  $('#cinst').addEventListener('input', () => { if (!$('#cinst').value) { citedShown = 100; renderCited(); } });
+  $('#creset').addEventListener('click', () => { history.replaceState(null, '', '#/cited'); routeCited(''); });
+  $('#cmore').addEventListener('click', () => { citedShown += 100; renderCited(); });
   route();
 })();
 </script>

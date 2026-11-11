@@ -40,7 +40,7 @@ ranked = [x for x in INST if x['p']]
 top10 = [x for x in ranked if x['r'] <= 10]
 fig = plt.figure(figsize=(9, 12.6), dpi=300, facecolor='white')
 fig.text(0.06, 0.955, 'L-CSS', fontsize=40, fontweight='bold', color='#6d28d9')
-fig.text(0.33, 0.955, 'who publishes what', fontsize=22, color=INK, va='baseline')
+fig.text(0.31, 0.955, 'who publishes what', fontsize=22, color=INK, va='baseline')
 fig.text(0.06, 0.928, f"IEEE Control Systems Letters · every paper {Y0}–{Y1}, including early access", fontsize=11.5, color=MUTED)
 stats = [(f"{M['papers']:,}", 'papers'), (f"{M['institutions']:,}", 'institutions'),
          (str(len(M['countries'])), 'countries'), (str(len(A)), 'research areas')]
@@ -67,12 +67,13 @@ for i, x in enumerate(top10):
     ab = abbr(x['n'])
     ax.text(10.5, i, ab, va='center', ha='center', fontsize=9.5 if len(ab) <= 4 else 8, fontweight='bold', color='white', zorder=4)
     ax.text(17, i - 0.2, x['n'], va='center', fontsize=10.8, fontweight='bold', color=INK)
-    lab = ' & '.join(A[j]['name'] if len(tops) == 1 else A[j]['short'] for j in tops)
+    long_name = len(x['n']) > 28  # long names leave room only for the short area label
+    lab = ' & '.join(A[j]['name'] if len(tops) == 1 and not long_name else A[j]['short'] for j in tops)
     ax.text(98, i - 0.2, f"Top area: {lab} · {m} papers", va='center', ha='right', fontsize=8.6, fontweight='bold', color=col)
     left = 17
     for j in sorted(range(len(A)), key=lambda j: -x['a'][j]):
         if x['a'][j]:
-            w = 74 * x['a'][j] / pmax
+            w = 66 * x['a'][j] / pmax
             ax.add_patch(plt.Rectangle((left, i + 0.06), w, 0.27, fc=A[j]['color'], ec='white', lw=0.5))
             left += w
     ax.text(left + 0.8, i + 0.2, f"{x['p']} papers", va='center', fontsize=9.5, fontweight='bold', color=INK)

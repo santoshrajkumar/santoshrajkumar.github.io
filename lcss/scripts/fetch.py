@@ -2,6 +2,7 @@
 
 Sources (both free, no key):
   - Crossref: the complete DOI list, titles, authors and affiliations as printed, volume/issue/pages.
+  - Both: citation counts.
   - OpenAlex: abstracts, institution IDs with country and type, open-access status, arXiv copies.
 Crossref decides which papers exist. OpenAlex only adds detail. Raw responses are saved in raw/.
 
@@ -39,7 +40,7 @@ def get(url):
 
 OFFLINE = '--offline' in sys.argv  # re-merge the saved raw/ files without downloading
 KEY = os.environ.get('OPENALEX_API_KEY', '')  # optional free key from https://openalex.org/settings/api
-SELECT = 'id,doi,title,publication_date,abstract_inverted_index,authorships,open_access,locations,biblio,type'
+SELECT = 'id,doi,title,publication_date,abstract_inverted_index,authorships,open_access,locations,biblio,type,cited_by_count'
 
 
 def doi_key(d):
@@ -60,7 +61,7 @@ else:
     cr, cursor = [], '*'
     while True:
         q = urllib.parse.urlencode({'rows': 1000, 'cursor': cursor,
-                                    'select': 'DOI,title,author,volume,issue,page,published,published-print,published-online,created,type,article-number'})
+                                    'select': 'DOI,title,author,volume,issue,page,published,published-print,published-online,created,type,article-number,is-referenced-by-count'})
         m = get(f'https://api.crossref.org/journals/{ISSN}/works?{q}')['message']
         cr += m['items']
         print('crossref', len(cr), 'of', m['total-results'], flush=True)
@@ -186,6 +187,8 @@ for x in cr:
         'open_access': (w.get('open_access') or {}).get('oa_status') in ('gold', 'hybrid', 'diamond'),
         'arxiv': arxiv,
         'openalex': (w.get('id') or '').rsplit('/', 1)[-1],
+        # citations: the larger of Crossref's and OpenAlex's count (both only see indexed papers)
+        'cites': max(x.get('is-referenced-by-count') or 0, w.get('cited_by_count') or 0),
     })
 
 papers.sort(key=lambda p: (p['date'], p['id']))
