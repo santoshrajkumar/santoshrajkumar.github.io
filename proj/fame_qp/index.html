@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAME-QP: GPU QP Solver for Fast, Real-Time MPC</title>
+<meta name="description" content="FAME-QP is an open-source GPU QP solver for fast, real-time model predictive control: linear MPC, Koopman MPC and world-model MPC on NVIDIA GPUs.">
+<meta name="keywords" content="GPU MPC, GPU QP solver, quadratic programming, model predictive control, linear MPC, LMPC, fast MPC, real-time MPC, ADMM, OSQP, CUDA, Triton, PyTorch, Koopman MPC, world model MPC, learned dynamics MPC, robotics, humanoid control, quadrotor control">
+<meta name="author" content="Santosh Mohan Rajkumar, Debdipta Goswami, Stephanie Stockar">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#ba0c2f">
+<link rel="canonical" href="https://santoshrajkumar.github.io/proj/fame_qp/">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<!-- Open Graph and Twitter cards: the preview shown when the page is shared -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FAME-QP">
+<meta property="og:url" content="https://santoshrajkumar.github.io/proj/fame_qp/">
+<meta property="og:title" content="FAME-QP: Fast GPU QP Solver for Real-Time Model Predictive Control">
+<meta property="og:description" content="Open-source GPU quadratic-programming solver for linear, Koopman and world-model MPC: up to 25.9× faster than DAQP and 4.7× faster than CuPIQP. pip install fame-qp.">
+<meta property="og:image" content="https://santoshrajkumar.github.io/proj/fame_qp/assets/og_image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="FAME-QP, a GPU QP solver for real-time MPC, with a Unitree G1 humanoid and a Skydio X2 quadrotor controlled by it">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FAME-QP: Fast GPU QP Solver for Real-Time Model Predictive Control">
+<meta name="twitter:description" content="Open-source GPU quadratic-programming solver for linear, Koopman and world-model MPC. pip install fame-qp.">
+<meta name="twitter:image" content="https://santoshrajkumar.github.io/proj/fame_qp/assets/og_image.png">
+<meta name="twitter:image:alt" content="FAME-QP, a GPU QP solver for real-time MPC">
+
+<!-- Google Scholar -->
+<meta name="citation_title" content="FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control">
+<meta name="citation_author" content="Rajkumar, Santosh Mohan">
+<meta name="citation_author" content="Goswami, Debdipta">
+<meta name="citation_author" content="Stockar, Stephanie">
+<meta name="citation_publication_date" content="2026/11/10">
+<meta name="citation_arxiv_id" content="2611.13766">
+<meta name="citation_pdf_url" content="https://arxiv.org/pdf/2611.13766">
+
+<!-- Structured data for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://santoshrajkumar.github.io/proj/fame_qp/#software",
+      "name": "FAME-QP",
+      "alternateName": "Fused ADMM with Multimode Execution for QP",
+      "description": "Open-source GPU quadratic-programming solver for real-time model predictive control: linear MPC, Koopman MPC and world-model MPC on NVIDIA GPUs.",
+      "url": "https://santoshrajkumar.github.io/proj/fame_qp/",
+      "codeRepository": "https://github.com/santoshrajkumar/fame-qp",
+      "sameAs": ["https://pypi.org/project/fame-qp/", "https://github.com/santoshrajkumar/fame-qp"],
+      "programmingLanguage": ["Python", "Triton", "CUDA"],
+      "runtimePlatform": "Linux, NVIDIA GPU, PyTorch",
+      "applicationCategory": "Scientific software, optimization solver",
+      "license": "https://opensource.org/licenses/MIT",
+      "keywords": "GPU MPC, GPU QP solver, quadratic programming, model predictive control, linear MPC, LMPC, fast MPC, real-time MPC, ADMM, Koopman MPC, world model MPC, robotics",
+      "author": [
+        {"@type": "Person", "name": "Santosh Mohan Rajkumar", "affiliation": {"@type": "Organization", "name": "The Ohio State University"}},
+        {"@type": "Person", "name": "Debdipta Goswami", "affiliation": {"@type": "Organization", "name": "The Ohio State University"}},
+        {"@type": "Person", "name": "Stephanie Stockar", "affiliation": {"@type": "Organization", "name": "The Ohio State University"}}
+      ],
+      "citation": {"@id": "https://arxiv.org/abs/2611.13766"}
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://arxiv.org/abs/2611.13766",
+      "headline": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "url": "https://arxiv.org/abs/2611.13766",
+      "datePublished": "2026-11-10",
+      "author": [
+        {"@type": "Person", "name": "Santosh Mohan Rajkumar"},
+        {"@type": "Person", "name": "Debdipta Goswami"},
+        {"@type": "Person", "name": "Stephanie Stockar"}
+      ],
+      "about": ["GPU quadratic programming", "Model predictive control", "Real-time optimization"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What is FAME-QP?",
+         "acceptedAnswer": {"@type": "Answer", "text": "FAME-QP is an open-source GPU solver for convex quadratic programs, built for the dense QPs of real-time model predictive control. It runs the ADMM iteration of OSQP in fused GPU kernels replayed through CUDA graphs and tunes itself to the GPU it runs on."}},
+        {"@type": "Question", "name": "Which MPC problems can FAME-QP solve?",
+         "acceptedAnswer": {"@type": "Answer", "text": "Any MPC problem whose optimization step is a convex QP: linear MPC (LMPC) in condensed form with input and state bounds, LQR-pre-stabilized MPC, and MPC whose model matrices change at every step, such as Koopman-lifted or linearized models."}},
+        {"@type": "Question", "name": "Can FAME-QP be used for world-model MPC?",
+         "acceptedAnswer": {"@type": "Answer", "text": "Yes, when the world model provides linear or locally linear latent dynamics, or is linearized along a trajectory, the resulting MPC step is a QP that FAME-QP solves on the GPU, next to the model itself. Its matrix updates are designed for models that change at every step."}},
+        {"@type": "Question", "name": "How fast is FAME-QP?",
+         "acceptedAnswer": {"@type": "Answer", "text": "On an RTX 3080 Laptop GPU it was the fastest GPU solver at every tested size of random dense QPs, up to 25.9 times faster than DAQP, 3.2 to 7.3 times faster than ReLU-QP in closed-loop MPC, and 4.7 times faster than CuPIQP for quadrotor MPC with changing matrices."}},
+        {"@type": "Question", "name": "How do I install FAME-QP?",
+         "acceptedAnswer": {"@type": "Answer", "text": "pip install fame-qp. It needs Linux, an NVIDIA GPU supported by Triton, Python 3.9 or newer and PyTorch with CUDA."}}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --surface: #ffffff;
+    --ink: #1c1d21;
+    --muted: #5b5f66;
+    --line: #e7e4df;
+    --accent: #ba0c2f;
+    --accent-soft: #fbeef1;
+    --code-bg: #15171c;
+    --code-ink: #e6e6e6;
+    --radius: 14px;
+    --shadow: 0 1px 2px rgba(20, 20, 30, .04), 0 8px 24px rgba(20, 20, 30, .06);
+    --max: 1080px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code, pre { font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+  /* navigation */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(251, 250, 248, .85); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; align-items: center; gap: 28px; height: 56px; }
+  nav .brand { font-weight: 800; color: var(--ink); letter-spacing: -.01em; }
+  nav .brand span { color: var(--accent); }
+  nav .links { display: flex; gap: 22px; margin-left: auto; font-size: 14.5px; }
+  nav .links a { color: var(--muted); }
+  nav .links a:hover { color: var(--ink); text-decoration: none; }
+
+  /* hero */
+  header.hero { padding: 72px 0 40px; text-align: center; }
+  .eyebrow {
+    display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--accent); background: var(--accent-soft);
+    padding: 5px 12px; border-radius: 999px;
+  }
+  h1 { font-size: clamp(42px, 7vw, 76px); line-height: 1.02; letter-spacing: -.035em; margin: 22px 0 14px; font-weight: 800; }
+  h1 .dash { color: var(--accent); }
+  .subtitle { font-size: clamp(18px, 2.3vw, 23px); color: var(--muted); max-width: 820px; margin: 0 auto; line-height: 1.45; }
+  .authors { margin-top: 26px; font-size: 17px; font-weight: 600; }
+  .authors span { display: inline-block; white-space: nowrap; }
+  .authors span + span::before { content: "·"; margin: 0 10px; color: #c9c5bf; }
+  .affil { color: var(--muted); font-size: 15px; margin-top: 4px; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 30px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 9px; padding: 11px 20px; border-radius: 999px;
+    background: var(--ink); color: #fff; font-weight: 600; font-size: 15px;
+    transition: transform .15s ease, background .15s ease;
+  }
+  .btn:hover { text-decoration: none; transform: translateY(-1px); background: #33353b; }
+  .btn.primary { background: var(--accent); }
+  .btn.primary:hover { background: #9c0a27; }
+  .btn svg { width: 17px; height: 17px; fill: currentColor; }
+
+  /* teaser */
+  .teaser { display: grid; grid-template-columns: 0.606fr 1fr; gap: 18px; margin: 44px 0 10px; align-items: stretch; }
+  .media {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    overflow: hidden; box-shadow: var(--shadow); margin: 0; display: flex; flex-direction: column;
+  }
+  .media img { width: 100%; height: auto; display: block; background: #1d3049; }
+  .media figcaption { padding: 12px 16px; font-size: 14px; color: var(--muted); text-align: left; }
+  .media figcaption b { color: var(--ink); }
+
+  /* stats */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 38px 0 8px; }
+  .stat {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 20px 20px 18px; text-align: left; box-shadow: var(--shadow);
+  }
+  .stat .num { font-size: 34px; font-weight: 800; letter-spacing: -.03em; color: var(--accent); line-height: 1.1; }
+  .stat .lbl { font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.45; }
+
+  /* sections */
+  section { padding: 64px 0 8px; }
+  h2 { font-size: 32px; letter-spacing: -.02em; margin: 0 0 8px; font-weight: 800; }
+  h2 + .lead { color: var(--muted); font-size: 17.5px; margin: 0 0 28px; max-width: 760px; }
+  h3 { font-size: 19px; margin: 34px 0 10px; letter-spacing: -.01em; }
+  .abstract {
+    font-size: 18px; line-height: 1.7; background: var(--surface); border: 1px solid var(--line);
+    border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 26px 30px; box-shadow: var(--shadow);
+  }
+
+  .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 22px 24px; box-shadow: var(--shadow);
+  }
+  .card .tag {
+    display: inline-flex; width: 30px; height: 30px; border-radius: 9px; align-items: center; justify-content: center;
+    background: var(--accent-soft); color: var(--accent); font-weight: 800; font-size: 14px; margin-bottom: 10px;
+  }
+  .card h4 { margin: 0 0 6px; font-size: 17px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15.2px; }
+
+  /* method */
+  .math {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 10px 24px; box-shadow: var(--shadow); overflow-x: auto;
+  }
+  .flow { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+  .phase { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+  .phase .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+  .phase .head b { font-size: 16px; }
+  .phase .head span { font-size: 13px; color: var(--muted); }
+  .steps { list-style: none; margin: 0; padding: 0; counter-reset: s; }
+  .steps li { position: relative; padding: 7px 0 7px 34px; font-size: 15px; border-top: 1px dashed var(--line); }
+  .steps li:first-child { border-top: 0; }
+  .steps li::before {
+    counter-increment: s; content: counter(s); position: absolute; left: 0; top: 8px;
+    width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff;
+    font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+  }
+  .phase.solve .steps li::before { background: var(--accent); }
+  .steps li small { color: var(--muted); display: block; font-size: 13.5px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 15px; background: var(--surface); }
+  .table-wrap { border: 1px solid var(--line); border-radius: var(--radius); overflow-x: auto; box-shadow: var(--shadow); }
+  th, td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { font-size: 13.5px; color: var(--muted); background: #f6f4f1; font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.best { color: var(--accent); font-weight: 700; }
+  tr.fame td:first-child { font-weight: 700; }
+  tr.group td { background: #f6f4f1; font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 6px 14px; }
+  .note { color: var(--muted); font-size: 14px; margin-top: 10px; }
+
+  .fig { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+  .fig img { width: 100%; display: block; border-radius: 6px; }
+  .fig figcaption { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+  .split.wide-left { grid-template-columns: 1.15fr 1fr; }
+  .robot-points { margin: 0; padding-left: 18px; color: var(--muted); }
+  .robot-points li { margin: 6px 0; }
+  .robot-points b { color: var(--ink); }
+
+  /* code */
+  .code {
+    position: relative; background: var(--code-bg); color: var(--code-ink); border-radius: var(--radius);
+    padding: 20px 22px; font-size: 14px; line-height: 1.6; overflow-x: auto; margin: 0;
+  }
+  .code .c { color: #8b93a1; }
+  .code .k { color: #ff8fa8; }
+  .code .s { color: #a5d6a7; }
+  .copy {
+    position: absolute; top: 12px; right: 12px; border: 1px solid #3a3d45; background: #23262d; color: #d0d3d9;
+    border-radius: 8px; padding: 5px 10px; font: 600 12px Inter, sans-serif; cursor: pointer;
+  }
+  .copy:hover { background: #2d3139; }
+  .getstarted { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .examples { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+  .examples a { display: block; color: inherit; }
+  .examples a:hover { text-decoration: none; }
+  .examples .card:hover { border-color: var(--accent); }
+  .examples code { color: var(--accent); font-size: 14px; }
+
+  .faq details {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px 22px; margin-bottom: 12px; box-shadow: var(--shadow);
+  }
+  .faq summary { cursor: pointer; font-weight: 700; font-size: 16.5px; list-style: none; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::before { content: "+"; color: var(--accent); font-weight: 800; display: inline-block; width: 22px; }
+  .faq details[open] summary::before { content: "−"; }
+  .faq details p { margin: 10px 0 2px 22px; color: var(--muted); }
+
+  footer { margin-top: 80px; padding: 34px 0 46px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; }
+
+  @media (max-width: 860px) {
+    nav .links { display: none; }
+    .teaser, .split, .split.wide-left, .flow, .getstarted, .cards { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .examples { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">FAME<span>‑</span>QP</a>
+    <div class="links">
+      <a href="#abstract">Overview</a>
+      <a href="#use-cases">Use cases</a>
+      <a href="#method">Method</a>
+      <a href="#results">Results</a>
+      <a href="#robots">Robots</a>
+      <a href="#start">Get started</a>
+      <a href="#faq">FAQ</a>
+      <a href="#citation">Citation</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow">GPU quadratic programming for real-time MPC</span>
+    <h1>FAME<span class="dash">‑</span>QP</h1>
+    <p class="subtitle">A GPU-accelerated quadratic-programming solver for real-time model predictive control</p>
+
+    <div class="authors">
+      <span>Santosh Mohan Rajkumar</span><span>Debdipta Goswami</span><span>Stephanie Stockar</span>
+    </div>
+    <div class="affil">Department of Mechanical &amp; Aerospace Engineering, The Ohio State University</div>
+
+    <div class="buttons">
+      <a class="btn primary" href="https://arxiv.org/abs/2611.13766">
+        <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5zM8.5 12h7v1.5h-7V12zm0 3h7v1.5h-7V15zm0 3h5v1.5h-5V18z"/></svg>
+        Paper
+      </a>
+      <a class="btn" href="https://github.com/santoshrajkumar/fame-qp">
+        <svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+        Code
+      </a>
+      <a class="btn" href="https://pypi.org/project/fame-qp/">
+        <svg viewBox="0 0 24 24"><path d="M12 2 3 7v10l9 5 9-5V7l-9-5zm0 2.3L18.6 8 12 11.7 5.4 8 12 4.3zM5 9.7l6 3.3v6.7l-6-3.3V9.7zm8 10V13l6-3.3v6.7l-6 3.3z"/></svg>
+        pip install fame-qp
+      </a>
+      <a class="btn" href="https://github.com/santoshrajkumar/fame-qp/blob/main/examples/quick_demo.ipynb">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5z"/></svg>
+        Quick demo
+      </a>
+    </div>
+
+    <div class="teaser">
+      <figure class="media">
+        <img src="assets/g1_push_recovery.gif" alt="Unitree G1 recovering from an 80 N push under MPC solved by FAME-QP">
+        <figcaption><b>Unitree G1</b> recovering from an 80&nbsp;N push. Its 290-variable MPC QP is solved by FAME&#8209;QP every 2&nbsp;ms.</figcaption>
+      </figure>
+      <figure class="media">
+        <img src="assets/x2_lemniscate.gif" alt="Skydio X2 tracking a lemniscate with KQ-LMPC solved by FAME-QP">
+        <figcaption><b>Skydio X2</b> tracking a lemniscate with KQ&#8209;LMPC. The QP's matrices change at every 20&nbsp;ms step; red is the reference, yellow the flown path.</figcaption>
+      </figure>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="num">25.9×</div><div class="lbl">faster than DAQP, the fastest CPU solver, on dense random QPs (n&nbsp;=&nbsp;1400)</div></div>
+      <div class="stat"><div class="num">7.3×</div><div class="lbl">faster closed-loop MPC steps than ReLU&#8209;QP on random linear systems</div></div>
+      <div class="stat"><div class="num">2×</div><div class="lbl">longer MPC horizon for the G1 humanoid within its 2&nbsp;ms control period</div></div>
+      <div class="stat"><div class="num">4.7×</div><div class="lbl">faster than CuPIQP for quadrotor MPC with matrices that change every step</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="abstract">
+    <h2>Abstract</h2>
+    <p class="lead">Dense convex QPs of linear MPC, solved on the GPU.</p>
+    <div class="abstract">
+      We present FAME&#8209;QP, a GPU-accelerated solver for dense quadratic programs arising in linear model
+      predictive control. FAME&#8209;QP combines constraint-dependent operator representations with fused single- and
+      two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through
+      device calibration and problem-specific timing. It probes a cached operator bank to select the initial penalty
+      and updates operators lazily when problem matrices change. Numerical benchmarks and simulated humanoid and
+      quadrotor control experiments demonstrate reduced latency relative to competing GPU solvers while maintaining
+      solution accuracy and control performance.
+    </div>
+
+    <h3>Four ideas</h3>
+    <div class="cards">
+      <div class="card">
+        <div class="tag">1</div>
+        <h4>Constraint-dependent operators</h4>
+        <p>Rows that bound single variables, such as input limits, are handled element-wise instead of as dense rows:
+           up to 4&times; less operator storage and up to 3&times; faster iterations.</p>
+      </div>
+      <div class="card">
+        <div class="tag">2</div>
+        <h4>Fused kernels, replayed as CUDA graphs</h4>
+        <p>A full ADMM iteration runs in one or two kernels, and blocks of iterations with the stopping test are
+           replayed with a single host call.</p>
+      </div>
+      <div class="card">
+        <div class="tag">3</div>
+        <h4>Automatic selection</h4>
+        <p>A one-time device calibration and a short timing test per problem shape pick the execution mode, its tile
+           sizes and, optionally, the precision.</p>
+      </div>
+      <div class="card">
+        <div class="tag">4</div>
+        <h4>Penalty probing and lazy updates</h4>
+        <p>A bank of pre-inverted operators gives penalty adaptation without refactorisation and a probed starting
+           penalty; changed matrices re-invert only the operator in use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="use-cases">
+    <h2>Use cases</h2>
+    <p class="lead">FAME&#8209;QP solves the QP at the heart of every MPC step whose optimization problem is a
+      convex quadratic program, and keeps it on the GPU next to the model.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="tag">L</div>
+        <h4>Linear MPC (LMPC)</h4>
+        <p>Condensed linear MPC with input and state bounds, optionally LQR pre-stabilized, from a few hundred to
+           thousands of decision variables. <code>fame_qp.mpc.LinearMPC</code> builds the QP from \(A, B, Q, R\).</p>
+      </div>
+      <div class="card">
+        <div class="tag">K</div>
+        <h4>Koopman MPC</h4>
+        <p>Koopman-lifted linear models whose matrices change at every step, as in KQ&#8209;LMPC for quadrotors:
+           the QP's matrices are swapped in place and only the active operator is re-inverted.</p>
+      </div>
+      <div class="card">
+        <div class="tag">W</div>
+        <h4>World-model and learned-dynamics MPC</h4>
+        <p>When a learned world model has linear or locally linear latent dynamics, or is linearized along a
+           trajectory, each MPC step is a QP. FAME&#8209;QP solves it on the same GPU as the model, without a
+           round trip to a CPU solver.</p>
+      </div>
+      <div class="card">
+        <div class="tag">R</div>
+        <h4>Fast MPC for robots</h4>
+        <p>Real-time control at kilohertz rates: humanoid balance with a 2&nbsp;ms control period and quadrotor
+           tracking with changing models, in GPU pipelines for simulation, learning and inference.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="method">
+    <h2>Method</h2>
+    <p class="lead">FAME&#8209;QP runs the ADMM iteration of OSQP with pre-inverted linear systems, and is built
+      around how that iteration executes on a GPU.</p>
+
+    <div class="math">
+      $$\min_{z}\ \tfrac12 z^\top P z + q^\top z \quad \text{s.t.}\quad l \le G z \le h$$
+      $$\tilde z = M\big(\sigma z - q + G^\top(\boldsymbol\rho\, s - \lambda)\big),\quad
+        M = \big(P + \sigma I + G^\top \boldsymbol\rho\, G\big)^{-1}$$
+      $$z \leftarrow \alpha \tilde z + (1-\alpha) z,\qquad
+        \zeta = \alpha G\tilde z + (1-\alpha) s + \boldsymbol\rho^{-1}\lambda,\qquad
+        s \leftarrow \Pi_{[l,h]}(\zeta),\qquad \lambda \leftarrow \boldsymbol\rho(\zeta - s)$$
+    </div>
+
+    <div class="flow">
+      <div class="phase">
+        <div class="head"><b>Setup</b><span>once per problem</span></div>
+        <ol class="steps">
+          <li>Detect the constraint structure<small>box, split (diagonal block + dense rows) or general</small></li>
+          <li>Ruiz-scale the problem data</li>
+          <li>Select the execution mode<small>from a cached device calibration and a short timing test</small></li>
+          <li>Invert a bank of five operators in <code>float64</code><small>one per penalty, spaced by factors of 10</small></li>
+          <li>Probe the starting penalty and capture the CUDA graph</li>
+        </ol>
+      </div>
+      <div class="phase solve">
+        <div class="head"><b>Solve</b><span>every QP, e.g. every MPC step</span></div>
+        <ol class="steps">
+          <li>Update \(q, l, h\) (and \(P, G\) if they change)<small>only the active operator is re-inverted in lazy mode</small></li>
+          <li>Warm start, shifted one stage along the horizon</li>
+          <li>Replay the graph: fused iterations + on-device stopping test</li>
+          <li>One host read per block of iterations<small>terminate, detect stalls or switch to another operator in the bank</small></li>
+        </ol>
+      </div>
+    </div>
+
+    <h3>Execution modes</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Mode</th><th>Operator</th><th>Kernels per iteration</th><th>Best when</th></tr>
+        <tr><td><b>Single kernel</b></td><td>stacked \(S M S^\top\), \((n+m_c)^2\) entries</td><td>1</td><td>few dense rows: launch overhead dominates</td></tr>
+        <tr><td><b>Two kernels</b></td><td>factored \([M,\ MC^\top]\) and \(C\): \(m_c^2\) fewer entries</td><td>2</td><td>many dense rows: memory traffic dominates</td></tr>
+        <tr><td><b>Persistent</b></td><td>\(M\) held in registers</td><td>one launch per solve</td><td>small box-constrained problems</td></tr>
+      </table>
+    </div>
+    <p class="note">The mode is chosen automatically from a per-device calibration and a timing test on placeholder
+      operators of the problem's shape, and cached for later runs.</p>
+  </section>
+
+  <section id="results">
+    <h2>Results</h2>
+    <p class="lead">All timings on an NVIDIA RTX 3080 Laptop GPU in <code>float64</code>, against CPU and GPU
+      solvers and GPU MPC methods, using their original implementations.</p>
+
+    <h3>Random dense QPs</h3>
+    <div class="split wide-left">
+      <figure class="fig">
+        <img src="assets/fig_random_qp.png" alt="Solve time against problem size on random dense QPs">
+        <figcaption>Cold-solve times at matched accuracy, excluding setup: medians with min&ndash;max bands over five
+          instances. All solvers in <code>float64</code> except cuOSQP (<code>float32</code>).</figcaption>
+      </figure>
+      <div>
+        <ul class="robot-points">
+          <li><b>Fastest GPU solver at every size</b> from n&nbsp;=&nbsp;20 to 1400, against ReLU&#8209;QP, CuPIQP,
+            qpax and cuOSQP.</li>
+          <li><b>Faster than every CPU solver for n &ge; 220</b>, including OSQP, PIQP, ProxQP, Clarabel and DAQP.</li>
+          <li>Over n&nbsp;=&nbsp;220&ndash;1400: <b>1.2&ndash;25.9&times;</b> faster than DAQP and
+            <b>1.5&ndash;4.3&times;</b> faster than ReLU&#8209;QP.</li>
+          <li>In <code>float32</code>, 1.95&nbsp;ms at n&nbsp;=&nbsp;1400, against 326&nbsp;ms for cuOSQP.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Closed-loop MPC on random linear systems</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Method</th><th class="num">n = 400</th><th class="num">800</th><th class="num">1200</th><th class="num">1600</th><th class="num">2000</th></tr>
+        <tr class="group"><td colspan="6">QP solvers, LQR-preconditioned condensed QP</td></tr>
+        <tr class="fame"><td>FAME&#8209;QP</td><td class="num best">0.658 ± 0.066</td><td class="num best">1.19 ± 0.04</td><td class="num best">2.05 ± 0.45</td><td class="num best">2.92 ± 0.09</td><td class="num best">4.23 ± 0.21</td></tr>
+        <tr><td>ReLU&#8209;QP</td><td class="num">2.10 ± 0.37</td><td class="num">6.06 ± 1.02</td><td class="num">11.6 ± 1.9</td><td class="num">20.0 ± 3.9</td><td class="num">30.9 ± 6.1</td></tr>
+        <tr><td>CuPIQP</td><td class="num">23.7 ± 7.0</td><td class="num">58.9 ± 11.3</td><td class="num">178 ± 42</td><td class="num">248 ± 63</td><td class="num">449 ± 120</td></tr>
+        <tr class="group"><td colspan="6">GPU MPC methods, original OCP</td></tr>
+        <tr><td>CUDA MPC</td><td class="num">22.7 ± 0.1</td><td class="num">59.9 ± 0.5</td><td class="num">82.8 ± 0.8</td><td class="num">103 ± 0</td><td class="num">138 ± 3</td></tr>
+        <tr><td>&pi;MPC</td><td class="num">9.06 ± 12.39</td><td class="num">8.90 ± 12.88</td><td class="num">6.78 ± 5.67</td><td class="num">15.4 ± 23.9</td><td class="num">13.4 ± 18.1</td></tr>
+      </table>
+    </div>
+    <p class="note">MPC step time [ms], mean ± standard deviation over 50 closed-loop steps, including data
+      updates, warm-start shifts and the transfer of the first input to the host. Closed-loop costs of all methods
+      agree within 0.06&nbsp;%.</p>
+  </section>
+
+  <section id="robots">
+    <h2>Robots in MuJoCo</h2>
+    <p class="lead">Closed-loop control of a humanoid and a quadrotor, with the MPC QP solved by FAME&#8209;QP at every
+      control step.</p>
+
+    <h3>Unitree G1 push recovery</h3>
+    <div class="split">
+      <div>
+        <ul class="robot-points">
+          <li>29 position-controlled joints, 70 states, a <b>2&nbsp;ms</b> control period.</li>
+          <li>Condensed QP with \(n = m = 29N\), general constraint structure, against ReLU&#8209;QP.</li>
+          <li><b>2.3&ndash;3.1&times;</b> lower mean QP time, within the control period at every horizon tested; ReLU&#8209;QP exceeds it from N&nbsp;=&nbsp;15.</li>
+          <li>The largest horizon within the budget doubles, from N&nbsp;=&nbsp;10 to N&nbsp;=&nbsp;20, with comparable balance recovery.</li>
+        </ul>
+        <div class="table-wrap" style="margin-top:18px">
+          <table>
+            <tr><th>N (n)</th><th class="num">FAME&#8209;QP [ms]</th><th class="num">ReLU&#8209;QP [ms]</th><th class="num">CoM RMS [mm]<br><span style="font-weight:500">FAME&#8209;QP / ReLU&#8209;QP</span></th></tr>
+            <tr><td>10 (290)</td><td class="num best">0.650 ± 0.091</td><td class="num">1.47 ± 0.05</td><td class="num">18.7 / 18.7</td></tr>
+            <tr><td>15 (435)</td><td class="num best">0.763 ± 0.116</td><td class="num">2.26 ± 0.12</td><td class="num">19.1 / 19.2</td></tr>
+            <tr><td>20 (580)</td><td class="num best">1.04 ± 0.20</td><td class="num">3.25 ± 0.13</td><td class="num">20.5 / 19.5</td></tr>
+          </table>
+        </div>
+      </div>
+      <figure class="fig">
+        <img src="assets/fig_g1_push_recovery.png" alt="Unitree G1 push recovery frames">
+        <figcaption>Push, largest lean, return and final stance, with FAME&#8209;QP at N&nbsp;=&nbsp;10.</figcaption>
+      </figure>
+    </div>
+
+    <h3>Skydio X2 trajectory tracking with KQ&#8209;LMPC</h3>
+    <div class="split">
+      <figure class="fig">
+        <img src="assets/fig_x2_lemniscate.png" alt="Skydio X2 lemniscate tracking">
+        <figcaption>20&nbsp;s of lemniscate tracking at 50&nbsp;Hz with a 1.4&nbsp;s horizon.</figcaption>
+      </figure>
+      <div>
+        <ul class="robot-points">
+          <li>Koopman-lifted linear MPC: both the Hessian and the constraint matrix <b>change at every step</b>.</li>
+          <li>Condensed QP with n&nbsp;=&nbsp;280 (N&nbsp;=&nbsp;70), against CuPIQP.</li>
+          <li><b>12.5 ± 3.2&nbsp;ms</b> per step against 59.2 ± 4.8&nbsp;ms: <b>4.7&times;</b> faster, including
+            matrix updates, warm starts and the host transfer.</li>
+          <li>99th percentile <b>17.6&nbsp;ms</b>, within the 20&nbsp;ms control period (CuPIQP: 72.1&nbsp;ms).</li>
+          <li>Position RMSE <b>2.7&nbsp;mm</b> (CuPIQP: 3.4&nbsp;mm).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="start">
+    <h2>Get started</h2>
+    <p class="lead">Linux, an NVIDIA GPU supported by Triton, Python 3.9+ and PyTorch with CUDA.</p>
+    <div class="getstarted">
+      <pre class="code"><button class="copy" data-copy="pip install fame-qp">Copy</button><span class="c"># install</span>
+pip install fame-qp
+
+<span class="c"># or from source</span>
+git clone https://github.com/santoshrajkumar/fame-qp.git
+cd fame-qp && pip install -e .</pre>
+      <pre class="code" id="quickstart"><button class="copy" data-target="quickstart">Copy</button><span class="k">from</span> fame_qp <span class="k">import</span> QP, Solver
+
+qp = QP.create(P, q, G, l, h, device=<span class="s">"cuda"</span>)
+solver = Solver(qp, precision=<span class="s">"float64"</span>)
+res = solver.solve()
+res.z, res.lam, res.status
+
+solver.update(q=q2, l=l2, h=h2)   <span class="c"># warm, same setup</span>
+solver.update_matrices(P=P2)      <span class="c"># new matrices</span></pre>
+    </div>
+
+    <div class="examples">
+      <a href="https://github.com/santoshrajkumar/fame-qp/blob/main/examples/usage.py"><div class="card">
+        <code>examples/usage.py</code>
+        <p>The basic API: a QP, its solution and multipliers, updates between solves and a small MPC loop.</p>
+      </div></a>
+      <a href="https://github.com/santoshrajkumar/fame-qp/blob/main/examples/demo.py"><div class="card">
+        <code>examples/demo.py</code>
+        <p>A random QP with n = 1000, closed-loop random LMPC, and MPC with A and B changing every step.</p>
+      </div></a>
+      <a href="https://github.com/santoshrajkumar/fame-qp/blob/main/examples/quick_demo.ipynb"><div class="card">
+        <code>examples/quick_demo.ipynb</code>
+        <p>The paper's figures and tables from the saved results, and the experiments running live on your GPU.</p>
+      </div></a>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>FAQ</h2>
+    <p class="lead">Common questions about GPU MPC with FAME&#8209;QP.</p>
+    <details>
+      <summary>What is FAME&#8209;QP?</summary>
+      <p>FAME&#8209;QP is an open-source GPU solver for convex quadratic programs, built for the dense QPs of
+         real-time model predictive control. It runs the ADMM iteration of OSQP in fused GPU kernels replayed through
+         CUDA graphs and tunes itself to the GPU it runs on.</p>
+    </details>
+    <details>
+      <summary>Which MPC problems can FAME&#8209;QP solve?</summary>
+      <p>Any MPC problem whose optimization step is a convex QP: linear MPC (LMPC) in condensed form with input and
+         state bounds, LQR-pre-stabilized MPC, and MPC whose model matrices change at every step, such as
+         Koopman-lifted or linearized models.</p>
+    </details>
+    <details>
+      <summary>Can FAME&#8209;QP be used for world-model MPC?</summary>
+      <p>Yes, when the world model provides linear or locally linear latent dynamics, or is linearized along a
+         trajectory, the resulting MPC step is a QP that FAME&#8209;QP solves on the GPU, next to the model itself.
+         Its matrix updates are designed for models that change at every step.</p>
+    </details>
+    <details>
+      <summary>How fast is FAME&#8209;QP?</summary>
+      <p>On an RTX 3080 Laptop GPU it was the fastest GPU solver at every tested size of random dense QPs, up to
+         25.9 times faster than DAQP, 3.2 to 7.3 times faster than ReLU&#8209;QP in closed-loop MPC, and 4.7 times
+         faster than CuPIQP for quadrotor MPC with changing matrices.</p>
+    </details>
+    <details>
+      <summary>How do I install FAME&#8209;QP?</summary>
+      <p><code>pip install fame-qp</code>. It needs Linux, an NVIDIA GPU supported by Triton, Python 3.9 or newer
+         and PyTorch with CUDA.</p>
+    </details>
+  </section>
+
+  <section id="citation">
+    <h2>Citation</h2>
+    <p class="lead">If you use FAME&#8209;QP, please cite the paper.</p>
+    <pre class="code" id="bibtex"><button class="copy" data-target="bibtex">Copy</button>@misc{rajkumar2026fameqp,
+  title         = {{FAME-QP}: A {GPU}-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control},
+  author        = {Rajkumar, Santosh Mohan and Goswami, Debdipta and Stockar, Stephanie},
+  year          = {2026},
+  eprint        = {2611.13766},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2611.13766}
+}</pre>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>FAME&#8209;QP is released under the MIT License. &middot;
+      <a href="https://github.com/santoshrajkumar/fame-qp">GitHub</a> &middot;
+      <a href="https://pypi.org/project/fame-qp/">PyPI</a> &middot;
+      <a href="https://arxiv.org/abs/2611.13766">arXiv</a></span>
+    <span>The Ohio State University &middot; Go Buckeyes! 🌰</span>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = btn.dataset.copy;
+      if (!text) {
+        var block = document.getElementById(btn.dataset.target).cloneNode(true);
+        block.querySelector(".copy").remove();
+        text = block.textContent;
+      }
+      navigator.clipboard.writeText(text.trim()).then(function () {
+        btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = "Copy"; }, 1400);
+      });
+    });
+  });
+</script>
+</body>
+</html>
