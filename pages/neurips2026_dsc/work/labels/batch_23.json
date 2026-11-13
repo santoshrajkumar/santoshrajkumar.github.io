@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155260",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "World-model agent with causal credit assignment for long-horizon Crafter tasks; model-based RL"
+ },
+ {
+  "id": "154024",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive communication for MARL under varying bandwidth on SMAC/MPE; generic MARL"
+ },
+ {
+  "id": "154297",
+  "tier": "out",
+  "sub": null,
+  "reason": "Counterfactual distillation for LLM agents; LLM RL"
+ },
+ {
+  "id": "156011",
+  "tier": "out",
+  "sub": null,
+  "reason": "Skill library RL for LLM agents"
+ },
+ {
+  "id": "150844",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sharpness-aware minimization on Boolean hypercube; optimization"
+ },
+ {
+  "id": "152259",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Planner-actor alignment in hybrid model-based RL using HJB-derived metric on HumanoidBench"
+ },
+ {
+  "id": "153972",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "One-step imitation-learned generative robot policy; policy learning without dynamics or control structure"
+ },
+ {
+  "id": "152567",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D visual grounding in Gaussian splatting; perception"
+ },
+ {
+  "id": "152496",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zero-shot referring segmentation from image editing models"
+ },
+ {
+  "id": "154131",
+  "tier": "out",
+  "sub": null,
+  "reason": "Depth-enhanced VLA model for manipulation; VLA, no controller contribution"
+ },
+ {
+  "id": "152105",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical learning dynamics of transformers on arithmetic; not dynamical-systems analysis"
+ },
+ {
+  "id": "152317",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strategy abstraction for LLM agent RL with GRPO"
+ },
+ {
+  "id": "155597",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural decoding of monkey whole-body kinematics; neuroscience decoding, no control"
+ },
+ {
+  "id": "151577",
+  "tier": "out",
+  "sub": null,
+  "reason": "Copyright-aware language model regularization"
+ },
+ {
+  "id": "154546",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time verification steering for reasoning models; LLM steering"
+ },
+ {
+  "id": "153243",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical RL for red teaming LLMs"
+ },
+ {
+  "id": "153193",
+  "tier": "out",
+  "sub": null,
+  "reason": "Best-first search RL for reasoning models; LLM RL"
+ },
+ {
+  "id": "151209",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context RL versus ICL in LLMs"
+ },
+ {
+  "id": "155682",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe offline RL with reachability-based feasibility constraints on DSRL benchmark; constrained RL"
+ },
+ {
+  "id": "151682",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Training-free compositional diffusion planning for sequential reach-avoid tasks with formal satisfaction guarantee"
+ },
+ {
+  "id": "149250",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attacks on stochastic bandits"
+ },
+ {
+  "id": "150161",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Surrogate learning of probability current for ensemble prediction of chaotic, turbulent, stochastic systems"
+ },
+ {
+  "id": "151131",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tree policy optimization for flow-based VLAs; VLA RL, no controller structure"
+ },
+ {
+  "id": "151300",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based RL with recurrent state-space model for zero-sum imperfect-information games"
+ },
+ {
+  "id": "153840",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Extracting transition models (world models) from Q-values and training policies inside them"
+ },
+ {
+  "id": "150580",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reinforcement pre-training for looped language models"
+ },
+ {
+  "id": "150898",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Latent gradient-dynamics model simulating evolution of RL training to predict goal generalisation"
+ },
+ {
+  "id": "150744",
+  "tier": "out",
+  "sub": null,
+  "reason": "Alpha-divergence policy optimization for LLM post-training; RLHF-style"
+ },
+ {
+  "id": "151667",
+  "tier": "out",
+  "sub": null,
+  "reason": "Camera adaptation for 3D foundation models; perception"
+ },
+ {
+  "id": "149332",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semismooth Newton optimization method"
+ },
+ {
+  "id": "152119",
+  "tier": "out",
+  "sub": null,
+  "reason": "Recursive neural framework for graph combinatorial problems"
+ },
+ {
+  "id": "155430",
+  "tier": "out",
+  "sub": null,
+  "reason": "Equivariant transformer for molecular modeling"
+ },
+ {
+  "id": "150205",
+  "tier": "out",
+  "sub": null,
+  "reason": "Chance-constrained sampling for constrained generative models; constrained generation, not control"
+ },
+ {
+  "id": "154265",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrete diffusion action prediction for VLA models; VLA"
+ },
+ {
+  "id": "154040",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-diffusion generative world model for robot rollouts; no planning or control use"
+ },
+ {
+  "id": "153498",
+  "tier": "out",
+  "sub": null,
+  "reason": "Advantage pruning and rollout sampling for GRPO; LLM RL"
+ },
+ {
+  "id": "152414",
+  "tier": "out",
+  "sub": null,
+  "reason": "Region-resolved recurrent architecture for fMRI decoding"
+ },
+ {
+  "id": "149542",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Rebalanced training measures for neural surrogates of discretized physical simulations; operator learning"
+ },
+ {
+  "id": "150573",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Concept bottleneck forecasting of ocean mixed-layer heat content; physical system forecasting"
+ },
+ {
+  "id": "152422",
+  "tier": "out",
+  "sub": null,
+  "reason": "Single-cell multi-omics alignment with pseudotemporal ordering; biological data alignment, not dynamical-system modeling"
+ },
+ {
+  "id": "154855",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural-corrected operator learning for PDE homogenization and inverse material design"
+ },
+ {
+  "id": "152184",
+  "tier": "out",
+  "sub": null,
+  "reason": "Query complexity lower bound for min-max optimization"
+ },
+ {
+  "id": "149349",
+  "tier": "out",
+  "sub": null,
+  "reason": "Importance sampling for rare-event probabilities"
+ },
+ {
+  "id": "149864",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Continuous-time SGD dynamics analysis of two-layer networks under anisotropic data; dynamical theory of learning"
+ },
+ {
+  "id": "149470",
+  "tier": "out",
+  "sub": null,
+  "reason": "Heavy-tailed linear regression"
+ },
+ {
+  "id": "153482",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parallel mean-field Langevin dynamics convergence; sampling algorithm complexity"
+ },
+ {
+  "id": "155974",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Risk-adaptive RL control of dynamic reconfigurable battery system under sensor loss with hardware experiments"
+ },
+ {
+  "id": "148659",
+  "tier": "out",
+  "sub": null,
+  "reason": "Counterfactual reasoning analysis in VLM driving models; language reasoning, not control"
+ },
+ {
+  "id": "153206",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic random search optimization rates"
+ },
+ {
+  "id": "148507",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Ergodic coverage trajectory design for UAVs with acceleration/energy constraints and provable coverage bounds"
+ },
+ {
+  "id": "155752",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-situ configuration of photonic symplectic circuits; physical learning hardware, not dynamical control"
+ },
+ {
+  "id": "153909",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe RL cost estimation under massively parallel short rollouts on Safety Gym; constrained RL"
+ },
+ {
+  "id": "150907",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Stochastic JEPA world model with CEM planning under partial observability"
+ },
+ {
+  "id": "152782",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence analysis of surrogate-gradient SNN training"
+ },
+ {
+  "id": "152870",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic layer routing for VLA driving efficiency; VLA"
+ },
+ {
+  "id": "153594",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-action diffusion policy for robot manipulation; VLA-style policy, no controller contribution"
+ },
+ {
+  "id": "148552",
+  "tier": "out",
+  "sub": null,
+  "reason": "Collaborative RLVR among heterogeneous LLM agents"
+ },
+ {
+  "id": "154843",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence of success conditioning in tabular MDPs; generic RL theory"
+ },
+ {
+  "id": "152880",
+  "tier": "out",
+  "sub": null,
+  "reason": "Predictive VLA with codebook alignment; VLA"
+ },
+ {
+  "id": "149930",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scene dynamics tokens for camera-controlled video generation"
+ },
+ {
+  "id": "152897",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context preference-based RL with transformers; generic RL"
+ },
+ {
+  "id": "152439",
+  "tier": "out",
+  "sub": null,
+  "reason": "Game-theoretic compute allocation among LLM providers"
+ },
+ {
+  "id": "155772",
+  "tier": "out",
+  "sub": null,
+  "reason": "Next-latent prediction objective for transformers; sequence world models without planning/control use"
+ },
+ {
+  "id": "150975",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Nonstochastic online control of shared linear dynamical system by multiple agents with adversarial disturbances and regret bounds"
+ },
+ {
+  "id": "150586",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-agent LLM system for Tamarin protocol verification"
+ },
+ {
+  "id": "154872",
+  "tier": "out",
+  "sub": null,
+  "reason": "Difficulty-adjusted RLVR for LLM reasoning"
+ },
+ {
+  "id": "154277",
+  "tier": "out",
+  "sub": null,
+  "reason": "Wasserstein barycenter computation; optimal transport"
+ },
+ {
+  "id": "155871",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memory design for multimodal LLM agents"
+ },
+ {
+  "id": "151243",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rectified RL for neural combinatorial optimization"
+ },
+ {
+  "id": "152801",
+  "tier": "out",
+  "sub": null,
+  "reason": "Loop-free inverse RL via diffusion policy value recovery; generic IRL on RL benchmarks, not framed as dynamics"
+ },
+ {
+  "id": "155374",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hopfield attention for robust decision transformer on D4RL; generic offline RL"
+ },
+ {
+  "id": "150736",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentiable projection layer for constrained outputs"
+ },
+ {
+  "id": "148204",
+  "tier": "out",
+  "sub": null,
+  "reason": "Policy value sign testing in tabular discounted MDPs; generic RL theory"
+ },
+ {
+  "id": "154008",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Spherical neural operators for Earth atmosphere/ocean dynamics forecasting; surrogate modelling"
+ },
+ {
+  "id": "153752",
+  "tier": "out",
+  "sub": null,
+  "reason": "Observer model of human image quality judgment; observer false friend"
+ },
+ {
+  "id": "154290",
+  "tier": "out",
+  "sub": null,
+  "reason": "Streaming temporal modeling for VLA; VLA"
+ },
+ {
+  "id": "155147",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Object-centric world models with Clifford soft geometric bias for rigid-body and particle dynamics prediction"
+ },
+ {
+  "id": "153239",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Fundamental limits and codebook design for finite-memory optimal control of POMDPs"
+ },
+ {
+  "id": "149972",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Mean-field control on sparse graphs with dynamic programming principle and locality results"
+ },
+ {
+  "id": "152873",
+  "tier": "out",
+  "sub": null,
+  "reason": "Posted-price design for GPU markets; mechanism design"
+ }
+]

@@ -1,0 +1,386 @@
+[
+{
+"id": "155289",
+"title": "Posterior Sampling-based Online Learning for Episodic POMDPs",
+"abstract": "Learning in POMDPs is known to be significantly harder than in MDPs. In this paper, we consider the online learning problem for episodic POMDPs with unknown transition and observation models. We propose a Posterior Sampling-based reinforcement learning algorithm for POMDPs (PS4POMDP), which is much simpler and more implementable compared to state-of-the-art optimism-based online learning algorithms for POMDPs. We show that the Bayesian regret of the proposed algorithm scales as the square root of the number of episodes and is polynomial in the other parameters. In a general setting, the regret scales exponentially in the horizon length $H$, and we show that this is inevitable by providing a lower bound. However, when the POMDP is undercomplete and weakly revealing (a common assumption in the recent literature), we establish a polynomial Bayesian regret bound. We finally propose a posterior sampling algorithm for multi-agent POMDPs, and show it too has sublinear regret.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Regret bounds for online learning in POMDPs with unknown transition/observation models; partially observed decision making"
+},
+"pass2": {
+"tier": "out",
+"sub": null,
+"reason": "Generic RL regret theory for tabular POMDPs, no physical system"
+}
+},
+{
+"id": "152582",
+"title": "Emergence of Physical Intelligence via Controllable Information Production",
+"abstract": "Intrinsic Motivation (IM) aims to train agents without external rewards, enabling useful behavior to emerge from the agent's interaction with its environment alone. However, the dominant IM approaches rely on information-theoretic quantities with designer-chosen variables, introducing bias and lacking a principled connection to dynamics or optimal control (OC). We introduce Controllable Information Production (CIP), a new foundation for IM explicitly grounded in dynamical systems and OC. CIP measures the rate at which an agent produces information, capturing controllable complexity without external knowledge or bias. CIP unifies IM and OC into a single framework, formalizing physical intelligence as the control of information production. It further reveals connections between the structure of the value function and Kolmogorov–Sinai entropy. CIP consistently outperforms prior IM methods on standard benchmarks in robot learning and solves tasks they fail on, including humanoid self-righting. These results support a general organizing principle: physical intelligence emerges from driving systems toward the edge of controllable chaos.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Intrinsic motivation grounded in dynamical systems and optimal control (KS entropy) for robot control"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Intrinsic motivation reward with OC/dynamical framing; RL on robot benchmarks"
+}
+},
+{
+"id": "149743",
+"title": "StreamPhy: Streaming Inference of High-Dimensional Physical Dynamics via State Space Models",
+"abstract": "Inferring the evolution of high-dimensional and multi-modal (e.g., spatio-temporal) physical fields from irregular sparse measurements in real time is a fundamental challenge in science and engineering. Existing approaches, including diffusion-based generative models and functional tensor methods, typically operate in offline settings, depend on full temporal observations, or incur substantial inference cost. We propose StreamPhy, an end-to-end framework that enables efficient and accurate streaming inference of full-field physical dynamics from incoming irregular sparse measurements. The framework integrates a data-adaptive observation encoder that is robust to arbitrary observation patterns, a structured state-space model that supports memory-efficient online updates across irregular time intervals, and an expressive Functional Tensor Feature-wise Linear Modulation (FT-FiLM) decoder for continuous-field generation. We prove that FT-FiLM is more expressive than the functional Tucker model, admitting a richer function class for handling complex dynamics. Experiments on three representative physical systems under challenging sampling patterns show that StreamPhy consistently outperforms state-of-the-art baselines, with at least 48\\% improvement in accuracy and up to 20--100x faster inference than diffusion-based methods.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Online estimation of full physical fields from sparse streaming measurements; learned data assimilation"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Streaming reconstruction of physical fields from sparse measurements; surrogate modelling"
+}
+},
+{
+"id": "150517",
+"title": "From Likelihood Convergence to Parameter Convergence in POMDPs",
+"abstract": "Likelihood-based methods are widely used to learn the parameters of partially observable Markov decision processes (POMDPs), but their finite-sample behavior is not well understood. We establish a different kind of finite-sample guarantee. For any candidate POMDP parameter, we bound its parameter recovery error in terms of its likelihood gap to the ground truth, the structural conditioning of the observation and transition kernels, and the behavior policy used to collect data. The bound applies in both the undercomplete and overcomplete observation regimes, with the overcomplete case following naturally from the undercomplete analysis. Because the result applies to any sufficiently good candidate, it yields finite-sample guarantees for the maximum-likelihood estimator, OMLE-style algorithms, and any procedure that produces a parameter with controlled likelihood gap. This is particularly useful for downstream tasks such as infinite-horizon planning with state-dependent rewards, where accurate recovery of the kernels themselves is required to obtain near-optimal policies. The bound separates the contribution of the behavior policy from that of the model, making explicit how data-collection choices, including action coverage and mixing rate, accelerate parameter learning.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Finite-sample identification of POMDP transition/observation kernels from data for downstream planning; system identification"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Finite-sample parameter recovery for POMDPs, RL theory framing"
+}
+},
+{
+"id": "152531",
+"title": "Unified Noise Steering for Efficient Human-Guided VLA Adaptation",
+"abstract": "Diffusion-based vision-language-action (VLA) models have emerged as strong priors for robotic manipulation, yet adapting them to real-world distributions remains challenging. In particular, on-robot reinforcement learning (RL) is expensive and time-consuming, so effective adaptation depends on efficient policy improvement within a limited budget of real-world interactions. Noise-space RL lowers the cost by keeping the pretrained VLA fixed as a denoising generator while updating only a lightweight actor that predicts the noise. However, its performance is still limited due to inefficient autonomous exploration. Human corrective interventions can reduce this exploration burden, but they are naturally provided in action space, whereas noise-space finetuning requires supervision over noise variables. To address these challenges, we propose UniSteer, a Unified Noise Steering framework that combines human corrective guidance with noise-space RL through approximate action-to-noise inversion. Given a human corrective action, UniSteer inverts the frozen flow-matching decoder to recover a noise target, which provides supervised guidance for the same noise actor that is simultaneously optimized via reinforcement learning. Real-world experiments on diverse manipulation tasks show that UniSteer adapts more efficiently than strong noise-space RL and action-space human-in-the-loop baselines, improving the success rate from 20\\% to 90\\% in 66 minutes on average across four real-world adaptation tasks.",
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Human-guided noise-space RL finetuning of diffusion VLA policies"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "RL fine-tuning of VLA policy with human corrections; no control structure"
+}
+},
+{
+"id": "155346",
+"title": "LLM-ACES: Closed-Loop Discovery of Dynamic Systems with LLM-Guided Adaptive Search",
+"abstract": "Recovering governing Ordinary Differential Equations (ODEs) from data is a central challenge in modeling dynamical systems across scientific domains. Existing approaches cast discovery as a static inference problem over fixed datasets, implicitly assuming that the observed trajectories are sufficiently informative. However, dynamical systems evolve over large state spaces, and limited data can often fit multiple distinct equations that explain the observations equally well, leading to identifiability gaps and incorrect recovery of the true dynamics. We introduce LLM-ACES or LLM-guided Active Closed-loop Equation Search, a closed-loop framework that jointly optimizes data acquisition and hypothesis generation under a constrained simulation budget. LLM-ACES leverages LLMs to construct structured, domain-informed hypothesis spaces via a two-stage process: high-level prior induction followed by candidate equation generation within each prior. To resolve ambiguity among competing hypotheses, we introduce an active data selection strategy that identifies regions of maximal predictive divergence among candidate equations and queries the system to obtain informative trajectories. This induces a feedback loop in which hypotheses guide data acquisition and newly acquired data refine the hypothesis space. Experiments demonstrate that LLM-ACES achieves more accurate equation recovery than prior state-of-the-art methods. Our ablations and analyses highlight the importance of coupling hypothesis construction with feedback-driven data acquisition for reliable discovery of dynamical systems.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Closed-loop active ODE equation discovery with LLM-generated hypotheses; system reconstruction"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Closed-loop ODE equation discovery with active data acquisition"
+}
+},
+{
+"id": "155791",
+"title": "SLiDE: Structured Linear Dynamics for Forecasting with Exogenous Inputs",
+"abstract": "Accurate time series forecasting with exogenous inputs is critical across domains, including energy and retail, yet modern deep learning models often overfit to correlations that do not generalize under shifts in these inputs. We propose SLiDE, a Koopman-inspired architecture for forecasting with exogenous inputs that imposes structure on latent temporal dynamics. SLiDE approximates nonlinear system evolution using a learned linear operator in a latent space, combining (i) a history encoder that reconstructs the current latent state from past targets and inputs with (ii) a shared linear rollout driven by future exogenous variables. By enforcing a common linear recurrence across encoding and prediction, SLiDE aligns how past information is encoded with how future states evolve, reducing parameterization and preventing reliance on spurious correlations in the input history. Empirically, SLiDE achieves state-of-the-art accuracy on real-world benchmarks, including electricity price forecasting and retail demand, while maintaining a computational footprint comparable to lightweight MLP architectures. SLiDE is especially effective at generalizing to shifted exogenous inputs, reducing MSE by 20% on electricity price samples with out-of-range exogenous values and MAE by 30% in a synthetic transfer setting where the same dynamical system is driven by an unseen exogenous process. Ablations confirm the importance of both the structured history encoder and the linear latent rollout, suggesting that structured latent linear dynamics provide a useful inductive bias for forecasting with exogenous inputs.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Koopman-inspired latent linear dynamics with exogenous inputs for forecasting; dynamics-framed time series"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Koopman-inspired latent linear dynamics with exogenous inputs"
+}
+},
+{
+"id": "153606",
+"title": "AeroChem: Closed-loop Physics-Informed State Space Modeling for Long-term Chemically-Reactive Air Quality Forecasting",
+"abstract": "Accurate long-term air quality forecasting is challenging due to long-range transport, meteorological variability, and nonlinear chemical reactions underlying secondary pollutant formation. Purely data-driven models often suffer from long-horizon drift and lack physical consistency, while existing physics-informed approaches commonly follow open-loop designs that fuse neural and physical components only at the output level. We propose AeroChem, a closed-loop physics-informed state space framework for chemically reactive air quality forecasting. AeroChem adopts a two-branch co-correction design: a UDE-based process branch provides a structured but imperfect physical prior, while a Mamba-based virtual measurement branch captures long-range temporal context and produces probabilistic virtual observations. Neural Kalman Fusion couples the two branches by correcting the latent physical state at each forecasting step and feeding the posterior state back into the simulator, reducing long-horizon drift. We further introduce HanoiAir, a real-world dataset integrating pollutant concentrations, meteorology, and emission inventories. Experiments on HanoiAir and a public benchmark show that AeroChem improves long-horizon stability and sudden-change forecasting.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Neural Kalman fusion corrects latent physical state of UDE simulator each step; learned data assimilation"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Physics-informed UDE/SSM forecasting of air quality with Kalman fusion"
+}
+},
+{
+"id": "149859",
+"title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
+"abstract": "Recent advances in vision--language--action and diffusion-based robot policies have largely come from training-side gains, but reliable deployment also depends on how predicted actions are executed. Under action chunking, each query predicts a sequence of future actions, and the robot executes an open-loop prefix before re-querying. The length of this prefix, the execution horizon, is a critical inference-time variable that trades off feedback frequency against motion continuity. Since fixed horizons exhibit strongly task-dependent and non-monotonic effects on success, no single constant horizon provides a reliable cross-task deployment rule. We propose PACE (Phase-Aware Chunk Execution), a training-free test-time execution method that selects the execution horizon online from the predicted chunk itself. PACE exploits the phase-dependent kinematic structure of manipulation trajectories, using prominent low-speed valleys in the predicted speed profile as candidate replanning points. On the 50-task RoboTwin2.0 benchmark, PACE improves the average success rate from 57.8\\% to 64.2\\% over the strongest fixed-horizon baseline, without task-specific fixed-horizon tuning. In real-robot experiments, PACE improves the average task score from 60.7 to 77.7 and the average success rate from 50.7\\% to 70.4\\%.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Online selection of open-loop execution horizon for robot action chunks from kinematic speed profiles; feedback-timing controller"
+},
+"pass2": {
+"tier": "out",
+"sub": null,
+"reason": "VLA action-chunk execution heuristic; no controller or dynamics contribution"
+}
+},
+{
+"id": "153171",
+"title": "Reconciling Operational Energy Trilemma: A Heterogeneous Risk-Constrained MDP Framework with Residual Policy Learning",
+"abstract": "Deep decarbonization is transforming power grids into safety-critical, low-carbon cyber-physical systems, where AI controllers must jointly manage economic efficiency, carbon reduction, and operational security. This operational energy trilemma is challenging for reinforcement learning: cost and carbon objectives are naturally optimized in expectation, whereas security violations are rare, heavy-tailed events whose consequences can be catastrophic and therefore require explicit tail-risk control. Existing safe reinforcement learning methods either constrain safety only in expectation or rely on light-tailed approximations, which can underestimate rare but severe grid violations. We propose a heterogeneous risk-constrained reinforcement learning framework for low-carbon grid operation. The key idea is to assign different risk semantics to different objectives: safety-critical security constraints are enforced through Conditional Value-at-Risk (CVaR), while economic and carbon-related objectives are optimized in expectation to preserve operational flexibility. To better capture extreme scenarios, a mixture distribution model is introduced to characterize heavy-tailed constraint violations. We further develop a residual policy learning scheme built on a distributionally robust chance-constrained reference module: the robust module provides a feasible and economically efficient baseline policy, and the learned residual refines it toward lower-carbon operation while respecting tail-risk bounds. Experiments on power-system operation tasks show that the proposed framework reduces economic cost by over 25% compared with expectation-based CMDP baselines and improves safety by two orders of magnitude over Gaussian-tail methods. These results suggest that risk-aware reinforcement learning can support reliable decarbonization by reconciling efficiency, sustainability, and security within a unified decision-making framework.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "CVaR risk-constrained RL for power-grid operation; contribution is safe-RL framework, not control theory."
+},
+"pass2": {
+"tier": "core",
+"sub": "LC",
+"reason": "Risk-constrained RL control of power grid operation"
+}
+},
+{
+"id": "155316",
+"title": "Sparsely-Supervised Data Assimilation via Physics-Informed Schrödinger Bridge",
+"abstract": "Data assimilation (DA) for systems governed by partial differential equations (PDE) aims to reconstruct full spatiotemporal fields from sparse high-fidelity (HF) observations while respecting physical constraints. While full-grid low-fidelity (LF) simulations provide informative priors in multi-fidelity settings, recovering an HF field consistent with both sparse observations and the governing PDE typically requires per-instance test-time optimization, which becomes a major bottleneck in time-critical applications. To alleviate this, amortized reconstruction using generative models has recently been proposed; however, such approaches rely on full-field HF supervision during training, which is often impractical in real-world settings. From a more realistic perspective, we propose the Physics-Informed Conditional Schrödinger Bridge (PICSB), which transports an informative LF prior toward an auxiliary-energy-defined, observation-conditioned HF endpoint law without any additional inference-time guidance. To enable learning without HF endpoints, PICSB employs an iterative surrogate-endpoint refresh scheme, and directly incorporates PDE residuals into the training objective while enforcing observations via hard conditioning throughout sampling. Experiments on fluid PDE benchmarks demonstrate that PICSB enables extremely fast spatiotemporal field reconstruction while achieving strong accuracy under sparse HF supervision.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Physics-informed conditional Schrödinger bridge reconstructing PDE fields from sparse observations; generative surrogate reconstruction"
+},
+"pass2": {
+"tier": "core",
+"sub": "ES",
+"reason": "Data assimilation reconstructing PDE fields from sparse observations"
+}
+},
+{
+"id": "153061",
+"title": "Partially Performative Prediction",
+"abstract": "Performative prediction studies feedback loops that arise when predictive models are deployed in consequential domains. In these settings, model updates can shape the population whose patterns they aim to predict, inducing a distribution shift that is endogenous to the learning system. This perspective departs from classical treatments of distribution shift, where shifts are typically modeled as exogenous changes in the data-generating process. Yet, in practice, distribution shift is rarely one or the other. Predictive models may influence future data through the decisions they support, while the world itself continues to drift for reasons beyond the learner’s control. We study partially performative prediction, a framework that captures both endogenous and exogenous sources of distribution shift. The framework generalizes performative prediction by allowing the data distribution to evolve both in response to the deployed model and according to an external, time-varying process. We extend the central notions of performative stability and performative optimality to this setting by defining online analogues that measure performance relative to the evolving partially performative environment. We analyze practical learning heuristics, including repeated retraining, and characterize when they successfully adapt to partially performative environments.",
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Partially performative prediction under endogenous and exogenous distribution shift"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Performative prediction with feedback loops and drifting environment"
+}
+},
+{
+"id": "153828",
+"title": "Observable Neural ODEs for Identifiable Causal Forecasting in Continuous Time",
+"abstract": "Causal inference in continuous-time sequential decision problems is challenged by hidden confounders. We show that, in latent state-space models with time-varying interventions, observability of the latent dynamics from observed data is necessary for identifying dynamic treatment effects, linking control-theoretic observability to causal identifiability, even when hidden confounders affect both treatments and outcomes. We derive a continuous-time adjustment formula expressing potential outcome dis- tributions under treatment trajectories via the measurement model, latent dynamics, and the filtering distribution over latent states given observed histories. We propose Observable Neural ODEs (ObsNODEs), Neural ODE models in ob- servable normal form for causal forecasting. ObsNODEs learn continuous-time dynamics with states reconstructible from observations, enabling outcome predic- tion under alternative treatment paths. Experiments on synthetic cancer data, semi-synthetic data based on MIMIC-IV, and real-world sepsis data show strong performance over recent sequence models.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Observability of latent state-space dynamics proven necessary for identifiability; Neural ODEs in observable normal form"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Neural ODE causal forecasting linking observability to identifiability"
+}
+},
+{
+"id": "151682",
+"title": "Compositional Training-Free Diffusion Planning for Long-Horizon Multiple Reach-Avoid Tasks",
+"abstract": "Long-horizon robotic planning often requires satisfying temporally ordered safety and visitation constraints rather than a single goal condition. We study multiple reach-avoid (MRA) tasks, in which a robot must sequentially visit target regions while remaining within corresponding safe sets. Existing approaches either rely on explicit system models or use data-driven planners whose test-time conditioning mechanisms do not scale well to long-horizon temporally structured tasks. We propose a training-free compositional diffusion planning framework for MRA tasks that operates directly on a pre-trained task-agnostic diffusion trajectory prior at test time, without requiring a known dynamics model. Our approach decomposes a global MRA specification into local reach-avoid sub-tasks, composes overlapping short-horizon diffusion priors into a long-horizon generative process through a factor-graph perspective, and enforces each local requirement through projection-based denoising during sampling. The same construction also extends naturally to prefix-suffix tasks through a looped compositional graph. We provide a formal correctness guarantee showing that the stitched trajectory satisfies the target specification. Experiments on long-horizon constrained planning benchmarks show strong execution success, substantially lower planning time than representative guidance-based baselines, and effective transfer to richer dynamics.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Training-free compositional diffusion planning for sequential reach-avoid tasks with formal satisfaction guarantee"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Diffusion planning for reach-avoid tasks without dynamics model"
+}
+},
+{
+"id": "149190",
+"title": "CIG: Exploration via Conditional Information Gain",
+"abstract": "Intrinsic rewards for exploration in reinforcement learning condition on different contexts: lifelong rewards score each transition against accumulated experience but ignore within-rollout redundancy; episodic rewards penalize intra-trajectory repetition but discard lifetime progress. Hybrid methods combine both signals through heuristic weights or require Gaussian-process dynamics that do not scale beyond low-dimensional state spaces. Trajectory-level information gain decomposes into per-step terms that condition on the replay buffer and rollout prefix simultaneously, but remains intractable for deep models. We derive the Conditional Information Gain (CIG) reward as a tractable surrogate: a log-determinant objective over an ensemble disagreement kernel whose Cholesky factorization yields causal per-step rewards that retain both conditioning sets while scaling to high-dimensional state spaces. We instantiate CIG in a model-based setting, where rollouts are short and within-rollout corrections remain largely unexplored. Across twelve tasks spanning discrete (MiniGrid) and continuous control (OGBench), in both clean and stochastic-distractor settings, CIG outperforms or matches prior exploration methods while remaining robust to stochastic distractors.",
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Information-gain intrinsic reward for RL exploration; generic exploration method"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Model-based RL exploration intrinsic reward"
+}
+},
+{
+"id": "148189",
+"title": "Markovian Dynamics Enforcer: Feasibility Preserving Correction on Learned Dyanmics Manifolds",
+"abstract": "Neural trajectory predictors are increasingly used in physical-system pipelines for reconstruction, simulation, forecasting, and downstream analysis. In these settings, low prediction error alone is insufficient. A trajectory may remain statistically plausible while violating dynamics, actuator limits, or state constraints, making it unreliable for physical interpretation or control-aware reasoning. This problem is especially difficult when controls are unobserved and the available dynamics model is only partially specified. We introduce the Markovian Dynamics Enforcer (MaDE), a framework for post-hoc feasibility enforcement under learned controlled dynamics. MaDE acts as a time-invariant correction operator that maps state-transition proposals onto a learned feasible dynamics manifold. For each transition, it infers latent controls through inverse dynamics, recomputes state evolution using a known-physics model augmented with a learned residual, and corrects controls through gradient-based inequality reduction while re-integrating the dynamics after each correction step. MaDE is trained from feasible state observations without ground-truth controls and is designed to operate as a frozen downstream layer for arbitrary trajectory predictors. We evaluate MaDE on simulated controlled systems spanning fully specified and underspecified dynamics, with deterministic bound-violation and Gaussian observation-noise stress tests. MaDE is the only method that drives known-, learned-, and true-dynamics residuals to essentially zero across the fully specified systems. In the underspecified dynamic-bicycle setting, it reduces true-dynamics residual from 1.40--2.90 for the baselines to 0.33, while reducing trajectory fidelity error by more than 60% relative to the next-best method. These results show that MaDE enforces model-relative physical feasibility while preserving proximity to the original trajectory.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Inverse-dynamics control inference and physics+residual model enforcing actuator/state feasibility"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Post-hoc dynamic feasibility correction for trajectory predictors"
+}
+},
+{
+"id": "150165",
+"title": "Simulation-Informed Diffusion for Decentralized Multi-robot Motion Planning",
+"abstract": "Decentralized multi-robot motion planning requires each robot to generate collision-free trajectories from local observations, without global sensing or reliable communication. However, most existing planners, whether classical or learning-based, generate trajectories from a static snapshot of the local observation, which limits their ability to anticipate the future behavior of neighboring robots. This limitation is critical as the number of robots increases and the environment becomes more cluttered. To overcome this challenge, this paper introduces Simulation-Informed Diffusion (SID), a decentralized framework built on constraint-aware diffusion models (CADM). SID first uses CADM to simulate the future trajectories of neighboring robots from their currently observed states, and then uses the same CADM to plan each robot's own trajectory under safety constraints informed by these simulations. Crucially, the accurate simulation of neighbors enables a minimal communication scheme that triggers coordination only when necessary in highly congested scenarios. Experiments across diverse environments show that SID consistently outperforms baseline methods in terms of planning effectiveness and constraint satisfaction, and scales to scenarios with 100 robots and 160 obstacles.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Decentralized multi-robot motion planner generating collision-free trajectories under safety constraints via constraint-aware diffusion."
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Decentralized multi-robot diffusion motion planning"
+}
+},
+{
+"id": "152598",
+"title": "InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction",
+"abstract": "Text- and goal-conditioned human-object interaction (HOI) provides an intuitive interface for specifying high-level intents in controllable character animation and embodied AI. Mapping such intents to physically plausible, contact-rich behaviors naturally requires hierarchical planning and control, yet existing planner-controller systems remain largely open-loop and lack adaptation to physical execution feedback. To address this, we present InfCoiL, a closed-loop framework for physics-based HOI from coordinated planner-controller learning. InfCoiL integrates a morphology-aware flow-matching planner with a unified multi-morphology controller in an autoregressive plan-and-execute loop, enabling diverse, controllable, and executable interactions across diverse objects and morphologies of humanoid embodiments. To further mitigate planner-controller distribution shift, we alternatively fine-tune both components under closed-loop reinforcement learning. Particularly, we introduce Semantic Flow-GRPO, which optimizes the flow-matching HOI planner with semantic covariance over heterogeneous HOI features and group-relative rewards from physical rollouts, while training the controller for reliable execution under contact-rich dynamics. Extensive experiments demonstrate that InfCoiL achieves state-of-the-art performance in both motion quality and task success. The code will be released upon acceptance.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Closed-loop planner-controller learning for physics-based humanoid interaction under contact dynamics; control structure central"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Planner-controller RL for physics-based character HOI; generic policy learning, no dynamics-aware control structure"
+}
+},
+{
+"id": "150133",
+"title": "PhySPRING: Structure-Preserving Reduction of Physics-Informed Digital Twins via Graph Neural Networks",
+"abstract": "Physics-based digital twins aim to predict the dynamics of real-world objects under interaction, enabling real-to-sim-to-real applications in robotics. Current approaches reconstruct such twins as explicit physical models (such as spring-mass systems) to predict the dynamics, but the resulting models often inherit the resolution of the visual reconstruction rather than being reduced to the physical complexity required to reproduce task-relevant dynamics. This mismatch introduces redundant topology, making repeated forward-dynamics rollouts unnecessarily expensive. To address this challenge, we present PhySPRING, an fully differentiable GNN-based method to reduce complexity in spring--mass digital twins. PhySPRING jointly learns a hierarchy of coarsened graph topologies and their mechanical parameters from observations. At each reduction level, PhySPRING merges nodes with similar learned dynamic responses to optimize the topology, while maintaining every reduced layer as an explicit spring--mass system. On the PhysTwin benchmark, PhySPRING improves dense reconstruction and prediction accuracy over PhysTwin, while reduced models retain stable physical and visual fidelity with up to a 2.30$\\times$ speed-up. We further demonstrate the effectiveness of PhySPRING in a Real2Sim robot policy-evaluation pipeline, where the reduced models are substituted zero-shot into ACT and $\\pi_0$ evaluations, maintaining comparable manipulation success rates across downsampling levels while improving action-sampling effectiveness. Together, PhySPRING enables efficient and structure-preserving spring--mass reduction without sacrificing fidelity or robotic utility.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "GNN reduction of spring-mass digital twins for simulation and policy evaluation, not control"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Learns reduced explicit spring-mass dynamics models and parameters from observations for robot digital twins"
+}
+},
+{
+"id": "148848",
+"title": "TGPO: Temporal Grounded Policy Optimization for Signal Temporal Logic Tasks",
+"abstract": "Learning control policies for complex, long-horizon tasks is a central challenge in autonomous systems. Signal Temporal Logic (STL) offers an expressive language for specifying such tasks, but its non-Markovian nature and inherent sparse reward make it hard for standard Reinforcement Learning (RL) to solve. Prior RL approaches focus only on limited STL fragments or use robustness scores as sparse rewards. Our new method TGPO (Temporal Grounded Policy Optimization) decomposes STL into timed subgoals and invariant constraints and tackles the problem in a hierarchical fashion. Its high-level module proposes time allocations for subgoals, and the low-level time-conditioned policy learns to achieve the sequenced subgoals using a dense, stage-wise reward. In inference, we use the critic to efficiently sample time allocations and select the most promising assignment for the policy to rollout. We evaluate in five environments, from low-dimensional navigation to manipulation, drone, and quadrupedal locomotion, and TGPO significantly outperforms baselines (especially for high-dimensional and long-horizon cases), with 31.6% higher success rate compared to the best method.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Controller synthesis for Signal Temporal Logic specifications on drones and quadrupeds via hierarchical timed-subgoal RL."
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Hierarchical RL for Signal Temporal Logic tasks; generic policy learning without dynamics structure"
+}
+},
+{
+"id": "153994",
+"title": "Inferring Computational Structure from Neural Recordings with Gain-Modulated Linear Dynamical Systems",
+"abstract": "Latent dynamical models can accurately fit neural population activity, yet accurate activity fitting alone does not guarantee mechanistic validity. Using synthetic benchmarks, we show that even well-fitted low-rank RNNs can yield misleading circuit interpretations when the prescribed activation function deviates from the ground-truth one. To address this limitation, we introduce gain-modulated linear dynamical systems (gmLDS), which decompose latent dynamics into a state-dependent, unit-wise gain and a static low-rank connectivity matrix, allowing the model to adapt to diverse nonlinear responses without assuming a fixed activation function. Across multiple synthetic benchmarks, gmLDS accurately recovers the local effective connectivity of the underlying model, thereby reconstructing the linearized dynamics along neural trajectories. Applied to neural recordings from perceptual and context-dependent decision-making tasks, gmLDS yields interpretable hypotheses about dynamical structure, including attractor structure in perceptual decision-making and context-dependent selection mechanisms. Together, these results support gmLDS as an effective approach for inferring computational structure from neural recordings.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Latent linear dynamical systems identified from neural recordings for mechanism, not control"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Gain-modulated linear dynamical systems identified from neural recordings, recovering linearized dynamics"
+}
+},
+{
+"id": "155395",
+"title": "Time series analysis with Gumbel dynamics",
+"abstract": "Switching dynamical systems can model complicated time series data while maintaining interpretability by inferring a finite set of dynamics primitives and explaining different portions of the observed time series with one of these primitives. However, due to the discrete nature of this set, such models struggle to capture smooth, variable-speed transitions, as well as stochastic mixtures of overlapping states (e.g., non-instantaneous state transitions), and the inferred dynamics often display spurious rapid switching on real-world datasets. Here, we propose the Gumbel Dynamical Model (GDM). First, by introducing a continuous relaxation of discrete states and a different noise model defined on the relaxed-discrete state space via the Gumbel distribution, GDM expands the set of available state dynamics, allowing the model to approximate smoother and non-stationary ground-truth dynamics more faithfully. Breaking from established literature, this new class directly links states to observations and does not blur latent dynamics with Gaussian noise. Second, the relaxation makes the model fully differentiable, enabling fast and scalable training with standard gradient descent methods. We validate our approach on standard simulation datasets and highlight its ability to model soft, sticky states and transitions in a stochastic setting. Furthermore, we apply our model to two real-world datasets, demonstrating its ability to infer interpretable states in stochastic time series with multiple dynamics, a setting where traditional methods often fail.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Switching dynamical system model with Gumbel relaxation for time-series reconstruction"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Switching dynamical system model with Gumbel relaxation identified from time series"
+}
+},
+{
+"id": "153665",
+"title": "Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting",
+"abstract": "Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, while modern generative methods such as diffusion and flow matching achieve flexibility at the cost of iterative and computationally expensive sampling. We introduce the Koopman Generative Operator (KGO), a probabilistic forecasting method that conceptualizes prediction as the evolution of structured uncertainty. KGO integrates three core components: (1) Koopman Patch Embedding (KoPE) for temporally consistent latent trajectory extrapolation; (2) Koopman Flow Matching (KoFM), which enables fast, single-step generation through a closed-form matrix exponential in a Koopman latent space, bypassing iterative sampling; and (3) an Adaptive Uncertainty Gate (AUG), which provides calibrated predictions by adapting uncertainty per-variable and per-horizon, corresponding to a learned decomposition of aleatoric uncertainty without manual tuning. By unifying these components, KGO achieves state-of-the-art accuracy across the majority of ProbTS datasets, outperforming existing methods on 12/17 benchmarks in CRPS and 11/17 in NMAE. Further, by eliminating iterative sampling, KGO delivers at least a 25$\\times$ reduction in inference time compared to iterative generative models. These results establish KGO as a practical, principled, and highly scalable framework for next-generation probabilistic forecasting.",
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Koopman latent operator with flow matching for probabilistic forecasting; Koopman for forecasting"
+},
+"pass2": {
+"tier": "core",
+"sub": "ID",
+"reason": "Koopman latent operator with matrix-exponential evolution for forecasting; Koopman methods are ID"
+}
+},
+{
+"id": "152634",
+"title": "Learning Generalizable Hand-Object Tracking Control without Human Demonstrations",
+"abstract": "We present a system for learning generalizable hand-object tracking controllers purely from synthetic data, without requiring any human demonstrations. Our approach makes two key contributions: (1) HOP, a Hand-Object Planner, which can synthesize diverse hand-object trajectories; and (2) HOT, a Hand-Object Tracker that bridges synthetic-to-physical transfer through reinforcement learning and interaction imitation learning, delivering a generalizable controller conditioned on target hand-object states. Our method extends to diverse object shapes and hand morphologies. Through extensive evaluations, we show that our approach enables dexterous hands to track challenging, long-horizon sequences including object re-arrangement and agile in-hand reorientation. These results represent a significant step toward scalable foundation controllers for manipulation that can learn entirely from synthetic data, breaking the data bottleneck that has long constrained progress in dexterous manipulation.",
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Hand-object tracking controller for dexterous manipulation with sim-to-physical transfer"
+},
+"pass2": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "RL/imitation tracking controller for dexterous manipulation; generic policy learning without dynamics structure"
+}
+}
+]

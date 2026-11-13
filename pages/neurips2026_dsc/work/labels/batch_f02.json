@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155872",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154518",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151346",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150875",
+  "tier": "out",
+  "sub": null,
+  "reason": "Analysis of contrastive embedding norms; no dynamical-systems or control contribution."
+ },
+ {
+  "id": "148326",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151970",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Directed connectivity inference from neural recordings via forecasting; dynamical-system analysis, no control."
+ },
+ {
+  "id": "148494",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152553",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150427",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mamba-style SSM sequence architecture for language modeling (false friend)."
+ },
+ {
+  "id": "154751",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154031",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149764",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148427",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151234",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152183",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154184",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148983",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154525",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148287",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151184",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150202",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154169",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155323",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153543",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150644",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153153",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150389",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153717",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151402",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151929",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155457",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153423",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153149",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153047",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152144",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152608",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150612",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151775",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150872",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154863",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward-guided diffusion sampling for image inverse problems; not control of a system."
+ },
+ {
+  "id": "149519",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151610",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155604",
+  "tier": "out",
+  "sub": null,
+  "reason": "Performative prediction retraining with selective labels; no dynamical system control."
+ },
+ {
+  "id": "150220",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151873",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153477",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151810",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150995",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Learned surrogate of fermentation dynamics for prediction, not control."
+ },
+ {
+  "id": "152342",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155896",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152282",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151770",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151554",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152876",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149544",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148933",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Black-box weather emulation scaling study; forecasting a physical dynamical system."
+ },
+ {
+  "id": "150087",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152027",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149417",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150676",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150590",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155204",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151326",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion guidance schedule analysis; sampling trajectories false friend."
+ },
+ {
+  "id": "152490",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154833",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150369",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151283",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152591",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150054",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155983",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151210",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154153",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153746",
+  "tier": "out",
+  "sub": null,
+  "reason": "Best arm identification with adversarial mean shifts; no system dynamics."
+ },
+ {
+  "id": "151806",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153194",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150298",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152460",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152622",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155313",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151641",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ }
+]

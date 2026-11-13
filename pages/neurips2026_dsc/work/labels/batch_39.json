@@ -1,0 +1,482 @@
+[
+ {
+  "id": "148596",
+  "tier": "out",
+  "sub": null,
+  "reason": "SAM decoder prompt failure repair; segmentation"
+ },
+ {
+  "id": "149368",
+  "tier": "out",
+  "sub": null,
+  "reason": "quantization of MoE models with routing consistency"
+ },
+ {
+  "id": "149316",
+  "tier": "out",
+  "sub": null,
+  "reason": "Wasserstein-GAN causal distribution learning"
+ },
+ {
+  "id": "152499",
+  "tier": "out",
+  "sub": null,
+  "reason": "driving VLA trajectory prediction; 'inverse kinematics' is a framing, no controller or dynamics contribution"
+ },
+ {
+  "id": "153654",
+  "tier": "out",
+  "sub": null,
+  "reason": "bandit scheduler for edge LLM fine-tuning"
+ },
+ {
+  "id": "150511",
+  "tier": "out",
+  "sub": null,
+  "reason": "curse of ambiguity in LLM next-token distributions"
+ },
+ {
+  "id": "151576",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent ethics under market simulation"
+ },
+ {
+  "id": "149178",
+  "tier": "out",
+  "sub": null,
+  "reason": "AI governance value coverage audit"
+ },
+ {
+  "id": "151719",
+  "tier": "out",
+  "sub": null,
+  "reason": "early failure detection in video diffusion sampling"
+ },
+ {
+  "id": "154219",
+  "tier": "out",
+  "sub": null,
+  "reason": "logic-invariant LLM reasoning"
+ },
+ {
+  "id": "153290",
+  "tier": "out",
+  "sub": null,
+  "reason": "terminal agent observation compression; LLM agents"
+ },
+ {
+  "id": "151613",
+  "tier": "out",
+  "sub": null,
+  "reason": "bandit-based expert skipping for MoE-MLLMs"
+ },
+ {
+  "id": "151585",
+  "tier": "out",
+  "sub": null,
+  "reason": "data selection for reward models and preference optimization"
+ },
+ {
+  "id": "155383",
+  "tier": "out",
+  "sub": null,
+  "reason": "sparse repair in LLM reasoning traces"
+ },
+ {
+  "id": "151738",
+  "tier": "out",
+  "sub": null,
+  "reason": "linear probe vs linear representation diagnostics"
+ },
+ {
+  "id": "149371",
+  "tier": "out",
+  "sub": null,
+  "reason": "precision-aware Hopfield retrieval; associative memory decoding, not control"
+ },
+ {
+  "id": "152526",
+  "tier": "out",
+  "sub": null,
+  "reason": "graph-based hallucination detection for KBQA"
+ },
+ {
+  "id": "153974",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaussian lookup tables for color transformation"
+ },
+ {
+  "id": "152110",
+  "tier": "out",
+  "sub": null,
+  "reason": "faster half-trek criterion algorithm for linear SCMs"
+ },
+ {
+  "id": "153329",
+  "tier": "out",
+  "sub": null,
+  "reason": "cost-efficient fairness audit under partial feedback"
+ },
+ {
+  "id": "150859",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-source prompt adaptation for open-vocabulary learning"
+ },
+ {
+  "id": "150971",
+  "tier": "out",
+  "sub": null,
+  "reason": "reference-guided flow matching; controllable generation false friend"
+ },
+ {
+  "id": "154063",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D anomaly detection with vision-language model"
+ },
+ {
+  "id": "155781",
+  "tier": "out",
+  "sub": null,
+  "reason": "4-bit quantization of diffusion transformers"
+ },
+ {
+  "id": "155965",
+  "tier": "out",
+  "sub": null,
+  "reason": "structure-function alignment in brain networks; static connectivity"
+ },
+ {
+  "id": "155568",
+  "tier": "out",
+  "sub": null,
+  "reason": "multilingual software-engineering agent data"
+ },
+ {
+  "id": "155329",
+  "tier": "out",
+  "sub": null,
+  "reason": "procedural reconstruction of buildings from images"
+ },
+ {
+  "id": "153922",
+  "tier": "out",
+  "sub": null,
+  "reason": "expanded hyper-connections for transformers"
+ },
+ {
+  "id": "152263",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent confidence via trajectory restructuring; agent traces"
+ },
+ {
+  "id": "155950",
+  "tier": "out",
+  "sub": null,
+  "reason": "conditional-access image watermarking"
+ },
+ {
+  "id": "152785",
+  "tier": "out",
+  "sub": null,
+  "reason": "pruning LLM agents under structured generation"
+ },
+ {
+  "id": "152809",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-exposure synthesis for image enhancement"
+ },
+ {
+  "id": "154446",
+  "tier": "out",
+  "sub": null,
+  "reason": "mechanistic analysis of LoRA layer sparsity"
+ },
+ {
+  "id": "151486",
+  "tier": "out",
+  "sub": null,
+  "reason": "dependency-guided parallel decoding in diffusion LLMs"
+ },
+ {
+  "id": "153452",
+  "tier": "out",
+  "sub": null,
+  "reason": "profiling for LLM inference simulation; systems"
+ },
+ {
+  "id": "150280",
+  "tier": "out",
+  "sub": null,
+  "reason": "boundary-respecting convolutions for packed sequences"
+ },
+ {
+  "id": "154495",
+  "tier": "out",
+  "sub": null,
+  "reason": "monoculture robust PAC learning"
+ },
+ {
+  "id": "148437",
+  "tier": "out",
+  "sub": null,
+  "reason": "evaluation awareness in language models"
+ },
+ {
+  "id": "154246",
+  "tier": "out",
+  "sub": null,
+  "reason": "air quality inference at unmonitored stations; spatiotemporal regression, no dynamical model"
+ },
+ {
+  "id": "152166",
+  "tier": "out",
+  "sub": null,
+  "reason": "ternary speculative decoding"
+ },
+ {
+  "id": "149813",
+  "tier": "out",
+  "sub": null,
+  "reason": "audio watermarking with cryptographic signing"
+ },
+ {
+  "id": "148923",
+  "tier": "out",
+  "sub": null,
+  "reason": "causal discovery via invariance across environments; static SCMs"
+ },
+ {
+  "id": "151919",
+  "tier": "out",
+  "sub": null,
+  "reason": "single-view amodal 3D scene reconstruction"
+ },
+ {
+  "id": "153964",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lean4 formal verification of LLM agent workflows; agent trajectories"
+ },
+ {
+  "id": "150798",
+  "tier": "out",
+  "sub": null,
+  "reason": "function-space analysis of one-step feature learning; statistical learning theory, not dynamical-systems analysis"
+ },
+ {
+  "id": "148148",
+  "tier": "out",
+  "sub": null,
+  "reason": "multimodal face anti-spoofing"
+ },
+ {
+  "id": "153104",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "value-guided policy optimization with recovery trajectories for robot manipulation; policy learning without explicit dynamics or control structure"
+ },
+ {
+  "id": "154145",
+  "tier": "out",
+  "sub": null,
+  "reason": "spatial priors from MLLMs for object detection"
+ },
+ {
+  "id": "153045",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM rubrics for supervised learning representations"
+ },
+ {
+  "id": "154212",
+  "tier": "out",
+  "sub": null,
+  "reason": "context selection for healthcare multi-agent handoff"
+ },
+ {
+  "id": "150717",
+  "tier": "out",
+  "sub": null,
+  "reason": "interpretability of diffusion protein language models"
+ },
+ {
+  "id": "152045",
+  "tier": "out",
+  "sub": null,
+  "reason": "pose-free streaming 3D Gaussian splatting; perception, 'state' is a scene memory"
+ },
+ {
+  "id": "148857",
+  "tier": "out",
+  "sub": null,
+  "reason": "dynamic chunking diffusion transformer"
+ },
+ {
+  "id": "148411",
+  "tier": "out",
+  "sub": null,
+  "reason": "detection of LLM-generated text"
+ },
+ {
+  "id": "148856",
+  "tier": "out",
+  "sub": null,
+  "reason": "normalizing flows for few-step diffusion sampling"
+ },
+ {
+  "id": "149881",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "learned particle-graph dynamics simulator forecasting 3D motion to ground video generation; physics modelling, no control"
+ },
+ {
+  "id": "154026",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-token residual prediction for diffusion LMs"
+ },
+ {
+  "id": "151262",
+  "tier": "out",
+  "sub": null,
+  "reason": "geometric characterization of robust fair learning"
+ },
+ {
+  "id": "154530",
+  "tier": "out",
+  "sub": null,
+  "reason": "4D reconstruction as conditioning for video diffusion; 'geometric control' is controllable generation"
+ },
+ {
+  "id": "148624",
+  "tier": "out",
+  "sub": null,
+  "reason": "active flow expansion for molecule discovery"
+ },
+ {
+  "id": "152676",
+  "tier": "out",
+  "sub": null,
+  "reason": "pre-training data mixtures for LLM RL"
+ },
+ {
+  "id": "155005",
+  "tier": "out",
+  "sub": null,
+  "reason": "end-to-end 3D scene graph generation"
+ },
+ {
+  "id": "151706",
+  "tier": "out",
+  "sub": null,
+  "reason": "progressive architecture conversion of networks"
+ },
+ {
+  "id": "149153",
+  "tier": "out",
+  "sub": null,
+  "reason": "argument graph uncertainty for LLM reasoning"
+ },
+ {
+  "id": "151364",
+  "tier": "out",
+  "sub": null,
+  "reason": "diversity combining analysis of multi-path LLM reasoning"
+ },
+ {
+  "id": "149147",
+  "tier": "out",
+  "sub": null,
+  "reason": "uncertainty attribution in GNNs"
+ },
+ {
+  "id": "149527",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL post-training of LLMs for tabular prediction"
+ },
+ {
+  "id": "153855",
+  "tier": "out",
+  "sub": null,
+  "reason": "masked diffusion for multiuser channel decoding; communications"
+ },
+ {
+  "id": "156014",
+  "tier": "out",
+  "sub": null,
+  "reason": "robust pseudo-labeling for segmentation"
+ },
+ {
+  "id": "152988",
+  "tier": "out",
+  "sub": null,
+  "reason": "ridge logistic probes and activation steering"
+ },
+ {
+  "id": "149402",
+  "tier": "out",
+  "sub": null,
+  "reason": "bivariate causal discovery via quantile surfaces"
+ },
+ {
+  "id": "151405",
+  "tier": "out",
+  "sub": null,
+  "reason": "spectral uncertainty representation for GNNs"
+ },
+ {
+  "id": "150380",
+  "tier": "out",
+  "sub": null,
+  "reason": "unified contrastive and generative visual objectives"
+ },
+ {
+  "id": "148944",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time scaling law perspective on LLM post-training"
+ },
+ {
+  "id": "153249",
+  "tier": "out",
+  "sub": null,
+  "reason": "geometric deep learning on Hilbert bundles"
+ },
+ {
+  "id": "154130",
+  "tier": "out",
+  "sub": null,
+  "reason": "vine copula mutual information estimation"
+ },
+ {
+  "id": "156111",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM multi-agent GPU kernel tuning"
+ },
+ {
+  "id": "151748",
+  "tier": "out",
+  "sub": null,
+  "reason": "mixture of adapters for time series foundation models; generic time series"
+ },
+ {
+  "id": "152418",
+  "tier": "out",
+  "sub": null,
+  "reason": "cross-video difference perception for video MLLMs"
+ },
+ {
+  "id": "154951",
+  "tier": "out",
+  "sub": null,
+  "reason": "semantic masking for expert-guided RLVR"
+ }
+]

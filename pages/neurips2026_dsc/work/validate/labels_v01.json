@@ -1,0 +1,362 @@
+[
+ {
+  "id": "153089",
+  "tier": "out",
+  "sub": null,
+  "reason": "Expert-advice regret bound; online learning, no dynamical system controlled"
+ },
+ {
+  "id": "151561",
+  "tier": "out",
+  "sub": null,
+  "reason": "Delayed online convex optimization regret; no dynamical system"
+ },
+ {
+  "id": "152655",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Derivative-informed training of neural operators for PDE surrogates"
+ },
+ {
+  "id": "148410",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Joint dynamics representation for simulation of articulated objects; modelling not control"
+ },
+ {
+  "id": "149859",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA action-chunk execution heuristic; no controller or dynamics contribution"
+ },
+ {
+  "id": "150920",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Conformal UQ for PDE surrogate models of time-dependent systems"
+ },
+ {
+  "id": "155636",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Control barrier function safety filter with recovery guarantees for planning"
+ },
+ {
+  "id": "150373",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Model-free policy gradient for constrained LQR with convergence guarantees"
+ },
+ {
+  "id": "155458",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Attributing world-model transfer gap for policies; world models in RL"
+ },
+ {
+  "id": "149264",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mamba-style state space sequence model for video/forecasting"
+ },
+ {
+  "id": "154175",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-agent mixed-motive games gifting; generic MARL"
+ },
+ {
+  "id": "154921",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Flow model alignment cast as optimal control; generative sampling not physical"
+ },
+ {
+  "id": "155874",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical-systems theory of echo state networks' reachable states"
+ },
+ {
+  "id": "155974",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Risk-adaptive RL control of reconfigurable battery system under partial observation"
+ },
+ {
+  "id": "150238",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Pre-training neural PDE surrogates"
+ },
+ {
+  "id": "153486",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative model of molecular dynamics trajectories; simulation surrogate"
+ },
+ {
+  "id": "150943",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Correct-by-construction reactive controller synthesis from temporal logic"
+ },
+ {
+  "id": "152554",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic stability for federated learning generalization"
+ },
+ {
+  "id": "150648",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Residual RL for contact-rich manipulation; policy learning, no control structure"
+ },
+ {
+  "id": "153171",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Risk-constrained RL control of power grid operation"
+ },
+ {
+  "id": "149412",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cascading bandits regret; no dynamics"
+ },
+ {
+  "id": "150211",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Recurrent network dynamics realize LMDP navigation planning; neuroscience model"
+ },
+ {
+  "id": "148806",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Optimal LQG control and filter laws under multiplicative and internal noise"
+ },
+ {
+  "id": "155479",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Safe exploration of unknown nonlinear dynamics with future viability guarantees"
+ },
+ {
+  "id": "152058",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Linearized gradient flow stability analysis of JEPA training"
+ },
+ {
+  "id": "155316",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Data assimilation reconstructing PDE fields from sparse observations"
+ },
+ {
+  "id": "155354",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Diffusion simulator of mesh mechanics; prediction only"
+ },
+ {
+  "id": "154804",
+  "tier": "out",
+  "sub": null,
+  "reason": "Backdoor defense for SSL encoders"
+ },
+ {
+  "id": "152141",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman-structured world model used with MPPI control"
+ },
+ {
+  "id": "154447",
+  "tier": "out",
+  "sub": null,
+  "reason": "Entropy regularization in Dec-POMDP games like Hanabi; generic MARL"
+ },
+ {
+  "id": "150634",
+  "tier": "out",
+  "sub": null,
+  "reason": "Schrodinger bridge surrogate convergence for 3D generative priors"
+ },
+ {
+  "id": "150025",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Riemannian ODE analysis of optimizers for LLM pretraining"
+ },
+ {
+  "id": "153453",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural SDE generative model for clinical trajectories"
+ },
+ {
+  "id": "150768",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video super-resolution acceleration"
+ },
+ {
+  "id": "154213",
+  "tier": "out",
+  "sub": null,
+  "reason": "One-bit compressed sensing with diffusion priors"
+ },
+ {
+  "id": "153035",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective RL auctions on Atari/gridworld; generic RL"
+ },
+ {
+  "id": "149166",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tabular stochastic shortest path regret; generic RL theory"
+ },
+ {
+  "id": "151681",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "RNNs as contracting nonlinear observers with estimation guarantees"
+ },
+ {
+  "id": "153920",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Online control of linear dynamical system with multiple sensors, regret"
+ },
+ {
+  "id": "154425",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Active turbulent flow control for drag reduction"
+ },
+ {
+  "id": "153168",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conformal prediction sets sampling via flows"
+ },
+ {
+  "id": "151973",
+  "tier": "out",
+  "sub": null,
+  "reason": "Q-learning stabilization on generic RL benchmarks"
+ },
+ {
+  "id": "148579",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Goal recognition from trajectories via diffusion posterior; inverse planning"
+ },
+ {
+  "id": "152077",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Observability-constrained data assimilation for state reconstruction"
+ },
+ {
+  "id": "150047",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "SDE limit of training dynamics in infinite-depth ResNets"
+ },
+ {
+  "id": "151579",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Learning quantum Hamiltonian from real-time evolution; system identification"
+ },
+ {
+  "id": "150253",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA multi-view fusion robustness; no controller contribution"
+ },
+ {
+  "id": "149586",
+  "tier": "out",
+  "sub": null,
+  "reason": "Efficient neural coding theory; not control or dynamics"
+ },
+ {
+  "id": "148893",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA fine-tuning adaptation"
+ },
+ {
+  "id": "153140",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Koopman analysis of attention stability in architectures"
+ },
+ {
+  "id": "155096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mechanistic interpretability of transformer on Sudoku"
+ },
+ {
+  "id": "155310",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural mechanism design for procurement"
+ },
+ {
+  "id": "153061",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Performative prediction with feedback loops and drifting environment"
+ },
+ {
+  "id": "151410",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust dynamic pricing regret; no dynamical system"
+ },
+ {
+  "id": "152813",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Online adaptation of pretrained controller for HVAC physical control"
+ },
+ {
+  "id": "148289",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "World models trained for VLA policy improvement; model-based RL"
+ },
+ {
+  "id": "153828",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Neural ODE causal forecasting linking observability to identifiability"
+ },
+ {
+  "id": "153720",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Temporal-logic runtime monitoring of autonomous systems with safety calibration"
+ },
+ {
+  "id": "156012",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Differential inclusion analysis of payoff-only learning in games"
+ },
+ {
+  "id": "154586",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Gradient flow dynamics analysis of attention models"
+ }
+]

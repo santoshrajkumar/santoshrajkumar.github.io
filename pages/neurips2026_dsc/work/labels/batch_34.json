@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155674",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D animal reconstruction from images; perception only."
+ },
+ {
+  "id": "155532",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM watermark robustness theory."
+ },
+ {
+  "id": "155029",
+  "tier": "out",
+  "sub": null,
+  "reason": "Speech decoding from neural recordings; sequence model, no dynamics control."
+ },
+ {
+  "id": "152318",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semi-supervised medical image segmentation."
+ },
+ {
+  "id": "148223",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO flow matching for tumor image synthesis; RL for generation."
+ },
+ {
+  "id": "154291",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal discovery benchmark for multimodal LLMs; GRPO post-training."
+ },
+ {
+  "id": "154832",
+  "tier": "out",
+  "sub": null,
+  "reason": "Debugging silent bugs in distributed training systems."
+ },
+ {
+  "id": "150363",
+  "tier": "out",
+  "sub": null,
+  "reason": "MDL sequential prediction theory; no dynamical system."
+ },
+ {
+  "id": "150396",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA failure detection from trajectories; monitoring, no controller contribution."
+ },
+ {
+  "id": "148625",
+  "tier": "out",
+  "sub": null,
+  "reason": "EEG foundation model for clinical representation learning."
+ },
+ {
+  "id": "154959",
+  "tier": "out",
+  "sub": null,
+  "reason": "Off-policy RLVR replay for LLM reasoning."
+ },
+ {
+  "id": "151104",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantization-induced prediction flips analysis."
+ },
+ {
+  "id": "153472",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pairwise AUC optimization theory."
+ },
+ {
+  "id": "148858",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hypernetwork-generated LoRA composition."
+ },
+ {
+  "id": "154718",
+  "tier": "out",
+  "sub": null,
+  "reason": "Domain generalization risk bounds."
+ },
+ {
+  "id": "154510",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust finetuning via implicit ensembling; OOD generalization."
+ },
+ {
+  "id": "152308",
+  "tier": "out",
+  "sub": null,
+  "reason": "Axiomatic social-choice analysis of DPO/NLHF."
+ },
+ {
+  "id": "153420",
+  "tier": "out",
+  "sub": null,
+  "reason": "Monocular surface geometry estimation."
+ },
+ {
+  "id": "153383",
+  "tier": "out",
+  "sub": null,
+  "reason": "Post-training LLM weight quantization."
+ },
+ {
+  "id": "149693",
+  "tier": "out",
+  "sub": null,
+  "reason": "Model merging in embedding space."
+ },
+ {
+  "id": "151924",
+  "tier": "out",
+  "sub": null,
+  "reason": "Graph-based medical image segmentation module."
+ },
+ {
+  "id": "149680",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical optimisation trajectories in diffusion autoencoders; not dynamical analysis."
+ },
+ {
+  "id": "152211",
+  "tier": "out",
+  "sub": null,
+  "reason": "Backdoor defense for federated graph learning."
+ },
+ {
+  "id": "149923",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoder interpretability of diffusion models."
+ },
+ {
+  "id": "154064",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attack on subgraph matching models."
+ },
+ {
+  "id": "148876",
+  "tier": "out",
+  "sub": null,
+  "reason": "SGD with synthetic data in linear regression; model collapse theory."
+ },
+ {
+  "id": "153646",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural posterior estimation variance fix; simulation-based inference."
+ },
+ {
+  "id": "153991",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Temporal causal discovery in nonlinear delayed dynamical systems; no model identification or control."
+ },
+ {
+  "id": "153031",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformer functional data classification minimax theory."
+ },
+ {
+  "id": "151225",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rank-deficient RNN trainability study; empirical, not dynamical-systems analysis or control."
+ },
+ {
+  "id": "153627",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-supervised RL for vision-centric MLLMs."
+ },
+ {
+  "id": "155327",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Exact finite-width signal-energy analysis of linear recurrences; dynamical-systems theory of networks."
+ },
+ {
+  "id": "151925",
+  "tier": "out",
+  "sub": null,
+  "reason": "Concept bottleneck models with VLM annotations."
+ },
+ {
+  "id": "154051",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical structure of Adam moment ratio; optimizer compression."
+ },
+ {
+  "id": "154846",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear mode connectivity and model merging."
+ },
+ {
+  "id": "155533",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memory-write admission for document QA agents; LLM agents."
+ },
+ {
+  "id": "153612",
+  "tier": "out",
+  "sub": null,
+  "reason": "Emergent misalignment persona metrics in LLMs."
+ },
+ {
+  "id": "152691",
+  "tier": "out",
+  "sub": null,
+  "reason": "Approximate Chamfer distance algorithms."
+ },
+ {
+  "id": "150258",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-supervised monocular depth estimation."
+ },
+ {
+  "id": "155046",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transcoder adapters for reasoning-model interpretability."
+ },
+ {
+  "id": "151096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dictionary-based LLM compression."
+ },
+ {
+  "id": "150307",
+  "tier": "out",
+  "sub": null,
+  "reason": "Training-free 2D geometric shape encoding."
+ },
+ {
+  "id": "149206",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time-training sequence model; state transition is a sequence-model update rule."
+ },
+ {
+  "id": "152833",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse multi-source learning with gauge metadata."
+ },
+ {
+  "id": "154606",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gradient-based SAT solvers analysis."
+ },
+ {
+  "id": "154338",
+  "tier": "out",
+  "sub": null,
+  "reason": "Autoregressive multi-shot video generation."
+ },
+ {
+  "id": "153375",
+  "tier": "out",
+  "sub": null,
+  "reason": "Frequency/pixel augmentation for OOD robustness."
+ },
+ {
+  "id": "154613",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM persona inference for social simulation."
+ },
+ {
+  "id": "151172",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multiscale sparse autoencoders for vision interpretability."
+ },
+ {
+  "id": "155410",
+  "tier": "out",
+  "sub": null,
+  "reason": "Covariate selection for causal effect estimation in cyclic causal graphs; not dynamics."
+ },
+ {
+  "id": "151149",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent drift alignment in multi-turn image editing."
+ },
+ {
+  "id": "153250",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral capacity analysis of latent graph models."
+ },
+ {
+  "id": "148960",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Equilibria and steering of coupled model-preference training dynamics; control-theoretic view of learning loop."
+ },
+ {
+  "id": "150948",
+  "tier": "out",
+  "sub": null,
+  "reason": "Density control heuristics in 3D Gaussian splatting."
+ },
+ {
+  "id": "149269",
+  "tier": "out",
+  "sub": null,
+  "reason": "Keyframe diffusion for cardiac video synthesis; generation."
+ },
+ {
+  "id": "152071",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive rollout allocation for LLM test-time training."
+ },
+ {
+  "id": "148166",
+  "tier": "out",
+  "sub": null,
+  "reason": "Constrained discrete diffusion for code generation."
+ },
+ {
+  "id": "152037",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-reward RL for flow-based super-resolution."
+ },
+ {
+  "id": "149356",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse attention for block diffusion LLMs."
+ },
+ {
+  "id": "153550",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generalization error of random feature regression with augmentation."
+ },
+ {
+  "id": "154305",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM knowledge evolution for protein optimization."
+ },
+ {
+  "id": "152189",
+  "tier": "out",
+  "sub": null,
+  "reason": "Knowledge editing in LLMs."
+ },
+ {
+  "id": "155070",
+  "tier": "out",
+  "sub": null,
+  "reason": "Structure-agnostic causal representation learning."
+ },
+ {
+  "id": "153295",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM time-series agent with tool use; not dynamical systems."
+ },
+ {
+  "id": "148812",
+  "tier": "out",
+  "sub": null,
+  "reason": "Structural encodings for GNNs on knowledge graphs."
+ },
+ {
+  "id": "151014",
+  "tier": "out",
+  "sub": null,
+  "reason": "Non-transferable examples for model authorization."
+ },
+ {
+  "id": "148994",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inference-time reward alignment via rejection sampling."
+ },
+ {
+  "id": "155584",
+  "tier": "out",
+  "sub": null,
+  "reason": "Subspace modularity of neural network representations."
+ },
+ {
+  "id": "148374",
+  "tier": "out",
+  "sub": null,
+  "reason": "Router-expert geometry in sparse MoE."
+ },
+ {
+  "id": "148431",
+  "tier": "out",
+  "sub": null,
+  "reason": "Brownian bridge matching for video generation."
+ },
+ {
+  "id": "148975",
+  "tier": "out",
+  "sub": null,
+  "reason": "Proxy benchmarks for LLM agent evaluation."
+ },
+ {
+  "id": "151990",
+  "tier": "out",
+  "sub": null,
+  "reason": "Universal transformer architecture for abstract reasoning."
+ },
+ {
+  "id": "154371",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strategic classification via feature selection and regularization."
+ },
+ {
+  "id": "156124",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO reflective RL for HOI detection."
+ },
+ {
+  "id": "156082",
+  "tier": "out",
+  "sub": null,
+  "reason": "Layer precision reduction for anomaly detection."
+ },
+ {
+  "id": "152504",
+  "tier": "out",
+  "sub": null,
+  "reason": "Manifold diffusion model training via splitting scheme; generative modeling."
+ },
+ {
+  "id": "150544",
+  "tier": "out",
+  "sub": null,
+  "reason": "DPO preference pair curation theory."
+ },
+ {
+  "id": "154844",
+  "tier": "out",
+  "sub": null,
+  "reason": "Branch-structured memory for LLM reasoning agents; trajectories are reasoning traces."
+ },
+ {
+  "id": "149989",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pose-guided text-to-image generation."
+ },
+ {
+  "id": "151575",
+  "tier": "out",
+  "sub": null,
+  "reason": "Graph contrastive learning for heterophilic graphs."
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "153653",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Learned compositional force potentials for physics simulation; modelling only, no control"
+ },
+ {
+  "id": "152079",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA model with latent actions; perception/policy pretraining, no controller contribution"
+ },
+ {
+  "id": "151139",
+  "tier": "out",
+  "sub": null,
+  "reason": "Kalman used as learnable fusion gate in generic time-series forecasting benchmarks"
+ },
+ {
+  "id": "153286",
+  "tier": "out",
+  "sub": null,
+  "reason": "Kalman-style state update for streaming 3D vision reconstruction; vision, not dynamical system"
+ },
+ {
+  "id": "148914",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dueling bandits with human learner; no dynamics"
+ },
+ {
+  "id": "154932",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM terminal agents with GRPO auxiliary loss; world model is language-agent framing"
+ },
+ {
+  "id": "153016",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL fine-tuning of flow-matching generative models; sampling dynamics, not a controlled system"
+ },
+ {
+  "id": "150555",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Closed-form gradient-flow dynamics, conservation law and saddle-to-saddle analysis of transformer training"
+ },
+ {
+  "id": "154248",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Closed-loop gain and spectral stability analysis of in-context learning in dialogue loops; not a physical system"
+ },
+ {
+  "id": "153361",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trajectory means diffusion noise-schedule path; generative image modelling"
+ },
+ {
+  "id": "154498",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Jacobian/interpolation regularization for long-term stability of neural differential equations; modelling, not control"
+ },
+ {
+  "id": "152359",
+  "tier": "out",
+  "sub": null,
+  "reason": "Double-oracle equilibrium computation in zero-sum games; no dynamics"
+ },
+ {
+  "id": "150828",
+  "tier": "out",
+  "sub": null,
+  "reason": "Input-convex network architecture for convex surrogates; no dynamical system"
+ },
+ {
+  "id": "149595",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward machines for RL task decomposition; generic RL"
+ },
+ {
+  "id": "154926",
+  "tier": "out",
+  "sub": null,
+  "reason": "Classification loss function"
+ },
+ {
+  "id": "150333",
+  "tier": "out",
+  "sub": null,
+  "reason": "Audio spoof diarization"
+ },
+ {
+  "id": "150423",
+  "tier": "out",
+  "sub": null,
+  "reason": "Private optimal transport map estimation; OT not framed as control"
+ },
+ {
+  "id": "154485",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM role-playing with RL policy optimization"
+ },
+ {
+  "id": "154767",
+  "tier": "out",
+  "sub": null,
+  "reason": "Random causal DAG evaluation criterion; causal discovery benchmarking, not dynamics"
+ },
+ {
+  "id": "149376",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Differentiable implicit-Euler heat PDE solver for inverse diffusivity reconstruction; physics inverse problem, no control"
+ },
+ {
+  "id": "155593",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Autoregressive learned surrogate of material deformation dynamics; simulation/design, not control"
+ },
+ {
+  "id": "150115",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-informed DeepONet-style operator learning for PDEs"
+ },
+ {
+  "id": "150122",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Filtering-based probabilistic numerical ODE solvers for stiff systems; simulation, not estimation of a system"
+ },
+ {
+  "id": "152411",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lipschitz constant estimation of feedforward networks via SDP; control only mentioned as application"
+ },
+ {
+  "id": "152818",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric video diffusion action transfer; generation, no controller"
+ },
+ {
+  "id": "150690",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic multivariate time-series anomaly detection"
+ },
+ {
+  "id": "150574",
+  "tier": "out",
+  "sub": null,
+  "reason": "State space model means RNN/MCMC/diffusion recurrences; parallel evaluation numerics, not dynamical-system modelling"
+ },
+ {
+  "id": "153493",
+  "tier": "out",
+  "sub": null,
+  "reason": "Matrix completion estimator"
+ },
+ {
+  "id": "151202",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear bandit ensemble sampling; no dynamics"
+ },
+ {
+  "id": "150814",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperparameter transfer for associative memories; training scaling, not dynamical analysis"
+ },
+ {
+  "id": "154080",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Controlled SDE posterior sampler as linearly-solvable stochastic optimal control; sampling, not a physical system"
+ },
+ {
+  "id": "149408",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic stability means generalization; Lyapunov argument is proof tool, not dynamical-system analysis"
+ },
+ {
+  "id": "149487",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive robust-optimization ensemble for generic time-series forecasting benchmarks"
+ },
+ {
+  "id": "151085",
+  "tier": "out",
+  "sub": null,
+  "reason": "Twisted SMC conditional sampling for Schrodinger-bridge image generation; no control formulation"
+ },
+ {
+  "id": "152297",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent hierarchical inference control; language agents"
+ },
+ {
+  "id": "152298",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic MARL exploration bonus on standard benchmarks"
+ },
+ {
+  "id": "148905",
+  "tier": "out",
+  "sub": null,
+  "reason": "Irregular time-series forecasting with missingness on generic/industrial benchmarks"
+ },
+ {
+  "id": "148673",
+  "tier": "out",
+  "sub": null,
+  "reason": "Computational-neuroscience simulation of spiking-network turbulence statistics; no modelling-for-control or learning contribution"
+ },
+ {
+  "id": "153199",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperparameter scaling rules via dimensional analysis"
+ },
+ {
+  "id": "149706",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Online bidding with state-dependent dynamic value and ODE-characterized optimal policy; regret bounds"
+ },
+ {
+  "id": "154078",
+  "tier": "out",
+  "sub": null,
+  "reason": "Explainable semi-supervised time-series classification"
+ },
+ {
+  "id": "154223",
+  "tier": "out",
+  "sub": null,
+  "reason": "Narrative camera viewpoint planning in virtual 3D worlds; perception/content, no dynamical control"
+ },
+ {
+  "id": "154763",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM asynchronous reasoning organization"
+ },
+ {
+  "id": "155091",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO for knowledge-graph QA with LLMs"
+ },
+ {
+  "id": "154861",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative surrogate for molecular-dynamics trajectory rollouts; simulation, not control"
+ },
+ {
+  "id": "154921",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Flow-model alignment cast as optimal control over velocity fields with adjoint matching; generative sampling"
+ },
+ {
+  "id": "151498",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-structured neural turbulence closure trained through RANS PDE solver with adjoints; simulation"
+ },
+ {
+  "id": "151155",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fair allocation algorithm analysis"
+ },
+ {
+  "id": "149209",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Reachability safety value and constrained RL to steer diffusion denoising dynamics; control of sampling SDE"
+ },
+ {
+  "id": "154073",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continuous-time view of delta-rule linear attention; sequence model, SSM false friend"
+ },
+ {
+  "id": "150136",
+  "tier": "out",
+  "sub": null,
+  "reason": "Classical planning policies with GNNs; symbolic planning"
+ },
+ {
+  "id": "148825",
+  "tier": "out",
+  "sub": null,
+  "reason": "Time-series foundation model for forecasting/imputation benchmarks"
+ },
+ {
+  "id": "154354",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM-driven inference-time correction of manipulation actions; scene-graph reasoning, no dynamics/controller"
+ },
+ {
+  "id": "154698",
+  "tier": "out",
+  "sub": null,
+  "reason": "Polyak step sizes for schedule-free optimizers"
+ },
+ {
+  "id": "154198",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tabular Markov game sample complexity; no continuous dynamics"
+ },
+ {
+  "id": "149715",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Guided flow matching recast as barrier-constrained optimal control with HJB approximation; sampling, not physical system"
+ },
+ {
+  "id": "154055",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical RNN model of brain path-integration circuits; neuroscience representation study"
+ },
+ {
+  "id": "149395",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neuro-symbolic VLA model for manipulation; no controller/dynamics contribution"
+ },
+ {
+  "id": "153716",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D referring segmentation"
+ },
+ {
+  "id": "149780",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stock time-series forecasting; finance, not dynamical system"
+ },
+ {
+  "id": "149606",
+  "tier": "out",
+  "sub": null,
+  "reason": "Geometry of IRL reward updates in occupancy space; not framed as dynamics"
+ },
+ {
+  "id": "155399",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gradient descent for logistic regression estimation rates"
+ },
+ {
+  "id": "154743",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Differentiable grey-box RC thermal dynamics model of buildings identified from data for control-aware demand flexibility"
+ },
+ {
+  "id": "151951",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Schur-projection guaranteeing asymptotic stability in state-space neural identification of dynamical systems"
+ },
+ {
+  "id": "149600",
+  "tier": "out",
+  "sub": null,
+  "reason": "Off-policy RL from multiple oracles on standard control benchmarks; generic RL"
+ },
+ {
+  "id": "152356",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Discrete-diffusion trajectory planner with RL for autonomous driving; planning without dynamics/control structure"
+ },
+ {
+  "id": "155213",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Normalizing flow solving Fokker-Planck PDE for SDE transition densities; likelihood for parameter inference, not control"
+ },
+ {
+  "id": "152672",
+  "tier": "out",
+  "sub": null,
+  "reason": "GNN explainer"
+ },
+ {
+  "id": "149822",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline RL with latent flow policies on OGBench; generic RL"
+ },
+ {
+  "id": "154406",
+  "tier": "out",
+  "sub": null,
+  "reason": "Autoregressive sequence learning theory"
+ },
+ {
+  "id": "150063",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-augmented online bidding competitive analysis; no dynamical system"
+ },
+ {
+  "id": "152394",
+  "tier": "out",
+  "sub": null,
+  "reason": "Probabilistic circuits for irregular time-series forecasting benchmarks"
+ },
+ {
+  "id": "150057",
+  "tier": "out",
+  "sub": null,
+  "reason": "Autoregressive agent motion forecasting on Argoverse; prediction task, no controller or dynamics model"
+ },
+ {
+  "id": "151401",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline RL policy constraint framework on D4RL; generic RL"
+ },
+ {
+  "id": "151330",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based RL with trajectory-level flow-matching dynamics generator on MuJoCo; compounding error"
+ },
+ {
+  "id": "153963",
+  "tier": "out",
+  "sub": null,
+  "reason": "Persuasive dialogue strategy tree search"
+ },
+ {
+  "id": "155719",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent memory skills"
+ },
+ {
+  "id": "148817",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral analysis of diffusion posterior samplers for inverse imaging"
+ },
+ {
+  "id": "150437",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for quantum circuit synthesis; discrete combinatorial"
+ },
+ {
+  "id": "155836",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence of fixed-target DQN surrogates; generic RL theory"
+ }
+]

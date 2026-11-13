@@ -1,0 +1,374 @@
+[
+ {
+  "id": "152000",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152734",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151458",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151852",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision Transformer context selection on D4RL; generic offline RL."
+ },
+ {
+  "id": "151413",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Identifies physical parameters of deformable-object dynamics via differentiable MPM simulation from video."
+ },
+ {
+  "id": "152164",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reactive synthesis of hardware circuits with LLMs; not dynamical system control."
+ },
+ {
+  "id": "154937",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152311",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL branching heuristics for neural network verification; not closed-loop systems."
+ },
+ {
+  "id": "149218",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152584",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148505",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151879",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155685",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148808",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151512",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151844",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154506",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151867",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149577",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149297",
+  "tier": "out",
+  "sub": null,
+  "reason": "Behavioral cloning multimodality analysis; generic policy learning without dynamics."
+ },
+ {
+  "id": "155216",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152931",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150312",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149794",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151275",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151901",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149330",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Generative surrogate of fMRI brain dynamics recovering connectivity; modelling only."
+ },
+ {
+  "id": "154388",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151033",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152726",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151789",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150588",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154952",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gradient theory for sequence-model SSMs (false friend)."
+ },
+ {
+  "id": "149367",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151000",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Recasts BCI decoder recalibration as Bayesian filtering of drifting latent parameter dynamics."
+ },
+ {
+  "id": "150964",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152538",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153247",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Efficiency method for weather forecasting transformers; black-box physical-system forecasting."
+ },
+ {
+  "id": "153700",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152185",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "152473",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151723",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "150767",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148497",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148982",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149170",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155687",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154643",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155579",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151598",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "153410",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149156",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "155671",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151818",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "151797",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "149640",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154567",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "148539",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM symbolic regression of static laws; not dynamical system identification."
+ },
+ {
+  "id": "152381",
+  "tier": "out",
+  "sub": null,
+  "reason": "MARL model of social opinion dynamics; no control of a physical system."
+ },
+ {
+  "id": "155262",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ },
+ {
+  "id": "154365",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semantic Gaussian SLAM mapping; perception-focused."
+ },
+ {
+  "id": "149757",
+  "tier": "out",
+  "sub": null,
+  "reason": "Title/abstract show no control, identification, estimation or dynamics contribution."
+ }
+]

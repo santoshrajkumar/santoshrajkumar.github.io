@@ -1,0 +1,482 @@
+[
+ {
+  "id": "154508",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Bayesian filtering of multimodal belief states with system dynamics; sequential state estimation under partial observability"
+ },
+ {
+  "id": "151976",
+  "tier": "out",
+  "sub": null,
+  "reason": "Combinatorial bandit regret bounds with ranking feedback; no dynamical system"
+ },
+ {
+  "id": "148208",
+  "tier": "out",
+  "sub": null,
+  "reason": "Byzantine-robust federated learning aggregation; no dynamics or control"
+ },
+ {
+  "id": "149933",
+  "tier": "out",
+  "sub": null,
+  "reason": "HD-map perception uncertainty calibration for driving; perception-only, no controller contribution"
+ },
+ {
+  "id": "153731",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Token selection for planning inside learned visual world models with CEM; model-based planning"
+ },
+ {
+  "id": "155093",
+  "tier": "out",
+  "sub": null,
+  "reason": "AI agents refining Lean proofs of analytic constants; unrelated to dynamics"
+ },
+ {
+  "id": "148796",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "World model representation learning for RL on DeepMind Control with distractors"
+ },
+ {
+  "id": "155405",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral theory and distillation of tree ensembles; supervised learning"
+ },
+ {
+  "id": "153025",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online isotonic regression minimax regret; no dynamical system"
+ },
+ {
+  "id": "153566",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Coupled dynamical-system model of multi-component robot with physics-residual dynamics driving coordinated action generation vs MPC"
+ },
+ {
+  "id": "149699",
+  "tier": "out",
+  "sub": null,
+  "reason": "Vision-and-language navigation perception framework; language grounding, no controller contribution"
+ },
+ {
+  "id": "149504",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D lane topology detection from camera images; perception only"
+ },
+ {
+  "id": "151753",
+  "tier": "out",
+  "sub": null,
+  "reason": "Matrix completion optimization landscape; no dynamics"
+ },
+ {
+  "id": "150370",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differential privacy auditing defense; unrelated"
+ },
+ {
+  "id": "149461",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Input-to-state-stability Lyapunov tube loss applied to hidden-state trajectories of neural networks; control view of learning"
+ },
+ {
+  "id": "152001",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL with checklist rewards for LLM tool-use agents; LLM RL"
+ },
+ {
+  "id": "154255",
+  "tier": "out",
+  "sub": null,
+  "reason": "Laplace approximation correction for latent Gaussian models; Bayesian inference"
+ },
+ {
+  "id": "151848",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning lotteries from membership queries; social choice, no dynamics"
+ },
+ {
+  "id": "153043",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Learning lifted action schemas (transition models) from state traces for classical planning"
+ },
+ {
+  "id": "150246",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hybrid physics-ML model learning with scientific parameter estimation; modeling, not control"
+ },
+ {
+  "id": "154996",
+  "tier": "out",
+  "sub": null,
+  "reason": "UAV image dehazing with edge-cloud adaptation; closed-loop refers to update scheduling, not control"
+ },
+ {
+  "id": "155829",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Learning POMDP world models from trajectories with LLM priors for agents"
+ },
+ {
+  "id": "151355",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trajectory evolution for LLM reasoning RL; trajectory means LLM traces"
+ },
+ {
+  "id": "149558",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural operator architecture for PDE benchmarks (heat, Rayleigh-Taylor); surrogate modelling"
+ },
+ {
+  "id": "148250",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Continuous-time liquid neural network (ODE-style recurrence) with memory feedback for time series"
+ },
+ {
+  "id": "149046",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward label selection for offline RL under limited feedback; generic RL"
+ },
+ {
+  "id": "156106",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mobile GUI agents with latent reasoning; LLM agents, world model for screenshots"
+ },
+ {
+  "id": "152516",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-prediction world model for bimanual robots used for synthetic rollouts; no planning or controller"
+ },
+ {
+  "id": "152621",
+  "tier": "out",
+  "sub": null,
+  "reason": "Best-arm identification in Bernoulli bandits; no dynamics"
+ },
+ {
+  "id": "148846",
+  "tier": "out",
+  "sub": null,
+  "reason": "Token-level hallucination detection in LLMs"
+ },
+ {
+  "id": "150109",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online conformal prediction under adaptive logging; bandit data, no dynamics"
+ },
+ {
+  "id": "155454",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantized neural decoder for quantum error correction; no dynamical-system control"
+ },
+ {
+  "id": "152678",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion distillation guided by RL rewards; generative modeling"
+ },
+ {
+  "id": "151255",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series forecasting architecture on standard benchmarks"
+ },
+ {
+  "id": "151751",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stability analysis of diffusion sampling vector fields; generative sampling, not a controlled system"
+ },
+ {
+  "id": "148456",
+  "tier": "out",
+  "sub": null,
+  "reason": "Graph structure optimisation for idea spread among researchers; agent-based simulation"
+ },
+ {
+  "id": "155741",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based offline RL with generative density regularization"
+ },
+ {
+  "id": "151599",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-modal hashing for retrieval"
+ },
+ {
+  "id": "156073",
+  "tier": "out",
+  "sub": null,
+  "reason": "Statistical process control charts for monitoring LLM multi-agent systems; quality-control false friend"
+ },
+ {
+  "id": "153300",
+  "tier": "out",
+  "sub": null,
+  "reason": "Theory unifying goal-conditioned RL and skill learning; control-maximization means goal sensitivity, generic RL"
+ },
+ {
+  "id": "152811",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private hypothesis testing with e-values"
+ },
+ {
+  "id": "155777",
+  "tier": "out",
+  "sub": null,
+  "reason": "Laplacian eigenvector behavior basis for zero-shot RL; generic RL"
+ },
+ {
+  "id": "151389",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Ensemble-conditioned emulation of extreme events in chaotic systems and quasi-geostrophic flow; forecasting"
+ },
+ {
+  "id": "152598",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Closed-loop planner-controller learning for physics-based humanoid interaction under contact dynamics; control structure central"
+ },
+ {
+  "id": "151518",
+  "tier": "out",
+  "sub": null,
+  "reason": "Evolutionary multi-objective algorithm runtime analysis"
+ },
+ {
+  "id": "153892",
+  "tier": "out",
+  "sub": null,
+  "reason": "Uncertainty quantification for multimodal regression"
+ },
+ {
+  "id": "149859",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Online selection of open-loop execution horizon for robot action chunks from kinematic speed profiles; feedback-timing controller"
+ },
+ {
+  "id": "150680",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning dynamics of RLVR for LLMs; LLM RL"
+ },
+ {
+  "id": "149840",
+  "tier": "out",
+  "sub": null,
+  "reason": "4D occupancy forecasting for driving perception; ego-motion decoupling, no planning or control"
+ },
+ {
+  "id": "153968",
+  "tier": "out",
+  "sub": null,
+  "reason": "Posterior contraction rates for Bayesian KANs"
+ },
+ {
+  "id": "151619",
+  "tier": "out",
+  "sub": null,
+  "reason": "State-space-model regularizer for image tokenizers; SSM false friend"
+ },
+ {
+  "id": "154263",
+  "tier": "out",
+  "sub": null,
+  "reason": "Minimax rates for second-order calibration"
+ },
+ {
+  "id": "156055",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-unrolled neural operator surrogate for radio wave propagation fields; simulation surrogate"
+ },
+ {
+  "id": "150253",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA multi-view fusion robust to sensor perturbation; perception/VLA, no controller"
+ },
+ {
+  "id": "150233",
+  "tier": "out",
+  "sub": null,
+  "reason": "GFlowNet training stability; generative sampling"
+ },
+ {
+  "id": "155179",
+  "tier": "out",
+  "sub": null,
+  "reason": "Compute-aware controller for LLM test-time reasoning; LLM inference, not a dynamical system"
+ },
+ {
+  "id": "152261",
+  "tier": "out",
+  "sub": null,
+  "reason": "Matrix recovery from rank-one measurements"
+ },
+ {
+  "id": "150135",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Depth design principle for neural operators solving PDE initial value problems"
+ },
+ {
+  "id": "148870",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trust-region objective for multi-agent PPO on standard benchmarks; generic MARL"
+ },
+ {
+  "id": "154204",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rollout scheduling system for LLM agent RL training"
+ },
+ {
+  "id": "153666",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continuous-state diffusion for text generation"
+ },
+ {
+  "id": "154430",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online recommendation in unknown games; no dynamics"
+ },
+ {
+  "id": "156141",
+  "tier": "out",
+  "sub": null,
+  "reason": "Amortised policy learning for Bayesian experimental design; no dynamical system"
+ },
+ {
+  "id": "150241",
+  "tier": "out",
+  "sub": null,
+  "reason": "Meta-agent designing LLM inference strategies"
+ },
+ {
+  "id": "149075",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe offline imitation learning with safety-compliant and performance experts; safe RL benchmark, mobile robot"
+ },
+ {
+  "id": "155617",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-augmented online scheduling with preemption bounds"
+ },
+ {
+  "id": "148389",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unsupervised reward model scaling for LLMs"
+ },
+ {
+  "id": "149905",
+  "tier": "out",
+  "sub": null,
+  "reason": "Privacy-aware memory for conversational agents"
+ },
+ {
+  "id": "155538",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperparameter optimization via invariant task representations; training dynamics used empirically"
+ },
+ {
+  "id": "155783",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for auditing ML models as MDP; no dynamical system"
+ },
+ {
+  "id": "150192",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Regime-conditioned generative forecasting of spatiotemporal dynamical systems on graphs"
+ },
+ {
+  "id": "155484",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM skill optimization for liability adjudication"
+ },
+ {
+  "id": "148434",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM reasoning about threats and offers in causal games"
+ },
+ {
+  "id": "148840",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Hamilton-Jacobi reachability gated diffusion policy for hard-constrained safe RL on quadrotor and fixed-wing tracking"
+ },
+ {
+  "id": "154225",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual RL for computer-use agents"
+ },
+ {
+  "id": "150222",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Tropical cyclone track/intensity forecasting from delayed reanalysis and satellite data; physical system forecasting"
+ },
+ {
+  "id": "149306",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Gaussian-mixture filter propagating pose hypotheses with odometry for robot relocalization; multi-hypothesis state estimation"
+ },
+ {
+  "id": "150689",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sequential Monte Carlo sampling for masked diffusion language models"
+ },
+ {
+  "id": "150499",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Learned discrete Riemannian metrics for physical field surrogates on meshes; simulation modelling"
+ },
+ {
+  "id": "153778",
+  "tier": "out",
+  "sub": null,
+  "reason": "Partial optimal transport with pointwise rejection; OT false friend"
+ }
+]

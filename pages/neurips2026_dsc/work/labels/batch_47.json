@@ -1,0 +1,482 @@
+[
+ {
+  "id": "150726",
+  "tier": "out",
+  "sub": null,
+  "reason": "Loss spikes from floating-point precision; numerical stability of training."
+ },
+ {
+  "id": "148161",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scaling laws of recurrent networks with complex neurons; sequence modelling."
+ },
+ {
+  "id": "154571",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D grounding with 2D VLMs; perception."
+ },
+ {
+  "id": "148818",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video deep research agent; trajectory means LLM reasoning traces."
+ },
+ {
+  "id": "153798",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Mean-field dynamical theory of token evolution across transformer layers under training."
+ },
+ {
+  "id": "149747",
+  "tier": "out",
+  "sub": null,
+  "reason": "Object-level controllable diffusion generation."
+ },
+ {
+  "id": "149965",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM agent for city-scale 3D grounding; perception."
+ },
+ {
+  "id": "154048",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt tuning for LLMs."
+ },
+ {
+  "id": "150806",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mechanism design for AI search overviews."
+ },
+ {
+  "id": "155949",
+  "tier": "out",
+  "sub": null,
+  "reason": "Speculative decoding verification via optimal transport."
+ },
+ {
+  "id": "155825",
+  "tier": "out",
+  "sub": null,
+  "reason": "Compiler for secure neural inference."
+ },
+ {
+  "id": "151869",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mamba scan order for image restoration; SSM false friend."
+ },
+ {
+  "id": "154615",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trainable sparse attention for video diffusion."
+ },
+ {
+  "id": "149940",
+  "tier": "out",
+  "sub": null,
+  "reason": "Path signature inversion via flow matching; generative modelling, no identification or control."
+ },
+ {
+  "id": "153651",
+  "tier": "out",
+  "sub": null,
+  "reason": "Task-oriented image restoration via unrolled optimization."
+ },
+ {
+  "id": "153093",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video hallucination mitigation for LVLMs."
+ },
+ {
+  "id": "152840",
+  "tier": "out",
+  "sub": null,
+  "reason": "MoE inference offloading on edge devices."
+ },
+ {
+  "id": "148775",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual Mamba scan paths; vision SSM false friend."
+ },
+ {
+  "id": "150124",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series generation with flow matching."
+ },
+ {
+  "id": "151859",
+  "tier": "out",
+  "sub": null,
+  "reason": "GNN interpretability with concept bottleneck."
+ },
+ {
+  "id": "148467",
+  "tier": "out",
+  "sub": null,
+  "reason": "Recurrent state gating for streaming 3D reconstruction; perception only."
+ },
+ {
+  "id": "148376",
+  "tier": "out",
+  "sub": null,
+  "reason": "Budget allocation for parallel LLM reasoning."
+ },
+ {
+  "id": "150944",
+  "tier": "out",
+  "sub": null,
+  "reason": "Jailbreak defense for LLMs."
+ },
+ {
+  "id": "151170",
+  "tier": "out",
+  "sub": null,
+  "reason": "Data scheduling for interatomic potential training."
+ },
+ {
+  "id": "154384",
+  "tier": "out",
+  "sub": null,
+  "reason": "Watermark verification of hosted LLM identity."
+ },
+ {
+  "id": "151740",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion language model decoding."
+ },
+ {
+  "id": "152807",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attack on multimodal LLM recommender systems."
+ },
+ {
+  "id": "149520",
+  "tier": "out",
+  "sub": null,
+  "reason": "Theory of attention computation via Legendre duality."
+ },
+ {
+  "id": "152999",
+  "tier": "out",
+  "sub": null,
+  "reason": "Interpretability of music foundation models."
+ },
+ {
+  "id": "154690",
+  "tier": "out",
+  "sub": null,
+  "reason": "Training-free model compression."
+ },
+ {
+  "id": "150105",
+  "tier": "out",
+  "sub": null,
+  "reason": "Emergent misalignment in LLM fine-tuning."
+ },
+ {
+  "id": "155959",
+  "tier": "out",
+  "sub": null,
+  "reason": "Post-training quantization for depth estimation."
+ },
+ {
+  "id": "155287",
+  "tier": "out",
+  "sub": null,
+  "reason": "Behavioral choice prediction transformer."
+ },
+ {
+  "id": "150915",
+  "tier": "out",
+  "sub": null,
+  "reason": "Energy efficiency of LLM inference fleets."
+ },
+ {
+  "id": "149697",
+  "tier": "out",
+  "sub": null,
+  "reason": "Process reward modeling for LLM reasoning."
+ },
+ {
+  "id": "155152",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reasoning vector intervention in VLMs."
+ },
+ {
+  "id": "153196",
+  "tier": "out",
+  "sub": null,
+  "reason": "Token budget allocation for GRPO; RL for LLMs."
+ },
+ {
+  "id": "148681",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zeroth-order test-time adaptation for vision."
+ },
+ {
+  "id": "152346",
+  "tier": "out",
+  "sub": null,
+  "reason": "Variational inference guarantees under symmetry."
+ },
+ {
+  "id": "149127",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pose-augmented video MLLM for motion understanding."
+ },
+ {
+  "id": "152150",
+  "tier": "out",
+  "sub": null,
+  "reason": "Concept activation mechanism in transformers."
+ },
+ {
+  "id": "150184",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM hallucination detection; trajectory means layer activations."
+ },
+ {
+  "id": "151529",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "LLM-driven evolutionary programmatic policy search evaluated on classic control benchmarks; no control-theoretic contribution."
+ },
+ {
+  "id": "156034",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D molecule generation with SE(3) flows."
+ },
+ {
+  "id": "149826",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private PAC learning."
+ },
+ {
+  "id": "148685",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reasoning distillation for LLMs; trajectory means reasoning trace."
+ },
+ {
+  "id": "153965",
+  "tier": "out",
+  "sub": null,
+  "reason": "Single-cell multi-omics clustering."
+ },
+ {
+  "id": "151115",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continued-fraction feedforward layers for LMs."
+ },
+ {
+  "id": "151651",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-correction decoding for diffusion LMs."
+ },
+ {
+  "id": "148973",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lossless KV-cache compression."
+ },
+ {
+  "id": "156058",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scalable derivative Gaussian processes."
+ },
+ {
+  "id": "151196",
+  "tier": "out",
+  "sub": null,
+  "reason": "Household task inference with LLMs; no controller."
+ },
+ {
+  "id": "153674",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time RL for LLM reasoning."
+ },
+ {
+  "id": "150366",
+  "tier": "out",
+  "sub": null,
+  "reason": "Proportional ranking compression; social choice."
+ },
+ {
+  "id": "148949",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video generation for reasoning."
+ },
+ {
+  "id": "150340",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM subjective decision biases."
+ },
+ {
+  "id": "153228",
+  "tier": "out",
+  "sub": null,
+  "reason": "Computer-use agents via synthetic experience; LLM agents."
+ },
+ {
+  "id": "148571",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual learning with trust region; meta-learning view, not a dynamical system."
+ },
+ {
+  "id": "154687",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM negotiation benchmark."
+ },
+ {
+  "id": "155512",
+  "tier": "out",
+  "sub": null,
+  "reason": "PAC-controlled mode switching for LLM reasoning efficiency."
+ },
+ {
+  "id": "151504",
+  "tier": "out",
+  "sub": null,
+  "reason": "Long-video token allocation for VLMs."
+ },
+ {
+  "id": "156067",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unified multimodal generation and understanding."
+ },
+ {
+  "id": "154547",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM model merging."
+ },
+ {
+  "id": "153579",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic progress in LM pretraining."
+ },
+ {
+  "id": "155087",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM introspection of concept injection."
+ },
+ {
+  "id": "156120",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual latent reasoning for MLLMs."
+ },
+ {
+  "id": "154925",
+  "tier": "out",
+  "sub": null,
+  "reason": "Synthetic pre-pre-training for LLM robustness."
+ },
+ {
+  "id": "153513",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM inference scheduling."
+ },
+ {
+  "id": "153730",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural video representation codec."
+ },
+ {
+  "id": "155746",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust topology for LLM multi-agent systems."
+ },
+ {
+  "id": "151176",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video anomaly detection with VLM parameter adaptation."
+ },
+ {
+  "id": "153652",
+  "tier": "out",
+  "sub": null,
+  "reason": "Subliminal transfer in agent distillation."
+ },
+ {
+  "id": "148377",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zeroth-order RL fine-tuning of LLMs."
+ },
+ {
+  "id": "149828",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time adaptation in medical imaging."
+ },
+ {
+  "id": "154023",
+  "tier": "out",
+  "sub": null,
+  "reason": "E-commerce multimodal retrieval."
+ },
+ {
+  "id": "149756",
+  "tier": "out",
+  "sub": null,
+  "reason": "Refusal geometry auditing in LLMs."
+ },
+ {
+  "id": "155146",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual retrieval heads in VLMs."
+ },
+ {
+  "id": "149512",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video moment retrieval with visual prompts."
+ },
+ {
+  "id": "148562",
+  "tier": "out",
+  "sub": null,
+  "reason": "Drone cross-view geo-localization; perception only."
+ },
+ {
+  "id": "153051",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video realism evaluation autoencoder."
+ }
+]

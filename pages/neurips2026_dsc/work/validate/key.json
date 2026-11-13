@@ -1,0 +1,2274 @@
+{
+"153480": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Collaborative online LQR with Thompson sampling and regret bounds under heterogeneous dynamics"
+}
+},
+"155289": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Regret bounds for online learning in POMDPs with unknown transition/observation models; partially observed decision making"
+}
+},
+"152582": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Intrinsic motivation grounded in dynamical systems and optimal control (KS entropy) for robot control"
+}
+},
+"151421": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Closed-form ODEs for REINFORCE learning dynamics of linear recurrent policy networks."
+}
+},
+"154719": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Physics-informed HJB solver for high-dimensional optimal control with value/policy error bounds"
+}
+},
+"148197": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Exact-by-construction neural solutions of Maxwell's equations from sparse data; physics-informed field reconstruction"
+}
+},
+"153644": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Prototype part networks for image recognition"
+}
+},
+"148487": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Guidance for on-manifold diffusion sampling"
+}
+},
+"151411": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Adaptive hyperparameter controller for LLM RLVR training; training dynamics false friend"
+}
+},
+"153285": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Posterior sampling regret in tabular episodic MDPs"
+}
+},
+"151698": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Knowledge graph learning theory"
+}
+},
+"149981": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Action-conditioned world model as zero-shot simulator for policy improvement"
+}
+},
+"150449": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Latent SDE with state-dependent diffusion for probabilistic PDE forecasting; surrogate forecasting, no control"
+}
+},
+"148682": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Physics-anchored hybrid forecasting of air-pollution fields; modelling, not control"
+}
+},
+"148370": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Mask-aware distributed attention kernels"
+}
+},
+"153736": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "LLM trajectory planner grounded to learned dynamics model and verified by forward rollout under real-time constraints"
+}
+},
+"149743": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Online estimation of full physical fields from sparse streaming measurements; learned data assimilation"
+}
+},
+"155611": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Dynamical-systems counterexample (return maps, eigenvalues, aperiodic orbit) to AdaBoost cycling; learning-algorithm dynamics"
+}
+},
+"150517": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Finite-sample identification of POMDP transition/observation kernels from data for downstream planning; system identification"
+}
+},
+"152705": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "RL for agentic workflow design"
+}
+},
+"155199": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "LLM task planning with ontology scene graph; symbolic planning, no dynamics"
+}
+},
+"155042": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Retrospective world modeling as reward for VLM agents; language agents, no planning in dynamics"
+}
+},
+"148288": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Neural network observer for uncertain dynamical systems with LMI-certified Lyapunov stability"
+}
+},
+"154964": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "RL for LLM quantization bit allocation; constrained MDP over compression, not a dynamical system"
+}
+},
+"152274": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Schr\u00f6dinger bridge for controllable 3D generation; false friend"
+}
+},
+"154032": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Learned whole-body force regulation approximating impedance control on a bipedal humanoid"
+}
+},
+"152430": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Raw-waveform audio generation; generative audio"
+}
+},
+"152531": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Human-guided noise-space RL finetuning of diffusion VLA policies"
+}
+},
+"149158": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Neural warm start plus unrolled ADMM to solve multiparametric QPs for real-time MPC with certification"
+}
+},
+"152935": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Provably safe RL via implicit control-invariant set from backup policy forward-integrating dynamics with differentiable safety projection"
+}
+},
+"151300": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Model-based RL with recurrent state-space model for zero-sum imperfect-information games"
+}
+},
+"154723": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "One-step flow policy via optimal transport for offline RL"
+}
+},
+"155346": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Closed-loop active ODE equation discovery with LLM-generated hypotheses; system reconstruction"
+}
+},
+"152512": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "3D consistency tokens for feedforward Gaussian splatting; vision."
+}
+},
+"152292": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Operator-theoretic hitting-time geometry of controlled Markov process for graph-based multi-stage planning; learned-model planning"
+}
+},
+"148187": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "RL motor control of simulated rat body with motion/behavior priors; generic policy learning, no dynamics structure"
+}
+},
+"152702": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Feedback loop between performative predictions and opinion-dynamics network; equilibrium analysis"
+}
+},
+"155510": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Hierarchical world model with inverse dynamics for planning on embodied tasks; no control-theoretic framing"
+}
+},
+"153165": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Predicting protein flexibility descriptors from structure"
+}
+},
+"151855": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Lyapunov-drift optimistic RL for online scheduling of multi-stage tasks with regret bounds; online learning in a queueing-like system"
+}
+},
+"155217": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Variational hybrid filter jointly inferring continuous state and contact mode, recovering sparse port-Hamiltonian robot dynamics"
+}
+},
+"150604": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Embedding of irregular observations for Log-Neural CDEs; continuous-time sequence modelling"
+}
+},
+"150748": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Associative memory retrieval via Sinkhorn gradient flow; not a dynamical-system contribution"
+}
+},
+"153239": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Fundamental limits and codebook design for finite-memory optimal control of POMDPs"
+}
+},
+"148541": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Symplectic neural operators for Hamiltonian PDEs with long-term stability; simulation surrogate, no control"
+}
+},
+"152675": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Physics-neural world model for deformable objects from video; simulation/rendering, no control"
+}
+},
+"150792": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Adaptive piecewise barrier certificates repaired at deployment for neural-network-controlled systems"
+}
+},
+"155213": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Normalizing flow solving Fokker-Planck PDE for SDE transition densities; likelihood for parameter inference, not control"
+}
+},
+"153659": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Dual-humanoid manipulation with dynamics priors, force allocation under contact constraints, RL control"
+}
+},
+"150711": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Equilibrium computation in anonymous games"
+}
+},
+"152028": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Stochastic-optimal-control controller on autoregressive diffusion for data assimilation in chaotic PDEs and ERA5"
+}
+},
+"154980": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Supervised optimal transport between Gaussian mixtures; not control"
+}
+},
+"155791": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Koopman-inspired latent linear dynamics with exogenous inputs for forecasting; dynamics-framed time series"
+}
+},
+"149132": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Offline safe RL with compositional guidance and controllable conservatism on OSRL; constrained RL."
+}
+},
+"150096": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Learned structure-preserving Kalman filter for state estimation of dynamic systems"
+}
+},
+"155947": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Data filtering scaling study for pretraining; no dynamics."
+}
+},
+"153606": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Neural Kalman fusion corrects latent physical state of UDE simulator each step; learned data assimilation"
+}
+},
+"153121": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Transferable adversarial attacks on multimodal LLMs"
+}
+},
+"149972": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Mean-field control on sparse graphs with dynamic programming principle and locality results"
+}
+},
+"154508": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Bayesian filtering of multimodal belief states with system dynamics; sequential state estimation under partial observability"
+}
+},
+"153089": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Expert-advice regret bound; SDE only as motivation"
+}
+},
+"151561": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Delayed-feedback online convex optimization; no dynamical system"
+}
+},
+"152655": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Derivative-informed neural operator training via forward sensitivity equation residuals"
+}
+},
+"148410": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Generating joint-level dynamics (friction, damping) for articulated-object simulation; no control"
+}
+},
+"149859": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Online selection of open-loop execution horizon for robot action chunks from kinematic speed profiles; feedback-timing controller"
+}
+},
+"150920": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Conformal uncertainty quantification for time-dependent PDE surrogate models; forecasting coverage, not control"
+}
+},
+"155636": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Control-barrier-function safety filter with QP and finite-time recovery guarantees for generative planners"
+}
+},
+"150373": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Model-free policy gradient for LQR with hard constraints, safe iterates and global convergence."
+}
+},
+"155458": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Attributes policy failure to causally responsible learned world-model transition errors; model-based RL diagnostics"
+}
+},
+"149264": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Mamba-style selective state space sequence model; false friend"
+}
+},
+"154175": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Gifting mechanisms in mixed-motive games"
+}
+},
+"154921": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Flow-model alignment cast as optimal control over velocity fields with adjoint matching; generative sampling"
+}
+},
+"155874": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Echo state networks as contractive random dynamical systems/IFS; fractal dimension bounds on reservoir states"
+}
+},
+"155974": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Risk-adaptive RL control of dynamic reconfigurable battery system under sensor loss with hardware experiments"
+}
+},
+"150238": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Pre-training for neural PDE surrogates on unstructured 3D geometries; simulation surrogates, no control"
+}
+},
+"153486": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "SSM-based generative surrogate for molecular dynamics trajectories; simulation surrogate, not control."
+}
+},
+"150943": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Accelerates LTL-modulo-theories reactive synthesis of correct-by-construction controllers with soundness preserved"
+}
+},
+"152554": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Algorithmic stability of federated optimization; training stability false friend"
+}
+},
+"150648": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Residual RL with force feedback for real-world contact-rich manipulation; policy learning, dynamics not modelled"
+}
+},
+"153171": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "CVaR risk-constrained RL for power-grid operation; contribution is safe-RL framework, not control theory."
+}
+},
+"149412": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Regret bounds for cost-aware cascading bandits"
+}
+},
+"150211": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Hippocampal recurrent dynamics solve goal-directed navigation as LMDP planning; sequential decision, not control design"
+}
+},
+"148806": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Optimal linear control and filter laws for partially observed LQ systems with multiplicative and internal noise."
+}
+},
+"155479": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Safe active learning for unknown nonlinear dynamics with finite-horizon viability guarantees and dead-end input exclusion"
+}
+},
+"152058": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Linearised gradient-flow stability analysis of JEPA training collapse"
+}
+},
+"155316": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Physics-informed conditional Schr\u00f6dinger bridge reconstructing PDE fields from sparse observations; generative surrogate reconstruction"
+}
+},
+"155354": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Diffusion transformer generating multi-object mesh dynamics trajectories; physics simulation surrogate"
+}
+},
+"154804": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Backdoor defense for SSL encoders"
+}
+},
+"152141": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Koopman-structured latent state-space world model used for MPPI control under partial observation"
+}
+},
+"154447": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Entropy regularization and symmetry in Dec-POMDP MARL (Hanabi, Overcooked); generic multi-agent RL."
+}
+},
+"150634": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "KL convergence rates of 2D-tilted surrogates to multi-marginal Schrodinger bridge; generative theory"
+}
+},
+"150025": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Riemannian ODE framework for adaptive optimizers with momentum as damping; training dynamics analysis"
+}
+},
+"153453": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Latent neural SDE generative model for longitudinal clinical trajectories"
+}
+},
+"150768": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Diffusion video super-resolution acceleration"
+}
+},
+"154213": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "One-bit compressed sensing posterior sampling"
+}
+},
+"153035": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Auction-based coordination of PPO policies on Atari/gridworld; generic multi-objective RL"
+}
+},
+"149166": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Posterior sampling for stochastic shortest path regret; tabular RL theory"
+}
+},
+"151681": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Contracting recurrent/Neural-ODE models proven to act as tunable nonlinear observers for state estimation"
+}
+},
+"153920": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Online control of partially observed linear dynamical system with regret bounds"
+}
+},
+"154425": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Active turbulent-flow drag reduction via DRL with generative flow-state targets; PDE/fluid control"
+}
+},
+"153168": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Conformal prediction via gradient flows on output space; uncertainty quantification, not dynamics"
+}
+},
+"151973": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "n-step inequality hinge loss for Q-learning; generic RL"
+}
+},
+"148579": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Goal inference from partial motion trajectories with diffusion prior; intent recognition over dynamics"
+}
+},
+"152077": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Data assimilation with observability-constrained correction directions for dynamical systems; state estimation"
+}
+},
+"150047": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "SDE limit of training dynamics in infinite-depth ResNets; rigorous dynamical view of learning"
+}
+},
+"151579": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Optimal control-free protocol learning quantum Hamiltonian generator from real-time evolution; dynamical-system identification"
+}
+},
+"150253": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "VLA multi-view fusion robust to sensor perturbation; perception/VLA, no controller"
+}
+},
+"149586": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Efficient coding theory with temporal smoothness; theoretical neuroscience, no dynamical system control"
+}
+},
+"148893": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "VLA adaptation preserving pretrained priors; no controller contribution"
+}
+},
+"153140": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Koopman/EDMD operator analysis of linear vs softmax attention stability as a dynamical system"
+}
+},
+"155096": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Mechanistic interpretability of transformer Sudoku world model; no dynamics"
+}
+},
+"155310": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Neural mechanism design for budget-feasible procurement; economics"
+}
+},
+"153061": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Partially performative prediction under endogenous and exogenous distribution shift"
+}
+},
+"151410": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Robust dynamic pricing regret with corrupted feedback; online learning without dynamics."
+}
+},
+"152813": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Online drift adaptation of pretrained controllers for HVAC/grid via controllability-filtered residuals"
+}
+},
+"148289": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "World models trained for downstream policy improvement in VLA RL; model-based RL"
+}
+},
+"153828": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Observability of latent state-space dynamics proven necessary for identifiability; Neural ODEs in observable normal form"
+}
+},
+"153720": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Runtime monitoring of autonomous systems against temporal-logic specifications over embedding traces with conformal calibration"
+}
+},
+"156012": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Learning in games reduced to best-response differential inclusion dynamics; dynamical analysis of learning"
+}
+},
+"154586": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Population gradient-flow ODE analysis of attention model training in high dimensions."
+}
+},
+"154829": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Distributed saddle-point algorithms and lower bounds; optimization"
+}
+},
+"148240": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Optimal sensor placement with recovery guarantees for state estimation via posterior sampling"
+}
+},
+"153566": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Coupled dynamical-system model of multi-component robot with physics-residual dynamics driving coordinated action generation vs MPC"
+}
+},
+"151682": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Training-free compositional diffusion planning for sequential reach-avoid tasks with formal satisfaction guarantee"
+}
+},
+"151370": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Polylog-regret online prediction of marginally stable linear dynamical systems via preconditioning"
+}
+},
+"155189": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Measure-native neural operator for sparse-source PDE and field reconstruction"
+}
+},
+"148902": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Uncertainty-triggered generalist calls in dual-system VLA; VLA inference efficiency"
+}
+},
+"152436": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Synthesizes interpretable decentralized velocity controllers for multi-agent swarms via neural-guided program search."
+}
+},
+"155054": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Z-domain rational neural operator with unit-disk pole stability for discrete-time system identification"
+}
+},
+"155933": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Port-Hamiltonian energy-consistent inertial odometry network estimating MAV velocity from IMU"
+}
+},
+"148281": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Learned scenario reduction for two-stage robust optimization; static optimization"
+}
+},
+"148367": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Model-based tree search with calibrated ensemble dynamics trust for safe offline policy improvement"
+}
+},
+"150423": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Private optimal transport map estimation; OT not framed as control"
+}
+},
+"153890": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "LLM agentic failure attribution"
+}
+},
+"149190": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Information-gain intrinsic reward for RL exploration; generic exploration method"
+}
+},
+"149542": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Rebalanced training measures for neural surrogates of discretized physical simulations; operator learning"
+}
+},
+"153316": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Generative inverse design of laser pulse inputs for ICF implosions; surrogate inverse map, no feedback or dynamics model"
+}
+},
+"154263": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Minimax rates for second-order calibration"
+}
+},
+"153013": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Closed-loop causal-graph validation via actuator interventions to fit a model used for building energy control policy"
+}
+},
+"149557": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Bilinear matching bandits regret; no dynamics"
+}
+},
+"155392": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Reward verifier for GUI agents"
+}
+},
+"155091": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "GRPO for knowledge-graph QA with LLMs"
+}
+},
+"152645": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Data poisoning of learned world models used for planning in continuous control"
+}
+},
+"155311": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Symmetry-constrained tensor property prediction for crystals; static prediction"
+}
+},
+"154743": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Differentiable grey-box RC thermal dynamics model of buildings identified from data for control-aware demand flexibility"
+}
+},
+"152267": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Feedback world model as latent-space observer with convergence guarantees, correcting predictions to guide robot policy"
+}
+},
+"150785": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Open quantum control: path-space regularizers for control policies combating decoherence dynamics"
+}
+},
+"151200": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Koopman/Hankel dynamical-systems regulation of prompt-update trajectories; control analysis of a learning algorithm"
+}
+},
+"153500": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Bandits with ranking feedback; no dynamics"
+}
+},
+"148189": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Inverse-dynamics control inference and physics+residual model enforcing actuator/state feasibility"
+}
+},
+"152955": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Generic time-series generation via hierarchical tokenization"
+}
+},
+"149155": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Hamiltonian neural network for multi-timescale ODE/PDE dynamics; forecasting, not control"
+}
+},
+"154156": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Sequence model of battery cycle dynamics predicting voltage response and degradation; representation, no control"
+}
+},
+"150790": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Differentiable sparse sum-of-squares certificate layers, applied to pendulum control and oscillator chains"
+}
+},
+"150632": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Neural acoustic field with FDTD wave-simulation features for room impulse responses; audio rendering, no dynamics modelling contribution"
+}
+},
+"148335": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Distills traffic signal controllers into programmatic policies; traffic control performance evaluated"
+}
+},
+"155280": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Reversible SFT behaviors in LLMs"
+}
+},
+"150165": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Decentralized multi-robot motion planner generating collision-free trajectories under safety constraints via constraint-aware diffusion."
+}
+},
+"148907": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Hierarchical clustering theory"
+}
+},
+"155670": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Online imitation learning of stabilizing controllers for Vlasov-Poisson plasma under partial observation"
+}
+},
+"148546": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Operator-valued concentration inequalities"
+}
+},
+"155914": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Multi-agent RL for network-level traffic signal control; traffic control counts as core"
+}
+},
+"154231": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Forward/inverse internal models producing open-loop multi-step control sequences; quantum pulse control vs GRAPE"
+}
+},
+"154614": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Autoregressive deep surrogate for global air-pollutant transport forecasting"
+}
+},
+"151666": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Boundary-element-inspired equivariant neural surrogate for boundary-driven PDEs (airfoil RANS); simulation surrogate"
+}
+},
+"149306": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Gaussian-mixture filter propagating pose hypotheses with odometry for robot relocalization; multi-hypothesis state estimation"
+}
+},
+"151141": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Curriculum training of PINNs/neural operators for PDE solving; modelling, not control"
+}
+},
+"152860": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Latent Kalman-type data assimilation on chaotic systems; sensor ranking for physical-state filtering accuracy."
+}
+},
+"153003": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Solution sensitivities for differentiable nonlinear MPC via IFT within SQP/IPM, implemented in acados."
+}
+},
+"148733": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Diffusion reward fine-tuning cast as stochastic optimal control of sampling SDE"
+}
+},
+"154353": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Order-marginalized scoring for masked diffusion models; generative modelling"
+}
+},
+"155737": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "VLA policy training with failure guidance; no controller or dynamics contribution"
+}
+},
+"153874": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Confidence sequences for bounded means"
+}
+},
+"155360": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Physical adversarial LED attacks on detectors via RL; adversarial robustness"
+}
+},
+"149861": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Topology-augmented prioritized sweeping for Dyna-style model-based planning; model-based RL"
+}
+},
+"153723": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Infinite-horizon universal approximation of Neural ODEs for Morse-Smale dynamics; modelling theory, not control"
+}
+},
+"148644": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Breakeven-cost evaluation framework for neural PDE surrogate solvers"
+}
+},
+"154157": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "PAC-Bayesian finite-sample bounds for identification of partially observed stochastic LTI systems"
+}
+},
+"148522": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Vector quantization theory"
+}
+},
+"152343": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "LTL-specified robot planning via learned reachability graph and symbolic search on offline data; no dynamics model"
+}
+},
+"154120": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Learned preconditioners for Helmholtz and other PDE solvers"
+}
+},
+"150540": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Differentially private online allocation; resource allocation, no dynamics."
+}
+},
+"148317": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "First-order regret bounds for online nonstochastic control of linear dynamical systems"
+}
+},
+"149714": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Separating state and prediction streams in Transformers; architecture"
+}
+},
+"153792": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Adaptive operator transformation for multi-PDE neural operator pretraining"
+}
+},
+"155270": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Memory-based world-state model guiding kinetic Monte Carlo atomistic evolution; physical simulation surrogate, no control"
+}
+},
+"151120": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Mixed pathwise/score policy gradients through differentiable simulators for switched LQR and inventory control"
+}
+},
+"150543": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Conservative stochastic optimal control of learned patient SDE dynamics with continuous-time treatment input"
+}
+},
+"155363": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Rate-distortion theory of Kalman filtering via Riccati spectral decomposition"
+}
+},
+"152598": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Closed-loop planner-controller learning for physics-based humanoid interaction under contact dynamics; control structure central"
+}
+},
+"149879": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "RL over diffusion latent noise with rotations; 'latent space control' of generative model"
+}
+},
+"150133": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "GNN reduction of spring-mass digital twins for simulation and policy evaluation, not control"
+}
+},
+"151443": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "On-policy solver-guided post-training of PDE foundation models; autoregressive surrogate rollout"
+}
+},
+"155332": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Shuffled linear regression algorithms"
+}
+},
+"151714": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Soft-Hamiltonian structured latent world model with control dynamics for CEM planning on DMC"
+}
+},
+"149285": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Learns pole-residue modal decomposition of multi-port LTI systems from port responses; frequency-domain system identification"
+}
+},
+"155227": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Composable safety layer via closed-form projections onto CBF halfspaces for robot navigation, manipulation, driving"
+}
+},
+"155892": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Low-rank adaptation of weather backbones for future high-resolution atmospheric trajectory prediction"
+}
+},
+"148839": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Gromov-Wasserstein optimal transport convergence"
+}
+},
+"152923": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Supercritical nonlinear dynamics of reservoirs/neural ODEs; trajectory readout timing vs terminal collapse"
+}
+},
+"151122": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Learning payoff-independent response structure of population game dynamics to predict trajectories under new payoffs"
+}
+},
+"148686": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "RL-tuned MPC with high-order control barrier function constraints for shape-aware robot navigation"
+}
+},
+"152395": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Multimodal flow proposals for MPPI planner-guided model-based RL on DMC/MyoSuite"
+}
+},
+"153971": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "LLM-guided RL for formulaic alpha discovery in trading; finance, no dynamics"
+}
+},
+"155771": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Federated multi-task RL on MiniGrid/MetaWorld; generic RL algorithm"
+}
+},
+"149917": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Optimal linear controller structure under LQG-type dynamics with multiplicative noise; filtering-control coupling"
+}
+},
+"148849": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Parallel-in-time RNN training for nonlinear dynamical-systems reconstruction"
+}
+},
+"149706": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Online bidding with state-dependent dynamic value and ODE-characterized optimal policy; regret bounds"
+}
+},
+"152081": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Differentiable EKF-based training for chaotic dynamical-system reconstruction surrogates; reconstruction and uncertainty, not control"
+}
+},
+"155145": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Diversity-aware red teaming of VLA instruction robustness"
+}
+},
+"155619": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Online prediction of unknown linear dynamical systems with regret, motivated by stabilization; instability complexity"
+}
+},
+"149611": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Learned safety filter with uncertainty-aware dynamics model for safe RL on CartPole/Walker"
+}
+},
+"151224": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "DNS-calibrated stochastic closure for long-horizon turbulence diffusion rollouts; simulation surrogate"
+}
+},
+"153912": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Dynamic k-center clustering; streaming algorithms, not dynamical systems"
+}
+},
+"149695": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Nonlinear Bayesian moment filter generalizing Kalman filter for state estimation"
+}
+},
+"150595": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Spiking network connectivity and continual learning; neuroscience, no control."
+}
+},
+"150431": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Safe offline RL formulated as state-constrained optimal control with HJB equation and hard safety constraints"
+}
+},
+"151538": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Offline RL loss on action derivatives; generic policy learning on OGBench/D4RL benchmarks"
+}
+},
+"152714": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Looped transformer halting; training stability false friend"
+}
+},
+"151729": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Offline constrained RL theory under partial coverage; constrained MDPs"
+}
+},
+"150579": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Selective SSM architecture for irregular time-series classification; sequence model false friend"
+}
+},
+"149083": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Score-based Bayesian filter for nonlinear high-dimensional data assimilation of Kolmogorov flow"
+}
+},
+"153437": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Factored world model with explicit action-conditioned agent-state transitions for navigation simulation"
+}
+},
+"155340": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Inertia-matrix Riemannian embedding for clinical gait classification; representation learning, not control"
+}
+},
+"152958": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Risk-sensitive RL theory (ergodic risk measures) for continual RL; risk-aware sequential decision making"
+}
+},
+"148848": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Controller synthesis for Signal Temporal Logic specifications on drones and quadrupeds via hierarchical timed-subgoal RL."
+}
+},
+"149715": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Guided flow matching recast as barrier-constrained optimal control with HJB approximation; sampling, not physical system"
+}
+},
+"156059": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Neural barrier certificates and safe controller synthesis for unknown monotone dynamical systems."
+}
+},
+"150437": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "RL for quantum circuit synthesis; discrete combinatorial"
+}
+},
+"152163": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Real2Sim simulation environment generation for robot data; no controller contribution"
+}
+},
+"148840": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "SF",
+"reason": "Hamilton-Jacobi reachability gated diffusion policy for hard-constrained safe RL on quadrotor and fixed-wing tracking"
+}
+},
+"151601": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Spectral gradient flow dynamics of Muon-style orthogonalized updates in matrix factorization"
+}
+},
+"148482": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Structural bias in class-incremental learning heads"
+}
+},
+"155014": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Characterizes HMMs whose Bayes filter is exactly linear and filter approximation-error decay rates"
+}
+},
+"151721": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Selective inference after active data collection"
+}
+},
+"151951": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Schur-projection guaranteeing asymptotic stability in state-space neural identification of dynamical systems"
+}
+},
+"156017": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Feature caching to accelerate diffusion transformers"
+}
+},
+"156147": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Predictively-oriented extended Kalman filter for misspecified nonlinear state-space models"
+}
+},
+"150687": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Saddle-to-saddle learning dynamics explaining shortcut learning in linear SSL networks"
+}
+},
+"151573": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Online recursive Bayesian calibration tracking time-varying parameters of evolving systems with regime-shift detection; data assimilation"
+}
+},
+"156105": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Differentiable resampling for particle filters; nonlinear state estimation and dynamics learning"
+}
+},
+"149055": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Sample complexity of forward-KL-regularized offline contextual bandits"
+}
+},
+"155981": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Large-scale empirical study of offline RL/IL on standard benchmarks"
+}
+},
+"153994": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Latent linear dynamical systems identified from neural recordings for mechanism, not control"
+}
+},
+"152469": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Federated RL for LLM agents under heterogeneity; LLM agents"
+}
+},
+"149539": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Driving world-action model unifying video/depth generation with motion planning; world model used for planning"
+}
+},
+"149313": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Biologically structured spinal-circuit controller for simulated rat locomotion with neuromechanical interface"
+}
+},
+"148146": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Visual-feature world model with latent actions used for robot policy learning and RL inside the model"
+}
+},
+"151181": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Quantum autoencoder compression"
+}
+},
+"149561": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Spectral identifiability theory of linear latent dynamics (Krylov bottleneck) for world models and control"
+}
+},
+"148567": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Amortized non-Gaussian smoother for data assimilation with joint state-parameter inference on Lorenz-96/Kolmogorov flow"
+}
+},
+"154457": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Retrieval-based latent steering for time-series forecasters on generic benchmarks."
+}
+},
+"155395": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Switching dynamical system model with Gumbel relaxation for time-series reconstruction"
+}
+},
+"155194": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Robust semi-supervised statistical inference; statistics"
+}
+},
+"153665": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Koopman latent operator with flow matching for probabilistic forecasting; Koopman for forecasting"
+}
+},
+"151676": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Generative active sampling of configurations for online PDE surrogate training; PDE surrogates"
+}
+},
+"155849": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Orchestration of LLM agent swarms; 'communication control' is agent routing."
+}
+},
+"152634": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "RC",
+"reason": "Hand-object tracking controller for dexterous manipulation with sim-to-physical transfer"
+}
+},
+"154712": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Interactive concept-induction benchmark for agents; no dynamics"
+}
+},
+"149799": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Safe model-based RL enforcing constraints over sampled uncertain dynamics; safety-throughout-learning and sample-complexity guarantees"
+}
+},
+"148507": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Ergodic coverage trajectory design for UAVs with acceleration/energy constraints and provable coverage bounds"
+}
+},
+"151856": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Offline RL with dynamics-informed latent context for tokamak plasma profile tracking, deployed on DIII-D"
+}
+},
+"156121": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Adaptive coordinate transform block for neural operators on PDE benchmarks; PDE surrogate learning"
+}
+},
+"155680": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Online conformal prediction intervals for time-series forecasting"
+}
+},
+"155891": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "In-context detection of bifurcation-driven critical transitions in stochastic dynamical systems"
+}
+},
+"152808": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Online identification of drifting linear-in-parameter dynamical systems with dynamic-regret tracking rates"
+}
+},
+"149032": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Mean-field continuity-equation dynamics of transformer tokens with Lyapunov estimates; dynamical-systems theory of networks"
+}
+},
+"155575": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Kalman filter/DARE analysis of drifting model posterior with optimal sample-selection design; estimation of a linear Gaussian system"
+}
+},
+"150222": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Tropical cyclone track/intensity forecasting from delayed reanalysis and satellite data; physical system forecasting"
+}
+},
+"150975": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "LC",
+"reason": "Nonstochastic online control of shared linear dynamical system by multiple agents with adversarial disturbances and regret bounds"
+}
+},
+"154576": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Bandits with best-action queries"
+}
+},
+"148917": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Multi-robot active search planning over beliefs with budgets; POMDP-style planning in physical domain"
+}
+},
+"148760": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Optimal Kalman filtering and smoothing for identified latent state-space neural models"
+}
+},
+"150375": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "OC",
+"reason": "Unbiased smoothed gradients through contact dynamics for nonsmooth trajectory optimization"
+}
+},
+"154585": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Semantic segmentation regularization"
+}
+},
+"153502": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "3D scene decomposition for editable generated worlds; perception/graphics"
+}
+},
+"155895": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Diffusion timestep schedule cast as continuous-time RL/control of reparameterized time"
+}
+},
+"155235": {
+"stratum": "out_rest",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Knockoff-based unsupervised feature selection; statistics"
+}
+},
+"153297": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ES",
+"reason": "Ensemble variational data assimilation (4DEnVar) for chaotic geophysical dynamics; joint state-parameter estimation"
+}
+},
+"148968": {
+"stratum": "core",
+"pass1": {
+"tier": "core",
+"sub": "ID",
+"reason": "Non-asymptotic system identification of fractional-order LTI systems from a single trajectory"
+}
+},
+"151518": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Evolutionary multi-objective algorithm runtime analysis"
+}
+},
+"153923": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "Spatial understanding benchmark for manipulation; no controller"
+}
+},
+"151941": {
+"stratum": "adjacent",
+"pass1": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "World model with FiLM few-shot adaptation to unseen dynamical regimes in multi-agent environments; prediction only"
+}
+},
+"150933": {
+"stratum": "out_candidate",
+"pass1": {
+"tier": "out",
+"sub": null,
+"reason": "GP bandit prior selection; no dynamics"
+}
+}
+}

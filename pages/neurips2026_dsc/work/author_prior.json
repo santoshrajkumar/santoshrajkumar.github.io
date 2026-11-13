@@ -1,0 +1,236 @@
+{
+"149929": {
+"mean": 0.192,
+"max": 0.458,
+"n_matched": 5,
+"n_authors": 10
+},
+"152722": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 4,
+"n_authors": 5
+},
+"148177": {
+"mean": 0.166,
+"max": 0.418,
+"n_matched": 7,
+"n_authors": 13
+},
+"155447": {
+"mean": 0.024,
+"max": 0.263,
+"n_matched": 11,
+"n_authors": 12
+},
+"152978": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 14,
+"n_authors": 17
+},
+"149391": {
+"mean": 0.271,
+"max": 0.495,
+"n_matched": 8,
+"n_authors": 8
+},
+"153144": {
+"mean": 0.22,
+"max": 0.44,
+"n_matched": 6,
+"n_authors": 7
+},
+"154864": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 3,
+"n_authors": 4
+},
+"155539": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 6,
+"n_authors": 7
+},
+"154741": {
+"mean": 0.089,
+"max": 0.267,
+"n_matched": 3,
+"n_authors": 3
+},
+"150596": {
+"mean": 0.223,
+"max": 0.25,
+"n_matched": 2,
+"n_authors": 4
+},
+"149263": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 3,
+"n_authors": 3
+},
+"149058": {
+"mean": 0.207,
+"max": 0.414,
+"n_matched": 2,
+"n_authors": 8
+},
+"156015": {
+"mean": 0.137,
+"max": 0.412,
+"n_matched": 3,
+"n_authors": 10
+},
+"150348": {
+"mean": 0.079,
+"max": 0.414,
+"n_matched": 7,
+"n_authors": 51
+},
+"153417": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 2,
+"n_authors": 4
+},
+"150102": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 4
+},
+"152382": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 8
+},
+"152398": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 9
+},
+"154988": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 2,
+"n_authors": 8
+},
+"154984": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 3
+},
+"148811": {
+"mean": 0.032,
+"max": 0.032,
+"n_matched": 1,
+"n_authors": 6
+},
+"149711": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 5
+},
+"151980": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 1
+},
+"150493": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 5
+},
+"155171": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 6
+},
+"148385": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 5
+},
+"151950": {
+"mean": 0.03,
+"max": 0.061,
+"n_matched": 2,
+"n_authors": 8
+},
+"148853": {
+"mean": 0.013,
+"max": 0.013,
+"n_matched": 1,
+"n_authors": 4
+},
+"152147": {
+"mean": 0.011,
+"max": 0.023,
+"n_matched": 2,
+"n_authors": 4
+},
+"155772": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 2,
+"n_authors": 10
+},
+"152801": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 2,
+"n_authors": 4
+},
+"149334": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 12
+},
+"154981": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 4
+},
+"155620": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 3,
+"n_authors": 14
+},
+"150698": {
+"mean": 0.077,
+"max": 0.154,
+"n_matched": 2,
+"n_authors": 8
+},
+"152435": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 8
+},
+"150338": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 6
+},
+"151606": {
+"mean": 0.0,
+"max": 0.0,
+"n_matched": 1,
+"n_authors": 2
+}
+}

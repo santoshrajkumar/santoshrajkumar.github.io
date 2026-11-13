@@ -1,0 +1,482 @@
+[
+ {
+  "id": "151141",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Curriculum training of PINNs/neural operators for PDE solving; modelling, not control"
+ },
+ {
+  "id": "151289",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series anomaly detection via distillation; no dynamical system"
+ },
+ {
+  "id": "152096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian optimization stopping criteria; black-box optimization, no dynamics"
+ },
+ {
+  "id": "153304",
+  "tier": "out",
+  "sub": null,
+  "reason": "4D driving scene reconstruction with Gaussian splatting; perception only"
+ },
+ {
+  "id": "151443",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "On-policy solver-guided post-training of PDE foundation models; autoregressive surrogate rollout"
+ },
+ {
+  "id": "153912",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic k-center clustering; streaming algorithms, not dynamical systems"
+ },
+ {
+  "id": "148205",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion noise schedule analysis; generative modelling"
+ },
+ {
+  "id": "151538",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline RL loss on action derivatives; generic policy learning on OGBench/D4RL benchmarks"
+ },
+ {
+  "id": "148523",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online bilevel optimization regret bounds; no system controlled"
+ },
+ {
+  "id": "152768",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Transformer learned simulator of rigid-body contact dynamics; prediction, not control"
+ },
+ {
+  "id": "149150",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust covariance estimation; statistics"
+ },
+ {
+  "id": "148872",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive CVaR online POMDP planning with finite-time guarantees"
+ },
+ {
+  "id": "155774",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zeroth-order methods for MPECs/Stackelberg games; static optimization"
+ },
+ {
+  "id": "148196",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spiking neuron model for SNN classification; no system control"
+ },
+ {
+  "id": "149164",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal tokenizer for vision generation/understanding"
+ },
+ {
+  "id": "154986",
+  "tier": "out",
+  "sub": null,
+  "reason": "Frank-Wolfe lower bounds; convex optimization"
+ },
+ {
+  "id": "148436",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust mean estimation statistics"
+ },
+ {
+  "id": "152688",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM chain-of-thought monitoring attacks"
+ },
+ {
+  "id": "153994",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Latent linear dynamical systems identified from neural recordings for mechanism, not control"
+ },
+ {
+  "id": "148714",
+  "tier": "out",
+  "sub": null,
+  "reason": "Atomic property prediction evaluation protocol; chemistry"
+ },
+ {
+  "id": "153617",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline learning in KL-regularized zero-sum games; no dynamics"
+ },
+ {
+  "id": "152554",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic stability of federated optimization; training stability false friend"
+ },
+ {
+  "id": "152645",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Data poisoning of learned world models used for planning in continuous control"
+ },
+ {
+  "id": "151292",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video diffusion motion loss; generation"
+ },
+ {
+  "id": "148936",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dueling bandits theory"
+ },
+ {
+  "id": "151703",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic graph link prediction; structural dynamics is a graph feature"
+ },
+ {
+  "id": "152004",
+  "tier": "out",
+  "sub": null,
+  "reason": "Information-theoretic analysis of diffusion generation; not a dynamical system contribution"
+ },
+ {
+  "id": "152943",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for LLM optimization-modeling code generation"
+ },
+ {
+  "id": "149847",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Multi-agent coordination of vehicle fleets with noisy dynamics via OT separation; RL policies"
+ },
+ {
+  "id": "152577",
+  "tier": "out",
+  "sub": null,
+  "reason": "Manifold-valued regression statistics"
+ },
+ {
+  "id": "148443",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL autoscaling policy for LLM serving infrastructure; computing-systems resource control, no physical dynamics"
+ },
+ {
+  "id": "152714",
+  "tier": "out",
+  "sub": null,
+  "reason": "Looped transformer halting; training stability false friend"
+ },
+ {
+  "id": "151105",
+  "tier": "out",
+  "sub": null,
+  "reason": "Label-noise subset selection"
+ },
+ {
+  "id": "150355",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bilevel RL hypergradients with IRL; generic RL, no dynamics framing"
+ },
+ {
+  "id": "151932",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for LLM reasoning (GRPO-style)"
+ },
+ {
+  "id": "150123",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic bilevel optimization complexity"
+ },
+ {
+  "id": "151847",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal prediction Stackelberg game; no dynamics"
+ },
+ {
+  "id": "153476",
+  "tier": "out",
+  "sub": null,
+  "reason": "Image-to-video adapter placement; vision"
+ },
+ {
+  "id": "150755",
+  "tier": "out",
+  "sub": null,
+  "reason": "Approximate matrix-vector products; numerical linear algebra"
+ },
+ {
+  "id": "156114",
+  "tier": "out",
+  "sub": null,
+  "reason": "Embodied chain-of-thought VLA for manipulation; no controller contribution"
+ },
+ {
+  "id": "152674",
+  "tier": "out",
+  "sub": null,
+  "reason": "Change-point identification under bandit feedback; statistics"
+ },
+ {
+  "id": "149041",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Flow-matching robot action generation with adaptive refinement; policy learning, no dynamics model"
+ },
+ {
+  "id": "153641",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentiable knapsack/top-k operators; combinatorial optimization"
+ },
+ {
+  "id": "152014",
+  "tier": "out",
+  "sub": null,
+  "reason": "When to adopt upstream model updates; ML systems"
+ },
+ {
+  "id": "149834",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-task regression for virtual sensors; generic signal prediction, no observer or dynamics"
+ },
+ {
+  "id": "149517",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Schrödinger bridge sampling as ill-conditioned control problem; trust-region IPF"
+ },
+ {
+  "id": "155286",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strategic exploitation of FTRL learners in games"
+ },
+ {
+  "id": "151246",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Multi-fidelity data scaling for neural PDE surrogates; simulation surrogates"
+ },
+ {
+  "id": "150229",
+  "tier": "out",
+  "sub": null,
+  "reason": "Batched linear bandits with communication constraints"
+ },
+ {
+  "id": "153363",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discretization analysis of annealed Langevin sampler; numerical stability of sampling"
+ },
+ {
+  "id": "152834",
+  "tier": "out",
+  "sub": null,
+  "reason": "GFlowNet workflow topology for LLM multi-agent systems"
+ },
+ {
+  "id": "154625",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "PPO with action chunks plus within-chunk feedback correction on robot RL benchmarks; policy learning"
+ },
+ {
+  "id": "150438",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent benchmark synthesis"
+ },
+ {
+  "id": "152616",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scaling-law guided model selection as bandit"
+ },
+ {
+  "id": "153634",
+  "tier": "out",
+  "sub": null,
+  "reason": "Kernel Granger component analysis of multivariate time series; generic directed-dependence discovery"
+ },
+ {
+  "id": "154639",
+  "tier": "out",
+  "sub": null,
+  "reason": "Social learning in MARL; generic RL"
+ },
+ {
+  "id": "151108",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Bandits whose actions drive latent linear dynamics; confidence sets on dynamics, open-loop benchmark"
+ },
+ {
+  "id": "149711",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline RL fine-tuning of flow policies on OGBench; SOC only as sampler formalism"
+ },
+ {
+  "id": "153613",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bilevel minimax optimization complexity"
+ },
+ {
+  "id": "148581",
+  "tier": "out",
+  "sub": null,
+  "reason": "Batched Hartigan k-means"
+ },
+ {
+  "id": "148461",
+  "tier": "out",
+  "sub": null,
+  "reason": "Annealed Langevin tuning for simulation-based inference; sampling"
+ },
+ {
+  "id": "153029",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive compute halting in RL policies; architecture, not dynamics"
+ },
+ {
+  "id": "151832",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent memory consumption diagnosis"
+ },
+ {
+  "id": "151467",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM multi-agent orchestration controller; not a dynamical system"
+ },
+ {
+  "id": "152070",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion posterior sampling for climate downscaling; static inverse problem"
+ },
+ {
+  "id": "149498",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Humanoid loco-manipulation skills from human video via mimic RL; policy learning without explicit dynamics/control structure"
+ },
+ {
+  "id": "155448",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video sleep staging"
+ },
+ {
+  "id": "152709",
+  "tier": "out",
+  "sub": null,
+  "reason": "Wasserstein DRO adversarial training; robust-control experiment is incidental"
+ },
+ {
+  "id": "150958",
+  "tier": "out",
+  "sub": null,
+  "reason": "Misspecified kernelized bandits"
+ },
+ {
+  "id": "149449",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal abstraction validity metrics on simulated systems; explanation, not dynamics"
+ },
+ {
+  "id": "148288",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Neural network observer for uncertain dynamical systems with LMI-certified Lyapunov stability"
+ },
+ {
+  "id": "152783",
+  "tier": "out",
+  "sub": null,
+  "reason": "Synthetic gradients vs backpropagation sample efficiency"
+ },
+ {
+  "id": "154156",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Sequence model of battery cycle dynamics predicting voltage response and degradation; representation, no control"
+ },
+ {
+  "id": "148390",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nested causal bandits with PAC-Bayes certificates; no dynamics"
+ },
+ {
+  "id": "149242",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Diagonal SSM bases aligned with conservation laws for stable N-body physical rollouts"
+ },
+ {
+  "id": "152787",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Scalable graph neural operator for PDE/CFD mesh surrogates"
+ },
+ {
+  "id": "153598",
+  "tier": "out",
+  "sub": null,
+  "reason": "Time-series foundation model adapter for anomaly detection"
+ },
+ {
+  "id": "154231",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Forward/inverse internal models producing open-loop multi-step control sequences; quantum pulse control vs GRAPE"
+ },
+ {
+  "id": "154157",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "PAC-Bayesian finite-sample bounds for identification of partially observed stochastic LTI systems"
+ },
+ {
+  "id": "154804",
+  "tier": "out",
+  "sub": null,
+  "reason": "Backdoor defense for SSL encoders"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "149076",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA fine-tuning with smooth action decoder; no controller or dynamics contribution"
+ },
+ {
+  "id": "154235",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM chain-of-thought step routing; no dynamical system"
+ },
+ {
+  "id": "155893",
+  "tier": "out",
+  "sub": null,
+  "reason": "Extragradient stepsize schedules for min-max optimization"
+ },
+ {
+  "id": "154770",
+  "tier": "out",
+  "sub": null,
+  "reason": "GNN surrogate for SDP relaxations in Max-Cut branch-and-bound"
+ },
+ {
+  "id": "155359",
+  "tier": "out",
+  "sub": null,
+  "reason": "Random-matrix spectral extrapolation of covariance eigenvalues"
+ },
+ {
+  "id": "150281",
+  "tier": "out",
+  "sub": null,
+  "reason": "BEV perception robustness for driving; perception-only, adversarial robustness"
+ },
+ {
+  "id": "152550",
+  "tier": "out",
+  "sub": null,
+  "reason": "Antibody CDR design via diffusion-GFlowNet"
+ },
+ {
+  "id": "149722",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective PPO on standard RL benchmarks; generic deep RL"
+ },
+ {
+  "id": "155684",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence theory of momentum SGD on quadratics; optimization not dynamical-systems analysis"
+ },
+ {
+  "id": "154914",
+  "tier": "out",
+  "sub": null,
+  "reason": "Source-free domain adaptation on generic time-series forecasting benchmarks"
+ },
+ {
+  "id": "154598",
+  "tier": "out",
+  "sub": null,
+  "reason": "Single-index theory of reward models for KL-regularized policy optimization (RLHF-style)"
+ },
+ {
+  "id": "155789",
+  "tier": "out",
+  "sub": null,
+  "reason": "GP inference recast as linear diffusion ODE; probabilistic modelling, not dynamics"
+ },
+ {
+  "id": "149215",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO advantage reweighting for VLA post-training"
+ },
+ {
+  "id": "152077",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Data assimilation with observability-constrained correction directions for dynamical systems; state estimation"
+ },
+ {
+  "id": "149995",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative traffic scenario synthesis for AV simulation; behaviour generation, not control"
+ },
+ {
+  "id": "151629",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Dynamical-systems reconstruction with out-of-domain extrapolation bounds across tipping points"
+ },
+ {
+  "id": "154629",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse attention for video diffusion; 'dynamics' means motion regions"
+ },
+ {
+  "id": "154464",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Diffusion world model with actor-critic learning in imagination for visual navigation"
+ },
+ {
+  "id": "151717",
+  "tier": "out",
+  "sub": null,
+  "reason": "Best-action identification in stochastic minimax trees; bandit/MCTS theory"
+ },
+ {
+  "id": "148893",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA adaptation preserving pretrained priors; no controller contribution"
+ },
+ {
+  "id": "155222",
+  "tier": "out",
+  "sub": null,
+  "reason": "Physics-plausibility guidance for video generation"
+ },
+ {
+  "id": "148940",
+  "tier": "out",
+  "sub": null,
+  "reason": "Resilience metrics for LLM embodied agents; 'stability' used informally"
+ },
+ {
+  "id": "150014",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hypernetwork generating normalizing-flow weights for lattice field theory"
+ },
+ {
+  "id": "149678",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformer training-dynamics convergence proof to power method; learning theory, not control"
+ },
+ {
+  "id": "152213",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Multi-step probabilistic losses for long-horizon dynamics prediction on chaotic systems; prediction only"
+ },
+ {
+  "id": "148361",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pure-exploration bandit sample complexity"
+ },
+ {
+  "id": "149919",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-guided RL trust calibration; generic RL"
+ },
+ {
+  "id": "154400",
+  "tier": "out",
+  "sub": null,
+  "reason": "MARL for coupled facility-location graph games; no dynamics"
+ },
+ {
+  "id": "150432",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inference-time compute scheduling for VLA models; acceleration not control"
+ },
+ {
+  "id": "149566",
+  "tier": "out",
+  "sub": null,
+  "reason": "Image steganography"
+ },
+ {
+  "id": "151150",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO variant for agentic multimodal reasoning"
+ },
+ {
+  "id": "151024",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM heuristic evolution for combinatorial optimization"
+ },
+ {
+  "id": "155539",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent-action world modelling for LLM/VLM reasoning with GRPO; no planning or control use"
+ },
+ {
+  "id": "150268",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion in aligned tensor space for images/videos/PDE fields; generative compression"
+ },
+ {
+  "id": "149094",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context learning mechanism in transformers"
+ },
+ {
+  "id": "152703",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformer approximation and generalization theory"
+ },
+ {
+  "id": "148733",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Diffusion reward fine-tuning cast as stochastic optimal control of sampling SDE"
+ },
+ {
+  "id": "148736",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Compositional diffusion planner guidance for long-horizon locomotion/manipulation plans"
+ },
+ {
+  "id": "149956",
+  "tier": "out",
+  "sub": null,
+  "reason": "Entropy dynamics of LLM agent RL training; empirical training dynamics"
+ },
+ {
+  "id": "155034",
+  "tier": "out",
+  "sub": null,
+  "reason": "Annealed Langevin sampler theory for guided generation"
+ },
+ {
+  "id": "149057",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial bandits with safe-baseline regret; no system dynamics"
+ },
+ {
+  "id": "149102",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral analysis of successor representations; generic RL representation learning"
+ },
+ {
+  "id": "154083",
+  "tier": "out",
+  "sub": null,
+  "reason": "Accelerated adaptive optimizer for deep networks"
+ },
+ {
+  "id": "148567",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Amortized non-Gaussian smoother for data assimilation with joint state-parameter inference on Lorenz-96/Kolmogorov flow"
+ },
+ {
+  "id": "151813",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL in large discrete action spaces for logistics/scheduling"
+ },
+ {
+  "id": "148489",
+  "tier": "out",
+  "sub": null,
+  "reason": "Kernel critic regularization for offline RL on D4RL/OGBench"
+ },
+ {
+  "id": "148628",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parametric bandits with coarsened feedback"
+ },
+ {
+  "id": "148440",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical diffusion RL with option-critic on continuous-control benchmarks; generic RL"
+ },
+ {
+  "id": "150274",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time evolution of LLM multi-agent systems"
+ },
+ {
+  "id": "151607",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Switching nonlinear latent dynamics identified from neural and behavioural recordings; modelling only"
+ },
+ {
+  "id": "153523",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gauss-Newton curvature approximation for cross-entropy"
+ },
+ {
+  "id": "148237",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stepwise language feedback for LLM reasoning RL"
+ },
+ {
+  "id": "154515",
+  "tier": "out",
+  "sub": null,
+  "reason": "Structure-controlled 3D object generation; 'control' means conditioning"
+ },
+ {
+  "id": "155486",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial kernelized bandits regret"
+ },
+ {
+  "id": "149362",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nonsmooth nonconvex optimization stationarity"
+ },
+ {
+  "id": "149475",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strong SDE solution maps for few-step generative sampling"
+ },
+ {
+  "id": "153285",
+  "tier": "out",
+  "sub": null,
+  "reason": "Posterior sampling regret in tabular episodic MDPs"
+ },
+ {
+  "id": "151017",
+  "tier": "out",
+  "sub": null,
+  "reason": "Phase-conditioned LoRA for VLA policies; 'control regime' is a false friend"
+ },
+ {
+  "id": "148561",
+  "tier": "out",
+  "sub": null,
+  "reason": "Evolutionary simulation of foraging strategies"
+ },
+ {
+  "id": "154779",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-agent LLM debate theory"
+ },
+ {
+  "id": "155188",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural PDE simulation inferring hidden problem state before rollout; surrogate modelling"
+ },
+ {
+  "id": "154209",
+  "tier": "out",
+  "sub": null,
+  "reason": "Jacobian descent for multi-objective optimization"
+ },
+ {
+  "id": "152847",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoders for LLM safety steering"
+ },
+ {
+  "id": "150899",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Depth-wise attention for PDE operator learning surrogates"
+ },
+ {
+  "id": "149253",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Time-parallel graph neural operators for PDE and network dynamics forecasting"
+ },
+ {
+  "id": "154741",
+  "tier": "out",
+  "sub": null,
+  "reason": "Operator re-identification from humanoid teleoperation datasets; dataset privacy"
+ },
+ {
+  "id": "153367",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentiable diffusion conditioning for offline design optimization; static designs"
+ },
+ {
+  "id": "152403",
+  "tier": "out",
+  "sub": null,
+  "reason": "Radar velocity-field estimation; perception only"
+ },
+ {
+  "id": "154405",
+  "tier": "out",
+  "sub": null,
+  "reason": "Critique mechanism steering in reasoning LLMs"
+ },
+ {
+  "id": "149658",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Complexity of policy iteration for robust MDPs with L_p uncertainty sets; robust sequential decision theory"
+ },
+ {
+  "id": "148875",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Multi-horizon neural surrogates for PDE and rigid-body dynamics with error-gated solver fallback"
+ },
+ {
+  "id": "148370",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mask-aware distributed attention kernels"
+ },
+ {
+  "id": "152226",
+  "tier": "out",
+  "sub": null,
+  "reason": "Collusion of regret-minimizing agents in pricing games"
+ },
+ {
+  "id": "150375",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Unbiased smoothed gradients through contact dynamics for nonsmooth trajectory optimization"
+ },
+ {
+  "id": "151162",
+  "tier": "out",
+  "sub": null,
+  "reason": "Frequency-domain echo state network as efficient sequence model"
+ },
+ {
+  "id": "151783",
+  "tier": "out",
+  "sub": null,
+  "reason": "LRMs versus human game learners with fMRI alignment"
+ },
+ {
+  "id": "156023",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unbalanced optimal-transport flow matching for single-cell data"
+ },
+ {
+  "id": "148444",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Optimizer preconditioning recast as layerwise LQR; the controlled system is the learning algorithm"
+ },
+ {
+  "id": "154395",
+  "tier": "out",
+  "sub": null,
+  "reason": "Retraining schedules via learning curves in online learning"
+ },
+ {
+  "id": "154545",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Distributionally robust Markov games with linear function approximation; robust multi-agent RL theory"
+ }
+]

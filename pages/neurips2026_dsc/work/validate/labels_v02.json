@@ -1,0 +1,362 @@
+[
+ {
+  "id": "154829",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed saddle point optimization complexity"
+ },
+ {
+  "id": "148240",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Optimal sensor placement for state estimation with posterior sampling"
+ },
+ {
+  "id": "153566",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Coordinated motion of multi-component robot with physics-residual dynamics model"
+ },
+ {
+  "id": "151682",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Diffusion planning for reach-avoid tasks without dynamics model"
+ },
+ {
+  "id": "151370",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Online prediction of marginally stable linear dynamical systems with regret bounds"
+ },
+ {
+  "id": "155189",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural operator for sparse event-to-field PDE learning"
+ },
+ {
+  "id": "148902",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA adaptive reasoning triggering; no controller contribution"
+ },
+ {
+  "id": "152436",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Synthesis of interpretable distributed swarm controllers"
+ },
+ {
+  "id": "155054",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Stable z-domain neural operator for discrete-time system identification"
+ },
+ {
+  "id": "155933",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Port-Hamiltonian prior for inertial odometry state estimation"
+ },
+ {
+  "id": "148281",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scenario reduction for two-stage robust optimization"
+ },
+ {
+  "id": "148367",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe policy improvement in offline continuous RL with model trust"
+ },
+ {
+  "id": "150423",
+  "tier": "out",
+  "sub": null,
+  "reason": "Private optimal transport map estimation"
+ },
+ {
+  "id": "153890",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent failure attribution"
+ },
+ {
+  "id": "149190",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based RL exploration intrinsic reward"
+ },
+ {
+  "id": "149542",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Training measures for neural physics surrogates"
+ },
+ {
+  "id": "153316",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative inverse design of laser pulse shapes; surrogate modelling"
+ },
+ {
+  "id": "154263",
+  "tier": "out",
+  "sub": null,
+  "reason": "Calibration error minimax rates"
+ },
+ {
+  "id": "153013",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Closed-loop causal discovery and control of building energy system"
+ },
+ {
+  "id": "149557",
+  "tier": "out",
+  "sub": null,
+  "reason": "Matching bandits regret"
+ },
+ {
+  "id": "155392",
+  "tier": "out",
+  "sub": null,
+  "reason": "GUI agent reward modelling for RLVR"
+ },
+ {
+  "id": "155091",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for LLM knowledge graph reasoning"
+ },
+ {
+  "id": "152645",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Data poisoning of learned world models for planning"
+ },
+ {
+  "id": "155311",
+  "tier": "out",
+  "sub": null,
+  "reason": "Crystal tensor property prediction"
+ },
+ {
+  "id": "154743",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Grey-box RC thermal model identification, control-aware building emulator"
+ },
+ {
+  "id": "152267",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Latent observer correcting world model online with convergence guarantees"
+ },
+ {
+  "id": "150785",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Open quantum system control with path-space regularization"
+ },
+ {
+  "id": "151200",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Koopman/dynamical view of prompt-tuning update trajectories"
+ },
+ {
+  "id": "153500",
+  "tier": "out",
+  "sub": null,
+  "reason": "Ranking feedback bandits regret"
+ },
+ {
+  "id": "148189",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Post-hoc dynamic feasibility correction for trajectory predictors"
+ },
+ {
+  "id": "152955",
+  "tier": "out",
+  "sub": null,
+  "reason": "Controllable time-series generation; generic"
+ },
+ {
+  "id": "149155",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hamiltonian neural network for multi-timescale dynamics modelling"
+ },
+ {
+  "id": "154156",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Battery operational representation learning for degradation dynamics"
+ },
+ {
+  "id": "150790",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Sum-of-squares certificate layers, incl. pendulum control certification"
+ },
+ {
+  "id": "150632",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural acoustic field rendering"
+ },
+ {
+  "id": "148335",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Programmatic traffic signal controllers distilled from DRL"
+ },
+ {
+  "id": "155280",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM SFT behavior reversal"
+ },
+ {
+  "id": "150165",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Decentralized multi-robot diffusion motion planning"
+ },
+ {
+  "id": "148907",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical clustering theory"
+ },
+ {
+  "id": "155670",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Imitation learning stabilizing controller for Vlasov-Poisson plasma"
+ },
+ {
+  "id": "148546",
+  "tier": "out",
+  "sub": null,
+  "reason": "Operator concentration inequalities"
+ },
+ {
+  "id": "155914",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Multi-agent traffic signal control coordination"
+ },
+ {
+  "id": "154231",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Inverse models for open-loop trajectory control, quantum gate synthesis"
+ },
+ {
+  "id": "154614",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Black-box forecasting of atmospheric pollutant dynamics"
+ },
+ {
+  "id": "151666",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural surrogate for boundary-driven PDEs"
+ },
+ {
+  "id": "149306",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Gaussian-mixture filter for robot pose relocalization"
+ },
+ {
+  "id": "151141",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Curriculum learning for PINNs"
+ },
+ {
+  "id": "152860",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Sensor ranking in latent Kalman data assimilation"
+ },
+ {
+  "id": "153003",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Differentiable nonlinear MPC sensitivities"
+ },
+ {
+  "id": "148733",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Diffusion fine-tuning as stochastic optimal control"
+ },
+ {
+  "id": "154353",
+  "tier": "out",
+  "sub": null,
+  "reason": "Masked diffusion model scoring"
+ },
+ {
+  "id": "155737",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA failure-informed learning"
+ },
+ {
+  "id": "153874",
+  "tier": "out",
+  "sub": null,
+  "reason": "Anytime confidence sequences"
+ },
+ {
+  "id": "155360",
+  "tier": "out",
+  "sub": null,
+  "reason": "Physical adversarial LED patterns against detectors"
+ },
+ {
+  "id": "149861",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Prioritized sweeping model-based planning in non-stationary RL"
+ },
+ {
+  "id": "153723",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Universal approximation of dynamical systems by neural ODEs"
+ },
+ {
+  "id": "148644",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Cost evaluation of neural PDE solvers"
+ },
+ {
+  "id": "154157",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "PAC-Bayesian bounds for LTI state-space system identification"
+ },
+ {
+  "id": "148522",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantization with randomized Hadamard transform"
+ },
+ {
+  "id": "152343",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Offline LTL planning for robots via learned reachability graph"
+ }
+]

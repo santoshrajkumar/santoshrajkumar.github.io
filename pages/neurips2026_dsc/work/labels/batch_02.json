@@ -1,0 +1,482 @@
+[
+ {
+  "id": "152722",
+  "tier": "out",
+  "sub": null,
+  "reason": "Any-step SDE flow maps for generative sampling; 'control' means guidance/steering of image generation"
+ },
+ {
+  "id": "155511",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lipschitz continuity of graph algorithms; no dynamical system"
+ },
+ {
+  "id": "151835",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for LLM post-training (training-inference mismatch); RLHF-style, out"
+ },
+ {
+  "id": "149254",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cooperative game theory with order-dependent worth; no dynamics"
+ },
+ {
+  "id": "150930",
+  "tier": "out",
+  "sub": null,
+  "reason": "Text-to-hand-motion dataset and benchmark; no controller"
+ },
+ {
+  "id": "150467",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust contextual optimization for pricing/ski rental; no dynamical system"
+ },
+ {
+  "id": "151622",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Max-entropy RL algorithm positioned for high-dimensional humanoid control; policy learning without control structure"
+ },
+ {
+  "id": "148177",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA for autonomous driving with latent CoT and GRPO; no controller contribution"
+ },
+ {
+  "id": "148980",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "RL fine-tuning theory for robot diffusion policies on locomotion/manipulation; generic policy learning"
+ },
+ {
+  "id": "153096",
+  "tier": "out",
+  "sub": null,
+  "reason": "'Affective controller' means controllable image editing; false friend"
+ },
+ {
+  "id": "148371",
+  "tier": "out",
+  "sub": null,
+  "reason": "Social choice axiomatics; no dynamics"
+ },
+ {
+  "id": "151173",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion inference acceleration via adaptive rank; 'control variable' is a hyperparameter"
+ },
+ {
+  "id": "154745",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributional RL loss in frequency domain; generic deep RL on standard benchmarks"
+ },
+ {
+  "id": "154512",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mode connectivity diagnostic for MARL policies on SMAC; no physical dynamics"
+ },
+ {
+  "id": "156150",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision-focused learning with strategic agents; static games"
+ },
+ {
+  "id": "149607",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative operator sampling SPDE invariant measures; stochastic PDE surrogate, modelling not control"
+ },
+ {
+  "id": "149234",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive proximal gradient optimization theory"
+ },
+ {
+  "id": "150954",
+  "tier": "out",
+  "sub": null,
+  "reason": "Property prediction for chemical mixtures; physics-informed heads but no dynamics"
+ },
+ {
+  "id": "155888",
+  "tier": "out",
+  "sub": null,
+  "reason": "Constrained sampling for variable-order Markov music generation; 'controls' are regular constraints"
+ },
+ {
+  "id": "148413",
+  "tier": "out",
+  "sub": null,
+  "reason": "Set-of-time-series architecture for finance/loan prediction; generic time series"
+ },
+ {
+  "id": "153519",
+  "tier": "out",
+  "sub": null,
+  "reason": "Managing bandit experts under learning budget; regret bounds without dynamics"
+ },
+ {
+  "id": "150266",
+  "tier": "out",
+  "sub": null,
+  "reason": "Economic auctions among LLM agents; no dynamical system"
+ },
+ {
+  "id": "150920",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Conformal uncertainty quantification for time-dependent PDE surrogate models; forecasting coverage, not control"
+ },
+ {
+  "id": "149878",
+  "tier": "out",
+  "sub": null,
+  "reason": "Proximal reformulation of OT flow matching; generative dynamics, not a controlled system"
+ },
+ {
+  "id": "153392",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive function-space MCMC for GP posteriors; inference, not dynamics"
+ },
+ {
+  "id": "152448",
+  "tier": "out",
+  "sub": null,
+  "reason": "Variational-inequality estimation for GLMs; statistics"
+ },
+ {
+  "id": "151608",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-guided flow VLA policy improvement; VLA paper without controller contribution"
+ },
+ {
+  "id": "149393",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conformal quantile risk control; 'risk control' is statistical, not dynamics"
+ },
+ {
+  "id": "148918",
+  "tier": "out",
+  "sub": null,
+  "reason": "Value-guided post-training of flow VLA policies; VLA paper, out"
+ },
+ {
+  "id": "149346",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural-operator urban wind surrogate feeding UAV energy-aware path planning; CFD surrogate, no dynamics control"
+ },
+ {
+  "id": "150080",
+  "tier": "out",
+  "sub": null,
+  "reason": "LTL instruction following in multi-task RL; generic RL, no physical dynamics"
+ },
+ {
+  "id": "156136",
+  "tier": "out",
+  "sub": null,
+  "reason": "Asynchronous on-policy distillation for LLMs"
+ },
+ {
+  "id": "149399",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hybrid-parallel training strategy re-planning; systems"
+ },
+ {
+  "id": "155914",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Multi-agent RL for network-level traffic signal control; traffic control counts as core"
+ },
+ {
+  "id": "154425",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Active turbulent-flow drag reduction via DRL with generative flow-state targets; PDE/fluid control"
+ },
+ {
+  "id": "156105",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Differentiable resampling for particle filters; nonlinear state estimation and dynamics learning"
+ },
+ {
+  "id": "150474",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision Transformer offline RL on D4RL with distribution correction; generic RL"
+ },
+ {
+  "id": "154032",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Learned whole-body force regulation approximating impedance control on a bipedal humanoid"
+ },
+ {
+  "id": "152675",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-neural world model for deformable objects from video; simulation/rendering, no control"
+ },
+ {
+  "id": "155288",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hybrid neural PDE solver with multiscale finite elements; PDE surrogate"
+ },
+ {
+  "id": "155447",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agents generating symbolic PDDL world models; language agents"
+ },
+ {
+  "id": "150036",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nonconvex stochastic optimization under growing-variance noise"
+ },
+ {
+  "id": "156061",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latency-aware VLA for dynamic object manipulation; VLA model, no controller contribution"
+ },
+ {
+  "id": "155734",
+  "tier": "out",
+  "sub": null,
+  "reason": "Graph-convergence approximation of monotone operators; operator theory without dynamics"
+ },
+ {
+  "id": "154972",
+  "tier": "out",
+  "sub": null,
+  "reason": "Information-directed offline-to-online RL regret; generic RL/bandits"
+ },
+ {
+  "id": "151301",
+  "tier": "out",
+  "sub": null,
+  "reason": "Action-chunking off-policy RL on Metaworld; generic RL algorithm"
+ },
+ {
+  "id": "151966",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive online calibration under non-stationarity; online prediction, no dynamics"
+ },
+ {
+  "id": "152628",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private PCA rates"
+ },
+ {
+  "id": "152152",
+  "tier": "out",
+  "sub": null,
+  "reason": "Magnitude potential for generalization; training dynamics described empirically"
+ },
+ {
+  "id": "151602",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline imitation from observations with diffusion embeddings on D4RL; generic IL"
+ },
+ {
+  "id": "154735",
+  "tier": "out",
+  "sub": null,
+  "reason": "Last-iterate convergence of gradient descent"
+ },
+ {
+  "id": "151552",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe RL via feasible-region policy optimization on Safety-Gymnasium; constrained RL"
+ },
+ {
+  "id": "153572",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline meta-RL task representation via temporal consistency; generic RL on MuJoCo/MetaWorld"
+ },
+ {
+  "id": "152978",
+  "tier": "out",
+  "sub": null,
+  "reason": "Enterprise world models for LLM agents; language agents, no planning dynamics"
+ },
+ {
+  "id": "151001",
+  "tier": "out",
+  "sub": null,
+  "reason": "Credit assignment with resets for LLM reasoning RL"
+ },
+ {
+  "id": "155132",
+  "tier": "out",
+  "sub": null,
+  "reason": "Best policy identification in tabular MDPs; generic RL theory"
+ },
+ {
+  "id": "150535",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed stochastic optimization with compression"
+ },
+ {
+  "id": "149017",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inverse linear bandits; no dynamics"
+ },
+ {
+  "id": "154380",
+  "tier": "out",
+  "sub": null,
+  "reason": "Resource allocation mechanism design"
+ },
+ {
+  "id": "151542",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-policy MaxEnt RL algorithm; generic deep RL on standard benchmarks"
+ },
+ {
+  "id": "154706",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent steering of flow policies for RL on D4RL/OGBench; generic RL"
+ },
+ {
+  "id": "149391",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D point-track dynamics pretraining for perception and manipulation policies; no planning or control use"
+ },
+ {
+  "id": "152536",
+  "tier": "out",
+  "sub": null,
+  "reason": "Heavy-tailed mean estimation theory"
+ },
+ {
+  "id": "149567",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online bilevel optimization regret"
+ },
+ {
+  "id": "154877",
+  "tier": "out",
+  "sub": null,
+  "reason": "Automatic 3D environment generation for embodied agents; simulator tooling"
+ },
+ {
+  "id": "150832",
+  "tier": "out",
+  "sub": null,
+  "reason": "Supervised data construction for LLM agent post-training"
+ },
+ {
+  "id": "148168",
+  "tier": "out",
+  "sub": null,
+  "reason": "PAC learning sample complexity"
+ },
+ {
+  "id": "153836",
+  "tier": "out",
+  "sub": null,
+  "reason": "Guidance for flow-matching generation; 'control' means conditional sampling"
+ },
+ {
+  "id": "152157",
+  "tier": "out",
+  "sub": null,
+  "reason": "Image-text contrastive pretraining"
+ },
+ {
+  "id": "151488",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hybrid Monte Carlo plus neural correction for elliptic PDE solving; PDE solver surrogate"
+ },
+ {
+  "id": "152717",
+  "tier": "out",
+  "sub": null,
+  "reason": "Active learning for GP regression under Boltzmann weights"
+ },
+ {
+  "id": "154199",
+  "tier": "out",
+  "sub": null,
+  "reason": "Explainable traffic flow forecasting; generic traffic time-series benchmark"
+ },
+ {
+  "id": "155010",
+  "tier": "out",
+  "sub": null,
+  "reason": "Density-operator latent variable models EM"
+ },
+ {
+  "id": "153144",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time value guidance of flow policies on offline RL benchmarks; generic RL"
+ },
+ {
+  "id": "151200",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Koopman/Hankel dynamical-systems regulation of prompt-update trajectories; control analysis of a learning algorithm"
+ },
+ {
+  "id": "148947",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward-free exploration via occupancy coverage; generic RL exploration"
+ },
+ {
+  "id": "151101",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reflective test-time planning for embodied LLMs; LLM agents"
+ },
+ {
+  "id": "155599",
+  "tier": "out",
+  "sub": null,
+  "reason": "Explanations for time series classification"
+ },
+ {
+  "id": "149676",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent action flow policy from videos; imitation learning, no controller contribution"
+ },
+ {
+  "id": "155630",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret in best-arm identification; bandits"
+ }
+]

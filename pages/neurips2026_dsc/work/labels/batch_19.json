@@ -1,0 +1,482 @@
+[
+ {
+  "id": "149768",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Generative SE(3) trajectory prior used for prediction, MPC and policy learning via masking; world model with planning"
+ },
+ {
+  "id": "148968",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Non-asymptotic system identification of fractional-order LTI systems from a single trajectory"
+ },
+ {
+  "id": "150118",
+  "tier": "out",
+  "sub": null,
+  "reason": "MCMC data refinement for LLM supervised fine-tuning"
+ },
+ {
+  "id": "151558",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-rate warm-up theory for norm-constrained optimizers"
+ },
+ {
+  "id": "149231",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic multi-scale time-series forecasting on finance/energy benchmarks"
+ },
+ {
+  "id": "151396",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Observation-dynamics prediction as auxiliary task for Q-learning; learned dynamics for RL without control framing"
+ },
+ {
+  "id": "156015",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA driving model with world-reasoning tokens; end-to-end planning representation, no controller contribution"
+ },
+ {
+  "id": "155202",
+  "tier": "out",
+  "sub": null,
+  "reason": "Confidence-estimation rewards for LLM RL"
+ },
+ {
+  "id": "153083",
+  "tier": "out",
+  "sub": null,
+  "reason": "Budget-feasible procurement auctions"
+ },
+ {
+  "id": "153661",
+  "tier": "out",
+  "sub": null,
+  "reason": "Torsional diffusion for protein-ligand docking"
+ },
+ {
+  "id": "155823",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "LLM agent with two-time-scale stochastic approximation for power system dispatch on L2RPN; decision making for physical grid"
+ },
+ {
+  "id": "149682",
+  "tier": "out",
+  "sub": null,
+  "reason": "Communication topology learning for MARL on StarCraft"
+ },
+ {
+  "id": "153954",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memory retrieval for VLA policies; robotics perception/representation"
+ },
+ {
+  "id": "151497",
+  "tier": "out",
+  "sub": null,
+  "reason": "Expressivity of chain-of-thought transformers for Word RAM algorithms"
+ },
+ {
+  "id": "151833",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Driving world model unifying scene generation and planning with future-aware rewarder; world model with planning"
+ },
+ {
+  "id": "155463",
+  "tier": "out",
+  "sub": null,
+  "reason": "Representation learning for visual RL generalization; 'control' means RL task performance"
+ },
+ {
+  "id": "155022",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cascaded RL for LLM reasoning models"
+ },
+ {
+  "id": "154324",
+  "tier": "out",
+  "sub": null,
+  "reason": "Analysis of LLM planning in reasoning traces"
+ },
+ {
+  "id": "152930",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal abstraction of linear non-Gaussian cyclic models; static causal discovery"
+ },
+ {
+  "id": "151678",
+  "tier": "out",
+  "sub": null,
+  "reason": "Time series anomaly detection with counterfactual pairing on generic benchmarks"
+ },
+ {
+  "id": "150052",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive distributional RL with general discounting for safety-critical decision making"
+ },
+ {
+  "id": "148238",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series forecasting architecture"
+ },
+ {
+  "id": "150910",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Schr\u00f6dinger-bridge learning of first/second-order stochastic dynamics of interacting particles for MD simulation"
+ },
+ {
+  "id": "148749",
+  "tier": "out",
+  "sub": null,
+  "reason": "Skill quantization for offline goal-conditioned RL; generic RL on navigation benchmarks"
+ },
+ {
+  "id": "148366",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline tool-use LLM agent learning from trajectories"
+ },
+ {
+  "id": "156001",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-sampling schedule to reduce VLA reaction latency; inference engineering, no controller contribution"
+ },
+ {
+  "id": "150414",
+  "tier": "out",
+  "sub": null,
+  "reason": "Referring segmentation"
+ },
+ {
+  "id": "149221",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "POMDP-based RL dispatch of UAV fleet for quickest anomaly detection with collision constraints; planning under uncertainty"
+ },
+ {
+  "id": "153606",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Neural Kalman fusion corrects latent physical state of UDE simulator each step; learned data assimilation"
+ },
+ {
+  "id": "152064",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian distribution regression with BART"
+ },
+ {
+  "id": "150106",
+  "tier": "out",
+  "sub": null,
+  "reason": "Music-to-stage-lighting generation via imitation learning; no dynamical system"
+ },
+ {
+  "id": "154599",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Long-horizon autoregressive forecasting of neural population dynamics; forecasting a dynamical system"
+ },
+ {
+  "id": "156103",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret theory for offline-online RL in linear mixture MDPs; generic RL theory"
+ },
+ {
+  "id": "152889",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-camera street reconstruction and pose estimation; perception"
+ },
+ {
+  "id": "150773",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Wavelet-space flow matching emulator for chaotic fluid PDEs; forecasting surrogate"
+ },
+ {
+  "id": "154125",
+  "tier": "out",
+  "sub": null,
+  "reason": "Experiment selection for partial causal identification; static causal inference"
+ },
+ {
+  "id": "151543",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt-injection attacks steering LLM reasoning"
+ },
+ {
+  "id": "153950",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Transformer neural operator generating latent PDE trajectories at million-point scale; surrogate"
+ },
+ {
+  "id": "155850",
+  "tier": "out",
+  "sub": null,
+  "reason": "Equilibrium learning in discretized first-price auctions; game theory"
+ },
+ {
+  "id": "154507",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spatial audio generation for 3D worlds; 'world model' is scene generation"
+ },
+ {
+  "id": "151111",
+  "tier": "out",
+  "sub": null,
+  "reason": "Policy-gradient dynamics of transformers learning chain-of-thought; RL for reasoning"
+ },
+ {
+  "id": "155730",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Extended Kalman filtering in learned latent state space of model parameters for online adaptation; system is the learner"
+ },
+ {
+  "id": "150730",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-variable loss for generic multivariate forecasting benchmarks"
+ },
+ {
+  "id": "152757",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online algorithms with random sample for secretary problem"
+ },
+ {
+  "id": "151648",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformers executing k-means in context"
+ },
+ {
+  "id": "152115",
+  "tier": "out",
+  "sub": null,
+  "reason": "Weakly supervised histopathology classification/segmentation"
+ },
+ {
+  "id": "152790",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decentralized stochastic minimax optimization"
+ },
+ {
+  "id": "151709",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sample-complexity theory of latent prediction SSL"
+ },
+ {
+  "id": "154122",
+  "tier": "out",
+  "sub": null,
+  "reason": "Retrieval-based inference for vocabulary end-to-end driving planners; efficiency, no dynamics/controller"
+ },
+ {
+  "id": "153151",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Offline goal-conditioned decision transformer for reach-avoid with hindsight relabeling; constrained RL without certificates"
+ },
+ {
+  "id": "149336",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mitigating Q-learning collusion in repeated economic games"
+ },
+ {
+  "id": "153188",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical-systems/operator-theoretic analysis of learning dynamics and collapse in flow/diffusion generative models"
+ },
+ {
+  "id": "152021",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unbiased Jacobian estimation for normalizing-flow Boltzmann sampling"
+ },
+ {
+  "id": "153121",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transferable adversarial attacks on multimodal LLMs"
+ },
+ {
+  "id": "149615",
+  "tier": "out",
+  "sub": null,
+  "reason": "Graph structural encodings via images"
+ },
+ {
+  "id": "153692",
+  "tier": "out",
+  "sub": null,
+  "reason": "Group-based RLVR for LLM reasoning"
+ },
+ {
+  "id": "154470",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated vision-language model fine-tuning"
+ },
+ {
+  "id": "149944",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Submodular multi-agent RL for online task allocation in multi-robot coverage/tracking; coordination of physical agents"
+ },
+ {
+  "id": "153988",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gradient geometry plug-in for GRPO-style LLM RL"
+ },
+ {
+  "id": "153220",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Graph state-space latent simulator for interacting particle/N-body dynamics; long-horizon prediction surrogate"
+ },
+ {
+  "id": "154942",
+  "tier": "out",
+  "sub": null,
+  "reason": "Byzantine-robust asynchronous distributed optimization"
+ },
+ {
+  "id": "151974",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Nonparametric GP identification of latent neural dynamics from recordings; dynamical-system reconstruction for neuroscience"
+ },
+ {
+  "id": "155379",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-driven geodesic path planning on metric fields; geometric planning without dynamics or controller"
+ },
+ {
+  "id": "150403",
+  "tier": "out",
+  "sub": null,
+  "reason": "POMDP-framed search for self-evolving code agents; LLM agents"
+ },
+ {
+  "id": "151160",
+  "tier": "out",
+  "sub": null,
+  "reason": "Data-driven operational design domain definition for AI certification; dataset-domain characterization, no dynamics"
+ },
+ {
+  "id": "150585",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Slow-fast singular perturbation analysis of input-driven Hopfield retrieval dynamics; dynamical-systems theory of networks"
+ },
+ {
+  "id": "156060",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Reactive multi-agent latent rollouts for closed-loop RL training of driving VLA; learned world rollout for policy learning"
+ },
+ {
+  "id": "153727",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-evolving agents for video temporal grounding"
+ },
+ {
+  "id": "148345",
+  "tier": "out",
+  "sub": null,
+  "reason": "Riemannian Muon optimizer"
+ },
+ {
+  "id": "153577",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zeroth-order optimization under heavy-tailed noise"
+ },
+ {
+  "id": "152965",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-informed functional Tucker reconstruction of sparse spatiotemporal PDE fields; physics-informed modelling"
+ },
+ {
+  "id": "155654",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Convergence and equilibrium analysis of normalized Friedkin-Johnsen opinion dynamics on networks; dynamical system, no control"
+ },
+ {
+  "id": "149861",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Topology-augmented prioritized sweeping for Dyna-style model-based planning; model-based RL"
+ },
+ {
+  "id": "154970",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sliced optimal transport plans transferability"
+ },
+ {
+  "id": "148912",
+  "tier": "out",
+  "sub": null,
+  "reason": "Action guidance for agentic LLM RL"
+ },
+ {
+  "id": "152991",
+  "tier": "out",
+  "sub": null,
+  "reason": "ODE/SDE drivers for few-step diffusion sampling; 'dynamics' are sampling paths"
+ },
+ {
+  "id": "151592",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt optimization for interpreting reward hacking"
+ },
+ {
+  "id": "156017",
+  "tier": "out",
+  "sub": null,
+  "reason": "Feature caching to accelerate diffusion transformers"
+ },
+ {
+  "id": "155354",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Diffusion transformer generating multi-object mesh dynamics trajectories; physics simulation surrogate"
+ },
+ {
+  "id": "148459",
+  "tier": "out",
+  "sub": null,
+  "reason": "Popularity bias in generative recommenders"
+ }
+]

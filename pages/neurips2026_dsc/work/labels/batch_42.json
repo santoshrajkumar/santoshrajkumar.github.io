@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155715",
+  "tier": "out",
+  "sub": null,
+  "reason": "Surgical reasoning segmentation with RL; perception"
+ },
+ {
+  "id": "153989",
+  "tier": "out",
+  "sub": null,
+  "reason": "Analogical reasoning benchmark for LLMs"
+ },
+ {
+  "id": "156081",
+  "tier": "out",
+  "sub": null,
+  "reason": "Domain-shift repair in VLM driving planners; VLM editing, no controller or dynamics contribution"
+ },
+ {
+  "id": "152502",
+  "tier": "out",
+  "sub": null,
+  "reason": "Solver-aware decomposition for programming-by-example"
+ },
+ {
+  "id": "153596",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow matching for organic crystal structure prediction"
+ },
+ {
+  "id": "148900",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unified graph language model instruction tuning"
+ },
+ {
+  "id": "151148",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-teacher distillation for Chinese spelling correction"
+ },
+ {
+  "id": "154372",
+  "tier": "out",
+  "sub": null,
+  "reason": "Region-aware compression for long-context DNA models"
+ },
+ {
+  "id": "148807",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nonlinear activation steering for LLM behavior; steering of LLMs"
+ },
+ {
+  "id": "150404",
+  "tier": "out",
+  "sub": null,
+  "reason": "Radar-modulated Mamba for depth estimation; SSM false friend, perception"
+ },
+ {
+  "id": "151936",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private distance queries"
+ },
+ {
+  "id": "148425",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaze steering to mitigate MLLM hallucination"
+ },
+ {
+  "id": "152904",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrete semantic memory for LLM agents"
+ },
+ {
+  "id": "154260",
+  "tier": "out",
+  "sub": null,
+  "reason": "Depth limits of compositional Gaussian processes"
+ },
+ {
+  "id": "155233",
+  "tier": "out",
+  "sub": null,
+  "reason": "Brain-vision representation alignment from EEG/MEG; decoding, not system dynamics"
+ },
+ {
+  "id": "151959",
+  "tier": "out",
+  "sub": null,
+  "reason": "Atmospheric scattering model for real-world dehazing; static image physics"
+ },
+ {
+  "id": "151679",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distribution-free Fourier sparsity testing"
+ },
+ {
+  "id": "151199",
+  "tier": "out",
+  "sub": null,
+  "reason": "Token merging guided by diffusion denoising dynamics; 'dynamics' means sampling path"
+ },
+ {
+  "id": "152401",
+  "tier": "out",
+  "sub": null,
+  "reason": "Layer free-riding in forward-forward training"
+ },
+ {
+  "id": "154801",
+  "tier": "out",
+  "sub": null,
+  "reason": "Density peak clustering on structural units"
+ },
+ {
+  "id": "150254",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scaling laws for synthetic pretraining in radio-map prediction; static spatial field"
+ },
+ {
+  "id": "150484",
+  "tier": "out",
+  "sub": null,
+  "reason": "Activation steering against coding-agent drift; LLM agents"
+ },
+ {
+  "id": "148658",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoder visual steering of CLIP"
+ },
+ {
+  "id": "151312",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online learning with abstention under adversarial injections; no dynamics"
+ },
+ {
+  "id": "149652",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transcriptomic foundation model pretraining"
+ },
+ {
+  "id": "151728",
+  "tier": "out",
+  "sub": null,
+  "reason": "Geometry of CoT hidden-state trajectories; 'trajectory' means reasoning trace"
+ },
+ {
+  "id": "153158",
+  "tier": "out",
+  "sub": null,
+  "reason": "Step-aware decoding for multimodal diffusion LMs"
+ },
+ {
+  "id": "154939",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online resource allocation for LLM agentic workflows; closed-loop planner over LLM agents, not a physical system"
+ },
+ {
+  "id": "151817",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective reward alignment for LLMs; RLHF"
+ },
+ {
+  "id": "156056",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private distributed trilevel optimization"
+ },
+ {
+  "id": "151060",
+  "tier": "out",
+  "sub": null,
+  "reason": "Automatic textbook formalization with LLM agents"
+ },
+ {
+  "id": "153788",
+  "tier": "out",
+  "sub": null,
+  "reason": "Training-free attention editing in SAM 3 for referring segmentation"
+ },
+ {
+  "id": "154851",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperbolic candidate retrieval for longitudinal EHR prediction; clinical event prediction, not dynamics"
+ },
+ {
+  "id": "154034",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical graph pooling with substructures"
+ },
+ {
+  "id": "150606",
+  "tier": "out",
+  "sub": null,
+  "reason": "Entropy dynamics in agentic RL for tool use; RL for LLMs"
+ },
+ {
+  "id": "149901",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal structured generation benchmark and self-distillation"
+ },
+ {
+  "id": "154995",
+  "tier": "out",
+  "sub": null,
+  "reason": "Motif-constrained Mamba sequence model; SSM false friend"
+ },
+ {
+  "id": "154919",
+  "tier": "out",
+  "sub": null,
+  "reason": "Second-order correction for attribution patching; interpretability"
+ },
+ {
+  "id": "155418",
+  "tier": "out",
+  "sub": null,
+  "reason": "Thematic web data collection agents"
+ },
+ {
+  "id": "152009",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attack misrouting LVLM attention; adversarial robustness"
+ },
+ {
+  "id": "151508",
+  "tier": "out",
+  "sub": null,
+  "reason": "Language-guided protein generation for ligand binding"
+ },
+ {
+  "id": "149258",
+  "tier": "out",
+  "sub": null,
+  "reason": "KL-optimal subgroup discovery"
+ },
+ {
+  "id": "152136",
+  "tier": "out",
+  "sub": null,
+  "reason": "General-purpose medical visual tokenizer"
+ },
+ {
+  "id": "151361",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic visual expert routing for MLLMs"
+ },
+ {
+  "id": "148247",
+  "tier": "out",
+  "sub": null,
+  "reason": "Temporally consistent object-centric video representation learning; perception"
+ },
+ {
+  "id": "154475",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hypergraph modeling of attention for hallucination detection"
+ },
+ {
+  "id": "150712",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semantic-aware dynamic resolution for MLLMs"
+ },
+ {
+  "id": "152022",
+  "tier": "out",
+  "sub": null,
+  "reason": "Policy gradient advantage decomposition for LLM RL; RL for LLMs"
+ },
+ {
+  "id": "153934",
+  "tier": "out",
+  "sub": null,
+  "reason": "Securing multi-agent LLM ecosystems; partial observability over LLM agents, not a physical system"
+ },
+ {
+  "id": "150661",
+  "tier": "out",
+  "sub": null,
+  "reason": "Red-teaming text-to-image models"
+ },
+ {
+  "id": "149836",
+  "tier": "out",
+  "sub": null,
+  "reason": "Training-free long video generation via singular spectrum; 'dynamics' means video motion"
+ },
+ {
+  "id": "153230",
+  "tier": "out",
+  "sub": null,
+  "reason": "MCMC sampling at decision points for LLM reasoning"
+ },
+ {
+  "id": "154775",
+  "tier": "out",
+  "sub": null,
+  "reason": "Subliminal learning as trait-direction drift in distillation; 'control' means regularizer"
+ },
+ {
+  "id": "152580",
+  "tier": "out",
+  "sub": null,
+  "reason": "Backdoor mitigation via tolerant property testing"
+ },
+ {
+  "id": "154501",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear transformer with learnable attention kernel"
+ },
+ {
+  "id": "156072",
+  "tier": "out",
+  "sub": null,
+  "reason": "Structured memory for ultra-long video reasoning agents"
+ },
+ {
+  "id": "149149",
+  "tier": "out",
+  "sub": null,
+  "reason": "Calibrating agentic LLMs for clinical prediction"
+ },
+ {
+  "id": "155694",
+  "tier": "out",
+  "sub": null,
+  "reason": "Value and TD-error neurons in LLM hidden states; interpretability, not control"
+ },
+ {
+  "id": "152123",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adapting autoregressive LLMs to block diffusion"
+ },
+ {
+  "id": "150850",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral flow generation of hypergraphs; 'continuous dynamics' means flow matching latent"
+ },
+ {
+  "id": "148573",
+  "tier": "out",
+  "sub": null,
+  "reason": "Process-conditioned EEG foundation model pretraining"
+ },
+ {
+  "id": "155281",
+  "tier": "out",
+  "sub": null,
+  "reason": "Epistemic pairwise maximin share fair division"
+ },
+ {
+  "id": "150965",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time learning to aggregate reasoning trajectories; LLM reasoning traces"
+ },
+ {
+  "id": "152134",
+  "tier": "out",
+  "sub": null,
+  "reason": "Explanation transfer across LLM sizes"
+ },
+ {
+  "id": "152786",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative structure from motion with 3D diffusion; perception/geometry"
+ },
+ {
+  "id": "148565",
+  "tier": "out",
+  "sub": null,
+  "reason": "Collusion-resistant orthogonal image watermarks"
+ },
+ {
+  "id": "149245",
+  "tier": "out",
+  "sub": null,
+  "reason": "History condensation for multi-frame VLA policies; VLA with no controller or dynamics contribution"
+ },
+ {
+  "id": "155124",
+  "tier": "out",
+  "sub": null,
+  "reason": "Manifold-augmented graph embedding for recommendation"
+ },
+ {
+  "id": "154707",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret bounds for Shampoo optimizer"
+ },
+ {
+  "id": "155544",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pixel-grounded diffusion transformer super-resolution"
+ },
+ {
+  "id": "155797",
+  "tier": "out",
+  "sub": null,
+  "reason": "Recursive patch-level pixel diffusion"
+ },
+ {
+  "id": "153960",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Unbalanced dynamic optimal transport (Benamou-Brenier control formulation) inferring cellular population dynamics; flow matching, no physical control"
+ },
+ {
+  "id": "154602",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inverted detection-control in LLM steering vectors; steering of LLMs"
+ },
+ {
+  "id": "149760",
+  "tier": "out",
+  "sub": null,
+  "reason": "Activation-level enforcement against CoT obfuscation in VLMs; RL for VLMs"
+ },
+ {
+  "id": "153133",
+  "tier": "out",
+  "sub": null,
+  "reason": "Part-decomposed 3D generation from holistic priors"
+ },
+ {
+  "id": "150016",
+  "tier": "out",
+  "sub": null,
+  "reason": "Marked time-to-event pretraining for EHR foundation models; point-process events, not control"
+ },
+ {
+  "id": "152680",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reconstruction-guided reasoning synthesis for user modeling"
+ },
+ {
+  "id": "152835",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive splitting for 3D Gaussian splatting training"
+ },
+ {
+  "id": "150609",
+  "tier": "out",
+  "sub": null,
+  "reason": "Surprise and context in LLM fine-tuning forgetting; empirical"
+ },
+ {
+  "id": "150309",
+  "tier": "out",
+  "sub": null,
+  "reason": "Product of Lorentz manifolds for hierarchical OOD classification"
+ }
+]

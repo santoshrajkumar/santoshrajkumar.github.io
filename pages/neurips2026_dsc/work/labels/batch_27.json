@@ -1,0 +1,482 @@
+[
+ {
+  "id": "152160",
+  "tier": "out",
+  "sub": null,
+  "reason": "Likelihood-tractable flow policy for on-policy RL; generic policy class on control benchmarks"
+ },
+ {
+  "id": "155620",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative language-grounded scenario rollouts for VLA driving planners"
+ },
+ {
+  "id": "155892",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Low-rank adaptation of weather backbones for future high-resolution atmospheric trajectory prediction"
+ },
+ {
+  "id": "155903",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Lag-embedding reconstruction of LFP dynamics on a torus manifold; dynamical-system reconstruction"
+ },
+ {
+  "id": "155618",
+  "tier": "out",
+  "sub": null,
+  "reason": "Leverage-score sampling for constrained active linear regression"
+ },
+ {
+  "id": "152251",
+  "tier": "out",
+  "sub": null,
+  "reason": "Metrical task systems under Markov request processes; online algorithms"
+ },
+ {
+  "id": "152012",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-transformed variational inference for implicit process priors"
+ },
+ {
+  "id": "149412",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret bounds for cost-aware cascading bandits"
+ },
+ {
+  "id": "155435",
+  "tier": "out",
+  "sub": null,
+  "reason": "Emergent role specialization in shared recurrent transformer reasoning"
+ },
+ {
+  "id": "155953",
+  "tier": "out",
+  "sub": null,
+  "reason": "Advantage-gradient alignment property of deep RL policies; generic RL analysis"
+ },
+ {
+  "id": "148367",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based tree search with calibrated ensemble dynamics trust for safe offline policy improvement"
+ },
+ {
+  "id": "152805",
+  "tier": "out",
+  "sub": null,
+  "reason": "Minimax estimation in unbalanced optimal transport"
+ },
+ {
+  "id": "150497",
+  "tier": "out",
+  "sub": null,
+  "reason": "SQ lower bound for smoothed agnostic halfspace learning"
+ },
+ {
+  "id": "150967",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generalization bounds for noiseless inverse optimization; no dynamics"
+ },
+ {
+  "id": "155531",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Spherical warp-based neural PDE solver and benchmark for planetary dynamics simulation"
+ },
+ {
+  "id": "155273",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributional DAgger for LLM reasoning with rich feedback"
+ },
+ {
+  "id": "149977",
+  "tier": "out",
+  "sub": null,
+  "reason": "High-probability convergence of SGD under Markovian data"
+ },
+ {
+  "id": "149359",
+  "tier": "out",
+  "sub": null,
+  "reason": "Game-theoretic AI safety benchmark for LLM agents"
+ },
+ {
+  "id": "155702",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow maps over expanding dimensions for generative modeling"
+ },
+ {
+  "id": "152774",
+  "tier": "out",
+  "sub": null,
+  "reason": "Kernel optimal-transport coupling for function-space flow matching; generative modeling"
+ },
+ {
+  "id": "151481",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context learning as world model for intrinsic curiosity rewards"
+ },
+ {
+  "id": "155933",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Port-Hamiltonian energy-consistent inertial odometry network estimating MAV velocity from IMU"
+ },
+ {
+  "id": "154328",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Hierarchical multi-timescale autoregressive world-action model for Atari decision making"
+ },
+ {
+  "id": "152294",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spiking-neuron anomaly detection for periodic time series; generic TSAD benchmarks"
+ },
+ {
+  "id": "151640",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust deep clustering with Student-t scale mixtures"
+ },
+ {
+  "id": "151303",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrepancy-weighted cross-domain co-training of diffusion robot policies; no controller contribution"
+ },
+ {
+  "id": "155145",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diversity-aware red teaming of VLA instruction robustness"
+ },
+ {
+  "id": "153139",
+  "tier": "out",
+  "sub": null,
+  "reason": "Internal-state value baseline for RLVR LLM training"
+ },
+ {
+  "id": "148887",
+  "tier": "out",
+  "sub": null,
+  "reason": "Oblique decision-tree distillation of continuous-action deep RL policies; explainability"
+ },
+ {
+  "id": "148199",
+  "tier": "out",
+  "sub": null,
+  "reason": "Heterogeneity-aware decision-focused federated learning"
+ },
+ {
+  "id": "151846",
+  "tier": "out",
+  "sub": null,
+  "reason": "Context-aware generation order for autoregressive image generation"
+ },
+ {
+  "id": "152177",
+  "tier": "out",
+  "sub": null,
+  "reason": "World knowledge integration for video generation; no planning use"
+ },
+ {
+  "id": "149364",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tensor-factorized spectral representation learning for RL; representation, not model-based control"
+ },
+ {
+  "id": "154107",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-agent LLM self-play with Bayesian optimization for game balancing"
+ },
+ {
+  "id": "151112",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mechanistic study of discrete diffusion models on graph lookahead planning tasks"
+ },
+ {
+  "id": "153610",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Edge-of-stability optimizer dynamics analysed via Hessian eigenvector alignment across data groups"
+ },
+ {
+  "id": "152655",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Derivative-informed neural operator training via forward sensitivity equation residuals"
+ },
+ {
+  "id": "151040",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Normalizing-flow trajectory planner for driving with differentiable safety and dynamic constraint refinement"
+ },
+ {
+  "id": "150761",
+  "tier": "out",
+  "sub": null,
+  "reason": "Collision-aware RL feedback for VLA manipulation policies"
+ },
+ {
+  "id": "149304",
+  "tier": "out",
+  "sub": null,
+  "reason": "Constrained stochastic spectral preconditioned gradient methods"
+ },
+ {
+  "id": "152715",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian axis selection for LLM test-time similarity decisions"
+ },
+ {
+  "id": "148921",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-LLM strategic communication in repeated games"
+ },
+ {
+  "id": "148253",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM vs vision-only backbones for end-to-end driving representation"
+ },
+ {
+  "id": "154904",
+  "tier": "out",
+  "sub": null,
+  "reason": "Failure episodic memory plug-in for model-free RL; generic algorithm on MuJoCo benchmarks"
+ },
+ {
+  "id": "148356",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Fractional-order neural differential equation context encoder for non-Markovian RL and delayed control"
+ },
+ {
+  "id": "154760",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic algorithms for unconstrained submodular maximization"
+ },
+ {
+  "id": "153791",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical representation-readout decomposition of grokking and double descent"
+ },
+ {
+  "id": "151837",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative-discriminative tradeoff for human-aligned vision"
+ },
+ {
+  "id": "149322",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributionally robust Bayesian optimisation with ensemble surrogates"
+ },
+ {
+  "id": "149599",
+  "tier": "out",
+  "sub": null,
+  "reason": "Consequence-aware behavior regularization for offline RL; generic offline RL benchmarks"
+ },
+ {
+  "id": "149062",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "High-dimensional dynamics theory of two-phase/momentum optimizers on linear regression"
+ },
+ {
+  "id": "149876",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pose distance field prior for humanoid motion tracking; prior, not controller"
+ },
+ {
+  "id": "154722",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical study of synthetic augmentation for generic time-series forecasters"
+ },
+ {
+  "id": "152447",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Constrained maximum-entropy exploration with penalty policy gradient; constrained RL theory"
+ },
+ {
+  "id": "150631",
+  "tier": "out",
+  "sub": null,
+  "reason": "Target-network alignment weighting for value-based deep RL"
+ },
+ {
+  "id": "155526",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence analysis of PPO clipped actor updates; generic RL theory"
+ },
+ {
+  "id": "150678",
+  "tier": "out",
+  "sub": null,
+  "reason": "Chebyshev Jacobian flows for 3D shape matching and interpolation"
+ },
+ {
+  "id": "149910",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D Gaussian splatting MPM simulation with VLM material parameters; graphics pipeline"
+ },
+ {
+  "id": "151714",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Soft-Hamiltonian structured latent world model with control dynamics for CEM planning on DMC"
+ },
+ {
+  "id": "148363",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Randomized neural networks for transfer/Koopman operator spectral decomposition of stochastic dynamics"
+ },
+ {
+  "id": "149130",
+  "tier": "out",
+  "sub": null,
+  "reason": "Probabilistic simulator of ICU EHR trajectories; clinical time series"
+ },
+ {
+  "id": "152395",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Multimodal flow proposals for MPPI planner-guided model-based RL on DMC/MyoSuite"
+ },
+ {
+  "id": "151057",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Sparse switching state-space model with Kim filter EM for regime-dependent directed neural connectivity"
+ },
+ {
+  "id": "153288",
+  "tier": "out",
+  "sub": null,
+  "reason": "Optimal transport view of backtracking counterfactuals in SCMs"
+ },
+ {
+  "id": "155670",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Online imitation learning of stabilizing controllers for Vlasov-Poisson plasma under partial observation"
+ },
+ {
+  "id": "149627",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Sparse Koopman autoencoders identifying local regimes and forecasting multibasin dynamics"
+ },
+ {
+  "id": "151700",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multivariate time-series foundation model; generic forecasting benchmarks"
+ },
+ {
+  "id": "151677",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion representation learning with informative missingness for EHR risk prediction"
+ },
+ {
+  "id": "149146",
+  "tier": "out",
+  "sub": null,
+  "reason": "Point-track-augmented world-action model for robot policy learning; no planning or control structure"
+ },
+ {
+  "id": "150698",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM-guided JEPA latent world model for video forecasting; no planning use"
+ },
+ {
+  "id": "151544",
+  "tier": "out",
+  "sub": null,
+  "reason": "Variance-optimal state resampling for GRPO RLVR"
+ },
+ {
+  "id": "154367",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-model motion rewards for latent world model prediction; no planning use"
+ },
+ {
+  "id": "152091",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-view relational distillation for VLM spatial reasoning"
+ },
+ {
+  "id": "153394",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive step-sizes for eligibility traces in deep RL; generic RL algorithm"
+ },
+ {
+  "id": "151620",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributionally robust policy learning from observational data; causal inference"
+ },
+ {
+  "id": "155509",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Optimizers reinterpreted as closed-loop control with Riemannian Lyapunov/backstepping analysis"
+ },
+ {
+  "id": "151754",
+  "tier": "out",
+  "sub": null,
+  "reason": "Selective context expansion for compressed visual text in VLMs"
+ },
+ {
+  "id": "156087",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric humanoid HOI benchmark with tactile prediction; dataset"
+ },
+ {
+  "id": "155945",
+  "tier": "out",
+  "sub": null,
+  "reason": "Role-driven LLM evolutionary reward function design"
+ },
+ {
+  "id": "153533",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-trained verification for reasoning model self-improvement"
+ }
+]

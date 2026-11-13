@@ -1,0 +1,482 @@
+[
+ {
+  "id": "149753",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hybrid RL/diffusion solver for combinatorial optimization"
+ },
+ {
+  "id": "153659",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Dual-humanoid manipulation with dynamics priors, force allocation under contact constraints, RL control"
+ },
+ {
+  "id": "153292",
+  "tier": "out",
+  "sub": null,
+  "reason": "Recursive multi-agent LLM systems"
+ },
+ {
+  "id": "149390",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Hierarchical options policy for closed-loop biomechanical motor control; policy learning, not dynamics"
+ },
+ {
+  "id": "153607",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time RL for VLA models"
+ },
+ {
+  "id": "155867",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural SDE learning from trajectories with Lie symmetry regularization; modelling only"
+ },
+ {
+  "id": "148189",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Inverse-dynamics control inference and physics+residual model enforcing actuator/state feasibility"
+ },
+ {
+  "id": "149068",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Jacobian non-normality analysis stabilizing long rollouts of neural PDE/climate surrogates"
+ },
+ {
+  "id": "150096",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Learned structure-preserving Kalman filter for state estimation of dynamic systems"
+ },
+ {
+  "id": "152845",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic long-horizon time-series forecasting routing"
+ },
+ {
+  "id": "155466",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video world model instruction ambiguity benchmark"
+ },
+ {
+  "id": "152770",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Entropy-stabilized kinetic surrogate for turbulent flow emulation"
+ },
+ {
+  "id": "152029",
+  "tier": "out",
+  "sub": null,
+  "reason": "High-order binary optimization reformulation"
+ },
+ {
+  "id": "152909",
+  "tier": "out",
+  "sub": null,
+  "reason": "Expressivity of homomorphism networks over databases"
+ },
+ {
+  "id": "148147",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline meta-RL with bagged rewards; generic RL"
+ },
+ {
+  "id": "155833",
+  "tier": "out",
+  "sub": null,
+  "reason": "Driving VLA with geometric chain-of-thought"
+ },
+ {
+  "id": "154337",
+  "tier": "out",
+  "sub": null,
+  "reason": "LiDAR point-cloud reconstruction under jamming; perception"
+ },
+ {
+  "id": "154976",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Optimizers as random dynamical systems; Lyapunov-dimension generalization bound"
+ },
+ {
+  "id": "151907",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Zero-sum Markov game adversarial training for robust driving policies; robust RL"
+ },
+ {
+  "id": "149467",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical autoregressive time-series generation"
+ },
+ {
+  "id": "155162",
+  "tier": "out",
+  "sub": null,
+  "reason": "RLVR parameter-update analysis for LLMs"
+ },
+ {
+  "id": "152705",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for agentic workflow design"
+ },
+ {
+  "id": "155089",
+  "tier": "out",
+  "sub": null,
+  "reason": "Posterior sampling RL regret with offline data; generic MDP theory"
+ },
+ {
+  "id": "150405",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Stochastic self-stabilization dynamics of SGD at edge of stability"
+ },
+ {
+  "id": "151761",
+  "tier": "out",
+  "sub": null,
+  "reason": "Chain-of-thought as probabilistic programs"
+ },
+ {
+  "id": "154155",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum multi-armed bandits under decoherence"
+ },
+ {
+  "id": "152363",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Infinite-width learning dynamics of mixture-of-experts via Tensor Programs"
+ },
+ {
+  "id": "154769",
+  "tier": "out",
+  "sub": null,
+  "reason": "Clarification timing for LLM agents"
+ },
+ {
+  "id": "155691",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Exact solutions to training dynamics of concept-direction abstraction in linear networks"
+ },
+ {
+  "id": "151889",
+  "tier": "out",
+  "sub": null,
+  "reason": "EEG visual decoding; state-space here means sequence model"
+ },
+ {
+  "id": "148240",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Optimal sensor placement with recovery guarantees for state estimation via posterior sampling"
+ },
+ {
+  "id": "148612",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM latent 3D scene topology representations"
+ },
+ {
+  "id": "152354",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Generative modeling as discrete-time stochastic control; sampling cast as control"
+ },
+ {
+  "id": "155306",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning orthonormal bases via Lie-group ODE parameterization; representation, not dynamics"
+ },
+ {
+  "id": "154222",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lifelong imitation learning routing; no controller"
+ },
+ {
+  "id": "149981",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Action-conditioned world model as zero-shot simulator for policy improvement"
+ },
+ {
+  "id": "153773",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online learning of coalition structures"
+ },
+ {
+  "id": "151721",
+  "tier": "out",
+  "sub": null,
+  "reason": "Selective inference after active data collection"
+ },
+ {
+  "id": "149025",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context RL with value tokens; generic RL"
+ },
+ {
+  "id": "152915",
+  "tier": "out",
+  "sub": null,
+  "reason": "Active learning for quantum refrigerator design"
+ },
+ {
+  "id": "148385",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM multi-agent routing controller; controller is false friend"
+ },
+ {
+  "id": "149805",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaussian mixtures in Hilbert spaces"
+ },
+ {
+  "id": "154736",
+  "tier": "out",
+  "sub": null,
+  "reason": "Raindrop removal with RWKV; state evolution is sequence model"
+ },
+ {
+  "id": "153868",
+  "tier": "out",
+  "sub": null,
+  "reason": "Contextual cascading bandits for recommendation"
+ },
+ {
+  "id": "153729",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic graph clustering data structures"
+ },
+ {
+  "id": "152468",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multivariate time-series anomaly detection on generic benchmarks"
+ },
+ {
+  "id": "154330",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion time-series forecasting on generic benchmarks"
+ },
+ {
+  "id": "152843",
+  "tier": "out",
+  "sub": null,
+  "reason": "Few-shot graph-level anomaly detection"
+ },
+ {
+  "id": "155363",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Rate-distortion theory of Kalman filtering via Riccati spectral decomposition"
+ },
+ {
+  "id": "154299",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Optimal-control trajectory planning under physical constraints inside video generation; no physical system"
+ },
+ {
+  "id": "155804",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sampling multimodal densities via Witten Laplacian"
+ },
+ {
+  "id": "152397",
+  "tier": "out",
+  "sub": null,
+  "reason": "Full-waveform LiDAR transformer perception"
+ },
+ {
+  "id": "150037",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Theoretical training dynamics and scaling laws of SGD for multiclass logistic regression"
+ },
+ {
+  "id": "153024",
+  "tier": "out",
+  "sub": null,
+  "reason": "ControlNet-style conditional image generation"
+ },
+ {
+  "id": "154438",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Hybrid symbolic-neural dynamical system discovery with orthogonality regularization"
+ },
+ {
+  "id": "155078",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "RL under delayed feedback via MDP homomorphisms on MuJoCo; sequential decision close to control"
+ },
+ {
+  "id": "149787",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt attacks on multi-agent LLM workflows"
+ },
+ {
+  "id": "149166",
+  "tier": "out",
+  "sub": null,
+  "reason": "Posterior sampling for stochastic shortest path regret; tabular RL theory"
+ },
+ {
+  "id": "154659",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online learning regret in random-order model"
+ },
+ {
+  "id": "149442",
+  "tier": "out",
+  "sub": null,
+  "reason": "Value-guided sampling for diffusion RL policies; generic RL"
+ },
+ {
+  "id": "149950",
+  "tier": "out",
+  "sub": null,
+  "reason": "Statistical model of sparse temporal networks"
+ },
+ {
+  "id": "148884",
+  "tier": "out",
+  "sub": null,
+  "reason": "Envy-free allocation algorithms"
+ },
+ {
+  "id": "149569",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fully quantum RL formalism; generic RL framework, no system controlled"
+ },
+ {
+  "id": "149709",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical weight drift and activation sparsity in training; descriptive training dynamics"
+ },
+ {
+  "id": "152400",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Amortized inference of biophysical dynamic causal model parameters from fMRI; no control"
+ },
+ {
+  "id": "155534",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated SARSA convergence; generic RL theory"
+ },
+ {
+  "id": "154213",
+  "tier": "out",
+  "sub": null,
+  "reason": "One-bit compressed sensing posterior sampling"
+ },
+ {
+  "id": "151992",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private GLM contextual bandits"
+ },
+ {
+  "id": "151950",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural operators for MRI reconstruction; imaging, not physics dynamics"
+ },
+ {
+  "id": "148732",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for agentic search"
+ },
+ {
+  "id": "150505",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Sharpness bounds and step-size stability conditions for gradient descent on polynomial networks"
+ },
+ {
+  "id": "148555",
+  "tier": "out",
+  "sub": null,
+  "reason": "Feedback loops in LLM text generation; false friend"
+ },
+ {
+  "id": "155594",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "SDE/PDE high-dimensional limit of SGD on diagonal linear networks"
+ },
+ {
+  "id": "151899",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learnable spectral activations for implicit neural representations"
+ },
+ {
+  "id": "148626",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic estimation of quantum partition functions"
+ },
+ {
+  "id": "155707",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neuroscience analysis of RNN low-rank connectivity for abstraction; representation, not control"
+ },
+ {
+  "id": "154020",
+  "tier": "out",
+  "sub": null,
+  "reason": "Policy-level exploration in MARL on game benchmarks"
+ },
+ {
+  "id": "151710",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Particle-filter belief, learned latent dynamics and MPC planning for POMDP RL; generic domains"
+ },
+ {
+  "id": "149058",
+  "tier": "out",
+  "sub": null,
+  "reason": "Driving VLA with latent expert chains"
+ },
+ {
+  "id": "153555",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parallel GP bandit regret analysis"
+ }
+]

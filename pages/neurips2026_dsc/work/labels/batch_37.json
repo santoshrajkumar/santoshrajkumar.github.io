@@ -1,0 +1,482 @@
+[
+ {
+  "id": "151759",
+  "tier": "out",
+  "sub": null,
+  "reason": "LM pretraining phases of entity comparison; empirical training dynamics, no dynamical system"
+ },
+ {
+  "id": "154282",
+  "tier": "out",
+  "sub": null,
+  "reason": "asynchronous pipeline-parallel training consistency; distributed optimization, not control"
+ },
+ {
+  "id": "153635",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM optimization-style reasoning tasks with RL; LLM post-training"
+ },
+ {
+  "id": "150299",
+  "tier": "out",
+  "sub": null,
+  "reason": "temporal graph learning for dynamic graphs; representation learning, no control"
+ },
+ {
+  "id": "155168",
+  "tier": "out",
+  "sub": null,
+  "reason": "contextual bandits with residual quantization; no dynamics"
+ },
+ {
+  "id": "148832",
+  "tier": "out",
+  "sub": null,
+  "reason": "differentially private RLHF reward estimation; LLM alignment"
+ },
+ {
+  "id": "150141",
+  "tier": "out",
+  "sub": null,
+  "reason": "image-to-3D part generation; controllable generation false friend"
+ },
+ {
+  "id": "151716",
+  "tier": "out",
+  "sub": null,
+  "reason": "virtual microphone speech enhancement via flow matching; audio"
+ },
+ {
+  "id": "153353",
+  "tier": "out",
+  "sub": null,
+  "reason": "information-theoretic fairness auditing of training data"
+ },
+ {
+  "id": "148192",
+  "tier": "out",
+  "sub": null,
+  "reason": "certified robustness for speech recognition; adversarial robustness"
+ },
+ {
+  "id": "153839",
+  "tier": "out",
+  "sub": null,
+  "reason": "calibration of scientific foundation models via stochastic attention; uncertainty, not dynamics"
+ },
+ {
+  "id": "153696",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time training for long-context language modeling"
+ },
+ {
+  "id": "148499",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL rollout generation systems speedup for LLMs"
+ },
+ {
+  "id": "155562",
+  "tier": "out",
+  "sub": null,
+  "reason": "post-anneal refinement for combinatorial optimization"
+ },
+ {
+  "id": "152838",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO critique distillation for LLM search agents"
+ },
+ {
+  "id": "154224",
+  "tier": "out",
+  "sub": null,
+  "reason": "training-free pathology whole-slide VQA agent"
+ },
+ {
+  "id": "149782",
+  "tier": "out",
+  "sub": null,
+  "reason": "neurosymbolic projection layer for constraint satisfaction"
+ },
+ {
+  "id": "151406",
+  "tier": "out",
+  "sub": null,
+  "reason": "generalization theory of canonization and equivariance"
+ },
+ {
+  "id": "148298",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM binding problem via pointing; perception"
+ },
+ {
+  "id": "153931",
+  "tier": "out",
+  "sub": null,
+  "reason": "rubric generation for LLM judges and reward models"
+ },
+ {
+  "id": "149478",
+  "tier": "out",
+  "sub": null,
+  "reason": "robust satisficing ensembles under distribution shift"
+ },
+ {
+  "id": "148526",
+  "tier": "out",
+  "sub": null,
+  "reason": "diffusion masked pretraining for dynamic point clouds; perception"
+ },
+ {
+  "id": "150311",
+  "tier": "out",
+  "sub": null,
+  "reason": "conformal caching for diffusion inference acceleration"
+ },
+ {
+  "id": "149237",
+  "tier": "out",
+  "sub": null,
+  "reason": "interactive human-garment video generation"
+ },
+ {
+  "id": "154882",
+  "tier": "out",
+  "sub": null,
+  "reason": "tile-level hybrid sparsity pruning for LLMs"
+ },
+ {
+  "id": "155628",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-omics drug-drug interaction prediction"
+ },
+ {
+  "id": "154891",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM web navigation agent with interaction graphs"
+ },
+ {
+  "id": "152172",
+  "tier": "out",
+  "sub": null,
+  "reason": "feedback alignment rank collapse; biologically plausible learning, not control"
+ },
+ {
+  "id": "148473",
+  "tier": "out",
+  "sub": null,
+  "reason": "image-free zero-shot classifier expansion via causal intervention"
+ },
+ {
+  "id": "148799",
+  "tier": "out",
+  "sub": null,
+  "reason": "watermarking diffusion models"
+ },
+ {
+  "id": "151876",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time safety alignment of diffusion language models"
+ },
+ {
+  "id": "155916",
+  "tier": "out",
+  "sub": null,
+  "reason": "meta-learning for multilingual RLHF alignment"
+ },
+ {
+  "id": "153262",
+  "tier": "out",
+  "sub": null,
+  "reason": "few-shot anomaly detection in images"
+ },
+ {
+  "id": "149400",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for span-level hallucination detection in LLMs"
+ },
+ {
+  "id": "154214",
+  "tier": "out",
+  "sub": null,
+  "reason": "distributionally robust listwise preference optimization for LLMs"
+ },
+ {
+  "id": "150042",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mamba-style selective SSM universal approximation; sequence-model false friend"
+ },
+ {
+  "id": "150374",
+  "tier": "out",
+  "sub": null,
+  "reason": "dynamic resolution routing for egocentric grounding; perception"
+ },
+ {
+  "id": "151618",
+  "tier": "out",
+  "sub": null,
+  "reason": "formal verification of DNN robustness with early exits; classifier robustness"
+ },
+ {
+  "id": "153496",
+  "tier": "out",
+  "sub": null,
+  "reason": "temporal logic guidance for text-to-video generation"
+ },
+ {
+  "id": "155653",
+  "tier": "out",
+  "sub": null,
+  "reason": "fairness regularizer via Cramer-von Mises"
+ },
+ {
+  "id": "153975",
+  "tier": "out",
+  "sub": null,
+  "reason": "emotion control for TTS; controllable generation false friend"
+ },
+ {
+  "id": "155507",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time scaling with diffusion language models"
+ },
+ {
+  "id": "153054",
+  "tier": "out",
+  "sub": null,
+  "reason": "block-level MoE for diffusion LLMs"
+ },
+ {
+  "id": "150300",
+  "tier": "out",
+  "sub": null,
+  "reason": "training-free streaming 3D reconstruction retrieval; perception"
+ },
+ {
+  "id": "149687",
+  "tier": "out",
+  "sub": null,
+  "reason": "repeated information design/persuasion regret; not a dynamical system"
+ },
+ {
+  "id": "154340",
+  "tier": "out",
+  "sub": null,
+  "reason": "I/O complexity of approximate attention"
+ },
+ {
+  "id": "155061",
+  "tier": "out",
+  "sub": null,
+  "reason": "birth-death structural learning for Gaussian splatting"
+ },
+ {
+  "id": "155495",
+  "tier": "out",
+  "sub": null,
+  "reason": "RNA foundation model"
+ },
+ {
+  "id": "155290",
+  "tier": "out",
+  "sub": null,
+  "reason": "auction-based federated learning mechanism"
+ },
+ {
+  "id": "153780",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bezier manifolds for model merging and ensembling"
+ },
+ {
+  "id": "151369",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-agent LLM RTL code generation with formal verification"
+ },
+ {
+  "id": "150994",
+  "tier": "out",
+  "sub": null,
+  "reason": "activation steering for LVLM hallucination; steering false friend"
+ },
+ {
+  "id": "150926",
+  "tier": "out",
+  "sub": null,
+  "reason": "deep research agent training with synthetic tasks"
+ },
+ {
+  "id": "154401",
+  "tier": "out",
+  "sub": null,
+  "reason": "marginal-nonuniform multiclass learning theory"
+ },
+ {
+  "id": "150452",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-objective fine-tuning for long-tailed recognition"
+ },
+ {
+  "id": "150451",
+  "tier": "out",
+  "sub": null,
+  "reason": "autoregressive detection in graphic design with GRPO"
+ },
+ {
+  "id": "151193",
+  "tier": "out",
+  "sub": null,
+  "reason": "client-reshuffling federated learning convergence"
+ },
+ {
+  "id": "154934",
+  "tier": "out",
+  "sub": null,
+  "reason": "open-vocabulary video recognition adaptation"
+ },
+ {
+  "id": "156092",
+  "tier": "out",
+  "sub": null,
+  "reason": "attention-based attribution in LLMs"
+ },
+ {
+  "id": "152221",
+  "tier": "out",
+  "sub": null,
+  "reason": "generalized boosting theory"
+ },
+ {
+  "id": "153409",
+  "tier": "out",
+  "sub": null,
+  "reason": "multiple descent in ridge regression generalization"
+ },
+ {
+  "id": "153898",
+  "tier": "out",
+  "sub": null,
+  "reason": "confounder selection for causal mediation analysis"
+ },
+ {
+  "id": "150201",
+  "tier": "out",
+  "sub": null,
+  "reason": "transferable adversarial attack on VLP models"
+ },
+ {
+  "id": "148954",
+  "tier": "out",
+  "sub": null,
+  "reason": "part-level tokens for 3D LLMs"
+ },
+ {
+  "id": "149886",
+  "tier": "out",
+  "sub": null,
+  "reason": "self-supervised cross-view completion pretraining"
+ },
+ {
+  "id": "148406",
+  "tier": "out",
+  "sub": null,
+  "reason": "co-optimizing pruning and quantization for LLM compression"
+ },
+ {
+  "id": "149252",
+  "tier": "out",
+  "sub": null,
+  "reason": "dual scoring for parameter and data selection in fine-tuning"
+ },
+ {
+  "id": "150455",
+  "tier": "out",
+  "sub": null,
+  "reason": "geometry-aware perturbation for federated learning"
+ },
+ {
+  "id": "153695",
+  "tier": "out",
+  "sub": null,
+  "reason": "Riemannian reparameterization for LoRA"
+ },
+ {
+  "id": "149104",
+  "tier": "out",
+  "sub": null,
+  "reason": "training-free Langevin particle sampler; sampling, not control of a system"
+ },
+ {
+  "id": "155205",
+  "tier": "out",
+  "sub": null,
+  "reason": "empirical learning dynamics of diffusion loss/prediction spaces; not dynamical-systems analysis"
+ },
+ {
+  "id": "151654",
+  "tier": "out",
+  "sub": null,
+  "reason": "statistical theory of one-step flow generative models"
+ },
+ {
+  "id": "149648",
+  "tier": "out",
+  "sub": null,
+  "reason": "scaling-law extrapolation conditioning"
+ },
+ {
+  "id": "154688",
+  "tier": "out",
+  "sub": null,
+  "reason": "adversarial self-play for robust LLM reasoning"
+ },
+ {
+  "id": "155218",
+  "tier": "out",
+  "sub": null,
+  "reason": "fixed-point masked generative models"
+ },
+ {
+  "id": "152908",
+  "tier": "out",
+  "sub": null,
+  "reason": "recursive composition of verifiable RL environments for LLMs"
+ },
+ {
+  "id": "149918",
+  "tier": "out",
+  "sub": null,
+  "reason": "neural implicit surfaces multiscale residuals"
+ },
+ {
+  "id": "150012",
+  "tier": "out",
+  "sub": null,
+  "reason": "video generator dynamic memory; video generation, no planning or control"
+ },
+ {
+  "id": "154099",
+  "tier": "out",
+  "sub": null,
+  "reason": "random-effects centroids for domain generalization"
+ },
+ {
+  "id": "148181",
+  "tier": "out",
+  "sub": null,
+  "reason": "full-body video anonymization via diffusion"
+ }
+]

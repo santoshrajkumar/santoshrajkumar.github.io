@@ -1,0 +1,482 @@
+[
+ {
+  "id": "152141",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman-structured latent state-space world model used for MPPI control under partial observation"
+ },
+ {
+  "id": "150071",
+  "tier": "out",
+  "sub": null,
+  "reason": "Laplacian-eigenoption exploration for sparse-reward Atari/ProcGen; generic RL exploration"
+ },
+ {
+  "id": "151549",
+  "tier": "out",
+  "sub": null,
+  "reason": "Coordination mechanisms for congestion games; algorithmic game theory, no dynamics"
+ },
+ {
+  "id": "148631",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Transport-aware latent neural operator for advection-dominated PDE surrogates; forecasting only"
+ },
+ {
+  "id": "153183",
+  "tier": "out",
+  "sub": null,
+  "reason": "Interpretable time-series classification on UEA/biomedical benchmarks; no dynamical-system contribution"
+ },
+ {
+  "id": "149730",
+  "tier": "out",
+  "sub": null,
+  "reason": "Byzantine agreement with predictions; distributed computing theory"
+ },
+ {
+  "id": "151517",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence theory of mirror-descent actor-critic for generic entropy-regularised MDPs"
+ },
+ {
+  "id": "155150",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic forecasting of distribution-valued time series across ecology/employment benchmarks"
+ },
+ {
+  "id": "155956",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA pre-training recipe; representation learning, no controller contribution"
+ },
+ {
+  "id": "152892",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum state tomography via neural wavefunction and sliced Wasserstein loss"
+ },
+ {
+  "id": "152679",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated Hamiltonian Monte Carlo communication complexity; sampling, not control"
+ },
+ {
+  "id": "153985",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust reward normalization for GRPO LLM post-training"
+ },
+ {
+  "id": "149660",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continuity of S4/Mamba sequence models; state-space-model false friend"
+ },
+ {
+  "id": "151072",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed online convex optimization with compressed communication; no system dynamics"
+ },
+ {
+  "id": "150133",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "GNN reduction of spring-mass digital twins for simulation and policy evaluation, not control"
+ },
+ {
+  "id": "149759",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic exploration over latent reasoning trajectories in recursive reasoning models"
+ },
+ {
+  "id": "151850",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sim-to-real domain adaptation of perception/decision features for end-to-end driving"
+ },
+ {
+  "id": "150604",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Embedding of irregular observations for Log-Neural CDEs; continuous-time sequence modelling"
+ },
+ {
+  "id": "155879",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Autoregressive AI emulator of km-scale atmospheric dynamics; simulation surrogate"
+ },
+ {
+  "id": "151604",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tree-sliced Orlicz integral probability metric; optimal-transport geometry"
+ },
+ {
+  "id": "151634",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online min-max optimization regret notions; no dynamical system"
+ },
+ {
+  "id": "153252",
+  "tier": "out",
+  "sub": null,
+  "reason": "CVaR Stackelberg bandits and generic Markov games; no continuous dynamics"
+ },
+ {
+  "id": "149383",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fast rotor sandwich products in Clifford algebra; linear-algebra kernel"
+ },
+ {
+  "id": "151595",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear bandits under network interference; adaptive targeting"
+ },
+ {
+  "id": "148686",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "RL-tuned MPC with high-order control barrier function constraints for shape-aware robot navigation"
+ },
+ {
+  "id": "153546",
+  "tier": "out",
+  "sub": null,
+  "reason": "Brain encoding models fMRI to ECoG; neuroscience prediction"
+ },
+ {
+  "id": "152415",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM/VLM-driven evolutionary reward discovery for RL; reward design"
+ },
+ {
+  "id": "150951",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Learned world model plus trajectory value for implicit latent planning in VLA policies"
+ },
+ {
+  "id": "153887",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attack/defense for ML in statistical physics; adversarial robustness"
+ },
+ {
+  "id": "155346",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Closed-loop active ODE equation discovery with LLM-generated hypotheses; system reconstruction"
+ },
+ {
+  "id": "148644",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Breakeven-cost evaluation framework for neural PDE surrogate solvers"
+ },
+ {
+  "id": "152367",
+  "tier": "out",
+  "sub": null,
+  "reason": "Partner modelling for zero-shot coordination in Overcooked; multi-agent RL game"
+ },
+ {
+  "id": "154831",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-EMG dataset and motor-code pretraining for action understanding"
+ },
+ {
+  "id": "151739",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hand-aware 6DoF object pose tracking from RGB video; perception only"
+ },
+ {
+  "id": "154941",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parameter-efficient query-key attention reparameterization"
+ },
+ {
+  "id": "155421",
+  "tier": "out",
+  "sub": null,
+  "reason": "Closed-form last-layer updates for neural network optimization"
+ },
+ {
+  "id": "153140",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Koopman/EDMD operator analysis of linear vs softmax attention stability as a dynamical system"
+ },
+ {
+  "id": "151681",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Contracting recurrent/Neural-ODE models proven to act as tunable nonlinear observers for state estimation"
+ },
+ {
+  "id": "152804",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reflow-regularized flow-matching policy gradients; generic RL algorithm on MuJoCo benchmarks"
+ },
+ {
+  "id": "149190",
+  "tier": "out",
+  "sub": null,
+  "reason": "Information-gain intrinsic reward for RL exploration; generic exploration method"
+ },
+ {
+  "id": "155096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mechanistic interpretability of transformer Sudoku world model; no dynamics"
+ },
+ {
+  "id": "150395",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nonlinear direct feedback alignment for backprop-free training"
+ },
+ {
+  "id": "148709",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Online inventory optimization with state memory; regret via one-dimensional queue state dynamics"
+ },
+ {
+  "id": "154672",
+  "tier": "out",
+  "sub": null,
+  "reason": "Momentum for gradient equilibrium in online calibration; no dynamical system"
+ },
+ {
+  "id": "150829",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion subgoal planning for offline goal-conditioned RL on standard benchmarks"
+ },
+ {
+  "id": "150634",
+  "tier": "out",
+  "sub": null,
+  "reason": "KL convergence rates of 2D-tilted surrogates to multi-marginal Schrodinger bridge; generative theory"
+ },
+ {
+  "id": "151270",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spectral LoRA consolidation for multimodal continual learning"
+ },
+ {
+  "id": "153052",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Reflected Schrodinger bridge matching; SDE-based bridge sampling cast as controlled diffusion"
+ },
+ {
+  "id": "149044",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discriminative dimensionality reduction via max-min scatter ratios"
+ },
+ {
+  "id": "153739",
+  "tier": "out",
+  "sub": null,
+  "reason": "SE(2)-aware generative vehicle trajectory synthesis for simulation; no control contribution"
+ },
+ {
+  "id": "151058",
+  "tier": "out",
+  "sub": null,
+  "reason": "Active context sampling in contextual bandits; simple regret"
+ },
+ {
+  "id": "149986",
+  "tier": "out",
+  "sub": null,
+  "reason": "Static/dynamic token disentanglement for efficient VLA inference"
+ },
+ {
+  "id": "155581",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nonparametric estimation rates for Schrodinger bridge drifts; statistics, no control contribution"
+ },
+ {
+  "id": "148607",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Newton-linearized physics-informed network for meta-learning nonlinear PDE solutions"
+ },
+ {
+  "id": "150743",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diagnostic of label accessibility in graph classification benchmarks"
+ },
+ {
+  "id": "152248",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Conjugacy-based Koopman comparison of dynamical systems; dynamical-systems analysis tool"
+ },
+ {
+  "id": "153880",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical sensitivity of robust mean estimators; statistics"
+ },
+ {
+  "id": "154409",
+  "tier": "out",
+  "sub": null,
+  "reason": "Environment-only attack surface for VLA embodied agents; safety evaluation of VLAs"
+ },
+ {
+  "id": "154105",
+  "tier": "out",
+  "sub": null,
+  "reason": "SDE-consistent stochastic sampler for RL post-training of flow-matching generators"
+ },
+ {
+  "id": "155991",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strategic selection in risk-based healthcare payment mechanisms; economics"
+ },
+ {
+  "id": "151126",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gating policy for planning budgets in real-time game RL; no physical dynamics"
+ },
+ {
+  "id": "155740",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memorization detection in diffusion models via score evolution along sampling trajectory"
+ },
+ {
+  "id": "149162",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Causal optimistic bandit for steady-state configuration of networked systems with black-box controllers"
+ },
+ {
+  "id": "149949",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Random-matrix analysis of gradient-flow training dynamics and transient early-stopping spectrum"
+ },
+ {
+  "id": "153621",
+  "tier": "out",
+  "sub": null,
+  "reason": "Procedural skill recomposition for robot task adaptation; no controller contribution"
+ },
+ {
+  "id": "155680",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online conformal prediction intervals for time-series forecasting"
+ },
+ {
+  "id": "152139",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sequential Monte Carlo diffusion samplers for unnormalized targets"
+ },
+ {
+  "id": "154314",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trust-region optimization of neural quantum states viewed as policy gradient"
+ },
+ {
+  "id": "149370",
+  "tier": "out",
+  "sub": null,
+  "reason": "Foundation-model system for datacenter hardware diagnosis"
+ },
+ {
+  "id": "153787",
+  "tier": "out",
+  "sub": null,
+  "reason": "Efficient VLA with recurrent action memory for driving; VLA architecture"
+ },
+ {
+  "id": "152531",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-guided noise-space RL finetuning of diffusion VLA policies"
+ },
+ {
+  "id": "149055",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sample complexity of forward-KL-regularized offline contextual bandits"
+ },
+ {
+  "id": "153061",
+  "tier": "out",
+  "sub": null,
+  "reason": "Partially performative prediction under endogenous and exogenous distribution shift"
+ },
+ {
+  "id": "155497",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transferable adversarial attacks on vision-language models"
+ },
+ {
+  "id": "155084",
+  "tier": "out",
+  "sub": null,
+  "reason": "Selective imitation learning theory under dynamics shift; sample complexity of stopping rules"
+ },
+ {
+  "id": "151153",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regression-based LiDAR relocalization for UAVs; perception/localization only"
+ },
+ {
+  "id": "152295",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hybrid quantum-classical operator learning for parametric PDE solutions"
+ },
+ {
+  "id": "153227",
+  "tier": "out",
+  "sub": null,
+  "reason": "Unlearning for diffusion policies in offline RL"
+ },
+ {
+  "id": "153785",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrete latent routing for language-model post-training"
+ },
+ {
+  "id": "152131",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Video model as forward dynamics model used for model-based planning and policy evaluation"
+ }
+]

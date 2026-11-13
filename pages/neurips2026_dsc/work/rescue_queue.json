@@ -1,0 +1,19 @@
+[
+{
+"id": "149391",
+"title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+"lex": 8,
+"prior": {
+"mean": 0.271,
+"max": 0.495,
+"n_matched": 8,
+"n_authors": 8
+},
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "3D point-track dynamics pretraining for perception and manipulation policies; no planning or control use",
+"source": "pass1"
+}
+}
+]

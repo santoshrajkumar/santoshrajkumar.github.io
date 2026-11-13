@@ -1,0 +1,1263 @@
+[
+{
+"id": "150076",
+"title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "JEPA latent world model from pixels used for planning on control tasks",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Joint Embedding Predictive Architectures (JEPAs) offer a compelling framework for learning world models in compact latent spaces, yet existing methods remain fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse. In this work, we introduce LeWorldModel (LeWM), the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This reduces tunable loss hyperparameters from six to one compared to the only existing end-to-end alternative. With ~15M parameters trainable on a single GPU in a few hours, LeWM plans up to 48x faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control, we show that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. Surprise evaluation confirms that the model reliably detects physically implausible events."
+},
+{
+"id": "150860",
+"title": "Baba in Wonderland: Online Self-Supervised Dynamics Discovery for Executable World Models",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Online learning of executable game transition dynamics for planning; world model learning",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Executable world models can be read, edited, executed, and reused for planning, but only if the program captures the environment's transition law rather than semantic shortcuts in its surface vocabulary. We study online executable world-model learning under prior misalignment, where an agent must induce state-dependent dynamics from interaction evidence alone, without rule descriptions, reward signals, or trustworthy lexical priors. We introduce Alice, a closed-loop system that treats failed candidate updates as structural signal: when a candidate explains a new transition but loses previously explained ones, the preservation conflict reveals dynamics that the current program had conflated. Alice refines these conflicts into hypothesis classes that both provide compact, class-stratified preservation counterexamples for update and guide frontier exploration toward transitions that are novel and underrepresented with respect to the current program. We evaluate Alice on Baba in Wonderland, a prior-misaligned variant of Baba Is You that preserves simulator dynamics while replacing semantically meaningful rule-property labels with unrelated words. Experiments show that Alice substantially improves executable world-model learning under prior misalignment, and ablations show that both class refinement and class-aware exploration contribute."
+},
+{
+"id": "151387",
+"title": "Phaedra: Learning High-Fidelity Discrete Tokenization for the Physical Sciences",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Discrete tokenizer for PDE simulation data feeding operator learning",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Tokens are discrete representations that allow modern deep learning to scale by transforming high-dimensional data into sequences that can be efficiently learned, generated, and generalized to new tasks. While foundational for image and video generation, the application of tokens to physical simulation remains nascent. Because existing tokenizers are designed for the perceptual requirements of natural images, they struggle with scientific data, which exhibits large dynamic ranges and requires exact preservation of physical and spectral properties. In this work, we investigate the performance of a suite of image tokenizers across metrics designed to measure PDE fidelity. Observing that these baselines struggle to simultaneously capture fine geometric details and precise physical magnitudes, we propose Phaedra, a novel tokenizer inspired by classical shape-gain quantization and the paradigm of basis functions coupled with continuous coefficients. Phaedra acts as a highly effective nonlinear compression algorithm, massively reducing dataset footprints while maintaining physical fidelity. We demonstrate that Phaedra consistently improves reconstruction across diverse PDE datasets, generalizes robustly to unseen PDE types and real-world Earth observation data, and provides immediate accuracy gains in initial downstream operator learning and masked autoencoding tasks."
+},
+{
+"id": "151474",
+"title": "ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Transformer surrogate for cloth dynamics simulation",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Unified and scalable Transformers have recently achieved remarkable success in modeling diverse phenomena traditionally associated with computer graphics, such as 3D visual effects, rendering processes, and motion in videos. In this work, we take a step further by investigating whether modern Transformer techniques can tackle the challenging task of cloth simulation. To this end, we present ClothTransformer, a framework that reformulates cloth simulation as autoregressive sequence modeling in a learned latent space. Existing neural cloth simulators are largely specialized to single scenarios, intrinsically coupled to the mesh discretization, and lack robust collision handling. Our approach addresses these limitations through three contributions: (1) a unified Transformer architecture that handles diverse scenarios---body-driven garments, robotic manipulation, and free-fall collisions---under a single model and achieves approximately $4$--$9{\\times}$ lower error than prior state-of-the-art across all scenarios; (2) a scalable latent-space formulation that compresses arbitrary-resolution meshes into a fixed-size set of latent tokens, making temporal dynamics computation independent of mesh resolution; and (3) a diverse-scenario high-fidelity penetration-free dataset of ${\\sim}$493.4k frames spanning all three settings, which enables a differentiable Continuous Collision Detection (CCD) module to suppress penetration artifacts."
+},
+{
+"id": "155914",
+"title": "CorridorLight: Cooperation as Task Negotiation with Causal Gating for Traffic Signal Control",
+"area": "LLM Agents",
+"label": {
+"tier": "core",
+"sub": "LC",
+"reason": "Multi-agent RL for network-level traffic signal control; traffic control counts as core",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Network-level traffic signal control (TSC) involves coordination under partial observability and strict real-time constraints. In real-world urban networks with dozens or hundreds of intersections, direct coordination incurs an intractably large joint action space, making centralized cooperation difficult to deploy in practice. We propose CorridorLight, which tackles this challenge by casting cooperation as task negotiation. A high-level Corridor Agent represents the network as a direction-level graph and periodically generates a small set of junction-disjoint corridor tasks via a seed-and-grow procedure. These tasks provide lane-level preference guidance, while Intersection Agents maintain fast decentralized control and selectively support the active corridor task. By learning when to cooperate versus act selfishly, CorridorLight enables an adaptive trade-off between local delay minimization and corridor-level relief, leading to improved global performance. To this end, we derive a closed-form, Lipschitz-continuous gating function by maximizing a counterfactual net gain between cooperative and selfish behavior, yielding smooth, interpretable cooperation without brittle heuristics. Experiments on synthetic grids and real-world networks show consistent system-level improvements and outperform cooperative TSC baselines across diverse topologies and demand patterns."
+},
+{
+"id": "151200",
+"title": "Test-Time Prompt-Agnostic Decomposition",
+"area": "LLM fine-tuning & post-training",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Koopman/Hankel dynamical-systems regulation of prompt-update trajectories; control analysis of a learning algorithm",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Test-Time Prompt Tuning (TPT) adapts large pretrained models to unseen target distribution shifts by updating only lightweight prompt tokens. Existing TPT methods are effective, but they mainly optimize each prompt update locally. Across test-time steps, prompts updated at the current step are reused for later predictions and further updates, so noisy or biased unlabeled objectives can accumulate and destabilize the prompt-update trajectory. We identify two failure modes: magnitude expansion, where updates move the prompt too far, and directional drift, where consecutive updates point in inconsistent directions. To analyze and control these failures, we propose Test-Time Prompt-Agnostic Decomposition ($\\mathtt{TPD}$), which characterizes observed prompt-update trajectories from a dynamical-systems view and decomposes base prompt updates into magnitude and direction. $\\mathtt{TPD}$ computes a spectral radius to measure update expansion and decomposes update directions into persistent, oscillatory, and residual components. Building on this decomposition, Adaptive Koopman Control ($\\mathtt{AKC}$) regulates update magnitude by shrinking updates under expansive recent dynamics, while Hankel Update Router ($\\mathtt{HUR}$) refines update direction by preserving persistent components and suppressing oscillatory and residual components. Together, $\\mathtt{AKC}$ and $\\mathtt{HUR}$ produce a stabilized prompt update. As a prompt-agnostic framework, $\\mathtt{TPD}$ can be plugged into visual and text TPT methods without modifying the backbone, prompt architecture, or adaptation loss. Experiments on 15 datasets show that $\\mathtt{TPD}$ consistently improves 10 baselines, with accuracy gains of 3-8\\% for visual prompts and over 2\\% for text prompts."
+},
+{
+"id": "155014",
+"title": "Linear approximations to HMM filtering",
+"area": "Diffusion & non-autoregressive LMs",
+"label": {
+"tier": "core",
+"sub": "ES",
+"reason": "Characterizes HMMs whose Bayes filter is exactly linear and filter approximation-error decay rates",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Complex sequence models, such as transformers and state space models (SSMs), learn to represent latent belief states when trained on next-token prediction. Surprisingly, we find that in previously studied tasks, this phenomenon can also be captured by linear recurrent models. This raises a natural question: when are linear models sufficient for optimal belief state approximation? We study this question in the canonical setting of hidden Markov models (HMMs), where Bayes-optimal prediction requires nonlinear filtering. We characterize the full class of HMMs whose filtering dynamics are exactly realizable by linear recurrent neural networks (RNNs). More generally, for arbitrary HMMs, we establish a dissipation relation which shows that approximation error decays at a rate determined by intrinsic properties of the underlying HMM. We validate our theoretical results through experiments on both randomly sampled HMMs and constructed adversarial examples. Together, these findings clarify when linear sequence models suffice for optimal inference and when nonlinearity is fundamentally necessary."
+},
+{
+"id": "149549",
+"title": "Geometry-Centered 3D Latent World Models for Growing Surfaces",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Latent world model forecasting growing physical surfaces with material controls; modelling only, no planning or control",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Many physical systems do not merely move or deform; they grow, adding material and changing the geometry that a world model must represent. Existing world models are typically optimized for pixel prediction, reward prediction, or fixed-support physical dynamics, leaving open how to model systems whose geometric state expands over time and whose future morphology depends on hidden material response. We introduce FOLIAGE, a geometry-centered latent world model for growing surfaces. FOLIAGE represents mature regions as a compact scaffold while allocating higher-resolution state to active growth fronts, allowing the model to focus capacity where new material and near-future change occur. It further separates observation, action, and privileged physics: heterogeneous RGB, point-cloud, and mesh observations are fused into a deployable geometric state; material controls condition only the latent dynamics; and hidden physical energies guide training without being required at deployment. To evaluate this setting, we introduce SURF-GARDEN and SURF-BENCH, providing controlled counterfactual branches, dense cross-modal correspondences, hidden physical signals, and stress tests for growing-geometry state learning. FOLIAGE reduces inverse-material error by $\\approx40\\%$ and 5-step mesh forecasting Chamfer error by $\\approx20\\%$ relative to strong baselines, while improving cross-modal retrieval by $\\approx25\\%$ mAP@100. Stress tests show graceful degradation under sensor loss and correspondence corruption. Transfer experiments on real plant and dynamic-3D data indicate that the learned geometry-centered state generalizes beyond the simulator. We will release code and data upon acceptance."
+},
+{
+"id": "152997",
+"title": "DC-Ocean: Deep Latent Compression for Global High-Resolution Ocean Forecasting",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "TS",
+"reason": "Latent compression and autoregressive forecasting of global ocean states; forecasting a physical system, no control",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "High-resolution global ocean states expose a bottleneck in data-driven forecasting: effective long-horizon rollouts require a compact, decodable latent state that reduces I/O and stabilizes error growth. While learned compression has matured for natural RGB images, its assumptions do not transfer to ocean modeling: ocean states are multi-variable and multi-depth, their grids are orders of magnitude larger, and fixed land--sea boundaries create sharp discontinuities that make aggressive downsampling error-prone. We present DC-Ocean, the first deep latent compression architecture for multi-variable, multi-depth global $1/12^\\circ$ ocean states, built on an autoencoder that couples convolutional feature extraction with transformer-based global context modeling to retain both coastal sharpness and basin-scale structure. To explicitly address coastline-induced artifacts, DC-Ocean integrates boundary-aware gated convolutions together with a spherical geodesic front propagation interpolation scheme for stable behavior near land masks. Across key ocean variables, DC-Ocean achieves higher reconstruction fidelity than strong autoencoder baselines adapted from the natural-image domain at matched downsampling factors. Beyond reconstruction, we perform autoregressive forecasting directly in latent space and decode predictions back to the physical domain. DC-Ocean matches short-term accuracy of full-resolution forecasting while achieving lower RMSE and slower error growth at medium and long lead times. Together, these results demonstrate that DC-Ocean provides a practical framework for stable and extended high-resolution sub-daily ocean forecasting."
+},
+{
+"id": "153208",
+"title": "Point Cloud Sequence Encoding for Material-conditioned Graph Network Simulators",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Graph network physics simulator adapting to material parameters; simulation surrogate, not control",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Graph Network Simulators (GNS) have emerged as powerful surrogates for complex physics-based simulation, offering inherent differentiability and orders-of-magnitude speedups over traditional solvers. However, GNSs typically assume access to the underlying material parameters, such as stiffness or viscosity, severely limiting their utility in realistic experimental settings. While recent meta-learning approaches address the parameter dependency by inferring properties from mesh trajectories, reconstructing a mesh from an observed scene is difficult. In this work, we introduce Point Cloud Encoding for Accurate Context Handling (PEACH), a novel framework that applies in-context learning on point clouds to adapt a learned simulator to unseen physical properties during inference. Our approach relies on a novel spatio-temporal point cloud sequence encoder, as well as two forms of auxiliary supervision to help improve simulation fidelity. We demonstrate that PEACH is capable of accurate zero-shot sim-to-real transfer on a challenging, dynamic scene. Experiments on simulation scenes show that PEACH even outperforms mesh-based baselines on simulation accuracy, while being much more practical for real-world deployment."
+},
+{
+"id": "152872",
+"title": "Path Dependence under Adaptive AI Delegation",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Phase-plane analysis of coupled skill-delegation ODE with saddle separatrix; dynamical-systems theory of (human) learning",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Repeated AI assistance can improve immediate task performance while reducing the skill available for future independent work. We develop a mathematical framework for this long-run tradeoff. The model tracks two state variables: a latent human skill level governing expected independent performance, and a delegation level representing the learner's evolving tendency to rely on AI. Skill changes through error-driven learning under practice and decay under delegation; delegation responds to observed performance, increasing when AI-assisted work appears to outperform independent work. We analyze the resulting dynamics and contrast them with fixed delegation. With fixed delegation, skill follows a one-dimensional learning-decay process with a single stable equilibrium. With adaptive delegation, the coupled system has two attracting equilibria separated by the stable manifold of an interior saddle. The existence and geometry of this separatrix require a global phase-plane analysis of the coupled dynamics. The system is path-dependent: small differences in initial skill or reliance can lead to different long-run outcomes. We use this characterization to show that AI assistance can improve short-run performance while producing worse long-run performance than a no-AI baseline. Increasing AI capability can enlarge the basin of attraction of the low-skill equilibrium, making delegation appear beneficial for longer while increasing the risk of eventual skill loss. The qualitative picture is observed to persist across alternative specifications. Together, these results show that the risk is not AI assistance itself, but the coupling between performance-driven reliance and use-dependent skill change."
+},
+{
+"id": "152787",
+"title": "GIST: Gauge-Invariant Spectral Transformers for Scalable Graph Neural Operators",
+"area": "Graph Learning",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Scalable graph neural operator for PDE/CFD mesh surrogates",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Neural operators on irregular meshes face a fundamental tension. Spectral positional encodings, the natural choice for capturing geometry, require cubic-complexity eigendecomposition and inadvertently break gauge invariance through numerical solver artifacts; existing efficient approximations sacrifice gauge symmetry by design. Both failure modes break discretization invariance: models fail to transfer across mesh resolutions of the same domain, and similarly across different graphs of related structure in inductive settings. We propose GIST (Gauge-Invariant Spectral Transformer), a scalable neural operator that resolves this tension by restricting attention to pairwise inner products of efficient approximate spectral embeddings. We prove these inner products estimate an exactly gauge-invariant graph kernel at end-to-end $\\mathcal{O}(N)$ complexity, and establish a formal connection between gauge invariance and discretization-invariant learning with bounded mismatch error. To our knowledge, GIST is the first scalable graph neural operator with a provable discretization-mismatch bound. Empirically, GIST sets state-of-the-art on the AirfRANS, ShapeNet-Car, DrivAerNet, and DrivAerNet++ mesh benchmarks (up to 750K nodes), and additionally matches strong baselines on standard graph benchmarks (e.g., 99.50\\% micro-F1 on PPI)."
+},
+{
+"id": "152740",
+"title": "Contractive Restoring Flows: Robust Reasoning Distillation via Orbital Stability",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Contraction/orbital-stability analysis of transformer residual-stream dynamics for distillation",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Model distillation provides an alternative when computing resources are limited. How to transfer the reasoning ability from teacher model to student model influences the performance of model distillation. We develop a mathematical framework for reasoning distillation grounded in dynamical systems theory. By modeling the teacher model's residual stream as a discrete dynamical system, we define a precise notion of orbital stability: perturbations transversal to the teacher's reasoning trajectory should contract, while the tangential reasoning signal propagates without active suppression. We derive the Contractive Restoring Flow (CRF) loss from first principles and prove that, at the loss minimum, it achieves strict transversal contraction at a constant rate $1-\\alpha$, leaves the tangential dynamics unconstrained (tangential agnosticism), and produces a global basin of attraction with bounded steady-state error within the linearisation regime. Empirically, reasoning-trajectory distillation with the CRF loss outperforms other distillation methods, and shows greater robustness on long-chain reasoning tasks, supporting the predicted effect of contracting transversal error. The code is avaiable at: https://anonymous.4open.science/r/CRF-5945/."
+},
+{
+"id": "155714",
+"title": "PDE-PFN: Prior-Data Fitted Neural PDE Solver",
+"area": "Diffusion & non-autoregressive LMs",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Prior-data fitted in-context neural PDE solver",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Motivated by the success of large language models (LLMs) with broad generalizability and robustness to noisy or unreliable pre-training data, we seek to bring similar capabilities to PDE solvers. In addition, inspired by the posterior predictive mean-based inference mechanism of the in-context learning in prior-data fitted networks (PFNs), we propose PDE-PFN, a prior-data fitted neural solver that approximates the posterior predictive mean of PDE solutions via in-context learning. PDE-PFN builds on a PFN architecture with self- and cross-attention mechanisms of Transformer and is pre-trained on noisy approximate solutions generated by physics-informed neural networks, serving as diverse but not necessarily exact priors. Through experiments on a range of two-dimensional PDEs, we demonstrate that PDE-PFN achieves empirical generalization across heterogeneous equations, robustness under noisy priors, and zero-gradient-update in-context inference capability. Our approach not only outperforms task-specific baselines but also provides a flexible and robust framework for advancing SciML."
+},
+{
+"id": "152562",
+"title": "GeoTransolver: Learning Physics on Irregular Domains using Multi-scale Geometry Aware Physics Attention Transformer",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Geometry-aware transformer surrogate for CAE flow and crash dynamics",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "We present GeoTransolver, a multiscale geometry-aware physics attention transformer for Computer Aided Engineering (CAE). GeoTransolver extends the Transolver backbone with GALE (Geometry-Aware Latent Embeddings) attention, which pairs physics-aware self-attention on learned state slices with cross-attention to a shared geometry and global context computed via multi-scale ball queries (inspired by Domino) and reused in every block. Implemented and released in NVIDIA PhysicsNeMo, GeoTransolver persistently projects geometry and global parameters, into physical state spaces to anchor computations to domain structure and operating regimes. We benchmark on DrivAerML, SHIFT-SUV, and SHIFT-Wing against Domino, Transolver (PhysicsNeMo implementation), and literature-reported AB-UPT, evaluating drag/lift $R^2$ and relative $L_1$ errors on field variables. As an additional nonlinear structural mechanics application, we also report Transolver and GeoTransolver results on bumper-beam and full-vehicle Body-in-White (BIW) crash-dynamics benchmarks, evaluating relative $L_2$ trajectory error and probe-level kinematic MSE. GeoTransolver delivers improved accuracy, robustness to geometry and regime shifts, and favorable data efficiency; we include DrivAerML ablations and qualitative contour and design-trend results, advancing operator learning for high-fidelity surrogates on complex, irregular, non-linear domains."
+},
+{
+"id": "150025",
+"title": "Accelerating LLM Pre-Training through Flat-Direction Dynamics Enhancement",
+"area": "Efficient LLM inference",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Riemannian ODE framework for adaptive optimizers with momentum as damping; training dynamics analysis",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Pre-training Large Language Models requires immense computational resources, making optimizer efficiency essential. The optimization landscape is highly anisotropic, with loss reduction driven predominantly by progress along flat directions. While matrix-based optimizers such as Muon and SOAP use fine-grained curvature information to outperform AdamW, their updates tend toward isotropy, which is relatively conservative along flat directions yet potentially aggressive along sharp ones. To address this limitation, we first establish a unified Riemannian Ordinary Differential Equation (ODE) framework that clarifies the mechanism of adaptive algorithms: the preconditioner induces a Riemannian geometry that mitigates ill-conditioning, while momentum serves as a Riemannian damping term that promotes convergence. Guided by these insights, we propose LITE, a generalized acceleration strategy that enhances training dynamics by applying larger Hessian damping coefficients and learning rates along flat trajectories. Extensive experiments demonstrate that LITE significantly accelerates both Muon and SOAP across diverse architectures (Dense, MoE), parameter scales (130M to 1.3B), datasets (C4, Pile), and learning-rate schedules (cosine, wsd). Theoretical analysis confirms that LITE facilitates faster convergence along flat directions in anisotropic landscapes, providing a principled approach to efficient LLM pre-training."
+},
+{
+"id": "153532",
+"title": "Dynamics of the Transformer Residual Stream: Coupling Spectral Geometry to Network Topology",
+"area": "Graph Learning",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Residual stream as depth-time dynamical system; Jacobian spectral/non-normality analysis of networks",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Large language models are remarkably capable, yet how computation propagates through their layers remains poorly understood. A growing line of work treats depth as discrete time and the residual stream as a dynamical system, where each layer's nonlinear update has a local linear description. However, previous analyses have relied on scalar summaries or approximate linearizations, leaving the full spectral geometry of trained LLMs unknown. We perform full Jacobian eigendecomposition across three production--scale LLMs and show that training installs a monotonic spectral gradient through depth---from non-normal, rotation-dominated early layers to near--symmetric late layers---together with a cumulative low-rank bottleneck that funnels perturbations into a small fraction of the residual stream's effective dimensions. Our experiments reveal that this gradient and the dimensional collapse are learned rather than architectural, and is largely dissolved when structured non-normality is removed. We further show that the topological positioning of graph communities predicts whether the Jacobian amplifies or suppresses them, with the sign of the coupling determined by the local operator type, a relationship absent at initialization. These results map a learned spectral geometry in LLMs that links perturbation propagation and compression to the network's functional topology."
+},
+{
+"id": "152582",
+"title": "Emergence of Physical Intelligence via Controllable Information Production",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Intrinsic-motivation RL with optimal-control framing; contribution is a reward, not a controller",
+"source": "adjudicated"
+},
+"check": "possible false positive",
+"abstract": "Intrinsic Motivation (IM) aims to train agents without external rewards, enabling useful behavior to emerge from the agent's interaction with its environment alone. However, the dominant IM approaches rely on information-theoretic quantities with designer-chosen variables, introducing bias and lacking a principled connection to dynamics or optimal control (OC). We introduce Controllable Information Production (CIP), a new foundation for IM explicitly grounded in dynamical systems and OC. CIP measures the rate at which an agent produces information, capturing controllable complexity without external knowledge or bias. CIP unifies IM and OC into a single framework, formalizing physical intelligence as the control of information production. It further reveals connections between the structure of the value function and Kolmogorov–Sinai entropy. CIP consistently outperforms prior IM methods on standard benchmarks in robot learning and solves tasks they fail on, including humanoid self-righting. These results support a general organizing principle: physical intelligence emerges from driving systems toward the edge of controllable chaos."
+},
+{
+"id": "151456",
+"title": "Margin Dynamics for Large Language Model Alignment",
+"area": "LLM fine-tuning & post-training",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Closed-form margin ODE and vector-field analysis of LLM alignment training dynamics.",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Practitioners choose among LLM alignment methods largely by trial and error. We provide a theoretical foundation: each pairwise method defines a vector field on the probability simplex that governs how the model redistributes mass between preferred and dispreferred completions. Projecting onto a single preferred/dispreferred pair reduces this to a one-dimensional margin ODE with a closed-form solution. These solutions reveal that DPO margins grow as $O(\\log t)$ while IPO margins converge exponentially to $1/(2\\tau)$; that label noise induces a qualitative phase transition in DPO (unbounded $\\to$ bounded) but affects IPO only quantitatively; and that gradient concentration under asymmetric weighting governs trainability at scale. We confirm all three predictions across five model families spanning four benchmarks. The closed-form solutions also enable principled method design: we prove that adding \\emph{any} label smoothing $\\varepsilon > 0$ to SimPO creates a finite margin attractor at $\\Delta^* = \\beta^{-1}\\log((1{-}\\varepsilon)/\\varepsilon)$, while $\\varepsilon{=}0$ (standard SimPO) has no attractor. We test this across three model scales (3.8B--9B) and confirm it: the theory-derived configuration (TPO-S, $\\varepsilon{=}0.05$) achieves the highest mean IFEval score on all three models."
+},
+{
+"id": "152436",
+"title": "GNES: Neural-Guided Evolutionary Program Search for Interpretable Multi-Agent Control",
+"area": "LLM Agents",
+"label": {
+"tier": "core",
+"sub": "LC",
+"reason": "Synthesizes interpretable decentralized velocity controllers for multi-agent swarms via neural-guided program search.",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Synthesizing interpretable controllers for multi-agent systems requires optimizing discrete symbolic programs from sparse, expensive, long-horizon simulator feedback. Evolutionary program search preserves interpretability but often spends many evaluations on weak random variation, whereas deep multi-agent reinforcement learning can learn effective policies that are difficult to inspect. We propose GNES, a neural-guided evolutionary program search framework for symbolic controller synthesis. GNES casts controller design as a program-edit decision process: gene growth trees are program states, validity-preserving genetic operators are actions, simulator fitness provides the return, and policy--value graph neural networks learn edit signals over controller topology. Monte Carlo tree search performs look-ahead planning in controller-program space before simulator validation, closing the loop between evolution, learned guidance, and verified rollouts. Experiments on three decentralized AirSim swarm-control benchmarks show that GNES improves search efficiency and final controller quality relative to evolutionary and reinforcement-learning baselines, while automatically evolving compact, inspectable distributed velocity controllers. The discovered policies expose coordination motifs, such as density-normalized radial gains and motion-compensating terms, that differ from standard hand-designed swarm rules. Ablations and learned-search comparisons indicate that graph-structured policy--value learning and MCTS look-ahead both contribute to the gains."
+},
+{
+"id": "149521",
+"title": "Function graph transformers universally approximate operators between function spaces",
+"area": "Graph Learning",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Universal approximation theory for transformer operator learning between function spaces",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "We study the approximation of nonlinear operators between function spaces by transformers. Our approach is to lift functions to measures supported on their graphs and leverage a recently introduced measure-theoretic view of transformers. A function $h$ is represented by its graph measure $\\gamma_h$, with finite tokens $\\{(x_j,h(x_j))\\}_{j=1}^N$ being its empirical approximations. We show that this framework elegantly models discretization refinement via convergence of measures and provides a natural setting for operator learning. Within this framework, we introduce function graph transformers, a graph-preserving subclass of measure-theoretic transformers that maps graph measures to graph measures, which is to say that outputs remain single-valued functions. Crucially, this additional structure does not reduce generality: we prove that the resulting graph-preserving maps can be approximated by finite compositions of standard softmax self-attention layers and pointwise MLPs, yielding universal approximation results for broad classes of nonlinear operators. Unlike existing theoretical approaches to operator learning with transformers, the measure-theoretic framework also accommodates regularized negative-order Sobolev inputs for which discretization invariance is particularly challenging, as well as query points on different output domains. Overall, function graph transformers provide a continuum viewpoint and mathematical toolkit for transformer-based operator learning, clarifying the roles of positional embeddings, graph structure, regularization, and ensuring consistency across discretizations."
+},
+{
+"id": "150943",
+"title": "NeuroSynTheos: Learning to accelerate counterexample-guided reactive synthesis modulo theories",
+"area": "LLM reasoning & test-time scaling",
+"label": {
+"tier": "core",
+"sub": "SF",
+"reason": "Accelerates LTL-modulo-theories reactive synthesis of correct-by-construction controllers with soundness preserved",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Reactive synthesis from temporal logic modulo theories (LTLt) automatically con- structs correct-by-construction controllers for systems with arithmetic constraints— elevators, thermostats, robotic patrols—but the state-of-the-art CEGRES algorithm times out on 77% of existing benchmarks due to a fundamental bottleneck: it discovers the universally valid theory tautologies needed to refine its Boolean abstraction one at a time, through expensive counterexample analysis. We present NEUROSYNTHEOS, a neural augmentation of the CEGRES loop that predicts batches of tautologies at each refinement step. We formalize template invariance for parametric specification families, showing that the prediction problem reduces to constant re-instantiation when specifications share algebraic structure. We train a GNN over formula abstract syntax trees and an autoregressive transformer on tautology traces from 104 solved benchmarks. NEUROSYNTHEOS establishes a new state of the art for LTLt synthesis: on 83 standard benchmarks, it solves 60 ±1.2 specifications (vs. 19 for the previous best), resolving 41 that no prior method could handle within a 5-minute budget, while reducing the median itera- tion count by 5.2×with under 3 seconds of neural overhead. All predictions are SMT-verified before injection, preserving full soundness guarantees."
+},
+{
+"id": "153225",
+"title": "Stability and Diversity of Networked Self-Consuming Generative Ecosystems",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Convergence and fixed-point analysis of networked model-retraining dynamics; dynamical-systems view of learning",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "The widespread deployment of generative AI has made it increasingly difficult to distinguish synthetic content from real data. Consequently, synthetic data is inevitably incorporated into the training pipelines of future model generations, forming a self-consuming training loop. Prior work has studied the effects of such recursive self-consuming training, but analyses have largely been limited to isolated models, where a model consumes only its own synthetic data, or to simplified interactions between two models. This paper takes a first step toward understanding networked self-consuming generative models, in which multiple models consume synthetic data generated by one another through complex interaction pathways. We introduce a theoretical framework representing models as nodes in a directed, weighted graph, with edge weights governing the flow of synthetic data among models. Using this framework, we analyze the long-term behavior of networked models under retraining dynamics, establishing conditions for convergence and characterizing the resulting fixed points. We further investigate how the system's long-term stability and diversity are shaped by each model’s access to real data, cross-model data consumption, and the structure of the interaction graph."
+},
+{
+"id": "155823",
+"title": "ADA: Resolving Attribution Ambiguity in End-to-End Power System Dispatch via Two-Time-Scale Stochastic Approximation",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "LLM agent with two-time-scale stochastic approximation for power system dispatch on L2RPN; decision making for physical grid",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Large Language Models (LLMs) present a novel paradigm for power system dispatch (PSD), enabling operators to derive optimal dispatch strategies from multi-objective requirements and grid dynamics. However, isolated paradigms focusing on modeling or solving often yield decision bias or physical infeasibility. Meanwhile, end-to-end paradigms couple modeling-solving with reflection-feedback loops, obscuring whether failures stem from inaccurate modeling, invalid solutions, or insufficient feedback, thereby causing ineffective iterations. To address these challenges, we propose Agile Dispatch Agent (ADA), an agent based on two-time-scale evolution that decouples the optimization process into two asynchronous loops. On the fast time scale, the Planner actively acquires information to clarify complex requirements, while the Solver selects algorithms to adapt to the problem mathematical characteristics. On the slow time scale, the Summarizer module updates the modeling feasible region based on evaluations from the Judger. Under a finite-horizon Planner and standard two-time-scale stochastic approximation assumptions, our analysis provides local tracking guarantees for the fast decision process and the slow knowledge evolution. Experiments on L2RPN benchmarks with ambiguous requirements and renewable dynamics show that ADA outperforms state-of-the-art baselines."
+},
+{
+"id": "155654",
+"title": "Normalized Friedkin–Johnsen Opinion Dynamics",
+"area": "Graph Learning",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Convergence and equilibrium analysis of normalized Friedkin-Johnsen opinion dynamics on networks; dynamical system, no control",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "As online social platforms increasingly serve as central arenas for opinion aggregation, numerous opinion dynamics models have been extensively developed to characterize how opinions propagate and to predict emerging social phenomena. Among various models, the Friedkin--Johnsen (FJ) model stands out as one of the most extensively studied frameworks, with broad applications across diverse domains and recent inspiration on the design of graph neural network architectures. However, the conventional FJ row-stochastic pairwise interaction has been shown to induce imbalanced influence patterns, often weakening the impact of high-degree nodes. To address this issue, we propose a normalized FJ model based on the normalized Laplacian, which symmetrically incorporates degree information from both endpoints. We establish its convergence and analyze its structural properties and intrinsic balance, along with a game-theoretic interpretation. We further develop efficient algorithms for computing equilibrium opinions and related metrics. Experiments on large-scale networks demonstrate the effectiveness and scalability of our approach."
+},
+{
+"id": "155354",
+"title": "PhysFormer: Learning to Simulate Mechanics in World Space",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "Diffusion transformer generating multi-object mesh dynamics trajectories; physics simulation surrogate",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "We present PhysFormer, a physics-grounded diffusion transformer for generating 4D multi-object mesh dynamics directly in world coordinates. Rather than predicting future frames in pixel space or rolling out next-step system states autoregressively, PhysFormer models physical evolution as full-trajectory coordinate diffusion. Given initial per-vertex positions, velocities, and material conditions, it generates future mesh vertex trajectories in a single denoising process, producing physically plausible object-object and object-environment interactions without hard-coded constraints, simulator priors, or learned shape latents. PhysFormer adopts a DiT-style backbone with factorized temporal, spatial, and object-level attention to capture coherent structure across time, vertices, and objects. Trained on over 100k collision-rich simulated trajectories, it models rigid and deformable multi-object dynamics, generalizes to unseen real-world geometries and larger object counts, and substantially outperforms autoregressive baselines in trajectory accuracy, rigidity preservation, and momentum-based physical consistency. Our results position coordinate-space diffusion as a promising step toward view-invariant, geometry-level world models for robotics, graphics, and physical design."
+},
+{
+"id": "154248",
+"title": "Closed-Loop Alignment: Socially Coupled In-Context Learning and Relational Posterior Collapse",
+"area": "LLM behavior, bias & evaluation",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Closed-loop gain and spectral stability analysis of in-context learning in dialogue loops; not a physical system",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Bayesian accounts of in-context learning treat context as exogenous evidence, but in multi-turn dialogue this assumption can fail: the assistant changes the user state that generates the next utterance, so the model updates on evidence partly produced by its own policy. We formalize this as Socially Coupled In-Context Learning (SC-ICL). The relevant stability quantity is a \\emph{round-trip gain} (the product of belief-to-action, action-to-evidence, and evidence-to-belief derivatives), and in a two-state local reduction the standard spectral condition on the closed-loop matrix factors as a product of a user-side gain and an assistant-side gain. Risk is therefore dyadic: neither a susceptible user nor a responsive assistant becomes unstable without the other side of the loop. We connect this stability boundary to a sigmoidal transition in relational-posterior space, which explains why myopic approval-seeking can become unstable in supportive dialogue. AI--AI experiments instantiate one-step gain assays, free-running conversations, open-loop replay, and prompt-based controllers, and four convergent results support the closed-loop account: high-gain dyads cross an operational collapse criterion while damping and barrier-style controllers sharply reduce it; a trajectory-conditioned spectral estimator separates collapsing from stable runs at the theoretical stability boundary, crossing unity near operational onset; the dyadic pattern recurs across all four pairings of GPT-4o and GPT-5.4-mini as user and assistant simulators; and a persona-only ablation that uses no numeric coupling labels in the prompts reproduces the same dyadic collapse matrix. The results are not clinical evidence; they argue that alignment should evaluate bounded closed-loop inference, not only next-response quality."
+},
+{
+"id": "149209",
+"title": "Steering Away from Memorization: Reachability-Constrained Reinforcement Learning for Text-to-Image Diffusion",
+"area": "Vision-Language & Multimodal",
+"label": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Reachability safety value and constrained RL to steer diffusion denoising dynamics; control of sampling SDE",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Text-to-image diffusion models are susceptible to memorization, revealing a fundamental failure to generalize beyond the training set. Current mitigation approaches typically sacrifice image quality or prompt alignment to reduce memorization. To address this, we propose Reachability-Aware Diffusion Steering (RADS), an offline-trained, inference-time framework that mitigates memorization while maintaining generation fidelity. RADS models the diffusion denoising process as a dynamical system and uses reachability analysis to learn a safety value function that characterizes intermediate latent states along trajectories leading to memorized samples. This motivates a constrained reinforcement learning (RL) formulation, where a policy learns to steer the trajectory away from memorization via minimal perturbations in the caption embedding space. Empirical evaluations show that RADS achieves a stronger empirical Pareto frontier between generation diversity (SSCD), quality (FID), and alignment (CLIP) compared to state-of-the-art inference-time baselines. Crucially, RADS provides robust mitigation without modifying the diffusion backbone, offering a plug-and-play solution for diverse image generation."
+},
+{
+"id": "154820",
+"title": "Predicting What Changes: Causal Delta World Models for Risk-Aware LLM Agent Planning",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "Structured delta world model consumed by MPC-style risk-aware planner for agents; rubric: world model with planning",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Modern LLM agents repeatedly fall into a familiar trap: they execute irreversible actions whose consequences they did not anticipate, such as confirming a non-refundable booking or sending an unrecoverable message. World models are a natural remedy, yet two dominant lines of work both fail this use case. Generative pixel and HTML world models pay a heavy compute cost to produce vivid but often unfaithful continuations of the full observation, while reward and value models only summarise how good an action is and tell the agent nothing about what it will change or whether the change can be undone. We argue that what an agent really needs is a model of what changes, not of what comes next. We introduce Causal Delta World Models (CDWM), which represent each transition as a typed structured delta over an entity, attribute and relation graph, and explicitly factor out reversibility, irreversible cost and prediction confidence. A learnable causal sparsity mask binds each action class to the delta dimensions it can plausibly affect, providing a strong inductive bias for unseen actions and environments. We post-train CDWM with a verifiable composite reward that aligns delta accuracy, action following, calibration error and closed-loop task success. The resulting world model is consumed by a risk-aware closed-loop planner that prunes catastrophic candidates, performs short-horizon model-predictive control, and abstains when confidence is low. On four interactive benchmarks (WebArena, Mind2Web, ALFWorld, ScienceWorld) and two visual control suites (Procgen and Atari 100k), CDWM trained on four NVIDIA A100 (80 GB) GPUs improves task success by 6.0 to 11.7 absolute points over strong agentic and world model baselines, reduces irreversible failures by 47 to 71 percent, lowers token cost per successful trajectory by 27 to 45 percent, and shows substantially better generalisation to unseen websites and rule perturbations. We conclude that the right unit for an agent's world model is the structured delta and not the full observa"
+},
+{
+"id": "148796",
+"title": "StarWM: Self-Supervised Trained Attention Routing for Robust World Models",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "World model representation learning for RL on DeepMind Control with distractors",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "A robust world model must strike the balance between faithfully capturing environmental dynamics and abstracting away from irrelevant content. While reconstruction-based world models ensure faithful supervision, they misallocate representational capacity by pixel area rather than dynamics relevance, which can cause task-irrelevant content to dominate the learned representation. Alternatively, reconstruction-free methods avoid this bias but risk discarding possibly relevant information. We propose StarWM, which combines advantages of both paradigms through a cross-attention module gated by self-supervised dynamics signals that decides where reconstruction applies, while a dual-stream decoder lets reconstruction shape only what is extracted at attended locations, with stop-gradient barriers preventing the two objectives from interfering. This allows reconstruction to supervise the visual content of attended regions without contaminating the latent with non-predictive information. On DeepMind Control with dynamic video backgrounds, StarWM outperforms reconstruction-based baselines while keeping competitive with the concurrent reconstruction-free approach, and is the only method that performs consistently well across clean, sequential-video, and random-video distractor settings. Mechanistic probing confirms StarWM preserves state attributes with near-perfect fidelity through long-horizon imagination while systematically discarding distractors."
+},
+{
+"id": "155260",
+"title": "When Actions Matter: Causal Affordances for Long-Horizon Credit Assignment in World Models",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "MB",
+"reason": "World-model agent with causal credit assignment for long-horizon Crafter tasks; model-based RL",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Long-horizon tasks require identifying which past decisions actually mattered for distant outcomes. In deep achievement chains, a single early decision can determine success thousands of steps later, far beyond the reach of short-horizon imagination. We introduce WHAM, a world-model agent for causal credit assignment in long-horizon tasks. WHAM ascends Pearl's causal hierarchy within a learned world model to identify decision-critical bottleneck states, prioritizes replay and imagination around them, and propagates value through sparse bottleneck chains using replay-derived returns. A hierarchical bottleneck critic bridges credit across thousands of timesteps with provably controlled error. On Crafter, WHAM achieves $67.1\\%$ ($+8.2$ over a state-of-the-art baseline), with gains that grow systematically with achievement-chain depth: diamond collection rises $17\\times$ to $8.5\\%$, and the best seed reaches $12.5\\%$, exceeding the human expert rate. Long-horizon credit flows where actions shape distant outcomes."
+},
+{
+"id": "148575",
+"title": "Approximate Memory Suffices for Universal Approximation with State Space Models",
+"area": "Diffusion & non-autoregressive LMs",
+"label": {
+"tier": "adjacent",
+"sub": "TD",
+"reason": "Approximation of fading-memory causal operators by linear contractive state-space recurrences; systems-theoretic analysis of sequence models",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Sequence models in machine learning compress long input histories into finite-dimensional states, from recurrent networks and reservoir computing to recent state space models for long-context data. This raises a basic expressivity question: how simple can the recurrent memory be before it can no longer approximate stable causal sequence-to-sequence maps? We answer this question for fading-memory operators, where the distant past has uniformly diminishing influence. We show that every continuous causal time-equivariant fading-memory operator on a compact input set can be uniformly approximated by a state space model whose recurrence is a fixed diagonal linear contraction. The dynamics are time-invariant, input-independent, and contain no nonlinear hidden-state update or delay-line structure. The construction uses a bank of short exponential traces; although such traces do not exactly store a recent input window, a singular Vandermonde extraction approximately reconstructs the window while the remaining tail becomes negligible as delta decreases. We also prove that exact delay recovery is impossible for any fixed finite trace bank, showing that the accuracy-dependent extraction is essential. Technically, the result separates recurrent expressivity from exact memory storage, while exposing a conditioning cost in the readout. More broadly, it clarifies why highly stable, structurally simple SSM cores can still be universal approximators for stable sequence behavior."
+},
+{
+"id": "153736",
+"title": "REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning",
+"area": "LLM Agents",
+"label": {
+"tier": "core",
+"sub": "LC",
+"reason": "LLM trajectory planner grounded to learned dynamics model and verified by forward rollout under real-time constraints",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Agent harnesses—runtime scaffolds that wrap an LLM's reasoning loop with tool dispatch, verification, and persistent memory—have become the standard substrate for deploying LLMs as autonomous agents, as demonstrated by Claude Code and Codex in software engineering. In trajectory planning, however, this paradigm has not taken hold: existing LLM-based trajectory planning methods either keep the LLM in the decision loop, exceeding the millisecond-level control budget, or offload it to offline rules or training-time supervision—leaving the runtime planner non-evolving. Intermediate hybrids still lack the verification-and-consolidation loop that makes harnesses reliable. We ask: what runtime harness would let an LLM planner meet real-time constraints while self-evolving into a deployable one? We propose REINS, a harness built on three LLM–planner couplings: LLM outputs are (i) grounded to a learned variable-level dynamics model, (ii) verified via calibrated predicates and forward rollout, and (iii) consolidated into an indexed skill memory that serves future scenes in $\\mathcal{O}(\\log n)$ without re-invoking the LLM. The harness closes a self-evolution loop: familiar scenes resolve by memory lookup; novel scenes invoke the LLM, whose verified outputs enrich the memory. Without modifying LLM weights, REINS attains 98%+ compliance, 50%+ collision reduction, and 2–5 ms latency on simulated and real-world benchmarks, with LLM invocation rate monotonically declining as memory matures. Code: https://anonymous.4open.science/r/REINS-1FE3/"
+},
+{
+"id": "150198",
+"title": "Activation Steering of Video Generation Models via Reduced-Order Linear Optimal Control",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "Reduced-order LQR with identified latent linear dynamics to steer video-generation activations; optimal control of a generative process",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Text-to-video (T2V) models trained on large-scale web data can generate undesired content, motivating interventions that reduce harmful outputs without sacrificing visual quality. Activation steering offers an attractive mechanistic alternative to finetuning and prompt filtering, but existing T2V steering methods remain limited, typically applying coarse non-anticipative interventions that can lead to oversteering and content degradation. To close this gap, we propose Latent Activation Linear-Quadratic Regulator (LA-LQR), a reduced-order optimal control framework for minimally invasive T2V steering. LA-LQR formulates T2V inference as a dynamical system and computes closed-loop feedback interventions that steer activations toward desired feature setpoints while penalizing unnecessary perturbations. To make optimal control feasible for high-dimensional video activations, we project activations onto a low-dimensional, task-relevant subspace derived from contrastive prompt pairs, estimate local linear dynamics in this latent space, and solve a latent LQR problem to obtain timestep- and layer-specific steering signals. We provide theoretical bounds relating latent setpoint tracking to raw activation-space feature control, and empirically validate the fidelity of the reduced latent dynamics. On concept steering and video safety benchmarks, LA-LQR reduces unsafe generations relative to baselines, while preserving prompt fidelity and visual quality."
+},
+{
+"id": "149881",
+"title": "Seeing the Unseen: Unified Visible–Invisible Motion for Physically Consistent Video Generation",
+"area": "3D, Image & Video",
+"label": {
+"tier": "adjacent",
+"sub": "NO",
+"reason": "learned particle-graph dynamics simulator forecasting 3D motion to ground video generation; physics modelling, no control",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Recent advances in video generation have achieved impressive visual quality, yet they often fail to produce physically consistent dynamics due to the lack of explicit modeling of underlying physical processes. Existing approaches either rely on simulators with strong assumptions or use coarse semantic guidance, and further struggle to effectively inject physical priors into generation models. In this work, we propose Seeing the Unseen, a unified framework for physics-grounded video generation. Our approach decomposes the problem into two stages: learning physical dynamics and injecting them into video synthesis. First, we introduce a lightweight Particle-based Graph Dynamics Simulator (PGDS) that learns generalizable physical interactions from data and predicts plausible 3D motion trajectories. Second, we propose a Visible–Invisible Motion Field (VIMF) that captures both motion observable in the input frame and motion that emerges over time due to object dynamics. This representation enables more complete and structured motion guidance compared to conventional physical signals. By integrating these trajectories into a diffusion-based generator, our method produces videos that are both visually coherent and physically consistent. Extensive experiments demonstrate improved motion accuracy, interaction consistency, and reduced physical artifacts compared to strong baselines."
+},
+{
+"id": "151529",
+"title": "REFLEX: Reflective Evolution from LLM Experience",
+"area": "LLM Agents",
+"label": {
+"tier": "adjacent",
+"sub": "SD",
+"reason": "LLM-driven evolutionary programmatic policy search evaluated on classic control benchmarks; no control-theoretic contribution.",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Large multimodal language models (LLMs) have emerged as powerful tools for guiding evolutionary search toward interpretable programmatic policies. However, existing frameworks rely on a monolithic model call to simultaneously interpret visual behavioral evidence and synthesize corrective code. This diagnosis-repair entanglement creates an opaque feedback loop, obscuring the rationale behind mutations and preventing the retention of algorithmic insights across independent runs. To achieve auditable and efficient policy search, we argue that visual diagnosis must be structurally decoupled from code generation. We present REFLEX, a train-free evolutionary framework that operationalizes this decoupling. In REFLEX, a vision-enabled Critic first distills task-specific behavioral evidence into structured, auditable diagnoses. Subsequently, a text-optimized Actor synthesizes child policies using these diagnoses alongside a persistent, self-evolving Skill Memory of reusable code snippets. This architecture not only provides transparent mutation traces but also enables cross-run programmatic knowledge transfer. Extensive evaluations across control benchmarks (Lunar Lander, Acrobot, Pendulum) and a 36-dimensional antenna array synthesis task demonstrate exceptional sample efficiency. Notably, REFLEX solves Acrobot and Pendulum in under 10 LLM calls and reaches a Normalized Weighted Score of 1.013 on Lunar Lander in just 20 calls, achieving highly competitive final performance while significantly accelerating the early-stage discovery of transparent policies."
+},
+{
+"id": "151413",
+"title": "MonoPhysics: Estimating Geometry, Appearance, and Physical Parameters from Monocular Videos",
+"area": "3D, Image & Video",
+"label": {
+"tier": "core",
+"sub": "ID",
+"reason": "Identifies physical parameters of deformable-object dynamics via differentiable MPM simulation from video.",
+"source": "pass1"
+},
+"check": "possible false positive",
+"abstract": "Existing inverse physics methods recover physical parameters from multi-view videos, where geometric constraints across views resolve scale and 3D structure. In monocular settings, however, such constraints are absent, leading to severe scale ambiguity, inaccurate geometry, and weak coupling between appearance optimization and physical simulation. We propose MonoPhysics, a framework for monocular inverse physics estimation of deformable objects using differentiable MPM simulation and 3D Gaussian Splatting, which jointly optimizes geometry, appearance, and physical parameters from a single camera view. We address these challenges through three visual-physical bridges: global scale alignment, physics-aware geometry refinement, and a differentiable position map, which together enable accurate optimization from image-space losses alone. We evaluate on Vid2Sim and our new dataset of elastic and plastic objects, showing that MonoPhysics outperforms existing baselines in monocular settings and achieves performance comparable to multi-view baselines using only a single camera."
+},
+{
+"id": "154409",
+"title": "EnvTrap: Revealing the Environment-Only Attack Surface in Embodied AI via Consequence-Blind Action Execution",
+"abstract": "As AI models evolve from text and vision to physical agents, embodied AI faces a fundamentally different attack surface. Prior attacks on embodied systems have largely focused on semantic or instruction-level manipulations, such as prompts, adversarial images, and action commands; by contrast, we study environment-only perturbations that require no access to the model or instructions. We reveal a new attack surface: the physical environment itself. An adversary who rearranges objects, without modifying instructions or accessing models, can cause hazardous consequences. In this work, we propose EnvTrap, a diagnostic pipeline that constructs paired safe, trap, and null-trap (benign but misleading) embodied scenarios. We demonstrate that environment-only perturbations raise hazardous-action rates to an average of 86.5\\% across multiple vision-language-action (VLA) models, with similar vulnerability patterns confirmed in world models. On a consequence-prediction task, model accuracy remains near chance, while human evaluators succeed easily. We further propose a consequence-aware defense that reduces trap trigger rates by an average of 76.3\\% across VLA models in simulation and by 61.7\\% on physical robots. This vulnerability arises because current embodied models can recognize scene state but often fail to predict action consequences under altered layouts. Our findings establish environment integrity as a prerequisite for safe embodied AI deployment. Our code and data are available at https://anonymous.4open.science/r/Envtrap-1BA4/",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Environment-only attack surface for VLA embodied agents; safety evaluation of VLAs",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148887",
+"title": "ORCAID: Oblique Rule-Based Continuous-Action Interpretation for Deep RL Policies",
+"abstract": "Explainability remains a key issue in reinforcement learning (RL). Distilling an interpretable policy from an agent trained in a complex environment is particularly challenging when the action space is continuous. We introduce ORCAID, a novel method for extracting interpretable rule-based policies from RL agents operating in mixed continuous-discrete environments with continuous action spaces. Our main contribution is an efficient oblique decision tree training algorithm that partitions the state space by hyperplanes and fits local linear models. The key idea lies in a three-stage split search: efficient random initialization, local refinement, and backward elimination. Finally, adjacent leaves are merged to yield a concise set of interpretable rules describing a given deep RL policy. We evaluate ORCAID on multiple RL environments, demonstrating that the extracted rule-based policies maintain strong performance with a low number of parameters and can even be used to improve the performance of the original deep RL policy.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Oblique decision-tree distillation of continuous-action deep RL policies; explainability",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153880",
+"title": "Robust Statistical Estimators with Bounded Empirical Sensitivity",
+"abstract": "We introduce a new measure of robustness for statistical estimators, which we call empirical sensitivity. An estimator $\\hat \\mu$ has bounded empirical sensitivity if, with high probability over a dataset $X = (X_1, \\dots, X_n) \\sim \\mathcal{D}^{\\otimes n}$, for any dataset $Y$ obtained by modifying at most $\\eta n$ points in $X$, we have that $\\hat \\mu(Y)$ is close to $\\hat \\mu(X)$. We study bounds on this quantity for the prototypical problem of Gaussian mean estimation. We prove new lower bounds, showing that for any estimator $\\hat \\mu$ which achieves an optimal $\\ell_2$-error bound of $O(\\sqrt{d/n})$, the empirical sensitivity is at least $\\Omega(\\eta + \\sqrt{\\eta d/n})$. The two terms arise due to obstructions on the mean and variance (via an Efron-Stein argument) of such an estimator. We show that this bound is tight up to logarithmic factors, by employing recent results for robust empirical mean estimation.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Empirical sensitivity of robust mean estimators; statistics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155605",
+"title": "Hallucination in World Models is Predictable and Preventable",
+"abstract": "Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics. We hypothesize that hallucination concentrates in low-coverage regions of the state-action space, where lightweight data-centric signals can both detect it and guide mitigation. To test this, we introduce MMBench2, a 427-hour, 210-task dataset for visual world modeling with ground-truth actions, rewards, and live simulators, and train a 350M-parameter world model on it. We identify three distinct hallucination modes: perceptual, action-marginalized, and scene-diverging - each anchored to a different stage of the pipeline, and develop three signals that accurately predict where the model will fail. To close coverage gaps at training time, we develop a coverage-aware sampling technique; to close them online, our hallucination predictors serve as curiosity rewards for targeted data collection, yielding a data-efficient finetuning recipe that adapts the pretrained world model to entirely unseen environments with as few as 50 real environment trajectories. Overall, our findings reveal that hallucination in world models is inherently a data coverage issue, and that the same signals used to detect it can also be used for mitigation.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Hallucination detection and data coverage for visual world models; no planning or control use",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153634",
+"title": "Kernel Granger Component Analysis for Nonlinear Directed Component Discovery",
+"abstract": "Granger Component Analysis (GCA) discovers latent components of multivariate time series that exhibit directed temporal dependence, but is limited to linear representations. We introduce Kernel Granger Component Analysis (KGCA), a nonlinear extension that learns directed latent components in a reproducing kernel Hilbert space. KGCA optimizes a ridge-regularized Granger predictive objective using explicit envelope-theorem gradients, and incorporates a time-reversal criterion to resolve directional identifiability. We also describe a scalable random Fourier feature (RFF) variant that approximates the kernel map explicitly and avoids forming the full Gram matrix. To avoid spurious directionality from post hoc component selection, we use a restricted evaluation protocol that measures directed structure intrinsic to the learned representation. Empirically, KGCA and RFF-KGCA recover reliable nonlinear directed components, exhibit positive directionality gaps, and avoid spurious directionality under independent-process controls. These results show that kernelizing GCA enables nonlinear directed component discovery while preserving the interpretability and explicit optimization structure of the original framework.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Kernel Granger component analysis of multivariate time series; generic directed-dependence discovery",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151932",
+"title": "OPPO: Bayesian Value Recursion for Token-Level Credit Assignment in Policy Optimization",
+"abstract": "Reinforcement learning methods for LLM reasoning typically assign a uniform advantage to every token in a trajectory, diluting the learning signal at pivotal reasoning steps and injecting noise at uninformative positions. Critic-free alternatives such as anchored distillation derive per-token signals from oracle-conditioned likelihood ratios, but apply the signal independently at each position. We propose Oracle-Prompted Policy Optimization (\\n), which recovers exact token-level advantages through a Bayesian value recursion. Conditioning the model on the ground-truth answer during training yields per-token likelihood ratios that measure how much the answer revises the model's prediction; the ratios accumulate via Bayesian updating into a running estimate of the success probability at every position, from which the token-level advantage follows in closed form. The advantage factors as a product of a state weight, peaking where the outcome is most uncertain and vanishing where success or failure is already determined, and the per-token oracle evidence familiar from on-policy distillation, with no tunable weighting hyperparameter. The framework supports two estimator choices: a self-oracle mode in which the policy model provides the estimate through one additional forward pass, and a teacher-oracle mode in which a stronger model serves as the estimator. Experiments on two base models across seven reasoning benchmarks spanning mathematics, science, and code demonstrate consistent improvements over GRPO, DAPO, and SDPO, with the largest gains on competition-level tasks where reasoning chains are longest.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "RL for LLM reasoning (GRPO-style)",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153134",
+"title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+"abstract": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training altogether. Concretely, we derive an implicit advantage under a general stochastic Markov Decision Process, which we term progress advantage---log-probability ratio between the RL-trained policy and its reference policy exactly recovers the optimal advantage function. This signal is annotation-free, domain-agnostic, and available as a byproduct of the standard RL post-training pipeline. We validate the effectiveness of the progress advantage across three different applications: test-time scaling, uncertainty quantification, and failure attribution on five benchmarks and four model families. Across all settings, progress advantage consistently outperforms confidence-based baselines and, despite requiring no task-specific training, surpasses dedicated trained reward models. We complement these results with deeper analyses on characteristics of progress advantage, offering practical guidance for adoption in real-world agentic systems.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Progress advantage for LLM agents; RL for LLMs",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "156087",
+"title": "Towards Scalable Egocentric HOI for Humanoids: Benchmarking Whole-Body Dexterous Interaction with Tactile Prediction",
+"abstract": "Humanoid whole-body loco-manipulation requires scalable and physically reliable demonstrations, yet existing human-object interaction datasets lack direct contact supervision and egocentric observability, often resulting in physically inconsistent interactions. We present DeXHOI, a multimodal egocentric HOI benchmark for whole-body dexterous interaction, capturing synchronized body motion, object trajectories, tactile sensing, and egocentric RGB-D across diverse spatial layouts and long-horizon activities. To improve physical consistency, we introduce a tactile-guided refinement pipeline that leverages measured pressure to correct hand-object interactions while preserving global motion fidelity. We further establish an Egocentric HOI Recovery Benchmark for contact-aware reconstruction from first-person observations, along with EgoTacti, a tactile prediction model. Together, EgoTacti provides a scalable and physically grounded foundation for learning humanoid whole-body dexterous interaction, pointing toward low-cost egocentric data collection for embodied intelligence.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Egocentric humanoid HOI benchmark with tactile prediction; dataset",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "156114",
+"title": "Revisiting Embodied Chain-of-Thought for Generalizable Robot Manipulation",
+"abstract": "Embodied chain-of-thought (CoT) aims to bridge linguistic reasoning with robotic control, yet its effective form and integration remain underexplored. In this paper, we revisit embodied CoT for robotic control at an unprecedented scale. We curate the largest embodied CoT corpus to date, comprising 978,743 trajectories, 226.3M samples, and 2592.5 hours of data. Through extensive experiments, we show that effective CoT must ground high-level semantic understaning in concrete linguistic action guidance -- such as end-effector movement and image-space trajectories -- whereas high-level reasoning alone yields marginal gains. More importantly, we identify that explicit CoT does not scale reliably as an autoregressive action prefix, suffering from compounding errors during inference. To address these challenges, we propose ERVLA, a vision-language-action (VLA) model that effectively leverages linguistic reasoning in generalizable robot manipulation. ERVLA is trained using a CoT-dropout strategy, allowing the model to leverage rich reasoning traces during training while predicting actions directly without CoT during inference to bypass autoregressive instability. This approach enables reliable scaling with increasing pre-training data. ERVLA achieves state-of-the-art results on LIBERO-Plus with an 86.9% success rate and reaches 53.2% on VLABench, showcasing superior performance in out-of-distribution settings. Furthermore, ERVLA outperforms competitive state-of-the-art baselines in real-robot experiments, especially in handling semantic ambiguity and long-horizon tasks. Code, data, and model checkpoints will be released.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Embodied chain-of-thought VLA for manipulation; no controller contribution",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151827",
+"title": "Sup-Norm Error under Proportional Asymptotics: Phase Transitions under Linear Regression",
+"abstract": "This paper characterizes the sharp asymptotics of the $\\ell_{\\infty}$-norm estimation error for estimating the coefficient vector in linear regression under proportional asymptotics. While $\\ell_2$-error is well-documented, we demonstrate that the $\\ell_{\\infty}$-error exhibits a distinct phase transition governed by the structure of the underlying signal. We explore this through the lens of a class of estimators that include ridge-regularized estimators, a method-of-moments estimator, and the ordinary least squares estimator for the under-parametrized regime. Our results provide a comparative study of these estimators and characterize regimes (as identified by the maximal signal component, number of large signals, total signal strength, and noise variance) where one estimator is preferable to the others. As a by-product, we obtain new double descent curves in $\\ell_{\\infty}$-error metric for the ridgeless regression, as well as ingredients for uniform confidence intervals for the signal coordinates. Our theoretical results are supported by extensive numerical simulations that confirm the predicted phase transitions and error limits.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Sup-norm error asymptotics in linear regression",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153252",
+"title": "Tail-Risk-Aware Stackelberg Learning",
+"abstract": "We study Stackelberg learning in which followers use lower-tail CVaR as a reward utility. In cooperative bandits, where both agents share the CVaR objective, we prove a spectral-risk lower bound that gives $\\Omega(\\sqrt{K(AB-1)/\\tau})$ for CVaR and give a Stackelberg-factorized CVaR-UCB algorithm with matching $\\widetilde O\\sqrt{ABK/\\tau})$ regret up to logarithmic factors. Thus CVaR learning admits a minimax-optimal realizable response certificate in bandits. In Markov games, a risk-neutral leader faces a CVaR-sensitive follower. We introduce a certified follower-response oracle based on shortfall planning and decompose true Stackelberg regret into certified oracle regret and benchmark response certification error. The first term is sublinear without coverage, while true regret requires comparison coverage and response compatibility.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "CVaR Stackelberg bandits and generic Markov games; no continuous dynamics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154155",
+"title": "Quantum Speedup of Multi-armed Bandits at Scale by Tackling Memory Decoherence",
+"abstract": "Recent advances in online learning have achieved an $O(n/\\Delta_{[2]})$ query complexity in quantum $n$-arm multi-armed bandits (MABs) for best-arm identification, which represents a quadratic speedup over their classical counterparts. Here and throughout, $\\Delta_{[2]}$ is the gap between the mean of the best and second-best arms. However, the implementations of these algorithms remain on a small scale due to various aspects of quantum hardware restrictions. One of the most significant restrictions is \\emph{memory decoherence}, in which the qubits quickly lose information after a short period of time. Memory decoherence can occur at \\emph{intra-circuit} and \\emph{inter-circuit} levels. Intra-circuit decoherence happens often in near-term quantum computers, where the noise becomes overwhelming when the circuit is deep. On the other hand, inter-circuit decoherence captures future quantum machines, where a quantum memory is promising, but objects stored in the memory for too long can still become decoherent. In this paper, we present a comprehensive treatment of both memory decoherence problems. For inter-circuit decoherence, we derive a framework based on streaming bandits, and we obtain an algorithm that finds the best arm with high constant probability using $O(n/\\Delta_{[2]})$ queries and an $O(\\log{n})$ decoherence window. This is the first quantum algorithm for MABs that achieves an $o(n)$ decoherence window, which represents an exponential improvement. For intra-circuit decoherence, we observe that only $O(1)$-depth circuits can be used to avoid significant decoherence. Therefore, we devise various hardware optimizations and a destructive SWAP test subroutine to speed up the empirical performance. On the IBM Q System One machine with 127 qubits, our implementation scales the quantum MABs to over $1000$ arms, and our algorithms consistently achieve significant efficiency improvements over classical bandit algorithms in both physical experiments and computer simulations.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Quantum multi-armed bandits under decoherence",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153618",
+"title": "Privately Estimating Monotone Statistics in Polynomial Time",
+"abstract": "We study efficient differentially private algorithms for estimating monotone statistics, i.e., statistics that are monotone under the addition of new observations. The starting point for our investigation is subsample-and-aggregate: a classical paradigm that partitions the dataset into blocks, estimates the statistic on each block, and then privately aggregates the estimates. While practical and generically applicable, this approach is quite data-hungry. We improve upon this framework for the class of monotone statistics---compared to subsample-and-aggregate, our algorithms save a factor of $t$ in sample complexity and pay a factor of $e^t$ in running time, where $t>0$ is a tunable parameter. We complement our results with a query-complexity lower bound, showing that our algorithms are essentially optimal for this task. As an application, we obtain improved results for private eigenvalue estimation, private loss estimation, and privately estimating a single parameter of a high-dimensional model, e.g., in linear regression.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Private estimation of monotone statistics; statistics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151162",
+"title": "Frequency Domain Reservoir Computing",
+"abstract": "While the quadratic sequence-length bottleneck of transformers has fueled a resurgence in recurrent models, effectively capturing complex dynamics requires architectures that balance efficient training with highly expressive latent states. Echo State Networks (ESNs) offer a compelling approach by utilizing fixed recurrent weights to circumvent backpropagation through time, enabling a closed-form training solution. However, achieving the expressivity needed for complex tasks demands large reservoirs, exposing an $\\mathcal{O}(N^2)$ state-update bottleneck that prevents ESNs from matching the scale of contemporary recurrent models. To address this limitation, we introduce Frequency Domain Reservoir Computing (FRESCO), an ESN architecture operating entirely in the frequency domain while avoiding domain-shift overheads to achieve $\\mathcal{O}(N)$ complexity for dense, non-linear recurrent updates. By employing a novel dimensional zero-padding input embedding, a packed frequency-domain readout, and a natively applied frequency-domain non-linearity, FRESCO drastically reduces computational costs and energy consumption of training and inference. Furthermore, FRESCO matches the state-of-the-art predictive performance on memory benchmarks, sequential classification, and multivariate long-horizon forecasting, offering a scalable path forward for dense recurrent architectures.",
+"area": "AI for Science & Neuro",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Frequency-domain echo state network as efficient sequence model",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148918",
+"title": "VISTA: Support-Anchored Value Targeting for Fast Flow-Based Vision-Language-Action Policies",
+"abstract": "Flow-based vision-language-action (VLA) policies provide a compelling recipe for robot control: they inherit broad behavioral priors from large-scale imitation and generate smooth, temporally extended continuous action chunks. The same properties, however, make offline post-training delicate. Mixed offline robot datasets contain expert behavior as well as partial completions and failures, requiring improvement without drifting far from the data support. An offline critic can in principle provide useful directions, but actor-side critic optimization may suffer from extrapolation and push high-dimensional action chunks off-support. In contrast, advantage-conditioned or reweighting-based methods are more stable, but tend to be conservative and restricted to actions already present in the dataset. We propose VISTA, a post-training framework that turns value estimates into support-anchored distillation targets for pretrained flow policies. VISTA queries a critic only at dataset actions, computes a normalized action-gradient direction, and uses this bounded direction to shift clean-action endpoints and velocity targets. A frozen flow teacher preserves the pretrained action prior, while a behavior-cloning anchor keeps the adapted targets close to the data distribution. The shaped supervision is distilled into a time-indexed action denoising (TAD) student, which predicts time-indexed clean-action estimates with a single network evaluation and obtains the executed action by an analytic final readout. We treat the induced target shift as conservative local guidance rather than a global policy-improvement guarantee. Across five BEHAVIOR-1K simulation tasks and five real-world bimanual manipulation tasks, VISTA achieves the best average success rate in our evaluation against behavior cloning (BC), advantage-conditioned BC, IDQL, and flow Q-learning, while reducing action-expert computation by $15\\times$ (and end-to-end policy inference by $1.8\\times$) relative to the $20$-step flow teacher.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Value-guided post-training of flow VLA policies; VLA paper, out",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148659",
+"title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+"abstract": "End-to-end autonomous driving systems are known to suffer from shortcut learning and causal confusion, limiting robust generalization under distribution shift. To address this, recent Vision-Language Model (VLM) approaches introduce intermediate linguistic reasoning steps including chain-of-thought, chain-of-causation, and counterfactual (CF) reasoning, and report consistent improvements in closed-loop driving. Among these, CF reasoning has been emphasized as enabling self-reflective, high-level causal understanding, yet whether these gains reflect genuine causal reasoning or language-induced distributional bias remains unclear. In this work, we examine what CF reasoning actually induces in VLM-based autonomous driving using accident scenarios with explicit causal structure and a discrete meta-action space. We observe that CF reasoning consistently shifts the action distribution toward more conservative behaviors, accompanied by increased perplexity and policy entropy, and that this effect persists under reinforcement fine-tuning, suggesting a structural rather than transient artifact. However, visual attention analysis and causal intervention experiments show that CF reasoning does not meaningfully alter visual grounding, and VLMs respond similarly to causal and non-causal perturbations, unlike humans who selectively react to causal factors. Overall, these results suggest that CF reasoning does not induce genuine causal reasoning grounded in visual structure. Instead, it acts as a linguistic mechanism that reshapes the action distribution, teaching models what to say but not how to reason, highlighting a fundamental gap between language-based reasoning and causal understanding in VLMs.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Counterfactual reasoning analysis in VLM driving models; language reasoning, not control",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155991",
+"title": "Long-Term Risks of Risk-Based Allocation",
+"abstract": "Algorithmic risk predictors are increasingly being used to inform resource allocation in healthcare and other high-stakes domains. Common in many such settings, the public decision maker delegates service provision to private organizations and compensates them according to each individual's predicted cost of service. We show that this common allocation mechanism can fail when organizations engage in \\emph{favorable selection}, i.e., strategically choosing individuals whose actual costs are below the payment model predictions. Motivated by health insurance payments in the Medicare Advantage (MA) program, we provide a theoretical framework to study the interaction between a decision maker and a strategically selecting service provider. Our theoretical framework predicts two empirical patterns observed in Medicare Advantage that have become central concerns: enrollment in the private program expands, while government payments rise above the counterfactual cost of direct public provision. Guided by our theoretical framework, we then propose a reformed payment policy that is implementable under the government's data-access constraints. We prove that its equilibria eliminate overpayment while preserving profits for efficient organizations. We validate the framework in synthetic and semi-synthetic experiments that illustrate the advantages of our reformed policy, over the status quo.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Strategic selection in risk-based healthcare payment mechanisms; economics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154595",
+"title": "No-Regret Caching with Delayed Hits",
+"abstract": "Delayed hits occur when requests arrive while a previous miss for the same item is still being fetched. They break the equivalence between hit ratio and latency because caching decisions depend on frequency, burst structure, and fetch latency. We develop a regret framework for delayed-hit caching, with static regret against long-term placement and switching regret against piecewise-changing workloads. We show that classical deterministic policies and randomized Marker fail to achieve no-regret guarantees, both suffering linear static regret. For stochastic arrivals, we introduce delayed-hit shadow values and propose UCB-DH, which achieves $O(\\log T)$ static regret on fixed instances with positive gaps, where $T$ is the horizon. A matching gap-dependent lower bound shows that the delayed-hit latency-amplification factor is statistically unavoidable, and restarted UCB-DH gives sublinear regret for piecewise-changing workloads. For oblivious adversarial arrivals, we formulate an action-independent shadow loss and propose LA-FTPL with latency-scaled perturbations and completion-time admission. LA-FTPL achieves $O(\\sqrt{KT\\log N\\,(Z^2+C_BZ)})$ shadow static regret, where $K$ is the cache capacity, $N$ the item universe size, $Z$ the fetch latency, and $C_B$ the maximum one-window delayed-hit penalty. With periodic restarts, it achieves $O(ZT^{2/3}B^{1/3}(K\\log N)^{1/3})$ switching regret against comparators with at most $B$ cache changes. Experiments on synthetic and real-world traces show that our algorithms achieve sublinear regret and improve latency over the state-of-the-art baselines.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "No-regret caching with delayed hits",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "149625",
+"title": "Adaptively Incorporating Directional Hints into Zeroth-Order Optimization",
+"abstract": "We study zeroth-order optimization of non-convex functions with the aid of directional hints, which are cheap but potentially inaccurate approximations of the true gradient direction, given by linear subspaces at each iteration. To leverage these hints adaptively while maintaining robustness to their quality, we introduce Control-Variate Zeroth-Order Descent (CV-ZOD), a new framework that refines the classical zeroth-order gradient estimator with a control variate that can be set based on the directional hints. We first show that the oracle algorithm that optimally sets the reference vector and step size at each iteration achieves a convergence rate that interpolates between the first-order $O(1/T)$ rate and the zeroth-order $O(d/T)$ rate, depending on the quality of the hints along the trajectory. We then develop a practical variant of CV-ZOD that achieves the same oracle guarantee up to logarithmic factors, without any prior knowledge of the hint quality. We validate the method empirically on simulation-based scientific optimization tasks, demonstrating sustained progress on nonconvex landscapes where zeroth-order descent is slower and existing guided methods stall as guidance deteriorates.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Zeroth-order optimization; 'control variate' is statistical",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "150598",
+"title": "Looking Through the Mirror: Minimax-Optimal Regularized Regrets in Online Learning and Bandits",
+"abstract": "We revisit regularized regret minimization under full-information and bandit feedback, where a learner optimizes an objective of the form $\\langle r, \\pi \\rangle - \\eta^{-1} \\psi(\\pi)$ for adversarially chosen rewards $r$, policies $\\pi \\in \\Delta_K$, and a known strongly-convex regularizer $\\psi(\\cdot)$. We establish the minimax regularized regret for a broad class of regularizers, specifically those that are relatively strongly-convex and smooth with exponent $p \\geq 1$, Legendre, and coordinate-wise separable. For large $\\eta$, the problem approaches unregularized online learning, recovering the standard $\\Theta(\\sqrt{T})$ scaling. For small $\\eta$, the strong convexity of the regularizer dominates, and we identify the regimes that attain $\\Theta(\\eta \\log T)$ minimax regret under both feedback models. Notably, while prior logarithmic regret lower bounds are largely restricted to specific curved loss functions (e.g., squared loss), our lower bounds hold for any such regularizer against purely linear adversarial rewards. A key technical contribution is our proof strategy, which leverages a Bregman geometric perspective of regularized regret over the quotient space $\\mathbb{R}^K / \\mathrm{span}(\\\\{\\mathbf{1}\\\\})$ to resolve the translation invariance of the inverse mirror map. By combining this dual geometric formulation with the van Trees inequality, we reduce the adversarial online learning to Bayesian estimation, offering a unified framework for establishing logarithmic regret lower bounds.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Minimax regularized regret in online learning and bandits",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "149575",
+"title": "Selective Off-Policy Reference Tuning with Plan Guidance",
+"abstract": "Reinforcement learning from verifiable rewards improves reasoning by reinforcing sampled solutions that receive positive outcomes, but group-relative methods such as GRPO become silent on hard prompts where every sampled rollout is wrong. These zero-reward prompts are often the most informative failures: each comes with a verified reference solution, yet uniformly imitating the full trace mixes core reasoning decisions with routine algebra, formatting, and surface wording. We propose Selective Off-Policy Reference Tuning with Plan Guidance (SORT), an auxiliary repair update that leaves GRPO rollout generation unchanged. For each failed prompt, SORT extracts a reference-derived reasoning plan and scores every reference token twice under the same model, once with only the problem and once with the plan added to the context. Tokens whose probabilities rise under plan conditioning are treated as structurally informative and receive larger Dynamic Fine-Tuning updates, while tokens outside the model's support remain controlled by the base probability. We formalize this mechanism with a ground-truth plan model and prove that the SORT weight approaches an oracle structural-token weight as the extracted plan better approximates the true plan-conditioned distribution. Across three instruction-tuned backbones and eight in-distribution and out-of-distribution reasoning benchmarks, SORT consistently improves over GRPO and guidance-based baselines, with the largest gains on the weakest model where zero-reward failures are most frequent.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "GRPO repair updates for LLM reasoning",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148177",
+"title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+"abstract": "While Vision-Language-Action (VLA) models have revolutionized autonomous driving by unifying perception and planning, their reliance on explicit textual Chain-of-Thought (CoT) leads to semantic-perceptual decoupling and perceptual-symbolic conflicts. Recent shifts toward latent reasoning attempt to bypass these bottlenecks by thinking in continuous hidden space. However, without explicit intermediate constraints, standard latent CoT often operates as a physics-agnostic representation. To address this, we propose the Latent Spatio-Temporal VLA (LaST-VLA), a framework shifting the reasoning paradigm from discrete symbolic processing into a physically grounded Latent Spatio-Temporal CoT. By implementing a dual-feature alignment mechanism, we distill geometric constraints from 3D foundation models and dynamic foresight from world models directly into the latent space. Coupled with a progressive SFT training strategy that transitions from feature alignment to trajectory generation, and further refined via Reinforcement Learning with Group Relative Policy Optimization (GRPO) for safety and rule compliance, LaST-VLA achieves state-of-the-art performance across multiple autonomous driving benchmarks, including NAVSIM v1, NAVSIM v2, Bench2Drive, SURDS, and NuDynamics.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "VLA for autonomous driving with latent CoT and GRPO; no controller contribution",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154639",
+"title": "Why Copy Others? Insights into Social Learning from Multi-Agent Reinforcement Learning",
+"abstract": "When is it better to rely on information from others rather than experiment to discover the answer yourself? Social learning refers to the ability of humans to learn by observing, imitating, or interacting with others. In this work, we use multi-agent reinforcement learning (MARL) to investigate the conditions under which social learning achieves higher returns and improved learning efficiency relative to individual learning. We begin with a theoretical analysis and discover that, under coordinated group exploration and low skill transmission costs, social learning achieves lower sample complexity than individual learning. Motivated by this insight, we propose Selective Social Learning (SSL), a novel social learning algorithm that reduces the cost of skill transmission, and we design experiments across three MARL environments to test these predictions. Empirical results show that SSL outperforms baselines under conditions consistent with our theory. Surprisingly, we also find that in non-stationary environments with sparse rewards, which mirror the real world, social learning can emerge in standard MARL without an explicitly designed social learning mechanism. This suggests that the apparent absence of social learning in standard RL stems from limitations in training environment design rather than in RL itself. We therefore call for future MARL training environments to inherently incorporate sparsity and non-stationarity, enabling agents to naturally develop social-learning behaviors that transfer to complex real-world settings.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Social learning in MARL; generic RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153500",
+"title": "Learning from Ranking Feedback: Improved Regret Bounds via Independence Preserving Rank Breaking",
+"abstract": "We study the sequential decision-making problem where at each time the learner selects an assortment of bounded size and receives a ranking of the selected items. Ranking feedback arises naturally when human evaluators or automated LLM judges compare multiple options simultaneously. It is often easier and more reliable than assigning absolute scores, which are typically poorly calibrated across evaluators, while yielding substantially more information than a single pairwise comparison. We focus on rankings that are constructed according to the random utility model with linear utilities, which includes the popular Plackett-Luce model as a special case. We show that improved regret minimisation is possible under full rank breaking with a refined analysis based on 1-factorisations and Baranyai's theorem that fully exploits independence in the pairwise comparisons. This gives a tighter confidence interval around the true utility parameter which is crucial in our analysis for regret that improves with maximum assortment size. Furthermore, it matches the regret lower bound for our model in case the learner is permitted to play multi-sets of the maximum bounded size. Our work gives a principled approach to learning from ranking feedback that shows consistent improvement with the maximum assortment size.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Bandits with ranking feedback; no dynamics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148142",
+"title": "Flow Matching Policy Optimization with Mirror Descent and Entropy Constraints",
+"abstract": "Balancing policy expressiveness with the exploration-exploitation trade-off is a core challenge in online Reinforcement Learning (RL). While Stochastic Differential Equation (SDE)-based diffusion policies can represent complex, multimodal action distributions, they suffer from two critical limitations: their stochastic reverse processes render entropy intractable (necessitating heuristic exploration), and computing policy gradients through long denoising chains is expensive and unstable. In this work, we show that ODE-based flow matching inherently resolves these issues by enabling both simulation-free policy optimization and tractable entropy computation. Building on this, we introduce Flow Matching Policy Optimization with Mirror Descent and Entropy Constraints (FMER). Our framework exploits this insight in three ways. First, we theoretically establish that minimizing an advantage-weighted conditional flow matching loss acts as a simulation-free surrogate for policy mirror descent. This steers the velocity field toward high-value regions while entirely avoiding backpropagation through the ODE solver. Second, we derive an analytic entropy objective that corrects for the density distortion caused by the $\\tanh$ transformation (mapping an unbounded latent space to bounded actions), thereby facilitating principled maximum-entropy optimization. Finally, we dynamically tune the mirror descent temperature based on the effective sample size to enforce a robust trust region during training. Empirical evaluations demonstrate that FMER achieves superior performance on the challenging sparse-reward FrankaKitchen environment, while maintaining competitive results across standard dense-reward MuJoCo benchmarks. Code is available at \\url{https://anonymous.4open.science/r/submission-25E2/}.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Flow-matching policy optimization on MuJoCo/FrankaKitchen; generic RL algorithm",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151303",
+"title": "BEACON: Cross-Domain Co-Training of Generative Robot Policies via Best-Effort Adaptation",
+"abstract": "We introduce BEACON—Best-Effort Adaptation for Cross-Domain Co-Training—a theory-driven framework for training generative robot policies with abundant source demonstrations and limited target demonstrations. BEACON casts cross-domain co-training as a discrepancy-aware importance-reweighting problem, jointly learning a diffusion-based visuomotor policy and per-sample source weights that minimize an objective informed by target-domain generalization guarantees. To make best-effort adaptation practical for high-dimensional sequence policies, we develop scalable instance-level discrepancy estimators, stochastic alternating updates for policy and weights, and a multi-source extension that balances heterogeneous source domains. Across sim-to-sim, sim-to-real, and multi-source manipulation settings, BEACON improves robustness and data efficiency over target-only, fixed-ratio co-training, and feature-alignment baselines. Importantly, even without an explicit alignment objective, BEACON achieves feature alignment as an implicit result of discrepancy-aware cross-domain co-training.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Discrepancy-weighted cross-domain co-training of diffusion robot policies; no controller contribution",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "150075",
+"title": "Interpretable Machine Learning Evaluates Differential Therapy Effects in Parkinsonian Gait",
+"abstract": "Parkinson's disease therapy is usually adjusted based on extensive clinical examinations, but the effects of medication and deep brain stimulation (DBS) on gait dynamics remain difficult to quantify precisely. We use interpretable probabilistic machine learning to measure therapy-related gait changes in a repeated-measures motion-capture dataset comprising 376 walking trials from 19 patients with Parkinson's disease. Patients were recorded under four therapy conditions: medication off/stimulation off, medication off/stimulation on, medication on/stimulation off, and medication on/stimulation on. They performed natural and fast walking, and a study neurologist scored motor severity using UPDRS-III. From 1.0 s sliding windows of foot-marker motion, we compute short-window largest Lyapunov exponent (LLE)-derived local divergence features that capture local changes in gait trajectory dynamics. We summarize these features as two LLE-derived digital biomarkers: left-right asymmetry and left-right coupling. Bayesian hierarchical regression then estimates medication, stimulation, and task effects while accounting for repeated measurements within the same patients and patient-specific baseline differences. The main result is that during natural walking, LLE asymmetry decreased under combined therapy with a large paired effect size ($d_z=-0.83$). Coupling features changed with therapy in a complementary way, especially for stimulation-related changes in bilateral coordination. These findings suggest that short-window LLE asymmetry tracks therapy-related reduction of lateralized gait dysregulation, while LLE coupling tracks treatment-dependent reorganization of left-right coordination. By modeling novel LLE-derived biomarkers across controlled medication and DBS states, we show that the two therapies are expressed through distinct gait-dynamics signatures, supporting interpretable nonlinear gait biomarkers for objective therapy-response assessment.",
+"area": "AI for Science & Neuro",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Lyapunov-exponent gait biomarkers for Parkinson therapy assessment; clinical analysis, no control/forecasting",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "150071",
+"title": "Addressing Sparse-Rewards in RL with Scalable Hierarchical Novel Eigen Options",
+"abstract": "Temporally extended exploration via graph Laplacian-based options is a promising approach to sparse-reward reinforcement learning (RL), but existing methods either do not explicitly target novelty or fail to scale to pixel-based domains under function approximation. Novel Exploration via Orthogonality (NEO) addresses the first issue by constructing options that navigate from highly visited regions toward less visited ones, yet prior results were limited to settings where exact eigenvectors can be computed. We present a scalable extension of NEO to pixel-based domains, built on three contributions. First, we use a novelty-weighted continuous Laplacian graph-drawing objective, which enables RL with continuous observations. Second, we embed the resulting eigen-potential options within a hierarchical reinforcement learning framework, enabling coherent temporally extended behavior. Third, we observe that learned eigen-potential rewards are directional but locally unreliable under online approximation; we therefore augment each option reward with a novelty bonus, a novel design idea that proves essential for stabilizing option learning while preserving novelty-directed exploration. Together, these contributions yield stronger and more persistent exploration, enabling longer option rollouts and better access to hard-to-reach novel states. Empirically, our method significantly outperforms both the prior scalable Laplacian-option baseline and a direct extension of NEO on sparse-reward benchmarks under a fixed budget. On Montezuma's Revenge, our best variant achieves approximately 1.8x higher return than both baselines. On Venture, both baselines yield returns near zero, whereas our method achieves a return of 1135. Across seven hard ProcGen games, our method achieves approximately 3.5x and 5.6x higher aggregate normalized return than the two baselines, respectively.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Laplacian-eigenoption exploration for sparse-reward Atari/ProcGen; generic RL exploration",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148243",
+"title": "Axiomatic Reinforcement Learning for Open Multi-Agent Systems from Shapley Axioms",
+"abstract": "Open multi-agent systems, where only a subset of agents are controllable, are central to real-world domains such as smart grids, yet lack a principled foundation for reinforcement learning algorithm design. We study this setting through n-agent ad hoc teamwork (NAHT), a recent framework for learning in open multi-agent environments. We propose an axiomatic framework that derives value function learning from the Shapley axioms (Efficiency, Symmetry and Linearity), treating them as structural constraints rather than heuristic design choices. This formulation builds on a novel NAHT decomposition, which characterises the fundamental difference between open and fully controllable multi-agent systems, and establishes a cooperative game-theoretic foundation for learning. We further show that enforcing these axioms on learning individual value functions recovers the Shapley value for Dec-POMDPs, providing a principled bridge between reinforcement learning and classical cooperative game theory. Building on this framework, we introduce Shapley Machines and Banzhaf Machines, two generic algorithmic templates that can be instantiated with standard reinforcement learning methods. When applied to strong baselines such as IPPO and POAM, our methods consistently improve learning efficiency and generalisation to unseen agent types and conventions across NAHT benchmark tasks.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Shapley-axiom value learning for ad hoc teamwork MARL; game theory, no dynamics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148691",
+"title": "RAHF: Reward-Amplified Human Feedback for Closed-Loop Policy Fine-Tuning",
+"abstract": "Policies trained on offline logs can perform well in open-loop evaluation but fail in closed-loop deployment, because they never learn to recover from their own mistakes. Fine-tuning these policies typically requires either many human demonstrations or large-scale reinforcement learning rollouts, both of which are expensive. We propose RAHF, a two-stage closed-loop fine-tuning framework that reduces human effort by amplifying a small number of human corrections with a cheap verifiable reward. In Stage 1, a human operator monitors the policy during closed-loop rollout and intervenes at dangerous states, producing a small but targeted correction dataset that also keeps the training process safe. In Stage 2, the improved policy runs without any human involvement. At each step, the verifiable reward scores the policy's candidate proposals. We use these reward scores to construct group-normalized advantages and fine-tune the policy toward the higher-advantage proposals. To prevent the policy from forgetting its pretrained knowledge, we propose a Policy Adaptation Module (PAM) that freezes the pretrained weights and learns closed-loop corrections through a separate trainable branch. On BridgeSim-NavHard, RAHF with a human teacher reaches a driving score of 78.90, surpassing all baselines including DAgger, HG-DAgger, GRPO, and AWR. In addition, PAM reduces forgetting and enables zero-shot transfer to HUGSIM without any additional fine-tuning.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Human-correction plus verifiable-reward fine-tuning of driving policies; policy learning without dynamics or control structure",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153876",
+"title": "Exact-Form Regret and Conservative Correlated Equilibria",
+"abstract": "Gradient descent is usually studied through external regret, but recent work shows that it controls richer deviations through infinitesimal vector-field guarantees \\citep{ahunbay2024first}, semicoarse constraints \\citep{ahunbay2025semicoarse}, and weakly convex proximal maps \\citep{cai2025proximal}. We identify the finite-deviation invariant behind these guarantees. A feasible deviation \\(\\phi\\colon K\\to K\\) induces the displacement field \\(\\Dphi(\\xvec)=\\xvec-\\phi(\\xvec)\\). Online gradient descent has \\(O(\\sqrt T)\\) regret against every feasible deviation with exact displacement, \\(\\Dphi=\\nabla\\Psi\\) for a potential function $\\Psi$, even when \\(\\Psi\\) is nonconvex. Feasibility handles the projection boundary term, and exactness makes the potential telescope. The condition is sharp for smooth fields on simply connected domains, since any nonzero circulation along a feasible loop can be turned into a bounded cyclic adversary that forces linear regret. Semicoarse affine deviations are the linear-quadratic slice of this class, and proximal deviations are the Moreau-envelope slice. The exact-form class strictly contains weakly convex proximal deviations. For mirror descent, exactness is measured in the mirror geometry through the one-form \\(\\Dphi(\\xvec)^{\\transpose}\\dd\\nabla R(\\xvec)\\), which subsumes Bregman proximal regret and includes multiplicative deviations for multiplicative-weight updates. In convex games, no-regret with respect to exact-form deviations yields conservative correlated equilibrium, refining coarse and proximal correlated equilibrium.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Regret and correlated equilibria in convex games",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154094",
+"title": "What if Agents Could Imagine? Reinforcing Open-Vocabulary HOI Comprehension through Generation",
+"abstract": "Multimodal Large Language Models have shown promising capabilities in bridging visual and textual reasoning, yet their reasoning capabilities in Open-Vocabulary Human-Object Interaction (OV-HOI) are limited by cross-modal hallucinations and limited viewpoints of images. To address this, we propose ImagineAgent, an agentic framework that integrates cognitive mapping, tool-augmented reinforcement learning (RL), and generative world modeling for robust OV-HOI understanding. Specifically, we first propose an innovative CoT dataset named hicodet-6K for supervised fine-tuning (SFT), which effectively bridges the perception-to-cognition gap by structuring perceived entities into interaction pairs for comprehensive predictions. Subsequently, we develop a multimodal tool library integrating online retrieval, image cropping, and generative modeling, enabling the agent to dynamically augment reasoning with domain-specific tools to resolve visual-semantic ambiguities and hallucinations during inference. Moreover, we incorporate a generative model to reconstruct alternative viewpoints, enabling the agent to “imagine” under limited viewpoints. Finally, we propose a composite reward mechanism to jointly optimize prediction accuracy and tool efficiency. Evaluations on both SWIG-HOI and HICO-DET datasets demonstrate that our method achieves state-of-the-art performance while requiring merely 36.7% of the training data compared to existing methods, validating our robustness, empirical effectiveness and efficiency.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Agentic HOI comprehension with generation",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153893",
+"title": "SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning",
+"abstract": "Vision-language models (VLMs) have shown impressive capabilities across diverse tasks, motivating efforts to leverage these models to supervise robot learning. However, when used as evaluators in reinforcement learning (RL), today’s strongest models often fail under partial observability and distribution shift, enabling policies to exploit perceptual errors rather than solve the task. We introduce SOLE-R1 (Self-Observing LEarner), a video-language reasoning model explicitly designed to serve as the sole reward signal for online RL. Given only raw video observations and a natural-language goal, SOLE-R1 performs per-timestep spatiotemporal chain-of-thought (CoT) reasoning and produces dense estimates of task progress that can be used directly as rewards. To train SOLE-R1, we develop a large-scale video trajectory and reasoning synthesis pipeline that generates temporally grounded CoT traces aligned with continuous progress supervision. This data is combined with foundational spatial and multi-frame temporal reasoning, and used to train the model with a hybrid framework that couples supervised fine-tuning with RL from verifiable rewards. Across four different simulation environments and a real-robot setting, SOLE-R1 enables zero-shot online RL from random initialization: robots learn previously unseen manipulation tasks without ground-truth rewards, success indicators, demonstrations, or task-specific tuning. SOLE-R1 succeeds on 24 unseen tasks and substantially outperforms strong vision-language rewarders, including GPT-5 and Gemini-3-Pro, while exhibiting markedly greater robustness to reward hacking.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Video-language reasoning model as reward for robot RL; reward modelling, no controller or dynamics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151811",
+"title": "Adaptive Inference for Functionals of M-Estimands",
+"abstract": "Reinforcement learning and contextual bandit algorithms have become increasingly common in sequential decision-making applications. When these methods are deployed in high-stakes domains, there is growing interest not only in learning effective policies, but also in conducting statistical inference for quantities learned under adaptive data collection. However, classical procedures applied naively in these settings can fail: even when estimators are unbiased, their variance becomes path-dependent and as a result may not be asymptotically normal. A growing literature has emerged to ameliorate this problem, but solutions tend to be problem specific and often rely on correct specification of a working model. In this work, we develop a unified framework for constructing asymptotically valid confidence intervals to cover smooth functionals of nonparametric M-estimands under adaptive sampling. Under Neyman orthogonality, we provide two novel methods for performing inference: (1) a self-normalized statistic based on the realized quadratic variation of the influence function and (2) a statistic using a plug-in estimate of the conditional variance based on reweighted influence function increments. Our results allow for flexible nonparametric estimation of nuisance parameters and remain valid under model misspecification. Our theory is supported by a simulation study for a dynamic pricing application which demonstrates that this method can produce asymptotically valid confidence intervals where standard methods fail.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Statistical inference under adaptive sampling; bandit/pricing, no dynamics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151813",
+"title": "Breaking the Grid: Distance-Guided Reinforcement Learning in Large Discrete Action Spaces",
+"abstract": "Reinforcement Learning (RL) is increasingly applied to large-scale decision-making problems like logistics, scheduling, and recommender systems, but existing algorithms struggle with the curse of dimensionality in such large discrete action spaces. We propose Distance-Guided Reinforcement Learning (DGRL), combining Sampled Dynamic Neighborhoods and Distance-Based Updates to enable efficient RL in problems with up to $10^{20}$ actions. Unlike prior methods, DGRL performs stochastic volumetric exploration and transforms policy optimization into a stable regression task, decoupling gradient variance from action space cardinality. On structured tasks, DGRL provably guarantees local value improvement.DGRL naturally generalizes to hybrid continuous-discrete action spaces. We demonstrate performance improvements of up to 66% against state-of-the-art benchmarks across regularly and irregularly structured environments, while simultaneously improving convergence speed and computational complexity.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "RL in large discrete action spaces for logistics/scheduling",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153785",
+"title": "Dynamic Latent Routing",
+"abstract": "We investigate the temporal concatenation of sub-policies in Markov Decision Processes (MDP) with time-varying reward functions. We introduce General Dijkstra Search (GDS), and prove that it discovers optimal goal-reaching policies by concatenating sub-policies optimal for intermediate goals. Motivated by the ``search, select, update'' principle underlying GDS, we propose Dynamic Latent Routing (DLR), a language-model post-training method that jointly learns discrete latent codes, routing policies, and model parameters through dynamic search in a single training stage. In low-data fine-tuning settings, DLR matches or outperforms supervised fine-tuning across four datasets and six models, achieving a mean gain of $+6.6$ percentage points, while prior discrete-latent baselines consistently underperform SFT. Mechanistic analyses and targeted code ablations show that DLR learns structured routing behaviors with distinct causal roles. In six-digit arithmetic, a canonical mechanistic interpretability benchmark, DLR externalizes into discrete routing tokens algorithmic subtasks previously studied through activation and circuit analysis.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Discrete latent routing for language-model post-training",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153966",
+"title": "SpikeSSL: A Universal Spike Inference Framework with Dynamics-Informed State-Space Layers",
+"abstract": "Two-photon calcium imaging is a standard tool for recording large neural populations in vivo, yet inferring spikes accurately across the growing diversity of calcium indicators remains an open problem. Existing supervised methods achieve reasonable in-domain accuracy but generalize poorly to unseen indicators, because different indicators induce distinct fluorescence kinetics and signal statistics while existing architectures remain relatively simple generic temporal regressors without dynamics-matched inductive bias. We propose SpikeSSL, a universal spike inference framework whose temporal backbone is a bank of bidirectional IIR state-space layers broadly motivated by calcium dynamics. A multi-modal conditioning encoder maps indicator identity, sampling rate, and trace-level signal statistics into a global conditioning vector that modulates the backbone via Adaptive Layer Normalization, while a heteroscedastic variance head provides calibrated per-frame uncertainty. On a benchmark with five fixed evaluation splits built from 33 public ground-truth datasets, SpikeSSL achieves state-of-the-art performance in both in-domain and zero-shot leave-one-indicator-out settings. We also develop a biophysical simulation pipeline capable of generating paired fluorescence-spike traces with systematically varied kinetic parameters, spike statistics, response nonlinearities, baseline drift, and noise. Using this pipeline, we synthesize approximately 11{,}000 simulated traces. Augmenting training with these data effectively closes the cross-indicator domain gap and improves zero-shot generalization.",
+"area": "AI for Science & Neuro",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "State-space-layer regressor for spike inference from calcium traces; biosignal processing, not system estimation.",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153200",
+"title": "EpiPivot: Learning to Control the Simplex Method under Epistemic Uncertainty",
+"abstract": "The simplex method is one of the most widely used algorithms for linear programming, but its practical efficiency is highly sensitive to pivot selection and difficult to predict due to structural uncertainty in the search process. We propose EpiPivot, which casts pivot selection as a controllable decision process under epistemic uncertainty. EpiPivot identifies this uncertainty as two-dimensional: temporal dependence across the optimization trajectory and joint uncertainty across candidate pivot rules, and addresses both through temporal attention and an Epistemic Neural Network with shared latent sampling. At decision time, Thompson sampling combines these uncertainty-aware predictions into robust pivot choices. EpiPivot achieves significant improvements over classical and learning-based baselines, reducing pivot cost by up to 79\\% over the best-performing classical rule on large-scale instances where most classical rules fail to converge within the time limit.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Learned pivot selection for simplex method; 'control' of an optimization algorithm, no dynamical system",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151024",
+"title": "Teacher-Aware Evolution of Heuristic Programs from Learned Optimization Policies",
+"abstract": "LLM-based automatic heuristic design has shown promise for generating executable heuristics for combinatorial optimization, but existing methods mainly rely on delayed endpoint performance. We propose a teacher-aware evolutionary framework that uses independently trained learned optimization policies as behavioral teachers. Instead of deploying or imitating the teacher, our method queries it on states visited by candidate heuristic programs and uses its action preferences as local feedback for evolution. The resulting search discovers static executable heuristics guided by both task performance and teacher-derived behavioral signals. Experiments on scheduling, routing, and graph optimization benchmarks show that our method improves over performance-driven LLM heuristic evolution baselines while requiring no neural inference at deployment. These results suggest that learned optimization policies can be repurposed as behavioral feedback sources for automatic heuristic discovery.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "LLM heuristic evolution for combinatorial optimization",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155119",
+"title": "VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models",
+"abstract": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robotic manipulation, yet they still struggle to generalize to unseen tasks that necessitate transferring relevant experience across objects, scenes, and action patterns. This paper proposes VLA-Pro, a plug-and-play framework designed to enhance cross-task generalization by storing task-relevant procedural memories at training time and transferring these memories during inference. Specifically, VLA-Pro stores task-specific LoRA adapters as parameterized procedural memories during training. At inference time, VLA-Pro retrieves relevant procedural memories based on the current multi-modal context and dynamically fuses these memories for generating the current action chunk. Experiments on RoboTwin, RLBench, and real-world manipulation tasks show that VLA-Pro consistently improves cross-task generalization across multiple backbones, achieving up to a 207\\% relative improvement in simulation and increasing real-world success rate from 5.8\\% to 65.0\\%. These results suggest that procedural memory retrieval and adaptation provide an effective mechanism for transferring manipulation experience to novel tasks while preserving modularity and execution stability. The code is available at https://anonymous.4open.science/r/VLA-Pro/.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "VLA model with LoRA procedural memory retrieval; no controller contribution.",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148506",
+"title": "Difference of Convex Programming in the Wasserstein Space with Applications to MMD Optimization",
+"abstract": "Optimizing functionals over the space of probability measures is now ubiquitous in machine learning. A widely used approach is to perform the optimization directly over the Wasserstein space, but many objective functionals of practical interest are non-convex along Wasserstein geodesics, making the analysis of standard first-order methods challenging. In this work, we study a class of objectives over the Wasserstein space that admit a difference-of-convex (DC) decomposition and we lift the classical convex-concave procedure (CCCP) to this setting. Under smoothness and strong convexity assumptions on the convex components of the decomposition, we prove almost stationarity along the iterates of the resulting algorithm. Our main focus is on the Maximum Mean Discrepancy (MMD) and the Energy Distance (ED) functionals, for which we develop explicit Wasserstein DC decompositions, and establish local convergence of the scheme under mild assumptions. Empirically, we show that well-chosen DC decompositions yield faster and more stable convergence than Wasserstein gradient descent on these MMD objectives.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Difference-of-convex optimization in Wasserstein space for MMD; pure optimization",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151771",
+"title": "Learning to Cut: Reinforcement Learning for Benders Decomposition",
+"abstract": "Benders decomposition (BD) is a widely used solution approach for solving two-stage stochastic programs arising in real-world decision-making under uncertainty. However, it often suffers from slow convergence as the master problem grows with an increasing number of cuts. In this paper, we propose Reinforcement Learning for BD (RLBD), a framework that adaptively selects cuts using a neural network-based stochastic policy. The policy is trained using a policy gradient method via the REINFORCE algorithm. We evaluate the proposed approach on a two-stage stochastic electric vehicle charging station location problem and compare it with vanilla BD and LearnBD, a supervised learning approach that classifies cuts using a support vector machine. Numerical results demonstrate that RLBD achieves substantial improvements in computational efficiency and exhibits strong generalization to problems with similar structures but varying data inputs and decision variable dimensions.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "RL for cut selection in Benders decomposition",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154001",
+"title": "Model-Free Assessment of Simulator Fidelity via Quantile Curves",
+"abstract": "As generative AI models are increasingly used to simulate real-world systems, quantifying their “sim-to-real” gap is critical. We study this gap across a population of input settings, called scenarios, e.g. survey questions or operating conditions. The population-level quantities defining the real-world and simulated system are only observed through finite, often heterogeneous, samples. Consequently, the population-level discrepancy cannot be directly computed, and standard predictive inference methods that target observable outputs are ill-suited. We propose a model-agnostic framework that constructs confidence sets for the latent parameters, forms a conservative proxy for the sim-to-real discrepancy, and estimates its quantile function across scenarios. The resulting calibrated risk profile allows for inference on a new scenario, tail-risk summaries such as Conditional Value-at-Risk (CVaR), and principled comparisons across simulators. Our method applies to a range of output spaces, including categorical survey responses and continuous outcomes. We demonstrate its utility by evaluating the alignment of four major LLMs with human populations on the WorldValueBench dataset.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Quantile-curve assessment of simulator fidelity for LLM simulators; statistics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155732",
+"title": "Post-Processing Guarantees for Classification under Linear-Fractional Performance Metrics",
+"abstract": "This paper studies binary classification under generalized performance metrics, going beyond standard misclassification error. We focus on linear-fractional measures—including the $F$-score and Jaccard index—which are widely used in class-imbalanced settings. We first provide a unified characterization of the optimal classifier, showing that it admits a thresholding structure on the regression function. This reduces the original infinite-dimensional, non-decomposable optimization problem to the estimation of a single scalar parameter. Building on this result, we analyze plug-in classifiers that combine a regression estimator with a data-driven estimate of the optimal threshold. We show that this threshold is characterized as the solution of a fixed-point equation depending only on the marginal distribution, enabling its estimation using unlabeled data and avoiding standard validation-based procedures. Our main contribution is a finite-sample analysis of this approach. We derive excess risk bounds that decompose the error into contributions from regression estimation, threshold estimation, and sampling effects, providing a modular understanding of learning under non-decomposable metrics. Under standard margin assumptions, we further establish fast convergence rates. Our results yield a unified theoretical framework for plug-in classification under linear-fractional metrics, extending prior analyses beyond specific measures such as the $F$-score. Empirical results on synthetic and real datasets support our theoretical findings.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Classification under linear-fractional metrics",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154251",
+"title": "From Matrix Inversion to Constraints: Provably Tighter Confidence Regions for Importance Weights in Label Shift",
+"abstract": "Importance weights are essential in domain adaptation under label shift, yet their utility is often undermined by the finite sample uncertainty associated with their estimation. Existing methods typically analyze this uncertainty through Gaussian elimination on interval-valued linear systems, which leads to overly conservative confidence regions and inefficient downstream applications. We propose a paradigm shift from inversion-based inference to a direct matrix constraint framework. We use this framework to define a joint confidence region and extract marginal intervals via linear programming, deriving provably tighter bounds for importance weights while maintaining exact finite-sample validity. Furthermore, we analyze the confidence region's geometry and provide the theoretical results for its diameter bounds. Evaluated across text, image, multimodal benchmarks, including AGNews, MNIST, CIFAR-10, N24News, and a real-world autonomous driving dataset, nuImages, our approach consistently yields shorter confidence intervals and smaller prediction sets than inversion-based methods.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Confidence regions for label-shift importance weights",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "152795",
+"title": "From Reasoning Chains to Verifiable Subproblems: Curriculum Reinforcement Learning Enables Credit Assignment for LLM Reasoning",
+"abstract": "Reinforcement learning from verifiable rewards (RLVR) has shown strong promise for LLM reasoning, but typical outcome-based RLVR methods remain inefficient on hard problems. Correct final-answer rollouts are rare, and standard sample-level credit assignment fails to leverage partial reasoning progress embedded in unsuccessful attempts. To address this problem, we introduce SCRL (Subproblem Curriculum Reinforcement Learning), a curriculum reinforcement learning framework built on verifiable subproblems derived from reasoning chains. Given a reference solution, SCRL derives a series of verifiable subproblems and constructs a subproblem curriculum, with the final subproblem fixed as the original problem. This converts partial progress on hard problems into verifiable learning signals. Algorithmically, we propose subproblem-level normalization, a training technique based on RLVR that normalizes rewards independently at each subproblem position within the rollout group. By assigning the resulting advantages to the corresponding answer spans, we enable finer-grained credit assignment without external rubrics or reward models. Our theoretical analysis shows that this subproblem curriculum makes hard problems more learnable by lifting them out of gradient dead zones, with larger relative gains as the original problem becomes harder. Across seven mathematical reasoning benchmarks, SCRL outperforms strong curriculum-learning baselines, yielding +4.1 and +1.9 average-point gains compared to GRPO on Qwen3-4B-Base and Qwen3-14B-Base respectively. On three hard benchmarks (AIME24, AIME25, and IMO-Bench), SCRL further yields point gains of +3.7 in pass@$1$ and +4.6 in pass@$64$ on Qwen3-4B-Base, suggesting improved exploration on hard reasoning problems. Further ablations show that the proposed credit assignment is effective and that the gains do not require highly curated subproblems or strong external generators, highlighting SCRL as a practical curriculum framework that enables fine-grained credit assignment for LLM reasoning.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Curriculum RL for LLM reasoning credit assignment",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "150928",
+"title": "AETDICE: Unified Framework and Offline Optimization for Nonlinear Multi-Objective RL",
+"abstract": "Optimizing nonlinear preferences in multi-objective reinforcement learning (MORL) is essential for capturing complex trade-offs like risk aversion or fairness. However, such non-linearity has historically bifurcated nonlinear MORL objectives into two distinct paradigms: Scalarized Expected Return (SER) and Expected Scalarized Return (ESR). While SER requires global-level optimization and ESR requires non-Markovian policies, leading to fragmented optimization strategies, we bridge this divide through the Aggregation–Expectation–Transformation (AET) framework. By unifying both criteria through a tripartite decomposition of scalarization, AET provides a principled foundation for general nonlinear MORL. Building on this framework, we propose AETDICE, a tractable offline RL algorithm for AET objectives. By utilizing DICE-style density-ratio estimation in an augmented state space, AETDICE enables sample-based optimization from static datasets. Our framework resolves long-standing barriers and captures respective trade-offs induced by AET framework, which existing methods fail to address.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Nonlinear multi-objective offline RL framework; generic RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "152897",
+"title": "Learning in Context, Guided by Choice: A Reward-Free Paradigm for Reinforcement Learning with Transformers",
+"abstract": "In-context reinforcement learning (ICRL) leverages the in-context learning capabilities of transformer models (TMs) to efficiently generalize to unseen sequential decision-making tasks without parameter updates. However, existing ICRL methods rely on explicit reward signals during pretraining, which limits their applicability when rewards are ambiguous, hard to specify, or costly to obtain. To overcome this limitation, we propose a new learning paradigm, \\emph{In-Context Preference-based Reinforcement Learning} (ICPRL), in which both pretraining and deployment rely solely on preference feedback, eliminating the need for reward supervision. We study two variants that differ in the granularity of feedback: \\emph{Immediate Preference-based RL} (I-PRL) with per-step preferences that generalize dueling bandits, and \\emph{Trajectory Preference-based RL} (T-PRL) with trajectory-level comparisons. We first show that supervised pretraining, a standard approach in ICRL, remains effective under preference-only context datasets, demonstrating the feasibility of in-context solving unseen tasks using only preference signals. To further improve data efficiency, we introduce alternative preference-native frameworks for I-PRL and T-PRL that directly optimize TM policies from preference data without requiring reward signals nor optimal action labels. Experiments on dueling bandits, navigation, and continuous control tasks demonstrate that ICPRL enables strong in-context generalization to unseen tasks, achieving performance comparable to ICRL methods trained with full reward supervision.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "In-context preference-based RL with transformers; generic RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151465",
+"title": "Diffusion Guidance Is a Controllable Policy Improvement Operator",
+"abstract": "At the core of reinforcement learning is the idea of learning beyond the performance in the data. However, scaling such systems has proven notoriously tricky. In contrast, techniques from generative modeling have proven remarkably scalable and are simple to train. In this work, we combine these strengths, by deriving a direct relation between policy improvement and guidance of diffusion models. The resulting framework, CFGRL, is trained with the simplicity of supervised learning, yet can further improve on the policies in the data. On offline RL tasks, we observe a reliable trend -- increased guidance weighting leads to increased performance. Of particular importance, CFGRL can operate without explicitly learning a value function, allowing us to generalize simple supervised methods (e.g., goal-conditioned behavioral cloning) to further prioritize optimality, gaining performance for \"free\" across the board.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Diffusion guidance as policy improvement in offline RL; generic RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154487",
+"title": "RAIL: Representation-Aligned Imitation Learning for Student-Compatible Teacher Policies",
+"abstract": "Reinforcement learning (RL) from raw sensory inputs such as images or onboard sensors can be challenging due to high-dimensional observations and sparse rewards. A common strategy is to train a teacher policy with access to privileged state information and then distill it into a student policy that acts from raw inputs alone. However, when the teacher relies on information unavailable to the student, exact imitation may be impossible, creating an irreducible imitation gap. Existing approaches typically mitigate this mismatch through careful reward shaping or additional reinforcement learning on the student policy after the teacher has been trained. Instead, we introduce Representation-Aligned Imitation Learning (RAIL), which addresses the mismatch during teacher training itself. RAIL learns a latent representation shared across teacher and student observations using contrastive learning, and trains the teacher policy directly in this space. Because the teacher policy is constrained to operate on this shared space, it learns behaviors that are reproducible from student observations. This substantially reduces the imitation gap while preserving task performance. Across multiple environments, RAIL outperforms strong baselines without reward modification or post-hoc student fine-tuning, and surpasses direct reinforcement learning from raw observations. The learned representations further enable zero-shot transfer to new tasks through teacher-only training.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Teacher-student policy distillation with shared representations; generic RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "156141",
+"title": "Efficient Adaptive Data Acquisition via Pretrained Belief Representations",
+"abstract": "Learning effective policies for adaptive data acquisition remains challenging: posterior-based methods rely on surrogate models and posterior approximations that can be misspecified or biased, while direct policy-learning methods map from historical observations and fail to exploit available model representations, making learning harder. We introduce policy learning with belief representations (POLAR), based on the insight that optimal data acquisition depends on the observation history only through a sufficient belief state. Specifically, POLAR decouples representation learning from policy learning by leveraging pretrained predictive foundation models as belief-state encoders, training a policy head on top of their representations. This yields a simple, unified amortised policy learning framework for Bayesian experimental design, Bayesian optimisation, and active learning, differing only in the task-specific utility used to train the policy. Empirically, we find that POLAR outperforms state-of-the-art amortised methods across diverse tasks while requiring far fewer training samples, demonstrating a significant step in the scalability and efficiency of amortised data acquisition.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Amortised policy learning for Bayesian experimental design; no dynamical system",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155245",
+"title": "Decentralized Q-Learning in Markov Potential Games",
+"abstract": "We propose a fully decentralized $Q$-learning dynamic for infinite-horizon discounted Markov potential games in which agents observe the global state and their own realized payoffs, but do not know the reward functions, the transition probabilities, the potential function, or the policies and the actions of the other players. In the proposed dynamic each player maintains a local estimate of its continuation payoff for each state and action and updates its policy through a smoothed best response. Importantly, the smoothing parameter is adjusted by using an online estimate of the discounted state-visitation distribution, so that players explore more in rarely visited states while exploitation is encouraged in states that are frequently visited. We prove that the induced policy sequence converges almost surely to a set of approximate Nash equilibria of the Markov potential game, with an approximation guarantee that depends only on easily computable parameters. We illustrate the performance of the proposed learning dynamic via numerical experiments on a routing game and compare it with existing independent learning schemes based on persistent $\\theta$-greedy exploration.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Decentralized Q-learning convergence in discrete Markov potential games; generic multi-agent RL",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "148599",
+"title": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
+"abstract": "While Vision-Language Models (VLMs) have shown strong visual reasoning capabilities, their spatial reasoning abilities remain largely constrained to the observed images and text-oriented chain-of-thought. They often struggle to infer unobserved layouts, maintain cross-view consistency, and reason from alternative viewpoints when only limited egocentric observations are available. In this work, we study this problem as thinking with imagination, where a VLM actively acquires imagined visual evidence by interacting with a world simulator during reasoning. We propose Astra, an agentic spatial reasoning framework that empowers VLMs with action-conditioned visual imagination. Specifically, Astra couples Astra-VL, an RL-trained VLM policy, with Astra-WM, a Bagel-based world simulator that generates novel-view observations from context images and natural-language camera motions. To provide reliable imagined evidence, Astra-WM is trained with view consistency tuning to improve pose and content consistency across views. In the RL stage, we propose a world-simulator-in-the-loop two-phase RL curriculum to stabilize tool-use exploration and advance the model's ability to invoke the simulator only when imagined observations improve over direct answering. Experiments demonstrate that both the world simulator and the agentic policy are necessary: Astra-WM improves simulator-augmented Gemini-3-Flash on MMSI-Bench from 45.1 to 49.5, while Astra-VL improves the Qwen3-VL backbone from 29.8 to 38.8 on MMSI-Bench and from 36.8 to 42.7 on MindCube. These results show that imagined observations can provide useful spatial evidence, but effective world-model-augmented reasoning requires learning when, where, and how to imagine.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "VLM spatial reasoning with view-synthesis simulator; no planning or control",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151801",
+"title": "Masked Sobolev Training for Feasibility-Reliable Optimization Proxies",
+"abstract": "Optimization proxies amortize parametric constrained optimization by learning fast approximations of solution maps. Because these maps are smooth only within active-set regimes, the parameter space may split into combinatorially many critical regions, making finite-sample generalization and reliable constraint behavior central challenges. To address this challenge, this paper develops sparse stochastic masked Sobolev training for optimization proxies, augmenting value supervision with randomly selected solver-sensitivity targets rather than dense Jacobian matching. The mask acts as an algorithmic control: it exposes the proxy to local derivative information while avoiding overconstraint from conflicting active constraint set signals. We provide approximation bounds showing that, under coverage and regularity, joint value-and-Jacobian matching improves finite-sample generalization. Experiments characterize when and how this benefit appears. In smooth optimal-control distillation, where feasibility is guaranteed by construction, and only a few active-set regimes arise, Sobolev supervision reaches 95\\% of teacher performance about $2.5\\times$ faster than value-only training. In AC optimal power flow, masked Sobolev training keeps optimality gaps below 0.22\\% across three PGLib networks while reducing the median worst-case constraint violation by up to $4\\times$. A mean--variance portfolio study identifies the complementary limitation: when sensitivities are highly local or vanish across active-set regimes, derivative supervision can be less useful than value-only training.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Learning optimization solution maps; optimal control only an experiment, contribution is proxy training",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "155331",
+"title": "Anatomy of Off-Policy Policy Gradient: Importance Sampling, KL Regularization, and Baselines",
+"abstract": "Reinforcement learning has become a central tool for large language model (LLM) post-training, where policy gradient methods are routinely deployed off-policy, even though vanilla policy gradient assumes on-policy sampling. We study when such off-policy deployment is justified, and what roles its core ingredients, including importance sampling, KL regularization, and baselines, play in correcting the resulting distribution shift. We show that for a general class of off-policy policy gradient objectives, only two corrections preserve the optimal policy as a stationary point: trajectory-level importance weighting, which suffers from the well-known curse of horizon, and KL regularization paired with a grouped-mean baseline. Focusing on the KL route, we identify it with the group-relative policy gradient (GRPG) update, establish an equivalence to a trajectory-level Bellman residual minimization objective, and obtain a finite-sample regret bound under all-policy coverage. This also gives a theoretical account of the empirically successful GRPO objective. We further uncover a hidden role of baselines in the off-policy setting: a constant shift in the baseline implements pessimism, the standard remedy in offline RL for partial data coverage. We instantiate this via the asymmetric REINFORCE objective, and connect it to the game-theoretic offline RL framework, showing a regret bound with single-policy coverage. Together, these results offer a unified theoretical view of off-policy policy gradient in LLM post-training and connect it to classical ideas in offline RL.",
+"area": "Reinforcement Learning",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Off-policy policy gradient theory for LLM post-training (GRPO)",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "153980",
+"title": "A Hierarchy of Entropy-Shapley Games for Multivariate Predictive Uncertainty",
+"abstract": "Modern probabilistic machine learning models increasingly produce multivariate outputs with complex dependence structure, from multi-step time-series forecasts to sample path predictions. Understanding which input features drive the predictive uncertainty is important for risk-aware decisions, model diagnostics, and deciding whether the uncertainty should be mitigated or hedged against. This attribution problem requires a choice of how dependencies between output components are treated. Existing approaches reduce the output to a scalar through aggregation or projection before attribution, thereby obscuring whether features affect marginal uncertainty, dependence structure, or both, while component-wise analyses can miss dependence effects entirely. We close this gap by introducing a hierarchy of three entropy-based Shapley games that make this output-side choice explicit for any ordered multivariate outcome, ranging from per-component marginal entropy to fully joint entropy. The hierarchy isolates a cross-component attribution term that captures how each feature shifts the dependence between output components, a quantity invisible to component-wise methods. We establish a chain-rule decomposition of the joint attribution and characterize the cross-component term through conditional total correlation, providing both closed-form and sample-based estimators. Finally, we demonstrate how the framework captures differences in learned joint structure across probabilistic models from distributional regression to a zero-shot time series foundation model.",
+"area": "Time Series, Causality & Tabular",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Shapley attribution of multivariate predictive uncertainty",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "154877",
+"title": "SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+"abstract": "LLM/VLM-based digital agents have advanced rapidly thanks to scalable sandboxes for coding, web navigation, and computer use, which provide rich interactive training grounds. In contrast, embodied agents still lack abundant, diverse, and automatically generated 3D environments for interactive learning. Existing embodied simulators rely on manually crafted scenes or procedural templates, while recent LLM-based 3D generation systems mainly produce static scenes rather than deployable environments with verifiable tasks and standard learning interfaces. We introduce SimWorld Studio, an open-source platform built on Unreal Engine 5 for generating evolving embodied learning environments. At its core is SimCoder, a tool/skill-augmented coding agent that writes and executes engine-level code to construct physically grounded 3D worlds from language/image instructions. SimCoder self-evolves by using verifier feedback (e.g., compilation errors, physics checks, VLM critiques) to revise environments and autonomously add reusable tools and skills to its library. Generated worlds are exported as Gym-style environments for embodied agent learning. SimWorld Studio further enables co-evolution between environment generation and embodied learning: agent performance feedback guides SimCoder to generate adaptive curricula near the learner’s capability frontier, so that environments become increasingly challenging as the embodied agent improves. Three case studies on embodied navigation show that self-evolution improves generation reliability, generated environments substantially improve embodied agent performance that generalizes to unseen benchmarks, and co-evolution yields an 18-point success-rate gain over fixed-environment learning and a 40-point gain over an untrained agent.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Automatic 3D environment generation for embodied agents; simulator tooling",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "149876",
+"title": "PDF-HR: Pose Distance Fields for Humanoid Robots",
+"abstract": "Pose and motion priors play a crucial role in humanoid robotics. Although such priors have been widely studied in human motion recovery (HMR) domain with a range of models, their adoption for humanoid robots remains limited, largely due to the scarcity of high-quality humanoid motion data. In this work, we introduce Pose Distance Fields for Humanoid Robots (PDF-HR), a lightweight prior that represents the robot pose distribution as a continuous and differentiable manifold. Given an arbitrary pose, PDF-HR predicts its distance to a large corpus of retargeted robot poses, yielding a smooth measure of pose plausibility that is well suited for optimization and control. PDF-HR can be integrated as a reward shaping term, a regularizer, or a standalone plausibility scorer across diverse pipelines. We evaluate PDF-HR on various humanoid tasks, including single-trajectory motion tracking, general motion tracking, style-based motion mimicry, and general motion retargeting. Experiments show that this plug-and-play prior consistently and substantially strengthens strong baselines.",
+"area": "Robotics & Embodied AI",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Pose distance field prior for humanoid motion tracking; prior, not controller",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "151976",
+"title": "Worst-Case Regret Bounds for Combinatorial Bandits with Ranking Feedback",
+"abstract": "Combinatorial bandits with ranking feedback model a sequential decision-making problem in which the learner observes a top-$m$ ranking of the set of $k$ arms played in each round. The setting has been examined under the lens of top-$k$ regret minimization, which accounts for the cost of pulling arms that are not among the best $k$. Existing works rely on the assumption that latent rankings are generated by a Plackett-Luce (PL) distribution and consider the special case of full-ranking feedback ($m = k$). They provide instance-dependent regret upper bounds which match the asymptotic logarithmic scaling in the learning horizon $T$, but suffer from a burn-in term which becomes $\\Omega(T)$ for some choices of the PL parameters, preventing the derivation of sublinear worst-case bounds. In this work, we study the setting under the general top-$m$ feedback ($m \\leq k$) and provide a worst-case regret lower bound of order $\\Omega(\\sqrt{T})$. Then, by introducing a novel algorithmic strategy, we derive an instance-dependent regret upper bound which does not suffer from the exploding burn-in term and a corresponding worst-case bound of order $\\tilde{\\mathcal{O}}(\\sqrt{T})$, proving for the first time that it is possible to achieve sublinear worst-case regret w.r.t. the PL parameters. Moreover, we translate our algorithmic ideas to multinomial logit bandits, in which the learner receives winner feedback ($m = 1$) with non-zero probability of observing \"no-choice\". The existing regret bounds suffer from an exploding burn-in term, inversely proportional to the no-choice probability, that we avoid through our novel approach.",
+"area": "Theory & Optimization",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Combinatorial bandit regret bounds with ranking feedback; no dynamical system",
+"source": "pass1"
+},
+"check": "possible miss"
+},
+{
+"id": "152782",
+"title": "Understanding the Convergence of Direct Training of SNNs with Surrogate Gradients",
+"abstract": "Spiking Neural Networks (SNNs) offer high energy efficiency, but direct optimization is challenging because spike generation is governed by a non-differentiable hard threshold. Practical direct-training methods, including surrogate gradients (SG) and local zeroth-order (LocalZO) estimators, maintain hard spikes in the forward pass while using surrogate or perturbation-induced derivatives in the backward pass. This forward--backward mismatch raises a central theoretical question: how do local gradient discrepancies propagate through the spatiotemporal computation graph, and can the resulting biased updates still provide guaranties for the original discrete-spike objective? We develop a unified convergence analysis framework for SG and LocalZO direct SNN training. A smoothed spike objective is introduced only as an analytical bridge, allowing us to separate the core error into two components: the gradient-level mismatch between the direct-training mean direction and the smoothed-objective gradient, and the objective-level consistency gap between the smoothed and original discrete objectives. Both components are controlled by a threshold-tail functional that measures how often hard-trajectory membrane potentials lie near the firing threshold. Under suitable regularity assumptions, we obtain a non-asymptotic guarantee for the original discrete-spike objective. Experiments across representative SNN architectures and benchmarks verify convergence consistency, the existence of errors, and demonstrate that the threshold-tail statistic is an effective diagnostic for direct SNN training.",
+"area": "AI for Science & Neuro",
+"label": {
+"tier": "out",
+"sub": null,
+"reason": "Convergence analysis of surrogate-gradient SNN training",
+"source": "pass1"
+},
+"check": "possible miss"
+}
+]

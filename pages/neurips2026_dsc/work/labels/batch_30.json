@@ -1,0 +1,266 @@
+[
+ {
+  "id": "152884",
+  "tier": "out",
+  "sub": null,
+  "reason": "Speculative decoding tree sampling for LLM inference"
+ },
+ {
+  "id": "155062",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion trajectory augmentation for offline MARL on SMAC/MPE; generic MARL"
+ },
+ {
+  "id": "155611",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical-systems counterexample (return maps, eigenvalues, aperiodic orbit) to AdaBoost cycling; learning-algorithm dynamics"
+ },
+ {
+  "id": "154838",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mental imagery in multimodal models solving puzzles; VLM reasoning"
+ },
+ {
+  "id": "153820",
+  "tier": "out",
+  "sub": null,
+  "reason": "Deep Double Q-learning on Atari; generic deep RL"
+ },
+ {
+  "id": "152028",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Stochastic-optimal-control controller on autoregressive diffusion for data assimilation in chaotic PDEs and ERA5"
+ },
+ {
+  "id": "149469",
+  "tier": "out",
+  "sub": null,
+  "reason": "Invariance auditing of feature extractors via guided diffusion; model validation"
+ },
+ {
+  "id": "148333",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Control barrier functions on LLM hidden-state trajectories for safety steering; CBF applied to generation, not physical system"
+ },
+ {
+  "id": "153713",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inference-time Nash alignment of LLMs; LLM alignment"
+ },
+ {
+  "id": "152333",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM planner interleaving visual thoughts for robot task planning; LLM planning, no controller"
+ },
+ {
+  "id": "154704",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic 3D scene reconstruction with kinematic continuity from multi-view video; vision reconstruction"
+ },
+ {
+  "id": "151973",
+  "tier": "out",
+  "sub": null,
+  "reason": "n-step inequality hinge loss for Q-learning; generic RL"
+ },
+ {
+  "id": "152653",
+  "tier": "out",
+  "sub": null,
+  "reason": "Schr\u00f6dinger bridge MR image translation; medical imaging"
+ },
+ {
+  "id": "154351",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Primal-dual policy optimization for semi-infinitely constrained MDPs; constrained RL with wireless power control task"
+ },
+ {
+  "id": "149775",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical VLA with human-intention priors; VLA, no controller or dynamics"
+ },
+ {
+  "id": "149879",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL over diffusion latent noise with rotations; 'latent space control' of generative model"
+ },
+ {
+  "id": "154346",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual planning via image editing on abstract puzzles; vision reasoning"
+ },
+ {
+  "id": "155016",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Koopman generator network with stable skew-dissipative decomposition for nonlinear PDE analysis and forecasting; not control"
+ },
+ {
+  "id": "150464",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Linear-ODE transition operator framing temporal flow as dynamical system for self-supervised forecasting"
+ },
+ {
+  "id": "154381",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Optimal control theory for learning-rate schedules in a random feature model; controlled system is training"
+ },
+ {
+  "id": "149811",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformers learning symmetries from augmentation; equivariance"
+ },
+ {
+  "id": "150114",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Damped Hamiltonian probability gradient flow and mean-field limit of Muon optimizer; training dynamics theory"
+ },
+ {
+  "id": "150858",
+  "tier": "out",
+  "sub": null,
+  "reason": "High-probability regret for adversarial linear contextual bandits; no dynamics"
+ },
+ {
+  "id": "148559",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sample-complexity generalization regimes of linear diffusion models; statistical analysis, not dynamical"
+ },
+ {
+  "id": "155316",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-informed conditional Schr\u00f6dinger bridge reconstructing PDE fields from sparse observations; generative surrogate reconstruction"
+ },
+ {
+  "id": "148691",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-correction plus verifiable-reward fine-tuning of driving policies; policy learning without dynamics or control structure"
+ },
+ {
+  "id": "153891",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic mechanism design via POMDP policy gradients; economics/auctions"
+ },
+ {
+  "id": "154322",
+  "tier": "out",
+  "sub": null,
+  "reason": "Shapley attribution for neural operators; explainability, not dynamics modelling"
+ },
+ {
+  "id": "151912",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Analytical policy-gradient dynamics with Wiener process in social dilemmas; dynamical analysis of learning"
+ },
+ {
+  "id": "155166",
+  "tier": "out",
+  "sub": null,
+  "reason": "Optimal IPS estimator for multi-logger off-policy evaluation; contextual bandits"
+ },
+ {
+  "id": "153723",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Infinite-horizon universal approximation of Neural ODEs for Morse-Smale dynamics; modelling theory, not control"
+ },
+ {
+  "id": "148902",
+  "tier": "out",
+  "sub": null,
+  "reason": "Uncertainty-triggered generalist calls in dual-system VLA; VLA inference efficiency"
+ },
+ {
+  "id": "149922",
+  "tier": "out",
+  "sub": null,
+  "reason": "World-action model without test-time imagination; VLA-style policy, no planning or control"
+ },
+ {
+  "id": "155217",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Variational hybrid filter jointly inferring continuous state and contact mode, recovering sparse port-Hamiltonian robot dynamics"
+ },
+ {
+  "id": "154927",
+  "tier": "out",
+  "sub": null,
+  "reason": "Formally verified planning for LLM tool agents; LLM agents"
+ },
+ {
+  "id": "148601",
+  "tier": "out",
+  "sub": null,
+  "reason": "Context leakage attacks on LLMs; security"
+ },
+ {
+  "id": "149985",
+  "tier": "out",
+  "sub": null,
+  "reason": "Group-graph policy optimization for LLM agents; RL for LLMs"
+ },
+ {
+  "id": "149714",
+  "tier": "out",
+  "sub": null,
+  "reason": "Separating state and prediction streams in Transformers; architecture"
+ },
+ {
+  "id": "154377",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed price-adjustment dynamics for chores markets; market equilibrium computation"
+ },
+ {
+  "id": "149610",
+  "tier": "out",
+  "sub": null,
+  "reason": "Subgraph beam search for GNNs; graph learning"
+ },
+ {
+  "id": "149106",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Spectral Wasserstein gradient-flow interpretation of Muon mean-field training dynamics; dynamical view of learning"
+ },
+ {
+  "id": "152304",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM watermarking"
+ },
+ {
+  "id": "154353",
+  "tier": "out",
+  "sub": null,
+  "reason": "Order-marginalized scoring for masked diffusion models; generative modelling"
+ },
+ {
+  "id": "150168",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoders for Earth observation embeddings; interpretability"
+ }
+]

@@ -1,0 +1,213 @@
+# Extra institution rules for NeurIPS affiliations (OpenReview profile institution strings), applied before the CDC table.
+# Format as in institutions.py: Canonical name | country | sector (A/I) | regex;regex  (over the normalized key)
+# ---------- companies ----------
+Meta|US|I|facebook( ai research)?;fair( labs)?;meta ai( research)?;meta platforms( inc)?
+Google|US|I|deepmind;google( deepmind| research| brain| inc| llc)?
+NVIDIA|US|I|nvidia( research| corporation| corp| inc)?
+Apple|US|I|apple( inc)?
+Alibaba|CN|I|alibaba( group| inc| cloud| damo academy)?( holding)?;damo academy;dreamx of alibaba;tongyi lab;qwen team
+Tencent|CN|I|tencent( ai lab| hunyuan| youtu lab| inc| holdings)?
+ByteDance|CN|I|bytedance( inc| seed| research)?;seed bytedance
+Baidu|CN|I|baidu( inc| research)?
+Kuaishou|CN|I|kuaishou( technology)?;kuaishou 快手科技;快手科技
+Xiaomi|CN|I|xiaomi( corporation| corp| inc)?;xiaomi ev
+Meituan|CN|I|meituan( inc)?
+Ant Group|CN|I|ant group;ant international;ant financial;antgroup
+JD.com|CN|I|jd( com| explore academy)?;jd com inc;jingdong
+Xiaohongshu|CN|I|xiaohongshu( inc)?;rednote
+Li Auto|CN|I|li auto( inc)?
+OPPO|CN|I|oppo( research institute| mobile telecommunications)?;guangdong oppo mobile telecommunications( corp)?( ltd)?
+Honor|CN|I|honor( device| device co)?( ltd)?
+Lenovo|CN|I|lenovo( group| research)?( limited)?
+Horizon Robotics|CN|I|horizon robotics
+Megvii|CN|I|megvii( technology)?( inc)?
+United Imaging|CN|I|united imaging( intelligence| healthcare)?
+SenseTime|CN|I|sensetime( research| group)?
+Qualcomm|US|I|qualcomm( ai research| inc| incorporated| technologies)?;qualcomm inc qualcomm
+AMD|US|I|advanced micro devices( inc)?;amd( research)?
+Intel|US|I|intel( labs| corporation| corp)?
+Cisco|US|I|cisco( systems| research)?
+Adobe|US|I|adobe( research| systems| inc)?
+Salesforce|US|I|salesforce( ai research| research| inc)?
+Snap|US|I|snap( inc| research)?
+Roblox|US|I|roblox
+Capital One|US|I|capital one
+Anthropic|US|I|anthropic
+OpenAI|US|I|openai
+Together AI|US|I|together ai
+Scale AI|US|I|scale ai
+ServiceNow|US|I|servicenow( research| inc)?
+Genentech|US|I|genentech
+NEC Laboratories America|US|I|nec lab(oratorie)?s america
+Pluralis Research|US|I|pluralis( research)?
+InstaDeep|GB|I|instadeep
+Sony|JP|I|sony( group corporation| ai| research| corporation)?
+LG AI Research|KR|I|lg ai research;lg electronics
+KRAFTON|KR|I|krafton
+Naver|KR|I|naver( cloud| labs| ai lab)?
+SAP|DE|I|sap( se)?
+Bosch|DE|I|bosch( center for artificial intelligence| research)?;robert bosch( gmbh)?
+Vector Institute|CA|A|vector institute
+Alan Turing Institute|GB|A|(the )?alan turing institute
+# ---------- labs / institutes ----------
+Shanghai AI Laboratory|CN|A|shanghai (artificial intelligence|ai) lab(oratory)?
+Peng Cheng Laboratory|CN|A|peng ?cheng lab(oratory)?
+Beijing Academy of Artificial Intelligence|CN|A|beijing academy of artificial intelligence;baai
+Zhongguancun Academy|CN|A|zhongguancun academy
+Shanghai Academy of AI for Science|CN|A|shanghai academy of artificial intelligence for science
+Chinese Academy of Sciences|CN|A|chinese academy of science(s)?;institute of automation( chinese academy)?;casia
+Mohamed bin Zayed University of Artificial Intelligence|AE|A|mohamed bin zayed university of (artificial intelligence|ai);mbzuai
+A*STAR|SG|A|a ?star( singapore)?;agency for science technology and research
+RIKEN|JP|A|riken( aip| center for advanced intelligence project)?
+CSIRO|AU|A|csiro( data61)?;data61
+ETRI|KR|A|electronics and telecommunications research institute;etri
+CISPA|DE|A|cispa( helmholtz center for information security)?
+Hasso Plattner Institute|DE|A|hasso plattner institute?
+Max Planck Institute for Intelligent Systems|DE|A|max planck institute for intelligent systems;mpi for intelligent systems( tubingen)?;mpi is
+Max Planck Institute for Informatics|DE|A|max planck institute for informatics
+ISTA|AT|A|institute of science and technology austria;ista
+Cold Spring Harbor Laboratory|US|A|cold spring harbor lab(oratory)?
+# ---------- universities: China ----------
+Wuhan University|CN|A|wuhan university
+Renmin University of China|CN|A|renmin university( of china)?
+Tianjin University|CN|A|tianjin university
+Tianjin University of Technology|CN|A|tianjin university of technology
+Beijing University of Posts and Telecommunications|CN|A|beijing university of posts? and telecommunications?;bupt
+East China Normal University|CN|A|east china normal university
+Westlake University|CN|A|westlake university
+Jilin University|CN|A|jilin university
+Shenzhen University|CN|A|shenzhen university
+Beihang University|CN|A|beihang( university)?;beijing university of aeronautics and astronautics
+Beijing Jiaotong University|CN|A|beijing jiaotong university
+Shandong University|CN|A|shandong university
+Xidian University|CN|A|xidian university;xi an university of electronic science and technology
+Beijing Normal University|CN|A|beijing normal university
+Shanxi University|CN|A|shanxi university
+Hunan University|CN|A|hunan university
+Northwestern Polytechnical University|CN|A|northwest(ern)? polytechnical university( xi an)?
+University of Science and Technology Beijing|CN|A|university of science and technology beijing
+Soochow University|CN|A|soochow university
+South China Normal University|CN|A|south china normal university
+Central China Normal University|CN|A|central china normal university
+Hong Kong Polytechnic University|HK|A|(the )?hong kong polytechnic university;polyu
+Hong Kong Baptist University|HK|A|hong kong baptist university;hkbu
+Fuzhou University|CN|A|fuzhou university
+Jinan University|CN|A|jinan university
+Ningbo University|CN|A|ningbo university
+Harbin Engineering University|CN|A|harbin engineering university
+Guangdong University of Technology|CN|A|guangdong university of technology
+Yantai University|CN|A|yantai university
+Shandong Technology and Business University|CN|A|shandong technology and business university
+Qilu University of Technology|CN|A|qilu university of technology
+Guangzhou University|CN|A|guangzhou university
+Inner Mongolia University|CN|A|inner mongolia university
+Shenzhen Technology University|CN|A|shenzhen technology university
+Communication University of China|CN|A|communication university of china
+Huazhong Agricultural University|CN|A|huazhong agricultural university
+Great Bay University|CN|A|great bay university
+Eastern Institute of Technology, Ningbo|CN|A|eastern institute of technology( ningbo)?
+Xi'an Jiaotong University|CN|A|xi an jiaotong university;xjtu
+# ---------- universities: Korea, Taiwan, SE Asia ----------
+Yonsei University|KR|A|yonsei university
+Korea University|KR|A|korea university
+Sungkyunkwan University|KR|A|sung ?kyun ?kwan university;skku
+Hanyang University|KR|A|hanyang univers(i)?ty
+Kyung Hee University|KR|A|kyung hee university
+Sogang University|KR|A|sogang university
+Ajou University|KR|A|ajou university
+Kookmin University|KR|A|kookmin university
+National Taiwan University|TW|A|national taiwan university
+National Yang Ming Chiao Tung University|TW|A|national yang ming chiao tung university;nycu
+Hanoi University of Science and Technology|VN|A|hanoi university of science and technology
+VinUniversity|VN|A|vinuniversity;vinuni
+# ---------- universities: Europe ----------
+University of Edinburgh|GB|A|(the )?university of edinburgh
+University of Amsterdam|NL|A|university of amsterdam
+University of Warwick|GB|A|university of warwick
+University of Copenhagen|DK|A|university of copenhagen
+University of Helsinki|FI|A|university of helsinki
+University of Vienna|AT|A|university of vienna
+University of Zurich|CH|A|university of zurich
+University of Basel|CH|A|university of basel
+Leiden University|NL|A|leiden university
+Aarhus University|DK|A|aarhus university
+University of Warsaw|PL|A|university of warsaw
+Jagiellonian University|PL|A|jagiellonian university
+Weizmann Institute of Science|IL|A|weizmann institute( of science)?
+Bar-Ilan University|IL|A|bar ilan university
+Ben-Gurion University|IL|A|ben gurion university( of the negev)?
+Sharif University of Technology|IR|A|sharif university of technology
+Télécom Paris|FR|A|telecom paris(tech)?
+University of Pisa|IT|A|university of pisa
+University of Modena and Reggio Emilia|IT|A|university of modena and reggio emilia
+Bocconi University|IT|A|bocconi university
+Politecnico di Torino|IT|A|polytechnic institute of turin;politecnico di torino
+Politecnico di Milano|IT|A|polytechnic institute of milan;politecnico di milano
+Queen Mary University of London|GB|A|queen mary( university of london)?
+Lancaster University|GB|A|lancaster university
+University of Surrey|GB|A|university of surrey
+University of Bath|GB|A|university of bath
+Edge Hill University|GB|A|edge hill university
+Northumbria University|GB|A|northumbria university
+University of Freiburg|DE|A|university of freiburg;albert ludwigs universitat freiburg
+University of Tübingen|DE|A|(eberhard karls )?universit(y|at) (of )?tubingen;tubingen university
+TU Berlin|DE|A|technische universitat berlin
+Karlsruhe Institute of Technology|DE|A|karlsruher? institut(e)? (fur|of) technolog(ie|y);kit
+RWTH Aachen University|DE|A|rwth aachen( university)?;rheinisch westfalische technische hochschule aachen
+LMU Munich|DE|A|ludwig maximilians universitat munchen;lmu munich;lmu
+Technical University of Munich|DE|A|tu munich;tum
+Lomonosov Moscow State University|RU|A|lomonosov moscow state university
+ITMO University|RU|A|itmo university
+# ---------- universities: Americas, Oceania ----------
+University of North Carolina at Chapel Hill|US|A|university of north carolina at chapel hill;unc chapel hill
+Northwestern University|US|A|northwestern university
+University of Massachusetts Amherst|US|A|university of massachusetts( at)? amherst;umass amherst
+University of Rochester|US|A|university of rochester
+Tufts University|US|A|tufts university
+University of Houston|US|A|university of houston
+University of Utah|US|A|university of utah
+Oregon State University|US|A|oregon state university
+University at Buffalo|US|A|(state )?university of new york at buffalo;university at buffalo
+Drexel University|US|A|drexel university
+Temple University|US|A|temple university
+Tulane University|US|A|tulane university
+Florida Atlantic University|US|A|florida atlantic university
+University of North Texas|US|A|university of north texas
+University of Southern California|US|A|usc
+Johns Hopkins University|US|A|jhu
+Carnegie Mellon University|US|A|cmu
+University of Wisconsin–Madison|US|A|uw madison;university of wisconsin( madison)?
+Washington University in St. Louis|US|A|washington university saint louis
+UT Austin|US|A|university of texas austin
+Western University|CA|A|university of western ontario;western university
+McMaster University|CA|A|mcmaster university
+University of Ottawa|CA|A|university of ottawa
+Université de Montréal|CA|A|universite de montreal;university of montreal
+Griffith University|AU|A|griffith university
+Deakin University|AU|A|deakin university
+University of Queensland|AU|A|(the )?university of queensland
+University of Wollongong|AU|A|university of wollongong
+RMIT University|AU|A|rmit( university)?;royal melbourne institute of technology
+Singapore Management University|SG|A|singapore management university
+# ---------- variants seen in the DSC subset ----------
+University of Oxford|GB|A|oxford university
+Heidelberg University|DE|A|(ruprecht karls )?universitat heidelberg;heidelberg university;iwr heidelberg university
+EPFL|CH|A|swiss federal institute of technology lausanne
+University College London|GB|A|gatsby unit ucl;ucl
+Universitat Pompeu Fabra|ES|A|universitat pompeu fabra
+Korea Institute of Science and Technology|KR|A|korea institute of science and technology;kist
+Georgetown University|US|A|georgetown university
+École Normale Supérieure|FR|A|ecole normale superieure( de paris)?;ens paris
+Istituto Italiano di Tecnologia|IT|A|istituto italiano di tecnologia
+Heriot-Watt University|GB|A|heriot watt university
+Fermilab|US|A|fermilab;fermi national accelerator laboratory
+NTT|JP|I|ntt( corporation| communication science lab\w*)?
+Janelia Research Campus|US|A|hhmi janelia( research campus)?;janelia
+Francis Crick Institute|GB|A|(the )?francis crick institute
+TU Hamburg|DE|A|technische universitat hamburg;tu hamburg
+Donghua University|CN|A|donghua university
+J.P. Morgan|US|I|j p morgan( chase)?;jpmorgan
+University of Oklahoma|US|A|university of oklahoma
+University of Verona|IT|A|university of verona
+Capital Fund Management|FR|I|capital fund management
+Allen Institute for AI|US|A|ai2;allen institute for (ai|artificial intelligence)

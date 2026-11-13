@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155269",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149497",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154798",
+  "tier": "out",
+  "sub": null,
+  "reason": "SSM sequence model for language/budgeted inference"
+ },
+ {
+  "id": "149733",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153850",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149848",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155932",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149576",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148671",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155375",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148402",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward guidance steering in diffusion models"
+ },
+ {
+  "id": "153510",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155159",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154479",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154378",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152881",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Committor learning for rare transitions in molecular dynamical systems"
+ },
+ {
+  "id": "149547",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152730",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152511",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148929",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151851",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152505",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149216",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150466",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149472",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150454",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Flow fine-tuning cast as deterministic optimal control of generative flow"
+ },
+ {
+  "id": "155352",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148295",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154038",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151881",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Black-box probabilistic forecasting of battery degradation trajectories"
+ },
+ {
+  "id": "151030",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155666",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150453",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154649",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153490",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151187",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153704",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Backward filtering / smoothing for nonlinear stochastic diffusions on trees"
+ },
+ {
+  "id": "150219",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149572",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154721",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155970",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154499",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149460",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155831",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152697",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149309",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150462",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inductive bias of SSM sequence models"
+ },
+ {
+  "id": "152665",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155056",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152174",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153471",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155688",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148386",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quality-diversity search with behavioral foundation models; generic RL"
+ },
+ {
+  "id": "154623",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "156146",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151190",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153623",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149891",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154868",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148570",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149204",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM hypothesis generation for law discovery, not dynamical identification"
+ },
+ {
+  "id": "154301",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153831",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152605",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155372",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154695",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152701",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151724",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149317",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149420",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155808",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM bias audit with opinion-dynamics simulation; no control"
+ },
+ {
+  "id": "153110",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149947",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151560",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155267",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149993",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151379",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic offline meta-RL on MuJoCo benchmarks"
+ },
+ {
+  "id": "149293",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150077",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ }
+]

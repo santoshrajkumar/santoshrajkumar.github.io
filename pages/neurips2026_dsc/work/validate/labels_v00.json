@@ -1,0 +1,362 @@
+[
+ {
+  "id": "153480",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Online LQR with regret bounds under heterogeneous system dynamics"
+ },
+ {
+  "id": "155289",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic RL regret theory for tabular POMDPs, no physical system"
+ },
+ {
+  "id": "152582",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Intrinsic motivation reward with OC/dynamical framing; RL on robot benchmarks"
+ },
+ {
+  "id": "151421",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Closed-form ODEs for learning dynamics of recurrent policy network"
+ },
+ {
+  "id": "154719",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "HJB-based optimal control with value/policy error guarantees"
+ },
+ {
+  "id": "148197",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-constrained network reconstructing Maxwell fields; modelling only"
+ },
+ {
+  "id": "153644",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fine-grained image recognition with prototype networks"
+ },
+ {
+  "id": "148487",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion sampling guidance for generation quality"
+ },
+ {
+  "id": "151411",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for LLM reasoning; controller tunes training hyperparameters"
+ },
+ {
+  "id": "153285",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic episodic MDP regret theory"
+ },
+ {
+  "id": "151698",
+  "tier": "out",
+  "sub": null,
+  "reason": "Knowledge graph learning theory"
+ },
+ {
+  "id": "149981",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Action-conditioned world model as simulator for robot policy improvement"
+ },
+ {
+  "id": "150449",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Probabilistic PDE forecasting surrogate via latent SDE"
+ },
+ {
+  "id": "148682",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-anchored hybrid forecasting of air pollution field"
+ },
+ {
+  "id": "148370",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attention kernel systems engineering"
+ },
+ {
+  "id": "153736",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Real-time trajectory planner grounded in learned dynamics model with rollout verification"
+ },
+ {
+  "id": "149743",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Streaming reconstruction of physical fields from sparse measurements; surrogate modelling"
+ },
+ {
+  "id": "155611",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical-systems (orbit/return-map) analysis of AdaBoost iterations"
+ },
+ {
+  "id": "150517",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Finite-sample parameter recovery for POMDPs, RL theory framing"
+ },
+ {
+  "id": "152705",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agentic workflow design"
+ },
+ {
+  "id": "155199",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM symbolic robot task planning, no controller"
+ },
+ {
+  "id": "155042",
+  "tier": "out",
+  "sub": null,
+  "reason": "World modeling as reward for VLM agents; no control"
+ },
+ {
+  "id": "148288",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Neural network observer with Lyapunov/LMI stability certificate"
+ },
+ {
+  "id": "154964",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM quantization via RL"
+ },
+ {
+  "id": "152274",
+  "tier": "out",
+  "sub": null,
+  "reason": "Controllable 3D generation (false friend)"
+ },
+ {
+  "id": "154032",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Whole-body compliant force-regulation controller for humanoid"
+ },
+ {
+  "id": "152430",
+  "tier": "out",
+  "sub": null,
+  "reason": "Audio generation"
+ },
+ {
+  "id": "152531",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "RL fine-tuning of VLA policy with human corrections; no control structure"
+ },
+ {
+  "id": "149158",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Neural warm start for mpQP solving in real-time MPC"
+ },
+ {
+  "id": "152935",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Provably safe RL via implicit control-invariant sets from dynamics rollouts"
+ },
+ {
+  "id": "151300",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based RL with latent world model for card games"
+ },
+ {
+  "id": "154723",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic offline RL policy learning"
+ },
+ {
+  "id": "155346",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Closed-loop ODE equation discovery with active data acquisition"
+ },
+ {
+  "id": "152512",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D reconstruction / novel view synthesis"
+ },
+ {
+  "id": "152292",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Hitting-time representation for offline RL planning in navigation"
+ },
+ {
+  "id": "148187",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Embodied RL for virtual rodent with motor priors; generic policy learning"
+ },
+ {
+  "id": "152702",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical analysis of opinion dynamics coupled with predictive model updates"
+ },
+ {
+  "id": "155510",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Hierarchical world model planning with inverse dynamics, no control-theoretic framing"
+ },
+ {
+  "id": "153165",
+  "tier": "out",
+  "sub": null,
+  "reason": "Protein flexibility prediction"
+ },
+ {
+  "id": "151855",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Lyapunov-drift online learning for resource scheduling MDPs"
+ },
+ {
+  "id": "155217",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Hybrid contact dynamics filtering and sparse port-Hamiltonian law recovery"
+ },
+ {
+  "id": "150604",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural CDE embeddings for irregular time series"
+ },
+ {
+  "id": "150748",
+  "tier": "out",
+  "sub": null,
+  "reason": "Associative memory retrieval via OT gradient flow"
+ },
+ {
+  "id": "153239",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Finite-memory optimal control of POMDPs with performance bounds"
+ },
+ {
+  "id": "148541",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Symplectic neural operators for Hamiltonian PDE simulation"
+ },
+ {
+  "id": "152675",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-neural simulation of deformable objects from video; no planning"
+ },
+ {
+  "id": "150792",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Barrier certificate repair for neural network controlled systems"
+ },
+ {
+  "id": "155213",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Normalizing flows solving Fokker-Planck for SDE parameter inference"
+ },
+ {
+  "id": "153659",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Humanoid collaborative manipulation with dynamics/contact force allocation"
+ },
+ {
+  "id": "150711",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic game theory equilibrium computation"
+ },
+ {
+  "id": "152028",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Data assimilation for chaotic PDEs via stochastic-optimal-control guided diffusion"
+ },
+ {
+  "id": "154980",
+  "tier": "out",
+  "sub": null,
+  "reason": "Optimal transport metric learning for classification"
+ },
+ {
+  "id": "155791",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman-inspired latent linear dynamics with exogenous inputs"
+ },
+ {
+  "id": "149132",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Offline safe RL with controllable conservatism"
+ },
+ {
+  "id": "150096",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Learned structure-preserving Kalman filter for state estimation"
+ },
+ {
+  "id": "155947",
+  "tier": "out",
+  "sub": null,
+  "reason": "Data filtering for pretraining"
+ },
+ {
+  "id": "153606",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-informed UDE/SSM forecasting of air quality with Kalman fusion"
+ },
+ {
+  "id": "153121",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attacks on MLLMs"
+ },
+ {
+  "id": "149972",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Mean-field control on sparse graphs with DPP"
+ },
+ {
+  "id": "154508",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Neural Bayesian filter for state estimation under partial observability"
+ }
+]

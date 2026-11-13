@@ -1,0 +1,482 @@
+[
+ {
+  "id": "153312",
+  "tier": "out",
+  "sub": null,
+  "reason": "Static Colonel Blotto game theory; no dynamical system"
+ },
+ {
+  "id": "155803",
+  "tier": "out",
+  "sub": null,
+  "reason": "MLLM visual imagination gating trained with GRPO; LLM agent"
+ },
+ {
+  "id": "148776",
+  "tier": "out",
+  "sub": null,
+  "reason": "Building segmentation contour refinement; vision only"
+ },
+ {
+  "id": "149877",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Planning with learned dynamics/value models and diffusion proposals; no control-theoretic framing"
+ },
+ {
+  "id": "151102",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Geometric trajectory planning on learned state manifold for maze/robot arm; no dynamics or controller"
+ },
+ {
+  "id": "153208",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Graph network physics simulator adapting to material parameters; simulation surrogate, not control"
+ },
+ {
+  "id": "154126",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM test-time scaling with confidence-ranked prefixes"
+ },
+ {
+  "id": "151746",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Value iteration cast as implicit-Euler integration of Bellman residual ODE; dynamical-systems view of planning algorithm"
+ },
+ {
+  "id": "150672",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video world model with planar 3D memory; generation only, no planning"
+ },
+ {
+  "id": "154242",
+  "tier": "out",
+  "sub": null,
+  "reason": "PPO advantage estimation in imperfect-information card games"
+ },
+ {
+  "id": "153475",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion object compositing with illumination augmentation"
+ },
+ {
+  "id": "153297",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Ensemble variational data assimilation (4DEnVar) for chaotic geophysical dynamics; joint state-parameter estimation"
+ },
+ {
+  "id": "150341",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural controlled differential equations as universal generative time-series models; continuous-time modelling"
+ },
+ {
+  "id": "152872",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Phase-plane analysis of coupled skill-delegation ODE with saddle separatrix; dynamical-systems theory of (human) learning"
+ },
+ {
+  "id": "155901",
+  "tier": "out",
+  "sub": null,
+  "reason": "Strategic classification PAC learnability; no dynamics"
+ },
+ {
+  "id": "150650",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Lyapunov analysis of limiting ODE and nonautonomous-dynamical-system view of Schedule-Free optimizers"
+ },
+ {
+  "id": "152958",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive RL theory (ergodic risk measures) for continual RL; risk-aware sequential decision making"
+ },
+ {
+  "id": "149535",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tabular value-iteration convergence rates; generic MDP theory without dynamics"
+ },
+ {
+  "id": "154417",
+  "tier": "out",
+  "sub": null,
+  "reason": "Interactive video world model for object interaction; generation, no planning"
+ },
+ {
+  "id": "153842",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Koopman-operator latent evolution for weather forecasting; forecasting, not control"
+ },
+ {
+  "id": "149267",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA policy with latent future-aware reasoning; no controller or dynamics contribution"
+ },
+ {
+  "id": "151327",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO stabilization for multi-agent LLM systems"
+ },
+ {
+  "id": "150398",
+  "tier": "out",
+  "sub": null,
+  "reason": "Benchmark testing video world models' physical-risk prediction"
+ },
+ {
+  "id": "149621",
+  "tier": "out",
+  "sub": null,
+  "reason": "Initialization sensitivity of mirror descent; optimization theory, not dynamical-systems analysis"
+ },
+ {
+  "id": "153280",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum sensitivity sampling for coresets"
+ },
+ {
+  "id": "155198",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hand motion estimation from egocentric video; perception, not state estimation of a dynamical system"
+ },
+ {
+  "id": "152891",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA with geometric priors; perception-action policy, no controller"
+ },
+ {
+  "id": "155765",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative hand-object interaction sequences retargeted to robots; no controller contribution"
+ },
+ {
+  "id": "150789",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical instability of meta-learned intrinsic rewards in RL"
+ },
+ {
+  "id": "152024",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Online convex optimization with movement costs and memory; online-control-style setting without a plant"
+ },
+ {
+  "id": "151353",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated spectral method for EHR representations"
+ },
+ {
+  "id": "149536",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Geometry-adaptive neural operator for PDE forward and inverse problems; surrogate modelling"
+ },
+ {
+  "id": "155859",
+  "tier": "out",
+  "sub": null,
+  "reason": "Runtime analysis of Cartesian genetic programming"
+ },
+ {
+  "id": "149723",
+  "tier": "out",
+  "sub": null,
+  "reason": "Belief-MDP for subsidized clinical trials; economics/statistics, no dynamical system"
+ },
+ {
+  "id": "148146",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Visual-feature world model with latent actions used for robot policy learning and RL inside the model"
+ },
+ {
+  "id": "149270",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret-loss training of attention to mimic fictitious play; game-theoretic learning"
+ },
+ {
+  "id": "149285",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Learns pole-residue modal decomposition of multi-port LTI systems from port responses; frequency-domain system identification"
+ },
+ {
+  "id": "152281",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parallel lower bounds for exponentiated gradient"
+ },
+ {
+  "id": "153852",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent 3D shape representations"
+ },
+ {
+  "id": "151896",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Force-aware flow-matching imitation policy for contact-rich manipulation; policy learning, no explicit controller/dynamics"
+ },
+ {
+  "id": "150629",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret bounds for tabular MDP policy optimization; no dynamical system"
+ },
+ {
+  "id": "150156",
+  "tier": "out",
+  "sub": null,
+  "reason": "Masked autoencoders for gigapixel scientific images"
+ },
+ {
+  "id": "153682",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Offline IRL with diffusion planner modelling dynamics on D4RL; model-based sequential decision making"
+ },
+ {
+  "id": "153715",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrete uniform diffusion parameterization for language"
+ },
+ {
+  "id": "148450",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conformal FDR control for requirements traceability"
+ },
+ {
+  "id": "153921",
+  "tier": "out",
+  "sub": null,
+  "reason": "Camera trajectory generation for cinematography; generative motion tokens"
+ },
+ {
+  "id": "154650",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL post-training for diffusion LLMs"
+ },
+ {
+  "id": "152098",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Path-conditioned lateral-longitudinal planning for end-to-end driving; learned planner without dynamics/controller"
+ },
+ {
+  "id": "149161",
+  "tier": "out",
+  "sub": null,
+  "reason": "Equivariant GNN interatomic potentials; molecular property prediction"
+ },
+ {
+  "id": "150701",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Trajectory-level causal framework with interventions as controls of Hamiltonian mechanisms; causality in physical dynamics"
+ },
+ {
+  "id": "150004",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Stability regime of SGD (edge of stochastic stability, batch sharpness); dynamics of optimizer"
+ },
+ {
+  "id": "155855",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agent interfaces for web UI components"
+ },
+ {
+  "id": "152104",
+  "tier": "out",
+  "sub": null,
+  "reason": "Textual world model for LLM agents; language agent"
+ },
+ {
+  "id": "153684",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-simulated environments for tool-calling agents"
+ },
+ {
+  "id": "152716",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pre-training for human mobility event streams"
+ },
+ {
+  "id": "152398",
+  "tier": "out",
+  "sub": null,
+  "reason": "Version-control-style context management for LLM agents"
+ },
+ {
+  "id": "150940",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective RL foundation policy on D4MORL; generic RL"
+ },
+ {
+  "id": "155390",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA predictive representation learning; no controller contribution"
+ },
+ {
+  "id": "150230",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM synthesis of formally verified distributed systems code"
+ },
+ {
+  "id": "151152",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Parallel-in-time variational inference for latent SDEs; continuous-time time-series modelling"
+ },
+ {
+  "id": "150896",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Variational-stability characterization and convergence of first-order learning dynamics in signaling games"
+ },
+ {
+  "id": "154988",
+  "tier": "out",
+  "sub": null,
+  "reason": "Imitation learning with structured scene map; perception-centric policy"
+ },
+ {
+  "id": "152092",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mixed-precision attention quantization"
+ },
+ {
+  "id": "151093",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cost-aware SGD and GRPO for LLMs"
+ },
+ {
+  "id": "150149",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective causal bandits; no dynamics"
+ },
+ {
+  "id": "152002",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Second-order dynamics trajectory inference from single-cell snapshots; dynamical-system reconstruction"
+ },
+ {
+  "id": "155575",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Kalman filter/DARE analysis of drifting model posterior with optimal sample-selection design; estimation of a linear Gaussian system"
+ },
+ {
+  "id": "151735",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tail-risk guidance for diffusion generation"
+ },
+ {
+  "id": "150349",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Simulation-free variational inference for latent SDEs recovering dynamics from observations; modelling"
+ },
+ {
+  "id": "152463",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual verifier rewards for generative world modeling (Maze, Sudoku); no planning/control"
+ },
+ {
+  "id": "155946",
+  "tier": "out",
+  "sub": null,
+  "reason": "Newton method for exact optimal transport"
+ },
+ {
+  "id": "154984",
+  "tier": "out",
+  "sub": null,
+  "reason": "IRL to tune diffusion sampler schedules; 'trajectory' is sampling path"
+ },
+ {
+  "id": "154595",
+  "tier": "out",
+  "sub": null,
+  "reason": "No-regret caching with delayed hits"
+ },
+ {
+  "id": "151335",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rubric-guided LLM reasoning"
+ },
+ {
+  "id": "154554",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust Nash alignment from human feedback"
+ },
+ {
+  "id": "156115",
+  "tier": "out",
+  "sub": null,
+  "reason": "Replay regularization for GRPO on LLMs"
+ },
+ {
+  "id": "154004",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agentic spatial reasoning harness for foundation models"
+ },
+ {
+  "id": "150640",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributional Bellman contraction under MMD; RL theory without dynamics"
+ },
+ {
+  "id": "155360",
+  "tier": "out",
+  "sub": null,
+  "reason": "Physical adversarial LED attacks on detectors via RL; adversarial robustness"
+ },
+ {
+  "id": "155767",
+  "tier": "out",
+  "sub": null,
+  "reason": "Finite-horizon multi-environment POMDP complexity; abstract planning, not physical domain"
+ }
+]

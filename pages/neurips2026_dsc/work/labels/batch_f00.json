@@ -1,0 +1,482 @@
+[
+ {
+  "id": "150286",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural network adversarial-robustness verification, not a dynamical system"
+ },
+ {
+  "id": "153387",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151254",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153925",
+  "tier": "out",
+  "sub": null,
+  "reason": "Recurrent/SSM sequence model architecture for speech classification"
+ },
+ {
+  "id": "150936",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154441",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152289",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Closed-form ODE theory of gradient-descent learning dynamics in low-rank RNNs"
+ },
+ {
+  "id": "152459",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153273",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152971",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Random-feature PDE surrogate solver; modelling not control"
+ },
+ {
+  "id": "152218",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear recurrent/SSM sequence model architecture for language"
+ },
+ {
+  "id": "155020",
+  "tier": "out",
+  "sub": null,
+  "reason": "Data augmentation for VLA policies"
+ },
+ {
+  "id": "150616",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154366",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152312",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Neural SDE model of perceptual decision accumulation; modelling only"
+ },
+ {
+  "id": "148883",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mechanistic interpretability of VLA policies"
+ },
+ {
+  "id": "150099",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inference-time steering of diffusion samplers"
+ },
+ {
+  "id": "155420",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153750",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155001",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149728",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155498",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149508",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148721",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154902",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Unsupervised RL skill discovery for dexterous hands; generic policy learning"
+ },
+ {
+  "id": "153905",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150826",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Causal discovery in undersampled time series of neural dynamics"
+ },
+ {
+  "id": "149023",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152273",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149669",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151340",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149783",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149779",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "156145",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150284",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155071",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150902",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149556",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152277",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153212",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayes filter used as cognitive-model likelihood, not system state estimation"
+ },
+ {
+  "id": "155816",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153602",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152143",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148586",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Lag-aware temporal causal structure learning from multivariate time series"
+ },
+ {
+  "id": "151803",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148540",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152319",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155268",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Equation discovery of governing dynamics from phase portraits and trajectories"
+ },
+ {
+  "id": "148707",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "152217",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154140",
+  "tier": "out",
+  "sub": null,
+  "reason": "Observation-dimension selection for generic deep RL"
+ },
+ {
+  "id": "152888",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153067",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154293",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151985",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151849",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148873",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150411",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "151084",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Differentiable acoustic fluid simulation for inverse vocal-tract reconstruction"
+ },
+ {
+  "id": "148597",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149171",
+  "tier": "out",
+  "sub": null,
+  "reason": "Token dynamics in Mamba sequence models"
+ },
+ {
+  "id": "150018",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "148357",
+  "tier": "out",
+  "sub": null,
+  "reason": "Embodied foundation/VLA model, no controller contribution"
+ },
+ {
+  "id": "152461",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154068",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150043",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150378",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155228",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149010",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149073",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154082",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "149624",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155592",
+  "tier": "out",
+  "sub": null,
+  "reason": "Perceptual information maps for exploration; no control-system contribution"
+ },
+ {
+  "id": "154481",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150391",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "154708",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "155854",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Reconstructs continuous-time cell dynamics from snapshots; no control"
+ },
+ {
+  "id": "150051",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "150582",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ },
+ {
+  "id": "153681",
+  "tier": "out",
+  "sub": null,
+  "reason": "Not about controlling, identifying or estimating a dynamical system"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "151386",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL credit assignment for LLM software-engineering agents; no dynamical system"
+ },
+ {
+  "id": "151089",
+  "tier": "out",
+  "sub": null,
+  "reason": "Option extraction from neural policies; generic RL abstraction, no dynamics or control"
+ },
+ {
+  "id": "155340",
+  "tier": "out",
+  "sub": null,
+  "reason": "Inertia-matrix Riemannian embedding for clinical gait classification; representation learning, not control"
+ },
+ {
+  "id": "155197",
+  "tier": "out",
+  "sub": null,
+  "reason": "Streaming PCA convergence and inference; stochastic approximation theory, no dynamical system"
+ },
+ {
+  "id": "148521",
+  "tier": "out",
+  "sub": null,
+  "reason": "Risk-sensitive individualized treatment rules; causal inference, static decisions"
+ },
+ {
+  "id": "152176",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agentic video anomaly understanding with search-and-verify; vision/LLM agent"
+ },
+ {
+  "id": "151397",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-AI teaming I-POMDP training in Overcooked; generic multi-agent RL, no physical dynamics"
+ },
+ {
+  "id": "152435",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion-policy architecture compression for manipulation; imitation policy design, no controller or dynamics contribution"
+ },
+ {
+  "id": "155051",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conservativity of drifting generative model fields; generative modelling theory"
+ },
+ {
+  "id": "153595",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Differentiable biophysical neuron simulator fitted to recordings; inverse modelling of dynamics, not control"
+ },
+ {
+  "id": "148722",
+  "tier": "out",
+  "sub": null,
+  "reason": "Selective prediction for LLM alignment via RL; LLM post-training"
+ },
+ {
+  "id": "151906",
+  "tier": "out",
+  "sub": null,
+  "reason": "Model-free multitask deep RL with predictive representations on standard benchmarks; generic RL"
+ },
+ {
+  "id": "155791",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Koopman-inspired latent linear dynamics with exogenous inputs for forecasting; dynamics-framed time series"
+ },
+ {
+  "id": "155961",
+  "tier": "out",
+  "sub": null,
+  "reason": "Contextual combinatorial semi-bandits regret; no dynamics"
+ },
+ {
+  "id": "150338",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video-diffusion world-action policy for driving; VLA-style end-to-end driving, no controller contribution"
+ },
+ {
+  "id": "149915",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal fairness in generative AI; no dynamical system"
+ },
+ {
+  "id": "150564",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-objective RL for emotional-support LLM dialogue; LLM agents"
+ },
+ {
+  "id": "150521",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayes-risk diagnostics for flow matching; generative modelling theory"
+ },
+ {
+  "id": "156086",
+  "tier": "out",
+  "sub": null,
+  "reason": "Step-level internal reward for GRPO multi-turn LLM agents; RL for LLMs"
+ },
+ {
+  "id": "148737",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online localized conformal prediction; uncertainty quantification, not system estimation"
+ },
+ {
+  "id": "154039",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Finite-time analysis of risk-sensitive and KL-robust average-cost RL; risk-sensitive RL theory"
+ },
+ {
+  "id": "150597",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "MuZero-style search planning with learned model for continuous control; MPPI-inspired, no control-theoretic framing"
+ },
+ {
+  "id": "150549",
+  "tier": "out",
+  "sub": null,
+  "reason": "Risk-predictive task sampling for meta-RL and LLM post-training; curriculum, no system dynamics"
+ },
+ {
+  "id": "151322",
+  "tier": "out",
+  "sub": null,
+  "reason": "Few-shot industrial visual anomaly detection; vision"
+ },
+ {
+  "id": "151118",
+  "tier": "out",
+  "sub": null,
+  "reason": "Realizable regression via two online learners; statistical learning theory"
+ },
+ {
+  "id": "152305",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Flow matching with B-spline paths to model dynamical-system trajectories; modelling, not control"
+ },
+ {
+  "id": "155924",
+  "tier": "out",
+  "sub": null,
+  "reason": "Proximal causal inference for treatment selection; static decision making"
+ },
+ {
+  "id": "154850",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-step off-policy TD truncation; generic RL algorithm on MuJoCo/DMC"
+ },
+ {
+  "id": "155296",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attention alignment for VLA manipulation models; perception-side VLA, no controller"
+ },
+ {
+  "id": "152539",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal heliophysics vision foundation model; representation learning"
+ },
+ {
+  "id": "156121",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Adaptive coordinate transform block for neural operators on PDE benchmarks; PDE surrogate learning"
+ },
+ {
+  "id": "152025",
+  "tier": "out",
+  "sub": null,
+  "reason": "Irregular multivariate time-series forecasting on generic healthcare/climate benchmarks; not dynamical-system framed"
+ },
+ {
+  "id": "151477",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent for urban 3D grounding; perception"
+ },
+ {
+  "id": "155154",
+  "tier": "out",
+  "sub": null,
+  "reason": "Exact posterior score for linear inverse imaging problems; diffusion models"
+ },
+ {
+  "id": "149551",
+  "tier": "out",
+  "sub": null,
+  "reason": "Information-theoretic generalization bounds for online learning/bandits; no dynamics"
+ },
+ {
+  "id": "154067",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Model-based offline-to-online RL with Pareto policy pool; model-based RL on continuous-control benchmarks"
+ },
+ {
+  "id": "150779",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-augmented online portfolio selection; finance, not control"
+ },
+ {
+  "id": "149160",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent action annotations for driving VLAs; VLA training data pipeline, no controller"
+ },
+ {
+  "id": "152208",
+  "tier": "out",
+  "sub": null,
+  "reason": "Activation steering in full-duplex spoken LMs; 'state inertia' is LLM behaviour, not dynamics"
+ },
+ {
+  "id": "153743",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reasoning-supervised VLM fine-tuning for driving decisions; LLM RL"
+ },
+ {
+  "id": "155199",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM task planning with ontology scene graph; symbolic planning, no dynamics"
+ },
+ {
+  "id": "148491",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multiplayer Minecraft video world model; video generation without planning or control"
+ },
+ {
+  "id": "149937",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Zero-shot forecasting of chaotic dynamical systems via tabular PFNs; dynamical-system reconstruction"
+ },
+ {
+  "id": "152313",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated continual learning; no dynamical system"
+ },
+ {
+  "id": "151606",
+  "tier": "out",
+  "sub": null,
+  "reason": "Belief sets over symbolic states from VLM outputs for task planning; 'state estimation' is not dynamical"
+ },
+ {
+  "id": "150639",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative 4D video world model; video generation, no planner or controller"
+ },
+ {
+  "id": "154836",
+  "tier": "out",
+  "sub": null,
+  "reason": "Horizon-adaptive value stitching for offline RL on OGBench; generic RL"
+ },
+ {
+  "id": "151280",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic matching bandits; no dynamics"
+ },
+ {
+  "id": "156007",
+  "tier": "out",
+  "sub": null,
+  "reason": "Safe linear bandits regret; stateless constraint, no dynamical system"
+ },
+ {
+  "id": "152272",
+  "tier": "out",
+  "sub": null,
+  "reason": "Divergence counterexample for differential TD learning; generic RL theory"
+ },
+ {
+  "id": "150567",
+  "tier": "out",
+  "sub": null,
+  "reason": "Functional Bayesian optimization in RKHS; black-box optimization"
+ },
+ {
+  "id": "151350",
+  "tier": "out",
+  "sub": null,
+  "reason": "Accident anticipation risk curves from dashcam video; perception"
+ },
+ {
+  "id": "153499",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM multi-agent workflow topology; LLM agents"
+ },
+ {
+  "id": "155085",
+  "tier": "out",
+  "sub": null,
+  "reason": "Co-evolving LLM patient-doctor agents; LLM agents"
+ },
+ {
+  "id": "156078",
+  "tier": "out",
+  "sub": null,
+  "reason": "Safety alignment via density ratio matching; LLM alignment"
+ },
+ {
+  "id": "153665",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Koopman latent operator with flow matching for probabilistic forecasting; Koopman for forecasting"
+ },
+ {
+  "id": "156126",
+  "tier": "out",
+  "sub": null,
+  "reason": "Meta-agent framework for agentic evolution; LLM agents"
+ },
+ {
+  "id": "151752",
+  "tier": "out",
+  "sub": null,
+  "reason": "Action-conditioned surgical video world model; generation fidelity, no planning or control use"
+ },
+ {
+  "id": "150831",
+  "tier": "out",
+  "sub": null,
+  "reason": "Equivariant uncertainty estimation for molecular forces; static property prediction"
+ },
+ {
+  "id": "153316",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative inverse design of laser pulse inputs for ICF implosions; surrogate inverse map, no feedback or dynamics model"
+ },
+ {
+  "id": "150235",
+  "tier": "out",
+  "sub": null,
+  "reason": "Medical VLM visual grounding; vision-language"
+ },
+ {
+  "id": "155120",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM in-context RL for ML-pipeline autoscaling; systems/LLM agent, no dynamical model"
+ },
+ {
+  "id": "152469",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated RL for LLM agents under heterogeneity; LLM agents"
+ },
+ {
+  "id": "152383",
+  "tier": "out",
+  "sub": null,
+  "reason": "Logistic bandits regret; no dynamics"
+ },
+ {
+  "id": "151625",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Hamiltonian-inspired energy-dissipation network for contact-rich 3D object dynamics; physics-structured simulation"
+ },
+ {
+  "id": "150735",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dormant spiking neuron for SNN efficiency; neuromorphic architecture"
+ },
+ {
+  "id": "155701",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stackelberg analysis of iterative RLHF collapse; RLHF, feedback loop is not dynamical-systems analysis"
+ },
+ {
+  "id": "150098",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dale's principle as RNN inductive bias; architecture, not dynamics modelling"
+ },
+ {
+  "id": "148665",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fisher information tail sample complexity; statistical learning"
+ },
+ {
+  "id": "149403",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive CVaR planning with distributional MCTS; risk-sensitive sequential decision making"
+ },
+ {
+  "id": "151449",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Contextual queueing bandits with queue-length regret; scheduling under queue dynamics"
+ },
+ {
+  "id": "152120",
+  "tier": "out",
+  "sub": null,
+  "reason": "Controlled ablations of VLA models; VLA benchmarking, no controller"
+ },
+ {
+  "id": "148524",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Symplectic parallel scan for neural Hamiltonian simulators; physics-structured dynamics simulation"
+ },
+ {
+  "id": "154648",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trainability of quantum circuit Born machines; quantum ML"
+ },
+ {
+  "id": "149219",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical credit assignment for RLHF; RL for LLMs"
+ },
+ {
+  "id": "154285",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attacks on LLM symbolic planners; LLM agents"
+ },
+ {
+  "id": "150348",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent chain-of-thought VLA for driving trajectory prediction; VLA, no controller"
+ },
+ {
+  "id": "151856",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Offline RL with dynamics-informed latent context for tokamak plasma profile tracking, deployed on DIII-D"
+ },
+ {
+  "id": "153628",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Spectral-radius stability threshold for multi-agent performative retraining feedback; dynamical-systems analysis of learning"
+ },
+ {
+  "id": "151948",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fixed-point inversion for rectified flows; 'trajectory' is sampling path"
+ }
+]

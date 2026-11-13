@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155898",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic offline-to-online deep RL on D4RL benchmarks; no dynamical system controlled"
+ },
+ {
+  "id": "148512",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward decomposition for policy evaluation on finite Markov chains; generic RL theory, no system control"
+ },
+ {
+  "id": "155805",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributionally robust regression; robustness is statistical, not of a dynamical system"
+ },
+ {
+  "id": "151878",
+  "tier": "out",
+  "sub": null,
+  "reason": "Metric geometry denoising of pairwise distances; unrelated to dynamics"
+ },
+ {
+  "id": "153092",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic irregular time-series forecasting benchmarks with attention; not framed as dynamical system"
+ },
+ {
+  "id": "153299",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline RL occupancy regularization; generic RL algorithm paper"
+ },
+ {
+  "id": "152154",
+  "tier": "out",
+  "sub": null,
+  "reason": "Runtime analysis of evolutionary multiobjective algorithms; no dynamics or control"
+ },
+ {
+  "id": "151039",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Transformers as McKean-Vlasov dynamical systems; propagation-of-chaos analysis of forward and training dynamics"
+ },
+ {
+  "id": "154870",
+  "tier": "out",
+  "sub": null,
+  "reason": "Last-iterate convergence in zero-sum bandit games; generic online learning, no physical dynamics"
+ },
+ {
+  "id": "151323",
+  "tier": "out",
+  "sub": null,
+  "reason": "Censored semi-bandit budget allocation regret bounds; no dynamics"
+ },
+ {
+  "id": "150539",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision-focused learning with semi-bandit feedback on combinatorial problems; no dynamical system"
+ },
+ {
+  "id": "153074",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM prompting steers representations; steering of LLMs is a false friend"
+ },
+ {
+  "id": "153294",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Latent-dynamics model-based RL with consistency for visual generalization on DMC; no control-theoretic framing"
+ },
+ {
+  "id": "154892",
+  "tier": "out",
+  "sub": null,
+  "reason": "On-policy contrastive RL algorithm on generic benchmarks"
+ },
+ {
+  "id": "155174",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Test-time RL policy adaptation for quadruped locomotion; generic actor-critic updates, no dynamics or control structure"
+ },
+ {
+  "id": "149732",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaussian process kernels on Lie groups; no dynamics"
+ },
+ {
+  "id": "154042",
+  "tier": "out",
+  "sub": null,
+  "reason": "MARL communication/consensus on standard benchmarks; generic multi-agent RL"
+ },
+ {
+  "id": "153502",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D scene decomposition for editable generated worlds; perception/graphics"
+ },
+ {
+  "id": "149549",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Latent world model forecasting growing physical surfaces with material controls; modelling only, no planning or control"
+ },
+ {
+  "id": "154550",
+  "tier": "out",
+  "sub": null,
+  "reason": "Probe trajectories on LLM reasoning tokens; trajectory means token sequence"
+ },
+ {
+  "id": "151070",
+  "tier": "out",
+  "sub": null,
+  "reason": "SGD risk bounds for shallow ReLU networks; statistical learning theory"
+ },
+ {
+  "id": "151239",
+  "tier": "out",
+  "sub": null,
+  "reason": "Almost-sure convergence rates of stochastic approximation; optimization theory, Lyapunov drift for algorithm not system"
+ },
+ {
+  "id": "153082",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Proves training map is homeomorphism below learning-rate threshold; topological dynamical-systems analysis of learning"
+ },
+ {
+  "id": "155475",
+  "tier": "out",
+  "sub": null,
+  "reason": "Co-evolving EM for irregular time series generation; generic generative modelling"
+ },
+ {
+  "id": "151247",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Constrained MDPs with per-subprocess cost constraints for safety-critical decisions; constrained sequential decision making"
+ },
+ {
+  "id": "153065",
+  "tier": "out",
+  "sub": null,
+  "reason": "Financial market representation learning; world model term without planning or dynamics"
+ },
+ {
+  "id": "151745",
+  "tier": "out",
+  "sub": null,
+  "reason": "Structure-from-motion 3D reconstruction; perception"
+ },
+ {
+  "id": "149357",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-agent oversight framed as control; trajectories are agent traces, no dynamical system"
+ },
+ {
+  "id": "148580",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scalar-on-function regression theory; functional data, no dynamics"
+ },
+ {
+  "id": "153309",
+  "tier": "out",
+  "sub": null,
+  "reason": "Risk-sensitive optimal stopping for option exercise; finance optimal stopping, not control of a system"
+ },
+ {
+  "id": "151277",
+  "tier": "out",
+  "sub": null,
+  "reason": "Missing-data graphical recoverability; causal inference, no dynamics"
+ },
+ {
+  "id": "155458",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Attributes policy failure to causally responsible learned world-model transition errors; model-based RL diagnostics"
+ },
+ {
+  "id": "148541",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Symplectic neural operators for Hamiltonian PDEs with long-term stability; simulation surrogate, no control"
+ },
+ {
+  "id": "154268",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Deep feedback control as approximation of predictive coding; control-theoretic view of a learning algorithm"
+ },
+ {
+  "id": "149557",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bilinear matching bandits regret; no dynamics"
+ },
+ {
+  "id": "149843",
+  "tier": "out",
+  "sub": null,
+  "reason": "Langevin dynamics for combinatorial optimization; sampling, not a dynamical system to control"
+ },
+ {
+  "id": "155017",
+  "tier": "out",
+  "sub": null,
+  "reason": "Algorithmic stability and generalization of GD/SGD with rounding; stability is statistical"
+ },
+ {
+  "id": "149488",
+  "tier": "out",
+  "sub": null,
+  "reason": "FM-generated reward programs for RL skill discovery in Craftax; no dynamics"
+ },
+ {
+  "id": "153605",
+  "tier": "out",
+  "sub": null,
+  "reason": "Curriculum for multi-domain LLM RLVR with GRPO; RL for LLMs"
+ },
+ {
+  "id": "149032",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Mean-field continuity-equation dynamics of transformer tokens with Lyapunov estimates; dynamical-systems theory of networks"
+ },
+ {
+  "id": "149717",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "System identification of mechanistic neural-dynamics models in simulated zebrafish; reconstruction/forecasting, not control"
+ },
+ {
+  "id": "153132",
+  "tier": "out",
+  "sub": null,
+  "reason": "Simplifying convergence proofs for first-order optimization; optimization theory"
+ },
+ {
+  "id": "154980",
+  "tier": "out",
+  "sub": null,
+  "reason": "Supervised optimal transport between Gaussian mixtures; not control"
+ },
+ {
+  "id": "150778",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric full-body motion reconstruction via diffusion; vision pose estimation, not system state estimation"
+ },
+ {
+  "id": "149720",
+  "tier": "out",
+  "sub": null,
+  "reason": "State-space PDE block replaces attention in diffusion transformers; SSM-as-architecture false friend"
+ },
+ {
+  "id": "154250",
+  "tier": "out",
+  "sub": null,
+  "reason": "Meta-RL with behavior foundation models on MetaWorld; generic RL"
+ },
+ {
+  "id": "150722",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conformal error attribution for LLM multi-agent traces; trajectories are agent traces"
+ },
+ {
+  "id": "155471",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pass-rate control for GRPO rollouts in agentic LLM RL; RL for LLMs"
+ },
+ {
+  "id": "152615",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated variational inequality convergence rates; optimization"
+ },
+ {
+  "id": "155441",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM driving agents with GRPO; dataset and diagnostic, no controller contribution"
+ },
+ {
+  "id": "154276",
+  "tier": "out",
+  "sub": null,
+  "reason": "Constraint-conditioned neural solver for static graph optimization (power grid OPF, MILP); no dynamics"
+ },
+ {
+  "id": "148533",
+  "tier": "out",
+  "sub": null,
+  "reason": "Functional gradient descent algorithm with convergence theory; optimization"
+ },
+ {
+  "id": "149832",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Computational complexity of neural ODE flow-endpoint inference; neural ODE theory, no control"
+ },
+ {
+  "id": "152431",
+  "tier": "out",
+  "sub": null,
+  "reason": "RLVR with self-distillation for LLMs; RL for LLMs"
+ },
+ {
+  "id": "154555",
+  "tier": "out",
+  "sub": null,
+  "reason": "Influence functions for predict-then-optimize linear programs; no dynamics"
+ },
+ {
+  "id": "155518",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-distillation for search-augmented LLM reasoning with GRPO; RL for LLMs"
+ },
+ {
+  "id": "150648",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Residual RL with force feedback for real-world contact-rich manipulation; policy learning, dynamics not modelled"
+ },
+ {
+  "id": "149443",
+  "tier": "out",
+  "sub": null,
+  "reason": "Long-term time-series forecasting on standard benchmarks; generic forecasting"
+ },
+ {
+  "id": "156130",
+  "tier": "out",
+  "sub": null,
+  "reason": "E(3)-equivariant tensor products for atomistic modelling; static property prediction"
+ },
+ {
+  "id": "148971",
+  "tier": "out",
+  "sub": null,
+  "reason": "Concept injection into video world models; generation without planning"
+ },
+ {
+  "id": "154494",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private covariance estimation; statistics, no dynamics"
+ },
+ {
+  "id": "153417",
+  "tier": "out",
+  "sub": null,
+  "reason": "Simulation-based Bayesian inference with Schrodinger-bridge sampling; parameter inference, not system control"
+ },
+ {
+  "id": "150809",
+  "tier": "out",
+  "sub": null,
+  "reason": "Concept-localized generative representations; representation learning"
+ },
+ {
+  "id": "150787",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent black-box optimization for static microstructure inverse design; no dynamics"
+ },
+ {
+  "id": "154341",
+  "tier": "out",
+  "sub": null,
+  "reason": "Calibration of samplers in ambiguous inverse problems; imaging, no dynamics"
+ },
+ {
+  "id": "148256",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline-to-online linear contextual bandits; no dynamics"
+ },
+ {
+  "id": "149473",
+  "tier": "out",
+  "sub": null,
+  "reason": "Advantage baseline estimation for RLVR on LLM reasoning; RL for LLMs"
+ },
+ {
+  "id": "152405",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL alignment of diffusion models; trajectories are sampling paths"
+ },
+ {
+  "id": "153667",
+  "tier": "out",
+  "sub": null,
+  "reason": "Anchoring via Tikhonov regularization for monotone operator methods; optimization"
+ },
+ {
+  "id": "148999",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Minimum observation time to recover latent interaction network of Hawkes process dynamics; dynamical network reconstruction"
+ },
+ {
+  "id": "152693",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial robustness of spiking networks via spike-flip margins; adversarial robustness false friend"
+ },
+ {
+  "id": "150534",
+  "tier": "out",
+  "sub": null,
+  "reason": "MARL with open agent/task sets via pointer networks; generic MARL"
+ },
+ {
+  "id": "150102",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agentic world VLA model for driving; VLA/planning tokens, no controller contribution"
+ },
+ {
+  "id": "153429",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical information-bottleneck trajectories during learning in artificial and biological systems; not dynamical-systems analysis"
+ },
+ {
+  "id": "150287",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive cyclic algorithm for variational inequalities; optimization"
+ },
+ {
+  "id": "153940",
+  "tier": "out",
+  "sub": null,
+  "reason": "Offline MARL with flow prior and value gradient flow; generic RL algorithm"
+ },
+ {
+  "id": "148248",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attacks on graph retrieval; not dynamics"
+ },
+ {
+  "id": "152382",
+  "tier": "out",
+  "sub": null,
+  "reason": "Occupancy world model forecasting future 3D scenes for driving; perception forecasting, no planning or control"
+ },
+ {
+  "id": "155045",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Self-supervised neural surrogate for steady CFD cast as inpainting; simulation surrogate, no control"
+ },
+ {
+  "id": "151331",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Latent environment-model learning for Bayes-adaptive MDP planning from offline data; model learning for planning"
+ }
+]

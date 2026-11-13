@@ -1,0 +1,775 @@
+<body>
+<nav class="topbar" aria-label="Main">
+  <div class="in">
+    <a class="brand" href="#/" aria-label="Home"><span class="n">NeurIPS</span><span class="y">2026</span><span class="x">DSC Explorer</span></a>
+    <div class="tabs">
+      <a href="#/institutions" data-tab="institutions">Institutions</a>
+      <a href="#/topics" data-tab="topics">Topics &amp; papers</a>
+      <a href="#/authors" data-tab="authors">Authors</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <!-- ======================= HOME ======================= -->
+  <section class="view" id="v-home" aria-label="Home">
+    <div class="hero">
+      <p class="title"><span class="n">NeurIPS</span><span class="y">2026</span><br><span class="e">Dynamic Systems &amp; Control</span></p>
+      <p class="kick">An unofficial guide to the dynamic systems and control papers at NeurIPS 2026</p>
+      <p>The <span class="ntech"></span> main-track papers on control, system identification, estimation, learned dynamics and safety certificates, picked from the <span class="nall"></span> accepted NeurIPS 2026 papers (<span class="ncore"></span> core, the rest adjacent). Three&nbsp;ways&nbsp;in:</p>
+      <div class="stats" id="stats"></div>
+    </div>
+    <div class="doors">
+      <a class="door inst" href="#/institutions">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10 12 5l9 5"/><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8"/><path d="M3 20h18"/></svg></span>
+        <h2>Find your institution</h2>
+        <p>Rank, paper count, subcategory mix and poster sessions for every university, lab and company with a DSC paper at NeurIPS 2026.</p>
+        <span class="eg">e.g. The Ohio State University · ETH Zurich · Google DeepMind</span>
+        <span class="go">Search institutions →</span>
+      </a>
+      <a class="door topic" href="#/topics">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><circle cx="11" cy="14" r="2.6"/><path d="m13 16 2 2"/></svg></span>
+        <h2>Search by topic or paper</h2>
+        <p>Type a topic or paste your abstract. See the closest DSC papers at NeurIPS 2026, their poster session and city, and who wrote them.</p>
+        <span class="eg">e.g. Koopman Operator · Control Barrier Functions · K-PWM: Control-Oriented Structured World Models</span>
+        <span class="go">Search topics →</span>
+      </a>
+      <a class="door author" href="#/authors">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></span>
+        <h2>Search by author</h2>
+        <p>Find anyone's dynamic systems and control papers at NeurIPS 2026, with poster session, city and co-authors.</p>
+        <span class="eg">e.g. Santosh Rajkumar</span>
+        <span class="go">Search authors →</span>
+      </a>
+    </div>
+    <img class="poster" src="assets/poster.png?v=__IMGVER__" alt="NeurIPS 2026 DSC poster: top 10 institutions by number of dynamic systems and control papers, each with its leading subcategory" loading="lazy">
+    <section class="criteria" aria-label="Selection criteria">
+      <details>
+      <summary><h2>Selection criteria</h2><span class="more">how papers were chosen · click to expand</span></summary>
+      <p class="note">Every one of the <span class="nall"></span> NeurIPS 2026 main-track papers was labelled <b>core</b>, <b>adjacent</b> or <b>out</b> from its title and abstract. The question asked was what the paper contributes, not which words it uses.</p>
+      <ol>
+        <li><b>Core (<span class="ncore"></span> papers):</b> the main contribution controls, identifies, estimates or certifies a dynamical system. That means a physical, engineered, biological or abstract system whose state evolves in time under inputs. Six subcategories:
+          <ul>
+            <li><b>Optimal control &amp; MPC:</b> optimal control, model predictive control, LQR/LQG, HJB and Pontryagin methods, trajectory optimization with dynamics constraints, differentiable MPC, stochastic and robust optimal control, learning-based MPC.</li>
+            <li><b>System identification &amp; learned dynamics for control:</b> identifying linear, nonlinear, hybrid or switching models from data, Koopman and operator methods (EDMD, Koopman autoencoders, dictionary discovery), equation discovery (SINDy-style), dynamic mode decomposition, data-driven (Willems-type) control, and learned dynamics or world models whose purpose is control, planning or stability analysis.</li>
+            <li><b>Stability, safety &amp; certificates:</b> Lyapunov, barrier and contraction certificates, control barrier functions, reachability, safety filters, formal verification of controllers and closed loops, robust stability, dissipativity, input-to-state stability, neural certificate synthesis.</li>
+            <li><b>Estimation &amp; filtering:</b> state estimation, Kalman and nonlinear filters, observers, smoothing, data assimilation, sensor fusion for state, learned filters.</li>
+            <li><b>Learning-based &amp; adaptive control theory:</b> adaptive control, online and non-stochastic control with regret bounds, control of unknown systems, sample complexity of control, control-theoretic analysis of RL, system-level synthesis, networked, distributed and multi-agent control, control of PDEs and delay systems.</li>
+            <li><b>Robotics &amp; embodied control:</b> locomotion, manipulation and flight where the contribution is a controller, a dynamics-aware planner, whole-body control, contact dynamics for control, or sim-to-real of controllers.</li>
+          </ul></li>
+        <li><b>Adjacent (<span class="nadj"></span> papers):</b> a control researcher would read it, but control is not the contribution. Five subcategories:
+          <ul>
+            <li><b>Model-based RL &amp; world models:</b> learned world models or dynamics for RL and planning without control-theoretic framing, Dyna-style methods, model-based offline RL.</li>
+            <li><b>Neural ODE/PDE surrogates &amp; physics-informed dynamics:</b> neural ODEs, SDEs and CDEs, PDE solvers and neural operators, physics-informed networks, simulation surrogates, Hamiltonian and Lagrangian networks, used for modelling rather than control.</li>
+            <li><b>Dynamical-systems view of learning:</b> gradient-flow and ODE analyses of training, stability of optimizers, feedback or control-theoretic analyses of learning algorithms, dynamical-systems theory of networks.</li>
+            <li><b>Time series &amp; dynamical-system reconstruction:</b> forecasting of physical or dynamical systems with black-box models, chaotic attractor reconstruction, causal discovery in dynamical systems, tools that compare or embed dynamics.</li>
+            <li><b>Sequential decision making close to control:</b> safe, constrained, robust or risk-sensitive RL, POMDPs and planning under uncertainty in physical domains, linear-quadratic and stochastic games, bandits with dynamics, inverse optimal control, stochastic optimal control used for sampling (Schrödinger bridges, diffusion as control), and end-to-end robot policy learning.</li>
+          </ul></li>
+        <li><b>Out:</b> everything else. These look-alikes are out unless the abstract makes a genuine control or dynamics contribution:
+          <ul>
+            <li>“state space models” meaning Mamba or S4 sequence models for language, vision or audio;</li>
+            <li>“controllable” or steerable generation, ControlNet, control tokens, LLM steering;</li>
+            <li>“training dynamics” or “training stability” described empirically, numerical stability, Stable Diffusion;</li>
+            <li>RLHF, DPO, GRPO and other RL for language-model reasoning, and LLM agents;</li>
+            <li>vision-language-action robot policies, and robotics papers on perception, datasets or language grounding without a controller;</li>
+            <li>“trajectories” of a diffusion sampler or an LLM agent, and video “world models” with no planning use;</li>
+            <li>adversarial robustness of classifiers, and “Kalman” or “filter” used for image or audio denoising;</li>
+            <li>human feedback, control groups, access, congestion, version and quality control, FDR control;</li>
+            <li>generic time-series benchmarks (retail, traffic counts, finance) and generic deep-RL algorithms on standard benchmarks.</li>
+          </ul></li>
+        <li><b>Borderline rules:</b>
+          <ul>
+            <li>A learned model is core when it is used or analysed for control, planning or stability. It is adjacent when it only predicts or simulates. Koopman, system identification and equation discovery are core either way.</li>
+            <li>Robot papers are core when they reason about dynamics, constraints, stability or MPC-like structure. They are adjacent when a generic RL algorithm learns a policy on robot tasks.</li>
+            <li>A paper is core when it controls a system. It is adjacent when the “system” is the learning algorithm itself.</li>
+            <li>Papers on power grids, traffic, HVAC, plasma, fluids and chemical processes are core when they control the system, adjacent when they only simulate it.</li>
+            <li>Mean-field control is core. Mean-field games are adjacent.</li>
+          </ul></li>
+        <li><b>Subcategory:</b> each paper gets exactly one, the best fit. Borders are fuzzy, so treat an institution's mix as indicative.</li>
+        <li><b>Rankings and counting:</b> rankings count core and adjacent papers. A paper counts once for every institution with at least one author on it. The fractional count splits each paper equally across its authors, then across each author's institutions. The institution table can also rank by core papers only, and topic search can be limited to core papers.</li>
+        <li><b>Author name search:</b> authors are grouped by their neurips.cc profile ID, with names and affiliations as published in the program. Search matches full or partial names, first or last names, and names typed without accents (“Anden” finds “Joakim Andén”). Each author page lists their DSC papers, core papers first, with poster session, co-authors and institutions. The author table ranks people by their number of DSC papers.</li>
+        <li><b>Institution names:</b> affiliations come from authors' OpenReview profiles and are merged with a hand-checked table. Google includes DeepMind, Meta includes FAIR, and all Chinese Academy of Sciences institutes are merged. Unmatched affiliations are kept as written.</li>
+        <li><b>How the labels were made:</b> a keyword and embedding filter picked candidates, and an LLM read every candidate's abstract against the written rubric. Non-candidates were checked by random sample and by a title screen, with flagged papers read in full. A second, independent LLM pass agreed on 91.5% of a 284-paper sample, and the disagreements were settled by hand. Authors' publication history was used only as a tie-breaker, never to exclude. More detail is under “How this was made”.</li>
+        <li><b>Scope:</b> main track only. The Evaluations &amp; Datasets, Position Paper and Journal tracks are not included.</li>
+      </ol>
+      </details>
+    </section>
+    <p class="homefoot">Data from the public <a href="https://neurips.cc/virtual/2026/papers.html" rel="noopener">NeurIPS 2026 program</a> on neurips.cc · snapshot <span class="snap"></span> · papers selected by a keyword + embedding + LLM funnel (see “How this was made”)<br><span class="unoff">Unofficial project, not affiliated with or endorsed by the NeurIPS Foundation.</span></p>
+  </section>
+
+  <!-- ======================= INSTITUTIONS ======================= -->
+  <section class="view" id="v-institutions" aria-label="Institutions">
+    <h1 class="vt">Find your institution</h1>
+    <p class="vs" id="instSub"></p>
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="suggest" aria-expanded="false" id="combo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search a university, lab or company…" aria-label="Search institutions" aria-controls="suggest" aria-autocomplete="list">
+      <div class="suggest" id="suggest" role="listbox"></div>
+    </div>
+    <p class="hint">Try <button data-q="MIT">MIT</button>·<button data-q="ETH Zurich">ETH Zurich</button>·<button data-q="Tsinghua">Tsinghua</button>·<button data-q="UC Berkeley">UC Berkeley</button>·<button data-q="Google DeepMind">Google DeepMind</button></p>
+    <article class="card" id="card" aria-live="polite"></article>
+    <section class="table">
+      <h2>All institutions</h2>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Sector" id="instSeg">
+          <button data-sector="" aria-pressed="true">All</button>
+          <button data-sector="A" aria-pressed="false">Academia</button>
+          <button data-sector="I" aria-pressed="false">Industry</button>
+        </div>
+        <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
+        <select id="sortArea" aria-label="Rank by subcategory"><option value="">Rank by all DSC papers</option><option value="core">Rank by core papers</option></select>
+        <span class="count" id="count"></span>
+      </div>
+      <table>
+        <thead><tr><th class="r">#</th><th>Institution</th><th class="p">Papers</th><th class="pct">Share</th><th class="mix">Subcategory mix</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <button class="btn more" id="more">Show 50 more</button>
+      <div class="areas-legend" id="areasLegend"></div>
+    </section>
+  </section>
+
+  <!-- ======================= TOPICS ======================= -->
+  <section class="view" id="v-topics" aria-label="Topics and papers">
+    <h1 class="vt">Who works on your topic?</h1>
+    <p class="vs">Type a topic or paste a title and abstract. We find the NeurIPS 2026 dynamic systems and control papers closest in meaning, then count which institutions and countries wrote them.</p>
+    <div class="qrow">
+      <div class="search">
+        <textarea id="tq" rows="2" spellcheck="false" placeholder="e.g. learning Lyapunov functions for neural network controllers — or paste your abstract" aria-label="Topic or abstract"></textarea>
+      </div>
+      <button class="btn primary" id="tgo" type="button">Search</button>
+    </div>
+    <div class="hint" id="tex">Try
+      <button class="chipbtn" data-t="control barrier functions and safety filters for learned controllers">control barrier functions</button>
+      <button class="chipbtn" data-t="differentiable model predictive control">differentiable MPC</button>
+      <button class="chipbtn" data-t="Koopman operator">Koopman operator</button>
+      <button class="chipbtn" data-t="learning Lyapunov functions and stability certificates for neural controllers">neural Lyapunov certificates</button>
+      <button class="chipbtn" data-t="world models for model-based planning and control">world models for control</button>
+      <button class="chipbtn" data-t="Kalman filtering and state estimation with learned models">Kalman filtering</button>
+      <button class="chipbtn" data-t="online control of unknown linear dynamical systems with regret guarantees">online LQR</button>
+    </div>
+    <div class="hint" style="margin-top:8px">Or try a whole abstract:
+      <button class="chipbtn paperchip" id="texPaper" type="button" title="Fills in the title and abstract of my NeurIPS 2026 paper">📄 __EXAMPLE_TITLE__ <span style="color:var(--faint)">(my NeurIPS 2026 paper)</span></button>
+    </div>
+    <div class="opts">
+      <span>Look at the</span>
+      <select id="tk" aria-label="Number of closest papers"><option value="50">50</option><option value="100" selected>100</option><option value="200">200</option></select>
+      <span>closest papers</span>
+      <label><input type="checkbox" id="tonly"> core papers only</label>
+      <label><input type="checkbox" id="tlinks"> with arXiv or code only</label>
+    </div>
+    <div class="status" id="tstatus" role="status"></div>
+    <div class="results" id="tres"></div>
+  </section>
+
+  <!-- ======================= AUTHORS ======================= -->
+  <section class="view" id="v-authors" aria-label="Authors">
+    <h1 class="vt">Search by author</h1>
+    <p class="vs" id="authSub">Every author of a dynamic systems and control paper at NeurIPS 2026, with their papers, poster sessions and co-authors.</p>
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="asuggest" aria-expanded="false" id="acombo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="aq" type="search" autocomplete="off" spellcheck="false" placeholder="Type a name…" aria-label="Search authors" aria-controls="asuggest" aria-autocomplete="list">
+      <div class="suggest" id="asuggest" role="listbox"></div>
+    </div>
+    <p class="hint">Try __AUTHOR_HINTS__</p>
+    <div class="status" id="astatus" role="status"></div>
+    <article class="card" id="acard" aria-live="polite"></article>
+    <section class="table" id="atable">
+      <h2>Most DSC papers at NeurIPS 2026</h2>
+      <p class="vs" style="font-size:14px">Authors ranked by dynamic systems and control papers (core + adjacent). Click a name for their papers.</p>
+      <table>
+        <thead><tr><th class="r">#</th><th>Author</th><th>Affiliation</th><th class="p">DSC papers</th></tr></thead>
+        <tbody id="atbody"></tbody>
+      </table>
+      <button class="btn more" id="amore">Show 50 more</button>
+    </section>
+  </section>
+
+  <section class="about" id="about">
+    <details>
+    <summary><h2>How this was made</h2><span class="more">data, method and caveats</span></summary>
+    <ul>
+      <li><b>Papers, authors and institutions</b> come from the public <a href="https://neurips.cc/virtual/2026/papers.html" rel="noopener">NeurIPS 2026 program</a> on neurips.cc (events feed and abstracts, snapshot <span class="snap"></span>), main track only (<span class="nall"></span> accepted papers). Each author's institution is as listed on their OpenReview profile at the time of the snapshot.</li>
+      <li><b>What counts as a DSC paper:</b> a paper is <i>core</i> when its main contribution is controlling, identifying, estimating or certifying a dynamical system (optimal control and MPC, system identification and learned dynamics for control, Koopman and operator methods, stability and safety certificates, estimation and filtering, learning-based control theory, robot control). It is <i>adjacent</i> when a control researcher would read it but control is not the contribution (model-based RL and world models, neural ODE/PDE surrogates, dynamical-systems analyses of learning, time-series and dynamical-system reconstruction, sequential decision making close to control). Everything else is out. Rankings count core + adjacent; the core count is shown everywhere, and topic search can be restricted to core papers.</li>
+      <li><b>How papers were selected:</b> a three-stage funnel. (1) A keyword lexicon (model predictive, optimal control, LQR, Koopman, Lyapunov, barrier function, system identification, Kalman, observer, reachability, contraction, …) plus embedding similarity (bge-small-en-v1.5 on title + abstract) to 30 seed papers picked the candidates, with a loose threshold. (2) An LLM read every candidate's title and abstract against a written rubric with false-friend rules (“state space model” for sequence models, “controllable generation”, “training dynamics”, RLHF, …) and assigned tier, subcategory and a one-line reason, shown under each paper. (3) A random sample of non-candidates was classified the same way to estimate recall, and an independent second LLM pass over a stratified sample measured agreement; the disagreements were re-read. The authors' publication history (via OpenAlex) was used only as a tie-breaker for borderline papers, never to exclude. Details, numbers and the rubric are in the <a href="https://github.com/santoshrajkumar/santoshrajkumar.github.io/tree/main/pages/neurips2026_dsc" rel="noopener">repository</a>.</li>
+      <li><b>Subcategories</b> are the 11 rubric classes, one per paper, chosen by the LLM pass. Borders are fuzzy (an MPC paper that learns dynamics could sit in Optimal/MPC or Identification), so treat an institution's mix as indicative. The unofficial research-area clusters of the <a href="https://juevn.github.io/neurips2026/" rel="noopener">NeurIPS 2026 Explorer</a> were used to audit the labels, not to set them.</li>
+      <li><b>Counting:</b> a paper counts once for every institution with at least one author on it, so shares add up to more than 100%. The <i>fractional</i> count splits each paper equally across its authors, then across each author's institutions.</li>
+      <li><b>Names</b> are normalized with a hand-checked table (the ~560 institutions of the CDC 2026 Explorer plus rules for frequent NeurIPS affiliations and company labs). Google includes DeepMind; Meta includes FAIR. Unmatched affiliations are kept as written, so a small institution can appear under more than one spelling.</li>
+      <li><b>Topic search</b> runs entirely in your browser: your text is embedded with bge-small-en-v1.5 (downloaded once, about 33 MB) and compared with every paper's title and abstract. Nothing you type is sent anywhere. If the model can't load, the page falls back to keyword matching on titles.</li>
+      <li><b>arXiv and code links</b> (<span class="nax"></span> papers on arXiv, <span class="ncode"></span> with code) were found automatically. A paper is linked to arXiv only when an arXiv entry has a near-identical title and at least one shared author surname. Code links come from GitHub or GitLab URLs in the arXiv abstract or comments, and from GitHub repositories whose README or description names the paper's title or arXiv ID. Papers not on arXiv have no preprint link.</li>
+      <li><b>Industry vs academia:</b> companies and corporate labs are industry. Universities, government and national labs and public institutes are academia.</li>
+      <li><b>Authors</b> are grouped by their neurips.cc profile ID. Names and affiliations are as published in the program. <a href="neurips2026_dsc_institutions.csv" download>Download the institution table (CSV)</a> · <a href="neurips2026_dsc_papers.csv" download>Download the paper list with tiers, subcategories and reasons (CSV)</a>.</li>
+      <li id="fix">Spotted a wrong label or mapping? Corrections are welcome.</li>
+    </ul>
+    </details>
+    <footer>
+      <span></span>
+      <span>Unofficial, not affiliated with the NeurIPS Foundation · data snapshot <span class="snap"></span></span>
+    </footer>
+  </section>
+  <footer class="sitefoot">
+    <p class="mypaper">My NeurIPS 2026 paper: <a href="https://arxiv.org/abs/2611.11521" rel="noopener"><b>K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation</b></a><br>Atlanta Poster Session 2 · Wed, Dec 9, 16:30 EST · Hall C1</p>
+    <p class="sisters">Journal explorers: <a href="../pub_exp/lcss/">IEEE L-CSS Explorer</a> · <a href="../pub_exp/tac/">IEEE T-AC Explorer</a> · <a href="../pub_exp/ral/">IEEE RA-L Explorer</a> · <a href="../pub_exp/tro/">IEEE T-RO Explorer</a></p>
+    <p>Sister site: <a href="../../cdc2026/"><b>CDC 2026 Explorer</b></a> · the full IEEE CDC 2026 program by institution, topic and author.</p>
+    <p>Built by: <a href="https://santoshrajkumar.github.io/" rel="noopener"><b>Santosh Rajkumar</b></a>, PhD Candidate, The Ohio State University</p>
+    <p class="buckeyes">A little support for THE world-famous Ohio State Buckeyes ahead of <a href="https://ohiostatebuckeyes.com/game-center/22225" rel="noopener">THE GAME</a> ! Go Bucks, Beat TTUN! 🌰🏈</p>
+  </footer>
+  <p class="credit">format adapted from <a href="https://github.com/juevn/neurips2026" rel="noopener">source</a></p>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="data.js?v=__DVER__"></script>
+<script>
+(() => {
+  'use strict';
+  const D = window.CDC, M = D.meta, A = M.areas, INST = D.inst, N = M.papers;
+  const REPO_URL = 'https://github.com/santoshrajkumar/santoshrajkumar.github.io';
+  const PVER = '__PVER__';
+  const PROGRAM = M.program;
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, props = {}, kids = []) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(props)) { if (v == null) continue; if (k === 'style') e.style.cssText = v; else if (k === 'text') e.textContent = v; else if (k.startsWith('data-') || k.startsWith('aria-') || k === 'role') e.setAttribute(k, v); else e[k] = v; } for (const c of [].concat(kids)) if (c != null) e.append(c); return e; };
+  const fmt = (x) => x.toLocaleString('en-US');
+  const pct = (x, d = 1) => (x * 100).toFixed(d) + '%';
+  const tip = el('div', { id: 'tip', role: 'tooltip' }); document.body.append(tip);
+  const showTip = (e) => { const t = e.target.closest('[data-tip]'); if (!t) { tip.classList.remove('on'); return; } tip.textContent = t.dataset.tip; tip.classList.add('on');
+    const x = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8); tip.style.left = Math.max(8, x) + 'px'; tip.style.top = (e.clientY + 16) + 'px'; };
+  document.addEventListener('mousemove', showTip); document.addEventListener('click', showTip);
+  const hideTip = () => tip.classList.remove('on'); addEventListener('hashchange', hideTip); addEventListener('scroll', hideTip, { passive: true }); document.addEventListener('mouseleave', hideTip);
+  const areaBar = (counts, order, caption) => {
+    const tot = counts.reduce((a, b) => a + b, 0) || 1;
+    const ids = order.filter(i => counts[i]);
+    const byN = [...ids].sort((a, b) => counts[b] - counts[a]);
+    return [
+      caption ? el('div', { className: 'stackcap', text: caption }) : null,
+      el('div', { className: 'stack' }, ids.map(i => el('div', { 'data-tip': `${A[i].name}: ${counts[i]} (${pct(counts[i] / tot, 0)})`, 'aria-label': `${A[i].name}: ${counts[i]}`, style: `flex:${counts[i]};background:${A[i].color}` }))),
+      el('div', { className: 'legend' }, byN.slice(0, 8).map(i => el('span', { 'data-tip': `${A[i].name}: ${counts[i]} (${pct(counts[i] / tot, 0)})` }, [el('i', { style: `background:${A[i].color}` }), el('b', { text: A[i].short }), document.createTextNode(pct(counts[i] / tot, 0))]))
+        .concat(byN.length > 8 ? [el('span', { text: `+${byN.length - 8} more` })] : [])),
+    ];
+  };
+  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9぀-鿿]+/g, ' ').trim();
+  const slug = (s) => norm(s).replace(/ /g, '-');
+  const flag = (cc) => cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUpperCase()].map(c => 127397 + c.charCodeAt(0))) : '';
+  const isDark = () => document.documentElement.dataset.theme === 'dark' || (document.documentElement.dataset.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+  if (isDark()) A.forEach(a => { if (a.color.toLowerCase() === '#2b2d42') a.color = '#8d99c4'; });
+  const confShare = A.map(a => a.total / N);
+  INST.forEach((x, i) => { x.i = i; x.slug = slug(x.n); x.keys = [x.n, ...(x.k || [])].map(norm); });
+  const RANKED = INST.filter(x => x.p > 0);
+  const bySlug = new Map(RANKED.map(x => [x.slug, x]));
+  const CNAME = new Map(M.countries.map(([c, g]) => [c, g]));
+  let tt; const toast = (m) => { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('show'), 1800); };
+  const copy = (t) => (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast('Link copied'), () => toast(t));
+  const baseUrl = () => location.origin + location.pathname;
+
+  /* ---------- static text ---------- */
+  document.querySelectorAll('.snap').forEach(s => s.textContent = M.snapshot);
+  document.querySelectorAll('.ntech').forEach(s => s.textContent = fmt(N));
+  document.querySelectorAll('.nall').forEach(s => s.textContent = fmt(M.all));
+  document.querySelectorAll('.ncore').forEach(s => s.textContent = fmt(M.core));
+  document.querySelectorAll('.nadj').forEach(s => s.textContent = fmt(M.adjacent));
+  document.querySelectorAll('.nax').forEach(s => s.textContent = fmt(M.with_arxiv || 0));
+  document.querySelectorAll('.ncode').forEach(s => s.textContent = fmt(M.with_code || 0));
+  $('#instSub').textContent = `${fmt(N)} dynamic systems and control papers (${fmt(M.core)} core) · ${fmt(M.institutions)} institutions from ${M.countries.length} countries · rank, paper count and subcategory mix for each.`;
+  $('#stats').replaceChildren(
+    el('div', {}, [el('b', { text: fmt(N) }), el('span', { text: 'DSC papers' })]),
+    el('div', {}, [el('b', { text: fmt(M.core) }), el('span', { text: 'core control papers' })]),
+    el('div', {}, [el('b', { text: fmt(M.institutions) }), el('span', { text: 'institutions' })]),
+    el('div', {}, [el('b', { text: String(M.countries.length) }), el('span', { text: 'countries' })]),
+  );
+  if (!REPO_URL.startsWith('{{')) {
+    const li = $('#fix'); li.textContent = 'Spotted a wrong mapping? ';
+    li.append(el('a', { href: `${REPO_URL}/issues/new`, rel: 'noopener', text: 'Open an issue' }), document.createTextNode(' and it will be fixed.'));
+  }
+
+  /* ---------- router ---------- */
+  function route() {
+    let h = location.hash.replace(/^#/, '');
+    if (h && !h.startsWith('/')) { if (bySlug.has(decodeURIComponent(h))) { location.replace('#/institutions/' + h); return; } h = '/'; }
+    const [path, qs] = h.split('?');
+    const parts = (path || '/').split('/').filter(Boolean);
+    const view = ['institutions', 'topics', 'authors'].includes(parts[0]) ? parts[0] : 'home';
+    document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === 'v-' + view));
+    document.querySelectorAll('.tabs a').forEach(a => { if (a.dataset.tab === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    $('#about').style.display = view === 'home' ? 'none' : '';
+    document.title = ({ institutions: 'Institutions · ', topics: 'Topics · ', authors: 'Authors · ' }[view] || '') + 'NeurIPS 2026 DSC Explorer';
+    if (view === 'institutions') {
+      const x = parts[1] && bySlug.get(decodeURIComponent(parts[1]));
+      if (x) { q.value = x.n; renderCard(x); } else { $('#card').classList.remove('show'); }
+      if (!tableRendered) renderTable();
+    }
+    if (view === 'topics') {
+      ensurePapers();
+      const qq = new URLSearchParams(qs || '').get('q');
+      if (qq && qq !== lastTopicQuery) { $('#tq').value = qq; runTopic(qq, false); }
+      else if (!qq) warmModel();
+    }
+    if (view === 'authors') routeAuthor(parts[1] ? decodeURIComponent(parts[1]) : null);
+    if (!['institutions', 'authors'].includes(view) || !parts[1]) window.scrollTo({ top: 0 });
+  }
+  window.addEventListener('hashchange', route);
+
+  /* =================== PAPERS (shared) =================== */
+  const MODEL = 'Xenova/bge-small-en-v1.5';
+  const TJS = 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.2';
+  const TYPE_LABEL = ['', ''];
+  const PRES_LABEL = ['', 'Spotlight', 'Oral'];
+  const TIER = (r) => r[7] ? ['core', 'Core: the main contribution is control, identification, estimation or certification of a dynamical system'] : ['adjacent', 'Adjacent: about dynamical systems or sequential decisions, but control is not the contribution'];
+  let P = null, V = null, S = null, SES = [], KW = [], AU = [], DIM = 384;
+  let papersReady = null, extractor = null, modelReady = null, lastTopicQuery = null, idf = null;
+  function ensurePapers() {
+    if (papersReady) return papersReady;
+    papersReady = new Promise((resolve, reject) => {
+      const s = document.createElement('script'); s.src = `papers.js?v=${PVER}`; s.onload = resolve; s.onerror = () => reject(new Error('papers.js failed to load')); document.head.append(s);
+    }).then(() => fetch(`papers.bin?v=${PVER}`)).then(r => { if (!r.ok) throw new Error('papers.bin ' + r.status); return r.arrayBuffer(); }).then(buf => {
+      P = window.PAPERS.rows; SES = window.PAPERS.sessions; KW = window.PAPERS.keywords; AU = window.PAPERS.authors; DIM = window.PAPERS.dim; const n = P.length;
+      S = new Float32Array(buf, 0, n); V = new Int8Array(buf, n * 4, n * DIM);
+    });
+    return papersReady;
+  }
+  // row: [title, insts, area(subcategory), neurips id, session, presentation(0 poster/1 spotlight/2 oral), [], core(1)/adjacent(0), authors, start, arXiv id, [code urls], openreview id, reason]
+  // session: [code, title, day, time, room, type, weekday, [], anchor]
+  // author: [name, neurips.cc profile id, affiliation, [institution idx]]
+  const showName = (n) => { const i = n.indexOf(', '); return i < 0 ? n : n.slice(i + 2) + ' ' + n.slice(0, i); };
+  const paperUrl = (r) => `${PROGRAM}poster/${r[3]}`;
+  const sesOf = (r) => SES[r[4]] || ['', '', '', '', '', 0, 9, [], ''];
+  const instChip = (k, cls = 'ia') => INST[k].p > 0
+    ? el('button', { className: cls + ' ' + (INST[k].s || ''), type: 'button', text: INST[k].n, onclick: () => openInst(INST[k]) })
+    : el('span', { className: cls, text: INST[k].n });
+  function paperEl(i, { me = -1, meA = -1, sim = null, showArea = true } = {}) {
+    const r = P[i], s = sesOf(r), others = r[1].filter(k => k !== me), tier = TIER(r);
+    return el('div', { className: 'paper' }, [
+      el('div', { className: 't' }, el('a', { href: paperUrl(r), target: '_blank', rel: 'noopener', title: 'Open on neurips.cc', text: r[0] })),
+      el('div', { className: 'meta' }, [
+        sim != null ? el('span', { className: 'sim', text: `match ${(sim * 100).toFixed(0)}` }) : null,
+        showArea ? el('span', { className: 'ar' }, [el('i', { style: `background:${A[r[2]].color}` }), document.createTextNode(A[r[2]].short)]) : null,
+        el('span', { className: 'tagt ' + tier[0], 'data-tip': tier[1], text: tier[0] }),
+        PRES_LABEL[r[5]] ? el('span', { className: 'tagt pres', text: PRES_LABEL[r[5]] }) : null,
+        r[10] ? el('a', { className: 'lnk ax', href: `https://arxiv.org/abs/${r[10]}`, target: '_blank', rel: 'noopener', title: `arXiv:${r[10]}`, text: 'arXiv' }) : null,
+        ...(r[11] || []).map(u => { const gl = /gitlab/i.test(u); return el('a', { className: 'lnk code', href: u, target: '_blank', rel: 'noopener', title: u },
+          [el('i', { className: gl ? 'fa-brands fa-gitlab' : 'fa-brands fa-github', 'aria-hidden': 'true' }), document.createTextNode(gl ? ' GitLab' : ' GitHub')]); }),
+        s[0] ? el('span', { className: 'ses', title: s[1], text: `📍 ${s[0]}${s[2] ? ' · ' + s[2] : ''}${s[3] ? ' ' + s[3] : ''}${s[4] ? ' · ' + s[4] : ''}` }) : null,
+        ...others.slice(0, 6).map(k => instChip(k)),
+        others.length > 6 ? el('span', { className: 'sim', text: `+${others.length - 6} more` }) : null,
+      ]),
+      el('div', { className: 'au' }, r[8].map((a, j) => [j ? document.createTextNode(', ') : null,
+        el('button', { type: 'button', className: a === meA ? 'me' : '', text: showName(AU[a][0]), onclick: () => openAuthor(a) })]).flat()),
+      r[13] ? el('div', { className: 'kw', text: 'Why: ' + r[13] }) : null,
+    ]);
+  }
+
+  /* =================== INSTITUTIONS =================== */
+  function search(qstr, limit = 8) {
+    const nq = norm(qstr); if (!nq) return [];
+    const words = nq.split(' '); const out = [];
+    for (const x of RANKED) {
+      let best = 0;
+      for (const k of x.keys) {
+        let s = 0;
+        if (k === nq) s = 100; else if (k.startsWith(nq)) s = 80; else if ((' ' + k).includes(' ' + nq)) s = 60; else if (k.includes(nq)) s = 40;
+        else if (words.length > 1 && words.every(w => (' ' + k).includes(' ' + w))) s = 30;
+        if (s > best) best = s;
+      }
+      if (best) out.push([best + Math.min(x.p, 300) / 1000 + (x.cur || 0) * 5, x]);
+    }
+    out.sort((a, b) => b[0] - a[0]);
+    return out.slice(0, limit).map(o => o[1]);
+  }
+  const q = $('#q'), sug = $('#suggest'), combo = $('#combo');
+  let sel = -1, cur = [];
+  function renderSuggest() {
+    cur = search(q.value); sel = cur.length ? 0 : -1;
+    sug.replaceChildren(...cur.map((x, i) => el('button', { type: 'button', role: 'option', 'aria-selected': String(i === sel), onclick: () => openInst(x) }, [
+      el('span', { className: 'r', text: '#' + x.r }), el('span', { className: 'nm', text: x.n }), el('span', { className: 'pp', text: x.p + (x.p === 1 ? ' paper' : ' papers') })])));
+    const open = cur.length > 0 && document.activeElement === q;
+    sug.classList.toggle('open', open); combo.setAttribute('aria-expanded', String(open));
+  }
+  function moveSel(d) { if (!cur.length) return; sel = (sel + d + cur.length) % cur.length; [...sug.children].forEach((b, i) => b.setAttribute('aria-selected', String(i === sel))); }
+  q.addEventListener('input', () => { renderSuggest(); tableFilter = q.value; page = 1; renderTable(); });
+  q.addEventListener('focus', renderSuggest);
+  q.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); moveSel(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); moveSel(-1); }
+    else if (e.key === 'Enter') { if (sel >= 0) { e.preventDefault(); openInst(cur[sel]); } }
+    else if (e.key === 'Escape') sug.classList.remove('open');
+  });
+  document.addEventListener('click', (e) => { if (!combo.contains(e.target)) sug.classList.remove('open'); });
+  document.querySelectorAll('#v-institutions .hint button').forEach(b => b.addEventListener('click', () => { const r = search(b.dataset.q, 1)[0]; if (r) openInst(r); }));
+
+  function openInst(x) {
+    sug.classList.remove('open'); q.value = x.n; q.blur();
+    tableFilter = ''; page = 1; renderTable();
+    const target = '#/institutions/' + x.slug;
+    if (location.hash !== target) location.hash = target; else renderCard(x);
+    setTimeout(() => $('#card').scrollIntoView({ behavior: 'smooth', block: 'start' }), 30);
+  }
+
+  let byInst = null;
+  const instPapers = (me) => {
+    if (!byInst) { byInst = new Map(); P.forEach((r, j) => r[1].forEach(k => { if (!byInst.has(k)) byInst.set(k, []); byInst.get(k).push(j); })); }
+    return byInst.get(me) || [];
+  };
+  async function toggleAreaPapers(x, ai, row, list) {
+    const open = row.getAttribute('aria-expanded') === 'true';
+    row.setAttribute('aria-expanded', String(!open)); list.classList.toggle('show', !open);
+    if (open || list.childElementCount) return;
+    list.append(el('div', { className: 'empty', text: 'Loading papers…' }));
+    try { await ensurePapers(); } catch (e) { list.replaceChildren(el('div', { className: 'empty', text: 'Could not load papers.' })); return; }
+    const mine = instPapers(x.i).filter(j => P[j][2] === ai);
+    list.replaceChildren(...mine.map(j => paperEl(j, { me: x.i, showArea: false })));
+    if (!mine.length) list.replaceChildren(el('div', { className: 'empty', text: 'No papers found.' }));
+  }
+  async function renderCollaborators(x, box) {
+    try { await ensurePapers(); } catch (e) { return; }
+    const cnt = new Map();
+    for (const j of instPapers(x.i)) for (const k of P[j][1]) if (k !== x.i) cnt.set(k, (cnt.get(k) || 0) + 1);
+    const top = [...cnt.keys()].sort((a, b) => cnt.get(b) - cnt.get(a) || INST[b].p - INST[a].p).slice(0, 12);
+    
+    const people = new Map();
+    for (const j of instPapers(x.i)) for (const a of P[j][8]) if (AU[a][3].includes(x.i)) people.set(a, (people.get(a) || 0) + 1);
+    const ppl = [...people.keys()].sort((a, b) => people.get(b) - people.get(a) || AU[a][0].localeCompare(AU[b][0]));
+    box.replaceChildren(...[
+      ppl.length ? el('h3', { text: `Authors from here (${ppl.length})` }) : null,
+      ppl.length ? el('p', { className: 'note', text: 'People listing this institution, with their number of DSC papers. Click a name for their papers.' }) : null,
+      ppl.length ? el('div', { className: 'list', style: 'margin-bottom:18px' }, ppl.slice(0, 40).map(a => el('button', { className: 'ia A', type: 'button', text: `${showName(AU[a][0])} · ${people.get(a)}`, onclick: () => openAuthor(a) }))
+        .concat(ppl.length > 40 ? [el('span', { className: 'sim', text: `+${ppl.length - 40} more` })] : [])) : null,
+      el('h3', { text: 'Most frequent co-author institutions' }),
+      el('p', { className: 'note', text: 'Institutions that appear on the same NeurIPS 2026 DSC papers, with the number of shared papers.' }),
+      el('div', { className: 'list' }, top.map(k => {
+        const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b;
+      })),
+    ].filter(Boolean));
+  }
+
+  function renderCard(x) {
+    const card = $('#card'); const tot = x.a.reduce((s, v) => s + v, 0) || 1;
+    const tied = RANKED.filter(y => y.r === x.r).length > 1;
+    const lifts = x.a.map((v, i) => (v / tot) / confShare[i]);
+    const minN = tot >= 30 ? 5 : 3; let sig = -1; x.a.forEach((v, i) => { if (v >= minN && (sig < 0 || lifts[i] > lifts[sig])) sig = i; });
+    const noisy = x.p < 8;
+    const chips = [];
+    if (x.s) chips.push(el('span', { className: 'chip ' + x.s, text: x.s === 'I' ? 'Industry' : 'Academia' }));
+    if (x.c) chips.push(el('span', { className: 'chip', text: `${flag(x.c)} ${x.g || x.c}` }));
+    if (sig >= 0 && !noisy) chips.push(el('span', { className: 'chip', style: `color:${A[sig].color}`, text: `Signature area: ${A[sig].short}` }));
+    const order = A.map((a, i) => i).sort((i, j) => x.a[j] - x.a[i]);
+    const maxShare = Math.max(...x.a.map(v => v / tot), ...confShare) || 1;
+    const rows = order.filter(i => x.a[i] > 0 || !noisy).map(i => {
+      const share = x.a[i] / tot, lift = lifts[i];
+      const liftTxt = x.a[i] === 0 ? '—' : (lift >= 1.15 || lift <= 0.85 ? `${lift.toFixed(1)}× avg` : '≈ avg');
+      if (!x.a[i]) return el('div', { className: 'arow' + (i === sig && !noisy ? ' sig' : '') }, rowCells(i, share, lift, liftTxt));
+      const list = el('div', { className: 'alist' });
+      const row = el('div', { className: 'arow open-able' + (i === sig && !noisy ? ' sig' : ''), role: 'button', tabindex: '0', 'aria-expanded': 'false',
+        onclick: () => toggleAreaPapers(x, i, row, list), onkeydown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleAreaPapers(x, i, row, list); } } }, rowCells(i, share, lift, liftTxt));
+      return el('div', { className: 'agrp' }, [row, list]);
+    });
+    function rowCells(i, share, lift, liftTxt) {
+      return [
+        el('div', { className: 'nm' }, [el('span', { className: 'sw', style: `background:${A[i].color}` }), el('span', { text: A[i].name })]),
+        el('div', { className: 'ct', text: String(x.a[i]) }),
+        el('div', { className: 'bar' }, [el('i', { style: `width:${(100 * share / maxShare).toFixed(1)}%;background:${A[i].color}` }), el('b', { style: `left:${(100 * confShare[i] / maxShare).toFixed(1)}%` })]),
+        el('div', { className: 'lift' + (lift >= 1.15 && x.a[i] >= 3 ? ' up' : ''), text: noisy ? pct(share, 0) : liftTxt }),
+      ];
+    }
+    const url = baseUrl() + '#/institutions/' + x.slug;
+    const tweet = `${x.n}: ${x.p} dynamic systems & control paper${x.p === 1 ? '' : 's'} at #NeurIPS2026 (#${x.r} of ${fmt(M.institutions)} institutions). Find yours:`;
+    const focusArea = A[sig >= 0 ? sig : order[0]];
+    const collab = el('div', { className: 'cos' });
+    card.replaceChildren(
+      el('div', { className: 'top' }, [
+        el('div', {}, [el('h2', { text: x.n }), el('div', { className: 'chips' }, chips)]),
+        el('div', { className: 'rankbox' }, [el('div', { className: 'rk', text: '#' + x.r }), el('div', { className: 'of', text: `${tied ? 'tied, ' : ''}of ${fmt(M.institutions)} institutions` })]),
+      ]),
+      el('div', { className: 'metrics' }, [
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: fmt(x.p) }), el('div', { className: 'l', text: `DSC papers with ≥1 author here (${fmt(x.core)} core)` })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: pct(x.p / N, x.p / N < 0.001 ? 2 : 1) }), el('div', { className: 'l', text: `of all ${fmt(N)} DSC papers` })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: x.f.toFixed(1) }), el('div', { className: 'l', text: 'fractional papers (credit split by author)' })]),
+      ]),
+      el('div', { className: 'mix' }, [
+        el('h3', { text: 'What they work on' }),
+        el('p', { className: 'note', text: noisy ? 'Share of this institution’s DSC papers by subcategory. With fewer than 8 papers, this mix is too small to compare. Click a subcategory to see its papers.' : 'Share of this institution’s DSC papers by subcategory, compared with all DSC papers at NeurIPS 2026 (black tick). Click a subcategory to see its papers, with poster session and city.' }),
+        ...areaBar(x.a, order, null),
+        el('div', { style: 'margin-top:12px' }, rows),
+        noisy ? null : el('div', { className: 'legendline' }, [el('span', {}, [el('span', { className: 'tick' }), document.createTextNode('conference average')]), el('span', { text: '“2.0× avg” = twice the share among all DSC papers' })]),
+      ]),
+      collab,
+      el('div', { className: 'share' }, [
+        el('a', { className: 'btn primary', href: `https://x.com/intent/post?text=${encodeURIComponent(tweet)}&url=${encodeURIComponent(url)}`, target: '_blank', rel: 'noopener', text: 'Share on X' }),
+        el('button', { className: 'btn', type: 'button', text: 'Copy link', onclick: () => copy(url) }),
+        el('a', { className: 'btn', href: '#/topics?q=' + encodeURIComponent(focusArea.name), text: `Who else works on ${focusArea.short}? →` }),
+      ]),
+    );
+    card.classList.add('show');
+    renderCollaborators(x, collab);
+  }
+
+  let sector = '', country = '', areaIdx = -1, page = 1, tableFilter = '', tableRendered = false;
+  const sortSel = $('#sortArea'), ctySel = $('#country');
+  A.forEach((a, i) => sortSel.append(el('option', { value: String(i), text: `Rank by ${a.name}` })));
+  const instCountries = new Map(); RANKED.forEach(x => x.c && instCountries.set(x.c, (instCountries.get(x.c) || 0) + 1));
+  [...instCountries.keys()].sort((a, b) => (CNAME.get(a) || a).localeCompare(CNAME.get(b) || b)).forEach(c => ctySel.append(el('option', { value: c, text: `${flag(c)} ${CNAME.get(c) || c}` })));
+  sortSel.addEventListener('change', () => { areaIdx = sortSel.value === '' ? -1 : sortSel.value === 'core' ? -2 : +sortSel.value; page = 1; renderTable(); });
+  ctySel.addEventListener('change', () => { country = ctySel.value; page = 1; renderTable(); });
+  document.querySelectorAll('#instSeg button').forEach(b => b.addEventListener('click', () => {
+    sector = b.dataset.sector; document.querySelectorAll('#instSeg button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); page = 1; renderTable();
+  }));
+  $('#more').addEventListener('click', () => { page++; renderTable(); });
+  $('#areasLegend').replaceChildren(...A.map(a => el('span', {}, [el('i', { style: `background:${a.color}` }), document.createTextNode(a.short)])));
+  function denseRank(list, val) { const r = new Map(); let prev = null, rk = 0; list.forEach((x, i) => { const v = val(x); if (v !== prev) { rk = i + 1; prev = v; } r.set(x, rk); }); return (x) => r.get(x); }
+  function renderTable() {
+    tableRendered = true;
+    let list = RANKED.filter(x => (!sector || x.s === sector) && (!country || x.c === country));
+    if (tableFilter.trim()) { const hits = new Set(search(tableFilter, 400)); list = list.filter(x => hits.has(x)); }
+    let rankOf;
+    if (areaIdx >= 0) { list = list.filter(x => x.a[areaIdx] > 0).sort((a, b) => b.a[areaIdx] - a.a[areaIdx] || b.p - a.p); rankOf = denseRank(list, x => x.a[areaIdx]); }
+    else if (areaIdx === -2) { list = list.filter(x => x.core > 0).sort((a, b) => b.core - a.core || b.p - a.p); rankOf = denseRank(list, x => x.core); }
+    else if (sector || country) rankOf = denseRank(list, x => x.p);
+    else rankOf = (x) => x.r;
+    const shown = list.slice(0, page * 50);
+    $('#tbody').replaceChildren(...shown.map(x => {
+      const tot = x.a.reduce((s, v) => s + v, 0) || 1;
+      const val = areaIdx >= 0 ? x.a[areaIdx] : areaIdx === -2 ? x.core : x.p;
+      return el('tr', { className: 'row', onclick: () => openInst(x), tabIndex: 0, onkeydown: (e) => { if (e.key === 'Enter') openInst(x); } }, [
+        el('td', { className: 'r', text: String(rankOf(x)) }),
+        el('td', {}, [el('span', { className: 'nm', text: (x.c ? flag(x.c) + ' ' : '') + x.n }), x.s === 'I' ? el('span', { className: 'tag I', text: 'industry' }) : null]),
+        el('td', { className: 'p', text: fmt(val) }),
+        el('td', { className: 'pct', text: areaIdx >= 0 ? pct(x.a[areaIdx] / tot, 0) : areaIdx === -2 ? pct(x.core / (x.p || 1), 0) : pct(x.p / N, 2) }),
+        el('td', { className: 'mix' }, el('div', { className: 'mini' }, x.a.map((v, i) => v ? el('div', { style: `flex:${v};background:${A[i].color}` }) : null))),
+      ]);
+    }));
+    $('#count').textContent = `${fmt(list.length)} institution${list.length === 1 ? '' : 's'}${areaIdx >= 0 ? ` with ${A[areaIdx].short} papers` : areaIdx === -2 ? ' with core papers' : ''}`;
+    $('#more').style.display = shown.length < list.length ? '' : 'none';
+    document.querySelector('th.p').textContent = areaIdx >= 0 ? A[areaIdx].short : areaIdx === -2 ? 'Core' : 'Papers';
+    document.querySelector('th.pct').textContent = areaIdx >= 0 || areaIdx === -2 ? 'Of own' : 'Share';
+  }
+
+  /* =================== AUTHORS =================== */
+  let authIdx = null, apage = 1, pendingAuthor = null;
+  const aq = $('#aq'), asug = $('#asuggest'), acombo = $('#acombo');
+  function buildAuthors() {
+    if (authIdx) return authIdx;
+    const papers = AU.map(() => []), chairs = AU.map(() => []);
+    P.forEach((r, j) => r[8].forEach(a => { if (!papers[a].includes(j)) papers[a].push(j); }));
+    SES.forEach((s, j) => s[7].forEach(([a, role]) => chairs[a].push([j, role])));
+    const keys = AU.map(a => { const i = a[0].indexOf(', '); return [norm(a[0]), norm(showName(a[0]))]; });
+    const tech = papers.map(l => l.filter(j => P[j][7]).length);
+    const order = AU.map((_, i) => i).sort((a, b) => papers[b].length - papers[a].length || tech[b] - tech[a] || AU[a][0].localeCompare(AU[b][0]));
+    const slugs = new Map(AU.map((a, i) => [a[1], i]));
+    authIdx = { papers, chairs, keys, tech, order, slugs };
+    return authIdx;
+  }
+  async function withAuthors() {
+    $('#astatus').textContent = P ? '' : 'Loading the program…';
+    try { await ensurePapers(); } catch (e) { $('#astatus').textContent = 'Could not load the paper data. If you opened index.html from disk, serve the folder instead (python3 -m http.server).'; throw e; }
+    $('#astatus').textContent = '';
+    return buildAuthors();
+  }
+  function searchAuthors(qstr, limit = 8) {
+    const nq = norm(qstr); if (!nq || !authIdx) return [];
+    const words = nq.split(' '), out = [];
+    authIdx.keys.forEach((ks, i) => {
+      let best = 0;
+      for (const k of ks) {
+        let s = 0;
+        if (k === nq) s = 100; else if (k.startsWith(nq)) s = 80; else if ((' ' + k).includes(' ' + nq)) s = 60;
+        else if (words.length > 1 && words.every(w => (' ' + k).includes(' ' + w))) s = 50; else if (nq.length > 3 && k.includes(nq)) s = 30;
+        if (s > best) best = s;
+      }
+      if (best) out.push([best + Math.min(authIdx.papers[i].length, 20) / 100, i]);
+    });
+    out.sort((a, b) => b[0] - a[0]);
+    return out.slice(0, limit).map(o => o[1]);
+  }
+  let asel = -1, acur = [];
+  async function renderASuggest() {
+    await withAuthors();
+    acur = searchAuthors(aq.value); asel = acur.length ? 0 : -1;
+    asug.replaceChildren(...acur.map((a, i) => el('button', { type: 'button', role: 'option', 'aria-selected': String(i === asel), onclick: () => openAuthor(a) }, [
+      el('span', { className: 'nm', text: showName(AU[a][0]) }), el('span', { className: 'pp', text: `${AU[a][2] ? AU[a][2] + ' · ' : ''}${authIdx.papers[a].length} paper${authIdx.papers[a].length === 1 ? '' : 's'}` })])));
+    const open = acur.length > 0 && document.activeElement === aq;
+    asug.classList.toggle('open', open); acombo.setAttribute('aria-expanded', String(open));
+  }
+  aq.addEventListener('input', renderASuggest);
+  aq.addEventListener('focus', renderASuggest);
+  aq.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); if (!acur.length) return; asel = (asel + (e.key === 'ArrowDown' ? 1 : -1) + acur.length) % acur.length; [...asug.children].forEach((b, i) => b.setAttribute('aria-selected', String(i === asel))); }
+    else if (e.key === 'Enter') { if (asel >= 0) { e.preventDefault(); openAuthor(acur[asel]); } }
+    else if (e.key === 'Escape') asug.classList.remove('open');
+  });
+  document.addEventListener('click', (e) => { if (!acombo.contains(e.target)) asug.classList.remove('open'); });
+  document.querySelectorAll('#v-authors .hint button').forEach(b => b.addEventListener('click', async () => { await withAuthors(); const r = searchAuthors(b.dataset.a, 1)[0]; if (r != null) openAuthor(r); }));
+  $('#amore').addEventListener('click', () => { apage++; renderAuthorTable(); });
+  function renderAuthorTable() {
+    const shown = authIdx.order.slice(0, apage * 50);
+    let prev = null, rk = 0;
+    $('#atbody').replaceChildren(...shown.map((a, i) => {
+      const v = authIdx.papers[a].length; if (v !== prev) { rk = i + 1; prev = v; }
+      return el('tr', { className: 'row', tabIndex: 0, onclick: () => openAuthor(a), onkeydown: (e) => { if (e.key === 'Enter') openAuthor(a); } }, [
+        el('td', { className: 'r', text: String(rk) }), el('td', {}, el('span', { className: 'nm', text: showName(AU[a][0]) })),
+        el('td', { style: 'color:var(--muted);font-size:14px', text: AU[a][2] }), el('td', { className: 'p', text: String(v) })]);
+    }));
+    $('#amore').style.display = shown.length < authIdx.order.length ? '' : 'none';
+  }
+  function openAuthor(a) {
+    asug.classList.remove('open'); aq.blur();
+    const target = '#/authors/' + AU[a][1];
+    if (location.hash !== target) location.hash = target; else renderAuthor(a);
+    setTimeout(() => $('#acard').scrollIntoView({ behavior: 'smooth', block: 'start' }), 30);
+  }
+  async function routeAuthor(id) {
+    try { await withAuthors(); } catch (e) { return; }
+    renderAuthorTable();
+    const a = id != null ? authIdx.slugs.get(id) : undefined;
+    if (a != null) { aq.value = showName(AU[a][0]); renderAuthor(a); } else { $('#acard').classList.remove('show'); }
+  }
+  function renderAuthor(a) {
+    const [name, pid, aff, insts] = AU[a];
+    const mine = [...authIdx.papers[a]].sort((x, y) => (P[y][7] - P[x][7]) || sesOf(P[x])[6] - sesOf(P[y])[6] || P[x][9].localeCompare(P[y][9]));
+    const chairs = [...authIdx.chairs[a]].sort((x, y) => SES[x[0]][6] - SES[y[0]][6] || SES[x[0]][3].localeCompare(SES[y[0]][3]));
+    const co = new Map(); mine.forEach(j => P[j][8].forEach(b => { if (b !== a) co.set(b, (co.get(b) || 0) + 1); }));
+    const cos = [...co.keys()].sort((x, y) => co.get(y) - co.get(x) || AU[x][0].localeCompare(AU[y][0]));
+    const areas = new Array(A.length).fill(0); mine.forEach(j => areas[P[j][2]]++);
+    const chips = insts.map(k => instChip(k, 'chip ia')).concat(insts.map(k => INST[k].c).filter((c, i, l) => c && l.indexOf(c) === i).map(c => el('span', { className: 'chip', text: `${flag(c)} ${CNAME.get(c) || c}` })));
+    const url = baseUrl() + '#/authors/' + pid;
+    $('#acard').replaceChildren(...[
+      el('div', { className: 'top' }, [el('div', {}, [el('h2', { text: showName(name) }), el('p', { className: 'vs', style: 'margin:4px 0 0', text: aff }), el('div', { className: 'chips' }, chips)])]),
+      el('div', { className: 'metrics' }, [
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: String(mine.length) }), el('div', { className: 'l', text: 'DSC papers at NeurIPS 2026' })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: String(authIdx.tech[a]) }), el('div', { className: 'l', text: 'core control papers' })]),
+        el('div', { className: 'metric' }, [el('div', { className: 'v', text: String(mine.filter(j => P[j][5] > 0).length) }), el('div', { className: 'l', text: 'orals and spotlights' })]),
+      ]),
+      mine.length ? el('div', { className: 'mix' }, [el('h3', { text: 'Papers' }), el('p', { className: 'note', text: 'Core papers first, then by poster session. Click a title for the official NeurIPS page with abstract.' }), ...areaBar(areas, A.map((_, i) => i), null),
+        el('div', { style: 'margin-top:6px' }, mine.map(j => paperEl(j, { meA: a })))]) : null,
+      chairs.length ? el('div', { className: 'mix' }, [el('h3', { text: 'Sessions chaired' }),
+        ...chairs.map(([j, role]) => { const s = SES[j]; return el('div', { className: 'paper' }, [
+          el('div', { className: 't' }, el('a', { href: PROGRAM, target: '_blank', rel: 'noopener', text: s[1] })),
+          el('div', { className: 'meta' }, [el('span', { className: 'tagt', text: role }), TYPE_LABEL[s[5]] ? el('span', { className: 'tagt', text: TYPE_LABEL[s[5]] }) : null, el('span', { className: 'ses', text: `📍 ${s[0]} · ${s[2]} ${s[3]} · ${s[4]}` })])]); })]) : null,
+      cos.length ? el('div', { className: 'cos' }, [el('h3', { text: `Co-authors (${cos.length})` }), el('div', { className: 'list' }, cos.map(b => el('button', { className: 'ia A', type: 'button', text: `${showName(AU[b][0])}${co.get(b) > 1 ? ' · ' + co.get(b) : ''}`, title: AU[b][2], onclick: () => openAuthor(b) })))]) : null,
+      el('div', { className: 'share' }, [
+        el('button', { className: 'btn primary', type: 'button', text: 'Copy link', onclick: () => copy(url) }),
+      ]),
+    ].filter(Boolean));
+    $('#acard').classList.add('show');
+  }
+
+  /* =================== TOPICS =================== */
+  const st = $('#tstatus');
+  function setStatus(msg, frac) {
+    st.replaceChildren(...[msg ? el('span', { text: msg }) : null, frac == null ? null : el('span', { className: 'pbar' }, el('i', { style: `width:${Math.round(frac * 100)}%` }))].filter(Boolean));
+  }
+  function warmModel() {
+    if (modelReady) return modelReady;
+    setStatus('Loading the search model (about 33 MB, first visit only)…', 0.02);
+    modelReady = import(TJS).then(({ pipeline, env }) => {
+      env.allowLocalModels = false;
+      const seen = new Map();
+      return pipeline('feature-extraction', MODEL, { dtype: 'q8', progress_callback: (p) => {
+        if (p.status === 'progress' && p.total) { seen.set(p.file, [p.loaded, p.total]); let a = 0, b = 0; for (const [l, t] of seen.values()) { a += l; b += t; } setStatus('Loading the search model (about 33 MB, first visit only)…', b ? a / b : 0); }
+      } });
+    }).then(ex => { extractor = ex; setStatus('Model ready. Type a topic or paste an abstract.'); return ex; })
+      .catch(err => { console.warn(err); setStatus('Could not load the search model, so results use keyword matching on titles instead.'); extractor = null; return null; });
+    return modelReady;
+  }
+  async function embed(text) {
+    const words = text.trim().split(/\s+/).length;
+    const input = words <= 24 ? 'Represent this sentence for searching relevant passages: ' + text : text;
+    const out = await extractor(input, { pooling: 'cls', normalize: true });
+    return out.data;
+  }
+  function lexicalScores(text) {
+    if (!idf) { idf = new Map(); P.forEach(r => new Set(norm(r[0]).split(' ')).forEach(w => idf.set(w, (idf.get(w) || 0) + 1))); for (const [w, c] of idf) idf.set(w, Math.log(P.length / c)); }
+    const qw = [...new Set(norm(text).split(' ').filter(w => w.length > 2))];
+    return P.map(r => { const tw = new Set(norm(r[0]).split(' ')); let s = 0; for (const w of qw) if (tw.has(w)) s += idf.get(w) || 0; return s; });
+  }
+  let lastSims = null, lastMode = null;
+  async function runTopic(text, pushUrl = true) {
+    text = text.trim(); if (!text) return;
+    lastTopicQuery = text;
+    if (pushUrl) { const h = text.length <= 120 ? '#/topics?q=' + encodeURIComponent(text) : '#/topics'; if (location.hash !== h) history.replaceState(null, '', h); }
+    $('#tgo').disabled = true;
+    try {
+      await ensurePapers();
+      await warmModel();
+      setStatus(`Searching ${fmt(P.length)} papers…`);
+      let sims, mode = 'semantic';
+      if (extractor) {
+        const qv = await embed(text);
+        const n = P.length; sims = new Float32Array(n);
+        for (let i = 0; i < n; i++) { let d = 0; const o = i * DIM; for (let j = 0; j < DIM; j++) d += V[o + j] * qv[j]; sims[i] = d * S[i]; }
+      } else { sims = lexicalScores(text); mode = 'keyword'; }
+      lastSims = sims; lastMode = mode;
+      renderTopic(text, sims, mode);
+      setStatus(mode === 'semantic' ? '' : 'Keyword matching on titles (search model unavailable).');
+    } catch (e) { console.error(e); setStatus('Something went wrong: ' + e.message); }
+    finally { $('#tgo').disabled = false; }
+  }
+  function renderTopic(text, sims, mode) {
+    const K = +$('#tk').value, only = $('#tonly').checked;
+    const withLinks = $('#tlinks').checked;
+    const pool = Array.from(sims.keys()).filter(i => (!only || P[i][7]) && (!withLinks || P[i][10] || (P[i][11] || []).length));
+    const idx = pool.sort((a, b) => sims[b] - sims[a]).slice(0, K).filter(i => mode === 'semantic' || sims[i] > 0);
+    const cnt = new Map(), wsum = new Map(), ccnt = new Map();
+    let withInd = 0; const areaCnt = new Array(A.length).fill(0);
+    for (const i of idx) {
+      const [, insts, ar] = P[i]; areaCnt[ar]++;
+      if (insts.some(k => INST[k].s === 'I')) withInd++;
+      for (const k of insts) { cnt.set(k, (cnt.get(k) || 0) + 1); wsum.set(k, (wsum.get(k) || 0) + sims[i]); }
+      for (const c of new Set(insts.map(k => INST[k].c).filter(Boolean))) ccnt.set(c, (ccnt.get(c) || 0) + 1);
+    }
+    const ranked = [...cnt.keys()].sort((a, b) => cnt.get(b) - cnt.get(a) || wsum.get(b) - wsum.get(a));
+    const comps = ranked.filter(k => INST[k].s === 'I');
+    const ctys = [...ccnt.keys()].sort((a, b) => ccnt.get(b) - ccnt.get(a));
+    const shortQ = text.length > 70 ? text.slice(0, 67).trimEnd() + '…' : text;
+    const topArea = areaCnt.indexOf(Math.max(...areaCnt));
+    const lead = ranked.length ? INST[ranked[0]] : null;
+
+    const bars = (list, val, label, onclick, extra) => {
+      const top = list.slice(0, 10); const mx = top.length ? val(top[0]) : 1;
+      if (!top.length) return [el('div', { className: 'empty', text: 'Nothing to show.' })];
+      return top.map((k, j) => el('div', { className: 'irow' + (onclick ? '' : ' nolink'), onclick: onclick ? () => onclick(k) : null }, [
+        el('span', { className: 'rk', text: String(j + 1) }),
+        el('span', { className: 'in' }, [document.createTextNode(label(k)), extra ? extra(k) : null]),
+        el('span', { className: 'barwrap' }, [el('span', { className: 'b', style: `width:${Math.max(6, 70 * val(k) / mx)}px` }), el('span', { className: 'v', text: String(val(k)) })]),
+      ]));
+    };
+    const shareQ = text.length > 70 ? '' : text;
+    const shareUrl = baseUrl() + (shareQ ? '#/topics?q=' + encodeURIComponent(shareQ) : '#/topics');
+    const tweet = lead ? `Who works on "${shortQ}" in dynamic systems & control at #NeurIPS2026? #1 is ${lead.n} (${cnt.get(ranked[0])} of the ${idx.length} closest papers). Check your topic:` : `Who works on "${shortQ}" at #NeurIPS2026?`;
+
+    $('#tres').replaceChildren(
+      el('div', { className: 'summary' }, [
+        el('div', { className: 'big' }, [document.createTextNode('Who works on '), el('span', { className: 'q', text: `“${shortQ}”` })]),
+        el('div', { className: 'sub', text: `Based on the ${idx.length} closest of ${fmt(pool.length)} ${only ? 'core control papers' : 'DSC papers'}${withLinks ? ' with arXiv or code' : ''} · ${pct(withInd / Math.max(1, idx.length), 0)} have a company author · most common subcategory: ${A[topArea].name}` }),
+        ...areaBar(areaCnt, A.map((_, i) => i), `Subcategories of these ${idx.length} papers`),
+        comps.length ? el('div', { className: 'complist' }, [el('span', { text: 'Companies among them:' }), ...comps.slice(0, 10).map(k => { const b = instChip(k); b.textContent = `${INST[k].n} · ${cnt.get(k)}`; return b; })]) : null,
+        el('div', { className: 'share' }, [
+          el('a', { className: 'btn primary', href: `https://x.com/intent/post?text=${encodeURIComponent(tweet)}&url=${encodeURIComponent(shareUrl)}`, target: '_blank', rel: 'noopener', text: 'Share on X' }),
+          el('button', { className: 'btn', type: 'button', text: 'Copy link', onclick: () => copy(shareUrl) }),
+        ]),
+      ]),
+      el('div', { className: 'split' }, [
+        el('div', { className: 'side A' }, [el('h3', { text: 'INSTITUTIONS' }),
+          ...bars(ranked, k => cnt.get(k), k => INST[k].n, k => INST[k].p > 0 && openInst(INST[k]), k => INST[k].s === 'I' ? el('span', { className: 'ind', text: 'industry' }) : null)]),
+        el('div', { className: 'side C' }, [el('h3', { text: 'COUNTRIES' }),
+          ...bars(ctys, c => ccnt.get(c), c => `${flag(c)} ${CNAME.get(c) || c}`, null, null)]),
+      ]),
+      el('div', { className: 'blk' }, [
+        el('h3', { text: 'Closest papers' }),
+        el('p', { className: 'note', text: 'The 20 NeurIPS 2026 dynamic systems and control papers closest to your text, with poster session and city. Click a title for the official NeurIPS page (with abstract), or an institution to open its page.' }),
+        ...idx.slice(0, 20).map(i => paperEl(i, { sim: mode === 'semantic' ? sims[i] : null })),
+      ]),
+    );
+    $('#tres').classList.add('show');
+  }
+  $('#tgo').addEventListener('click', () => runTopic($('#tq').value));
+  $('#tq').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); runTopic($('#tq').value); } });
+  $('#tq').addEventListener('focus', () => { ensurePapers(); warmModel(); }, { once: true });
+  $('#tk').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  $('#tonly').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  $('#tlinks').addEventListener('change', () => { if (lastSims) renderTopic(lastTopicQuery, lastSims, lastMode); });
+  document.querySelectorAll('#tex button').forEach(b => b.addEventListener('click', () => { $('#tq').value = b.dataset.t; runTopic(b.dataset.t); }));
+  const PLENARY = "__EXAMPLE__";
+  $('#texPaper').addEventListener('click', () => { $('#tq').value = PLENARY; runTopic(PLENARY); });
+
+  route();
+})();
+</script>
+</body>
+</html>

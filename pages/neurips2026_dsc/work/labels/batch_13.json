@@ -1,0 +1,482 @@
+[
+ {
+  "id": "153633",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt optimization for LLM multi-agent systems"
+ },
+ {
+  "id": "155189",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Measure-native neural operator for sparse-source PDE and field reconstruction"
+ },
+ {
+  "id": "154411",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian experimental design policy training; no dynamical system"
+ },
+ {
+  "id": "151489",
+  "tier": "out",
+  "sub": null,
+  "reason": "GUI world model via code generation for LLM agents"
+ },
+ {
+  "id": "152662",
+  "tier": "out",
+  "sub": null,
+  "reason": "Evolutionary dynamics of LLM agent ecosystems; not a control or learning-dynamics contribution"
+ },
+ {
+  "id": "148448",
+  "tier": "out",
+  "sub": null,
+  "reason": "Shared environment representation for multi-robot navigation; perception/representation only"
+ },
+ {
+  "id": "149455",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Whole-body humanoid-object interaction policy learned end-to-end; policy learning without control structure"
+ },
+ {
+  "id": "148249",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Sim-to-real fine-tuning of neural PDE surrogates via Fisher-guided projection"
+ },
+ {
+  "id": "151771",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for cut selection in Benders decomposition"
+ },
+ {
+  "id": "153480",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Collaborative online LQR with Thompson sampling and regret bounds under heterogeneous dynamics"
+ },
+ {
+  "id": "150953",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM web agent skill exploration"
+ },
+ {
+  "id": "154065",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence rates of mean-field SVGD sampling flow; sampling theory"
+ },
+ {
+  "id": "155415",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA modality fusion plug-in; 'training dynamics' used empirically"
+ },
+ {
+  "id": "150033",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric video world simulation; generation only"
+ },
+ {
+  "id": "154677",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual learning optimizer; 'drift control' is primal-dual regularization, training stability false friend"
+ },
+ {
+  "id": "152641",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision-tree RL with guidance labels; generic RL algorithm"
+ },
+ {
+  "id": "152741",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series forecasting benchmarks; Schr\u00f6dinger dynamics is architectural inspiration"
+ },
+ {
+  "id": "154309",
+  "tier": "out",
+  "sub": null,
+  "reason": "Action-conditioned video generation with planning agents"
+ },
+ {
+  "id": "154236",
+  "tier": "out",
+  "sub": null,
+  "reason": "Grokking and dataset-size effects in transformers"
+ },
+ {
+  "id": "154326",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stochastic minimax optimization convergence"
+ },
+ {
+  "id": "152343",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "LTL-specified robot planning via learned reachability graph and symbolic search on offline data; no dynamics model"
+ },
+ {
+  "id": "151237",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Constrained MDP theory: strong duality and regret for average-reward CMDPs; constrained RL"
+ },
+ {
+  "id": "149591",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence of two-layer ReLU networks; NTK theory"
+ },
+ {
+  "id": "152868",
+  "tier": "out",
+  "sub": null,
+  "reason": "Critic-free RLHF policy optimization for LLMs"
+ },
+ {
+  "id": "153876",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret and correlated equilibria in convex games"
+ },
+ {
+  "id": "149439",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe RL with high-probability state-wise constraint satisfaction on robot locomotion"
+ },
+ {
+  "id": "156095",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D occupancy perception fusion for driving; perception only despite 'controlled dynamics' formulation"
+ },
+ {
+  "id": "153854",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-object interaction reconstruction from monocular video"
+ },
+ {
+  "id": "152784",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agentic video world modeling for generation"
+ },
+ {
+  "id": "153165",
+  "tier": "out",
+  "sub": null,
+  "reason": "Predicting protein flexibility descriptors from structure"
+ },
+ {
+  "id": "152742",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic spatio-temporal forecasting under distribution shift"
+ },
+ {
+  "id": "154030",
+  "tier": "out",
+  "sub": null,
+  "reason": "GFlowNets for Boltzmann sampling"
+ },
+ {
+  "id": "148913",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformer computational equivalence to BSS machines"
+ },
+ {
+  "id": "152094",
+  "tier": "out",
+  "sub": null,
+  "reason": "Simulation-aided RL on MuJoCo; 'control variates' false friend, generic RL"
+ },
+ {
+  "id": "155678",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed policy gradient with stale actors; generic RL"
+ },
+ {
+  "id": "155232",
+  "tier": "out",
+  "sub": null,
+  "reason": "Active view planning for text-to-3D scene generation"
+ },
+ {
+  "id": "154522",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Learning partially observed chaotic dynamics (Lorenz63, KS, cylinder flow) via Poincar\u00e9 return maps"
+ },
+ {
+  "id": "155673",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive orthogonal minimax optimization"
+ },
+ {
+  "id": "151944",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Safe multi-agent constrained policy optimization with fairness; safe RL"
+ },
+ {
+  "id": "152409",
+  "tier": "out",
+  "sub": null,
+  "reason": "Seed selection for text-to-image diffusion"
+ },
+ {
+  "id": "154697",
+  "tier": "out",
+  "sub": null,
+  "reason": "GRPO variant for LLM reasoning"
+ },
+ {
+  "id": "153908",
+  "tier": "out",
+  "sub": null,
+  "reason": "Theory-of-mind models for LLM multi-agent systems"
+ },
+ {
+  "id": "149796",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sample-efficient evaluation of blackbox AI systems"
+ },
+ {
+  "id": "154944",
+  "tier": "out",
+  "sub": null,
+  "reason": "Opponent shaping via belief dynamics in hidden-role games; no physical system"
+ },
+ {
+  "id": "150321",
+  "tier": "out",
+  "sub": null,
+  "reason": "Implicit bias of GD for SSM sequence classifiers via max-margin; SSM is sequence model"
+ },
+ {
+  "id": "150020",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private best-arm identification"
+ },
+ {
+  "id": "149819",
+  "tier": "out",
+  "sub": null,
+  "reason": "Theory of context length in generic time-series forecasting"
+ },
+ {
+  "id": "153979",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Online robust zero-sum Markov games with function approximation; robust RL/stochastic games theory"
+ },
+ {
+  "id": "155272",
+  "tier": "out",
+  "sub": null,
+  "reason": "Langevin sampling for Bayesian imaging"
+ },
+ {
+  "id": "153184",
+  "tier": "out",
+  "sub": null,
+  "reason": "AutoRL hyper-hyperparameter sensitivity study"
+ },
+ {
+  "id": "154088",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Wave-equation-inspired oscillatory GNN with damping/forcing for spatio-temporal forecasting; stability analysis"
+ },
+ {
+  "id": "152810",
+  "tier": "out",
+  "sub": null,
+  "reason": "Variational Monte Carlo for quantum excited states"
+ },
+ {
+  "id": "150768",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion video super-resolution acceleration"
+ },
+ {
+  "id": "155201",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning rate transfer in normalized transformers"
+ },
+ {
+  "id": "156116",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series forecasting via latent diffusion"
+ },
+ {
+  "id": "153694",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Gradient-flow dynamics of two-layer networks: incremental learning and competitive mass reallocation phases"
+ },
+ {
+  "id": "153500",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bandits with ranking feedback; no dynamics"
+ },
+ {
+  "id": "148417",
+  "tier": "out",
+  "sub": null,
+  "reason": "Monte Carlo exploring starts convergence in tabular RL"
+ },
+ {
+  "id": "155811",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zeroth-order data influence estimation"
+ },
+ {
+  "id": "149374",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow map policies for offline-to-online RL on OGBench/RoboMimic; generic RL"
+ },
+ {
+  "id": "152327",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Analytical cross-entropy training dynamics with Lyapunov function and spectral dynamics"
+ },
+ {
+  "id": "150509",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nash learning in partially observable Markov games; finite MARL theory, no physical dynamics"
+ },
+ {
+  "id": "152886",
+  "tier": "out",
+  "sub": null,
+  "reason": "Evaluation protocol for self-supervised representations"
+ },
+ {
+  "id": "155452",
+  "tier": "out",
+  "sub": null,
+  "reason": "Early exit for LLM reasoning via entropy monitoring"
+ },
+ {
+  "id": "152349",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robot manipulation data collection via reversed easy tasks; imitation pipeline, no controller"
+ },
+ {
+  "id": "156030",
+  "tier": "out",
+  "sub": null,
+  "reason": "Regret lower bounds in extensive-form games"
+ },
+ {
+  "id": "156127",
+  "tier": "out",
+  "sub": null,
+  "reason": "Drug-target interaction prediction"
+ },
+ {
+  "id": "153721",
+  "tier": "out",
+  "sub": null,
+  "reason": "Programmatic tool calling for LLM agents"
+ },
+ {
+  "id": "152829",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum wavelet network for generic time-series forecasting"
+ },
+ {
+  "id": "152702",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Feedback loop between performative predictions and opinion-dynamics network; equilibrium analysis"
+ },
+ {
+  "id": "148731",
+  "tier": "out",
+  "sub": null,
+  "reason": "Anytime-valid risk control wrapper for RLVR LLMs"
+ },
+ {
+  "id": "154440",
+  "tier": "out",
+  "sub": null,
+  "reason": "Asynchronous RL system for LLM training"
+ },
+ {
+  "id": "148344",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adaptive learning in harmonic games; game-theoretic regret"
+ },
+ {
+  "id": "151407",
+  "tier": "out",
+  "sub": null,
+  "reason": "MARL for ride-sharing order dispatch; combinatorial assignment, not dynamics"
+ },
+ {
+  "id": "152552",
+  "tier": "out",
+  "sub": null,
+  "reason": "Formal robustness verification of neuro-symbolic sequence classifiers; adversarial robustness"
+ },
+ {
+  "id": "150356",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cooperative GRPO for LLM reasoning diversity"
+ },
+ {
+  "id": "152212",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rollout-consistency regularizer on generic time-series forecasting benchmarks"
+ },
+ {
+  "id": "149310",
+  "tier": "out",
+  "sub": null,
+  "reason": "Symbolic regression search strategy; not dynamics-specific"
+ },
+ {
+  "id": "155793",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robot learning engineering harness"
+ },
+ {
+  "id": "154636",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Reward landscape shaping for model-based RL planning; world-model RL without control framing"
+ }
+]

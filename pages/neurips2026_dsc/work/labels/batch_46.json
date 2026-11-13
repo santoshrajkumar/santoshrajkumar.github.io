@@ -1,0 +1,482 @@
+[
+ {
+  "id": "153718",
+  "tier": "out",
+  "sub": null,
+  "reason": "Copula likelihood inference software; no dynamical system."
+ },
+ {
+  "id": "154948",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperspectral vision transformer representation learning."
+ },
+ {
+  "id": "153400",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time adaptation for graph anomaly detection."
+ },
+ {
+  "id": "154929",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian latent staging of aging cohorts; statistical modelling, no control."
+ },
+ {
+  "id": "156109",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-based lifelong embodied agent with symbolic knowledge; no controller."
+ },
+ {
+  "id": "154394",
+  "tier": "out",
+  "sub": null,
+  "reason": "Topological data pruning for training."
+ },
+ {
+  "id": "149328",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM interpretability surrogate for binary decisions."
+ },
+ {
+  "id": "148729",
+  "tier": "out",
+  "sub": null,
+  "reason": "Temporal point process causal graph learning on event data; not a dynamical system."
+ },
+ {
+  "id": "150079",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion step distillation; trajectory means sampling path."
+ },
+ {
+  "id": "149604",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion solver for combinatorial routing problems."
+ },
+ {
+  "id": "151080",
+  "tier": "out",
+  "sub": null,
+  "reason": "mmWave radar novel view synthesis renderer."
+ },
+ {
+  "id": "150593",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semi-supervised adversarial training; adversarial robustness."
+ },
+ {
+  "id": "150886",
+  "tier": "out",
+  "sub": null,
+  "reason": "Deep equilibrium model for image restoration; fixed-point solver, no dynamical system."
+ },
+ {
+  "id": "151636",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning theory of language generation in the limit."
+ },
+ {
+  "id": "152649",
+  "tier": "out",
+  "sub": null,
+  "reason": "Coresets for fair clustering."
+ },
+ {
+  "id": "154569",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bandit routing of LLMs for heuristic discovery."
+ },
+ {
+  "id": "155807",
+  "tier": "out",
+  "sub": null,
+  "reason": "Grokking and model capacity; empirical training dynamics."
+ },
+ {
+  "id": "148748",
+  "tier": "out",
+  "sub": null,
+  "reason": "Activation compression for training memory."
+ },
+ {
+  "id": "153161",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attention sinks and oversmoothing theory in transformers."
+ },
+ {
+  "id": "153536",
+  "tier": "out",
+  "sub": null,
+  "reason": "Wasserstein barycenter LP formulation; optimal transport."
+ },
+ {
+  "id": "154842",
+  "tier": "out",
+  "sub": null,
+  "reason": "HTML repair for UI-to-code generation."
+ },
+ {
+  "id": "155755",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hallucination detection for RAG."
+ },
+ {
+  "id": "154589",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agents designing manifold embedding algorithms."
+ },
+ {
+  "id": "150764",
+  "tier": "out",
+  "sub": null,
+  "reason": "Personalized portrait generation dataset and model."
+ },
+ {
+  "id": "155590",
+  "tier": "out",
+  "sub": null,
+  "reason": "Loss function for structured class spaces."
+ },
+ {
+  "id": "154582",
+  "tier": "out",
+  "sub": null,
+  "reason": "Importance sampling for SGD."
+ },
+ {
+  "id": "151157",
+  "tier": "out",
+  "sub": null,
+  "reason": "GNN generalization for graph clustering."
+ },
+ {
+  "id": "154537",
+  "tier": "out",
+  "sub": null,
+  "reason": "NAS performance predictor."
+ },
+ {
+  "id": "150623",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reflective object 3D reconstruction."
+ },
+ {
+  "id": "150839",
+  "tier": "out",
+  "sub": null,
+  "reason": "Synthetic spatial VQA data generation for MLLMs."
+ },
+ {
+  "id": "156096",
+  "tier": "out",
+  "sub": null,
+  "reason": "Discrete diffusion language model parameterization."
+ },
+ {
+  "id": "149708",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dynamic math reasoning benchmark generation."
+ },
+ {
+  "id": "148511",
+  "tier": "out",
+  "sub": null,
+  "reason": "EEG classification with hyperbolic attention."
+ },
+ {
+  "id": "151429",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward-guided discrete diffusion sampling for DNA design."
+ },
+ {
+  "id": "152103",
+  "tier": "out",
+  "sub": null,
+  "reason": "Conformal prediction for neuro-symbolic concept models."
+ },
+ {
+  "id": "155111",
+  "tier": "out",
+  "sub": null,
+  "reason": "Search strategies for autonomous ML research agents."
+ },
+ {
+  "id": "152803",
+  "tier": "out",
+  "sub": null,
+  "reason": "Video matting data generation."
+ },
+ {
+  "id": "149594",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-matching solver for imaging inverse problems."
+ },
+ {
+  "id": "148835",
+  "tier": "out",
+  "sub": null,
+  "reason": "Biologically plausible blind source separation."
+ },
+ {
+  "id": "150716",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM hallucination detection in RAG QA."
+ },
+ {
+  "id": "155328",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-city transfer with optimal transport alignment."
+ },
+ {
+  "id": "149418",
+  "tier": "out",
+  "sub": null,
+  "reason": "FP4 quantization corrections for LLM decode."
+ },
+ {
+  "id": "149426",
+  "tier": "out",
+  "sub": null,
+  "reason": "Truthful calibration error measures."
+ },
+ {
+  "id": "153014",
+  "tier": "out",
+  "sub": null,
+  "reason": "Preference optimization for LLM alignment."
+ },
+ {
+  "id": "151265",
+  "tier": "out",
+  "sub": null,
+  "reason": "Skinning weight refinement for mesh animation."
+ },
+ {
+  "id": "151213",
+  "tier": "out",
+  "sub": null,
+  "reason": "Mouse behaviour classification from pose and video."
+ },
+ {
+  "id": "150214",
+  "tier": "out",
+  "sub": null,
+  "reason": "Incomplete multi-view clustering."
+ },
+ {
+  "id": "154135",
+  "tier": "out",
+  "sub": null,
+  "reason": "Speech BCI neural-to-text decoding."
+ },
+ {
+  "id": "151975",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rectified flows for discrete generation."
+ },
+ {
+  "id": "148515",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-modal text-to-3D place recognition."
+ },
+ {
+  "id": "150834",
+  "tier": "out",
+  "sub": null,
+  "reason": "Low-light image enhancement."
+ },
+ {
+  "id": "148755",
+  "tier": "out",
+  "sub": null,
+  "reason": "Language model embedding architecture."
+ },
+ {
+  "id": "149645",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial attacks on speech tokenizers."
+ },
+ {
+  "id": "150527",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context multiclass classification theory for transformers."
+ },
+ {
+  "id": "153335",
+  "tier": "out",
+  "sub": null,
+  "reason": "Low-rank compression of vision-language models."
+ },
+ {
+  "id": "150465",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multistep ODE solver for diffusion sampling; trajectory means sampling path."
+ },
+ {
+  "id": "154482",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hierarchical LLM routing."
+ },
+ {
+  "id": "150724",
+  "tier": "out",
+  "sub": null,
+  "reason": "rPPG with state space duality; sequence model false friend."
+ },
+ {
+  "id": "150571",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dataset distillation with BN alignment."
+ },
+ {
+  "id": "154117",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pricing with information design; mechanism design learning."
+ },
+ {
+  "id": "154387",
+  "tier": "out",
+  "sub": null,
+  "reason": "Semantic segmentation inference with label dependence."
+ },
+ {
+  "id": "148880",
+  "tier": "out",
+  "sub": null,
+  "reason": "Leaderboard ranking robustness analysis."
+ },
+ {
+  "id": "149746",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual LoRA; stability-plasticity of fine-tuning, not a dynamical system."
+ },
+ {
+  "id": "151464",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-structured neural architecture search."
+ },
+ {
+  "id": "150550",
+  "tier": "out",
+  "sub": null,
+  "reason": "Category-level object pose estimation; perception only."
+ },
+ {
+  "id": "150502",
+  "tier": "out",
+  "sub": null,
+  "reason": "KV cache eviction for LLM inference."
+ },
+ {
+  "id": "152687",
+  "tier": "out",
+  "sub": null,
+  "reason": "Representation alignment for multimodal LLMs."
+ },
+ {
+  "id": "155356",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-distillation for knowledge internalization in LLMs."
+ },
+ {
+  "id": "152748",
+  "tier": "out",
+  "sub": null,
+  "reason": "Normal-form policy transparency games; no dynamics."
+ },
+ {
+  "id": "154313",
+  "tier": "out",
+  "sub": null,
+  "reason": "Molecular geometry diffusion prior."
+ },
+ {
+  "id": "153306",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical geometric account of generalization."
+ },
+ {
+  "id": "151707",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parallel decoding for discrete diffusion LMs."
+ },
+ {
+  "id": "149792",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memory transfer for LM pre-training."
+ },
+ {
+  "id": "149820",
+  "tier": "out",
+  "sub": null,
+  "reason": "RF signal synthesis with Gaussian splatting."
+ },
+ {
+  "id": "152231",
+  "tier": "out",
+  "sub": null,
+  "reason": "Machine-generated text detection."
+ },
+ {
+  "id": "153466",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated concept-based models."
+ },
+ {
+  "id": "151688",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-turn GRPO for code generation; RL for LLMs."
+ },
+ {
+  "id": "154879",
+  "tier": "out",
+  "sub": null,
+  "reason": "Domain-generalized object detection fine-tuning."
+ },
+ {
+  "id": "152326",
+  "tier": "out",
+  "sub": null,
+  "reason": "Representation autoencoder for image generation."
+ },
+ {
+  "id": "154953",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spatial gene expression prediction from histology."
+ }
+]

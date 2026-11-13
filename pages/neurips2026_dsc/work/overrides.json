@@ -1,0 +1,42 @@
+{
+ "155982": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Recovers latent trajectories and governing equations of a dynamical system from noisy multi-view observations: system identification"
+ },
+ "150950": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman-invariant dictionary selection for EDMD; operator-theoretic identification of nonlinear dynamics"
+ },
+ "149717": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "System identification of mechanistic dynamical models of neural circuits against an in-silico ground truth"
+ },
+ "153842": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman operator learned for the latent evolution of a physical dynamical system (atmosphere)"
+ },
+ "152578": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman dictionary discovery (EDMD/SINDy family) for data-driven dynamical systems"
+ },
+ "149627": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman autoencoders identifying local linear regimes of multibasin nonlinear dynamics"
+ },
+ "155016": {
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Koopman generator network lifting nonlinear PDE dynamics to a linear latent operator with spectral analysis"
+ },
+ "153736": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "LLM agent planner checked against a learned dynamics model; contribution is the agent harness, not a controller"
+ }
+}

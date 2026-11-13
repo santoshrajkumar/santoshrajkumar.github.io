@@ -1,0 +1,11 @@
+raw/
+venv/
+__pycache__/
+neurips.json
+work/emb.npy
+work/rubric_sims.npy
+work/batches/
+work/screen/titles_*.txt
+work/*_cache.json
+work/*.log
+work/links.log

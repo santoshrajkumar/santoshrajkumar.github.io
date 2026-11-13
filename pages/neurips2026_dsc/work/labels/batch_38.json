@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155697",
+  "tier": "out",
+  "sub": null,
+  "reason": "image geolocalization paradigm routing; perception"
+ },
+ {
+  "id": "150753",
+  "tier": "out",
+  "sub": null,
+  "reason": "neural dual bounds for MAP inference in graphical models"
+ },
+ {
+  "id": "150066",
+  "tier": "out",
+  "sub": null,
+  "reason": "activation checkpointing for interatomic potential training; systems"
+ },
+ {
+  "id": "149761",
+  "tier": "out",
+  "sub": null,
+  "reason": "train-free image quality assessment"
+ },
+ {
+  "id": "152797",
+  "tier": "out",
+  "sub": null,
+  "reason": "fairness impossibility results in RKHS"
+ },
+ {
+  "id": "152054",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM context engineering over machine data"
+ },
+ {
+  "id": "153386",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D Gaussian segmentation supervision; perception"
+ },
+ {
+  "id": "155103",
+  "tier": "out",
+  "sub": null,
+  "reason": "margin theory of LoRA forgetting and merging"
+ },
+ {
+  "id": "152508",
+  "tier": "out",
+  "sub": null,
+  "reason": "anti-distillation logit adapters for LLMs"
+ },
+ {
+  "id": "153835",
+  "tier": "out",
+  "sub": null,
+  "reason": "latent reasoning for multimodal image generation"
+ },
+ {
+  "id": "151523",
+  "tier": "out",
+  "sub": null,
+  "reason": "hypernetworks for implicit neural representations"
+ },
+ {
+  "id": "151586",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for long-video understanding in MLLMs"
+ },
+ {
+  "id": "153995",
+  "tier": "out",
+  "sub": null,
+  "reason": "adaptive in-context learning generalization theory"
+ },
+ {
+  "id": "155782",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time graph recalibration against adversarial attacks"
+ },
+ {
+  "id": "149092",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM coding agent trajectory architecture; agent traces"
+ },
+ {
+  "id": "152595",
+  "tier": "out",
+  "sub": null,
+  "reason": "semantic autoencoder for diffusion convergence; image generation"
+ },
+ {
+  "id": "154949",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-driven neural architecture search"
+ },
+ {
+  "id": "150401",
+  "tier": "out",
+  "sub": null,
+  "reason": "ReAct agents for prompt optimization"
+ },
+ {
+  "id": "152404",
+  "tier": "out",
+  "sub": null,
+  "reason": "survival transformer for AFib risk from ECG; clinical prognosis, no dynamical model"
+ },
+ {
+  "id": "154091",
+  "tier": "out",
+  "sub": null,
+  "reason": "transductive adaptation of vision-language models"
+ },
+ {
+  "id": "153818",
+  "tier": "out",
+  "sub": null,
+  "reason": "discrete flow guidance for molecule editing; generative steering, not control of a system"
+ },
+ {
+  "id": "151099",
+  "tier": "out",
+  "sub": null,
+  "reason": "concept-level forgetting in continual learning"
+ },
+ {
+  "id": "151665",
+  "tier": "out",
+  "sub": null,
+  "reason": "singular learning theory of routed regressors"
+ },
+ {
+  "id": "151229",
+  "tier": "out",
+  "sub": null,
+  "reason": "4D mesh generation from video; perception"
+ },
+ {
+  "id": "150993",
+  "tier": "out",
+  "sub": null,
+  "reason": "test-time scaling for generative combinatorial optimization; 'state control' is a projection heuristic"
+ },
+ {
+  "id": "155644",
+  "tier": "out",
+  "sub": null,
+  "reason": "backpropagation-free local training"
+ },
+ {
+  "id": "148594",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-agent LLM coding task partitioning"
+ },
+ {
+  "id": "153915",
+  "tier": "out",
+  "sub": null,
+  "reason": "adversarial transferability in fine-tuned speech recognition"
+ },
+ {
+  "id": "153339",
+  "tier": "out",
+  "sub": null,
+  "reason": "zeroth-order optimization with gradient orthogonalization"
+ },
+ {
+  "id": "149446",
+  "tier": "out",
+  "sub": null,
+  "reason": "video reward modeling for generative video"
+ },
+ {
+  "id": "151473",
+  "tier": "out",
+  "sub": null,
+  "reason": "trust-region theory of gradient orthogonalization optimizers"
+ },
+ {
+  "id": "153958",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL for visual token pruning in LVLMs"
+ },
+ {
+  "id": "150456",
+  "tier": "out",
+  "sub": null,
+  "reason": "layout-conditioned diffusion for dataset distillation"
+ },
+ {
+  "id": "151419",
+  "tier": "out",
+  "sub": null,
+  "reason": "mechanistic analysis of multi-turn LLM instruction loss"
+ },
+ {
+  "id": "152756",
+  "tier": "out",
+  "sub": null,
+  "reason": "Muon optimizer oscillations; empirical optimizer behaviour, not dynamical-systems analysis"
+ },
+ {
+  "id": "150101",
+  "tier": "out",
+  "sub": null,
+  "reason": "prior-fitted network for tabular clustering"
+ },
+ {
+  "id": "152887",
+  "tier": "out",
+  "sub": null,
+  "reason": "online test-time adaptation of CLIP"
+ },
+ {
+  "id": "150448",
+  "tier": "out",
+  "sub": null,
+  "reason": "latent visual reasoning in multimodal LLMs with RL"
+ },
+ {
+  "id": "149244",
+  "tier": "out",
+  "sub": null,
+  "reason": "fault-tolerant LLM pre-training system"
+ },
+ {
+  "id": "150459",
+  "tier": "out",
+  "sub": null,
+  "reason": "concept extraction for time-series CNN classifiers; interpretability"
+ },
+ {
+  "id": "149261",
+  "tier": "out",
+  "sub": null,
+  "reason": "debiasing random oblique projections in least squares"
+ },
+ {
+  "id": "154699",
+  "tier": "out",
+  "sub": null,
+  "reason": "backdoor attacks on federated self-supervised learning"
+ },
+ {
+  "id": "155648",
+  "tier": "out",
+  "sub": null,
+  "reason": "model-embedded LLM watermarking"
+ },
+ {
+  "id": "152285",
+  "tier": "out",
+  "sub": null,
+  "reason": "talking head video editing"
+ },
+ {
+  "id": "149696",
+  "tier": "out",
+  "sub": null,
+  "reason": "Laplacian attention heads in transformers"
+ },
+ {
+  "id": "153325",
+  "tier": "out",
+  "sub": null,
+  "reason": "KV cache compression for long-context reasoning"
+ },
+ {
+  "id": "152636",
+  "tier": "out",
+  "sub": null,
+  "reason": "cross-layer KV sharing architecture"
+ },
+ {
+  "id": "148566",
+  "tier": "out",
+  "sub": null,
+  "reason": "thermal novel view synthesis with Gaussian splatting"
+ },
+ {
+  "id": "149935",
+  "tier": "out",
+  "sub": null,
+  "reason": "EM algorithm for neurosymbolic learning"
+ },
+ {
+  "id": "150611",
+  "tier": "out",
+  "sub": null,
+  "reason": "credit assignment for sequential LLM agent teams; bandits, no dynamics"
+ },
+ {
+  "id": "149026",
+  "tier": "out",
+  "sub": null,
+  "reason": "neural-symbolic web agent framework; 'control' of LLM agents, not a dynamical system"
+ },
+ {
+  "id": "154664",
+  "tier": "out",
+  "sub": null,
+  "reason": "one-step generative modeling with drift fields"
+ },
+ {
+  "id": "156104",
+  "tier": "out",
+  "sub": null,
+  "reason": "fine-grained MoE upcycling"
+ },
+ {
+  "id": "150111",
+  "tier": "out",
+  "sub": null,
+  "reason": "training-free data selection for vision-language SFT"
+ },
+ {
+  "id": "152596",
+  "tier": "out",
+  "sub": null,
+  "reason": "knowledge distillation for diffusion language models"
+ },
+ {
+  "id": "152537",
+  "tier": "out",
+  "sub": null,
+  "reason": "mechanistic analysis of multi-view 3D transformers"
+ },
+ {
+  "id": "153037",
+  "tier": "out",
+  "sub": null,
+  "reason": "mechanistic interpretability of astronomy foundation model"
+ },
+ {
+  "id": "155187",
+  "tier": "out",
+  "sub": null,
+  "reason": "compositional image generation self-teaching"
+ },
+ {
+  "id": "154505",
+  "tier": "out",
+  "sub": null,
+  "reason": "parallel rollout approximation for autoregressive image generation"
+ },
+ {
+  "id": "153888",
+  "tier": "out",
+  "sub": null,
+  "reason": "neural motor decoding from behavior pretraining; decoding, not state estimation of a system"
+ },
+ {
+  "id": "149874",
+  "tier": "out",
+  "sub": null,
+  "reason": "multi-agent LLM teaming via tree search"
+ },
+ {
+  "id": "153843",
+  "tier": "out",
+  "sub": null,
+  "reason": "semantic-aware quantization for LLMs"
+ },
+ {
+  "id": "155573",
+  "tier": "out",
+  "sub": null,
+  "reason": "learned ODE solvers for diffusion sampling; sampling paths, not system control"
+ },
+ {
+  "id": "151163",
+  "tier": "out",
+  "sub": null,
+  "reason": "multilingual LLM safety alignment"
+ },
+ {
+  "id": "148254",
+  "tier": "out",
+  "sub": null,
+  "reason": "audio language model sycophancy benchmark"
+ },
+ {
+  "id": "156134",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bayesian optimization with Fisher information geometry"
+ },
+ {
+  "id": "151261",
+  "tier": "out",
+  "sub": null,
+  "reason": "confidence learning for MLLM detection with GRPO"
+ },
+ {
+  "id": "151501",
+  "tier": "out",
+  "sub": null,
+  "reason": "oscillatory spiking neural network architecture; 'control' is a network coordination mechanism"
+ },
+ {
+  "id": "149116",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "neural surrogate for next-step ship CFD flow-field prediction on unstructured meshes; PDE simulation, no control"
+ },
+ {
+  "id": "149748",
+  "tier": "out",
+  "sub": null,
+  "reason": "flexible image tokenizers for autoregressive generation"
+ },
+ {
+  "id": "150347",
+  "tier": "out",
+  "sub": null,
+  "reason": "longitudinal behavioral health prediction with frozen LM"
+ },
+ {
+  "id": "152149",
+  "tier": "out",
+  "sub": null,
+  "reason": "fair federated conformal prediction"
+ },
+ {
+  "id": "155136",
+  "tier": "out",
+  "sub": null,
+  "reason": "joint EM super-resolution and segmentation"
+ },
+ {
+  "id": "150837",
+  "tier": "out",
+  "sub": null,
+  "reason": "time-series anomaly detection with foundation models; generic anomaly detection"
+ },
+ {
+  "id": "154931",
+  "tier": "out",
+  "sub": null,
+  "reason": "IO-aware serving for linear attention"
+ },
+ {
+  "id": "149523",
+  "tier": "out",
+  "sub": null,
+  "reason": "image matching via functional maps"
+ },
+ {
+  "id": "154793",
+  "tier": "out",
+  "sub": null,
+  "reason": "learning modular addition"
+ },
+ {
+  "id": "153769",
+  "tier": "out",
+  "sub": null,
+  "reason": "adaptive rank discovery for LoRA"
+ },
+ {
+  "id": "148442",
+  "tier": "out",
+  "sub": null,
+  "reason": "federated LoRA value-only aggregation"
+ },
+ {
+  "id": "149776",
+  "tier": "out",
+  "sub": null,
+  "reason": "training-free VLM personalization via concept graph"
+ }
+]

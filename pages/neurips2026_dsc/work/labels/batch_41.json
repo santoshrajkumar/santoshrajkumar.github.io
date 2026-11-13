@@ -1,0 +1,482 @@
+[
+ {
+  "id": "153702",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt selection and advantage estimation for GRPO; RL for LLMs"
+ },
+ {
+  "id": "150461",
+  "tier": "out",
+  "sub": null,
+  "reason": "Token-value analysis for efficient CoT reasoning; GRPO"
+ },
+ {
+  "id": "155643",
+  "tier": "out",
+  "sub": null,
+  "reason": "Counterfactual annotation budgeting for contextual-bandit off-policy evaluation; no dynamics"
+ },
+ {
+  "id": "149437",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pixel-aligned 3D geometry generation; perception/graphics"
+ },
+ {
+  "id": "155176",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperbolic Transformer in proper velocity space; geometry of representations, not dynamics"
+ },
+ {
+  "id": "148372",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tree search for agent-oriented code documentation; LLM agents"
+ },
+ {
+  "id": "149634",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private triangle counting"
+ },
+ {
+  "id": "153897",
+  "tier": "out",
+  "sub": null,
+  "reason": "Weight-space reparameterization for safe LLM fine-tuning"
+ },
+ {
+  "id": "151366",
+  "tier": "out",
+  "sub": null,
+  "reason": "Meta-learning multi-objective Bayesian optimization"
+ },
+ {
+  "id": "150697",
+  "tier": "out",
+  "sub": null,
+  "reason": "Motion-controllable video diffusion via noise conditioning; controllable generation false friend"
+ },
+ {
+  "id": "152243",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL rewards for dense captioning; RL for VLMs"
+ },
+ {
+  "id": "152494",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agents for hypothesis testing"
+ },
+ {
+  "id": "150906",
+  "tier": "out",
+  "sub": null,
+  "reason": "Zero-shot clustering in federated learning"
+ },
+ {
+  "id": "150371",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hopfield network phase kernels for memory capacity; associative memory, not control or identification"
+ },
+ {
+  "id": "152848",
+  "tier": "out",
+  "sub": null,
+  "reason": "Geometric representation learning from novel view synthesis; perception"
+ },
+ {
+  "id": "150288",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent for time series data quality rating; not dynamical-systems modelling"
+ },
+ {
+  "id": "152112",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-agent GPU kernel generation for interatomic potentials"
+ },
+ {
+  "id": "153558",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attention analysis of poetic jailbreaks"
+ },
+ {
+  "id": "152677",
+  "tier": "out",
+  "sub": null,
+  "reason": "Personalized generation via factorized ranking models"
+ },
+ {
+  "id": "148536",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-model circuit discovery in vision models; interpretability"
+ },
+ {
+  "id": "155663",
+  "tier": "out",
+  "sub": null,
+  "reason": "Parallel-stream language model architecture"
+ },
+ {
+  "id": "149602",
+  "tier": "out",
+  "sub": null,
+  "reason": "Local intrinsic dimension via Jacobian spectra of ODE generators; generative model diagnostic, not dynamics"
+ },
+ {
+  "id": "154887",
+  "tier": "out",
+  "sub": null,
+  "reason": "Hyperparameter scaling laws from optimizer convergence bounds"
+ },
+ {
+  "id": "153501",
+  "tier": "out",
+  "sub": null,
+  "reason": "Controllable video generation with scene/subject/motion prompts; controllable generation false friend"
+ },
+ {
+  "id": "150796",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prediction-augmented statistical inference with trees"
+ },
+ {
+  "id": "153479",
+  "tier": "out",
+  "sub": null,
+  "reason": "Few-step molecule conformation generation"
+ },
+ {
+  "id": "153865",
+  "tier": "out",
+  "sub": null,
+  "reason": "One-step shadow removal diffusion with reward guidance"
+ },
+ {
+  "id": "152721",
+  "tier": "out",
+  "sub": null,
+  "reason": "Ensemble selective classification"
+ },
+ {
+  "id": "148942",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-to-defer surrogate losses"
+ },
+ {
+  "id": "148976",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pixel diffusion latent decoder for text-to-image"
+ },
+ {
+  "id": "150681",
+  "tier": "out",
+  "sub": null,
+  "reason": "Model compressibility via requential coding"
+ },
+ {
+  "id": "149338",
+  "tier": "out",
+  "sub": null,
+  "reason": "Training-free guidance for flow models via elliptical slice sampling"
+ },
+ {
+  "id": "152209",
+  "tier": "out",
+  "sub": null,
+  "reason": "Pixel-space compression for retrieval-augmented generation"
+ },
+ {
+  "id": "152489",
+  "tier": "out",
+  "sub": null,
+  "reason": "Evaluation of terminal commitment in embodied agents; benchmark, no controller contribution"
+ },
+ {
+  "id": "148592",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentiable quantization-aware training for LLMs"
+ },
+ {
+  "id": "155759",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robust continual graph learning with flows"
+ },
+ {
+  "id": "151639",
+  "tier": "out",
+  "sub": null,
+  "reason": "Objective mismatch in mass spectrometry molecular retrieval"
+ },
+ {
+  "id": "149987",
+  "tier": "out",
+  "sub": null,
+  "reason": "Coresets from noisy comparison queries"
+ },
+ {
+  "id": "153562",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transferring explainability via task arithmetic in ViTs"
+ },
+ {
+  "id": "148724",
+  "tier": "out",
+  "sub": null,
+  "reason": "Attention sinks in omnimodal LLMs"
+ },
+ {
+  "id": "150625",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dense-scene reasoning in lightweight VLMs"
+ },
+ {
+  "id": "154626",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal disentangled representation learning"
+ },
+ {
+  "id": "153913",
+  "tier": "out",
+  "sub": null,
+  "reason": "Exact arithmetic residual blocks in transformers"
+ },
+ {
+  "id": "148563",
+  "tier": "out",
+  "sub": null,
+  "reason": "Byzantine-robust optimization via inexact gradients; distributed optimization"
+ },
+ {
+  "id": "152129",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multiscale single-index model for hierarchical feature learning; SGD analysis is proof technique, not dynamics contribution"
+ },
+ {
+  "id": "151365",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated shard aggregation for privacy"
+ },
+ {
+  "id": "149123",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continuous treatment effect estimation with recourse data; causal inference"
+ },
+ {
+  "id": "155411",
+  "tier": "out",
+  "sub": null,
+  "reason": "Label-only auditing of frozen representations"
+ },
+ {
+  "id": "154450",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fingerprinting LLM browser agents via UI traces"
+ },
+ {
+  "id": "150032",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal fusion balancing synergistic information"
+ },
+ {
+  "id": "148398",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-user poisoning in multi-user language agents"
+ },
+ {
+  "id": "154825",
+  "tier": "out",
+  "sub": null,
+  "reason": "Disentangling signals from sensor artifacts in astrophysical images; static representations"
+ },
+ {
+  "id": "151203",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-timescale EEG foundation model; representation learning, not system dynamics"
+ },
+ {
+  "id": "151793",
+  "tier": "out",
+  "sub": null,
+  "reason": "Event-assisted token pruning for Video-LLMs; perception"
+ },
+ {
+  "id": "148471",
+  "tier": "out",
+  "sub": null,
+  "reason": "Investigating misalignment behavior in LLM agents"
+ },
+ {
+  "id": "150949",
+  "tier": "out",
+  "sub": null,
+  "reason": "Nearest-neighbor radii under mixing dependence; statistical geometry, not dynamics"
+ },
+ {
+  "id": "154393",
+  "tier": "out",
+  "sub": null,
+  "reason": "Federated spiking neural networks under label shift"
+ },
+ {
+  "id": "149230",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent geometry for latent diffusion models"
+ },
+ {
+  "id": "153368",
+  "tier": "out",
+  "sub": null,
+  "reason": "Backdoor attack on federated prompt tuning"
+ },
+ {
+  "id": "151041",
+  "tier": "out",
+  "sub": null,
+  "reason": "Harmful data filtering for alignment-preserving fine-tuning"
+ },
+ {
+  "id": "150807",
+  "tier": "out",
+  "sub": null,
+  "reason": "Synthetic image detection via forensic preference learning"
+ },
+ {
+  "id": "150884",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tabular causal discovery foundation model; static causal graphs"
+ },
+ {
+  "id": "151930",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion tree search for crystal generation; 'trajectory' means denoising path"
+ },
+ {
+  "id": "152085",
+  "tier": "out",
+  "sub": null,
+  "reason": "Manipulation of preference-based LLM leaderboards"
+ },
+ {
+  "id": "148830",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-modal safety steering for audio-language models; steering of LLMs"
+ },
+ {
+  "id": "148647",
+  "tier": "out",
+  "sub": null,
+  "reason": "Vision-language guided 3D Gaussian splatting semantics"
+ },
+ {
+  "id": "153645",
+  "tier": "out",
+  "sub": null,
+  "reason": "Deep research rubrics for GRPO; RL for LLMs"
+ },
+ {
+  "id": "150203",
+  "tier": "out",
+  "sub": null,
+  "reason": "Weighted conformal clustering confidence sets"
+ },
+ {
+  "id": "150041",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fixed-graph multi-attribution differential privacy"
+ },
+ {
+  "id": "149771",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal effect identification with single proxy; static causal model"
+ },
+ {
+  "id": "154280",
+  "tier": "out",
+  "sub": null,
+  "reason": "Spherical position embedding for ViTs; weather forecasting only as benchmark"
+ },
+ {
+  "id": "152080",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow matching on Wasserstein space of manifolds; generative modelling"
+ },
+ {
+  "id": "151587",
+  "tier": "out",
+  "sub": null,
+  "reason": "DAG structure learning for zero-inflated counts"
+ },
+ {
+  "id": "154647",
+  "tier": "out",
+  "sub": null,
+  "reason": "Causal two-groups model for latent treatment effects"
+ },
+ {
+  "id": "149296",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse stripe attention for video DiTs"
+ },
+ {
+  "id": "153886",
+  "tier": "out",
+  "sub": null,
+  "reason": "Dense-prediction representation alignment for pixel diffusion"
+ },
+ {
+  "id": "155882",
+  "tier": "out",
+  "sub": null,
+  "reason": "Light field deraining via epipolar consistency"
+ },
+ {
+  "id": "153259",
+  "tier": "out",
+  "sub": null,
+  "reason": "Real-time high-resolution streaming video generation"
+ },
+ {
+  "id": "155838",
+  "tier": "out",
+  "sub": null,
+  "reason": "Maximum divergence knowledge distillation for LLMs"
+ },
+ {
+  "id": "151808",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continuous dictionary pursuit signal decomposition; parametric atoms, no dynamical system identified"
+ }
+]

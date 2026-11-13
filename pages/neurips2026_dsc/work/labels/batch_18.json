@@ -1,0 +1,482 @@
+[
+ {
+  "id": "155416",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum natural-gradient optimizer for VQAs; no dynamical system controlled or identified"
+ },
+ {
+  "id": "152937",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA visuomotor policy with SE(3) trajectory prediction; perception/representation, no controller contribution"
+ },
+ {
+  "id": "148853",
+  "tier": "out",
+  "sub": null,
+  "reason": "Anytime-valid hypothesis testing; Bellman formulation is a tool, no dynamical system controlled"
+ },
+ {
+  "id": "152365",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributed rollout infrastructure for LLM GRPO post-training"
+ },
+ {
+  "id": "154616",
+  "tier": "out",
+  "sub": null,
+  "reason": "4D vision reconstruction and point tracking; ODE used as interpolation prior only"
+ },
+ {
+  "id": "149739",
+  "tier": "out",
+  "sub": null,
+  "reason": "Minimax optimization theory for optimal transport map learning"
+ },
+ {
+  "id": "148506",
+  "tier": "out",
+  "sub": null,
+  "reason": "Difference-of-convex optimization in Wasserstein space for MMD; pure optimization"
+ },
+ {
+  "id": "151534",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic RL algorithm for diffusion policies on MuJoCo; SOC link is theoretical aside"
+ },
+ {
+  "id": "154945",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Reconstructs regime-switching stochastic dynamics (incl. Lorenz) from unpaired snapshots; modelling, not control"
+ },
+ {
+  "id": "149758",
+  "tier": "out",
+  "sub": null,
+  "reason": "Distributional RL regularizer on Atari/navigation; generic deep RL"
+ },
+ {
+  "id": "152793",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generative latent PDE surrogate for long autoregressive physics rollouts; forecasting only"
+ },
+ {
+  "id": "155170",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural decoding under representational drift; classification, no dynamics control/estimation"
+ },
+ {
+  "id": "150002",
+  "tier": "out",
+  "sub": null,
+  "reason": "Preconditioned operator methods for variational inequalities; optimal-control interpretation is secondary"
+ },
+ {
+  "id": "155456",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sample complexity of KL-regularized offline multi-armed bandits"
+ },
+ {
+  "id": "156090",
+  "tier": "out",
+  "sub": null,
+  "reason": "Constrained diffusion sampling algorithm; physics PDEs are test cases, not modelled dynamics"
+ },
+ {
+  "id": "156018",
+  "tier": "out",
+  "sub": null,
+  "reason": "'Agent control' means security policies for LLM agents; false friend"
+ },
+ {
+  "id": "151211",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Recovers Langevin generator spectra and drift from biased samples; stochastic dynamics reconstruction"
+ },
+ {
+  "id": "153725",
+  "tier": "out",
+  "sub": null,
+  "reason": "Post-training recipe for GUI agents; LLM RL"
+ },
+ {
+  "id": "150211",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Hippocampal recurrent dynamics solve goal-directed navigation as LMDP planning; sequential decision, not control design"
+ },
+ {
+  "id": "150628",
+  "tier": "out",
+  "sub": null,
+  "reason": "Information selling mechanism design; no dynamics"
+ },
+ {
+  "id": "155086",
+  "tier": "out",
+  "sub": null,
+  "reason": "Proper scoring rules for LLM agent trajectories; 'trajectory' means agent traces"
+ },
+ {
+  "id": "151862",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series foundation model on standard forecasting benchmarks"
+ },
+ {
+  "id": "150763",
+  "tier": "out",
+  "sub": null,
+  "reason": "Actor-critic for LLM agents in language space"
+ },
+ {
+  "id": "153917",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "RL fine-tuning of VLAs inside a pretrained world model; planning/learning in imagination"
+ },
+ {
+  "id": "151201",
+  "tier": "out",
+  "sub": null,
+  "reason": "Contrastive critic for sparse-reward MARL; generic RL algorithm"
+ },
+ {
+  "id": "149618",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-matching critic for distributional RL on offline benchmarks; generic RL"
+ },
+ {
+  "id": "150943",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Accelerates LTL-modulo-theories reactive synthesis of correct-by-construction controllers with soundness preserved"
+ },
+ {
+  "id": "148793",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Robust offline RL against out-of-distribution dynamics for autonomous driving; robust RL"
+ },
+ {
+  "id": "149225",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decision-focused learning of finite MDP transition predictions via LP layer; generic MDP optimization"
+ },
+ {
+  "id": "150699",
+  "tier": "out",
+  "sub": null,
+  "reason": "Symbolic epistemic task planning with sensing actions; no dynamics"
+ },
+ {
+  "id": "152578",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Koopman dictionary discovery with KANs on Lorenz/maps; identification for interpretability, no control use"
+ },
+ {
+  "id": "153010",
+  "tier": "out",
+  "sub": null,
+  "reason": "Randomized smoothing certification of stochastic predictors; adversarial-robustness flavour, quadrotor is test case"
+ },
+ {
+  "id": "149110",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-generated subtask rewards for robot RL; no dynamics or controller contribution"
+ },
+ {
+  "id": "154848",
+  "tier": "out",
+  "sub": null,
+  "reason": "Linear contextual bandit regret analysis"
+ },
+ {
+  "id": "151370",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Polylog-regret online prediction of marginally stable linear dynamical systems via preconditioning"
+ },
+ {
+  "id": "153205",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "PINN variant with integral constraints for shock-bearing forward PDEs; solver only"
+ },
+ {
+  "id": "150821",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence theory of normalized SGD"
+ },
+ {
+  "id": "153172",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Constrained multi-objective RL with drifting safety budgets on control tasks; constrained RL"
+ },
+ {
+  "id": "156045",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bootstrap statistics for finite controlled Markov chain transition estimates in offline RL; tabular MDP theory"
+ },
+ {
+  "id": "153425",
+  "tier": "out",
+  "sub": null,
+  "reason": "Agnostic learning of multiclass linear classifiers"
+ },
+ {
+  "id": "151820",
+  "tier": "out",
+  "sub": null,
+  "reason": "ML initial guesses for DFT SCF solvers"
+ },
+ {
+  "id": "151794",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive RL with exponential utility in discounted MDPs; convergence theory"
+ },
+ {
+  "id": "153225",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Convergence and fixed-point analysis of networked model-retraining dynamics; dynamical-systems view of learning"
+ },
+ {
+  "id": "148151",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Approximation theory for Schr\u00f6dinger-bridge generative modelling cast as stochastic optimal control"
+ },
+ {
+  "id": "155766",
+  "tier": "out",
+  "sub": null,
+  "reason": "Off-policy RLVR algorithm for LLM reasoning"
+ },
+ {
+  "id": "152038",
+  "tier": "out",
+  "sub": null,
+  "reason": "Survival analysis with reporting delays"
+ },
+ {
+  "id": "150026",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scalable SVGD via random-projection trees; sampling"
+ },
+ {
+  "id": "149990",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL-based optimizer for quantum neural network training"
+ },
+ {
+  "id": "152233",
+  "tier": "out",
+  "sub": null,
+  "reason": "Interacting particle quadrature for Bayesian inference; sampling"
+ },
+ {
+  "id": "156053",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Diffusion generation of future physical fields plus sensor trajectories for turbulent flow; surrogate, not estimator"
+ },
+ {
+  "id": "150082",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Context-dependent constrained autoencoders for low-dimensional manifolds of pendulum/Lorenz96; reduced-order modelling"
+ },
+ {
+  "id": "150208",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Closed-loop RL fine-tuning of driving policies; policy learning for physical agent, no dynamics model"
+ },
+ {
+  "id": "155294",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "One-step generative neural operator for coupled multi-physics PDEs; surrogate"
+ },
+ {
+  "id": "153321",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual test-time RL for LLMs; 'trajectory' means reasoning traces"
+ },
+ {
+  "id": "153459",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoders for music generation interpretability"
+ },
+ {
+  "id": "151009",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Learning dynamics as slow-fast stochastic system with Lyapunov function and Langevin limit; theory of learning"
+ },
+ {
+  "id": "155658",
+  "tier": "out",
+  "sub": null,
+  "reason": "Trust-region PPO variant across games/robotics/LLMs; generic RL"
+ },
+ {
+  "id": "150675",
+  "tier": "out",
+  "sub": null,
+  "reason": "Enhanced-sampling bias for generative protein dynamics emulators; molecular sampling"
+ },
+ {
+  "id": "148348",
+  "tier": "out",
+  "sub": null,
+  "reason": "IRL with LLM-generated differentiable reward code; not framed as dynamics"
+ },
+ {
+  "id": "152089",
+  "tier": "out",
+  "sub": null,
+  "reason": "Exploration for LLM agents via language strategies"
+ },
+ {
+  "id": "155480",
+  "tier": "out",
+  "sub": null,
+  "reason": "Wasserstein distance estimation runtime"
+ },
+ {
+  "id": "155392",
+  "tier": "out",
+  "sub": null,
+  "reason": "Reward verifier for GUI agents"
+ },
+ {
+  "id": "154761",
+  "tier": "out",
+  "sub": null,
+  "reason": "Forecast error localization on traffic/solar benchmarks; generic time series"
+ },
+ {
+  "id": "155425",
+  "tier": "out",
+  "sub": null,
+  "reason": "Empirical curvature measure of LLM training dynamics; not dynamical-systems analysis"
+ },
+ {
+  "id": "151117",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative 4D cardiac motion from ECG; medical generation"
+ },
+ {
+  "id": "151271",
+  "tier": "out",
+  "sub": null,
+  "reason": "Convergence analysis of Adam under generalized smoothness"
+ },
+ {
+  "id": "154488",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaussian approximation of stochastic approximation iterates; probabilistic optimization theory"
+ },
+ {
+  "id": "148922",
+  "tier": "out",
+  "sub": null,
+  "reason": "Self-supervised goal-reaching MARL on benchmarks; generic RL"
+ },
+ {
+  "id": "149134",
+  "tier": "out",
+  "sub": null,
+  "reason": "Quantum-inspired sparse subnetwork sampling"
+ },
+ {
+  "id": "154121",
+  "tier": "out",
+  "sub": null,
+  "reason": "Frequency-domain flow-matching action generation for imitation policies; no controller or dynamics contribution"
+ },
+ {
+  "id": "151319",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Risk-sensitive constrained RL extending CMDPs on Safety Gymnasium; constrained RL"
+ },
+ {
+  "id": "155318",
+  "tier": "out",
+  "sub": null,
+  "reason": "'Reachability' means reachable source labels in model reprogramming; false friend"
+ },
+ {
+  "id": "155223",
+  "tier": "out",
+  "sub": null,
+  "reason": "Rectified flow sampling complexity; diffusion theory"
+ },
+ {
+  "id": "153033",
+  "tier": "out",
+  "sub": null,
+  "reason": "Learning-augmented approximation for makespan scheduling"
+ },
+ {
+  "id": "150075",
+  "tier": "out",
+  "sub": null,
+  "reason": "Lyapunov-exponent gait biomarkers for Parkinson therapy assessment; clinical analysis, no control/forecasting"
+ },
+ {
+  "id": "150913",
+  "tier": "out",
+  "sub": null,
+  "reason": "'State space model' is Mamba-style architecture for protein representation; false friend"
+ },
+ {
+  "id": "154179",
+  "tier": "out",
+  "sub": null,
+  "reason": "SMC sampler for conditional diffusion inverse problems; 'trajectory' means sampling path"
+ },
+ {
+  "id": "150983",
+  "tier": "out",
+  "sub": null,
+  "reason": "Time series anomaly detection on industrial/service benchmarks"
+ },
+ {
+  "id": "148311",
+  "tier": "out",
+  "sub": null,
+  "reason": "Calibration measure for swap regret"
+ },
+ {
+  "id": "156118",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse autoencoders in function space for interpretability; FNO used as parameterization"
+ }
+]

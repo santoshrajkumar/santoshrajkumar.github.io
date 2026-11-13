@@ -1,0 +1,181 @@
+148840	26	Reinforcement Learning	Safe Score Matching: Diffusion Policies with Hamilton-Jacobi Reachability for Online Safe Reinforcement Learning
+154719	25	Reinforcement Learning	Physics-Informed Optimal Control by Control-Only Supervision with Error Guarantees on Value and Policy
+148317	21	Theory & Optimization	First-Order Regret for Online Convex Optimization with Memory and Online Nonstochastic Control
+155509	19	Diffusion & Generative Modeling	Riemannian Lyapunov Framework: Optimization as Closed-Loop Control on Riemannian Manifolds
+152028	19	Diffusion & Generative Modeling	Control-Augmented Autoregressive Diffusion for Data Assimilation
+150198	19	3D, Image & Video	Activation Steering of Video Generation Models via Reduced-Order Linear Optimal Control
+148686	18	Reinforcement Learning	SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control
+154299	16	Robotics & Embodied AI	OptiWorld: Optimal Control for Video World Generation under Physical Constraints
+151681	16	Diffusion & Generative Modeling	Provable State Estimation with Recurrent Models
+150096	16	Diffusion & Generative Modeling	Diff-Kalman: Difference-Driven Learning for Structure-Preserving Kalman Filtering
+148288	16	Diffusion & Generative Modeling	Learning Provable Neural Network Observer for Uncertain Dynamical Systems
+153994	15	AI for Science & Neuro	Inferring Computational Structure from Neural Recordings with Gain-Modulated Linear Dynamical Systems
+155619	15	Diffusion & Generative Modeling	A Memory Efficient Unified Algorithm for Online Learning of Linear Dynamical Systems
+148806	15	Theory & Optimization	Solving Stochastic Control under Multiplicative and Internal Noise via Constrained Optimization
+151427	15	Deep Learning Foundations & Training Dynamics	The Optimal Control Foundation of Early Exits – Turnpikes and ResNets
+153003	15	Theory & Optimization	Differentiable Nonlinear Model Predictive Control
+151856	14	Diffusion & Generative Modeling	Dynamics-Informed Adaptive Offline RL for Real-Time Tokamak Plasma Control
+155933	13	Diffusion & Generative Modeling	PHIONet: Port Hamiltonian Inertial Odometry Network
+149209	13	Vision-Language & Multimodal	Steering Away from Memorization: Reachability-Constrained Reinforcement Learning for Text-to-Image Diffusion
+149917	13	Reinforcement Learning	Control Under the Wrong Model Is Better Than Under the Correct One
+152578	13	Diffusion & Generative Modeling	Deep-Koopman-KANDy: Dictionary Discovery for Deep-Koopman Operators with Kolmogorov-Arnold Networks for Dynamics
+150373	12	Theory & Optimization	Safe-PG-LQR: Provably Safe, Convergent and Optimal Model-Free Linear Quadratic Regulator with Hard Constraints
+152598	12	Robotics & Embodied AI	InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction
+149064	11	Diffusion & Generative Modeling	Accelerating Neural Network Training with Augmented Koopman Dynamics
+149627	11	Diffusion & Generative Modeling	Sparse Koopman Autoencoders Identify Local Dynamical Regimes in Multibasin Systems
+153723	11	Diffusion & Generative Modeling	Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees
+155891	11	Diffusion & Generative Modeling	In-context learning to predict critical transitions in dynamical systems
+154080	10	Diffusion & Generative Modeling	DBPS: Doob-Bridge Posterior Sampler with Balanced Endpoint-Population Control for Unpaired Neurodegenerative Pathology Transport
+152634	10	Robotics & Embodied AI	Learning Generalizable Hand-Object Tracking Control without Human Demonstrations
+154522	10	Diffusion & Generative Modeling	PRIME: Poincaré return induced measure for learning partially observed dynamical systems
+153239	10	Theory & Optimization	Finite-Memory Control of POMDPs: Fundamental Limits and Efficient Design
+153480	9	Reinforcement Learning	Personalized and Collaborative Online LQR via Thompson Sampling
+152248	9	Diffusion & Generative Modeling	Beyond DSA: Conjugacy-based Comparison of Dynamical Systems
+148849	9	Diffusion & Generative Modeling	Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction
+149937	9	Time Series, Causality & Tabular	DynaPFN: Zero-Shot Dynamical System Forecasting with Tabular Prior-Fitted Networks
+151139	9	Time Series, Causality & Tabular	MDK-MoE: Multi-view Decomposed Kalman Mixture of Experts Framework for Non-stationary Time Series Forecasting
+152808	9	Diffusion & Generative Modeling	Learning Digital Twins under Drift: Optimal Tracking Rates for Non-Stationary Dynamical Systems
+152141	9	Robotics & Embodied AI	K-PWM: Control-Oriented Structured World Models under Partial Observation
+153665	9	Time Series, Causality & Tabular	Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting
+151855	9	Theory & Optimization	Lyapunov-Driven Optimistic Learning for Online Scheduling with Multi-Stage Tasks
+154438	8	Diffusion & Generative Modeling	OrthoReg: Orthogonal Regularization for Hybrid Symbolic-Neural Dynamical Systems
+149461	8	Diffusion & Generative Modeling	ControlJEPA: Principled Trajectory Regularization via Lyapunov Tube Loss
+150950	8	Diffusion & Generative Modeling	Finding Koopman Invariant Subspaces via Personalized PageRank
+151421	8	Reinforcement Learning	A dynamical systems theory of reward-modulated learning in linear recurrent networks
+148335	8	Reinforcement Learning	Discovering Programmatic Policies from Reinforcement Learning-Based Traffic Signal Controllers
+151974	8	AI for Science & Neuro	Identifying Latent Neural Dynamics with Recognition-Parameterized Gaussian Process Dynamical Systems
+156147	8	Diffusion & Generative Modeling	Predictively-Oriented Kalman Filtering
+152813	8	Reinforcement Learning	DARPAN: Controllability-Aware Residual Filtering for Pretrained Physical Control
+153188	8	Diffusion & Generative Modeling	The balance between feature learning and collapse in generative dynamical systems
+153946	8	Diffusion & Generative Modeling	A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems
+148468	7	Diffusion & Generative Modeling	End-to-End Identifiable and Consistent Recurrent Switching Dynamical Systems
+153920	7	Theory & Optimization	Online Control with Multiple Sensors
+154231	7	Reinforcement Learning	Neuro-Inspired Inverse Learning for Planning and Control
+154268	7	AI for Science & Neuro	A Control-Theoretic Approximation to Predictive Coding Dynamics
+148444	7	Deep Learning Foundations & Training Dynamics	Layerwise LQR for Geometry-Aware Optimization of Deep Networks
+152398	7	LLM Agents	Git Context Controller: Manage the Context of Agents by Agentic Git
+149481	7	AI for Science & Neuro	EDEN: Emergent Dynamics in Evolutionary Neural-networks for Robust Continuous Control
+151606	7	Robotics & Embodied AI	Robust Task-Aware State Estimation from Pre-trained Perception
+153013	7	Reinforcement Learning	Act, Validate, Adapt: Closing the Causal Discovery-Control Loop
+152077	7	Diffusion & Generative Modeling	ObsConDA: Observability-Constrained Data Assimilation with Control-Space Inference
+152305	7	Diffusion & Generative Modeling	SplineFlow: Flow Matching for Dynamical Systems with B-Spline Interpolants
+153361	6	Diffusion & Generative Modeling	Variational Trajectory Optimization of Anisotropic Diffusion Schedules
+153842	6	Diffusion & Generative Modeling	Learning Spectral Compositional Koopman Operators for Global-to-Regional Weather Forecasting
+149263	6	LLM reasoning & test-time scaling	Failure Profiling and Reachable Trajectory Selection for Reasoning Distillation
+154032	6	Robotics & Embodied AI	Whole-Body Compliant Control via Learned Force-Regulation Modules
+154921	6	Reinforcement Learning	Improved techniques for fine-tuning flow models via adjoint matching: a deterministic control pipeline
+155214	6	LLM fine-tuning & post-training	Sparse Internal Control of Language Models
+155318	6	Time Series, Causality & Tabular	Understanding Model Reprogramming: A Reachability and Relabeling Perspective
+155363	6	Diffusion & Generative Modeling	How Much Information is Needed for Accurate Kalman Filtering?
+149695	6	Diffusion & Generative Modeling	The Score Kalman Filter
+151629	6	Diffusion & Generative Modeling	Topological Out-of-Domain Generalization in Dynamical Systems Reconstruction
+150106	6	AI for Science & Neuro	Stage Light is Sequence$^2$: Multi-Light Control via Imitation Learning
+149717	6	AI for Science & Neuro	Discovering Mechanistic Models of Neural Activity: System Identification in an in Silico Zebrafish
+150493	6	Generalization & Data-centric Methods	Prune, Don’t Rebuild: Efficiently Tuning $\alpha$-Reachable Graphs for Nearest Neighbor Search
+148385	6	LLM Agents	Iterative Critique-and-Routing Controller for Multi-Agent Systems with Heterogeneous LLMs
+153594	6	Robotics & Embodied AI	DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control
+152435	6	Robotics & Embodied AI	Hydra-DP3: Frequency-Aware Right-Sizing of 3D Diffusion Policies for Visuomotor Control
+153140	6	AI for Science & Neuro	Two Layers of Attention Stability: A Koopman-Operator Analysis of Linear and Softmax Attention
+154044	5	Robotics & Embodied AI	Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control
+149041	5	Robotics & Embodied AI	Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control
+154743	5	Diffusion & Generative Modeling	NeuralBES: A Differentiable, Control-Aware Emulator for Scalable Building Energy Modeling
+153096	4	Vision-Language & Multimodal	Barycentric Guidance: Turning Foundation Image Editors into Continuous Affective Controllers
+149972	4	Reinforcement Learning	Mean-Field Control on Sparse Graphs: From Local Limits to GNNs via Neighborhood Distributions
+155463	4	Robotics & Embodied AI	Control First, Robustness Next: Decoupled Representation Learning for Visual RL Generalization
+155914	4	LLM Agents	CorridorLight: Cooperation as Task Negotiation with Causal Gating for Traffic Signal Control
+149390	4	AI for Science & Neuro	Learning Options for Compositional Motor Control with Adapter Banks
+150597	4	Reinforcement Learning	Iterative Gumbel Planning for Continuous Control
+149357	4	LLM Agents	Calibration Is Not Control: Intervention Advantage for LLM-Agent Oversight
+152667	4	Robotics & Embodied AI	UniMoE-World: A Unified Mixture-of-Experts Architecture for Scalable Multi-Control Video Generation World Modeling
+156073	4	LLM Agents	Control Charts for Multi-Agent Systems
+151622	4	Reinforcement Learning	FastDSAC: Unlocking the Potential of Maximum Entropy RL in High-Dimensional Humanoid Control
+155006	3	Robotics & Embodied AI	SocialDirector: Training-Free Social Interaction Control for Multi-Person Video Generation
+152301	3	Diffusion & Generative Modeling	FluxLite: Inference-Time Proposal Control for Discrete Diffusion Models
+152436	3	LLM Agents	GNES: Neural-Guided Evolutionary Program Search for Interpretable Multi-Agent Control
+155471	3	Reinforcement Learning	Rollout Pass-Rate Control: Steering Binary-Reward RL Toward Its Most Informative Regime
+153343	2	LLM fine-tuning & post-training	Online Conformal Abstention for Factuality Control Under Adversarial Bandit Feedback
+153975	2	AI for Science & Neuro	DUET: Unified Dual-Space Emotion Control for Diffusion and Flow-Matching Driven Text-to-Speech
+154092	2	Time Series, Causality & Tabular	Source-Causal Control of Historical Context in Longitudinal Radiology Report Generation
+149605	2	LLM reasoning & test-time scaling	Stop or Restart? Principled Inference Control for Large Reasoning Models via the Pandora's Box
+154677	2	Reinforcement Learning	STABLE: A Continual Learning Optimizer with Adaptive Drift Control
+151630	2	Reinforcement Learning	Control Reinforcement Learning: Token-Level Mechanistic Analysis via Learned SAE Feature Steering
+151964	2	AI for Science & Neuro	Rethinking State Tracking in Recurrent Models Through Error Control Dynamics
+152297	2	LLM Agents	MOSAIC: Scaling Long-Horizon Language Agents via Multi-Scale Adaptive Inference Control
+154904	1	Reinforcement Learning	Learning From Failures: Efficient Reinforcement Learning Control with Episodic Memory
+149026	1	LLM Agents	NesyProAct: Proactive Neural-Symbolic Control for Web Agents
+149283	1	Robotics & Embodied AI	PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control
+150099	1	Diffusion & Generative Modeling	A Mean-Field Framework for Inference-Time Distributional Control of Diffusion Models
+150785	1	Diffusion & Generative Modeling	QMaxCal: Path-Space Regularization for Open Quantum Control via Girsanov's Theorem
+151527	1	AI for Science & Neuro	Timing Is All You Need: SpikeCore, Learnable Delays, and Gain Control for Neuromorphic Classification
+155342	1	3D, Image & Video	PISCO: Precise Video Instance Insertion with Sparse Control
+152049	1	Reinforcement Learning	SCOPE-RL: Stable and Quantitative Control of Policy Entropy in RL Post-Training
+153464	0	LLM reasoning & test-time scaling	MUST: Stage-Adaptive Stability Control for Test-Time Scaling in Multimodal Reasoning
+153831	0	3D, Image & Video	Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control
+152607	0	Vision-Language & Multimodal	COMET: Decoupled Distillation, Routing, and Capacity Control for Task-Agnostic Continual Vision--Language Learning
+153968	0	Diffusion & Generative Modeling	Posterior Contraction Rates for sparse Kolmogorov-Arnold Networks in Anisotropic Besov Spaces
+154140	0	Reinforcement Learning	Discovering What You Can Control: Interventional Boundary Discovery for Reinforcement Learning
+154243	0	Diffusion & Generative Modeling	Anytime-Valid Conformal Risk Control
+154361	0	Vision-Language & Multimodal	Where to Look Is Not How to Fix: Pre-Denoising Diagnostics and Modality-Dependent Control in Diffusion Composition
+154385	0	3D, Image & Video	TrajLoc: Trajectory-Attention Localization for Multi-Object Motion Control
+154530	0	3D, Image & Video	Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion
+155193	0	Theory & Optimization	Zeroth-Order Stackelberg Control in Combinatorial Congestion Games
+155083	0	Efficient LLM inference	Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding
+155773	0	3D, Image & Video	Split Then Select: Moment-Preserving Density Control for Generalized Primitive Splatting
+150152	0	Robotics & Embodied AI	From Articulated Kinematics to Routed Visual Control for Action-Conditioned Surgical Video Generation
+155968	0	3D, Image & Video	$h$-control: Training-Free Camera Control via Block-Conditional Gibbs Refinement
+156018	0	LLM Agents	Language-Based Agent Control
+150552	0	Safety, Security & Privacy	AdvJudge-Zero: Binary Decision Flips in LLM-as-a-Judge via Adversarial Control Tokens
+156048	0	LLM Agents	SecureClaw: Clawing Back Control of LLM Agents
+153300	0	Reinforcement Learning	Unifying Goal-Conditioned RL and Unsupervised Skill Learning via Control-Maximization
+151017	0	Robotics & Embodied AI	PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies
+148178	0	Deep Learning Foundations & Training Dynamics	Mixture-of-Control: State-Aware Fine-Tuning for Transformer-based Models
+148611	0	Time Series, Causality & Tabular	CCTimeBoost: Learning Time-Varying Relative Risk with Case-Control Boosted Trees
+151316	0	Safety, Security & Privacy	Decoupled Safety Control: A Safety-Control Algorithm for Training-Free Safety Guidance
+148744	0	Vision-Language & Multimodal	SteerVTE: Seamless Video Text Editing with Style and Glyph Control
+154172	0	Reinforcement Learning	ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control
+148953	0	LLM fine-tuning & post-training	AKTD: FDR Control for LLM Training Data Detection under Approximate Exchangeability
+148731	0	Reinforcement Learning	Conformal Selective Acting: Anytime-Valid Risk Control for RLVR-Trained LLMs
+149290	0	LLM fine-tuning & post-training	KL for a KL: On-Policy Distillation with Control Variate Baseline
+149382	0	Diffusion & Generative Modeling	Towards more general control of diffusion models using Jeffrey Guidance
+149588	0	3D, Image & Video	Memorize When Needed: Decoupled Memory Control for Spatially Consistent Long-Horizon Video Generation
+154282	0	Efficient LLM inference	FRESCO: A Novel Consistency Control for Asynchronous Pipeline Parallel Training
+150097	0	LLM behavior, bias & evaluation	AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising
+155065	0	3D, Image & Video	Beyond Contraction: Geometry-Faithful Supervised Dimensionality Reduction for Data Visualization
+150705	0	Deep Learning Foundations & Training Dynamics	Model-Agnostic FDR Control via Group Gaussian Mirror and Permutation SHAP
+150708	0	Diffusion & Generative Modeling	RA-CFGCache: From Branch-Level Criteria to Guided-Risk Control under Classifier-Free Guidance
+150948	0	3D, Image & Video	Unified Loss-Aware Density Control for 3D Gaussian Splatting
+150993	0	Deep Learning Foundations & Training Dynamics	Relaxation-Aligned State Control for Test-Time Scaling in Generative Combinatorial Optimization
+151020	0	Time Series, Causality & Tabular	RxDiff: Discrete Diffusion for Medication Recommendation with Inference-Time Safety Control
+151011	0	LLM Agents	AI Control for Sandbagging on Fuzzy Tasks
+151180	0	Vision-Language & Multimodal	MMDiff: Multimodal Model Diffing for Feature Discovery and Control
+151343	0	LLM behavior, bias & evaluation	When Scores Conflict with Preferences: Calibrated Drift Control for Heterogeneous DPO
+153729	0	Graph Learning	Faster Dynamic Graph Clustering with Hierarchical Graph Contraction
+151562	0	Diffusion & non-autoregressive LMs	FlexCover: Flexible Cover Song Generation via Symbolic Lead Sheet Control
+151893	0	Deep Learning Foundations & Training Dynamics	Iterative ILP with Update-Size Control for Reducing Surrogate-Task Mismatch in Bit-Width Selection
+149393	0	Theory & Optimization	Occupancy-based Quantile Risk Control
+150445	0	AI for Science & Neuro	Quasi-Linear ICA for Motor Unit Decomposition during Dynamic Contractions
+152068	0	Vision-Language & Multimodal	EPIC: Efficient Predicate-Guided Inference-Time Control for Compositional Text-to-Image Generation
+152094	0	Reinforcement Learning	Simulation-aided Reinforcement Learning with Control Variates
+154679	0	Diffusion & Generative Modeling	Can Entry-Wise Clipping Give Spectral Control of Stochastic Gradients?
+152571	0	Reinforcement Learning	Entropy Polarity in Reinforcement Fine-Tuning: Direction, Asymmetry, and Control
+152635	0	Time Series, Causality & Tabular	Targeted Synthetic Control Method
+152696	0	LLM Agents	Securing AI Agents with Information-Flow Control
+152752	0	Reinforcement Learning	Bellman Residual Minimization for Control: Geometry, Stationarity, and Convergence
+152896	0	3D, Image & Video	SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation
+154724	0	Reinforcement Learning	Training-Free Task Vectors for LLM Behavioral Control
+153200	0	Theory & Optimization	EpiPivot: Learning to Control the Simplex Method under Epistemic Uncertainty
+152841	0	LLM Agents	Matched-Control Tests of Partition-Source Claims in One Routed Distillation Family
+153214	0	LLM fine-tuning & post-training	Prefix Likelihood-Ratio Control: Tail-Stable Training for Long-Horizon Language Generation
+153241	0	LLM fine-tuning & post-training	Grassmannian Geodesic Steering: Rank-Preserving Subspace Control for Inference-Time Alignment of Language Models
+154602	0	Vision-Language & Multimodal	Inverted Detection and Control in Steering Vectors
+155849	0	LLM Agents	OrchestraRL: Learning to Orchestrate LLM Agent Swarms with Entropy-Aware Communication Control
+150640	0	Diffusion & Generative Modeling	Bellman Contraction under MMD: A Unified Framework
+150017	0	Reinforcement Learning	$\boldsymbol{f}$-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control
+151179	0	Deep Learning Foundations & Training Dynamics	RL-Guided Contraction of Symbolic Tensor Networks for Quantum Circuit Equivalence
+154775	0	LLM behavior, bias & evaluation	Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation
+155431	0	Time Series, Causality & Tabular	Provably Reliable Classifier Guidance via Cross-Entropy Control
+148187	0	Robotics & Embodied AI	A latent control model for realistic rodent motion
+151569	0	Time Series, Causality & Tabular	Causal Discovery with False Positive Error Control
+153662	0	Time Series, Causality & Tabular	Finite Resources False Discovery Rate Control on Structured Hypothesis Spaces
+148310	0	LLM fine-tuning & post-training	ABC-Align: Prediction-Powered Alignment with Adaptive Bias Control
+150738	0	Theory & Optimization	High Probability Risk Control for Online Policy Learning

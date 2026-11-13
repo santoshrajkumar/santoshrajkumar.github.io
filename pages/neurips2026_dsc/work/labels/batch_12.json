@@ -1,0 +1,482 @@
+[
+ {
+  "id": "154933",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM chain-of-thought diagnostics; 'trajectory' is reasoning trace, no dynamical system"
+ },
+ {
+  "id": "152614",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic RL regret theory for MNL MDPs; no continuous dynamics or control"
+ },
+ {
+  "id": "153920",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Online control of partially observed linear dynamical system with regret bounds"
+ },
+ {
+  "id": "148569",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Port-Hamiltonian generative model learns mechanical dynamics from trajectories/video; modelling, not control"
+ },
+ {
+  "id": "155981",
+  "tier": "out",
+  "sub": null,
+  "reason": "Large-scale empirical study of offline RL/IL on standard benchmarks"
+ },
+ {
+  "id": "148369",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL training acceleration for LLM reasoning models"
+ },
+ {
+  "id": "155997",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bio-inspired video embedding for video-text learning"
+ },
+ {
+  "id": "155331",
+  "tier": "out",
+  "sub": null,
+  "reason": "Off-policy policy gradient theory for LLM post-training (GRPO)"
+ },
+ {
+  "id": "148916",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion model for graph generation via graphon SDE"
+ },
+ {
+  "id": "152423",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "DeepONet variant for PDE solution operators with discontinuities"
+ },
+ {
+  "id": "148462",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM-based clinical text 'world model' with search; no dynamical system or control"
+ },
+ {
+  "id": "155110",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online learning theory of set prediction; no dynamics"
+ },
+ {
+  "id": "148746",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic MARL with macro-actions and language instructions"
+ },
+ {
+  "id": "152955",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series generation via hierarchical tokenization"
+ },
+ {
+  "id": "148917",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Multi-robot active search planning over beliefs with budgets; POMDP-style planning in physical domain"
+ },
+ {
+  "id": "153006",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multivariate time-series anomaly detection"
+ },
+ {
+  "id": "154046",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent skill extraction study"
+ },
+ {
+  "id": "155510",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Hierarchical world model with inverse dynamics for planning on embodied tasks; no control-theoretic framing"
+ },
+ {
+  "id": "151417",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Continuous-time SDE limit of evolution strategies with dynamical regimes; learning algorithm is the system"
+ },
+ {
+  "id": "149229",
+  "tier": "out",
+  "sub": null,
+  "reason": "Vision-only outdoor navigation system; perception/system contribution, no controller"
+ },
+ {
+  "id": "154766",
+  "tier": "out",
+  "sub": null,
+  "reason": "Diffusion refiner for pedestrian trajectory prediction benchmarks; forecasting, not control"
+ },
+ {
+  "id": "153359",
+  "tier": "out",
+  "sub": null,
+  "reason": "Photorealistic style transfer via 3D LUTs"
+ },
+ {
+  "id": "151574",
+  "tier": "out",
+  "sub": null,
+  "reason": "In-context RL transformers kernel TD view on MetaWorld; generic RL"
+ },
+ {
+  "id": "148245",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D rigged asset generation"
+ },
+ {
+  "id": "153821",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online optimization of non-decomposable classification metrics"
+ },
+ {
+  "id": "151227",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA autonomous driving with reflection; no controller or dynamics contribution"
+ },
+ {
+  "id": "154590",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformers implementing in-context RL on tabular MDPs; gradient-flow proof is a technique"
+ },
+ {
+  "id": "149445",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural decoding for brain-computer interfaces; representation learning"
+ },
+ {
+  "id": "148167",
+  "tier": "out",
+  "sub": null,
+  "reason": "Critic-free RL fine-tuning for agentic LLMs"
+ },
+ {
+  "id": "152612",
+  "tier": "out",
+  "sub": null,
+  "reason": "RL systems infrastructure for LLM training"
+ },
+ {
+  "id": "149289",
+  "tier": "out",
+  "sub": null,
+  "reason": "Jacobian computation via algorithm unrolling in meta-learning"
+ },
+ {
+  "id": "153889",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time adaptation for object recognition on moving agents; perception only"
+ },
+ {
+  "id": "150584",
+  "tier": "out",
+  "sub": null,
+  "reason": "Neural optimal transport theory in Hilbert spaces"
+ },
+ {
+  "id": "149851",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-matching policy distillation for offline RL on D4RL/OGBench; generic RL"
+ },
+ {
+  "id": "151462",
+  "tier": "out",
+  "sub": null,
+  "reason": "Human-object interaction motion generation"
+ },
+ {
+  "id": "149917",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Optimal linear controller structure under LQG-type dynamics with multiplicative noise; filtering-control coupling"
+ },
+ {
+  "id": "150970",
+  "tier": "out",
+  "sub": null,
+  "reason": "Probabilistic linear solvers"
+ },
+ {
+  "id": "154053",
+  "tier": "out",
+  "sub": null,
+  "reason": "Prompt injection in AI agents"
+ },
+ {
+  "id": "153166",
+  "tier": "out",
+  "sub": null,
+  "reason": "fMRI brain-state forecasting with tokenized transformer; no dynamical-systems method"
+ },
+ {
+  "id": "155724",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Symplectic flow layers for generative modelling of Hamiltonian systems; modelling, not control"
+ },
+ {
+  "id": "148362",
+  "tier": "out",
+  "sub": null,
+  "reason": "Differentially private stochastic convex optimization"
+ },
+ {
+  "id": "155406",
+  "tier": "out",
+  "sub": null,
+  "reason": "Sparse attention for diffusion LLM inference"
+ },
+ {
+  "id": "153724",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-spectral Earth observation foundation model"
+ },
+ {
+  "id": "148834",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Dynamical mean-field theory solving exact training dynamics of energy-based models"
+ },
+ {
+  "id": "148621",
+  "tier": "out",
+  "sub": null,
+  "reason": "LoRA rank search for VLM fine-tuning; 'training dynamics' used empirically"
+ },
+ {
+  "id": "153532",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Residual stream as depth-time dynamical system; Jacobian spectral/non-normality analysis of networks"
+ },
+ {
+  "id": "149651",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Reconstructing population dynamics as Wasserstein gradient flows from snapshots; trajectory inference"
+ },
+ {
+  "id": "151446",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM agent skill curation via RL"
+ },
+ {
+  "id": "153768",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM post-training for multimodal time-series forecasting; generic forecasting"
+ },
+ {
+  "id": "154101",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Large deviations of regularized learning as randomly perturbed dynamical system; ICT sets, attractors"
+ },
+ {
+  "id": "154424",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series forecasting benchmarks; over-smoothing mitigation"
+ },
+ {
+  "id": "148682",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-anchored hybrid forecasting of air-pollution fields; modelling, not control"
+ },
+ {
+  "id": "155376",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-label video safety detection; 'controllable' precision-recall false friend"
+ },
+ {
+  "id": "151097",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Non-stationary MDP RL with change detection and dynamic regret; online learning in dynamic environments"
+ },
+ {
+  "id": "153807",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online calibration of predictors"
+ },
+ {
+  "id": "155834",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-action prediction agents for Minecraft/VizDoom games"
+ },
+ {
+  "id": "154109",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM skill-switching benchmark and RL"
+ },
+ {
+  "id": "148877",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stable RL training for LLMs under train-inference mismatch"
+ },
+ {
+  "id": "149085",
+  "tier": "out",
+  "sub": null,
+  "reason": "Physics-based reward for human video generation"
+ },
+ {
+  "id": "152917",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Constraint-enforcing projections in autoregressive PDE (Navier-Stokes) forecasters; surrogate rollouts"
+ },
+ {
+  "id": "149837",
+  "tier": "out",
+  "sub": null,
+  "reason": "Delayed-feedback linear bandits; no dynamics"
+ },
+ {
+  "id": "149692",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA manipulation with progress conditioning; no controller contribution"
+ },
+ {
+  "id": "148663",
+  "tier": "adjacent",
+  "sub": "TS",
+  "reason": "Efficient medium-range weather forecasting model; forecasting of physical system"
+ },
+ {
+  "id": "153564",
+  "tier": "out",
+  "sub": null,
+  "reason": "Transformer theory for in-context KNN with chain-of-thought"
+ },
+ {
+  "id": "152582",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Intrinsic motivation grounded in dynamical systems and optimal control (KS entropy) for robot control"
+ },
+ {
+  "id": "155744",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Physics-informed latent forecasting of river/flood dynamics; modelling, not control"
+ },
+ {
+  "id": "148410",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Generating joint-level dynamics (friction, damping) for articulated-object simulation; no control"
+ },
+ {
+  "id": "153265",
+  "tier": "out",
+  "sub": null,
+  "reason": "Localized conformal prediction"
+ },
+ {
+  "id": "154719",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Physics-informed HJB solver for high-dimensional optimal control with value/policy error bounds"
+ },
+ {
+  "id": "149705",
+  "tier": "out",
+  "sub": null,
+  "reason": "Memory-efficient bilevel optimization"
+ },
+ {
+  "id": "154047",
+  "tier": "adjacent",
+  "sub": "TD",
+  "reason": "Edge-of-stability dynamics and oscillations under weight decay with mathematical model; optimizer dynamics"
+ },
+ {
+  "id": "151980",
+  "tier": "out",
+  "sub": null,
+  "reason": "Tabular RL with lookahead information; MPC only as baseline heuristic"
+ },
+ {
+  "id": "155193",
+  "tier": "out",
+  "sub": null,
+  "reason": "Stackelberg toll optimization at static congestion equilibrium; no dynamics"
+ },
+ {
+  "id": "152945",
+  "tier": "out",
+  "sub": null,
+  "reason": "Residual connection reassignment for depth scaling"
+ },
+ {
+  "id": "149172",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual RL value function representations; generic RL"
+ },
+ {
+  "id": "152240",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM claim uncertainty quantification"
+ },
+ {
+  "id": "155931",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generic time-series synthesis via diffusion/autoregression"
+ },
+ {
+  "id": "149113",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visual search self-play for vision-language policies; 'trajectory' is agent trace"
+ },
+ {
+  "id": "156079",
+  "tier": "adjacent",
+  "sub": "NO",
+  "reason": "Operator learning for PDEs under distribution shift via importance weighting"
+ },
+ {
+  "id": "154552",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA test-time adaptation via success memory; 'steer' false friend"
+ }
+]
