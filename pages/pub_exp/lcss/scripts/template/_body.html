@@ -185,7 +185,11 @@
     <p>Built by: <a href="https://santoshrajkumar.github.io/" rel="noopener"><b>Santosh Rajkumar</b></a>, PhD Candidate, The Ohio State University</p>
     <p class="buckeyes">A little support for THE world-famous Ohio State Buckeyes ahead of <a href="https://ohiostatebuckeyes.com/game-center/22225" rel="noopener">THE GAME</a> ! Go Bucks, Beat TTUN! 🌰🏈</p>
   </footer>
-  <p class="visits" style="text-align:center;margin:22px 0 0"><img src="https://api.visitorbadge.io/api/visitors?path=santoshrajkumar.github.io%2Fpages%2Fpub_exp%2Flcss%2F&label=site%20visits&labelColor=%23555555&countColor=%232563eb&style=flat" alt="site visit counter" height="20"></p>
+  <p class="visits" style="text-align:center;margin:22px 0 0"><span id="visitBadge" hidden style="display:inline-flex;border-radius:4px;overflow:hidden;font:600 12px/20px Verdana,DejaVu Sans,sans-serif;color:#fff"><span style="background:#555;padding:0 7px">site visits</span><span class="vc" style="background:#2563eb;padding:0 7px"></span></span></p>
+  <script>(() => { const BASE = 1000; /* displayed count = BASE + visits counted by hitscounter.dev */
+    fetch('https://hitscounter.dev/api/hit?url=' + encodeURIComponent('santoshrajkumar.github.io/pages/pub_exp/lcss/') + '&output=json')
+      .then(r => r.json()).then(j => { const b = document.getElementById('visitBadge'); b.querySelector('.vc').textContent = (BASE + (j.total_hits || 0)).toLocaleString('en-US'); b.hidden = false; })
+      .catch(() => {}); })();</script>
   <p class="credit">format adapted from <a href="https://github.com/juevn/neurips2026" rel="noopener">source</a></p>
 </div>
 <div class="toast" id="toast" role="status"></div>
