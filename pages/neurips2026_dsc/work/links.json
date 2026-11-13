@@ -17,7 +17,9 @@
  },
  "148240": {
   "arxiv": "2605.06861",
-  "code": []
+  "code": [
+   "https://github.com/JRowbottomGit/Christoffel-DPS"
+  ]
  },
  "148249": {
   "arxiv": "2606.16602",
@@ -39,6 +41,12 @@
   "arxiv": "2602.20102",
   "code": [
    "https://github.com/thanhquangtran/BarrierSteer"
+  ]
+ },
+ "148335": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/ForrestXie9/PPL-TSC"
   ]
  },
  "148363": {
@@ -73,7 +81,10 @@
  },
  "148507": {
   "arxiv": "2605.13063",
-  "code": []
+  "code": [
+   "https://github.com/EhsanAghazadeh/ergodic-pushforward",
+   "https://github.com/EhsanAghazadeh/uav_ot_cfm"
+  ]
  },
  "148541": {
   "arxiv": "2605.15881",
@@ -81,7 +92,9 @@
  },
  "148567": {
   "arxiv": "2609.26890",
-  "code": []
+  "code": [
+   "https://github.com/Yuta-Tarumi/PRSmoother_Neurips2026"
+  ]
  },
  "148569": {
   "arxiv": "2509.23003",
@@ -105,7 +118,9 @@
  },
  "148686": {
   "arxiv": "2608.21175",
-  "code": []
+  "code": [
+   "https://github.com/hku-sail/srl_mpc"
+  ]
  },
  "148698": {
   "arxiv": "2605.13242",
@@ -130,6 +145,12 @@
  "148796": {
   "arxiv": "2609.30667",
   "code": []
+ },
+ "148806": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/francescodamiani/LQMI-Constrained-Optimization"
+  ]
  },
  "148834": {
   "arxiv": "2605.09031",
@@ -165,11 +186,15 @@
  },
  "148968": {
   "arxiv": "2609.18127",
-  "code": []
+  "code": [
+   "https://github.com/Eric0312/FO-GS"
+  ]
  },
  "148980": {
   "arxiv": "2611.07275",
-  "code": []
+  "code": [
+   "https://github.com/Maincode-Research/LARBRID"
+  ]
  },
  "148999": {
   "arxiv": "2605.08400",
@@ -216,7 +241,8 @@
  "149083": {
   "arxiv": "2604.02889",
   "code": [
-   "https://github.com/tcnllab-oss/masf"
+   "https://github.com/tcnllab-oss/masf",
+   "https://github.com/jijihihi/masf"
   ]
  },
  "149087": {
@@ -257,7 +283,9 @@
  },
  "149242": {
   "arxiv": "2611.02174",
-  "code": []
+  "code": [
+   "https://github.com/Jiaqian-Janelle/NeurIPS26-Kronecker-Cayley-Stable-State-Space-Dynamics"
+  ]
  },
  "149285": {
   "arxiv": "2609.14402",
@@ -265,7 +293,9 @@
  },
  "149306": {
   "arxiv": "2605.02227",
-  "code": []
+  "code": [
+   "https://github.com/jiaming-ai/CROSS"
+  ]
  },
  "149330": {
   "arxiv": "2609.34354",
@@ -307,7 +337,10 @@
  },
  "149456": {
   "arxiv": "2611.07730",
-  "code": []
+  "code": [
+   "https://github.com/seoneun/-NeurIPS-2026-Seeing-Beyond-the-Next-Step",
+   "https://github.com/JuyeongHwang/SeeingBeyond"
+  ]
  },
  "149461": {
   "arxiv": "2610.24951",
@@ -365,11 +398,15 @@
  },
  "149611": {
   "arxiv": "2604.25508",
-  "code": []
+  "code": [
+   "https://github.com/Data-Science-in-Mechanical-Engineering/Dyna-SAuR"
+  ]
  },
  "149627": {
   "arxiv": "2608.29057",
-  "code": []
+  "code": [
+   "https://github.com/chandar-lab/skae"
+  ]
  },
  "149651": {
   "arxiv": "2607.04738",
@@ -411,7 +448,9 @@
  },
  "149799": {
   "arxiv": "2605.19469",
-  "code": []
+  "code": [
+   "https://github.com/bitzhangcy/Safe-Deep-Reinforcement-Learning"
+  ]
  },
  "149847": {
   "arxiv": "2611.09644",
@@ -431,7 +470,9 @@
  },
  "149943": {
   "arxiv": "2512.06324",
-  "code": []
+  "code": [
+   "https://github.com/taehyoungkim270/TopPT"
+  ]
  },
  "149945": {
   "arxiv": "2611.12769",
@@ -491,7 +532,11 @@
  },
  "150076": {
   "arxiv": "2603.19312",
-  "code": []
+  "code": [
+   "https://github.com/lucas-maes/le-wm",
+   "https://github.com/lucidrains/dreamer4",
+   "https://github.com/lucidrains/x-jepa"
+  ]
  },
  "150114": {
   "arxiv": "2605.23871",
@@ -524,6 +569,12 @@
  "150211": {
   "arxiv": "2609.13219",
   "code": []
+ },
+ "150228": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/qmfin/NeuralFSDE"
+  ]
  },
  "150238": {
   "arxiv": "2610.03363",
@@ -581,7 +632,9 @@
  },
  "150543": {
   "arxiv": "2603.16789",
-  "code": []
+  "code": [
+   "https://github.com/NoraSchneider/SigCTO"
+  ]
  },
  "150569": {
   "arxiv": "2605.25267",
@@ -641,7 +694,9 @@
  },
  "150860": {
   "arxiv": "2605.16725",
-  "code": []
+  "code": [
+   "https://github.com/ssw03270/BABAinWonderland_NeurIPS-26"
+  ]
  },
  "150877": {
   "arxiv": "2504.21164",
@@ -661,7 +716,9 @@
  },
  "150920": {
   "arxiv": "2611.08409",
-  "code": []
+  "code": [
+   "https://github.com/StillJosh/Conformal_Prediction_for_Time-Dependent_PDEs"
+  ]
  },
  "150950": {
   "arxiv": "2605.24666",
@@ -721,11 +778,15 @@
  },
  "151122": {
   "arxiv": "2611.11786",
-  "code": []
+  "code": [
+   "https://github.com/wangkng/PA-RmD"
+  ]
  },
  "151132": {
   "arxiv": "2605.07157",
-  "code": []
+  "code": [
+   "https://github.com/lzhornyak/Euler-Lagrange-Minimization"
+  ]
  },
  "151151": {
   "arxiv": "2608.15079",
@@ -733,7 +794,9 @@
  },
  "151200": {
   "arxiv": "2610.35090",
-  "code": []
+  "code": [
+   "https://github.com/reeive/TPD"
+  ]
  },
  "151211": {
   "arxiv": "2610.01522",
@@ -763,7 +826,9 @@
  },
  "151342": {
   "arxiv": "2602.06208",
-  "code": []
+  "code": [
+   "https://github.com/alecxu00/mlp-low-dim-gd"
+  ]
  },
  "151370": {
   "arxiv": "2605.08390",
@@ -771,7 +836,9 @@
  },
  "151387": {
   "arxiv": "2602.03915",
-  "code": []
+  "code": [
+   "https://github.com/camlab-ethz/Phaedra"
+  ]
  },
  "151389": {
   "arxiv": "2609.30746",
@@ -787,7 +854,9 @@
  },
  "151413": {
   "arxiv": "2605.30320",
-  "code": []
+  "code": [
+   "https://github.com/daniel03c1/MonoPhysics"
+  ]
  },
  "151427": {
   "arxiv": "2611.05120",
@@ -799,7 +868,9 @@
  },
  "151474": {
   "arxiv": "2605.27852",
-  "code": []
+  "code": [
+   "https://github.com/YuCrazing/ClothTransformer"
+  ]
  },
  "151488": {
   "arxiv": "2605.09288",
@@ -821,7 +892,9 @@
  },
  "151573": {
   "arxiv": "2605.06612",
-  "code": []
+  "code": [
+   "https://github.com/crushonyfg/BRPC"
+  ]
  },
  "151579": {
   "arxiv": "2606.19486",
@@ -833,7 +906,10 @@
  },
  "151622": {
   "arxiv": "2603.12612",
-  "code": []
+  "code": [
+   "https://github.com/EIT-EAST-Lab/FastDSAC_official",
+   "https://github.com/EIT-EAST-Lab/FastDSAC"
+  ]
  },
  "151625": {
   "arxiv": "2606.15015",
@@ -873,7 +949,9 @@
  },
  "151714": {
   "arxiv": "2605.05951",
-  "code": []
+  "code": [
+   "https://github.com/HaoyunT/HaM_World"
+  ]
  },
  "151725": {
   "arxiv": "2602.24207",
@@ -895,7 +973,10 @@
  },
  "151838": {
   "arxiv": "2606.15654",
-  "code": []
+  "code": [
+   "https://github.com/RoboticSJTU/PO_PDDL",
+   "https://github.com/RoboticSJTU/PO-PDDL"
+  ]
  },
  "151853": {
   "arxiv": "2602.03627",
@@ -981,9 +1062,7 @@
  },
  "152267": {
   "arxiv": "2605.15705",
-  "code": [
-   "https://github.com/NTUMARS/Feedback_World_Model"
-  ]
+  "code": []
  },
  "152289": {
   "arxiv": "2605.04115",
@@ -1039,7 +1118,9 @@
  },
  "152578": {
   "arxiv": "2605.06000",
-  "code": []
+  "code": [
+   "https://github.com/Center-For-Complex-Systems-Science/Deep-Koopman-KANDy"
+  ]
  },
  "152582": {
   "arxiv": "2601.22449",
@@ -1065,7 +1146,10 @@
  },
  "152675": {
   "arxiv": "2605.09586",
-  "code": []
+  "code": [
+   "https://github.com/CAN-Lee/DeformMaster",
+   "https://github.com/Jianghanxiao/PhysTwin"
+  ]
  },
  "152702": {
   "arxiv": "2603.12137",
@@ -1115,7 +1199,15 @@
  },
  "153003": {
   "arxiv": "2505.01353",
-  "code": []
+  "code": [
+   "https://github.com/FreyJo/differentiable_nmpc"
+  ]
+ },
+ "153013": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/taqiyaehsan/act-validate-adapt"
+  ]
  },
  "153017": {
   "arxiv": "2606.30444",
@@ -1187,7 +1279,9 @@
  },
  "153317": {
   "arxiv": "2606.17513",
-  "code": []
+  "code": [
+   "https://github.com/Bostanabad-Research-Group/GP-GeometryAware-OL"
+  ]
  },
  "153453": {
   "arxiv": "2610.07383",
@@ -1203,7 +1297,9 @@
  },
  "153606": {
   "arxiv": "2610.16630",
-  "code": []
+  "code": [
+   "https://github.com/kiendemo/AirQuality"
+  ]
  },
  "153610": {
   "arxiv": "2606.04212",
@@ -1217,7 +1313,9 @@
  },
  "153665": {
   "arxiv": "2611.04760",
-  "code": []
+  "code": [
+   "https://github.com/azencot-group/KGO"
+  ]
  },
  "153679": {
   "arxiv": "2605.05524",
@@ -1226,7 +1324,9 @@
  "153691": {
   "arxiv": "2605.15492",
   "code": [
-   "https://github.com/NTUMARS/FLASH-Policy"
+   "https://github.com/NTUMARS/FLASH-Policy",
+   "https://github.com/B1ue-Jay/FLASH",
+   "https://github.com/jason-0712/FLASH_Efficient-Visuomotor-Policy-via-Sparse-Sampling"
   ]
  },
  "153693": {
@@ -1239,7 +1339,9 @@
  },
  "153704": {
   "arxiv": "2601.23030",
-  "code": []
+  "code": [
+   "https://github.com/gefanyang/nbffg"
+  ]
  },
  "153720": {
   "arxiv": "2605.12651",
@@ -1271,7 +1373,9 @@
  },
  "153828": {
   "arxiv": "2604.26070",
-  "code": []
+  "code": [
+   "https://github.com/JenniferJaschob/ObsNODE"
+  ]
  },
  "153832": {
   "arxiv": "2611.13993",
@@ -1280,6 +1384,12 @@
  "153840": {
   "arxiv": "2606.21173",
   "code": []
+ },
+ "153842": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/oublalkhalid/GraphMet"
+  ]
  },
  "153849": {
   "arxiv": "2608.05777",
@@ -1353,7 +1463,9 @@
  },
  "154157": {
   "arxiv": "2609.08740",
-  "code": []
+  "code": [
+   "https://github.com/MOHAMMADZAHD93/PACneurips2026"
+  ]
  },
  "154192": {
   "arxiv": "2611.05157",
@@ -1361,7 +1473,10 @@
  },
  "154231": {
   "arxiv": "2605.24152",
-  "code": []
+  "code": [
+   "https://github.com/neuromentum/inverter",
+   "https://github.com/randomfish42/inverter"
+  ]
  },
  "154299": {
   "arxiv": "2606.00499",
@@ -1447,6 +1562,12 @@
   "arxiv": "2605.10154",
   "code": []
  },
+ "154654": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/SalehMomeni/DOCI"
+  ]
+ },
  "154682": {
   "arxiv": "2512.16074",
   "code": []
@@ -1463,6 +1584,12 @@
   "arxiv": "2609.38381",
   "code": []
  },
+ "154719": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/myspark2026/PI_optimal-control-by-control-only-supervision"
+  ]
+ },
  "154743": {
   "arxiv": "2610.10459",
   "code": []
@@ -1473,7 +1600,10 @@
  },
  "154808": {
   "arxiv": "2605.10759",
-  "code": []
+  "code": [
+   "https://github.com/AndreasBergmeister/ram",
+   "https://github.com/jaylee2000/dfr"
+  ]
  },
  "154874": {
   "arxiv": "2605.15960",
@@ -1503,7 +1633,9 @@
  },
  "155054": {
   "arxiv": "2605.02356",
-  "code": []
+  "code": [
+   "https://github.com/hstral/ZNO-NeurIPS2026"
+  ]
  },
  "155078": {
   "arxiv": "2604.03641",
@@ -1527,6 +1659,12 @@
   "arxiv": "2605.16398",
   "code": []
  },
+ "155268": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/Jiaaqiliu/VIPER-R1"
+  ]
+ },
  "155270": {
   "arxiv": "2609.31133",
   "code": []
@@ -1535,13 +1673,35 @@
   "arxiv": "2611.10945",
   "code": []
  },
+ "155314": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/hormoz-lab/diffeomorph"
+  ]
+ },
+ "155316": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/lewisbakkero/sparsis"
+  ]
+ },
  "155327": {
   "arxiv": "2605.05113",
   "code": []
  },
  "155346": {
   "arxiv": "2606.25039",
-  "code": []
+  "code": [
+   "https://github.com/scientific-discovery/LLM-ACES",
+   "https://github.com/langkhachhoha/LLM-ACES",
+   "https://github.com/scientific-discovery/llmaces-project"
+  ]
+ },
+ "155395": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/yiliuw/GDM"
+  ]
  },
  "155499": {
   "arxiv": "2605.11694",
@@ -1562,6 +1722,18 @@
  "155531": {
   "arxiv": "2608.27521",
   "code": []
+ },
+ "155552": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/YuanChu-AI/RAF"
+  ]
+ },
+ "155575": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/neu-spiral/MarkovExp"
+  ]
  },
  "155593": {
   "arxiv": "2605.28368",
@@ -1635,9 +1807,17 @@
    "https://github.com/Rose-STL-Lab/GORMPO"
   ]
  },
+ "155791": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/KIT-IAI-DRACOS/slide"
+  ]
+ },
  "155798": {
   "arxiv": "2606.15359",
-  "code": []
+  "code": [
+   "https://github.com/azizanlab/DiRecT"
+  ]
  },
  "155800": {
   "arxiv": "2606.17014",
@@ -1673,6 +1853,19 @@
   "arxiv": "2601.18681",
   "code": []
  },
+ "155914": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/corridorlight/corridorlight"
+  ]
+ },
+ "155974": {
+  "arxiv": "",
+  "code": [
+   "https://github.com/hujingwei/DGRAF",
+   "https://github.com/jason-chen66/DGRAF"
+  ]
+ },
  "155982": {
   "arxiv": "2606.13260",
   "code": []
@@ -1689,7 +1882,9 @@
  },
  "156059": {
   "arxiv": "2611.11119",
-  "code": []
+  "code": [
+   "https://github.com/seyedamirrezaalavi/Scalable-Neural-Safety-Certification-via-Monotonicity"
+  ]
  },
  "156060": {
   "arxiv": "2605.14201",
@@ -1703,6 +1898,7 @@
   "arxiv": "2610.12094",
   "code": [
    "https://github.com/fcumlin/differentiable-systematic-resampling",
+   "https://github.com/SachLab/DSR",
    "https://github.com/HowardZhangUF/resampler"
   ]
  },
