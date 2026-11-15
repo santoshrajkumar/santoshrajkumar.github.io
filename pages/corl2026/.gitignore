@@ -1,0 +1,8 @@
+raw/
+venv/
+__pycache__/
+work/*_cache.json
+work/*.log
+work/emb.npy
+work/emb.npy.ids.json
+work/affil_batches/

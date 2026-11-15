@@ -1,0 +1,74 @@
+CoRL 2026 tally  (source: https://www.corl.org/program/accepted-papers)
+========================================================================
+Site header says: 687 accepted papers
+Unique OpenReview IDs parsed from site: 687
+  Oral O1 Generalist policies and context scaling                declared    3  parsed    3
+  Oral O2 World models and temporal representations              declared    3  parsed    3
+  Oral O3 Data, simulation and evaluation                        declared    3  parsed    3
+  Oral O4 Reinforcement learning and motion reasoning            declared    3  parsed    3
+  Oral O5 Dexterous learning, grasping and assembly              declared    3  parsed    3
+  Oral O6 Force, tactile control and manipulation planning       declared    3  parsed    3
+  Oral O7 Humanoid data, control and skills                      declared    3  parsed    3
+  Poster Poster Session 1                                        declared  228  parsed  228
+  Poster Poster Session 2                                        declared  231  parsed  231
+  Poster Poster Session 3                                        declared  228  parsed  228
+  Spotlight S1 Generalist policies, memory and transfer          declared    9  parsed    9
+  Spotlight S2 Efficient execution, world models and learning    declared    9  parsed    9
+  Spotlight S3 Human learning, dexterity and cooperation         declared    9  parsed    9
+  Spotlight S4 Touch, force and contact-rich manipulation        declared    9  parsed    9
+  Spotlight S5 Deformable manipulation, geometry and morphology  declared    9  parsed    9
+  Spotlight S6 Optimization, agentic planning and evaluation     declared    9  parsed    9
+  Spotlight S7 Humanoid locomotion and whole-body control        declared    9  parsed    9
+  Spotlight S8 Perception, navigation and autonomous systems     declared    9  parsed    9
+Orals: 21   Spotlights: 72   Poster-only: 594
+Papers with no poster slot: 0 []
+Papers in >1 poster session: 0 []
+Poster 'also presented as' badges inconsistent with oral/spotlight lists: 0
+
+Agreement of third-party sources with the CoRL site
+------------------------------------------------------------------------
+operatic-ai/corl-explorer: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 0
+gisbi-kim/conference-explorers: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 34
+    title   psNqjklVOK  site: SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiabl
+                 src : SuperMimic: Scaling Humanoid Whole-Body Control via Differentiable Wor
+    title   dhh4gmm3NK  site: VLM-Guided Contact Retargeting and Generative Partner Modeling for Hum
+                 src : VLM-Guided Contact Retargeting and Generative Partner Modeling for Dep
+    title   dYOnmedjXv  site: AnyDexRT: Calibration-Efficient Dexterous Hand Retargeting with Few-Sh
+                 src : AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Hu
+    title   DMljKr2f4O  site: VertexCBF: Improving Neural Control Barrier Functions with Vertex-Rest
+                 src : VertexCBF: Improving Neural Control Barrier Functions with Vertex-Rest
+    title   CKVUqG4YQf  site: Judge, Then Act: A Critic-Centric Vision Language Action Framework for
+                 src : Judge, Then Drive: A Critic-Centric Vision Language Action Framework f
+    title   AAn8ouEHwO  site: RARM: Confidence-Gated Progress Reward Modeling for RL in Manipulation
+                 src : Progress That Trains: Reference-Anchored Reward Modeling for Robotic M
+    title   uZalcCyrVl  site: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipul
+                 src : Prism: Counterfactual Video Generation for Humanoid Loco-Manipulation
+    title   4RLjGPEfpH  site: ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer fo
+                 src : A Systematic Study of Zero-Shot Cross-Embodiment Transfer in Vision-La
+    title   awVlNORXDS  site: PLATO: Preintegration-Based Likelihood Maximization from Accurate Traj
+                 src : PLATO: Privileged Learning from Accurate Trajectory Observations for N
+    title   XQGBZwsuXt  site: Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering
+                 src : Push the Limit: Learning Human-like High-Speed Sprinting and Aggressiv
+jaywu109/corl-2026-papers: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 0
+Author lists differ: corl-explorer vs gisbi 0; jaywu109 vs gisbi 0
+
+Merged coverage (of 687)
+------------------------------------------------------------------------
+  authors               687  (100%)
+  abstract              687  (100%)
+  keywords              687  (100%)
+  institutions          599  (87%)
+  author_affiliations   597  (87%)
+  institutions_gisbi    480  (70%)
+  countries             535  (78%)
+  arxiv                 601  (87%)
+  code                  312  (45%)
+  github                312  (45%)
+  project               521  (76%)
+  field                 687  (100%)
+  institutions by source: {'none': 88, 'arxiv+openalex': 201, 'openalex': 334, 'arxiv': 62, 'gisbi-kim (paper-level)': 2}
+  total authors listed: 5202; authors with an individual affiliation: 4607 (89%)
+
+OpenAlex: {'found': 593, 'accepted': 593, 'with_institutions': 535, 'both': 434, 'both_overlap': 412}
+arXiv author-block labels: {'labelled': 1412, 'filled': 1357, 'not_none': 53, 'not_ambiguous': 2} (papers labelled: 272)
+  ('both_overlap' = papers where OpenAlex and gisbi-kim share at least one institution)

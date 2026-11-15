@@ -1,0 +1,225 @@
+institution,dsc_papers,core_papers,country,sector
+Tsinghua University,28,6,CN,academia
+Carnegie Mellon University,26,10,US,academia
+Stanford University,21,3,US,academia
+UC Berkeley,17,4,US,academia
+Peking University,15,5,CN,academia
+ETH Zurich,14,4,CH,academia
+NVIDIA,14,3,US,industry
+Shanghai Jiao Tong University,13,3,CN,academia
+Nanyang Technological University,11,3,SG,academia
+Zhejiang University,11,1,CN,academia
+Georgia Institute of Technology,10,5,US,academia
+UT Austin,9,3,US,academia
+HKUST (Guangzhou),9,1,CN,academia
+University of Hong Kong,9,1,HK,academia
+Technical University of Munich,8,4,DE,academia
+KAIST,8,3,KR,academia
+HKUST,8,0,HK,academia
+The Chinese University of Hong Kong,8,0,HK,academia
+UC San Diego,7,4,US,academia
+University of Illinois Urbana-Champaign,7,3,US,academia
+Columbia University,7,2,US,academia
+Massachusetts Institute of Technology,7,2,US,academia
+University of Washington,7,2,US,academia
+National University of Singapore,7,1,SG,academia
+Shanghai AI Laboratory,7,1,CN,academia
+Nanjing University,7,0,CN,academia
+Shanghai Innovation Institute,7,0,CN,academia
+Amazon,6,1,US,industry
+New York University,6,1,US,academia
+Princeton University,6,0,US,academia
+University of Science and Technology of China,6,0,CN,academia
+University of Pennsylvania,5,2,US,academia
+Chinese Academy of Sciences,5,1,CN,academia
+Harvard University,5,1,US,academia
+Microsoft,5,1,US,industry
+Beijing Institute for General Artificial Intelligence,5,0,CN,academia
+Fudan University,5,0,CN,academia
+University of Sydney,5,0,AU,academia
+A*STAR,4,1,SG,academia
+CNRS,4,1,FR,academia
+Harbin Institute of Technology,4,1,CN,academia
+UCLA,4,1,US,academia
+University of Michigan,4,1,US,academia
+University of Southern California,4,1,US,academia
+University of Tokyo,4,1,JP,academia
+University of Toronto,4,1,CA,academia
+Beijing Innovation Center of Humanoid Robotics (X-Humanoid),4,0,CN,academia
+Shanghai Qi Zhi Institute,4,0,CN,academia
+RAI Institute,3,2,US,industry
+Beijing Academy of Artificial Intelligence,3,1,CN,academia
+LAAS-CNRS,3,0,FR,academia
+Meta,3,0,US,industry
+Mila,3,0,CA,academia
+TeleAI (China Telecom),3,0,CN,industry
+Zhongguancun Academy,3,0,CN,academia
+Beijing Institute of Technology,2,2,CN,academia
+EPFL,2,2,CH,academia
+Seoul National University,2,2,KR,academia
+University of North Carolina at Chapel Hill,2,2,US,academia
+DEVCOM Army Research Laboratory,2,1,US,academia
+IBM,2,1,US,industry
+Imperial College London,2,1,GB,academia
+Johns Hopkins University,2,1,US,academia
+Max Planck Institute for Intelligent Systems,2,1,DE,academia
+Noitom Robotics,2,1,CN,industry
+Purdue University,2,1,US,academia
+TU Berlin,2,1,DE,academia
+University of Massachusetts Amherst,2,1,US,academia
+University of Oxford,2,1,GB,academia
+University of Zurich,2,1,CH,academia
+Wuhan University,2,1,CN,academia
+AgiBot,2,0,CN,industry
+Australian National University,2,0,AU,academia
+Cornell University,2,0,US,academia
+DFKI,2,0,DE,academia
+Disney Research,2,0,CH,industry
+Inria,2,0,FR,academia
+Noetix Robotics,2,0,CN,industry
+PSL University,2,0,FR,academia
+Renmin University of China,2,0,CN,academia
+ShanghaiTech University,2,0,CN,academia
+Sharpa,2,0,SG,industry
+Sony,2,0,JP,industry
+Southeast University,2,0,CN,academia
+Sun Yat-sen University,2,0,CN,academia
+Texas A&M University,2,0,US,academia
+Tongji University,2,0,CN,academia
+UC Riverside,2,0,US,academia
+University of Cambridge,2,0,GB,academia
+University of Freiburg,2,0,DE,academia
+University of Maryland,2,0,US,academia
+University of Tübingen,2,0,DE,academia
+Université de Montréal,2,0,CA,academia
+Vanderbilt University,2,0,US,academia
+AUMOVIO,1,1,DE,industry
+Allen Institute for AI,1,1,US,academia
+Amii (Alberta Machine Intelligence Institute),1,1,CA,academia
+Arizona State University,1,1,US,academia
+BeingBeyond,1,1,CN,industry
+Boston University,1,1,US,academia
+California Institute of Technology,1,1,US,academia
+Dartmouth College,1,1,US,academia
+Dobot Robotics,1,1,CN,industry
+ELLIS Institute Tübingen,1,1,DE,academia
+Embry-Riddle Aeronautical University,1,1,US,academia
+Galbot,1,1,CN,industry
+Hong Kong Baptist University,1,1,HK,academia
+Hong Kong Polytechnic University,1,1,HK,academia
+INSAIT (Sofia University),1,1,BG,academia
+Institut Systèmes Intelligents et de Robotique,1,1,FR,academia
+Johannes Kepler University Linz,1,1,AT,academia
+LightSpeed Studios,1,1,CN,industry
+NASA Jet Propulsion Laboratory,1,1,US,academia
+Penn State University,1,1,US,academia
+Saxion University of Applied Sciences,1,1,NL,academia
+Shield AI,1,1,US,industry
+Sorbonne University,1,1,FR,academia
+Stockholm University,1,1,SE,academia
+Sudo AI,1,1,,industry
+Technische Hochschule Augsburg,1,1,DE,academia
+Tokyo University of Agriculture and Technology,1,1,JP,academia
+Tufts University,1,1,US,academia
+University of Alberta,1,1,CA,academia
+University of Groningen,1,1,NL,academia
+University of Houston,1,1,US,academia
+University of Twente,1,1,NL,academia
+University of Utah,1,1,US,academia
+Waseda University,1,1,JP,academia
+Washington University in St. Louis,1,1,US,academia
+Zhejiang Humanoid Robot Innovation Center,1,1,CN,academia
+vivo,1,1,CN,industry
+AIST,1,0,JP,academia
+Agency for Defense Development,1,0,KR,academia
+Analog Devices,1,0,US,industry
+Anyverse Dynamics,1,0,,industry
+Archon Robotics,1,0,,industry
+Artificial and Natural Intelligence Toulouse Institute,1,0,,academia
+Beijing Forestry University,1,0,CN,academia
+Beijing National Research Center for Information Science and Technology,1,0,,academia
+Beijing Normal University,1,0,CN,academia
+Beijing University of Civil Engineering and Architecture,1,0,CN,academia
+Beijing University of Posts and Telecommunications,1,0,CN,academia
+Beijing Zhongke Huiling Robot Technology,1,0,CN,industry
+Booking.com,1,0,NL,industry
+Brown University,1,0,US,academia
+CARIAD,1,0,DE,industry
+Carl von Ossietzky Universität Oldenburg,1,0,DE,academia
+Center for Integrative Neuroscience,1,0,,academia
+Central South University,1,0,CN,academia
+Cisco,1,0,US,industry
+Communication University of China,1,0,CN,academia
+Config,1,0,KR,industry
+DeepCybo,1,0,CN,industry
+Département d'Informatique,1,0,FR,academia
+"EFORT Intelligent Robot Co., Ltd.",1,0,,industry
+East China University of Science and Technology,1,0,CN,academia
+Flanders Make,1,0,BE,academia
+Fysics AI Technologies,1,0,,industry
+George Mason University,1,0,US,academia
+Hertie Institute for Clinical Brain Research,1,0,,academia
+Honda Research Institute,1,0,JP,industry
+Hong Kong Embodied AI Lab,1,0,,academia
+Horizon Robotics,1,0,CN,industry
+Huawei,1,0,CN,industry
+Huazhong University of Science and Technology,1,0,CN,academia
+Infinigence AI,1,0,CN,industry
+Institute for Infocomm Research (A*STAR),1,0,SG,academia
+Institute of Science Tokyo,1,0,JP,academia
+"Interdisciplinary Centre for Security, Reliability and Trust (Univ. of Luxembourg)",1,0,LU,academia
+Italian Institute of Technology,1,0,IT,academia
+Jilin University,1,0,CN,academia
+KU Leuven,1,0,BE,academia
+Karlsruhe Institute of Technology,1,0,DE,academia
+Keio University,1,0,JP,academia
+Korea University,1,0,KR,academia
+McGill University,1,0,CA,academia
+McMaster University,1,0,CA,academia
+Mercedes-Benz,1,0,DE,industry
+Mines Paris - PSL,1,0,FR,academia
+Mondo Robotics,1,0,,industry
+Northeastern University,1,0,US,academia
+Northwestern University,1,0,US,academia
+Oregon State University,1,0,US,academia
+Physical Intelligence,1,0,US,industry
+Politecnico di Milano,1,0,IT,academia
+Polixir Technologies,1,0,CN,industry
+Polytechnique Montréal,1,0,CA,academia
+Qualcomm,1,0,US,industry
+RobotEra,1,0,CN,industry
+Robotics Institute Germany,1,0,DE,academia
+Sanctuary AI,1,0,CA,industry
+Shanghai University,1,0,CN,academia
+Shenzhen Loop Area Institute,1,0,CN,academia
+Singapore Institute of Manufacturing Technology (A*STAR),1,0,SG,academia
+Skild AI,1,0,US,industry
+Smart Systems Institute,1,0,SG,academia
+Southern University of Science and Technology,1,0,CN,academia
+Striding.AI,1,0,CN,industry
+TARS Robotics,1,0,CN,industry
+TIER IV,1,0,JP,industry
+Technical University of Darmstadt,1,0,DE,academia
+"The Chinese University of Hong Kong, Shenzhen",1,0,CN,academia
+Torc Robotics,1,0,US,industry
+UC Irvine,1,0,US,academia
+UC Santa Barbara,1,0,US,academia
+University of Edinburgh,1,0,GB,academia
+University of Electronic Science and Technology of China,1,0,CN,academia
+University of Florida,1,0,US,academia
+University of Georgia,1,0,US,academia
+University of Luxembourg,1,0,LU,academia
+University of Technology Sydney,1,0,AU,academia
+University of Toulouse,1,0,FR,academia
+University of Wisconsin–Madison,1,0,US,academia
+Valeo,1,0,FR,industry
+VinRobotics,1,0,VN,industry
+VinUniversity,1,0,VN,academia
+Westlake University,1,0,CN,academia
+Worcester Polytechnic Institute,1,0,US,academia
+Xi'an Jiaotong University,1,0,CN,academia
+Xiaomi,1,0,CN,industry
+Xinjiang University,1,0,CN,academia
+Yale University,1,0,US,academia
+hessian.AI,1,0,DE,academia
+École Normale Supérieure,1,0,FR,academia

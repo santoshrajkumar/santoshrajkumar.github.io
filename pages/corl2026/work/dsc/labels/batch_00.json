@@ -1,0 +1,692 @@
+[
+ {
+  "id": "DEPCm83K5I",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "RL for dexterous manipulation guided by contact-wrench similarity reward; policy learning, no controller design"
+ },
+ {
+  "id": "6T2ebANGy5",
+  "tier": "out",
+  "sub": null,
+  "reason": "Data-poisoning attacks on robot world models; security of learning pipeline, not control"
+ },
+ {
+  "id": "xHjEeyHkhY",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Learns object-centric SE(3) rigid dynamics used for closed-loop MPC replanning in manipulation"
+ },
+ {
+  "id": "0w0ylGezd5",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cross-embodiment world model generating synthetic robot videos for data, no planning or control use"
+ },
+ {
+  "id": "s8ZiyIAn3z",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Self-play PPO driving policy fine-tuned with human imitation reward; RL policy learning"
+ },
+ {
+  "id": "ZyLuLA1Tsy",
+  "tier": "out",
+  "sub": null,
+  "reason": "Post-pruning recovery for compressed VLA models; model compression"
+ },
+ {
+  "id": "TscNG5Wcwn",
+  "tier": "out",
+  "sub": null,
+  "reason": "Signature-kernel entropy metric for curating robot demonstration datasets"
+ },
+ {
+  "id": "FsgXevFLkn",
+  "tier": "out",
+  "sub": null,
+  "reason": "Asynchronous dual-system generative VLA architecture for dexterous manipulation; no controller contribution"
+ },
+ {
+  "id": "RAA96LpIxJ",
+  "tier": "out",
+  "sub": null,
+  "reason": "Fingertip vision-tactile sensor and multimodal fusion policy; sensing hardware"
+ },
+ {
+  "id": "MYYKl10JKD",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric human demo capture and retargeting to train mobile manipulation VLA"
+ },
+ {
+  "id": "ult1vxdeUb",
+  "tier": "out",
+  "sub": null,
+  "reason": "Renders contact signals into images for visuomotor policies; sensing/representation"
+ },
+ {
+  "id": "RExYYVsLbT",
+  "tier": "out",
+  "sub": null,
+  "reason": "Predicts pixel-level geodesic planning costs from images; perception for navigation"
+ },
+ {
+  "id": "QDJCwo9pmt",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online video temporal grounding for manipulation failure detection and description"
+ },
+ {
+  "id": "hSRtOgnkTM",
+  "tier": "out",
+  "sub": null,
+  "reason": "Visuo-tactile imitation policies with augmentation for submerged manipulation; sensing"
+ },
+ {
+  "id": "HfHTPpDBYr",
+  "tier": "out",
+  "sub": null,
+  "reason": "Active preference queries for reward learning with explanations; human-robot teaching"
+ },
+ {
+  "id": "2LNbCnzTQk",
+  "tier": "out",
+  "sub": null,
+  "reason": "Automated architecture search for modular embodied LLM agents"
+ },
+ {
+  "id": "thG2jwuii6",
+  "tier": "out",
+  "sub": null,
+  "reason": "Smartphone AR system for robot-free corrective data collection"
+ },
+ {
+  "id": "0cK9Wf9Eeq",
+  "tier": "out",
+  "sub": null,
+  "reason": "Coding-agent harness automating real-world policy improvement loops"
+ },
+ {
+  "id": "CKVUqG4YQf",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLA critic refines driving trajectories; VLA model and dataset"
+ },
+ {
+  "id": "Sal8Urvt1F",
+  "tier": "out",
+  "sub": null,
+  "reason": "Image generation models produce BEV traversability masks for navigation; perception"
+ },
+ {
+  "id": "03qRtmw4qx",
+  "tier": "out",
+  "sub": null,
+  "reason": "Additively compositional latent action model from video; representation learning"
+ },
+ {
+  "id": "bjPoaczBRX",
+  "tier": "out",
+  "sub": null,
+  "reason": "Flow-matching prediction of base pose for mobile manipulation policies; language grounding"
+ },
+ {
+  "id": "Z35baC5jBe",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Advantage-weighted offline RL steering of frozen generative manipulation policies"
+ },
+ {
+  "id": "ecN9efL5zs",
+  "tier": "out",
+  "sub": null,
+  "reason": "Procedural generator of articulated simulation assets"
+ },
+ {
+  "id": "802PZFmFGd",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "LLM-guided evolutionary synthesis of resource-efficient mode-switching robot controllers"
+ },
+ {
+  "id": "hWuk4y2AeR",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "MCTS in physics simulation distilled into policy-value model for rearrangement"
+ },
+ {
+  "id": "xOhVCWilYJ",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM affordance heatmaps for spatial grounding; perception/language grounding"
+ },
+ {
+  "id": "39Q3r1h0mD",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Learning-based MPC: residual dynamics and learned critic inside batched GPU iLQR"
+ },
+ {
+  "id": "gO08puaqia",
+  "tier": "core",
+  "sub": "ID",
+  "reason": "Differentiable MPM with residual dynamics correction and online material identification for deformables"
+ },
+ {
+  "id": "xn8Hwa4hpq",
+  "tier": "out",
+  "sub": null,
+  "reason": "Shared latent tactile representation across sensor types"
+ },
+ {
+  "id": "Jq0aPlIS34",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Action-conditioned latent world model predicts failure before contact as execution monitor"
+ },
+ {
+  "id": "NHE9q2cz1n",
+  "tier": "out",
+  "sub": null,
+  "reason": "Test-time-training long-context VLA robot policy"
+ },
+ {
+  "id": "3M39Fmw8Mx",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-view routing for VLA models; perception architecture"
+ },
+ {
+  "id": "l8hOz8loVg",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Object-aware whole-body loco-manipulation controller absorbing payload contact wrench on humanoid"
+ },
+ {
+  "id": "PAtsmTswIr",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Imitation-learning I/O design conditioning on command and execution for contact tasks"
+ },
+ {
+  "id": "nG11dAaFIX",
+  "tier": "out",
+  "sub": null,
+  "reason": "Grasp-conditioned dependency graphs for clutter retrieval task planning"
+ },
+ {
+  "id": "2Z9666X2B7",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Whole-body humanoid VLA navigation policy trained on dynamically feasible synthetic motions"
+ },
+ {
+  "id": "dE7KjOl8yu",
+  "tier": "out",
+  "sub": null,
+  "reason": "Multi-modal physically grounded sensor simulator; perception"
+ },
+ {
+  "id": "Q53ayGo2IE",
+  "tier": "out",
+  "sub": null,
+  "reason": "Streaming feed-forward 3D reconstruction and visual mapping; perception"
+ },
+ {
+  "id": "gQFYIM5dJy",
+  "tier": "out",
+  "sub": null,
+  "reason": "Analysis of compositional generalization in instruction-space data coverage"
+ },
+ {
+  "id": "Z04KxYWC6V",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D semantic-aware VLA representations"
+ },
+ {
+  "id": "SUV5PudsyI",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Termination-based constrained RL fix for spacecraft docking with sim-to-real"
+ },
+ {
+  "id": "2NBZAh51If",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Projection-guided resampling to make flow-matching policies satisfy constraints"
+ },
+ {
+  "id": "0gwpqWBvhJ",
+  "tier": "out",
+  "sub": null,
+  "reason": "Implicit neural representations for policy identity from behavior data"
+ },
+ {
+  "id": "8MNr0evyJT",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Retargeting-guided residual RL with system identification for sim-to-real dexterous control"
+ },
+ {
+  "id": "4ar3F6Obiq",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Diffusion transformer generating coordinated constrained multi-robot trajectories"
+ },
+ {
+  "id": "trTMmn2U1g",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "VLM-generated motions tracked by humanoid RL policy; learning from human data"
+ },
+ {
+  "id": "Av4ykyMvpX",
+  "tier": "out",
+  "sub": null,
+  "reason": "Latent alignment of vision-language embeddings to expert navigation policy"
+ },
+ {
+  "id": "ODnu3ohjEQ",
+  "tier": "out",
+  "sub": null,
+  "reason": "Bimanual dexterous grasp dataset and grasp generation model"
+ },
+ {
+  "id": "9SnXCYklB0",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "VLA predicts time-varying stiffness executed via geometric impedance control"
+ },
+ {
+  "id": "uSrlwzdTIC",
+  "tier": "out",
+  "sub": null,
+  "reason": "Floorplan-based visual localization; perception"
+ },
+ {
+  "id": "loMfT7cfYl",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Sim-to-real directional compliance via predicted task frame and gains with admittance control"
+ },
+ {
+  "id": "GX5xey9ade",
+  "tier": "out",
+  "sub": null,
+  "reason": "Automatic spatial annotation of robot demos with reliability scores"
+ },
+ {
+  "id": "Ti3oK55n1H",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Learned residual torque adaptation module compensates dynamics mismatch for zero-shot transfer"
+ },
+ {
+  "id": "19iADsbO9A",
+  "tier": "out",
+  "sub": null,
+  "reason": "Force-input injection for VLA post-training with DAgger; policy input design"
+ },
+ {
+  "id": "JQvRoFU5aS",
+  "tier": "out",
+  "sub": null,
+  "reason": "Milestone-based failure recovery for foresight VLAs"
+ },
+ {
+  "id": "J5RZyNKq8z",
+  "tier": "out",
+  "sub": null,
+  "reason": "Egocentric video pretraining modeling active perception"
+ },
+ {
+  "id": "DwRC6la1Kr",
+  "tier": "out",
+  "sub": null,
+  "reason": "Demo-conditioned VLA with end-effector trace prediction and benchmark"
+ },
+ {
+  "id": "WF4X17Al2r",
+  "tier": "out",
+  "sub": null,
+  "reason": "Scaling VLA pretraining on egocentric human video"
+ },
+ {
+  "id": "IY6ti85pg0",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Model-based safe references and CLF reward guide RL for humanoid sparse-foothold locomotion"
+ },
+ {
+  "id": "RdvH11pAfJ",
+  "tier": "out",
+  "sub": null,
+  "reason": "Audit of robot manipulation benchmarks' validity"
+ },
+ {
+  "id": "xfZJ2GKrZG",
+  "tier": "out",
+  "sub": null,
+  "reason": "GPU differentiable optimization toolkit for grasps and geometry"
+ },
+ {
+  "id": "wYLEzeAKFI",
+  "tier": "core",
+  "sub": "SF",
+  "reason": "Sample complexity bounds for sampling-based reachable-set estimation of dynamical systems"
+ },
+ {
+  "id": "ShBMWDRPVu",
+  "tier": "out",
+  "sub": null,
+  "reason": "3D interaction-trace world model for policy conditioning, no planning"
+ },
+ {
+  "id": "MWj9u2VZPx",
+  "tier": "out",
+  "sub": null,
+  "reason": "Single-image real-to-sim scene generation"
+ },
+ {
+  "id": "qxboQ98QN4",
+  "tier": "out",
+  "sub": null,
+  "reason": "Modeling implications of human feedback for preference learning"
+ },
+ {
+  "id": "jQAOksG9Bd",
+  "tier": "out",
+  "sub": null,
+  "reason": "Continual skill consolidation for shared robot policy; generic continual learning"
+ },
+ {
+  "id": "f3Dic5dJnz",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Tactile reflex controller shapes teleop demos for force-sensitive imitation learning"
+ },
+ {
+  "id": "vQmF2cR04D",
+  "tier": "out",
+  "sub": null,
+  "reason": "Robotized human video dataset for VLA pretraining"
+ },
+ {
+  "id": "XJgz1iK29G",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "LLM-guided search with kinodynamic trajectory optimization for humanoid loco-manipulation"
+ },
+ {
+  "id": "QGzgVP8RnK",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Residual RL copilot for shared-autonomy teleoperation trained with human surrogate"
+ },
+ {
+  "id": "rTX0zr5FjT",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Single-pass RS-IMLE multisensory imitation policy for real-time control"
+ },
+ {
+  "id": "hvArz6F8eA",
+  "tier": "out",
+  "sub": null,
+  "reason": "Benchmark of VLM collision grounding for safety monitoring"
+ },
+ {
+  "id": "l0bwpzWRKy",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaze-based human intention modeling for manipulation learning"
+ },
+ {
+  "id": "hCG12ifteJ",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "World model as high-level subgoal planner for hierarchical VLA"
+ },
+ {
+  "id": "UMHg65UHcY",
+  "tier": "out",
+  "sub": null,
+  "reason": "Open-vocabulary 3D affordance detection; perception"
+ },
+ {
+  "id": "7vjPgJ7x2b",
+  "tier": "out",
+  "sub": null,
+  "reason": "Driving VLA safety benchmarks and conflict reasoning"
+ },
+ {
+  "id": "bXQv3Kn5qL",
+  "tier": "out",
+  "sub": null,
+  "reason": "MLLM vision-language navigation with explicit world representation"
+ },
+ {
+  "id": "uMgOYXmgn2",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Mamba-based humanoid locomotion policy with observation masking; policy architecture"
+ },
+ {
+  "id": "4pwzyVBjXY",
+  "tier": "core",
+  "sub": "LC",
+  "reason": "Dynamic-regret analysis of replanning schedules in time-varying MDPs with estimated dynamics"
+ },
+ {
+  "id": "W443fVglzC",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Online adaptation of world model with targeted exploration under MPC for rover"
+ },
+ {
+  "id": "CSYA6oHdlE",
+  "tier": "core",
+  "sub": "OC",
+  "reason": "Deep-unfolded conic solvers accelerate covariance steering and robust control SDPs"
+ },
+ {
+  "id": "hSZ0lT7TCp",
+  "tier": "out",
+  "sub": null,
+  "reason": "Real-time user steering of VLA action sampling"
+ },
+ {
+  "id": "EfkPQTtjky",
+  "tier": "out",
+  "sub": null,
+  "reason": "World-action model co-training targets for human-to-robot transfer"
+ },
+ {
+  "id": "XnIdgAtBX7",
+  "tier": "out",
+  "sub": null,
+  "reason": "Domain-invariant latent lookahead to reduce VLA spurious correlations"
+ },
+ {
+  "id": "gqmJ7SIK5Q",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Hindsight perturbation for compliant force control in humanoid RL controllers"
+ },
+ {
+  "id": "05nE8s5e7I",
+  "tier": "out",
+  "sub": null,
+  "reason": "Streaming action decoding to reduce VLA inference latency"
+ },
+ {
+  "id": "R1fgJZLFnx",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Tactile-informed unified whole-body controller for quadruped loco-manipulation with grasp regulation"
+ },
+ {
+  "id": "8QEFjWSgyu",
+  "tier": "out",
+  "sub": null,
+  "reason": "Functional affordance latent space for planning; perception reasoning"
+ },
+ {
+  "id": "u2dtQWAFQo",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Contact-aware low-rank adaptation of humanoid motion tracking controller"
+ },
+ {
+  "id": "rnp2Bj4RUX",
+  "tier": "out",
+  "sub": null,
+  "reason": "LLM safe task planning with semantic graph memory"
+ },
+ {
+  "id": "x05Rf7L7H4",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Adversarial-disturbance state criticality measure reweighting behavior cloning"
+ },
+ {
+  "id": "yMD1ykviND",
+  "tier": "out",
+  "sub": null,
+  "reason": "Decoupling texture and force in vision tactile sensor images"
+ },
+ {
+  "id": "c4Z0Y8gvnI",
+  "tier": "out",
+  "sub": null,
+  "reason": "Large-scale simulated data for zero-shot manipulation policies"
+ },
+ {
+  "id": "w2H90oEzfp",
+  "tier": "out",
+  "sub": null,
+  "reason": "sEMG wristband force-annotated human demonstrations"
+ },
+ {
+  "id": "awVlNORXDS",
+  "tier": "core",
+  "sub": "ES",
+  "reason": "Learns IMU bias dynamics NODE and noise covariances for inertial odometry estimation"
+ },
+ {
+  "id": "7KV78k8rcv",
+  "tier": "out",
+  "sub": null,
+  "reason": "End-effector masking for cross-embodiment VLA transfer"
+ },
+ {
+  "id": "656PH9MVla",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Fleet-scale offline-to-online RL post-training of VLA policies"
+ },
+ {
+  "id": "mzGjyghofG",
+  "tier": "out",
+  "sub": null,
+  "reason": "Occlusion-aware grasping via amodal reconstruction; perception"
+ },
+ {
+  "id": "kGLogzKtYq",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM tool and affordance grounding"
+ },
+ {
+  "id": "LwMNsyCnCk",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM self-distillation for language-conditioned navigation"
+ },
+ {
+  "id": "ddzWaOmWZE",
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Latent predictive world model forecasts dynamic scenes for VLA action"
+ },
+ {
+  "id": "3Ex2nEGqHP",
+  "tier": "core",
+  "sub": "RC",
+  "reason": "Hardening shared humanoid whole-body controller for long-horizon skill composition"
+ },
+ {
+  "id": "9gWuAC6Oum",
+  "tier": "out",
+  "sub": null,
+  "reason": "Online functional scene-graph SLAM; perception"
+ },
+ {
+  "id": "Br2rXixvyN",
+  "tier": "out",
+  "sub": null,
+  "reason": "Benchmark for generalization of manipulation policies"
+ },
+ {
+  "id": "db6WHoqH91",
+  "tier": "out",
+  "sub": null,
+  "reason": "Generative data augmentation for manipulation"
+ },
+ {
+  "id": "XA0dFQQlqP",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "End-to-end imitation visuomotor policy for soft vine robot"
+ },
+ {
+  "id": "o4lQTMHyTc",
+  "tier": "out",
+  "sub": null,
+  "reason": "Cue-conditioned adapter steering VLA for delivery"
+ },
+ {
+  "id": "JbpsGhdjs9",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Video-reconstructed motion-terrain data for humanoid RL motion learning"
+ },
+ {
+  "id": "mHCqiRUiHi",
+  "tier": "out",
+  "sub": null,
+  "reason": "1-bit VLA model compression"
+ },
+ {
+  "id": "xEOer7gykg",
+  "tier": "out",
+  "sub": null,
+  "reason": "Gaze prompts for VLA fine-tuning"
+ },
+ {
+  "id": "GeENMbQXhi",
+  "tier": "out",
+  "sub": null,
+  "reason": "VLM-to-VLA adaptation with language-action grounding"
+ },
+ {
+  "id": "QFFjW11NYa",
+  "tier": "out",
+  "sub": null,
+  "reason": "Adversarial patch attack on VLA policies"
+ },
+ {
+  "id": "RS2INStAhX",
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "PPO visuomotor skill policies composed for telescope segment phasing"
+ },
+ {
+  "id": "PEWWDUL10X",
+  "tier": "out",
+  "sub": null,
+  "reason": "Energy-field guidance for VLA action sampling"
+ }
+]

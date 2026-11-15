@@ -1,0 +1,364 @@
+# expected area codes (any of) | regex a relevant title/abstract should match | topic query
+# codes: OC optimal/MPC, ID identification, SF safety, ES estimation, LC learning-based control, RC robotics, MB model-based RL, NO neural ODE/PDE, TD learning dynamics, TS time series, SD decision making
+# ---------- optimal control & MPC ----------
+OC|model predictive|model predictive control
+OC,LC|model predictive|learning-based model predictive control
+OC|differentiable (mpc|model predictive|optimi)|differentiable MPC
+OC|mpc|nonlinear MPC with neural network dynamics
+OC|robust (mpc|model predictive)|tube-based robust MPC
+OC|stochastic (mpc|model predictive|optimal control)|stochastic model predictive control with chance constraints
+OC|mpc|explicit MPC approximated by neural networks
+OC|mpc|real-time MPC on embedded hardware
+OC,RC|mpc|MPC for legged locomotion
+OC|economic|economic model predictive control
+OC|lqr|linear quadratic regulator
+OC,LC|lqr|LQR with unknown dynamics
+OC|lqg|LQG control
+OC|riccati|Riccati equation
+OC|hamilton.?jacobi|Hamilton-Jacobi-Bellman equation
+OC|hjb|solving HJB equations with neural networks
+OC|pontryagin|Pontryagin maximum principle
+OC|trajectory optimi|trajectory optimization
+OC|ilqr|iterative LQR
+OC|ddp|differential dynamic programming
+OC|direct (collocation|shooting)|direct collocation
+OC|multiple shooting|multiple shooting for optimal control
+OC|optimal control|optimal control of nonlinear systems
+OC|time.?optimal|minimum-time optimal control
+OC|path integral|path integral control
+OC|mppi|model predictive path integral
+OC|cross.?entropy|cross-entropy method for planning
+OC|sampling.?based mpc|sampling-based MPC
+OC|diffusion|diffusion models for trajectory optimization
+OC|constrained optimal control|constrained optimal control
+OC|warm.?start|warm-starting optimal control solvers
+OC|amortiz|amortized optimization for control
+OC|convex|convex optimization for control
+OC|sequential quadratic|sequential quadratic programming for control
+OC|admm|ADMM for model predictive control
+OC|policy optimi|direct policy optimization
+OC|receding horizon|receding horizon control
+OC|terminal (cost|constraint|set)|terminal cost learning for MPC
+OC|value function|value function approximation for optimal control
+OC|mean.?field control|mean-field control
+OC|optimal transport|optimal transport and control
+OC|schr.?dinger bridge|Schrödinger bridge
+OC|stochastic optimal control|stochastic optimal control for sampling
+OC|risk.?sensitive|risk-sensitive control
+OC|minimax|minimax control
+OC|infinite.?horizon|infinite-horizon optimal control
+OC|bilevel|bilevel optimization for control design
+OC|inverse optimal control|inverse optimal control
+OC|neural network policy|neural network control policies trained with optimal control
+OC|koopman|Koopman model predictive control
+# ---------- system identification & learned dynamics ----------
+ID|system identification|system identification
+ID|nonlinear system identification|nonlinear system identification
+ID|linear system|identification of linear dynamical systems from data
+ID|sample complexity|finite-sample system identification
+ID|koopman|Koopman operator
+ID|koopman|Koopman autoencoder
+ID|edmd|extended dynamic mode decomposition
+ID|dynamic mode decomposition|dynamic mode decomposition
+ID|sindy|sparse identification of nonlinear dynamics
+ID|equation discovery|equation discovery from data
+ID|symbolic regression|symbolic regression for dynamics
+ID|hybrid|hybrid system identification
+ID|switching|switched linear systems
+ID|piecewise affine|piecewise affine systems
+ID|state.?space model|state-space model identification
+ID|subspace identification|subspace identification
+ID|latent dynamics|latent dynamics models for control
+ID|world model|world models for control
+ID|behavioral|behavioral systems theory
+ID|willems|Willems fundamental lemma
+ID|data.?driven control|data-driven control
+ID|input.?output|input-output system identification
+ID|bilinear|bilinear dynamics models
+ID|structured|structured world models
+ID|physics.?informed|physics-informed system identification
+ID|gaussian process|Gaussian process dynamics models
+ID|operator learning|operator learning for dynamical systems
+ID|transfer operator|transfer operators
+ID|invariant|learning invariant manifolds
+ID|lifting|lifting nonlinear dynamics to linear
+ID|partial observ|identification under partial observation
+ID|active learning|active learning for system identification
+ID|experiment design|optimal experiment design for identification
+ID|persisten(t|cy) of excitation|persistence of excitation
+ID|closed.?loop identification|closed-loop identification
+ID|delay|time-delay systems identification
+ID|linear parameter.?varying|linear parameter-varying systems
+ID|recurrent|recurrent neural networks as dynamical systems models
+ID|neural ode|neural ODE models for control
+ID|conservation|learning conservative dynamics
+ID|hamiltonian|Hamiltonian neural networks for control
+ID|lagrangian|Lagrangian dynamics learning
+ID|port.?hamiltonian|port-Hamiltonian systems
+ID|stable dynamics|learning stable dynamical systems
+ID|contraction|contracting neural dynamics
+# ---------- safety & certificates ----------
+SF|lyapunov|Lyapunov function
+SF|neural lyapunov|neural Lyapunov functions
+SF|lyapunov|learning Lyapunov functions for neural network controllers
+SF|barrier|control barrier functions
+SF|barrier|neural control barrier functions
+SF|safety filter|safety filters
+SF|reachab|reachability analysis
+SF|hamilton.?jacobi reachab|Hamilton-Jacobi reachability
+SF|forward invariant|forward invariance
+SF|contraction|contraction theory
+SF|robust stab|robust stability
+SF|input.?to.?state|input-to-state stability
+SF|dissipativ|dissipativity
+SF|passiv|passivity
+SF|verif|formal verification of neural network controllers
+SF|certif|stability certificates
+SF|region of attraction|region of attraction estimation
+SF|sum.?of.?squares|sum-of-squares programming
+SF|safe (reinforcement|rl)|safe reinforcement learning with certificates
+SF|shield|shielding for safe control
+SF|conformal|conformal prediction for safe control
+SF|chance.?constrain|chance-constrained control
+SF|robust control|robust control
+SF|h.?(infinity|∞)|H-infinity control
+SF|lipschitz|Lipschitz constrained controllers
+SF|adversarial|adversarial robustness of control policies
+SF|signal temporal logic|signal temporal logic
+SF|temporal logic|temporal logic specifications
+SF|runtime monitor|runtime monitoring
+SF|invariant set|invariant sets
+SF|viability|viability kernel
+SF|stabiliz|stabilization of nonlinear systems
+SF|converse lyapunov|converse Lyapunov theorems
+SF|integral quadratic|integral quadratic constraints
+SF|safe exploration|safe exploration
+SF|collision|collision avoidance with guarantees
+SF|probabilistic safety|probabilistic safety guarantees
+SF|barrier certificate|barrier certificates for stochastic systems
+SF|stability|stability of learned controllers
+SF|robust|robustness to model uncertainty
+# ---------- estimation & filtering ----------
+ES|kalman|Kalman filter
+ES|kalman|Kalman filtering and state estimation with learned models
+ES|extended kalman|extended Kalman filter
+ES|unscented|unscented Kalman filter
+ES|particle filter|particle filter
+ES|state estimation|state estimation
+ES|observer|nonlinear observers
+ES|observer|learning-based observer design
+ES|smooth|Bayesian smoothing
+ES|data assimilation|data assimilation
+ES|ensemble kalman|ensemble Kalman filter
+ES|filter|differentiable filters
+ES|filter|neural network filtering
+ES|sensor fusion|sensor fusion
+ES|moving horizon|moving horizon estimation
+ES|bayesian filter|Bayesian filtering
+ES|hidden markov|hidden Markov models
+ES|variational|variational inference for state-space models
+ES|latent state|latent state inference
+ES|tracking|target tracking
+ES|localization|robot localization
+ES|slam|simultaneous localization and mapping
+ES|uncertainty|uncertainty propagation in dynamical systems
+ES|parameter estimation|parameter estimation in dynamical systems
+ES|fault|fault detection
+ES|anomaly|anomaly detection in control systems
+ES|change.?point|change-point detection in dynamics
+ES|stochastic differential|filtering for stochastic differential equations
+ES|nonlinear filtering|nonlinear filtering
+ES|observab|observability
+# ---------- learning-based & adaptive control theory ----------
+LC|adaptive control|adaptive control
+LC|adaptive|adaptive control with neural networks
+LC|online control|online control
+LC|regret|regret bounds for control
+LC|non.?stochastic|non-stochastic control
+LC|online (lqr|linear quadratic)|online LQR
+LC|unknown|control of unknown linear systems
+LC|sample complexity|sample complexity of learning to control
+LC|policy gradient|policy gradient for linear quadratic control
+LC|system level synthesis|system level synthesis
+LC|distributed|distributed control
+LC|multi.?agent|multi-agent control
+LC|networked|networked control systems
+LC|consensus|consensus protocols
+LC|pde|control of partial differential equations
+LC|boundary control|boundary control of PDEs
+LC|delay|control of time-delay systems
+LC|iterative learning|iterative learning control
+LC|meta|meta-learning for adaptive control
+LC|in.?context|in-context learning for control
+LC|transformer|transformers as controllers
+LC|foundation model|foundation models for control
+LC|gain schedul|gain scheduling
+LC|pid|PID tuning with learning
+LC|feedback linearization|feedback linearization
+LC|backstepping|backstepping control
+LC|sliding mode|sliding mode control
+LC|disturbance|disturbance rejection
+LC|robust adaptive|robust adaptive control
+LC|identification.*control|dual control
+LC|exploration|exploration-exploitation in adaptive control
+LC|youla|Youla parameterization
+LC|neural network controller|neural network controllers with guarantees
+LC|kernel|kernel methods for control
+LC|reinforcement learning|reinforcement learning as control theory
+LC|frequency domain|frequency-domain control
+LC|optimal feedback|learning optimal feedback laws
+LC|imitation|imitation learning of controllers
+LC|behavior cloning|behavior cloning stability
+LC|event.?triggered|event-triggered control
+LC|quantiz|quantized control
+LC|game|linear quadratic games
+LC|decentraliz|decentralized control
+LC|swarm|swarm control
+LC|traffic|traffic control
+LC|power (grid|system)|power grid control
+LC|frequency regulation|frequency regulation in power systems
+LC|building|HVAC and building control
+LC|plasma|plasma control in tokamaks
+LC|fluid|flow control
+LC|chemical|chemical process control
+LC|epidemic|epidemic control
+LC|vehicle|autonomous vehicle control
+LC|quadrotor|quadrotor control
+LC|spacecraft|spacecraft control
+# ---------- robotics & embodied control ----------
+RC|locomotion|legged locomotion control
+RC|humanoid|humanoid whole-body control
+RC|manipulation|robot manipulation control
+RC|contact|contact-rich manipulation
+RC|dexterous|dexterous manipulation
+RC|grasp|grasping
+RC|sim.?to.?real|sim-to-real transfer of controllers
+RC|quadruped|quadruped robots
+RC|drone|drone flight control
+RC|aerial|aerial robotics
+RC|underwater|underwater robots
+RC|soft robot|soft robot control
+RC|motion planning|motion planning
+RC|kinodynamic|kinodynamic planning
+RC|impedance|impedance control
+RC|force control|force control
+RC|visuomotor|visuomotor policies
+RC|diffusion polic|diffusion policies
+RC|vision.?language.?action|vision-language-action models
+RC|navigation|robot navigation
+RC|autonomous driving|autonomous driving
+RC|racing|autonomous racing
+RC|tracking control|trajectory tracking control
+RC|whole.?body|whole-body MPC
+RC|centroidal|centroidal dynamics
+RC|jumping|agile jumping
+RC|teleoperation|teleoperation
+RC|exoskeleton|exoskeleton control
+RC|prosthe|prosthesis control
+RC|surgical|surgical robots
+# ---------- model-based RL & world models ----------
+MB|model.?based reinforcement|model-based reinforcement learning
+MB|world model|world models for planning
+MB|dreamer|Dreamer-style latent imagination
+MB|dyna|Dyna-style planning
+MB|offline|model-based offline reinforcement learning
+MB|planning|planning with learned models
+MB|mcts|Monte Carlo tree search with learned dynamics
+MB|uncertainty|model uncertainty in model-based RL
+MB|ensemble|probabilistic ensembles for dynamics
+MB|video|video world models for control
+MB|latent|latent space planning
+MB|value equivalen|value-equivalent models
+MB|compounding|compounding error in learned models
+MB|horizon|long-horizon prediction with world models
+MB|reward|reward learning with world models
+# ---------- neural ODE/PDE ----------
+NO|neural ode|neural ordinary differential equations
+NO|neural (sde|stochastic)|neural stochastic differential equations
+NO|controlled differential|neural controlled differential equations
+NO|neural operator|neural operators
+NO|fourier neural operator|Fourier neural operator
+NO|pde|PDE surrogate models
+NO|physics.?informed|physics-informed neural networks
+NO|simulat|learned simulators
+NO|turbulen|turbulence modeling
+NO|fluid|fluid dynamics surrogates
+NO|weather|weather forecasting
+NO|climate|climate modeling
+NO|molecular dynamics|molecular dynamics
+NO|symplectic|symplectic integrators
+NO|multiscale|multiscale dynamics
+# ---------- learning dynamics ----------
+TD|gradient flow|gradient flow analysis of training
+TD|training dynamics|dynamical systems view of neural network training
+TD|edge of stability|edge of stability
+TD|optimiz|optimizers as dynamical systems
+TD|feedback|control-theoretic analysis of optimization algorithms
+TD|mean.?field|mean-field limit of neural networks
+TD|neural tangent|neural tangent kernel dynamics
+TD|attractor|attractors in recurrent networks
+TD|state space model|state space models for sequence modeling stability
+TD|transformer|transformers as dynamical systems
+TD|langevin|Langevin dynamics
+TD|diffusion model|diffusion models as stochastic dynamics
+TD|momentum|momentum methods continuous-time analysis
+TD|chaos|chaos in learning dynamics
+TD|game dynamics|learning in games dynamics
+# ---------- time series ----------
+TS|forecast|time series forecasting of dynamical systems
+TS|chaotic|chaotic system forecasting
+TS|reconstruction|dynamical system reconstruction
+TS|reservoir|reservoir computing
+TS|causal|causal discovery in time series
+TS|irregular|irregularly sampled time series
+TS|lorenz|Lorenz attractor
+TS|neural dynamics|neural population dynamics
+TS|embedding|delay embedding
+TS|interpol|trajectory interpolation
+TS|generative|generative models of time series
+TS|anomaly|time series anomaly detection
+TS|koopman|Koopman forecasting
+TS|similarity|comparing dynamical systems
+TS|foundation model|time series foundation models
+# ---------- sequential decision making ----------
+SD|constrained|constrained reinforcement learning
+SD|robust|robust reinforcement learning
+SD|risk|risk-sensitive reinforcement learning
+SD|pomdp|partially observable Markov decision processes
+SD|bandit|bandits with dynamics
+SD|mean.?field game|mean-field games
+SD|stochastic game|stochastic games
+SD|inverse reinforcement|inverse reinforcement learning
+SD|offline reinforcement|offline reinforcement learning
+SD|imitation|imitation learning
+SD|planning under uncertainty|planning under uncertainty
+SD|belief|belief-space planning
+SD|exploration|exploration in continuous control
+SD|continuous.?time|continuous-time reinforcement learning
+SD|policy evaluation|off-policy evaluation
+SD|hierarchical|hierarchical reinforcement learning
+SD|multi.?agent reinforcement|multi-agent reinforcement learning
+SD|reward shaping|reward shaping
+SD|actor.?critic|actor-critic methods for continuous control
+SD|q.?learning|Q-learning convergence
+SD|markov decision|Markov decision processes
+SD|average reward|average-reward reinforcement learning
+SD|distributional|distributional reinforcement learning
+SD|safe|safe reinforcement learning
+SD|curriculum|curriculum learning for control
+# ---------- cross-cutting and phrased queries ----------
+OC,LC|mpc|how to combine MPC with reinforcement learning
+SF,LC|guarantee|neural network controllers with provable stability guarantees
+ID,OC|koopman|Koopman-based control of nonlinear systems
+ES,ID|kalman|learning the Kalman gain from data
+SF,OC|barrier|MPC with control barrier function constraints
+RC,SD|diffusion polic|diffusion policy for robot control
+LC,SF|lyapunov|Lyapunov-based reinforcement learning
+ID,MB|world model|structured world models under partial observation
+LC,OC|data.?driven|data-driven predictive control
+OC,ID|neural ode|optimal control with neural ODEs
+SF,ES|uncertainty|uncertainty quantification for safe control
+LC|transformer|in-context system identification with transformers
+SD,LC|regret|regret minimization in linear dynamical systems
+OC,TD|diffusion|stochastic optimal control view of diffusion models
+RC,LC|sim.?to.?real|domain randomization for robust control

@@ -1,0 +1,86 @@
+{
+ "R1fgJZLFnx": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "End-to-end RL loco-manipulation policy with tactile latent and reward design",
+  "source": "adjudicated (second pass)"
+ },
+ "WxBKiMUZtI": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "RL motion tracking with contact rewards; generic policy learning",
+  "source": "adjudicated (second pass)"
+ },
+ "C08KksTfEx": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Learned whole-arm contact trajectories from demos fed to kinematic optimizer",
+  "source": "adjudicated (second pass)"
+ },
+ "334wtBsPIG": {
+  "tier": "out",
+  "sub": null,
+  "reason": "Multimodal representation bottleneck for visuo-tactile policy encoding",
+  "source": "adjudicated (second pass)"
+ },
+ "3Ex2nEGqHP": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Training strategies for shared learned WBC under skill composition",
+  "source": "adjudicated (second pass)"
+ },
+ "84ea2xeP60": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Sim-to-real distillation of WBC and RL experts into vision policy",
+  "source": "adjudicated (second pass)"
+ },
+ "kBoTnjRw4s": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Cross-embodiment learned WBC foundation policy",
+  "source": "adjudicated (second pass)"
+ },
+ "8MNr0evyJT": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Retargeting-guided residual RL for dexterous manipulation",
+  "source": "adjudicated (second pass)"
+ },
+ "NZrwlgnR4X": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Energy-based selection of low-level policies and goals",
+  "source": "adjudicated (second pass)"
+ },
+ "aq2hmhW0kU": {
+  "tier": "out",
+  "sub": null,
+  "reason": "Humanoid-free data collection interface",
+  "source": "adjudicated (second pass)"
+ },
+ "2tjuz95jmb": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Generative motion planner with learned tracking policy for humanoids",
+  "source": "adjudicated (second pass)"
+ },
+ "z5Mgc1GGjP": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "Sim-to-real RL fine-tuning of VLAs in generated worlds",
+  "source": "adjudicated (second pass)"
+ },
+ "YQoaLlpDD3": {
+  "tier": "adjacent",
+  "sub": "MB",
+  "reason": "Morphology-conditioned world model for policy learning in imagination",
+  "source": "adjudicated (second pass)"
+ },
+ "HeUmGQaw3M": {
+  "tier": "adjacent",
+  "sub": "SD",
+  "reason": "LLM planning with mined STL constraints and guarantees",
+  "source": "adjudicated (second pass)"
+ }
+}

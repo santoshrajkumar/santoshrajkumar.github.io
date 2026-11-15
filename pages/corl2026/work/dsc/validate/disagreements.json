@@ -1,0 +1,602 @@
+[
+ {
+  "id": "R1fgJZLFnx",
+  "first": {
+   "id": "R1fgJZLFnx",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Tactile-informed unified whole-body controller for quadruped loco-manipulation with grasp regulation"
+  },
+  "second": {
+   "id": "R1fgJZLFnx",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "End-to-end RL loco-manipulation policy with tactile latent and reward design"
+  }
+ },
+ {
+  "id": "WxBKiMUZtI",
+  "first": {
+   "id": "WxBKiMUZtI",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Humanoid tracking controller with explicit part-level contact commands, deployed sim-to-real"
+  },
+  "second": {
+   "id": "WxBKiMUZtI",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "RL motion tracking with contact rewards; generic policy learning"
+  }
+ },
+ {
+  "id": "C08KksTfEx",
+  "first": {
+   "id": "C08KksTfEx",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Whole-arm contact trajectories grounded by contact-aware trajectory optimizer"
+  },
+  "second": {
+   "id": "C08KksTfEx",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Learned whole-arm contact trajectories from demos fed to kinematic optimizer"
+  }
+ },
+ {
+  "id": "rJe0dLlPev",
+  "first": {
+   "id": "rJe0dLlPev",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "On-hardware adaptation of locomotion controller to footwear-induced dynamics changes"
+  },
+  "second": {
+   "id": "rJe0dLlPev",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Fine-tuning RL locomotion policies for footwear morphology changes"
+  }
+ },
+ {
+  "id": "334wtBsPIG",
+  "first": {
+   "id": "334wtBsPIG",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Information-bottleneck visuo-tactile policy representation for contact-rich manipulation"
+  },
+  "second": {
+   "id": "334wtBsPIG",
+   "tier": "out",
+   "sub": null,
+   "reason": "Multimodal representation bottleneck for visuo-tactile policy encoding"
+  }
+ },
+ {
+  "id": "3Ex2nEGqHP",
+  "first": {
+   "id": "3Ex2nEGqHP",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Hardening shared humanoid whole-body controller for long-horizon skill composition"
+  },
+  "second": {
+   "id": "3Ex2nEGqHP",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Training strategies for shared learned WBC under skill composition"
+  }
+ },
+ {
+  "id": "l8hOz8loVg",
+  "first": {
+   "id": "l8hOz8loVg",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Object-aware whole-body loco-manipulation controller absorbing payload contact wrench on humanoid"
+  },
+  "second": {
+   "id": "l8hOz8loVg",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Hierarchical RL with motion-imitation priors for loco-manipulation"
+  }
+ },
+ {
+  "id": "84ea2xeP60",
+  "first": {
+   "id": "84ea2xeP60",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Whole-body controller plus RL experts distilled, sim-to-real mobile manipulation"
+  },
+  "second": {
+   "id": "84ea2xeP60",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Sim-to-real distillation of WBC and RL experts into vision policy"
+  }
+ },
+ {
+  "id": "kBoTnjRw4s",
+  "first": {
+   "id": "kBoTnjRw4s",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Cross-embodiment humanoid whole-body controller with embodiment-specific execution"
+  },
+  "second": {
+   "id": "kBoTnjRw4s",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Cross-embodiment learned WBC foundation policy"
+  }
+ },
+ {
+  "id": "8MNr0evyJT",
+  "first": {
+   "id": "8MNr0evyJT",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Retargeting-guided residual RL with system identification for sim-to-real dexterous control"
+  },
+  "second": {
+   "id": "8MNr0evyJT",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Retargeting-guided residual RL for dexterous manipulation"
+  }
+ },
+ {
+  "id": "hDNvcoKMXH",
+  "first": {
+   "id": "hDNvcoKMXH",
+   "tier": "out",
+   "sub": null,
+   "reason": "Grasp-dataset pretraining for dexterous imitation learning"
+  },
+  "second": {
+   "id": "hDNvcoKMXH",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Hierarchical imitation learning using grasp pretraining"
+  }
+ },
+ {
+  "id": "xyFvvMLQRo",
+  "first": {
+   "id": "xyFvvMLQRo",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Memory-decomposed belief RL for chained-goal navigation"
+  },
+  "second": {
+   "id": "xyFvvMLQRo",
+   "tier": "out",
+   "sub": null,
+   "reason": "Memory architecture for chained-goal navigation"
+  }
+ },
+ {
+  "id": "NZrwlgnR4X",
+  "first": {
+   "id": "NZrwlgnR4X",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Feasibility energy for runtime selection of low-level policy-goal pairs in hierarchical control"
+  },
+  "second": {
+   "id": "NZrwlgnR4X",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Energy-based selection of low-level policies and goals"
+  }
+ },
+ {
+  "id": "aq2hmhW0kU",
+  "first": {
+   "id": "aq2hmhW0kU",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Humanoid-free data capture interface feeding hierarchical learned whole-body skills; data pipeline, no controller design"
+  },
+  "second": {
+   "id": "aq2hmhW0kU",
+   "tier": "out",
+   "sub": null,
+   "reason": "Humanoid-free data collection interface"
+  }
+ },
+ {
+  "id": "Tk20sRMzhv",
+  "first": {
+   "id": "Tk20sRMzhv",
+   "tier": "core",
+   "sub": "ID",
+   "reason": "Learned model of trajectory-to-muscle activation used to prescribe rehabilitation robot trajectories"
+  },
+  "second": {
+   "id": "Tk20sRMzhv",
+   "tier": "out",
+   "sub": null,
+   "reason": "Transformer prediction of rehab trajectories from sEMG"
+  }
+ },
+ {
+  "id": "2tjuz95jmb",
+  "first": {
+   "id": "2tjuz95jmb",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Closed-loop generative planner with tracking controller and asynchronous replanning for humanoids"
+  },
+  "second": {
+   "id": "2tjuz95jmb",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Generative motion planner with learned tracking policy for humanoids"
+  }
+ },
+ {
+  "id": "z5Mgc1GGjP",
+  "first": {
+   "id": "z5Mgc1GGjP",
+   "tier": "out",
+   "sub": null,
+   "reason": "VLA RL fine-tuning in generated 3D scenes"
+  },
+  "second": {
+   "id": "z5Mgc1GGjP",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Sim-to-real RL fine-tuning of VLAs in generated worlds"
+  }
+ },
+ {
+  "id": "uKRtsLLqs6",
+  "first": {
+   "id": "uKRtsLLqs6",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "RL residual corrections for multi-object dexterous grasping"
+  },
+  "second": {
+   "id": "uKRtsLLqs6",
+   "tier": "out",
+   "sub": null,
+   "reason": "Multi-object dexterous grasp generation"
+  }
+ },
+ {
+  "id": "sIe2LX2HaF",
+  "first": {
+   "id": "sIe2LX2HaF",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Differentiable real2sim2real physics calibration for sim-to-real dexterous cutting policy"
+  },
+  "second": {
+   "id": "sIe2LX2HaF",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Real2sim2real data engine for dexterous cutting policies"
+  }
+ },
+ {
+  "id": "YQoaLlpDD3",
+  "first": {
+   "id": "YQoaLlpDD3",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Morphology-conditioned learned dynamics model trains locomotion controllers in imagination"
+  },
+  "second": {
+   "id": "YQoaLlpDD3",
+   "tier": "adjacent",
+   "sub": "MB",
+   "reason": "Morphology-conditioned world model for policy learning in imagination"
+  }
+ },
+ {
+  "id": "psNqjklVOK",
+  "first": {
+   "id": "psNqjklVOK",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Differentiable learned world model gives analytic gradients for humanoid whole-body tracking control"
+  },
+  "second": {
+   "id": "psNqjklVOK",
+   "tier": "adjacent",
+   "sub": "MB",
+   "reason": "Differentiable world model for policy learning via imagined rollouts"
+  }
+ },
+ {
+  "id": "Tjg1ZvCdXU",
+  "first": {
+   "id": "Tjg1ZvCdXU",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Distills mode redirection into behavior-cloned policies to remove unsafe modes"
+  },
+  "second": {
+   "id": "Tjg1ZvCdXU",
+   "tier": "out",
+   "sub": null,
+   "reason": "Removing undesired behavior modes from cloned policies"
+  }
+ },
+ {
+  "id": "5fZzu1zWzG",
+  "first": {
+   "id": "5fZzu1zWzG",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Retry-supervised value learning from imperfect demonstrations"
+  },
+  "second": {
+   "id": "5fZzu1zWzG",
+   "tier": "out",
+   "sub": null,
+   "reason": "Value model learning from imperfect demonstrations"
+  }
+ },
+ {
+  "id": "vA3t8YK04w",
+  "first": {
+   "id": "vA3t8YK04w",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Score-decorrelation loss for compositional diffusion policies"
+  },
+  "second": {
+   "id": "vA3t8YK04w",
+   "tier": "out",
+   "sub": null,
+   "reason": "Score-decorrelation loss for compositional diffusion policies"
+  }
+ },
+ {
+  "id": "c5oiL7JqbQ",
+  "first": {
+   "id": "c5oiL7JqbQ",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Terrain-aware humanoid behavior foundation policy from human motion priors"
+  },
+  "second": {
+   "id": "c5oiL7JqbQ",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Terrain-aware humanoid whole-body control from human motion priors"
+  }
+ },
+ {
+  "id": "rK0JCfddwK",
+  "first": {
+   "id": "rK0JCfddwK",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Root-trajectory conditioned RL policy for humanoid object interaction"
+  },
+  "second": {
+   "id": "rK0JCfddwK",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Humanoid loco-manipulation whole-body controller conditioned on root trajectory"
+  }
+ },
+ {
+  "id": "lorikYEkAx",
+  "first": {
+   "id": "lorikYEkAx",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Discrete diffusion policies for asynchronous real-time action chunk execution"
+  },
+  "second": {
+   "id": "lorikYEkAx",
+   "tier": "out",
+   "sub": null,
+   "reason": "Discrete diffusion policies for asynchronous action execution"
+  }
+ },
+ {
+  "id": "6EN09R3NGP",
+  "first": {
+   "id": "6EN09R3NGP",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Guided diffusion-policy sampling plus trajectory optimization to discover new behaviors"
+  },
+  "second": {
+   "id": "6EN09R3NGP",
+   "tier": "out",
+   "sub": null,
+   "reason": "Diffusion sampling guidance for discovering rare behaviors"
+  }
+ },
+ {
+  "id": "tQRHDxUApa",
+  "first": {
+   "id": "tQRHDxUApa",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Physics-aware SE(3) forecasting with reachability-aware interception for dynamic grasping"
+  },
+  "second": {
+   "id": "tQRHDxUApa",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Rigid-body forecasting with reachability-aware interception for dynamic grasping"
+  }
+ },
+ {
+  "id": "hCG12ifteJ",
+  "first": {
+   "id": "hCG12ifteJ",
+   "tier": "adjacent",
+   "sub": "MB",
+   "reason": "World model as high-level subgoal planner for hierarchical VLA"
+  },
+  "second": {
+   "id": "hCG12ifteJ",
+   "tier": "out",
+   "sub": null,
+   "reason": "World-model subgoal images for hierarchical VLA"
+  }
+ },
+ {
+  "id": "JhdmNwpT4o",
+  "first": {
+   "id": "JhdmNwpT4o",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "RL humanoid teleoperation tracking with payload curriculum and privileged guidance"
+  },
+  "second": {
+   "id": "JhdmNwpT4o",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Full-size humanoid teleoperation tracking controller with payload curriculum"
+  }
+ },
+ {
+  "id": "xL2eR7x00h",
+  "first": {
+   "id": "xL2eR7x00h",
+   "tier": "adjacent",
+   "sub": "TS",
+   "reason": "Discovers symmetries of controlled transition data without identifying explicit model"
+  },
+  "second": {
+   "id": "xL2eR7x00h",
+   "tier": "core",
+   "sub": "ID",
+   "reason": "Discovering symmetries of controlled transition dynamics"
+  }
+ },
+ {
+  "id": "2Y1Osh6gOU",
+  "first": {
+   "id": "2Y1Osh6gOU",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Sim-to-real RL for cable routing with simulation-in-the-loop execution and cable state estimation"
+  },
+  "second": {
+   "id": "2Y1Osh6gOU",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Sim-to-real RL for cable routing"
+  }
+ },
+ {
+  "id": "7UeBDg4KRa",
+  "first": {
+   "id": "7UeBDg4KRa",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Diffusion action prior with residual RL for text-driven humanoid control"
+  },
+  "second": {
+   "id": "7UeBDg4KRa",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Text-driven humanoid whole-body closed-loop control with residual RL"
+  }
+ },
+ {
+  "id": "NCeeEHy8d5",
+  "first": {
+   "id": "NCeeEHy8d5",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Automaton-based task-structure reconfiguration to steer robot policies"
+  },
+  "second": {
+   "id": "NCeeEHy8d5",
+   "tier": "out",
+   "sub": null,
+   "reason": "Automaton policy reconfiguration for behavior steering"
+  }
+ },
+ {
+  "id": "ddzWaOmWZE",
+  "first": {
+   "id": "ddzWaOmWZE",
+   "tier": "adjacent",
+   "sub": "MB",
+   "reason": "Latent predictive world model forecasts dynamic scenes for VLA action"
+  },
+  "second": {
+   "id": "ddzWaOmWZE",
+   "tier": "out",
+   "sub": null,
+   "reason": "Latent forecasting wrapper for VLA on moving objects"
+  }
+ },
+ {
+  "id": "AAn8ouEHwO",
+  "first": {
+   "id": "AAn8ouEHwO",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Reference-anchored progress reward model for manipulation RL"
+  },
+  "second": {
+   "id": "AAn8ouEHwO",
+   "tier": "out",
+   "sub": null,
+   "reason": "Learned progress reward model for manipulation RL"
+  }
+ },
+ {
+  "id": "PLNJ3a6Yht",
+  "first": {
+   "id": "PLNJ3a6Yht",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Motion-tracking RL experts distilled into visuomotor humanoid ladder climbing policy"
+  },
+  "second": {
+   "id": "PLNJ3a6Yht",
+   "tier": "core",
+   "sub": "RC",
+   "reason": "Humanoid ladder climbing whole-body control via tracking experts"
+  }
+ },
+ {
+  "id": "f5329HhijI",
+  "first": {
+   "id": "f5329HhijI",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "Diffusion policy denoising across multiple action coordinate frames"
+  },
+  "second": {
+   "id": "f5329HhijI",
+   "tier": "out",
+   "sub": null,
+   "reason": "Multi-frame diffusion policy for mobile manipulation"
+  }
+ },
+ {
+  "id": "HeUmGQaw3M",
+  "first": {
+   "id": "HeUmGQaw3M",
+   "tier": "core",
+   "sub": "SF",
+   "reason": "Mining signal temporal logic constraints to shield LLM robot plans"
+  },
+  "second": {
+   "id": "HeUmGQaw3M",
+   "tier": "adjacent",
+   "sub": "SD",
+   "reason": "LLM planning with mined STL constraints and guarantees"
+  }
+ }
+]

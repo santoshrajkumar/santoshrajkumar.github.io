@@ -1,0 +1,66 @@
+{
+ "topics": 350,
+ "answerable (>=3 papers in index mention the key terms)": 234,
+ "answerable with key term in top-1": 143,
+ "answerable with key term in >=1 of top-5": 203,
+ "answerable with key term in >=3 of top-5": 98,
+ "mean precision@10 on key term (answerable)": 0.386,
+ "expected area in top-10 (>=1)": 293,
+ "mean expected-area share @10": 0.309,
+ "int8 vs fp32 top-10 overlap (mean of 10)": 9.71,
+ "int8 vs fp32 identical top-10 sets": 252,
+ "keyword fallback returns nothing": 12,
+ "top1 similarity min/median/max": [
+  0.576,
+  0.773,
+  0.897
+ ],
+ "hub papers (in top-10 of >= 8% of topics)": [
+  [
+   "DARPAN: Controllability-Aware Residual Filtering for Pretrained Physic",
+   70
+  ],
+  [
+   "Control Under the Wrong Model Is Better Than Under the Correct One",
+   51
+  ],
+  [
+   "Act, Validate, Adapt: Closing the Causal Discovery-Control Loop",
+   47
+  ],
+  [
+   "Physics-Informed Optimal Control by Control-Only Supervision with Erro",
+   46
+  ],
+  [
+   "Learning Provable Neural Network Observer for Uncertain Dynamical Syst",
+   41
+  ],
+  [
+   "Markovian Dynamics Enforcer: Feasibility Preserving Correction on Lear",
+   40
+  ],
+  [
+   "Topological Out-of-Domain Generalization in Dynamical Systems Reconstr",
+   39
+  ],
+  [
+   "Solving Stochastic Control under Multiplicative and Internal Noise via",
+   32
+  ],
+  [
+   "Provable State Estimation with Recurrent Models",
+   30
+  ],
+  [
+   "Differentiable Nonlinear Model Predictive Control",
+   28
+  ],
+  [
+   "Markovian Experimental Design under Concept Drift",
+   28
+  ]
+ ],
+ "distinct papers ever in a top-10": 565,
+ "index size": 627
+}

@@ -1,0 +1,163 @@
+# Extra institution rules for CoRL 2026 (OpenAlex display names, arXiv bylines), applied before institutions_extra.txt and the CDC table.
+# Format: Canonical name | country | sector (A/I) | regex;regex  (over the normalized key, see institutions.norm)
+# ---------- research institutes ----------
+Shanghai Innovation Institute|CN|A|shanghai innovation institute
+Beijing Institute for General Artificial Intelligence|CN|A|beijing institute for general artificial intelligence;bigai
+Shanghai Qi Zhi Institute|CN|A|shanghai qi ?zhi institute;qi ?zhi institute
+Shanghai AI Laboratory|CN|A|shanghai (artificial intelligence|ai) lab(oratory)?
+Beijing Academy of Artificial Intelligence|CN|A|beijing academy of artificial intelligence;baai
+Zhongguancun Academy|CN|A|zhongguancun academy
+Beijing Innovation Center of Humanoid Robotics (X-Humanoid)|CN|A|beijing innovation center of humanoid robotics;x humanoid
+Zhejiang Humanoid Robot Innovation Center|CN|A|zhejiang humanoid robot innovation center
+Shenzhen Loop Area Institute|CN|A|shenzhen loop area institute
+Chinese Academy of Sciences|CN|A|institute of computing technology;institute of software chinese academy;institute of automation;shenzhen institutes? of advanced technology
+Singapore Institute of Manufacturing Technology (A*STAR)|SG|A|singapore institute of manufacturing technology;simtech
+Institute for Infocomm Research (A*STAR)|SG|A|institute for infocomm research
+AIST|JP|A|national institute of advanced industrial science and technology
+Agency for Defense Development|KR|A|agency for defense development
+Robotics Institute Germany|DE|A|robotics institute germany
+hessian.AI|DE|A|hessian ai;hessian center for artificial intelligence
+DFKI|DE|A|german research cent(er|re) for artificial intelligence;dfki
+Italian Institute of Technology|IT|A|italian institute of technology;istituto italiano di tecnologia
+LAAS-CNRS|FR|A|laboratoire d analyse et d architecture des systemes
+CNRS|FR|A|centre national de la recherche scientifique
+DEVCOM Army Research Laboratory|US|A|united states army combat capabilities development command;devcom( army research lab(oratory)?)?;army research lab(oratory)?;united states army
+Flanders Make|BE|A|flanders make
+Interdisciplinary Centre for Security, Reliability and Trust (Univ. of Luxembourg)|LU|A|interdisciplinary centre for security reliability and trust
+# ---------- universities ----------
+KAIST|KR|A|korean association of science and technology studies
+Zhejiang University|CN|A|state key laborator(y|ies) of industrial control technology
+ETH Zurich|CH|A|institute for dynamic systems and control
+University of Natural Resources and Life Sciences, Vienna (BOKU)|AT|A|boku( university)?;university of natural resources and life sciences
+CEA|FR|A|commissariat a l energie atomique( et aux energies alternatives)?;laboratoire d integration des systemes et des technologies;cea list
+FZI Research Center for Information Technology|DE|A|fzi( research center for information technology)?
+University of São Paulo|BR|A|universidade de sao paulo;university of sao paulo
+University of Bonn|DE|A|university of bonn;universitat bonn;rheinische friedrich wilhelms universitat bonn
+University of Hamburg|DE|A|universitat hamburg;university of hamburg
+Kiel University|DE|A|christian albrechts universitat zu kiel;kiel university
+University of Auckland|NZ|A|university of auckland
+Indiana University|US|A|indiana university( bloomington)?
+University of Toulouse|FR|A|universite de toulouse;university of toulouse
+FH Technikum Wien|AT|A|university of applied sciences technikum wien;fh technikum wien
+Saxion University of Applied Sciences|NL|A|saxion( university of applied sciences)?
+Hebei University of Technology|CN|A|hebei university of technology
+Beijing Information Science and Technology University|CN|A|beijing information science and technology university
+Beijing Forestry University|CN|A|beijing forestry university
+Northeast Forestry University|CN|A|northeast forestry university
+Beijing University of Civil Engineering and Architecture|CN|A|beijing university of civil engineering and architecture
+# ---------- companies ----------
+TeleAI (China Telecom)|CN|I|china telecom( corporation| corp| group)?( limited| ltd)?;teleai;institute of artificial intelligence china telecom
+RAI Institute|US|I|robotics and ai institute;rai institute;boston dynamics ai institute;the ai institute
+Boston Dynamics|US|I|boston dynamics
+Honda Research Institute|JP|I|honda( research institute)?( japan| usa| us| europe| eu)?( co)?( ltd)?
+Disney Research|CH|I|walt disney( switzerland| imagineering| company| research)?;disney research
+Physical Intelligence|US|I|physical intelligence
+RLWRLD|KR|I|rlwrld
+Galbot|CN|I|galbot
+PrimeBot|CN|I|primebot
+D-Robotics|CN|I|d robotics
+BeingBeyond|CN|I|beingbeyond
+Noematrix|CN|I|noematrix
+Noitom Robotics|CN|I|noitom( robotics)?
+Sharpa|SG|I|sharpa
+TranscEngram|CN|I|transcengram
+Future Academy|CN|I|future academy
+OMRON SINIC X|JP|I|omron sinic x( corporation)?
+Araya|JP|I|araya( inc)?
+Torc Robotics|US|I|torc robotics
+Research Applications|US|I|research applications
+AgiBot|CN|I|agibot;zhiyuan robotics
+Unitree Robotics|CN|I|unitree( robotics)?
+Galaxea AI|CN|I|galaxea( ai)?
+X Square Robot|CN|I|x square robot
+Horizon Robotics|CN|I|horizon robotics
+Skild AI|US|I|skild( ai)?
+Figure AI|US|I|figure ai
+1X Technologies|NO|I|1x technologies
+Hugging Face|US|I|hugging ?face
+Field AI|US|I|field ?ai
+Waymo|US|I|waymo
+Toyota Research Institute|US|I|toyota research institute;tri
+Bosch|DE|I|bosch( center for artificial intelligence| research| corporate research)?;robert bosch( gmbh)?
+Samsung|KR|I|samsung( electronics| research| advanced institute of technology| ai center)?
+LG|KR|I|lg( electronics| ai research)
+NAVER|KR|I|naver( labs| cloud| corp)?
+Sony|JP|I|sony( ai| group| research| interactive entertainment)?
+Preferred Networks|JP|I|preferred networks
+Huawei|CN|I|huawei( technologies| noah s ark lab| noah s ark laboratory)?;noah s ark lab
+Midea|CN|I|midea( group)?
+Lenovo|CN|I|lenovo( research)?
+Hyundai Motor Group|KR|I|hyundai( motor group| motor company| motors?)?
+DiDi|CN|I|didi( chuxing| global)?
+Astribot|CN|I|astribot
+Analog Devices|US|I|analog devices
+Sanctuary AI|CA|I|sanctuary ai
+Jiangxing Intelligence|CN|I|jiangxing intelligence( guizhou)?( technology)?( inc)?
+INSAIT (Sofia University)|BG|A|insait;sofia university( st kliment ohridski)?
+DeepCybo|CN|I|deepcybo
+# robotics and AI companies frequent in CoRL 2026 bylines
+Noetix Robotics|CN|I|noetix( robotics)?
+MAUM.AI|KR|I|maum( ai)?
+VinRobotics|VN|I|vinrobotics
+VinUniversity|VN|A|vinuniversity;vin university
+DexForce Technology|CN|I|dexforce( technology)?
+XPENG|CN|I|xpeng( robotics| motors| inc)?
+Differential Robotics|CN|I|differential robotics
+AI Robot Association (AIRoA)|JP|A|ai robot association( airoa)?;airoa
+IIIT Hyderabad|IN|A|iiit hyderabad;international institute of information technology hyderabad
+TARS Robotics|CN|I|tars robotics
+FiveAges|CN|I|fiveages
+GigaAI|CN|I|giga ?ai
+Spirit AI|CN|I|spirit ai
+Dexmal|CN|I|dexmal
+Infinigence AI|CN|I|infinigence( ai)?
+RobotEra|CN|I|robotera
+Motphys|CN|I|motphys
+DISCOVER Robotics|CN|I|discover robotics
+Shenzhen Future Network of Intelligence Institute|CN|A|shenzhen future network of intelligence institute;fnii( shenzhen)?
+ViTai Robotics|CN|I|vitai( robotics)?
+Polixir Technologies|CN|I|polixir( technologies)?
+Holiday Robotics|KR|I|holiday robotics
+Knowin AI|CN|I|knowin( ai)?
+OpenMind|US|I|openmind
+Neuromeka|KR|I|neuromeka
+Shield AI|US|I|shield ai
+LinkerBot|CN|I|linkerbot
+LingYu Robotics|CN|I|lingyu robotics
+SB Intuitions|JP|I|sb intuitions( corporation)?
+Coco Robotics|US|I|coco robotics
+Black Sesame Technologies|CN|I|black sesame( technologies)?
+CARIAD|DE|I|cariad( se)?
+Chinese Academy of Sciences|CN|A|nanjing institute of software technology
+Mercedes-Benz|DE|I|mercedes benz( ag| group)?
+Dobot Robotics|CN|I|dobot( robotics)?
+# sector fixes and spelling merges after the arXiv pass
+Inria|FR|A|institut national de recherche en sciences et technologies du numerique;inria
+Amii (Alberta Machine Intelligence Institute)|CA|A|alberta machine intelligence institute( amii)?;amii
+ELLIS Institute Tübingen|DE|A|ellis institute( tubingen)?
+Mines Paris - PSL|FR|A|ecole nationale superieure des mines de paris;mines paris( psl)?;centre de robotique
+PSL University|FR|A|psl university;universite paris sciences et lettres
+Striding.AI|CN|I|striding ai
+NeoteAI|CN|I|neote ?ai
+CREFLE|JP|I|crefle( inc)?
+vivo|CN|I|vivo( mobile communication)?( co)?( ltd)?
+Beijing Zhongke Huiling Robot Technology|CN|I|beijing zhongke huiling robot technology( co)?( ltd)?
+China Aerospace Science and Industry Corporation|CN|I|china aerospace science and industry corporation
+China Unicom|CN|I|china united network communications( group)?;china unicom
+XDOF|US|I|xdof
+GE Vernova|US|I|ge vernova
+AUMOVIO|DE|I|aumovio
+LightSpeed Studios|CN|I|lightspeed studios
+Impossible Research|US|I|impossible research
+Juxi Tech|CN|I|juxi tech
+Digients|CN|I|digients
+Paxini Tech|CN|I|paxini( tech)?
+Booking.com|NL|I|booking com
+TIER IV|JP|I|tier iv
+Panasonic|JP|I|panasonic( holdings| corporation)?
+Config|KR|I|config
+RobbyAnt|CN|I|robbyant
+Valeo|FR|I|valeo( ai)?
+Siléane|FR|I|sileane
+Teledyne Technologies|US|I|teledyne( technologies)?
+Max Planck Institute for Intelligent Systems|DE|A|international max planck research school for intelligent systems

@@ -1,0 +1,1591 @@
+[
+ {
+  "id": "ALlLaCTHKQ",
+  "authors": [
+   {
+    "name": "Matteo Grimaldi",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "David Klee",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Ziling Chen",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Tong Jian",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Wonju Lee",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Wenjie Lu",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Tao Yu",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Saleh Nabi",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   }
+  ]
+ },
+ {
+  "id": "anfRreNqMN",
+  "authors": [
+   {
+    "name": "Tong Jian",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Aditya Thurvas Senthil Kumar",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Xinyi Li",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Ziling Chen",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Tianyu Dai",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Ali Sengul",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Matteo Grimaldi",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Wenjie Lu",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Saleh Nabi",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   },
+   {
+    "name": "Tao Yu",
+    "institutions": [
+     "Analog Devices"
+    ],
+    "basis": "group"
+   }
+  ]
+ },
+ {
+  "id": "S0rbnmOkit",
+  "authors": [
+   {
+    "name": "Zilin Si",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "zsHXQqYhFn",
+  "authors": [
+   {
+    "name": "Xiaogang Jia",
+    "institutions": [
+     "KIT"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Gerhard Neumann",
+    "institutions": [
+     "KIT",
+     "FZI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Georgia Chalvatzaki",
+    "institutions": [
+     "TU Darmstadt",
+     "Hessian.AI",
+     "Robotics Institute Germany"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "40CsfPl2cq",
+  "authors": [
+   {
+    "name": "WONG Lik Hang Kenny",
+    "institutions": [
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "loMfT7cfYl",
+  "authors": [
+   {
+    "name": "Lu Chen",
+    "institutions": [
+     "Zhejiang Humanoid Robot Innovation Center"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "PAtsmTswIr",
+  "authors": [
+   {
+    "name": "Yuanfan Xu",
+    "institutions": [
+     "Striding AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tinghao Yi",
+    "institutions": [
+     "EFORT Intelligent Robot Co., Ltd."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Wang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "w2H90oEzfp",
+  "authors": [
+   {
+    "name": "Zhi Wang",
+    "institutions": [
+     "Amazon FAR",
+     "University of Maryland"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jitendra Malik",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tingfan Wu",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiayuan Mao",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruoshi Liu",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haozhi Qi",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "rIyIQWvpST",
+  "authors": [
+   {
+    "name": "Hideyuki Ichiwara",
+    "institutions": [
+     "SB Intuitions Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yushi Kaida",
+    "institutions": [
+     "SB Intuitions Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hirokazu Ishida",
+    "institutions": [
+     "SB Intuitions Corporation"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "oias4zZRUn",
+  "authors": [
+   {
+    "name": "Yang Cai",
+    "institutions": [
+     "Alibaba Group"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "sS9FjkKKsm",
+  "authors": [
+   {
+    "name": "Loukas Kordos",
+    "institutions": [
+     "Technical University of Munich",
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Leonard T. Franz",
+    "institutions": [
+     "Hertie Institute for Clinical Brain Research",
+     "Center for Integrative Neuroscience",
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Simon Rappenecker",
+    "institutions": [
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Oliver Hausdörfer",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angela P. Schoellig",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pavel Kolev",
+    "institutions": [
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Georg Martius",
+    "institutions": [
+     "University of Tübingen",
+     "Max Planck Institute for Intelligent Systems"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "zYpPmDICVV",
+  "authors": [
+   {
+    "name": "Younggyo Seo",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Juyue Chen",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Koushil Sreenath",
+    "institutions": [
+     "Amazon FAR",
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pieter Abbeel",
+    "institutions": [
+     "Amazon FAR",
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Carmelo Sferrazza",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rocky Duan",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "TmKLynfHXr",
+  "authors": [
+   {
+    "name": "Haig Conti Georges Sajelian",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Oliver Hausdörfer",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "JbpsGhdjs9",
+  "authors": [
+   {
+    "name": "Qiang Zhang",
+    "institutions": [
+     "X-Humanoid",
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahao Ma",
+    "institutions": [
+     "X-Humanoid",
+     "The Australian National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Peiran Liu",
+    "institutions": [
+     "X-Humanoid",
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuai Shi",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zeran Su",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zifan Wang",
+    "institutions": [
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jingkai SUN",
+    "institutions": [
+     "X-Humanoid",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Cui",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jialin Yu",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Gang Han",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wen Zhao",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kangning Yin",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiaxu Wang",
+    "institutions": [
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahang Cao",
+    "institutions": [
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lingfeng Zhang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pihai Sun",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Cheng",
+    "institutions": [
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiding Ji",
+    "institutions": [
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junwei Liang",
+    "institutions": [
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Tang",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Renjing Xu",
+    "institutions": [
+     "The Hong Kong University of Science and Technology (Guangzhou)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yijie Guo",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "c5oiL7JqbQ",
+  "authors": [
+   {
+    "name": "Yizhao Li",
+    "institutions": [
+     "Mondo Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yudong Fan",
+    "institutions": [
+     "Mondo Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Xu",
+    "institutions": [
+     "Nanjing University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuo Yang",
+    "institutions": [
+     "Mondo Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "JWkaXdmqKb",
+  "authors": [
+   {
+    "name": "Gang Han",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zelin Tao",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuai Shi",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Cui",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jialin Yu",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wen Zhao",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Tang",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yijie Guo",
+    "institutions": [
+     "X-Humanoid"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "oq5Byppu7Q",
+  "authors": [
+   {
+    "name": "Pengfei Li",
+    "institutions": [
+     "TARS Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "uMgOYXmgn2",
+  "authors": [
+   {
+    "name": "Zhe Li",
+    "institutions": [
+     "Nanyang Technological University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yangyang Wei",
+    "institutions": [
+     "BAAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xichen Yuan",
+    "institutions": [
+     "Nanyang Technological University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhenzhe Zhang",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weihao Yuan",
+    "institutions": [
+     "Nanjing University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shanghang Zhang",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianfei Yang",
+    "institutions": [
+     "Nanyang Technological University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "L9RkFeuKRc",
+  "authors": [
+   {
+    "name": "Langzhe Gu",
+    "institutions": [
+     "Peking University",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chengkai Hou",
+    "institutions": [
+     "Peking University",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Meng Li",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xinhua Wang",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziluo Ding",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyuan Xu",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Tang",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhengping Che",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "xcDyj95l5P",
+  "authors": [
+   {
+    "name": "Zhenrong Wang",
+    "institutions": [
+     "Institute of Automation, Chinese Academy of Sciences",
+     "Galbot",
+     "Beijing Academy of Artificial Intelligence"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jilong Wang",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Li Yi",
+    "institutions": [
+     "Galbot",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "mMRhLrwLFx",
+  "authors": [
+   {
+    "name": "Ishayu Shikhare",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Alan Wang",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Max Simchowitz",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Guanya Shi",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "single"
+   }
+  ]
+ },
+ {
+  "id": "8klpl3FXjN",
+  "authors": [
+   {
+    "name": "Yash Prabhu",
+    "institutions": [
+     "MIT"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Gabriel B. Margolis",
+    "institutions": [
+     "MIT"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Pulkit Agrawal",
+    "institutions": [
+     "MIT"
+    ],
+    "basis": "single"
+   }
+  ]
+ },
+ {
+  "id": "PQdtUNzQLj",
+  "authors": [
+   {
+    "name": "Gen Li",
+    "institutions": [
+     "Nanyang Technological University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "XQGBZwsuXt",
+  "authors": [
+   {
+    "name": "Huaxing Huang",
+    "institutions": [
+     "Noetix Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jinchao Han",
+    "institutions": [
+     "Noetix Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Dong",
+    "institutions": [
+     "Noetix Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenhao Cui",
+    "institutions": [
+     "Noetix Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "gqmJ7SIK5Q",
+  "authors": [
+   {
+    "name": "Zhengyi Luo",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fernando Castañeda",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenran Li",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tingwu Wang",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ye Yuan",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Linxi Fan",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "2xR8oasJuM",
+  "authors": [
+   {
+    "name": "Zhilong Zhang",
+    "institutions": [
+     "Nanjing University",
+     "Polixir Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Meng Li",
+    "institutions": [
+     "Nanjing University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lei Yuan",
+    "institutions": [
+     "Nanjing University",
+     "Polixir Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yang Yu",
+    "institutions": [
+     "Nanjing University",
+     "Polixir Technologies"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "PLNJ3a6Yht",
+  "authors": [
+   {
+    "name": "Yuanhang Zhang",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziqi Lu",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rocky Duan",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guanya Shi",
+    "institutions": [
+     "Amazon FAR",
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "lY47GBfn32",
+  "authors": [
+   {
+    "name": "Kyungmin Lee",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sibeen Kim",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Youngdo Lee",
+    "institutions": [
+     "KRAFTON",
+     "Holiday Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Minho Park",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hyunseung Kim",
+    "institutions": [
+     "KAIST",
+     "KRAFTON"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dongyoon Hwang",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Donghu Kim",
+    "institutions": [
+     "Holiday Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hojoon Lee",
+    "institutions": [
+     "Holiday Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jaegul Choo",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "TTFZrb0Hw3",
+  "authors": [
+   {
+    "name": "Tong Zhang",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yang Gao",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "5b4j0e21aJ",
+  "authors": [
+   {
+    "name": "Simon Le Cleac'h",
+    "institutions": [
+     "RAI Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jan Brüdigam",
+    "institutions": [
+     "RAI Institute"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "yyitbtz7rQ",
+  "authors": [
+   {
+    "name": "Ziyang Cheng",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haoyu Wei",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hang Yin",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiuwei Xu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bingyao Yu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jie Zhou",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiwen Lu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "wBzyyPlFs6",
+  "authors": [
+   {
+    "name": "Akshat Pandya",
+    "institutions": [
+     "Coco Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Brad Squicciarini",
+    "institutions": [
+     "Coco Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "RwGNm8fUxX",
+  "authors": [
+   {
+    "name": "Ruoxi Yang",
+    "institutions": [
+     "Ruyi Dynamics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Tao",
+    "institutions": [
+     "Ruyi Dynamics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "YnMZwXZ68A",
+  "authors": [
+   {
+    "name": "Seth Z. Zhao",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuxin Bao",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Leng",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Honglin He",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zewei Zhou",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "xu han",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Abhishek Peri",
+    "institutions": [
+     "Qualcomm"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyu Huang",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pranav Desai",
+    "institutions": [
+     "Qualcomm"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiaqi Ma",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bolei Zhou",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "9ccdcInkM9",
+  "authors": [
+   {
+    "name": "Julian Schmidt",
+    "institutions": [
+     "Mercedes-Benz AG"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Julian Jordan",
+    "institutions": [
+     "Mercedes-Benz AG"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "CKVUqG4YQf",
+  "authors": [
+   {
+    "name": "Lijin Yang",
+    "institutions": [
+     "Bosch Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhongzhan Huang",
+    "institutions": [
+     "Bosch Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianing Huang",
+    "institutions": [
+     "Bosch Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shu Liu",
+    "institutions": [
+     "Bosch Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Yang",
+    "institutions": [
+     "Bosch Research"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "EWEKI0rF6v",
+  "authors": [
+   {
+    "name": "Hanbing Li",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Daqi Liu",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fang Li",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guang Chen",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hangjun Ye",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Long Chen",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kuiyuan Yang",
+    "institutions": [
+     "Xiaomi EV"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "F4IB3mxHbO",
+  "authors": [
+   {
+    "name": "Liying LIU",
+    "institutions": [
+     "Black Sesame Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zuoguan Wang",
+    "institutions": [
+     "Black Sesame Technologies"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "sdujBb3P4e",
+  "authors": [
+   {
+    "name": "Hongfei Zhang",
+    "institutions": [],
+    "basis": "none"
+   }
+  ]
+ },
+ {
+  "id": "Alu9eLT93i",
+  "authors": [
+   {
+    "name": "Jelena Trisovic",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rahel Rickenbach",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Marek Landert",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Panagiotis Minos",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Melanie N. Zeilinger",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "msKuD5tWYj",
+  "authors": [
+   {
+    "name": "Jiarong Wei",
+    "institutions": [
+     "University of Freiburg",
+     "CARIAD SE"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yin Wu",
+    "institutions": [
+     "CARIAD SE"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Anna Rehr",
+    "institutions": [
+     "CARIAD SE"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "k2QZxbcSbQ",
+  "authors": [
+   {
+    "name": "Jinhui Zhang",
+    "institutions": [
+     "Beijing Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Meng",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ }
+]
