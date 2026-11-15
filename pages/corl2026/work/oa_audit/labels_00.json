@@ -1,0 +1,4879 @@
+[
+ {
+  "id": "hf8X30fAtz",
+  "authors": [
+   {
+    "name": "Vongani Hlavutelo Maluleke",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "James Ni",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kie Horiuchi",
+    "institutions": [
+     "UC Berkeley",
+     "Sony Group Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lea Wilken",
+    "institutions": [
+     "Meta"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahui Lei",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Evonne Ng",
+    "institutions": [
+     "Meta"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Roei Herzig",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jitendra Malik",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Trevor Darrell",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angjoo Kanazawa",
+    "institutions": [
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "LHLnvoAEhr",
+  "authors": [
+   {
+    "name": "Yu Zhang",
+    "institutions": [
+     "The University of Hong Kong",
+     "Shenzhen Loop Area Institute",
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunqi Li",
+    "institutions": [
+     "The University of Hong Kong",
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yushi Du",
+    "institutions": [
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yi Ma",
+    "institutions": [
+     "The University of Hong Kong",
+     "Shenzhen Loop Area Institute",
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanchao Yang",
+    "institutions": [
+     "The University of Hong Kong",
+     "Shenzhen Loop Area Institute",
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "HWaigsXLaH",
+  "authors": [
+   {
+    "name": "Zepeng Wang",
+    "institutions": [
+     "Wuhan University",
+     "BeingBeyond"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiangxing Wang",
+    "institutions": [
+     "BeingBeyond"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shiqing Yao",
+    "institutions": [
+     "BeingBeyond"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu Zhang",
+    "institutions": [
+     "BeingBeyond"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziluo Ding",
+    "institutions": [
+     "BeingBeyond"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ming Yang",
+    "institutions": [
+     "BeingBeyond",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuxuan Wang",
+    "institutions": [
+     "BeingBeyond",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haobin Jiang",
+    "institutions": [
+     "BeingBeyond",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chao Ma",
+    "institutions": [
+     "Wuhan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "XIAOCHUAN SHI",
+    "institutions": [
+     "Wuhan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zongqing Lu",
+    "institutions": [
+     "BeingBeyond",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "k2QZxbcSbQ",
+  "authors": [
+   {
+    "name": "Junye Zou",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Huiyi Yan",
+    "institutions": [
+     "Xi'an Jiaotong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xinning Xu",
+    "institutions": [
+     "Beijing University of Chemical Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiaolei Li",
+    "institutions": [
+     "Beijing Information Science and Technology University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pengkun Zhou",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jinhui Zhang",
+    "institutions": [
+     "Beijing Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Meng",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "2nityiXWGJ",
+  "authors": [
+   {
+    "name": "Byungjun Kim",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Taeksoo Kim",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hyunsoo Cha",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hanbyul Joo",
+    "institutions": [
+     "Seoul National University",
+     "RLWRLD"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "c7BvD59RpP",
+  "authors": [
+   {
+    "name": "Haoxiang You",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yilang Liu",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Davis Zong",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qian Wang",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Teeratham Vitchutripop",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qi Wang",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Daniel Rakita",
+    "institutions": [
+     "Yale University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ian Abraham",
+    "institutions": [
+     "Yale University",
+     "University of Sydney"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "60tPXLIFyM",
+  "authors": [
+   {
+    "name": "Jiabao Ji",
+    "institutions": [
+     "UC Santa Barbara"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yongchao Chen",
+    "institutions": [
+     "Massachusetts Institute of Technology",
+     "Harvard University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yang Zhang",
+    "institutions": [
+     "MIT-IBM Watson AI Lab"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ramana Rao Kompella",
+    "institutions": [
+     "Cisco Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chuchu Fan",
+    "institutions": [
+     "Massachusetts Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Gaowen Liu",
+    "institutions": [
+     "Cisco Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shiyu Chang",
+    "institutions": [
+     "UC Santa Barbara"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "bXQv3Kn5qL",
+  "authors": [
+   {
+    "name": "Zerui Li",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hongpei Zheng",
+    "institutions": [
+     "The University of Manchester"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fangguo Zhao",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanyan Shao",
+    "institutions": [
+     "Zhejiang Wanli University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Zhou",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sihao Lin",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shijie Li",
+    "institutions": [
+     "Agency for Science, Technology and Research (A*STAR)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qi Wu",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "lsfM8TzuH2",
+  "authors": [
+   {
+    "name": "Jewon Yeom",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Hanseul Kim",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Jeongjae Park",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Sungmok Jung",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Jaejin Lee",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Taesup Kim",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "single"
+   }
+  ]
+ },
+ {
+  "id": "JhdmNwpT4o",
+  "authors": [
+   {
+    "name": "Chenxin Liu",
+    "institutions": [
+     "Tsinghua University",
+     "RobotEra"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qingzhou Lu",
+    "institutions": [
+     "Tsinghua University",
+     "RobotEra"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guangxiao Yang",
+    "institutions": [
+     "RobotEra"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xuanyang Shi",
+    "institutions": [
+     "RobotEra"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenghan Yang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanjiang Guo",
+    "institutions": [
+     "Tsinghua University",
+     "RobotEra"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianyu Chen",
+    "institutions": [
+     "Tsinghua University",
+     "RobotEra",
+     "Shanghai Qizhi Institute"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "pLyDkcGbkT",
+  "authors": [
+   {
+    "name": "Qian Luo",
+    "institutions": [
+     "TranscEngram",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wentao Guo",
+    "institutions": [
+     "TranscEngram",
+     "Beijing Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhennan Qin",
+    "institutions": [
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Nanchun Guo",
+    "institutions": [
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunhan Zhao",
+    "institutions": [
+     "TranscEngram"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yi Ma",
+    "institutions": [
+     "TranscEngram",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanchao Yang",
+    "institutions": [
+     "TranscEngram",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "8gqhCYKrxR",
+  "authors": [
+   {
+    "name": "Nadun Ranawaka Arachchige",
+    "institutions": [
+     "NVIDIA",
+     "Georgia Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Josiah Wong",
+    "institutions": [
+     "NVIDIA",
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei-Lin Pai",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei-Teng Chu",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tianyuan Dai",
+    "institutions": [
+     "NVIDIA",
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Masoud Moghani",
+    "institutions": [
+     "NVIDIA",
+     "University of Toronto"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hang Yin",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunfan Jiang",
+    "institutions": [
+     "NVIDIA",
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wesley Durbano",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Brandon Bryce Huynh",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu Fang",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Danfei Xu",
+    "institutions": [
+     "NVIDIA",
+     "Georgia Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruohan Zhang",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Li Fei-Fei",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Linxi Fan",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bowen Wen",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ajay Mandlekar",
+    "institutions": [
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuke Zhu",
+    "institutions": [
+     "NVIDIA",
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "RwGNm8fUxX",
+  "authors": [
+   {
+    "name": "Xiangyu Shi",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruoxi Yang",
+    "institutions": [
+     "Ruyi Dynamics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Tao",
+    "institutions": [
+     "Ruyi Dynamics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiwen Zhang",
+    "institutions": [
+     "Fudan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanyuan Qiao",
+    "institutions": [
+     "EPFL"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qi Wu",
+    "institutions": [
+     "Adelaide University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "4RLjGPEfpH",
+  "authors": [
+   {
+    "name": "Mi Yan",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenhao Zhang",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiqi Zhang",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu Peng",
+    "institutions": [
+     "Galbot",
+     "Renmin University of China"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tangxinyu Wang",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lingfei Zhai",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiayi Su",
+    "institutions": [
+     "Galbot",
+     "Xiamen University Malaysia"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shengliang Deng",
+    "institutions": [
+     "Galbot",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lin Peng",
+    "institutions": [
+     "Galbot",
+     "Beihang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yaowei Liu",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuxing Chen",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyuan Wei",
+    "institutions": [
+     "Galbot",
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jilong Wang",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiayi Chen",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiangran Lyu",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhizheng Zhang",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "He Wang",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "r27erS063s",
+  "authors": [
+   {
+    "name": "Runyi Yu",
+    "institutions": [
+     "Noitom Robotics",
+     "The Hong Kong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiaoyi Lin",
+    "institutions": [
+     "Noitom Robotics",
+     "Wuhan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ji Ma",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yinhuai Wang",
+    "institutions": [
+     "The Hong Kong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Koukou Luo",
+    "institutions": [
+     "The Hong Kong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahao Ji",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Huayi Wang",
+    "institutions": [
+     "Noitom Robotics",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenjia Wang",
+    "institutions": [
+     "Noitom Robotics",
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Runhan Zhang",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ping Tan",
+    "institutions": [
+     "The Hong Kong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ting Wu",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruoli Dai",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qifeng Chen",
+    "institutions": [
+     "The Hong Kong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lei Han",
+    "institutions": [
+     "Noitom Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "Unsv9DsbfO",
+  "authors": [
+   {
+    "name": "Sreevardhan Sirigiri",
+    "institutions": [
+     "The University of Sydney"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weiming Zhi",
+    "institutions": [
+     "The University of Sydney",
+     "Vanderbilt University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fabio Ramos",
+    "institutions": [
+     "The University of Sydney",
+     "NVIDIA"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "8QEFjWSgyu",
+  "authors": [
+   {
+    "name": "Rohan Siva",
+    "institutions": [
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Neel P. Bhatt",
+    "institutions": [
+     "The University of Texas at Austin",
+     "Neurosymbolic Intelligence"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunhao Yang",
+    "institutions": [
+     "The University of Texas at Austin",
+     "Neurosymbolic Intelligence"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Seoyoung Lee",
+    "institutions": [
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Nishant Gadde",
+    "institutions": [
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Christian Ellis",
+    "institutions": [
+     "The University of Texas at Austin",
+     "Neurosymbolic Intelligence"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Alvaro Velasquez",
+    "institutions": [
+     "Neurosymbolic Intelligence",
+     "University of Colorado Boulder"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhangyang Wang",
+    "institutions": [
+     "The University of Texas at Austin"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "ufuk topcu",
+    "institutions": [
+     "The University of Texas at Austin",
+     "Neurosymbolic Intelligence"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "2Z8xQxrlsY",
+  "authors": [
+   {
+    "name": "Shihefeng Wang",
+    "institutions": [
+     "Tsinghua University",
+     "BNRist"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kangchen Lv",
+    "institutions": [
+     "Tsinghua University",
+     "BNRist"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Mingrui Yu",
+    "institutions": [
+     "Tsinghua University",
+     "BNRist"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiang Li",
+    "institutions": [
+     "Tsinghua University",
+     "BNRist"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "QHIz2k4E88",
+  "authors": [
+   {
+    "name": "Zhennan Jiang",
+    "institutions": [
+     "University of Chinese Academy of Sciences",
+     "Institute of Automation, Chinese Academy of Sciences",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shangqing Zhou",
+    "institutions": [
+     "University of Chinese Academy of Sciences",
+     "Institute of Automation, Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yutong Jiang",
+    "institutions": [
+     "University of Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zefang Huang",
+    "institutions": [
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Mingjie Wei",
+    "institutions": [
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "YUHUI CHEN",
+    "institutions": [
+     "University of Chinese Academy of Sciences",
+     "Institute of Automation, Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tianxing Zhou",
+    "institutions": [
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhen Guo",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Lin",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Quanlu Zhang",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu Wang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dongbin Zhao",
+    "institutions": [
+     "University of Chinese Academy of Sciences",
+     "Institute of Automation, Chinese Academy of Sciences",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haoran Li",
+    "institutions": [
+     "University of Chinese Academy of Sciences",
+     "Institute of Automation, Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chao Yu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "TmKLynfHXr",
+  "authors": [
+   {
+    "name": "Alex Brandes",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haig Conti Georges Sajelian",
+    "institutions": [
+     "TU Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Manthan Patel",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dominik Hollidt",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenhao Li",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Matthias Heyrman",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Oliver Hausdörfer",
+    "institutions": [
+     "TU Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Manuel Kaufmann",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xi Wang",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jonas Frey",
+    "institutions": [
+     "Stanford University",
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angela P. Schoellig",
+    "institutions": [
+     "TU Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Christian Holz",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Marc Pollefeys",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Marco Hutter",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "GeL3GdwSYo",
+  "authors": [
+   {
+    "name": "Junyi Zhang",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiaxin Ge",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hanjun Yoo",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Letian Fu",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zihan Yang",
+    "institutions": [
+     "Impossible Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yaowei Liu",
+    "institutions": [
+     "Impossible Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Raj Saravanan",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shaofeng Yin",
+    "institutions": [
+     "Impossible Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Justin Yu",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dantong Niu",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zirui Wang",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Roei Herzig",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ken Goldberg",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yutong Bai",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "David M. Chan",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ion Stoica",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angjoo Kanazawa",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahui Lei",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haiwen Feng",
+    "institutions": [
+     "University of California, Berkeley",
+     "Impossible Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Trevor Darrell",
+    "institutions": [
+     "University of California, Berkeley"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "0PThTAIwPD",
+  "authors": [
+   {
+    "name": "Wenzhan Li",
+    "institutions": [
+     "Sun Yat-sen University",
+     "Shenzhen Loop Area Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiran Qin",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen",
+     "Shanghai AI Laboratory",
+     "University of Oxford"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Heng Zhou",
+    "institutions": [
+     "Shanghai AI Laboratory",
+     "University of Science and Technology of China"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Huirui Wang",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yulan Guo",
+    "institutions": [
+     "Sun Yat-sen University",
+     "Shenzhen Loop Area Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruimao Zhang",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "7hdkIcfGRw",
+  "authors": [
+   {
+    "name": "Liangzhi Shi",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai AI Laboratory"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuaihang Chen",
+    "institutions": [
+     "Harbin Institute of Technology",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Feng Gao",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yinuo Chen",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kang Chen",
+    "institutions": [
+     "Peking University",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tonghe Zhang",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hongzhi Zang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiakai Zhou",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weinan Zhang",
+    "institutions": [
+     "Harbin Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chao Yu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu Wang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "ult1vxdeUb",
+  "authors": [
+   {
+    "name": "Metin Alp Dogan",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Edward Sun",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Feng Xu",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Daniel Wu",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Allen Peng",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Dennis Hong",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Yuchen Cui",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "single"
+   }
+  ]
+ },
+ {
+  "id": "F4IB3mxHbO",
+  "authors": [
+   {
+    "name": "Jiahui Li",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "JIAWEI SUN",
+    "institutions": [
+     "National University of Singapore",
+     "Black Sesame Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "RenZixiang",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Liu Ming",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiamin Shi",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruiteng Zhao",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyang Liu",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Liying LIU",
+    "institutions": [
+     "Black Sesame Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zuoguan Wang",
+    "institutions": [
+     "Black Sesame Technologies"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kaidi Yang",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "z5cgS0XgeK",
+  "authors": [
+   {
+    "name": "Huayi Zhou",
+    "institutions": [
+     "DexForce Technology",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Gao",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dekun Lu",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruiji Liu",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhanqi Zhang",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Zhang",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jian Chen",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenlve Zhou",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sheng Xu",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shumin Li",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kangyi Guo",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "shichen Xu",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zixin Huang",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yongyi Su",
+    "institutions": [
+     "DexForce Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kui Jia",
+    "institutions": [
+     "DexForce Technology",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "PLNJ3a6Yht",
+  "authors": [
+   {
+    "name": "Siheng Zhao",
+    "institutions": [
+     "Amazon FAR",
+     "USC"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuanhang Zhang",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziqi Lu",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pieter Abbeel",
+    "institutions": [
+     "Amazon FAR",
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rocky Duan",
+    "institutions": [
+     "Amazon FAR"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Koushil Sreenath",
+    "institutions": [
+     "Amazon FAR",
+     "UC Berkeley"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yue Wang",
+    "institutions": [
+     "USC"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Karen Liu",
+    "institutions": [
+     "Amazon FAR",
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guanya Shi",
+    "institutions": [
+     "Amazon FAR",
+     "CMU"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "QAHhXvXHtb",
+  "authors": [
+   {
+    "name": "Takehiko Ohkawa",
+    "institutions": [
+     "AI Robot Association (AIRoA)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jumpei Arima",
+    "institutions": [
+     "Toyota Motor Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuki Noguchi",
+    "institutions": [
+     "Toyota Motor Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Masatoshi Tateno",
+    "institutions": [
+     "AI Robot Association (AIRoA)",
+     "The University of Tokyo"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Makoto Sugiura",
+    "institutions": [
+     "AI Robot Association (AIRoA)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Takuya Okubo",
+    "institutions": [
+     "AI Robot Association (AIRoA)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kengo Ikeuchi",
+    "institutions": [
+     "AI Robot Association (AIRoA)",
+     "The University of Tokyo"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuma Shin",
+    "institutions": [
+     "AI Robot Association (AIRoA)",
+     "Institute of Science Tokyo"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hiroki Nishizawa",
+    "institutions": [
+     "AI Robot Association (AIRoA)",
+     "Waseda University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Naoaki Kanazawa",
+    "institutions": [
+     "AI Robot Association (AIRoA)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuki Wakayama",
+    "institutions": [
+     "Toyota Motor Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Daiki Fukunaga",
+    "institutions": [
+     "Toyota Motor Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Koshi Makihara",
+    "institutions": [
+     "National Institute of Advanced Industrial Science and Technology (AIST)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tomohiro Motoda",
+    "institutions": [
+     "National Institute of Advanced Industrial Science and Technology (AIST)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Floris Marc Arden Erich",
+    "institutions": [
+     "National Institute of Advanced Industrial Science and Technology (AIST)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yukiyasu Domae",
+    "institutions": [
+     "National Institute of Advanced Industrial Science and Technology (AIST)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tatsuya Matsushima",
+    "institutions": [
+     "AI Robot Association (AIRoA)",
+     "The University of Tokyo"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yoshihiro Okumatsu",
+    "institutions": [
+     "Toyota Motor Corporation"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kei Ota",
+    "institutions": [
+     "AI Robot Association (AIRoA)"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "nYkpEYmvbg",
+  "authors": [
+   {
+    "name": "Jiahang Liu",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tianyu Xu",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiawei Chen",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lu Yue",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiazhao Zhang",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyong Wang",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Minghan Li",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qisheng Zhao",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Anqi Li",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qi Su",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhizheng Zhang",
+    "institutions": [
+     "Galbot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "He Wang",
+    "institutions": [
+     "Peking University",
+     "Galbot"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "VEsQVsxMMw",
+  "authors": [
+   {
+    "name": "Yiran Qin",
+    "institutions": [
+     "CUHK-Shenzhen",
+     "University of Oxford"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiahua Ma",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Li Kang",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenzhan Li",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yihang Jiao",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xin Wen",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiufeng Song",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Heng Zhou",
+    "institutions": [
+     "USTC"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhemeng Zhang",
+    "institutions": [],
+    "basis": "none"
+   },
+   {
+    "name": "Zhenfei Yin",
+    "institutions": [
+     "University of Oxford"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xihui Liu",
+    "institutions": [
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Philip Torr",
+    "institutions": [
+     "University of Oxford"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruimao Zhang",
+    "institutions": [
+     "Sun Yat-sen University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "QwpnI3BlwT",
+  "authors": [
+   {
+    "name": "Yang Zhang",
+    "institutions": [
+     "TeleAI",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiangyuan Zhao",
+    "institutions": [
+     "TeleAI",
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenyou Fan",
+    "institutions": [
+     "TeleAI",
+     "Fudan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fangzheng YAN",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tian Li",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haitong Tang",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sen Fu",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xuaner Wu",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qizhen Weng",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weinan Zhang",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiu Li",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chi Zhang",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenjia Bai",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xuelong Li",
+    "institutions": [
+     "TeleAI"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "8YqfXYof0Y",
+  "authors": [
+   {
+    "name": "Jisoo Kim",
+    "institutions": [
+     "KAIST",
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jungbin Cho",
+    "institutions": [
+     "Yonsei University",
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sanghyeok Chu",
+    "institutions": [
+     "LG AI Research",
+     "Seoul National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ananya Bal",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jinhyung Kim",
+    "institutions": [
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Gunhee Lee",
+    "institutions": [
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sihaeng Lee",
+    "institutions": [
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Seung Hwan Kim",
+    "institutions": [
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bohyung Han",
+    "institutions": [
+     "Seoul National University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hyunmin Lee",
+    "institutions": [
+     "LG AI Research"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Laszlo A. Jeni",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Seungryong Kim",
+    "institutions": [
+     "KAIST"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "aPosmVaV9y",
+  "authors": [
+   {
+    "name": "Nitish Dashora",
+    "institutions": [
+     "Massachusetts Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Douglas Chen",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Idan Shenfeld",
+    "institutions": [
+     "Massachusetts Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "John Marangola",
+    "institutions": [
+     "Massachusetts Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pulkit Agrawal",
+    "institutions": [
+     "Massachusetts Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Max Simchowitz",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "Q4ehHMIPmb",
+  "authors": [
+   {
+    "name": "Mingcong Lei",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Honghao Cai",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuyuan Yang",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yimou Wu",
+    "institutions": [
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jinke Ren",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen",
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zezhou Cui",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Liangchen Tan",
+    "institutions": [
+     "The University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junkun Hong",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Gehan Hu",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuangyu Zhu",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shaohan Jiang",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ge Wang",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junyuan Tan",
+    "institutions": [
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhenglin Wan",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhongkai Xue",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "LI ZHENG",
+    "institutions": [
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhen Li",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen",
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuguang Cui",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen",
+     "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiming Zhao",
+    "institutions": [
+     "Ising AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yatong Han",
+    "institutions": [
+     "Ising AI"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "Q6xWLHyg6x",
+  "authors": [
+   {
+    "name": "Haoquan Fang",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiafei Duan",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington",
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Donovan Clay",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sam Wang",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Pennsylvania"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuo Liu",
+    "institutions": [
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weikai Huang",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiang Fan",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei-Chuan Tsai",
+    "institutions": [
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shirui Chen",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yi Ru Wang",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shanli Xing",
+    "institutions": [
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jaemin Cho",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington",
+     "Johns Hopkins University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jae Sung Park",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ainaz Eftekhar",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Peter Sushko",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Karen Farley",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angad Wadhwa",
+    "institutions": [
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Cole Harrison",
+    "institutions": [
+     "Amazon"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Winson Han",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ying-Chun Lee",
+    "institutions": [
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Eli VanderBilt",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rose Hendrix",
+    "institutions": [
+     "Allen Institute for AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Suveen Ellawela",
+    "institutions": [
+     "Cortex AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lucas Ngoo",
+    "institutions": [
+     "Cortex AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Joyce Chai",
+    "institutions": [
+     "University of Michigan"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jason Ren",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington",
+     "University of North Carolina at Chapel Hill"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ali Farhadi",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dieter Fox",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ranjay Krishna",
+    "institutions": [
+     "Allen Institute for AI",
+     "University of Washington"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "YnMZwXZ68A",
+  "authors": [
+   {
+    "name": "Seth Z. Zhao",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Luobin Wang",
+    "institutions": [
+     "UCSD"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hongwei Ruan",
+    "institutions": [
+     "UCSD"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuxin Bao",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yilan Chen",
+    "institutions": [
+     "UCSD"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyang Leng",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Abhijit Ravichandran",
+    "institutions": [
+     "UCSD"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Honglin He",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zewei Zhou",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "xu han",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Abhishek Peri",
+    "institutions": [
+     "Qualcomm"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyu Huang",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pranav Desai",
+    "institutions": [
+     "Qualcomm"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Henrik I Christensen",
+    "institutions": [
+     "UCSD"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiaqi Ma",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bolei Zhou",
+    "institutions": [
+     "UCLA"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "pPrwDHXw93",
+  "authors": [
+   {
+    "name": "Luoyang Sun",
+    "institutions": [
+     "Institute of Automation, Chinese Academy of Sciences",
+     "University of Chinese Academy of Sciences",
+     "AI Lab, The Yangtze River Delta",
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guoyang Xia",
+    "institutions": [
+     "Beijing University of Posts and Telecommunications",
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fengfa Li",
+    "institutions": [
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lei Ren",
+    "institutions": [
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xinyu Cui",
+    "institutions": [
+     "Institute of Automation, Chinese Academy of Sciences",
+     "University of Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haifeng Zhang",
+    "institutions": [
+     "Institute of Automation, Chinese Academy of Sciences"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fangxiang Feng",
+    "institutions": [
+     "Beijing University of Posts and Telecommunications"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kaike Zhang",
+    "institutions": [
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kun Zhan",
+    "institutions": [
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xie Yan",
+    "institutions": [
+     "Li Auto Inc."
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jun Wang",
+    "institutions": [
+     "University College London"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Cheng Deng",
+    "institutions": [
+     "University of Edinburgh"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "EfJCm9am0o",
+  "authors": [
+   {
+    "name": "Yu Li",
+    "institutions": [
+     "Peking University",
+     "Zhongguancun Academy",
+     "PsiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shenghe Hu",
+    "institutions": [
+     "Peking University",
+     "PsiBot",
+     "Nanjing University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuhan Wang",
+    "institutions": [
+     "Peking University",
+     "PsiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yaoxiang Pu",
+    "institutions": [
+     "Peking University",
+     "Zhongguancun Academy",
+     "PsiBot",
+     "Nanjing University"
+    ],
+    "basis": "ambiguous"
+   },
+   {
+    "name": "Haotong Zhang",
+    "institutions": [
+     "Peking University",
+     "PsiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuanpei Chen",
+    "institutions": [
+     "Peking University",
+     "PsiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yaodong Yang",
+    "institutions": [
+     "Peking University",
+     "PsiBot"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "oKJnHTluoA",
+  "authors": [
+   {
+    "name": "Shanglin Yuan",
+    "institutions": [
+     "Huazhong University of Science and Technology",
+     "D-Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weiheng Zhao",
+    "institutions": [
+     "Huazhong University of Science and Technology",
+     "D-Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xianda Guo",
+    "institutions": [
+     "D-Robotics",
+     "Wuhan University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wei Sui",
+    "institutions": [
+     "D-Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Li Yu",
+    "institutions": [
+     "Huazhong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenyu Liu",
+    "institutions": [
+     "Huazhong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xinggang Wang",
+    "institutions": [
+     "Huazhong University of Science and Technology"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "R1fgJZLFnx",
+  "authors": [
+   {
+    "name": "Muqun Hu",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuhao Zhou",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kabir Ray Malik",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chi Lin",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Won Suk Lee",
+    "institutions": [
+     "University of Florida"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yu She",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yan Gu",
+    "institutions": [
+     "Purdue University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "yPkDKkOD11",
+  "authors": [
+   {
+    "name": "Huy Ha",
+    "institutions": [
+     "Stanford University",
+     "Columbia University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Karen Liu",
+    "institutions": [
+     "Stanford University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuran Song",
+    "institutions": [
+     "Stanford University",
+     "Columbia University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "aq2hmhW0kU",
+  "authors": [
+   {
+    "name": "Ruiqian Nai",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Boyuan Zheng",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junming Zhao",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haodong Zhu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sicong Dai",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zunhao Chen",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yihang Hu",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yingdong Hu",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tong Zhang",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chuan Wen",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yang Gao",
+    "institutions": [
+     "Tsinghua University",
+     "Shanghai Qi Zhi Institute",
+     "Spirit.AI"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "Wv9xF5Ii7L",
+  "authors": [
+   {
+    "name": "Kexin Shi",
+    "institutions": [
+     "Skild AI",
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junyao Shi",
+    "institutions": [
+     "Skild AI",
+     "University of Pennsylvania"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Poorvi Hebbar",
+    "institutions": [
+     "Skild AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhuolun Zhao",
+    "institutions": [
+     "Skild AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tarun Amarnath",
+    "institutions": [
+     "Skild AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yifan Su",
+    "institutions": [
+     "Skild AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shikhar Bahl",
+    "institutions": [
+     "Skild AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Deepak Pathak",
+    "institutions": [
+     "Skild AI",
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "33H7BChFgI",
+  "authors": [
+   {
+    "name": "YufeiWei",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuhao Ye",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenxiao Hu",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiyuan Pan",
+    "institutions": [
+     "Zhejiang Humanoid Robot Innovation Center"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dongyu Feng",
+    "institutions": [
+     "Zhejiang Humanoid Robot Innovation Center"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanmei Jiao",
+    "institutions": [
+     "Hangzhou Normal University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rong Xiong",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yue Wang",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "ntHuqgjrgs",
+  "authors": [
+   {
+    "name": "Yuyang Zhang",
+    "institutions": [
+     "Shanghai Jiao Tong University",
+     "Eastern Institute of Technology",
+     "Tencent Robotics X"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenyao Zhang",
+    "institutions": [
+     "Shanghai Jiao Tong University",
+     "Eastern Institute of Technology",
+     "Tencent Robotics X"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zekun Qi",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "He Zhang",
+    "institutions": [
+     "Tencent Robotics X"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haitao Lin",
+    "institutions": [
+     "Tencent Robotics X"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jingbo Zhang",
+    "institutions": [
+     "Tencent Robotics X"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yao Mu",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiaokang Yang",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenjun Zeng",
+    "institutions": [
+     "Eastern Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xin Jin",
+    "institutions": [
+     "Eastern Institute of Technology",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "uHhNEb0OSW",
+  "authors": [
+   {
+    "name": "Wenbo Yu",
+    "institutions": [
+     "Beijing Forestry University",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jifan Li",
+    "institutions": [
+     "Renmin University of China",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenke Xia",
+    "institutions": [
+     "Renmin University of China",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuchen Li",
+    "institutions": [
+     "Renmin University of China"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yizhuo Zhang",
+    "institutions": [
+     "Renmin University of China",
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pei Ren",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhengping Che",
+    "institutions": [
+     "Beijing Innovation Center of Humanoid Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Di Hu",
+    "institutions": [
+     "Renmin University of China"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "MCTsPd3H0q",
+  "authors": [
+   {
+    "name": "Zechen Wang",
+    "institutions": [
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhenqi Qiu",
+    "institutions": [
+     "ShanghaiTech University",
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Houlong Xiong",
+    "institutions": [
+     "Shanghai Jiao Tong University",
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Suohang Zhang",
+    "institutions": [
+     "Zhejiang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiyu Ren",
+    "institutions": [
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wanting Xu",
+    "institutions": [
+     "ShanghaiTech University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hongfei Niu",
+    "institutions": [
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chengyang He",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "GE SUN",
+    "institutions": [
+     "National University of Singapore"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ran Cheng",
+    "institutions": [
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qian Zhu",
+    "institutions": [
+     "PrimeBot"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "qvOl1xOUtn",
+  "authors": [
+   {
+    "name": "Pengfei Zhou",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shengcong Chen",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Di Chen",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiaxu Wang",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Rongjun Jin",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bingwen Zhu",
+    "institutions": [
+     "Shanghai Innovation Institute",
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yike Pan",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Songen Gu",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kuanning Wang",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shufeng Nan",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xingyu Qiu",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenhao Qiu",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pu Yang",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunuo Cai",
+    "institutions": [
+     "Shanghai Innovation Institute",
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianxiong Gao",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yifan Li",
+    "institutions": [
+     "Shanghai Innovation Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanwei Fu",
+    "institutions": [
+     "Shanghai Innovation Institute",
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiangyu Yue",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhi Chen",
+    "institutions": [
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianlan Luo",
+    "institutions": [
+     "Shanghai Innovation Institute",
+     "AgiBot"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "mG3eBTsBiG",
+  "authors": [
+   {
+    "name": "Xirui Kang",
+    "institutions": [
+     "X Square Robot",
+     "City University of Hong Kong",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yanpei Shi",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuxin Liang",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ruyi Gan",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dongxiu Liu",
+    "institutions": [
+     "X Square Robot",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pushi Zhang",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Danpeng Chen",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiaoyi Qin",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yinan Zheng",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jinliang Zheng",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Wang",
+    "institutions": [
+     "X Square Robot"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xianyuan Zhan",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hang Su",
+    "institutions": [
+     "X Square Robot",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "OckqYiY2QM",
+  "authors": [
+   {
+    "name": "Zebin Yang",
+    "institutions": [
+     "Peking University",
+     "TLAIC"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qi Wang",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yunhe Wang",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiurui Guo",
+    "institutions": [
+     "PrimeBot Research Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bo Yu",
+    "institutions": [
+     "AIRS"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shaoshan Liu",
+    "institutions": [
+     "AIRS"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jiafeng Xu",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hao Dong",
+    "institutions": [
+     "Peking University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Meng Li",
+    "institutions": [
+     "Peking University",
+     "TLAIC"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "XJgz1iK29G",
+  "authors": [
+   {
+    "name": "Ilyass Taouil",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Michal Ciebielski",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shafeef Omar",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haizhou Zhao",
+    "institutions": [
+     "Technical University of Munich",
+     "New York University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Angela Dai",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Aaron M. Johnson",
+    "institutions": [
+     "Carnegie Mellon University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Majid Khadiv",
+    "institutions": [
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "JV472m0zgq",
+  "authors": [
+   {
+    "name": "Ye Wang",
+    "institutions": [
+     "Renmin University of China",
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pei Lin",
+    "institutions": [
+     "Alibaba",
+     "ShanghaiTech University",
+     "Beijing Institute for General Artificial Intelligence (BIGAI)"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiong-Hui Chen",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haoqi Yuan",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhixuan Liang",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yiyang Huang",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Anzhe Chen",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zixing Lei",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jie Zhang",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tao Zhang",
+    "institutions": [
+     "Renmin University of China"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haoyang Li",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tong Zhang",
+    "institutions": [
+     "Alibaba"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chenxi Xiao",
+    "institutions": [
+     "ShanghaiTech University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ziyuan Jiao",
+    "institutions": [
+     "Beijing Institute for General Artificial Intelligence (BIGAI)",
+     "Beihang University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Qin Jin",
+    "institutions": [
+     "Renmin University of China"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "N77om40jWL",
+  "authors": [
+   {
+    "name": "Mario Gomez Andreu",
+    "institutions": [
+     "University of Cambridge",
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Michael Amir",
+    "institutions": [
+     "University of Cambridge"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Antonio Marino",
+    "institutions": [
+     "University of Cambridge"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tianxu An",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Marco Hutter",
+    "institutions": [
+     "ETH Zurich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Amanda Prorok",
+    "institutions": [
+     "University of Cambridge"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "994ptkAdnU",
+  "authors": [
+   {
+    "name": "Luke Beddow",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "George Mavroghenis",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Rodrigo Alonso Chacon Quesada",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Kamil Dreczkowski",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Cong Sun",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Jiankai Wang",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Oscar Kwong-Fai Pang",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   },
+   {
+    "name": "Antoine Cully",
+    "institutions": [
+     "Imperial College London"
+    ],
+    "basis": "single"
+   }
+  ]
+ },
+ {
+  "id": "9ccdcInkM9",
+  "authors": [
+   {
+    "name": "Alessandro Canevaro",
+    "institutions": [
+     "Mercedes-Benz AG",
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Julian Schmidt",
+    "institutions": [
+     "Mercedes-Benz AG"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hang Yu",
+    "institutions": [
+     "Mercedes-Benz AG",
+     "Karlsruhe Institute of Technology"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ye Jin",
+    "institutions": [
+     "Mercedes-Benz AG",
+     "Technical University of Munich"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Sajad Marvi",
+    "institutions": [
+     "Mercedes-Benz AG",
+     "University of Freiburg"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Georg Martius",
+    "institutions": [
+     "University of Tübingen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Julian Jordan",
+    "institutions": [
+     "Mercedes-Benz AG"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "6BQ9NdqznS",
+  "authors": [
+   {
+    "name": "Zeyuan He",
+    "institutions": [
+     "University of Oxford",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bowen Yang",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhirui Fang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Keru Zhou",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Lei Jiang",
+    "institutions": [
+     "University College London"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jingjing Qian",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Fan Mo",
+    "institutions": [
+     "University of Cambridge"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Junchi Yan",
+    "institutions": [
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Philip Torr",
+    "institutions": [
+     "University of Oxford"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiu Li",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Li Jiang",
+    "institutions": [
+     "The Chinese University of Hong Kong, Shenzhen",
+     "Shenzhen Loop Area Institute"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jialin Yu",
+    "institutions": [
+     "University of Oxford",
+     "University of Bath"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "e9ZYAwJqFR",
+  "authors": [
+   {
+    "name": "Gokul Puthumanaillam",
+    "institutions": [
+     "University of Illinois Urbana-Champaign"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Vardhan Dongre",
+    "institutions": [
+     "University of Illinois Urbana-Champaign"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Pranay Thangeda",
+    "institutions": [
+     "University of Illinois Urbana-Champaign",
+     "Amazon"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hooshang Nayyeri",
+    "institutions": [
+     "Amazon"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Dilek Hakkani-Tür",
+    "institutions": [
+     "University of Illinois Urbana-Champaign"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Melkior Ornik",
+    "institutions": [
+     "University of Illinois Urbana-Champaign"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "mw8BgE8ADo",
+  "authors": [
+   {
+    "name": "Jialei Chen",
+    "institutions": [
+     "Jilin University",
+     "Zhongguancun Academy",
+     "Striding.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kai Wang",
+    "institutions": [
+     "Nankai University",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Kang Chen",
+    "institutions": [
+     "Peking University",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Shuaihang Chen",
+    "institutions": [
+     "Harbin Institute of Technology",
+     "Zhongguancun Academy"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Feng Gao",
+    "institutions": [
+     "Tsinghua University",
+     "Striding.AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wenhao Tang",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhiyuan Li",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Weilin Liu",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Zhuyu Yao",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Boxun Li",
+    "institutions": [
+     "Infinigence AI"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yuanbo Xu",
+    "institutions": [
+     "Jilin University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chao Yu",
+    "institutions": [
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "wBzyyPlFs6",
+  "authors": [
+   {
+    "name": "Zhizheng Liu",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Honglin He",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Vivek Alumootil",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Akshat Pandya",
+    "institutions": [
+     "Coco Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Brad Squicciarini",
+    "institutions": [
+     "Coco Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Wayne Wu",
+    "institutions": [
+     "University of California, Los Angeles"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Bolei Zhou",
+    "institutions": [
+     "University of California, Los Angeles",
+     "Coco Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ },
+ {
+  "id": "aTDKKvOg7W",
+  "authors": [
+   {
+    "name": "Hao Li",
+    "institutions": [
+     "ACE Robotics",
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Ganlong Zhao",
+    "institutions": [
+     "ACE Robotics",
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Yufei Liu",
+    "institutions": [
+     "ACE Robotics",
+     "Shanghai Jiao Tong University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Haotian Hou",
+    "institutions": [
+     "ACE Robotics",
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Guoquan Ye",
+    "institutions": [
+     "ACE Robotics",
+     "The Chinese University of Hong Kong, Shenzhen"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Tongyan Fang",
+    "institutions": [
+     "ACE Robotics",
+     "Tsinghua University"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Chunxiao Liu",
+    "institutions": [
+     "ACE Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Siyuan Huang",
+    "institutions": [
+     "ACE Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Jianbo Liu",
+    "institutions": [
+     "ACE Robotics"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Xiaogang Wang",
+    "institutions": [
+     "ACE Robotics",
+     "The Chinese University of Hong Kong"
+    ],
+    "basis": "explicit"
+   },
+   {
+    "name": "Hongsheng Li",
+    "institutions": [
+     "The Chinese University of Hong Kong",
+     "ACE Robotics"
+    ],
+    "basis": "explicit"
+   }
+  ]
+ }
+]

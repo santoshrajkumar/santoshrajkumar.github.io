@@ -205,6 +205,12 @@ def main():
             axl[rec["id"]] = {norm(a["name"]): a for a in rec.get("authors", [])}
     ax_stats = Counter()
     MAN = json.loads((WORK / "affil_overrides.json").read_text()) if (WORK / "affil_overrides.json").exists() else {}
+    # full-byline reads (work/oa_audit/labels_*.json) replace OpenAlex for the papers they cover; hand overrides still win
+    for f in sorted((WORK / "oa_audit").glob("labels_*.json")) if (WORK / "oa_audit").exists() else []:
+        for rec in json.loads(f.read_text()):
+            for a in rec["authors"]:
+                if a.get("basis") in AX_OK and a.get("institutions"):
+                    MAN.setdefault(rec["id"], {}).setdefault(a["name"], a["institutions"])
 
     # ---------- merge ----------
     merged = []

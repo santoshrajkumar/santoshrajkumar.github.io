@@ -70,6 +70,7 @@ University of Massachusetts Amherst,2,1,US,academia
 University of Oxford,2,1,GB,academia
 University of Zurich,2,1,CH,academia
 Wuhan University,2,1,CN,academia
+Xi'an Jiaotong University,2,1,CN,academia
 AgiBot,2,0,CN,industry
 Australian National University,2,0,AU,academia
 Cornell University,2,0,US,academia
@@ -97,6 +98,8 @@ AUMOVIO,1,1,DE,industry
 Allen Institute for AI,1,1,US,academia
 Amii (Alberta Machine Intelligence Institute),1,1,CA,academia
 Arizona State University,1,1,US,academia
+Beijing Information Science and Technology University,1,1,CN,academia
+Beijing University of Chemical Technology,1,1,CN,academia
 BeingBeyond,1,1,CN,industry
 Boston University,1,1,US,academia
 California Institute of Technology,1,1,US,academia
@@ -136,8 +139,8 @@ Analog Devices,1,0,US,industry
 Anyverse Dynamics,1,0,,industry
 Archon Robotics,1,0,,industry
 Artificial and Natural Intelligence Toulouse Institute,1,0,,academia
+BNRist,1,0,CN,academia
 Beijing Forestry University,1,0,CN,academia
-Beijing National Research Center for Information Science and Technology,1,0,,academia
 Beijing Normal University,1,0,CN,academia
 Beijing University of Civil Engineering and Architecture,1,0,CN,academia
 Beijing University of Posts and Telecommunications,1,0,CN,academia
@@ -186,6 +189,7 @@ Physical Intelligence,1,0,US,industry
 Politecnico di Milano,1,0,IT,academia
 Polixir Technologies,1,0,CN,industry
 Polytechnique Montréal,1,0,CA,academia
+PsiBot,1,0,CN,academia
 Qualcomm,1,0,US,industry
 RobotEra,1,0,CN,industry
 Robotics Institute Germany,1,0,DE,academia
@@ -217,7 +221,6 @@ VinRobotics,1,0,VN,industry
 VinUniversity,1,0,VN,academia
 Westlake University,1,0,CN,academia
 Worcester Polytechnic Institute,1,0,US,academia
-Xi'an Jiaotong University,1,0,CN,academia
 Xiaomi,1,0,CN,industry
 Xinjiang University,1,0,CN,academia
 Yale University,1,0,US,academia

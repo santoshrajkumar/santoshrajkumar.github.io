@@ -711,6 +711,7 @@
     {
      "name": "Xirui Kang",
      "institutions": [
+      "X Square Robot",
       "City University of Hong Kong",
       "Tsinghua University"
      ],
@@ -718,7 +719,7 @@
       "CN",
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanpei Shi",
@@ -726,7 +727,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yuxin Liang",
@@ -734,7 +735,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ruyi Gan",
@@ -742,17 +743,18 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Dongxiu Liu",
      "institutions": [
+      "X Square Robot",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pushi Zhang",
@@ -760,7 +762,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Danpeng Chen",
@@ -768,7 +770,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xiaoyi Qin",
@@ -776,7 +778,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yinan Zheng",
@@ -786,7 +788,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jinliang Zheng",
@@ -796,7 +798,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hao Wang",
@@ -804,7 +806,7 @@
       "X Square Robot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xianyuan Zhan",
@@ -814,17 +816,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hang Su",
      "institutions": [
+      "X Square Robot",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -832,7 +835,7 @@
     "Tsinghua University",
     "X Square Robot"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN",
@@ -1493,104 +1496,95 @@
     {
      "name": "Yang Zhang",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom",
+      "TeleAI",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiangyuan Zhao",
      "institutions": [
-      "Shanghai Jiao Tong University",
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI",
+      "Shanghai Jiao Tong University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chenyou Fan",
      "institutions": [
-      "Fudan University",
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI",
+      "Fudan University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Fangzheng YAN",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tian Li",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haitong Tang",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sen Fu",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xuaner Wu",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qizhen Weng",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Weinan Zhang",
@@ -1600,19 +1594,17 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiu Li",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chi Zhang",
@@ -1620,41 +1612,36 @@
       "TeleAI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chenjia Bai",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xuelong Li",
      "institutions": [
-      "China Telecom (China)",
-      "China Telecom",
-      "Tsinghua University"
+      "TeleAI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "China Telecom",
-    "China Telecom (China)",
     "Fudan University",
     "Shanghai Jiao Tong University",
     "TeleAI",
     "Tsinghua University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "China Telecom",
     "Fudan University",
@@ -2902,32 +2889,35 @@
     {
      "name": "Shanglin Yuan",
      "institutions": [
-      "Huazhong University of Science and Technology"
+      "Huazhong University of Science and Technology",
+      "D-Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Weiheng Zhao",
      "institutions": [
-      "Huazhong University of Science and Technology"
+      "Huazhong University of Science and Technology",
+      "D-Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xianda Guo",
      "institutions": [
+      "D-Robotics",
       "Wuhan University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wei Sui",
@@ -2935,7 +2925,7 @@
       "D-Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Li Yu",
@@ -2943,7 +2933,7 @@
       "Huazhong University of Science and Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wenyu Liu",
@@ -2953,7 +2943,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xinggang Wang",
@@ -2963,7 +2953,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -2971,7 +2961,7 @@
     "Huazhong University of Science and Technology",
     "Wuhan University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "D-Robotics",
     "Huazhong University of Science and Technology",
@@ -3179,13 +3169,13 @@
     {
      "name": "Haoquan Fang",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiafei Duan",
@@ -3195,29 +3185,29 @@
       "National University of Singapore"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Donovan Clay",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sam Wang",
      "institutions": [
-      "Allen Institute for Artificial Intelligence",
+      "Allen Institute for AI",
       "University of Pennsylvania"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shuo Liu",
@@ -3227,29 +3217,29 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Weikai Huang",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiang Fan",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wei-Chuan Tsai",
@@ -3259,40 +3249,39 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shirui Chen",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
-     ],
-     "countries": [
-      "US"
-     ],
-     "source": "openalex"
-    },
-    {
-     "name": "Yi Ru Wang",
-     "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
-     ],
-     "countries": [
-      "US"
-     ],
-     "source": "openalex"
-    },
-    {
-     "name": "Shanli Xing",
-     "institutions": [
-      "Johns Hopkins University",
+      "Allen Institute for AI",
       "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
+    },
+    {
+     "name": "Yi Ru Wang",
+     "institutions": [
+      "Allen Institute for AI",
+      "University of Washington"
+     ],
+     "countries": [
+      "US"
+     ],
+     "source": "byline"
+    },
+    {
+     "name": "Shanli Xing",
+     "institutions": [
+      "University of Washington"
+     ],
+     "countries": [
+      "US"
+     ],
+     "source": "byline"
     },
     {
      "name": "Jaemin Cho",
@@ -3302,7 +3291,7 @@
       "Johns Hopkins University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jae Sung Park",
@@ -3310,7 +3299,7 @@
       "Allen Institute for AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ainaz Eftekhar",
@@ -3319,7 +3308,7 @@
       "University of Washington"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Peter Sushko",
@@ -3327,7 +3316,7 @@
       "Allen Institute for AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Karen Farley",
@@ -3335,7 +3324,7 @@
       "Allen Institute for AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Angad Wadhwa",
@@ -3343,7 +3332,7 @@
       "University of Washington"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Cole Harrison",
@@ -3351,17 +3340,17 @@
       "Amazon"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Winson Han",
      "institutions": [
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ying-Chun Lee",
@@ -3371,27 +3360,27 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Eli VanderBilt",
      "institutions": [
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Rose Hendrix",
      "institutions": [
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Suveen Ellawela",
@@ -3399,7 +3388,7 @@
       "Cortex AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Lucas Ngoo",
@@ -3407,7 +3396,7 @@
       "Cortex AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Joyce Chai",
@@ -3417,7 +3406,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jason Ren",
@@ -3427,45 +3416,44 @@
       "University of North Carolina at Chapel Hill"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ali Farhadi",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dieter Fox",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ranjay Krishna",
      "institutions": [
-      "University of Washington",
-      "Allen Institute for Artificial Intelligence"
+      "Allen Institute for AI",
+      "University of Washington"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Allen Institute for AI",
-    "Allen Institute for Artificial Intelligence",
     "Amazon",
     "Cortex AI",
     "Johns Hopkins University",
@@ -3475,7 +3463,7 @@
     "University of Pennsylvania",
     "University of Washington"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "US"
@@ -4226,12 +4214,13 @@
     {
      "name": "Wenzhan Li",
      "institutions": [
-      "Sun Yat-sen University"
+      "Sun Yat-sen University",
+      "Shenzhen Loop Area Institute"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yiran Qin",
@@ -4241,18 +4230,18 @@
       "University of Oxford"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Heng Zhou",
      "institutions": [
-      "University of Science and Technology of China",
-      "Shanghai Artificial Intelligence Laboratory"
+      "Shanghai AI Laboratory",
+      "University of Science and Technology of China"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Huirui Wang",
@@ -4262,17 +4251,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yulan Guo",
      "institutions": [
-      "Sun Yat-sen University"
+      "Sun Yat-sen University",
+      "Shenzhen Loop Area Institute"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ruimao Zhang",
@@ -4282,18 +4272,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Shanghai AI Laboratory",
-    "Shanghai Artificial Intelligence Laboratory",
+    "Shenzhen Loop Area Institute",
     "Sun Yat-sen University",
     "The Chinese University of Hong Kong, Shenzhen",
     "University of Oxford",
     "University of Science and Technology of China"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Chinese University of Hong Kong, Shenzhen",
     "Shanghai AI Laboratory",
@@ -5519,32 +5509,33 @@
     {
      "name": "Mingcong Lei",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Honghao Cai",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuyuan Yang",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yimou Wu",
@@ -5552,93 +5543,97 @@
       "The Chinese University of Hong Kong"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jinke Ren",
      "institutions": [
-      "Chinese University of Hong Kong",
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen",
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [
       "CN",
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zezhou Cui",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Liangchen Tan",
      "institutions": [
-      "University of Hong Kong"
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Junkun Hong",
      "institutions": [
-      "Shenzhen Future Network of Intelligence Institute"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Gehan Hu",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shuangyu Zhu",
      "institutions": [
-      "Shenzhen Future Network of Intelligence Institute"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shaohan Jiang",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ge Wang",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Junyuan Tan",
      "institutions": [
-      "Shenzhen Future Network of Intelligence Institute"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhenglin Wan",
@@ -5648,7 +5643,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhongkai Xue",
@@ -5656,7 +5651,7 @@
       "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "LI ZHENG",
@@ -5664,28 +5659,28 @@
       "The Chinese University of Hong Kong"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhen Li",
      "institutions": [
       "The Chinese University of Hong Kong, Shenzhen",
-      "Shenzhen Future Network of Intelligence Institute"
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shuguang Cui",
      "institutions": [
-      "Chinese University of Hong Kong",
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen",
+      "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)"
      ],
      "countries": [
       "CN",
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yiming Zhao",
@@ -5693,7 +5688,7 @@
       "Ising AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yatong Han",
@@ -5701,20 +5696,18 @@
       "Ising AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Chinese University of Hong Kong",
-    "Chinese University of Hong Kong, Shenzhen",
     "Ising AI",
     "National University of Singapore",
-    "Shenzhen Future Network of Intelligence Institute",
+    "Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen)",
     "The Chinese University of Hong Kong",
     "The Chinese University of Hong Kong, Shenzhen",
-    "University of Hong Kong"
+    "The University of Hong Kong"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN",
@@ -5871,7 +5864,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Douglas Chen",
@@ -5881,7 +5874,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Idan Shenfeld",
@@ -5891,7 +5884,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "John Marangola",
@@ -5901,7 +5894,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pulkit Agrawal",
@@ -5909,7 +5902,7 @@
       "Massachusetts Institute of Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Max Simchowitz",
@@ -5919,14 +5912,14 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Carnegie Mellon University",
     "Massachusetts Institute of Technology"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Carnegie Mellon University",
     "Massachusetts Institute of Technology"
@@ -7783,12 +7776,13 @@
     {
      "name": "Zebin Yang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "TLAIC"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qi Wang",
@@ -7798,7 +7792,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yunhe Wang",
@@ -7808,7 +7802,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiurui Guo",
@@ -7816,7 +7810,7 @@
       "PrimeBot Research Institute"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Bo Yu",
@@ -7824,7 +7818,7 @@
       "AIRS"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shaoshan Liu",
@@ -7832,7 +7826,7 @@
       "AIRS"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiafeng Xu",
@@ -7842,7 +7836,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hao Dong",
@@ -7852,7 +7846,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Meng Li",
@@ -7861,7 +7855,7 @@
       "TLAIC"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -7870,7 +7864,7 @@
     "PrimeBot Research Institute",
     "TLAIC"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "AIRS",
     "Peking University",
@@ -9056,48 +9050,51 @@
     {
      "name": "Shihefeng Wang",
      "institutions": [
-      "Tsinghua University"
+      "Tsinghua University",
+      "BNRist"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kangchen Lv",
      "institutions": [
-      "Tsinghua University"
+      "Tsinghua University",
+      "BNRist"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Mingrui Yu",
      "institutions": [
       "Tsinghua University",
-      "Beijing National Research Center for Information Science and Technology"
+      "BNRist"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xiang Li",
      "institutions": [
-      "Tsinghua University"
+      "Tsinghua University",
+      "BNRist"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Beijing National Research Center for Information Science and Technology",
+    "BNRist",
     "Tsinghua University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Tsinghua University"
    ],
@@ -9158,122 +9155,134 @@
     {
      "name": "Mi Yan",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wenhao Zhang",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhiqi Zhang",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yu Peng",
      "institutions": [
+      "Galbot",
       "Renmin University of China"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tangxinyu Wang",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Lingfei Zhai",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiayi Su",
      "institutions": [
+      "Galbot",
       "Xiamen University Malaysia"
      ],
      "countries": [
       "MY"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shengliang Deng",
      "institutions": [
-      "University of Hong Kong"
+      "Galbot",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Lin Peng",
      "institutions": [
+      "Galbot",
       "Beihang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yaowei Liu",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuxing Chen",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhiyuan Wei",
      "institutions": [
+      "Galbot",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jilong Wang",
@@ -9281,47 +9290,50 @@
       "Galbot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiayi Chen",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiangran Lyu",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhizheng Zhang",
      "institutions": [
-      "Peking University"
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "He Wang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -9329,10 +9341,10 @@
     "Galbot",
     "Peking University",
     "Renmin University of China",
-    "University of Hong Kong",
+    "The University of Hong Kong",
     "Xiamen University Malaysia"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN",
@@ -15194,7 +15206,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Neel P. Bhatt",
@@ -15203,7 +15215,7 @@
       "Neurosymbolic Intelligence"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yunhao Yang",
@@ -15212,7 +15224,7 @@
       "Neurosymbolic Intelligence"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Seoyoung Lee",
@@ -15222,7 +15234,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Nishant Gadde",
@@ -15232,27 +15244,29 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Christian Ellis",
      "institutions": [
-      "The University of Texas at Austin"
+      "The University of Texas at Austin",
+      "Neurosymbolic Intelligence"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Alvaro Velasquez",
      "institutions": [
+      "Neurosymbolic Intelligence",
       "University of Colorado Boulder"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhangyang Wang",
@@ -15262,17 +15276,18 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "ufuk topcu",
      "institutions": [
-      "The University of Texas at Austin"
+      "The University of Texas at Austin",
+      "Neurosymbolic Intelligence"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -15280,7 +15295,7 @@
     "The University of Texas at Austin",
     "University of Colorado Boulder"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Neurosymbolic Intelligence",
     "University of Colorado Boulder",
@@ -17301,52 +17316,57 @@
     {
      "name": "Jiahang Liu",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tianyu Xu",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiawei Chen",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Lu Yue",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiazhao Zhang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhiyong Wang",
@@ -17354,7 +17374,7 @@
       "Galbot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Minghan Li",
@@ -17362,47 +17382,50 @@
       "Galbot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Qisheng Zhao",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Anqi Li",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qi Su",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhizheng Zhang",
      "institutions": [
-      "Beijing Academy of Artificial Intelligence"
+      "Galbot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "He Wang",
@@ -17411,15 +17434,14 @@
       "Galbot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Beijing Academy of Artificial Intelligence",
     "Galbot",
     "Peking University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN"
@@ -19717,23 +19739,22 @@
     {
      "name": "Zerui Li",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hongpei Zheng",
      "institutions": [
-      "University of Manchester"
+      "The University of Manchester"
      ],
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Fangguo Zhao",
@@ -19743,7 +19764,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanyan Shao",
@@ -19751,61 +19772,57 @@
       "Zhejiang Wanli University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jian Zhou",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sihao Lin",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shijie Li",
      "institutions": [
-      "Agency for Science, Technology and Research"
+      "Agency for Science, Technology and Research (A*STAR)"
      ],
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qi Wu",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Adelaide University",
-    "Agency for Science, Technology and Research",
-    "The University of Adelaide",
-    "University of Manchester",
+    "Agency for Science, Technology and Research (A*STAR)",
+    "The University of Manchester",
     "Zhejiang University",
     "Zhejiang Wanli University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Agency for Science, Technology and Research",
     "University of Adelaide",
@@ -20107,36 +20124,36 @@
       "UC Santa Barbara"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yongchao Chen",
      "institutions": [
-      "Harvard University",
-      "Massachusetts Institute of Technology"
+      "Massachusetts Institute of Technology",
+      "Harvard University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yang Zhang",
      "institutions": [
-      "IBM (United States)"
+      "MIT-IBM Watson AI Lab"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ramana Rao Kompella",
      "institutions": [
-      "Cisco"
+      "Cisco Research"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chuchu Fan",
@@ -20146,15 +20163,15 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Gaowen Liu",
      "institutions": [
-      "Cisco"
+      "Cisco Research"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shiyu Chang",
@@ -20162,17 +20179,17 @@
       "UC Santa Barbara"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Cisco",
+    "Cisco Research",
     "Harvard University",
-    "IBM (United States)",
+    "MIT-IBM Watson AI Lab",
     "Massachusetts Institute of Technology",
     "UC Santa Barbara"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Cisco",
     "Harvard University",
@@ -21159,35 +21176,32 @@
     {
      "name": "YufeiWei",
      "institutions": [
-      "State Key Laboratory of Industrial Control Technology",
       "Zhejiang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shuhao Ye",
      "institutions": [
-      "State Key Laboratory of Industrial Control Technology",
       "Zhejiang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chenxiao Hu",
      "institutions": [
-      "State Key Laboratory of Industrial Control Technology",
       "Zhejiang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yiyuan Pan",
@@ -21195,7 +21209,7 @@
       "Zhejiang Humanoid Robot Innovation Center"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Dongyu Feng",
@@ -21203,7 +21217,7 @@
       "Zhejiang Humanoid Robot Innovation Center"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yanmei Jiao",
@@ -21213,38 +21227,35 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Rong Xiong",
      "institutions": [
-      "State Key Laboratory of Industrial Control Technology",
       "Zhejiang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yue Wang",
      "institutions": [
-      "State Key Laboratory of Industrial Control Technology",
       "Zhejiang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Hangzhou Normal University",
-    "State Key Laboratory of Industrial Control Technology",
     "Zhejiang Humanoid Robot Innovation Center",
     "Zhejiang University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Hangzhou Normal University",
     "Zhejiang Humanoid Robot Innovation Center",
@@ -25962,29 +25973,24 @@
      "name": "Jialei Chen",
      "institutions": [
       "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
-      "Tsinghua University"
+      "Zhongguancun Academy",
+      "Striding.AI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kai Wang",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
       "Nankai University",
-      "Tsinghua University"
+      "Zhongguancun Academy"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kang Chen",
@@ -25993,7 +25999,7 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shuaihang Chen",
@@ -26002,7 +26008,7 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Feng Gao",
@@ -26011,77 +26017,57 @@
       "Striding.AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wenhao Tang",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhiyuan Li",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
-      "Tsinghua University"
+      "Infinigence AI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Weilin Liu",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
-      "Tsinghua University"
+      "Infinigence AI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhuyu Yao",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
-      "Tsinghua University"
+      "Infinigence AI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Boxun Li",
      "institutions": [
-      "Jilin University",
-      "Peking University",
-      "Harbin Institute of Technology",
-      "Nankai University",
-      "Tsinghua University"
+      "Infinigence AI"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuanbo Xu",
@@ -26089,7 +26075,7 @@
       "Jilin University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chao Yu",
@@ -26097,11 +26083,12 @@
       "Tsinghua University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Harbin Institute of Technology",
+    "Infinigence AI",
     "Jilin University",
     "Nankai University",
     "Peking University",
@@ -26109,7 +26096,7 @@
     "Tsinghua University",
     "Zhongguancun Academy"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Harbin Institute of Technology",
     "Infinigence AI",
@@ -26590,32 +26577,35 @@
     {
      "name": "Wenbo Yu",
      "institutions": [
-      "Beijing Forestry University"
+      "Beijing Forestry University",
+      "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jifan Li",
      "institutions": [
-      "Renmin University of China"
+      "Renmin University of China",
+      "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wenke Xia",
      "institutions": [
-      "Renmin University of China"
+      "Renmin University of China",
+      "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuchen Li",
@@ -26625,17 +26615,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yizhuo Zhang",
      "institutions": [
-      "Renmin University of China"
+      "Renmin University of China",
+      "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pei Ren",
@@ -26643,7 +26634,7 @@
       "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhengping Che",
@@ -26651,7 +26642,7 @@
       "Beijing Innovation Center of Humanoid Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Di Hu",
@@ -26661,7 +26652,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -26669,7 +26660,7 @@
     "Beijing Innovation Center of Humanoid Robotics",
     "Renmin University of China"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Beijing Forestry University",
     "Beijing Innovation Center of Humanoid Robotics",
@@ -27460,36 +27451,37 @@
       "Institute of Automation, Chinese Academy of Sciences",
       "University of Chinese Academy of Sciences",
       "AI Lab, The Yangtze River Delta",
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Guoyang Xia",
      "institutions": [
-      "Beijing University of Posts and Telecommunications"
+      "Beijing University of Posts and Telecommunications",
+      "Li Auto Inc."
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Fengfa Li",
      "institutions": [
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Lei Ren",
      "institutions": [
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xinyu Cui",
@@ -27498,18 +27490,17 @@
       "University of Chinese Academy of Sciences"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Haifeng Zhang",
      "institutions": [
-      "Chinese Academy of Sciences",
-      "Institute of Automation"
+      "Institute of Automation, Chinese Academy of Sciences"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Fangxiang Feng",
@@ -27519,31 +27510,31 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kaike Zhang",
      "institutions": [
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kun Zhan",
      "institutions": [
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xie Yan",
      "institutions": [
-      "Li Auto"
+      "Li Auto Inc."
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jun Wang",
@@ -27553,7 +27544,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Cheng Deng",
@@ -27563,21 +27554,19 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "AI Lab, The Yangtze River Delta",
     "Beijing University of Posts and Telecommunications",
-    "Chinese Academy of Sciences",
-    "Institute of Automation",
     "Institute of Automation, Chinese Academy of Sciences",
-    "Li Auto",
+    "Li Auto Inc.",
     "University College London",
     "University of Chinese Academy of Sciences",
     "University of Edinburgh"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN",
@@ -29460,13 +29449,13 @@
      "name": "Zeyuan He",
      "institutions": [
       "University of Oxford",
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN",
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Bowen Yang",
@@ -29476,7 +29465,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhirui Fang",
@@ -29484,7 +29473,7 @@
       "Tsinghua University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Keru Zhou",
@@ -29492,29 +29481,28 @@
       "Tsinghua University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Lei Jiang",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen",
       "University College London"
      ],
      "countries": [
       "CN",
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jingjing Qian",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Fan Mo",
@@ -29524,7 +29512,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Junchi Yan",
@@ -29534,7 +29522,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Philip Torr",
@@ -29544,7 +29532,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiu Li",
@@ -29554,40 +29542,43 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Li Jiang",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen",
-      "University College London"
+      "The Chinese University of Hong Kong, Shenzhen",
+      "Shenzhen Loop Area Institute"
      ],
      "countries": [
       "CN",
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jialin Yu",
      "institutions": [
-      "University of Oxford"
+      "University of Oxford",
+      "University of Bath"
      ],
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Chinese University of Hong Kong, Shenzhen",
     "Shanghai Jiao Tong University",
+    "Shenzhen Loop Area Institute",
+    "The Chinese University of Hong Kong, Shenzhen",
     "Tsinghua University",
     "University College London",
+    "University of Bath",
     "University of Cambridge",
     "University of Oxford"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Chinese University of Hong Kong, Shenzhen",
     "Shanghai Jiao Tong University",
@@ -32220,125 +32211,123 @@
     {
      "name": "Ye Wang",
      "institutions": [
-      "Alibaba Group (China)",
-      "Renmin University of China"
+      "Renmin University of China",
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pei Lin",
      "institutions": [
       "Alibaba",
       "ShanghaiTech University",
-      "Beijing Institute for General Artificial Intelligence"
+      "Beijing Institute for General Artificial Intelligence (BIGAI)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xiong-Hui Chen",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haoqi Yuan",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhixuan Liang",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yiyang Huang",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Anzhe Chen",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zixing Lei",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jie Zhang",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tao Zhang",
      "institutions": [
-      "Alibaba Group (China)",
       "Renmin University of China"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haoyang Li",
      "institutions": [
-      "Alibaba Group (China)"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tong Zhang",
      "institutions": [
-      "Alibaba Group (China)",
-      "Renmin University of China"
+      "Alibaba"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chenxi Xiao",
@@ -32348,18 +32337,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ziyuan Jiao",
      "institutions": [
-      "Beijing Institute for General Artificial Intelligence",
+      "Beijing Institute for General Artificial Intelligence (BIGAI)",
       "Beihang University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qin Jin",
@@ -32369,18 +32358,17 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Alibaba",
-    "Alibaba Group (China)",
     "Beihang University",
-    "Beijing Institute for General Artificial Intelligence",
+    "Beijing Institute for General Artificial Intelligence (BIGAI)",
     "Renmin University of China",
     "ShanghaiTech University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Alibaba",
     "Beihang University",
@@ -33066,64 +33054,69 @@
     {
      "name": "Hao Li",
      "institutions": [
-      "Chinese University of Hong Kong"
+      "ACE Robotics",
+      "The Chinese University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ganlong Zhao",
      "institutions": [
-      "Chinese University of Hong Kong"
+      "ACE Robotics",
+      "The Chinese University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yufei Liu",
      "institutions": [
+      "ACE Robotics",
       "Shanghai Jiao Tong University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haotian Hou",
      "institutions": [
-      "Chinese University of Hong Kong"
+      "ACE Robotics",
+      "The Chinese University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Guoquan Ye",
      "institutions": [
-      "Chinese University of Hong Kong",
-      "Chinese University of Hong Kong, Shenzhen"
+      "ACE Robotics",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN",
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tongyan Fang",
      "institutions": [
+      "ACE Robotics",
       "Tsinghua University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chunxiao Liu",
@@ -33131,7 +33124,7 @@
       "ACE Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Siyuan Huang",
@@ -33139,7 +33132,7 @@
       "ACE Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jianbo Liu",
@@ -33147,37 +33140,39 @@
       "ACE Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xiaogang Wang",
      "institutions": [
-      "Chinese University of Hong Kong"
+      "ACE Robotics",
+      "The Chinese University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hongsheng Li",
      "institutions": [
-      "Chinese University of Hong Kong"
+      "The Chinese University of Hong Kong",
+      "ACE Robotics"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "ACE Robotics",
-    "Chinese University of Hong Kong",
-    "Chinese University of Hong Kong, Shenzhen",
     "Shanghai Jiao Tong University",
+    "The Chinese University of Hong Kong",
+    "The Chinese University of Hong Kong, Shenzhen",
     "Tsinghua University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "ACE Robotics",
     "Chinese University of Hong Kong",
@@ -33772,27 +33767,29 @@
       "PrimeBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhenqi Qiu",
      "institutions": [
-      "ShanghaiTech University"
+      "ShanghaiTech University",
+      "PrimeBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Houlong Xiong",
      "institutions": [
-      "Shanghai Jiao Tong University"
+      "Shanghai Jiao Tong University",
+      "PrimeBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Suohang Zhang",
@@ -33802,7 +33799,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yiyu Ren",
@@ -33810,7 +33807,7 @@
       "PrimeBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wanting Xu",
@@ -33820,7 +33817,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hongfei Niu",
@@ -33828,7 +33825,7 @@
       "PrimeBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chengyang He",
@@ -33838,7 +33835,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "GE SUN",
@@ -33848,7 +33845,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ran Cheng",
@@ -33856,7 +33853,7 @@
       "PrimeBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Qian Zhu",
@@ -33864,7 +33861,7 @@
       "PrimeBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -33874,7 +33871,7 @@
     "ShanghaiTech University",
     "Zhejiang University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN",
@@ -34338,7 +34335,7 @@
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Weiming Zhi",
@@ -34347,27 +34344,27 @@
       "Vanderbilt University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Fabio Ramos",
      "institutions": [
       "The University of Sydney",
-      "Nvidia (United States)"
+      "NVIDIA"
      ],
      "countries": [
       "AU",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Nvidia (United States)",
+    "NVIDIA",
     "The University of Sydney",
     "Vanderbilt University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "AU",
@@ -36737,7 +36734,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Vardhan Dongre",
@@ -36747,28 +36744,28 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pranay Thangeda",
      "institutions": [
-      "Amazon (United States)",
-      "University of Illinois Urbana-Champaign"
+      "University of Illinois Urbana-Champaign",
+      "Amazon"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hooshang Nayyeri",
      "institutions": [
-      "Amazon (United States)"
+      "Amazon"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dilek Hakkani-Tür",
@@ -36776,7 +36773,7 @@
       "University of Illinois Urbana-Champaign"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Melkior Ornik",
@@ -36786,14 +36783,14 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Amazon (United States)",
+    "Amazon",
     "University of Illinois Urbana-Champaign"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Amazon",
     "University of Illinois Urbana-Champaign"
@@ -38577,13 +38574,13 @@
     {
      "name": "Huy Ha",
      "institutions": [
-      "Columbia University",
-      "Stanford University"
+      "Stanford University",
+      "Columbia University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Karen Liu",
@@ -38591,25 +38588,25 @@
       "Stanford University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shuran Song",
      "institutions": [
-      "Columbia University",
-      "Stanford University"
+      "Stanford University",
+      "Columbia University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Columbia University",
     "Stanford University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Columbia University",
     "Stanford University"
@@ -44198,7 +44195,7 @@
       "University of California, Los Angeles"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Edward Sun",
@@ -44208,7 +44205,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Feng Xu",
@@ -44218,7 +44215,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Daniel Wu",
@@ -44228,7 +44225,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Allen Peng",
@@ -44238,7 +44235,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dennis Hong",
@@ -44248,7 +44245,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuchen Cui",
@@ -44258,13 +44255,13 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "University of California, Los Angeles"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "University of California, Los Angeles"
    ],
@@ -44872,7 +44869,7 @@
       "CH",
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Michael Amir",
@@ -44882,7 +44879,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Antonio Marino",
@@ -44892,7 +44889,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tianxu An",
@@ -44900,7 +44897,7 @@
       "ETH Zurich"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Marco Hutter",
@@ -44910,7 +44907,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Amanda Prorok",
@@ -44920,14 +44917,14 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "ETH Zurich",
     "University of Cambridge"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CH",
@@ -47108,7 +47105,7 @@
       "Spirit.AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Boyuan Zheng",
@@ -47118,7 +47115,7 @@
       "Spirit.AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Junming Zhao",
@@ -47128,7 +47125,7 @@
       "Spirit.AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Haodong Zhu",
@@ -47138,7 +47135,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sicong Dai",
@@ -47148,7 +47145,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zunhao Chen",
@@ -47158,40 +47155,40 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yihang Hu",
      "institutions": [
-      "Shanghai Qi Zhi Institute",
-      "Tsinghua University"
+      "Tsinghua University",
+      "Shanghai Qi Zhi Institute"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yingdong Hu",
      "institutions": [
-      "Shanghai Qi Zhi Institute",
-      "Tsinghua University"
+      "Tsinghua University",
+      "Shanghai Qi Zhi Institute"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tong Zhang",
      "institutions": [
-      "Shanghai Qi Zhi Institute",
-      "Tsinghua University"
+      "Tsinghua University",
+      "Shanghai Qi Zhi Institute"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chuan Wen",
@@ -47201,7 +47198,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yang Gao",
@@ -47211,7 +47208,7 @@
       "Spirit.AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -47220,7 +47217,7 @@
     "Spirit.AI",
     "Tsinghua University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN"
@@ -47735,22 +47732,24 @@
     {
      "name": "Runyi Yu",
      "institutions": [
-      "Hong Kong University of Science and Technology"
+      "Noitom Robotics",
+      "The Hong Kong University of Science and Technology"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiaoyi Lin",
      "institutions": [
+      "Noitom Robotics",
       "Wuhan University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ji Ma",
@@ -47758,27 +47757,27 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yinhuai Wang",
      "institutions": [
-      "Hong Kong University of Science and Technology"
+      "The Hong Kong University of Science and Technology"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Koukou Luo",
      "institutions": [
-      "Hong Kong University of Science and Technology"
+      "The Hong Kong University of Science and Technology"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiahao Ji",
@@ -47786,27 +47785,29 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Huayi Wang",
      "institutions": [
-      "University of Hong Kong"
+      "Noitom Robotics",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wenjia Wang",
      "institutions": [
-      "University of Hong Kong"
+      "Noitom Robotics",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Runhan Zhang",
@@ -47814,17 +47815,17 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ping Tan",
      "institutions": [
-      "Hong Kong University of Science and Technology"
+      "The Hong Kong University of Science and Technology"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ting Wu",
@@ -47832,7 +47833,7 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ruoli Dai",
@@ -47840,17 +47841,17 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Qifeng Chen",
      "institutions": [
-      "Hong Kong University of Science and Technology"
+      "The Hong Kong University of Science and Technology"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Lei Han",
@@ -47858,16 +47859,16 @@
       "Noitom Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Hong Kong University of Science and Technology",
     "Noitom Robotics",
-    "University of Hong Kong",
+    "The Hong Kong University of Science and Technology",
+    "The University of Hong Kong",
     "Wuhan University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Hong Kong University of Science and Technology",
     "Noitom Robotics",
@@ -48121,22 +48122,22 @@
     {
      "name": "Vongani Hlavutelo Maluleke",
      "institutions": [
-      "University of California, Berkeley"
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "James Ni",
      "institutions": [
-      "University of California, Berkeley"
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kie Horiuchi",
@@ -48145,7 +48146,7 @@
       "Sony Group Corporation"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Lea Wilken",
@@ -48153,7 +48154,7 @@
       "Meta"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiahui Lei",
@@ -48161,27 +48162,27 @@
       "UC Berkeley"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Evonne Ng",
      "institutions": [
-      "University of California, Berkeley"
+      "Meta"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Roei Herzig",
      "institutions": [
-      "University of California, Berkeley"
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jitendra Malik",
@@ -48189,7 +48190,7 @@
       "UC Berkeley"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Trevor Darrell",
@@ -48197,7 +48198,7 @@
       "UC Berkeley"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Angjoo Kanazawa",
@@ -48205,16 +48206,15 @@
       "UC Berkeley"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Meta",
     "Sony Group Corporation",
-    "UC Berkeley",
-    "University of California, Berkeley"
+    "UC Berkeley"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "US"
@@ -48512,7 +48512,7 @@
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Michal Ciebielski",
@@ -48520,7 +48520,7 @@
       "Technical University of Munich"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shafeef Omar",
@@ -48530,19 +48530,19 @@
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haizhou Zhao",
      "institutions": [
-      "New York University",
-      "Technical University of Munich"
+      "Technical University of Munich",
+      "New York University"
      ],
      "countries": [
       "DE",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Angela Dai",
@@ -48552,7 +48552,7 @@
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Aaron M. Johnson",
@@ -48562,7 +48562,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Majid Khadiv",
@@ -48572,7 +48572,7 @@
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -48580,7 +48580,7 @@
     "New York University",
     "Technical University of Munich"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Carnegie Mellon University",
     "New York University",
@@ -48874,22 +48874,22 @@
     {
      "name": "Muqun Hu",
      "institutions": [
-      "Purdue University West Lafayette"
+      "Purdue University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuhao Zhou",
      "institutions": [
-      "Purdue University West Lafayette"
+      "Purdue University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kabir Ray Malik",
@@ -48897,7 +48897,7 @@
       "Purdue University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chi Lin",
@@ -48905,7 +48905,7 @@
       "Purdue University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Won Suk Lee",
@@ -48915,35 +48915,34 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yu She",
      "institutions": [
-      "Purdue University West Lafayette"
+      "Purdue University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yan Gu",
      "institutions": [
-      "Purdue University West Lafayette"
+      "Purdue University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Purdue University",
-    "Purdue University West Lafayette",
     "University of Florida"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Purdue University",
     "University of Florida"
@@ -49230,12 +49229,13 @@
     {
      "name": "Zepeng Wang",
      "institutions": [
-      "Wuhan University"
+      "Wuhan University",
+      "BeingBeyond"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiangxing Wang",
@@ -49243,7 +49243,7 @@
       "BeingBeyond"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shiqing Yao",
@@ -49251,7 +49251,7 @@
       "BeingBeyond"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yu Zhang",
@@ -49259,7 +49259,7 @@
       "BeingBeyond"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ziluo Ding",
@@ -49267,37 +49267,40 @@
       "BeingBeyond"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ming Yang",
      "institutions": [
+      "BeingBeyond",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuxuan Wang",
      "institutions": [
+      "BeingBeyond",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haobin Jiang",
      "institutions": [
+      "BeingBeyond",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chao Ma",
@@ -49307,7 +49310,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "XIAOCHUAN SHI",
@@ -49317,17 +49320,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zongqing Lu",
      "institutions": [
+      "BeingBeyond",
       "Peking University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -49335,7 +49339,7 @@
     "Peking University",
     "Wuhan University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "BeingBeyond",
     "Peking University",
@@ -50022,22 +50026,24 @@
     {
      "name": "Chenxin Liu",
      "institutions": [
-      "Tsinghua University"
+      "Tsinghua University",
+      "RobotEra"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qingzhou Lu",
      "institutions": [
-      "Tsinghua University"
+      "Tsinghua University",
+      "RobotEra"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Guangxiao Yang",
@@ -50045,7 +50051,7 @@
       "RobotEra"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xuanyang Shi",
@@ -50053,7 +50059,7 @@
       "RobotEra"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chenghan Yang",
@@ -50063,7 +50069,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanjiang Guo",
@@ -50072,25 +50078,25 @@
       "RobotEra"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jianyu Chen",
      "institutions": [
       "Tsinghua University",
       "RobotEra",
-      "Shanghai Qi Zhi Institute"
+      "Shanghai Qizhi Institute"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "RobotEra",
-    "Shanghai Qi Zhi Institute",
+    "Shanghai Qizhi Institute",
     "Tsinghua University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "RobotEra",
     "Shanghai Qi Zhi Institute",
@@ -52724,126 +52730,128 @@
     {
      "name": "Pengfei Zhou",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shengcong Chen",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Di Chen",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiaxu Wang",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Rongjun Jin",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Bingwen Zhu",
      "institutions": [
-      "Shanghai Innovation Institute"
+      "Shanghai Innovation Institute",
+      "AgiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yike Pan",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Songen Gu",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kuanning Wang",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shufeng Nan",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Xingyu Qiu",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Chenhao Qiu",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Pu Yang",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yunuo Cai",
      "institutions": [
-      "Shanghai Innovation Institute"
+      "Shanghai Innovation Institute",
+      "AgiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jianxiong Gao",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yifan Li",
@@ -52853,50 +52861,52 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanwei Fu",
      "institutions": [
-      "Shanghai Innovation Institute"
+      "Shanghai Innovation Institute",
+      "AgiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiangyu Yue",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhi Chen",
      "institutions": [
-      "AGIBOT"
+      "AgiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jianlan Luo",
      "institutions": [
-      "Shanghai Innovation Institute"
+      "Shanghai Innovation Institute",
+      "AgiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "AGIBOT",
+    "AgiBot",
     "Shanghai Innovation Institute"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "AGIBOT",
     "Shanghai Innovation Institute"
@@ -53439,7 +53449,7 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Taeksoo Kim",
@@ -53449,7 +53459,7 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hyunsoo Cha",
@@ -53457,23 +53467,25 @@
       "Seoul National University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Hanbyul Joo",
      "institutions": [
-      "Seoul National University"
+      "Seoul National University",
+      "RLWRLD"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
+    "RLWRLD",
     "Seoul National University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "RLWRLD",
     "Seoul National University"
@@ -53569,7 +53581,7 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hanseul Kim",
@@ -53579,7 +53591,7 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jeongjae Park",
@@ -53587,7 +53599,7 @@
       "Seoul National University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Sungmok Jung",
@@ -53595,7 +53607,7 @@
       "Seoul National University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jaejin Lee",
@@ -53605,7 +53617,7 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Taesup Kim",
@@ -53615,13 +53627,13 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Seoul National University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Seoul National University"
    ],
@@ -53678,20 +53690,20 @@
      "institutions": [
       "Shanghai Jiao Tong University",
       "Eastern Institute of Technology",
-      "Tencent"
+      "Tencent Robotics X"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wenyao Zhang",
      "institutions": [
       "Shanghai Jiao Tong University",
       "Eastern Institute of Technology",
-      "Tencent"
+      "Tencent Robotics X"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zekun Qi",
@@ -53701,37 +53713,37 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "He Zhang",
      "institutions": [
-      "Tencent (China)"
+      "Tencent Robotics X"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haitao Lin",
      "institutions": [
-      "Tencent (China)"
+      "Tencent Robotics X"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jingbo Zhang",
      "institutions": [
-      "Tencent (China)"
+      "Tencent Robotics X"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yao Mu",
@@ -53741,7 +53753,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiaokang Yang",
@@ -53751,7 +53763,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wenjun Zeng",
@@ -53761,7 +53773,7 @@
      "countries": [
       "NZ"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xin Jin",
@@ -53770,18 +53782,17 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Eastern Institute of Technology",
     "Shanghai Jiao Tong University",
-    "Tencent",
-    "Tencent (China)",
+    "Tencent Robotics X",
     "Tsinghua University",
     "Zhongguancun Academy"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Eastern Institute of Technology",
     "Shanghai Jiao Tong University",
@@ -54553,13 +54564,13 @@
     {
      "name": "Jisoo Kim",
      "institutions": [
-      "Korea Advanced Institute of Science and Technology",
-      "LG AI Research (South Korea)"
+      "KAIST",
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jungbin Cho",
@@ -54571,18 +54582,18 @@
       "KR",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sanghyeok Chu",
      "institutions": [
-      "Seoul National University",
-      "LG AI Research (South Korea)"
+      "LG AI Research",
+      "Seoul National University"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ananya Bal",
@@ -54592,49 +54603,47 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jinhyung Kim",
      "institutions": [
-      "Korea Advanced Institute of Science and Technology",
-      "LG AI Research (South Korea)"
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Gunhee Lee",
      "institutions": [
-      "LG AI Research (South Korea)"
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sihaeng Lee",
      "institutions": [
-      "LG AI Research (South Korea)"
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Seung Hwan Kim",
      "institutions": [
-      "Korea Advanced Institute of Science and Technology",
-      "LG AI Research (South Korea)"
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Bohyung Han",
@@ -54644,17 +54653,17 @@
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hyunmin Lee",
      "institutions": [
-      "LG AI Research (South Korea)"
+      "LG AI Research"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Laszlo A. Jeni",
@@ -54662,28 +54671,27 @@
       "Carnegie Mellon University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Seungryong Kim",
      "institutions": [
-      "Korea Advanced Institute of Science and Technology",
-      "LG AI Research (South Korea)"
+      "KAIST"
      ],
      "countries": [
       "KR"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Carnegie Mellon University",
-    "Korea Advanced Institute of Science and Technology",
-    "LG AI Research (South Korea)",
+    "KAIST",
+    "LG AI Research",
     "Seoul National University",
     "Yonsei University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Carnegie Mellon University",
     "KAIST",
@@ -55065,30 +55073,28 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shangqing Zhou",
      "institutions": [
-      "Chinese Academy of Sciences",
-      "Institute of Automation",
+      "University of Chinese Academy of Sciences",
+      "Institute of Automation, Chinese Academy of Sciences"
+     ],
+     "countries": [
+      "CN"
+     ],
+     "source": "byline"
+    },
+    {
+     "name": "Yutong Jiang",
+     "institutions": [
       "University of Chinese Academy of Sciences"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
-    },
-    {
-     "name": "Yutong Jiang",
-     "institutions": [
-      "Chinese Academy of Sciences",
-      "Institute of Automation"
-     ],
-     "countries": [
-      "CN"
-     ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zefang Huang",
@@ -55096,7 +55102,7 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Mingjie Wei",
@@ -55104,19 +55110,18 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "YUHUI CHEN",
      "institutions": [
-      "Chinese Academy of Sciences",
-      "Institute of Automation",
-      "University of Chinese Academy of Sciences"
+      "University of Chinese Academy of Sciences",
+      "Institute of Automation, Chinese Academy of Sciences"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tianxing Zhou",
@@ -55124,7 +55129,7 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhen Guo",
@@ -55132,7 +55137,7 @@
       "Infinigence AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Hao Lin",
@@ -55140,7 +55145,7 @@
       "Infinigence AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Quanlu Zhang",
@@ -55148,7 +55153,7 @@
       "Infinigence AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yu Wang",
@@ -55158,7 +55163,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dongbin Zhao",
@@ -55168,19 +55173,18 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Haoran Li",
      "institutions": [
-      "Chinese Academy of Sciences",
-      "Institute of Automation",
-      "University of Chinese Academy of Sciences"
+      "University of Chinese Academy of Sciences",
+      "Institute of Automation, Chinese Academy of Sciences"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chao Yu",
@@ -55190,19 +55194,17 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Chinese Academy of Sciences",
     "Infinigence AI",
-    "Institute of Automation",
     "Institute of Automation, Chinese Academy of Sciences",
     "Tsinghua University",
     "University of Chinese Academy of Sciences",
     "Zhongguancun Academy"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Infinigence AI",
     "Institute of Automation, Chinese Academy of Sciences",
@@ -56769,7 +56771,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "George Mavroghenis",
@@ -56779,7 +56781,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Rodrigo Alonso Chacon Quesada",
@@ -56787,7 +56789,7 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kamil Dreczkowski",
@@ -56795,7 +56797,7 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Cong Sun",
@@ -56803,7 +56805,7 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiankai Wang",
@@ -56811,7 +56813,7 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Oscar Kwong-Fai Pang",
@@ -56819,7 +56821,7 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Antoine Cully",
@@ -56827,13 +56829,13 @@
       "Imperial College London"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Imperial College London"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "GB"
@@ -57401,27 +57403,28 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yunqi Li",
      "institutions": [
-      "University of Hong Kong"
+      "The University of Hong Kong",
+      "TranscEngram"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yushi Du",
      "institutions": [
-      "University of Hong Kong"
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yi Ma",
@@ -57431,7 +57434,7 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yanchao Yang",
@@ -57441,16 +57444,15 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Shenzhen Loop Area Institute",
     "The University of Hong Kong",
-    "TranscEngram",
-    "University of Hong Kong"
+    "TranscEngram"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Shenzhen Loop Area Institute",
     "TranscEngram",
@@ -59585,7 +59587,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yilang Liu",
@@ -59595,7 +59597,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Davis Zong",
@@ -59605,19 +59607,18 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qian Wang",
      "institutions": [
-      "Shanghai Jiao Tong University",
       "Yale University"
      ],
      "countries": [
       "CN",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Teeratham Vitchutripop",
@@ -59625,19 +59626,18 @@
       "Yale University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Qi Wang",
      "institutions": [
-      "Shanghai Jiao Tong University",
-      "Yale University"
+      "Shanghai Jiao Tong University"
      ],
      "countries": [
       "CN",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Daniel Rakita",
@@ -59647,27 +59647,27 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ian Abraham",
      "institutions": [
-      "The University of Sydney",
-      "Yale University"
+      "Yale University",
+      "University of Sydney"
      ],
      "countries": [
       "AU",
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Shanghai Jiao Tong University",
-    "The University of Sydney",
+    "University of Sydney",
     "Yale University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Shanghai Jiao Tong University",
     "University of Sydney",
@@ -59723,22 +59723,24 @@
     {
      "name": "Kexin Shi",
      "institutions": [
+      "Skild AI",
       "Carnegie Mellon University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Junyao Shi",
      "institutions": [
+      "Skild AI",
       "University of Pennsylvania"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Poorvi Hebbar",
@@ -59746,7 +59748,7 @@
       "Skild AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhuolun Zhao",
@@ -59754,7 +59756,7 @@
       "Skild AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Tarun Amarnath",
@@ -59762,7 +59764,7 @@
       "Skild AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yifan Su",
@@ -59770,7 +59772,7 @@
       "Skild AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shikhar Bahl",
@@ -59778,17 +59780,18 @@
       "Skild AI"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Deepak Pathak",
      "institutions": [
+      "Skild AI",
       "Carnegie Mellon University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -59796,7 +59799,7 @@
     "Skild AI",
     "University of Pennsylvania"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Carnegie Mellon University",
     "University of Pennsylvania"
@@ -59943,23 +59946,24 @@
     {
      "name": "Liangzhi Shi",
      "institutions": [
-      "Shanghai Artificial Intelligence Laboratory",
-      "Tsinghua University"
+      "Tsinghua University",
+      "Shanghai AI Laboratory"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shuaihang Chen",
      "institutions": [
-      "Harbin Institute of Technology"
+      "Harbin Institute of Technology",
+      "Zhongguancun Academy"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Feng Gao",
@@ -59969,7 +59973,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yinuo Chen",
@@ -59979,7 +59983,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kang Chen",
@@ -59988,7 +59992,7 @@
       "Zhongguancun Academy"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Tonghe Zhang",
@@ -59998,7 +60002,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hongzhi Zang",
@@ -60008,7 +60012,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiakai Zhou",
@@ -60016,7 +60020,7 @@
       "Tsinghua University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Weinan Zhang",
@@ -60026,7 +60030,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chao Yu",
@@ -60036,7 +60040,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yu Wang",
@@ -60046,18 +60050,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Carnegie Mellon University",
     "Harbin Institute of Technology",
     "Peking University",
-    "Shanghai Artificial Intelligence Laboratory",
+    "Shanghai AI Laboratory",
     "Tsinghua University",
     "Zhongguancun Academy"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Carnegie Mellon University",
     "Harbin Institute of Technology",
@@ -60227,29 +60231,32 @@
      "name": "Yu Li",
      "institutions": [
       "Peking University",
-      "Zhongguancun Academy"
+      "Zhongguancun Academy",
+      "PsiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Shenghe Hu",
      "institutions": [
       "Peking University",
+      "PsiBot",
       "Nanjing University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yuhan Wang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "PsiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yaoxiang Pu",
@@ -60265,38 +60272,42 @@
     {
      "name": "Haotong Zhang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "PsiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuanpei Chen",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "PsiBot"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yaodong Yang",
      "institutions": [
-      "Peking University"
+      "Peking University",
+      "PsiBot"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Nanjing University",
     "Peking University",
+    "PsiBot",
     "Zhongguancun Academy"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline+openalex",
    "institutions_gisbi": [
     "Nanjing University",
     "Peking University",
@@ -62108,22 +62119,24 @@
     {
      "name": "Nadun Ranawaka Arachchige",
      "institutions": [
+      "NVIDIA",
       "Georgia Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Josiah Wong",
      "institutions": [
+      "NVIDIA",
       "Stanford University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wei-Lin Pai",
@@ -62133,7 +62146,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wei-Teng Chu",
@@ -62143,27 +62156,29 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tianyuan Dai",
      "institutions": [
+      "NVIDIA",
       "The University of Texas at Austin"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Masoud Moghani",
      "institutions": [
+      "NVIDIA",
       "University of Toronto"
      ],
      "countries": [
       "CA"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hang Yin",
@@ -62173,17 +62188,18 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yunfan Jiang",
      "institutions": [
+      "NVIDIA",
       "Stanford University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wesley Durbano",
@@ -62191,7 +62207,7 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Brandon Bryce Huynh",
@@ -62199,7 +62215,7 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yu Fang",
@@ -62207,17 +62223,18 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Danfei Xu",
      "institutions": [
+      "NVIDIA",
       "Georgia Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ruohan Zhang",
@@ -62227,7 +62244,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Li Fei-Fei",
@@ -62237,7 +62254,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Linxi Fan",
@@ -62245,7 +62262,7 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Bowen Wen",
@@ -62253,7 +62270,7 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ajay Mandlekar",
@@ -62261,17 +62278,18 @@
       "NVIDIA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yuke Zhu",
      "institutions": [
+      "NVIDIA",
       "The University of Texas at Austin"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -62281,7 +62299,7 @@
     "The University of Texas at Austin",
     "University of Toronto"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Georgia Institute of Technology",
     "NVIDIA",
@@ -62799,14 +62817,14 @@
     {
      "name": "Yiran Qin",
      "institutions": [
-      "Chinese University of Hong Kong",
+      "CUHK-Shenzhen",
       "University of Oxford"
      ],
      "countries": [
       "GB",
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiahua Ma",
@@ -62816,7 +62834,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Li Kang",
@@ -62826,7 +62844,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wenzhan Li",
@@ -62836,7 +62854,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yihang Jiao",
@@ -62846,7 +62864,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xin Wen",
@@ -62856,7 +62874,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiufeng Song",
@@ -62866,17 +62884,17 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Heng Zhou",
      "institutions": [
-      "University of Science and Technology of China"
+      "USTC"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhemeng Zhang",
@@ -62891,17 +62909,17 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xihui Liu",
      "institutions": [
-      "University of Hong Kong"
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Philip Torr",
@@ -62911,7 +62929,7 @@
      "countries": [
       "GB"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ruimao Zhang",
@@ -62921,18 +62939,18 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Chinese University of Hong Kong",
+    "CUHK-Shenzhen",
     "Shanghai Jiao Tong University",
     "Sun Yat-sen University",
-    "University of Hong Kong",
-    "University of Oxford",
-    "University of Science and Technology of China"
+    "The University of Hong Kong",
+    "USTC",
+    "University of Oxford"
    ],
-   "institutions_source": "openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Chinese University of Hong Kong, Shenzhen",
     "Harvard University",
@@ -63886,22 +63904,24 @@
     {
      "name": "Qian Luo",
      "institutions": [
-      "University of Hong Kong"
+      "TranscEngram",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wentao Guo",
      "institutions": [
+      "TranscEngram",
       "Beijing Institute of Technology"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhennan Qin",
@@ -63909,7 +63929,7 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Nanchun Guo",
@@ -63917,7 +63937,7 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yunhan Zhao",
@@ -63925,35 +63945,37 @@
       "TranscEngram"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yi Ma",
      "institutions": [
-      "University of Hong Kong"
+      "TranscEngram",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanchao Yang",
      "institutions": [
-      "University of Hong Kong"
+      "TranscEngram",
+      "The University of Hong Kong"
      ],
      "countries": [
       "HK"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Beijing Institute of Technology",
-    "TranscEngram",
-    "University of Hong Kong"
+    "The University of Hong Kong",
+    "TranscEngram"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Beijing Institute of Technology",
     "TranscEngram",
@@ -64281,7 +64303,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiaxin Ge",
@@ -64291,7 +64313,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hanjun Yoo",
@@ -64301,7 +64323,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Letian Fu",
@@ -64311,7 +64333,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zihan Yang",
@@ -64319,7 +64341,7 @@
       "Impossible Research"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yaowei Liu",
@@ -64327,7 +64349,7 @@
       "Impossible Research"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Raj Saravanan",
@@ -64337,7 +64359,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shaofeng Yin",
@@ -64345,7 +64367,7 @@
       "Impossible Research"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Justin Yu",
@@ -64355,7 +64377,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dantong Niu",
@@ -64365,7 +64387,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zirui Wang",
@@ -64375,7 +64397,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Roei Herzig",
@@ -64385,7 +64407,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ken Goldberg",
@@ -64395,7 +64417,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yutong Bai",
@@ -64405,7 +64427,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "David M. Chan",
@@ -64415,7 +64437,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ion Stoica",
@@ -64425,7 +64447,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Angjoo Kanazawa",
@@ -64435,7 +64457,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiahui Lei",
@@ -64445,17 +64467,18 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haiwen Feng",
      "institutions": [
-      "University of California, Berkeley"
+      "University of California, Berkeley",
+      "Impossible Research"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Trevor Darrell",
@@ -64465,14 +64488,14 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Impossible Research",
     "University of California, Berkeley"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Impossible Research",
     "University of California, Berkeley"
@@ -66444,37 +66467,38 @@
       "AI Robot Association (AIRoA)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jumpei Arima",
      "institutions": [
-      "Toyota Motor Corporation (Japan)"
+      "Toyota Motor Corporation"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuki Noguchi",
      "institutions": [
-      "Toyota Motor Corporation (Japan)"
+      "Toyota Motor Corporation"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Masatoshi Tateno",
      "institutions": [
+      "AI Robot Association (AIRoA)",
       "The University of Tokyo"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Makoto Sugiura",
@@ -66482,7 +66506,7 @@
       "AI Robot Association (AIRoA)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Takuya Okubo",
@@ -66490,37 +66514,40 @@
       "AI Robot Association (AIRoA)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kengo Ikeuchi",
      "institutions": [
+      "AI Robot Association (AIRoA)",
       "The University of Tokyo"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuma Shin",
      "institutions": [
+      "AI Robot Association (AIRoA)",
       "Institute of Science Tokyo"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hiroki Nishizawa",
      "institutions": [
+      "AI Robot Association (AIRoA)",
       "Waseda University"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Naoaki Kanazawa",
@@ -66528,87 +66555,88 @@
       "AI Robot Association (AIRoA)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yuki Wakayama",
      "institutions": [
-      "Toyota Motor Corporation (Japan)"
+      "Toyota Motor Corporation"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Daiki Fukunaga",
      "institutions": [
-      "Toyota Motor Corporation (Japan)"
+      "Toyota Motor Corporation"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Koshi Makihara",
      "institutions": [
-      "National Institute of Advanced Industrial Science and Technology"
+      "National Institute of Advanced Industrial Science and Technology (AIST)"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tomohiro Motoda",
      "institutions": [
-      "National Institute of Advanced Industrial Science and Technology"
+      "National Institute of Advanced Industrial Science and Technology (AIST)"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Floris Marc Arden Erich",
      "institutions": [
-      "National Institute of Advanced Industrial Science and Technology"
+      "National Institute of Advanced Industrial Science and Technology (AIST)"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yukiyasu Domae",
      "institutions": [
-      "National Institute of Advanced Industrial Science and Technology"
+      "National Institute of Advanced Industrial Science and Technology (AIST)"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tatsuya Matsushima",
      "institutions": [
+      "AI Robot Association (AIRoA)",
       "The University of Tokyo"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yoshihiro Okumatsu",
      "institutions": [
-      "Toyota Motor Corporation (Japan)"
+      "Toyota Motor Corporation"
      ],
      "countries": [
       "JP"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Kei Ota",
@@ -66616,18 +66644,18 @@
       "AI Robot Association (AIRoA)"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "AI Robot Association (AIRoA)",
     "Institute of Science Tokyo",
-    "National Institute of Advanced Industrial Science and Technology",
+    "National Institute of Advanced Industrial Science and Technology (AIST)",
     "The University of Tokyo",
-    "Toyota Motor Corporation (Japan)",
+    "Toyota Motor Corporation",
     "Waseda University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "JP"
@@ -67186,12 +67214,13 @@
     {
      "name": "Huayi Zhou",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "DexForce Technology",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Wei Gao",
@@ -67199,7 +67228,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Dekun Lu",
@@ -67207,7 +67236,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ruiji Liu",
@@ -67215,7 +67244,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhanqi Zhang",
@@ -67223,7 +67252,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ziyang Zhang",
@@ -67231,7 +67260,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jian Chen",
@@ -67239,7 +67268,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wenlve Zhou",
@@ -67247,17 +67276,17 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Sheng Xu",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Shumin Li",
@@ -67265,7 +67294,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kangyi Guo",
@@ -67273,17 +67302,17 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "shichen Xu",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "DexForce Technology"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zixin Huang",
@@ -67291,7 +67320,7 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yongyi Su",
@@ -67299,24 +67328,25 @@
       "DexForce Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kui Jia",
      "institutions": [
-      "Chinese University of Hong Kong, Shenzhen"
+      "DexForce Technology",
+      "The Chinese University of Hong Kong, Shenzhen"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Chinese University of Hong Kong, Shenzhen",
-    "DexForce Technology"
+    "DexForce Technology",
+    "The Chinese University of Hong Kong, Shenzhen"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Chinese University of Hong Kong, Shenzhen",
     "DexForce Technology"
@@ -71838,15 +71868,15 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Haig Conti Georges Sajelian",
      "institutions": [
-      "Technical University of Munich"
+      "TU Munich"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Manthan Patel",
@@ -71856,7 +71886,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Dominik Hollidt",
@@ -71866,7 +71896,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Chenhao Li",
@@ -71876,7 +71906,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Matthias Heyrman",
@@ -71886,15 +71916,15 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Oliver Hausdörfer",
      "institutions": [
-      "Technical University of Munich"
+      "TU Munich"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Manuel Kaufmann",
@@ -71904,7 +71934,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xi Wang",
@@ -71914,28 +71944,28 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jonas Frey",
      "institutions": [
-      "University of California, Berkeley",
-      "Stanford University"
+      "Stanford University",
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Angela P. Schoellig",
      "institutions": [
-      "Technical University of Munich"
+      "TU Munich"
      ],
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Christian Holz",
@@ -71945,7 +71975,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Marc Pollefeys",
@@ -71955,7 +71985,7 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Marco Hutter",
@@ -71965,16 +71995,16 @@
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "ETH Zurich",
     "Stanford University",
-    "Technical University of Munich",
-    "University of California, Berkeley"
+    "TU Munich",
+    "UC Berkeley"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "ETH Zurich",
     "Stanford University",
@@ -75440,12 +75470,13 @@
     {
      "name": "Siheng Zhao",
      "institutions": [
-      "University of Southern California"
+      "Amazon FAR",
+      "USC"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuanhang Zhang",
@@ -75453,7 +75484,7 @@
       "Amazon FAR"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ziqi Lu",
@@ -75461,17 +75492,18 @@
       "Amazon FAR"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Pieter Abbeel",
      "institutions": [
-      "University of California, Berkeley"
+      "Amazon FAR",
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Rocky Duan",
@@ -75479,57 +75511,58 @@
       "Amazon FAR"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Koushil Sreenath",
      "institutions": [
-      "University of California, Berkeley"
+      "Amazon FAR",
+      "UC Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yue Wang",
      "institutions": [
-      "University of Southern California"
+      "USC"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Karen Liu",
      "institutions": [
-      "Carnegie Mellon University",
+      "Amazon FAR",
       "Stanford University"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Guanya Shi",
      "institutions": [
       "Amazon FAR",
-      "Carnegie Mellon University"
+      "CMU"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Amazon FAR",
-    "Carnegie Mellon University",
+    "CMU",
     "Stanford University",
-    "University of California, Berkeley",
-    "University of Southern California"
+    "UC Berkeley",
+    "USC"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Amazon",
     "Carnegie Mellon University",
@@ -76460,7 +76493,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Honglin He",
@@ -76470,7 +76503,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Vivek Alumootil",
@@ -76480,7 +76513,7 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Akshat Pandya",
@@ -76488,7 +76521,7 @@
       "Coco Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Brad Squicciarini",
@@ -76496,7 +76529,7 @@
       "Coco Robotics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wayne Wu",
@@ -76506,24 +76539,25 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Bolei Zhou",
      "institutions": [
-      "University of California, Los Angeles"
+      "University of California, Los Angeles",
+      "Coco Robotics"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Coco Robotics",
     "University of California, Los Angeles"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Coco Robotics",
     "University of California, Los Angeles"
@@ -76653,13 +76687,12 @@
     {
      "name": "Xiangyu Shi",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ruoxi Yang",
@@ -76667,7 +76700,7 @@
       "Ruyi Dynamics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Wei Tao",
@@ -76675,7 +76708,7 @@
       "Ruyi Dynamics"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Jiwen Zhang",
@@ -76685,38 +76718,36 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yanyuan Qiao",
      "institutions": [
-      "École Polytechnique Fédérale de Lausanne"
+      "EPFL"
      ],
      "countries": [
       "CH"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Qi Wu",
      "institutions": [
-      "Adelaide University",
-      "The University of Adelaide"
+      "Adelaide University"
      ],
      "countries": [
       "AU"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Adelaide University",
+    "EPFL",
     "Fudan University",
-    "Ruyi Dynamics",
-    "The University of Adelaide",
-    "École Polytechnique Fédérale de Lausanne"
+    "Ruyi Dynamics"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "EPFL",
     "Fudan University",
@@ -76781,27 +76812,27 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Luobin Wang",
      "institutions": [
-      "University of California San Diego"
+      "UCSD"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Hongwei Ruan",
      "institutions": [
-      "University of California San Diego"
+      "UCSD"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yuxin Bao",
@@ -76809,17 +76840,17 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Yilan Chen",
      "institutions": [
-      "University of California San Diego"
+      "UCSD"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ziyang Leng",
@@ -76827,17 +76858,17 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Abhijit Ravichandran",
      "institutions": [
-      "University of California San Diego"
+      "UCSD"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Honglin He",
@@ -76845,7 +76876,7 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zewei Zhou",
@@ -76853,7 +76884,7 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "xu han",
@@ -76861,7 +76892,7 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Abhishek Peri",
@@ -76869,7 +76900,7 @@
       "Qualcomm"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zhiyu Huang",
@@ -76877,7 +76908,7 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Pranav Desai",
@@ -76885,17 +76916,17 @@
       "Qualcomm"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Henrik I Christensen",
      "institutions": [
-      "University of California San Diego"
+      "UCSD"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiaqi Ma",
@@ -76903,7 +76934,7 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Bolei Zhou",
@@ -76911,15 +76942,15 @@
       "UCLA"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Qualcomm",
     "UCLA",
-    "University of California San Diego"
+    "UCSD"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Qualcomm",
     "University of California, Los Angeles",
@@ -77254,12 +77285,13 @@
     {
      "name": "Alessandro Canevaro",
      "institutions": [
+      "Mercedes-Benz AG",
       "University of Tübingen"
      ],
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Julian Schmidt",
@@ -77267,37 +77299,40 @@
       "Mercedes-Benz AG"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Hang Yu",
      "institutions": [
+      "Mercedes-Benz AG",
       "Karlsruhe Institute of Technology"
      ],
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ye Jin",
      "institutions": [
+      "Mercedes-Benz AG",
       "Technical University of Munich"
      ],
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Sajad Marvi",
      "institutions": [
+      "Mercedes-Benz AG",
       "University of Freiburg"
      ],
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Georg Martius",
@@ -77307,7 +77342,7 @@
      "countries": [
       "DE"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Julian Jordan",
@@ -77315,7 +77350,7 @@
       "Mercedes-Benz AG"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
@@ -77325,7 +77360,7 @@
     "University of Freiburg",
     "University of Tübingen"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "DE"
@@ -77732,17 +77767,18 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "JIAWEI SUN",
      "institutions": [
-      "National University of Singapore"
+      "National University of Singapore",
+      "Black Sesame Technologies"
      ],
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "RenZixiang",
@@ -77752,7 +77788,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Liu Ming",
@@ -77762,7 +77798,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jiamin Shi",
@@ -77772,7 +77808,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Ruiteng Zhao",
@@ -77782,7 +77818,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Zhiyang Liu",
@@ -77792,7 +77828,7 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Liying LIU",
@@ -77800,7 +77836,7 @@
       "Black Sesame Technologies"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Zuoguan Wang",
@@ -77808,7 +77844,7 @@
       "Black Sesame Technologies"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Kaidi Yang",
@@ -77818,14 +77854,14 @@
      "countries": [
       "SG"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
     "Black Sesame Technologies",
     "National University of Singapore"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [
     "Black Sesame Technologies",
     "National University of Singapore"
@@ -78968,37 +79004,37 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Huiyi Yan",
      "institutions": [
-      "Tsinghua University"
+      "Xi'an Jiaotong University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xinning Xu",
      "institutions": [
-      "Tsinghua University"
+      "Beijing University of Chemical Technology"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Xiaolei Li",
      "institutions": [
-      "Tsinghua University"
+      "Beijing Information Science and Technology University"
      ],
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Pengkun Zhou",
@@ -79008,7 +79044,7 @@
      "countries": [
       "CN"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Jinhui Zhang",
@@ -79016,7 +79052,7 @@
       "Beijing Institute of Technology"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     },
     {
      "name": "Ziyang Meng",
@@ -79024,14 +79060,17 @@
       "Tsinghua University"
      ],
      "countries": [],
-     "source": "arxiv"
+     "source": "byline"
     }
    ],
    "institutions": [
+    "Beijing Information Science and Technology University",
     "Beijing Institute of Technology",
-    "Tsinghua University"
+    "Beijing University of Chemical Technology",
+    "Tsinghua University",
+    "Xi'an Jiaotong University"
    ],
-   "institutions_source": "arxiv+openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "CN"
