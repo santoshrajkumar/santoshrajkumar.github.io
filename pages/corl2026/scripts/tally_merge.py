@@ -204,6 +204,7 @@ def main():
         for rec in json.loads(f.read_text()):
             axl[rec["id"]] = {norm(a["name"]): a for a in rec.get("authors", [])}
     ax_stats = Counter()
+    MAN = json.loads((WORK / "affil_overrides.json").read_text()) if (WORK / "affil_overrides.json").exists() else {}
 
     # ---------- merge ----------
     merged = []
@@ -240,6 +241,10 @@ def main():
                 ax_stats["filled"] += 1
             else:
                 ax_stats["not_" + str(lab.get("basis"))] += 1
+        for pa in per_author:   # hand-checked bylines win over every automatic source
+            fix = MAN.get(pid, {}).get(pa["name"])
+            if fix:
+                pa["institutions"], pa["source"] = fix, "byline"
         all_inst = sorted({i for pa in per_author for i in pa["institutions"]})
         if oa_inst:
             oa_stats["with_institutions"] += 1

@@ -29,26 +29,26 @@ Agreement of third-party sources with the CoRL site
 ------------------------------------------------------------------------
 operatic-ai/corl-explorer: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 0
 gisbi-kim/conference-explorers: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 34
-    title   psNqjklVOK  site: SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiabl
-                 src : SuperMimic: Scaling Humanoid Whole-Body Control via Differentiable Wor
     title   dhh4gmm3NK  site: VLM-Guided Contact Retargeting and Generative Partner Modeling for Hum
                  src : VLM-Guided Contact Retargeting and Generative Partner Modeling for Dep
-    title   dYOnmedjXv  site: AnyDexRT: Calibration-Efficient Dexterous Hand Retargeting with Few-Sh
-                 src : AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Hu
-    title   DMljKr2f4O  site: VertexCBF: Improving Neural Control Barrier Functions with Vertex-Rest
-                 src : VertexCBF: Improving Neural Control Barrier Functions with Vertex-Rest
-    title   CKVUqG4YQf  site: Judge, Then Act: A Critic-Centric Vision Language Action Framework for
-                 src : Judge, Then Drive: A Critic-Centric Vision Language Action Framework f
+    title   UZnHsKKAAB  site: SkillWeaver: Agentic Exploration over Neural Interaction Skills for Sc
+                 src : Scaling up Robot Data in Simulation With VLM-Guided Monte Carlo Tree S
+    title   4IT3fcnny2  site: SSR: Scaling Surefooted and Symmetric Humanoid Traversal Toward the Op
+                 src : SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open W
+    title   NWlhQeCX3L  site: Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via D
+                 src : Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps
+    title   psNqjklVOK  site: SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiabl
+                 src : SuperMimic: Scaling Humanoid Whole-Body Control via Differentiable Wor
+    title   oX3ErTz3rv  site: WAM-TTT: Steering World-Action Models by Watching Human Play at Test T
+                 src : WAM-TTT: Learning to Adapt World-Action Models from Human Play at Test
+    title   qx5mPYiXVi  site: Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforc
+                 src : Not All Actions are Equal: Reliable Value Estimation for Offline-to-On
+    title   MQdt80qzTP  site: A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Sc
+                 src : A Balanced Data Diet: Addressing the Bottleneck in Mega-Scale RL for R
+    title   c4Z0Y8gvnI  site: MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation
+                 src : Large-Scale Simulation Enables Zero-Shot Manipulation
     title   AAn8ouEHwO  site: RARM: Confidence-Gated Progress Reward Modeling for RL in Manipulation
                  src : Progress That Trains: Reference-Anchored Reward Modeling for Robotic M
-    title   uZalcCyrVl  site: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipul
-                 src : Prism: Counterfactual Video Generation for Humanoid Loco-Manipulation
-    title   4RLjGPEfpH  site: ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer fo
-                 src : A Systematic Study of Zero-Shot Cross-Embodiment Transfer in Vision-La
-    title   awVlNORXDS  site: PLATO: Preintegration-Based Likelihood Maximization from Accurate Traj
-                 src : PLATO: Privileged Learning from Accurate Trajectory Observations for N
-    title   XQGBZwsuXt  site: Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering
-                 src : Push the Limit: Learning Human-like High-Speed Sprinting and Aggressiv
 jaywu109/corl-2026-papers: 687 papers | missing from source 0 | extra (not on site) 0 | title differs 0
 Author lists differ: corl-explorer vs gisbi 0; jaywu109 vs gisbi 0
 
@@ -66,7 +66,7 @@ Merged coverage (of 687)
   github                312  (45%)
   project               521  (76%)
   field                 687  (100%)
-  institutions by source: {'none': 88, 'arxiv+openalex': 201, 'openalex': 334, 'arxiv': 62, 'gisbi-kim (paper-level)': 2}
+  institutions by source: {'none': 88, 'arxiv+openalex': 201, 'openalex': 333, 'arxiv': 62, 'gisbi-kim (paper-level)': 2, 'byline': 1}
   total authors listed: 5202; authors with an individual affiliation: 4607 (89%)
 
 OpenAlex: {'found': 593, 'accepted': 593, 'with_institutions': 535, 'both': 434, 'both_overlap': 412}

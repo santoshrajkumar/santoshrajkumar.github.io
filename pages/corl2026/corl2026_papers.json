@@ -25417,68 +25417,65 @@
     {
      "name": "Weirui Ye",
      "institutions": [
-      "Carnegie Mellon University"
+      "Massachusetts Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Yen-Jen Wang",
      "institutions": [
-      "Amazon (United States)",
-      "MIT Computer Science and Artificial Intelligence Laboratory",
-      "Massachusetts Institute of Technology"
+      "University of California, Berkeley",
+      "Amazon Frontier AI & Robotics"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Elvis Hsieh",
      "institutions": [
-      "MIT Computer Science and Artificial Intelligence Laboratory",
-      "Massachusetts Institute of Technology"
-     ],
-     "countries": [
-      "US"
-     ],
-     "source": "openalex"
-    },
-    {
-     "name": "Zhiyang Dou",
-     "institutions": [
-      "Carnegie Mellon University"
-     ],
-     "countries": [
-      "US"
-     ],
-     "source": "openalex"
-    },
-    {
-     "name": "Shibo Zhao",
-     "institutions": [
-      "Amazon (United States)",
       "University of California, Berkeley"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
-     "name": "Pieter Abbeel",
+     "name": "Zhiyang Dou",
      "institutions": [
-      "Amazon (United States)",
-      "MIT Computer Science and Artificial Intelligence Laboratory",
       "Massachusetts Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
+    },
+    {
+     "name": "Shibo Zhao",
+     "institutions": [
+      "Carnegie Mellon University",
+      "Amazon Frontier AI & Robotics"
+     ],
+     "countries": [
+      "US"
+     ],
+     "source": "byline"
+    },
+    {
+     "name": "Pieter Abbeel",
+     "institutions": [
+      "University of California, Berkeley",
+      "Amazon Frontier AI & Robotics"
+     ],
+     "countries": [
+      "US"
+     ],
+     "source": "byline"
     },
     {
      "name": "Yilun Du",
@@ -25488,38 +25485,37 @@
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Leslie Pack Kaelbling",
      "institutions": [
-      "Carnegie Mellon University"
+      "Massachusetts Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     },
     {
      "name": "Tomás Lozano-Pérez",
      "institutions": [
-      "Carnegie Mellon University"
+      "Massachusetts Institute of Technology"
      ],
      "countries": [
       "US"
      ],
-     "source": "openalex"
+     "source": "byline"
     }
    ],
    "institutions": [
-    "Amazon (United States)",
+    "Amazon Frontier AI & Robotics",
     "Carnegie Mellon University",
     "Harvard University",
-    "MIT Computer Science and Artificial Intelligence Laboratory",
     "Massachusetts Institute of Technology",
     "University of California, Berkeley"
    ],
-   "institutions_source": "openalex",
+   "institutions_source": "byline",
    "institutions_gisbi": [],
    "countries": [
     "US"

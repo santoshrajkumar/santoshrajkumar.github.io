@@ -1,0 +1,15 @@
+{
+ "_note": "Per-author affiliations checked by hand against the paper's own byline; applied last by tally_merge.py (source 'byline').",
+ "NZrwlgnR4X": {
+  "_why": "OpenAlex shifted the superscript numbering; byline: 1 MIT CSAIL, 2 UC Berkeley, 3 CMU, 4 Harvard, 5 Amazon FAR (arXiv 2611.02546 p.1)",
+  "Weirui Ye": ["Massachusetts Institute of Technology"],
+  "Yen-Jen Wang": ["University of California, Berkeley", "Amazon Frontier AI & Robotics"],
+  "Elvis Hsieh": ["University of California, Berkeley"],
+  "Zhiyang Dou": ["Massachusetts Institute of Technology"],
+  "Shibo Zhao": ["Carnegie Mellon University", "Amazon Frontier AI & Robotics"],
+  "Pieter Abbeel": ["University of California, Berkeley", "Amazon Frontier AI & Robotics"],
+  "Yilun Du": ["Harvard University"],
+  "Leslie Pack Kaelbling": ["Massachusetts Institute of Technology"],
+  "Tomás Lozano-Pérez": ["Massachusetts Institute of Technology"]
+ }
+}
