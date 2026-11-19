@@ -104,37 +104,79 @@
             font-weight: bold;
             margin-bottom: 6px;
         }
+        .availability {
+            margin: 6px 0 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .contact-info span {
+            color: #666;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .cv-honors {
+            list-style: none;
+            padding-left: 0;
+            margin: 4px 0 0;
+        }
+        .cv-honors li {
+            margin-bottom: 3px;
+        }
+        .cv-honors .fa-award {
+            color: #b8860b;
+        }
+        .pdf-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 20px;
+            padding: 5px 14px;
+            border-radius: 14px;
+            background-color: #c62828;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .pdf-download:hover {
+            opacity: 0.85;
+        }
     </style>
 </head>
 
 <body>
-    <div style="max-width: 900px; margin: 0 auto;">
+    <div style="max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
         <a href="../../index.html" class="back-link"><i class="fa fa-arrow-left"></i> Back to Home</a>
+        <a href="Santosh_Rajkumar_CV.pdf" class="pdf-download" target="_blank" rel="noopener"><i class="fa fa-file-pdf"></i> Download PDF</a>
     </div>
 
     <div class="cv-container">
         <div class="header">
             <h1>Santosh M. Rajkumar</h1>
-            <h2>Ph.D. Candidate in Mechanical Engineering, The Ohio State University</h2>
+            <h2>PhD Candidate, The Ohio State University</h2>
+            <p class="availability">Available: internships from Feb 2027 &bull; full-time from Aug 2027</p>
             <div class="contact-info">
-                <a href="mailto:rajkumar.36@osu.edu"><i class="fa fa-envelope"></i> rajkumar.36@osu.edu</a>
-                <a href="https://santoshrajkumar.github.io"><i class="fa fa-globe"></i> santoshrajkumar.github.io</a>
-                <a href="https://scholar.google.com/citations?user=DdHzxE4AAAAJ&hl=en"><i
+                <span><i class="fa fa-location-dot"></i> Columbus, OH</span>
+                <a href="mailto:rajkumar.nits@gmail.com"><i class="fa fa-envelope"></i> rajkumar.nits@gmail.com</a>
+                <a href="https://santoshrajkumar.github.io/"><i class="fa fa-globe"></i> santoshrajkumar.github.io</a>
+                <a href="https://github.com/santoshrajkumar"><i class="fa-brands fa-github"></i> github.com/santoshrajkumar</a>
+                <a href="https://www.linkedin.com/in/santoshmrajkumar"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/santoshmrajkumar</a>
+                <a href="https://scholar.google.com/citations?hl=en&user=DdHzxE4AAAAJ&view_op=list_works&sortby=pubdate"><i
                         class="fa fa-graduation-cap"></i> Google Scholar</a>
-                <a href="https://github.com/santoshrajkumar"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
         </div>
 
         <div class="content">
 
             <div class="section">
-                <div class="section-title"><i class="fa fa-lightbulb"></i> Areas of Interest</div>
+                <div class="section-title"><i class="fa fa-user"></i> Summary</div>
                 <div class="item-body">
-                    <p><strong>Physical AI:</strong> Data-efficient, physics-structured world models; learning and state
-                        estimation under partial observation; uncertainty-aware robot planning.</p>
-                    <p><strong>Robotics and Control:</strong> Real-time model predictive control, robot learning,
-                        safety-critical control, Koopman representations, geometry-aware modeling, GPU-accelerated
-                        optimization, and low-latency solvers for robotic systems.</p>
+                    <p>Robotics researcher developing data-efficient probabilistic world models and real-time planning
+                        methods under partial observability. First-author publications include NeurIPS 2026 and IEEE
+                        RA-L, with physical quadrotor and TurtleBot3 deployment and open-source GPU optimization for
+                        simulated humanoid control. Seeking research scientist and research engineer roles in robot
+                        learning and autonomous systems.</p>
                 </div>
             </div>
 
@@ -142,43 +184,84 @@
                 <div class="section-title"><i class="fa fa-graduation-cap"></i> Education</div>
                 <div class="item">
                     <div class="item-header">
-                        <div class="item-title">The Ohio State University, Columbus, OH</div>
-                        <div class="item-date">Aug 2023 &ndash; Jul 2027 (Expected)</div>
+                        <div class="item-title">The Ohio State University</div>
+                        <div class="item-date">Aug 2023 &ndash; Jul 2027 (expected)</div>
                     </div>
-                    <div class="item-subtitle">Ph.D. Candidate in Mechanical Engineering (GPA: 4.0/4.0)</div>
+                    <div class="item-subtitle">PhD in Mechanical Engineering, GPA 4.0/4.0</div>
+                    <div class="item-body">
+                        <ul class="cv-honors">
+                            <li><i class="fa fa-award"></i> <strong>Presidential Fellowship</strong>, the Graduate
+                                School&rsquo;s most prestigious award (2026)</li>
+                            <li><i class="fa fa-award"></i> Early Achievement in Research Award in Robotics, Automation
+                                and Autonomy (2026)</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="item">
                     <div class="item-header">
-                        <div class="item-title">Miami University, Oxford, OH</div>
-                        <div class="item-date">Jan 2021 &ndash; Jun 2023</div>
+                        <div class="item-title">Miami University</div>
+                        <div class="item-date">2021 &ndash; 2023</div>
                     </div>
-                    <div class="item-subtitle">Master of Science in Mechanical Engineering (GPA: 4.0/4.0)</div>
-                    <div class="item-body">
-                        <p>Thesis: Haptic Rendering in Touch Surfaces Using Multifrequency Electrostatic Actuation.</p>
-                    </div>
+                    <div class="item-subtitle">M.S. in Mechanical Engineering, GPA 4.0/4.0</div>
                 </div>
 
                 <div class="item">
                     <div class="item-header">
                         <div class="item-title">National Institute of Technology Silchar, India</div>
-                        <div class="item-date">Aug 2013 &ndash; May 2017</div>
+                        <div class="item-date">2013 &ndash; 2017</div>
                     </div>
-                    <div class="item-subtitle">Bachelor of Technology in Electrical Engineering</div>
+                    <div class="item-subtitle">B.Tech. in Electrical Engineering</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-flask"></i> Research Experience</div>
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Graduate Research Associate, The Ohio State University</div>
+                        <div class="item-date">Aug 2023 &ndash; present</div>
+                    </div>
+                    <div class="item-body">
+                        <ul class="exp-ul">
+                            <li><strong>Probabilistic world models from partial, noisy observations</strong> <em>(NeurIPS 2026, first author)</em>
+                                <ul class="exp-sub-ul">
+                                    <li>Developed <strong>K-PWM</strong>, a probabilistic world model pairing Koopman-bilinear latent dynamics with a <strong>neural (MLP) observation decoder</strong>; latent states are inferred through the learned model itself (EKF/EKS), with no separate inference network.</li>
+                                    <li>Cut long-horizon <strong>prediction error 38&ndash;66%</strong> against the strongest of five baselines (MTS3) on partially observed MuJoCo tasks, learning from <strong>15 trajectories per task</strong> and training <strong>7.6&ndash;15.1&times; faster</strong>.</li>
+                                    <li>Closed the loop with uncertainty-aware MPPI planning on <strong>four simulated manipulation platforms</strong> (Franka Panda, TIAGo++, ALOHA 2, Allegro Hand): <strong>0.8&ndash;6.1 mm</strong> end-effector tracking RMSE at <strong>5.6&ndash;22 ms per step</strong>, 4.3&ndash;17&times; faster than MTS3.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Learned world model and real-time planning for quadrotor flight</strong> <em>(under review)</em>
+                                <ul class="exp-sub-ul">
+                                    <li>Learned <strong>ABS-PWM</strong>, a probabilistic quadrotor world model, from <strong>90 s of noisy simulated flight data</strong> using EM with latent-state smoothing; <strong>100-step rollouts in 1.3 ms, 58&ndash;64&times; faster than KNODE</strong>, with 63% lower out-of-distribution attitude error.</li>
+                                    <li>Built <strong>BUC-MPC</strong>, a convex uncertainty-aware planner: <strong>5.24 ms per control step</strong> on a Skydio X2 in MuJoCo, 1.4&ndash;57&times; faster than KoopNet, SkyJEPA, KNODE and FNN controllers, with the <strong>highest flight completion under dynamics shifts (86%)</strong>.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Real-robot deployment: quadrotor and wheeled robot</strong> <em>(IEEE RA-L + ICRA 2026; RA-L under review)</em>
+                                <ul class="exp-sub-ul">
+                                    <li>Flew a <strong>physical quadrotor (NVIDIA Jetson NX, PX4)</strong> on four flight tasks with tracking RMSE <strong>within 3.7 cm of nonlinear MPC</strong>, at 1.9&ndash;4.3&times; lower solve time in simulation. Open-source <a href="https://github.com/santoshrajkumar/kq-lmpc-quadrotor">code</a> with 100 GitHub stars.</li>
+                                    <li>Built <strong>KOBRA-MPC</strong> for wheeled robots, validated on two simulated platforms and a <strong>physical TurtleBot3</strong> (2&ndash;7 cm tracking RMSE, 4.1&ndash;4.8 ms mean computation time), and integrated a higher-order control barrier function for obstacle avoidance.</li>
+                                </ul>
+                            </li>
+                            <li><strong>GPU-accelerated optimization for real-time control</strong> <em>(<a href="https://santoshrajkumar.github.io/proj/fame_qp/">FAME-QP</a>, open source)</em>
+                                <ul class="exp-sub-ul">
+                                    <li>Developed <strong>FAME-QP</strong>, a GPU QP solver (PyTorch, Triton, CUDA graphs): <strong>1.5&ndash;4.3&times; faster</strong> than the best GPU baseline (ReLU-QP) and <strong>up to 25.9&times; faster</strong> than the fastest CPU solver (DAQP) on dense QPs with 220&ndash;1,400 variables.</li>
+                                    <li>Cut QP latency <strong>2.3&ndash;3.1&times;</strong> in 500 Hz <strong>Unitree G1 humanoid</strong> push recovery (MuJoCo), doubling the horizon that fits the 2 ms budget.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <div class="section">
                 <div class="section-title"><i class="fa fa-book"></i> Publications</div>
                 <div class="item-body">
-                    <div class="pub-subhead">Conference and Journal Papers</div>
+                    <div class="pub-subhead">First-Authored</div>
                     <ul class="cv-awards">
-                        <li> [ <strong>NeurIPS 2026</strong> ]: K-PWM: Control-Oriented Structured Bilinear World Models under
-                            Partial Observation <br>
-                            <strong>S. M. Rajkumar</strong>, S. Narayanan, S. E. Otto, D. Goswami (2026)
-                            <a href="https://arxiv.org/abs/2611.11521" class="cv-capsule-link cv-capsule-preprint">Preprint</a>
-                            <a href="https://github.com/santoshrajkumar/k-pwm-world-model-control"
-                                class="cv-capsule-link cv-capsule-code">Code*</a>
+                        <li> [1] <em>K-PWM: Control-Oriented Structured Bilinear World Models under Partial Observation.</em>
+                            <strong>NeurIPS 2026.</strong>
+                            <a href="https://arxiv.org/abs/2611.11521" class="cv-capsule-link cv-capsule-preprint">arXiv</a>
                             <a href="javascript:void(0)" onclick="toggleBib('bib-neurips26')"
                                 class="cv-capsule-link cv-capsule-cite">Cite</a>
                             <div id="bib-neurips26" class="cv-collapse-content">
@@ -195,9 +278,8 @@
 </pre>
                             </div>
                         </li>
-                        <li> [ <strong>IEEE RA-L + ICRA 2026</strong> ]: Real-Time Linear MPC for Quadrotors on SE (3): An
-                            Analytical Koopman-Based Realization <br>
-                            <strong>S. M. Rajkumar</strong>, C. Yang, Y. Gu, S. Cheng, N. Hovakimyan, D. Goswami (2025)
+                        <li> [2] <em>Real-time Linear MPC for Quadrotors on SE(3): An Analytical Koopman-based Realization.</em>
+                            <strong>IEEE RA-L 2025 + ICRA 2026.</strong>
                             <a href="https://ieeexplore.ieee.org/abstract/document/11218816"
                                 class="cv-capsule-link cv-capsule-paper">Paper</a>
                             <a href="https://github.com/santoshrajkumar/kq-lmpc-quadrotor"
@@ -219,10 +301,9 @@
 </pre>
                             </div>
                         </li>
-                        <li> [ <strong>IEEE CDC 2026</strong> ]: On Data-Driven Koopman Representations of Nonlinear Delay
-                            Differential Equations <br>
-                            <strong>S. M. Rajkumar</strong>, D. Barman, K. V. Singh, D. Goswami (2026)
-                            <a href="https://www.researchgate.net/publication/403467584_On_Data-Driven_Koopman_Representations_of_Nonlinear_Delay_Differential_Equations" class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                        <li> [3] <em>On Data-Driven Koopman Representations of Nonlinear Delay Differential Equations.</em>
+                            <strong>IEEE CDC 2026.</strong>
+                            <a href="https://arxiv.org/pdf/2604.03086" class="cv-capsule-link cv-capsule-preprint">arXiv</a>
                             <a href="https://github.com/santoshrajkumar/koopman-dde-kEDMD"
                                 class="cv-capsule-link cv-capsule-code">Code</a>
                             <a href="javascript:void(0)" onclick="toggleBib('bib-cdc26')"
@@ -241,31 +322,16 @@
 </pre>
                             </div>
                         </li>
-                        <li> [ <strong>IEEE CDC 2026</strong> ]: Robust Peak-Cost Constrained Reinforcement Learning <br>
-                            S. Mukhopadhyay, S. Ganguly, <strong>S. M. Rajkumar</strong>, H. Wei, D. Goswami, A. Ghosh (2026)
-                        </li>
-                        <li> [ <strong>AIAA SCITECH</strong> ]: Data-Driven Output Regulation From Partial Noisy
-                            Measurements: An Adaptive Dynamic Programming Approach <br>
-                            <strong>S. M. Rajkumar</strong>, D. Goswami (2026) <a
-                                href="https://arc.aiaa.org/doi/abs/10.2514/6.2026-0994"
-                                class="cv-capsule-link cv-capsule-paper">Paper</a>
-                            <a href="javascript:void(0)" onclick="toggleBib('bib-scitech26')"
-                                class="cv-capsule-link cv-capsule-cite">Cite</a>
-                            <div id="bib-scitech26" class="cv-collapse-content">
-                                <pre style="margin: 0; font-family: monospace; white-space: pre-wrap;">
-<!-- scitech26.bib not yet found in Data/bib/ -->
-</pre>
-                            </div>
-                        </li>
                     </ul>
-                    <div class="pub-subhead">Under Review and Preprints</div>
+                    <div class="pub-subhead">First-Authored, Under Review</div>
                     <ul class="cv-awards">
-                        <li> [ <strong>Under Review</strong> ]: FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for
-                            Real-Time Model Predictive Control <br>
-                            <strong>S. M. Rajkumar</strong>, D. Goswami, S. Stockar (2026)
-                            <a href="https://arxiv.org/abs/2611.13766" class="cv-capsule-link cv-capsule-preprint">Preprint</a>
+                        <li> [4] <em>FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control.</em>
+                            ECC 2027.
+                            <a href="https://arxiv.org/abs/2611.13766" class="cv-capsule-link cv-capsule-preprint">arXiv</a>
                             <a href="https://github.com/santoshrajkumar/fame-qp"
-                                class="cv-capsule-link cv-capsule-code">Code*</a>
+                                class="cv-capsule-link cv-capsule-code">Code</a>
+                            <a href="https://santoshrajkumar.github.io/proj/fame_qp/"
+                                class="cv-capsule-link cv-capsule-paper">Project</a>
                             <a href="javascript:void(0)" onclick="toggleBib('bib-fameqp26')"
                                 class="cv-capsule-link cv-capsule-cite">Cite</a>
                             <div id="bib-fameqp26" class="cv-collapse-content">
@@ -282,248 +348,91 @@
 </pre>
                             </div>
                         </li>
-                        <li> [ <strong>Under Review, ICLR 2027</strong> ]: Bilinear World Model for Quadrotors and Convex MPC <br>
-                            <strong>S. M. Rajkumar</strong>, S. Stockar (2026)
-                        </li>
-                        <li> [ <strong>Under Review</strong> ]: Koopman Bilinearization of Wheeled Robots and Convex MPC: An Analytical
-                            Approach (presented at IROS 2026 as a late-breaking poster) <br>
-                            <strong>S. M. Rajkumar</strong>, D. Goswami (2026)
-                        </li>
-                        <li> [ <strong>Under Review, ACC 2027</strong> ]: Linear Control Design for Wheeled Mobile Robots via Analytical
-                            Koopman Lifting: Physical-Input Realization and HOCBF Safety <br>
-                            <strong>S. M. Rajkumar</strong>, D. Goswami (2026)
+                        <li> [5] <em>KOBRA-MPC: Convex MPC for Wheeled Mobile Robots via Analytical Koopman Bilinearization.</em>
+                            IEEE RA-L; late-breaking poster at IROS 2026.
                         </li>
                     </ul>
-                    <p class="pub-note">* Code to be released very soon.</p>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="section-title"><i class="fa fa-briefcase"></i> Research Experience</div>
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">The Ohio State University, Columbus, OH</div>
-                        <div class="item-date">Aug 2023 &ndash; Present</div>
-                    </div>
-                    <div class="item-subtitle">Graduate Research Associate</div>
-                    <div class="item-body">
-                        <ul class="exp-ul">
-                            <li><strong>GPU-Accelerated Quadratic Programming (QP) for Real-Time Predictive Control</strong>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed FAME-QP (Fused ADMM with Multimode Execution), a GPU solver for the dense QPs of linear MPC, combining constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs; the operator representations cut storage by up to 4&times; and iteration time by up to 3&times;.</li>
-                                    <li>On random dense QPs, outperformed all evaluated GPU solvers at every size and all CPU solvers for n &ge; 220: 1.5&ndash;4.3&times; faster than ReLU-QP and 1.2&ndash;25.9&times; faster than DAQP over n = 220&ndash;1,400, at matched accuracy.</li>
-                                    <li>On random linear MPC, achieved the lowest mean step time at every size (0.66&ndash;4.23 ms), 3.2&ndash;7.3&times; faster than ReLU-QP and 3.2&ndash;13.8&times; faster than &pi;MPC.</li>
-                                    <li>On Unitree G1 humanoid push recovery (MuJoCo), reduced mean QP time by 2.3&ndash;3.1&times; versus ReLU-QP, staying within the 2 ms control period at every horizon and doubling the largest feasible horizon (N = 10 to 20).</li>
-                                    <li>On Skydio X2 quadrotor tracking with QP matrices updated every step, achieved 12.5 ms mean QP time versus 59.2 ms for CuPIQP (4.7&times;), with 17.6 ms 99th-percentile latency within the 20 ms control period and 2.7 mm position RMSE.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Data-efficient Structured World Models for Real-Time Robot Planning and Control</strong> <em>(NeurIPS 2026)</em>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed K-PWM, a probabilistic world model coupling Koopman-bilinear latent dynamics with a nonlinear decoder and extended Kalman filtering and smoothing, learning from noisy, partial observations without a separately trained inference network.</li>
-                                    <li>Designed a generalized expectation conditional maximization (GECM) training procedure with closed-form updates for the generators, noise covariances, and latent prior, plus a Koopman-consistent initialization that selects the latent dimension from data.</li>
-                                    <li>On partially observed Gymnasium MuJoCo systems (Hopper, Swimmer, Half Cheetah), reduced mean prediction RMSE by 38&ndash;66% against the most accurate baseline (MTS3) with 7.6&ndash;15.1&times; faster training.</li>
-                                    <li>Integrated uncertainty-aware MPPI control on four MuJoCo Menagerie robots (Franka Panda, TIAGo++, ALOHA 2, Allegro Hand), achieving 0.8&ndash;6.1 mm end-effector tracking RMSE, among the two most accurate methods on every robot, with 5.6&ndash;22.0 ms per-step computation, 4.3&ndash;17.0&times; faster than MTS3.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Structured Bilinear World Model and Convex MPC for Quadrotor Control</strong> <em>(ICLR 2027 submission)</em>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed a world model combining novel analytical bilinear dynamics with probabilistic learning to identify vehicle parameters and noise statistics from a few minutes of noisy simulated flight data.</li>
-                                    <li>Designed an EM-based training method with latent-state smoothing and closed-form covariance updates; achieved 100-step rollouts in 1.3 ms, 1.4&ndash;64&times; faster than the baselines.</li>
-                                    <li>Built BUC-MPC, exploiting shared model structure for convex trajectory optimization and uncertainty-weighted disturbance compensation; achieved 5.24 ms mean control latency, 1.4&ndash;57&times; faster than the baselines.</li>
-                                    <li>Validated 100 Hz control on Skydio X2 (MuJoCo), achieving 0.18 m nominal tracking RMSE, 100% nominal flight completion, and 86% completion under vehicle and environmental shifts.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Learning Linear Models of Time-Delay Systems with Provable Error Guarantees</strong> <em>(IEEE CDC 2026)</em>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed a data-driven Koopman framework that converts infinite-dimensional nonlinear delay dynamics into finite-dimensional linear models for prediction.</li>
-                                    <li>Built an end-to-end pipeline combining history sampling, kernel-based extended DMD, and physical-state reconstruction, with deterministic error bounds separating discretization, interpolation, and regression contributions.</li>
-                                    <li>Validated prediction on nonlinear feedback and tumor&ndash;immune systems using 100 held-out trajectories per system, demonstrating accuracy gains with finer history resolution and denser data.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Real-Time Quadrotor Control with Analytical Koopman Models</strong> <em>(IEEE RA-L + ICRA 2026)</em>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed a novel analytical Koopman representation of quadrotor dynamics on SE(3) to enable predictive control without training data while preserving the four-dimensional control input.</li>
-                                    <li>Formulated trajectory tracking as a convex quadratic program with state and input constraints; established controllability and practical closed-loop stability under stated assumptions.</li>
-                                    <li>Achieved 0.32&ndash;1.31 ms mean solver time, 1.9&ndash;4.3&times; faster than nonlinear MPC, across four simulated tracking tasks and four prediction horizons.</li>
-                                    <li>Validated on a physical quadrotor equipped with NVIDIA Jetson NX and PX4, achieving 15.6&ndash;29.8 cm tracking RMSE across four flight tasks, within 3.7 cm of nonlinear MPC; released <a href="https://github.com/santoshrajkumar/kq-lmpc-quadrotor" class="cv-capsule-link cv-capsule-code">code</a> and <a href="https://soarpapers.github.io/" class="cv-capsule-link cv-capsule-paper">demonstrations</a>.</li>
-                                </ul>
-                            </li>
-                            <li><strong>Wheeled Robot Bilinearization, Control, &amp; Safety</strong> <em>(IEEE RA-L &amp; ACC 2027 submissions, IROS 2026 LBR)</em>
-                                <ul class="exp-sub-ul">
-                                    <li>Developed a novel analytical bilinear Koopman form preserving SE(2) geometry and nonholonomic dynamics, with closed-form state reconstruction and provably vanishing truncation-error bounds.</li>
-                                    <li>Built KOBRA-MPC, converting lifted dynamics into constrained convex QPs; validated on two simulated platforms and a physical TurtleBot3, achieving 2&ndash;7 cm tracking RMSE and 4.1&ndash;4.8 ms mean computation time in indoor and outdoor experiments.</li>
-                                    <li>Designed lifted-space LQR with physical-input recovery, enforcing actuator and velocity limits through a strongly convex QP; established optimizer uniqueness, finite-horizon feasibility, and practical tracking stability.</li>
-                                    <li>Integrated a higher-order control barrier function for obstacle avoidance within the same QP, evaluating safety directly on physical dynamics without truncation error.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Miami University, Oxford, OH</div>
-                        <div class="item-date">Dec 2021 &ndash; May 2023</div>
-                    </div>
-                    <div class="item-subtitle">Graduate Student Researcher</div>
-                    <div class="item-body">
-                        <ul class="exp-ul">
-                            <li>Developed finite-element models in MATLAB and fabricated two touch-surface prototypes, demonstrating localized vibrotactile feedback through multifrequency excitation using only two electrostatic actuators per prototype.</li>
-                            <li>Validated models against COMSOL, analytical solutions, and experimental measurements; identified actuator and support parameters through modal testing and developed frequency-switching and energy-based optimization methods to position haptic feedback.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="section-title"><i class="fa fa-chalkboard-user"></i> Other Experience</div>
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Miami University, Oxford, OH</div>
-                        <div class="item-date">Jan 2021 &ndash; May 2023</div>
-                    </div>
-                    <div class="item-subtitle">Graduate Teaching Assistant</div>
-                    <div class="item-body">
-                        <ul class="exp-ul">
-                            <li>Led physical and computational laboratories, developed computational assignments, and provided technical guidance connecting system modeling and control theory with engineering applications.</li>
-                            <li>Supported four courses through laboratory instruction, office hours, assessment, and occasional lectures: Control of Dynamic Systems; Manufacturing Automation; Mechanical Vibrations; and System Modeling, Analysis, &amp; Control.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Indian Oil Corporation Limited, Dimapur, NL, India</div>
-                        <div class="item-date">Jun 2017 &ndash; Dec 2020</div>
-                    </div>
-                    <div class="item-subtitle">Senior Engineer (#130 in 2026 Fortune Global 500)</div>
-                    <div class="item-body">
-                        <ul class="exp-ul">
-                            <li>Led automation and digitalization initiatives across critical petroleum installations to support operational efficiency and monitoring.</li>
-                            <li>Coordinated robotic inspection and reliability activities to assess asset condition and support maintenance planning.</li>
-                            <li>Managed technical procurement and industrial safety activities to support reliable operations.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="section-title"><i class="fa fa-trophy"></i> Awards</div>
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Early Achievement in Research Award in Robotics, Automation and Autonomy, Ohio State MAE</div>
-                        <div class="item-date">Apr 2026</div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Summer Research Fellowship, Miami University Graduate School</div>
-                        <div class="item-date">2022, 2023</div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">GSSA Award with a full tuition waiver for M.S. studies, Miami University</div>
-                        <div class="item-date">2021 &ndash; 2023</div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="item-header">
-                        <div class="item-title">Best Departmental Undergraduate Thesis Award</div>
-                        <div class="item-date">2017</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="section-title"><i class="fa fa-handshake-angle"></i> Service and Mentoring</div>
-                <div class="item-body">
-                    <p><strong>Reviewer:</strong> ICLR, WACV, IEEE ICRA, IEEE RA-L, IEEE CDC, American Control Conference
-                        (ACC), IFAC World Congress, Indian Control Conference.</p>
-                    <p><strong>Mentoring, The Ohio State University:</strong> Mentored two mechanical engineering
-                        undergraduates and one computer science graduate student in Gazebo-based quadrotor tracking
-                        simulations and autonomous flight-testbed development integrated with Vicon motion capture.</p>
-                    <p><strong>Mentoring, Miami University:</strong> Mentored six mechanical engineering undergraduates on
-                        vibration isolation for sensitive aircraft components.</p>
+                    <div class="pub-subhead">Co-Authored</div>
+                    <ul class="cv-awards">
+                        <li> [6] <em>Robust Peak-cost Constrained Reinforcement Learning.</em> <strong>IEEE CDC 2026.</strong>
+                            <a href="https://arxiv.org/pdf/2607.15457" class="cv-capsule-link cv-capsule-preprint">arXiv</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
             <div class="section">
                 <div class="section-title"><i class="fa fa-code"></i> Technical Skills</div>
                 <div class="skill-group">
-                    <div class="skill-label">Programming &amp; Scientific Computing</div>
+                    <div class="skill-label">Programming</div>
                     <div class="skills-container">
                         <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
                         <span class="skill-tag">MATLAB</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">SciPy</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-label">GPU Computing</div>
-                    <div class="skills-container">
-                        <span class="skill-tag">Triton GPU kernels</span>
-                        <span class="skill-tag">Kernel fusion</span>
-                        <span class="skill-tag">CUDA graph capture (PyTorch)</span>
-                        <span class="skill-tag">GPU performance benchmarking</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <div class="skill-label">Machine Learning &amp; Modeling</div>
-                    <div class="skills-container">
                         <span class="skill-tag">PyTorch</span>
                         <span class="skill-tag">JAX</span>
                         <span class="skill-tag">scikit-learn</span>
-                        <span class="skill-tag">Probabilistic world models</span>
-                        <span class="skill-tag">System identification</span>
-                        <span class="skill-tag">Koopman methods</span>
-                        <span class="skill-tag">Expectation-maximization</span>
-                        <span class="skill-tag">Kalman filtering and smoothing</span>
+                        <span class="skill-tag">Triton GPU kernels</span>
+                        <span class="skill-tag">CUDA graph capture</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
                     </div>
                 </div>
                 <div class="skill-group">
-                    <div class="skill-label">Control &amp; Optimization</div>
+                    <div class="skill-label">Machine Learning</div>
                     <div class="skills-container">
-                        <span class="skill-tag">Model predictive control</span>
+                        <span class="skill-tag">Probabilistic world models</span>
+                        <span class="skill-tag">Latent-state inference (EKF/EKS)</span>
+                        <span class="skill-tag">Expectation-maximization</span>
+                        <span class="skill-tag">System identification</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-label">Planning and Control</div>
+                    <div class="skills-container">
+                        <span class="skill-tag">MPPI</span>
+                        <span class="skill-tag">MPC</span>
                         <span class="skill-tag">Trajectory optimization</span>
-                        <span class="skill-tag">Convex optimization</span>
-                        <span class="skill-tag">Quadratic programming</span>
-                        <span class="skill-tag">ADMM</span>
-                        <span class="skill-tag">LQR</span>
+                        <span class="skill-tag">Convex optimization and QP</span>
                         <span class="skill-tag">Control barrier functions</span>
                         <span class="skill-tag">CasADi</span>
                         <span class="skill-tag">acados</span>
-                        <span class="skill-tag">ACADO Toolkit</span>
                     </div>
                 </div>
                 <div class="skill-group">
-                    <div class="skill-label">Robotics &amp; Simulation</div>
+                    <div class="skill-label">Robotics and Simulation</div>
                     <div class="skills-container">
                         <span class="skill-tag">ROS 2</span>
                         <span class="skill-tag">MuJoCo</span>
+                        <span class="skill-tag">NVIDIA Isaac Sim</span>
                         <span class="skill-tag">PyBullet</span>
                         <span class="skill-tag">Gazebo</span>
-                        <span class="skill-tag">NVIDIA Isaac Sim</span>
                         <span class="skill-tag">PX4</span>
                         <span class="skill-tag">NVIDIA Jetson</span>
                         <span class="skill-tag">Vicon motion capture</span>
                     </div>
                 </div>
-                <div class="skill-group">
-                    <div class="skill-label">Engineering &amp; Development Tools</div>
-                    <div class="skills-container">
-                        <span class="skill-tag">Finite-element modeling</span>
-                        <span class="skill-tag">COMSOL</span>
-                        <span class="skill-tag">Modal analysis</span>
-                        <span class="skill-tag">National Instruments DAQ</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">LaTeX</span>
+            </div>
+
+            <div class="section">
+                <div class="section-title"><i class="fa fa-briefcase"></i> Earlier Experience and Service</div>
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Graduate Researcher and Teaching Assistant, Miami University</div>
+                        <div class="item-date">2021 &ndash; 2023</div>
                     </div>
+                    <div class="item-subtitle">Haptic touch-surface prototypes; labs for four courses</div>
+                </div>
+                <div class="item">
+                    <div class="item-header">
+                        <div class="item-title">Senior Engineer, Indian Oil Corporation Limited</div>
+                        <div class="item-date">2017 &ndash; 2020</div>
+                    </div>
+                    <div class="item-subtitle">Led automation and digitalization; coordinated robotic inspection</div>
+                </div>
+                <div class="item-body">
+                    <p><strong>Reviewer:</strong> ICLR, ICRA, RA-L, WACV, CDC, ACC, IFAC World Congress.</p>
+                    <p><strong>Mentoring:</strong> three students at Ohio State and six at Miami University.</p>
                 </div>
             </div>
         </div>
